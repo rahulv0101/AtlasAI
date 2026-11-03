@@ -1,0 +1,23 @@
+{
+  "started_at_utc": "2026-05-04T19:24:14.627387+00:00",
+  "ended_at_utc": "2026-05-04T20:24:44.862655+00:00",
+  "duration_sec": 3630,
+  "samples": 60,
+  "base_url": "http://127.0.0.1:8765",
+  "api_ok_ratio": 1.0,
+  "connected_ratio": 0.0,
+  "execute_true_ratio": 1.0,
+  "avg_dup_children": 4.0,
+  "max_dup_children": 4,
+  "avg_live_count": 3.0,
+  "avg_ui_server_count": 2.0,
+  "avg_ui_count": 2.0,
+  "avg_audio_count": 3.0,
+  "count_change_events": {
+    "live": 0,
+    "ui-server": 0,
+    "ui": 0,
+    "audio-listener": 0
+  },
+  "error_samples": []
+}

@@ -1,0 +1,4 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui-server --mode-override live
+2026-04-22 23:39:42,160 | INFO | atlas_ai.voice.startup | Startup greeting triggered.
+2026-04-22 23:39:42,274 | INFO | atlas_ai.ui_server | Starting durable UI server on http://127.0.0.1:8765
+2026-04-22 23:39:42,914 | INFO | werkzeug | 127.0.0.1 - - [22/Apr/2026 23:39:42] "GET /api/status HTTP/1.1" 200 -

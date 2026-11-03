@@ -1,0 +1,17 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main ui --mode-override live
+2026-05-19 16:58:58,118 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=bootstrap exception_type= error=
+2026-05-19 16:58:58,155 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=bootstrap status=entered error=
+2026-05-19 16:58:58,210 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=ui_server_ready exception_type= error=
+2026-05-19 16:58:58,235 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=ui_server_ready status=ok error=
+2026-05-19 16:58:58,844 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=import_webview exception_type= error=
+2026-05-19 16:58:58,865 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=import_webview status=entered error=
+2026-05-19 16:58:58,882 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=import_webview status=returned error=
+2026-05-19 16:58:58,900 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=window_create exception_type= error=
+2026-05-19 16:58:58,917 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=entered_create_window status=entered error=
+2026-05-19 16:58:58,928 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=create_window_returned status=returned error=
+2026-05-19 16:58:58,948 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=start_loop exception_type= error=
+2026-05-19 16:58:58,974 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=entered_start status=entered error=
+2026-05-19 16:59:00,060 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=first_native_callback status=entered error=
+2026-05-19 16:59:00,082 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=True stage=started exception_type= error=
+2026-05-19 16:59:00,103 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=first_native_callback status=started error=

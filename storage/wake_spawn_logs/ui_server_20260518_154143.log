@@ -1,0 +1,58 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui-server --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main ui-server --mode-override live
+2026-05-18 17:41:45,048 | INFO | atlas_ai.voice.startup | Startup greeting triggered.
+2026-05-18 17:41:45,080 | WARNING | atlas_ai.voice.startup | Startup voice clone backend unavailable (backend=none); falling back to existing speech chain.
+2026-05-18 17:41:45,080 | INFO | atlas_ai.voice.startup | Fallback voice used for startup greeting.
+2026-05-18 17:41:45,082 | INFO | atlas_ai.voice.startup | Startup greeting playback success.
+2026-05-18 17:41:45,189 | INFO | atlas_ai.ui_server | Starting durable UI server on http://127.0.0.1:8765
+2026-05-18 17:41:45,368 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:41:45] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:41:45,376 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:41:45] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:41:45,441 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:41:45] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:41:45,452 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:41:45] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:41:49,572 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:41:49] "GET / HTTP/1.1" 200 -
+2026-05-18 17:41:49,854 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:41:49] "GET / HTTP/1.1" 200 -
+2026-05-18 17:41:53,284 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:41:53] "GET / HTTP/1.1" 200 -
+2026-05-18 17:41:53,351 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:41:53] "GET /style.css HTTP/1.1" 200 -
+2026-05-18 17:41:53,378 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:41:53] "GET /app.js HTTP/1.1" 200 -
+2026-05-18 17:41:53,561 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:41:53] "POST /api/ui-ready HTTP/1.1" 200 -
+2026-05-18 17:41:57,561 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:41:57] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:41:57,613 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:41:57] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:41:57,656 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:41:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-18 17:46:00,492 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:00] "GET /api/status HTTP/1.1" 200 -
+2026-05-18 17:46:00,742 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:00] "GET /api/status HTTP/1.1" 200 -
+2026-05-18 17:46:01,098 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:01] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:01,245 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:01] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:01,298 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:01] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:01,507 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:01] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:01,528 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:01] "GET /api/status HTTP/1.1" 200 -
+2026-05-18 17:46:11,079 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:11] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:11,292 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:11] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:11,472 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:11] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:11,587 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:11] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:11,639 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:11] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:11,830 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:11] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:11,867 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:11] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:11,948 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:11] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:11,985 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:11] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:12,038 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:12] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:12,238 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:12] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:12,357 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:12] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:12,427 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:12] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:12,458 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:12] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:12,471 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:12] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:12,639 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:12] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:12,766 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:12] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:12,861 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:12] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:12,864 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:12] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:12,903 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:12] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:13,087 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:13] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:13,109 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:13] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:13,226 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:13] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:13,302 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:13] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:13,404 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:13] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:13,606 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:13] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:43,419 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:43] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:43,540 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:43] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:43,566 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:43] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:43,633 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:43] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:46:43,866 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:46:43] "POST /api/ask-atlas HTTP/1.1" 200 -

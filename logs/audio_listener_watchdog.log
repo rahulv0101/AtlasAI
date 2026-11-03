@@ -1,0 +1,568 @@
+2026-05-05 00:50:21,046 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-05 01:37:16,377 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-05 01:38:48,282 | INFO | tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+2026-05-05 01:38:50,623 | INFO | Using model: xtts
+2026-05-05 02:13:09,311 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-05 02:13:49,694 | INFO | tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+2026-05-05 02:13:51,748 | INFO | Using model: xtts
+2026-05-05 14:12:49,067 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-05 14:15:30,446 | INFO | tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+2026-05-05 14:15:33,508 | INFO | Using model: xtts
+2026-05-05 19:02:17,564 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-05 19:04:54,450 | INFO | tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+2026-05-05 19:04:58,232 | INFO | Using model: xtts
+2026-05-06 00:16:52,000 | INFO | Wake trigger accepted. Launch sequence started.
+2026-05-06 00:16:52,099 | INFO | Atlas wake launch attempt 1/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-05-06 00:16:57,798 | INFO | MT5 already running
+2026-05-06 00:16:58,280 | INFO | MT5 readiness confirmed: mt5_ready
+2026-05-06 00:17:10,177 | INFO | Backend already running
+2026-05-06 00:17:18,147 | INFO | Backend readiness confirmed: process_running=True, runtime_execute=True, fresh=True, age_seconds=24.3
+2026-05-06 00:17:36,418 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260505_221736.log
+2026-05-06 00:17:38,490 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260505_221738.log
+2026-05-06 00:17:38,523 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-05-06 00:19:39,240 | ERROR | Frontend readiness failed: process_running=True, api_ok=True, comparison_active=False, runtime_execute=True, desktop_window_ready=True, desktop_state_fresh=False, desktop_state_age_seconds=4785.4, wrapper_pid=9796, wrapper_running=True, fallback_active=False, desktop_disabled=False, frontend_mode=desktop, failure_reason=
+2026-05-06 00:20:13,356 | INFO | Atlas wake attempt 1/2 completed with result=SUCCESS reason=backend_healthy_desktop_ready
+2026-05-06 00:20:13,378 | INFO | Atlas wake completed with final result=SUCCESS
+2026-05-06 00:20:13,379 | INFO | Launch sequence ended with result=SUCCESS
+2026-05-06 00:22:35,145 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-06 00:24:29,183 | INFO | tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+2026-05-06 00:24:30,957 | INFO | Using model: xtts
+2026-05-06 00:25:19,627 | ERROR | Atlas audio listener crashed; restarting in 3.0s
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Atlas AI\atlas_audio_watchdog.py", line 95, in run_forever
+    code = int(listener_main([]) or 0)
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\atlas_audio_listener.py", line 55, in main
+    return run_voice_loop()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\voice\wake_loop.py", line 269, in run_voice_loop
+    _log(f"Voice session turn limit={_voice_session_turn_limit()}. Say 'Atlas sleep' anytime to shut everything down.")
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\voice\wake_loop.py", line 255, in _log
+    print(msg, flush=True)
+OSError: [Errno 22] Invalid argument
+2026-05-06 17:25:30,722 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-06 17:27:39,110 | INFO | tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+2026-05-06 17:27:43,084 | INFO | Using model: xtts
+2026-05-06 20:34:28,746 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-06 20:35:21,823 | INFO | tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+2026-05-06 20:35:23,543 | INFO | Using model: xtts
+2026-05-06 23:09:36,115 | INFO | Wake trigger accepted. Launch sequence started.
+2026-05-06 23:09:36,183 | INFO | Atlas wake launch attempt 1/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-05-06 23:09:38,710 | INFO | MT5 already running
+2026-05-06 23:09:38,783 | INFO | MT5 readiness confirmed: mt5_ready
+2026-05-06 23:09:56,489 | INFO | Spawn logs for backend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\backend_20260506_210956.log
+2026-05-06 23:09:56,510 | INFO | Started backend (attempt 1/2): C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-06 23:10:26,895 | INFO | Backend readiness confirmed: process_running=False, runtime_execute=True, fresh=True, age_seconds=6.4
+2026-05-06 23:10:36,176 | WARNING | Frontend process exists but is unhealthy; restarting pid=14288 (process_running=True, api_ok=False, comparison_active=False, runtime_execute=False, desktop_window_ready=False, desktop_state_fresh=False, desktop_state_age_seconds=None, wrapper_pid=0, wrapper_running=False, fallback_active=False, desktop_disabled=False, frontend_mode=, failure_reason=)
+2026-05-06 23:10:44,642 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260506_211044.log
+2026-05-06 23:10:46,674 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260506_211046.log
+2026-05-06 23:10:46,686 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-05-06 23:12:55,907 | ERROR | Frontend readiness failed: process_running=False, api_ok=False, comparison_active=False, runtime_execute=False, desktop_window_ready=False, desktop_state_fresh=False, desktop_state_age_seconds=None, wrapper_pid=0, wrapper_running=False, fallback_active=False, desktop_disabled=False, frontend_mode=, failure_reason=
+2026-05-06 23:17:16,634 | INFO | Atlas wake attempt 1/2 completed with result=FAILED reason=no_usable_control_surface
+2026-05-06 23:17:16,779 | ERROR | Atlas wake attempt 1/2 unhealthy (result=FAILED reason=no_usable_control_surface). Triggering full shutdown before restart.
+2026-05-06 23:17:16,808 | INFO | Atlas sleep shutdown requested for run_id=atlas_wake_latest keep_listener=False
+2026-05-06 23:17:34,088 | INFO | Stopping MT5 pid=13000
+2026-05-06 23:17:53,398 | INFO | Atlas wake launch attempt 2/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-05-06 23:18:49,798 | INFO | Started MT5 terminal from C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-06 23:21:32,807 | INFO | MT5 readiness confirmed: mt5_ready
+2026-05-06 23:22:19,380 | INFO | Backend health is fresh in guarded-demo mode; process visibility is limited, skipping forced restart (process_running=False, runtime_execute=True, fresh=True, age_seconds=51.2)
+2026-05-06 23:22:50,107 | INFO | Backend readiness confirmed: process_running=False, runtime_execute=True, fresh=True, age_seconds=65.9
+2026-05-06 23:23:53,663 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260506_212353.log
+2026-05-06 23:23:56,162 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260506_212355.log
+2026-05-06 23:23:56,335 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-05-06 23:27:11,359 | ERROR | Frontend readiness failed: process_running=False, api_ok=False, comparison_active=False, runtime_execute=False, desktop_window_ready=False, desktop_state_fresh=False, desktop_state_age_seconds=None, wrapper_pid=0, wrapper_running=False, fallback_active=False, desktop_disabled=False, frontend_mode=, failure_reason=
+2026-05-06 23:28:34,633 | INFO | Atlas wake attempt 2/2 completed with result=FAILED reason=backend_unhealthy:process_running=False, runtime_execute=True, fresh=False, age_seconds=359.8
+2026-05-06 23:28:34,760 | ERROR | Atlas wake final result unhealthy (result=FAILED reason=backend_unhealthy:process_running=False, runtime_execute=True, fresh=False, age_seconds=359.8). Running final cleanup shutdown.
+2026-05-06 23:28:34,884 | INFO | Atlas sleep shutdown requested for run_id=atlas_wake_latest keep_listener=False
+2026-05-06 23:28:44,745 | INFO | Stopping MT5 pid=13404
+2026-05-06 23:28:59,923 | INFO | Atlas wake completed with final result=FAILED
+2026-05-06 23:28:59,962 | INFO | Launch sequence ended with result=FAILED
+2026-05-08 12:30:42,017 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-08 12:33:25,597 | INFO | tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+2026-05-08 12:33:31,758 | INFO | Using model: xtts
+2026-05-11 20:31:52,642 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-11 20:32:42,193 | INFO | tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+2026-05-11 20:32:48,159 | INFO | Using model: xtts
+2026-05-13 02:37:06,280 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-13 18:29:58,840 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-16 10:34:04,742 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-19 18:38:38,383 | INFO | Wake trigger ignored: Atlas stack already healthy and running.
+2026-05-19 18:42:11,005 | INFO | Wake trigger ignored: Atlas stack already healthy and running.
+2026-05-21 18:49:42,902 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-22 13:23:16,151 | INFO | Wake trigger accepted. Launch sequence started.
+2026-05-22 13:23:16,183 | INFO | Atlas wake launch attempt 1/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-05-22 13:23:16,638 | INFO | MT5 already running
+2026-05-22 13:23:16,671 | INFO | MT5 readiness confirmed: mt5_ready
+2026-05-22 13:23:19,170 | INFO | Spawn logs for backend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\backend_20260522_112319.log
+2026-05-22 13:23:19,181 | INFO | Started backend (attempt 1/2): C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-22 13:23:41,100 | INFO | Backend readiness confirmed: process_running=True, runtime_execute=True, fresh=True, age_seconds=5.5
+2026-05-22 13:23:44,989 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260522_112344.log
+2026-05-22 13:23:47,024 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260522_112347.log
+2026-05-22 13:23:48,048 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-05-22 13:26:37,470 | ERROR | Frontend readiness failed: process_running=True, api_ok=False, comparison_active=False, runtime_execute=False, desktop_window_ready=False, desktop_state_fresh=False, desktop_state_age_seconds=None, wrapper_pid=0, wrapper_running=False, fallback_active=False, desktop_disabled=False, frontend_mode=, failure_reason=
+2026-05-22 13:27:15,902 | INFO | Atlas wake attempt 1/2 completed with result=FAILED reason=no_usable_control_surface
+2026-05-22 13:27:15,967 | ERROR | Atlas wake attempt 1/2 unhealthy (result=FAILED reason=no_usable_control_surface). Triggering full shutdown before restart.
+2026-05-22 13:27:16,061 | INFO | Atlas sleep shutdown requested for run_id=atlas_wake_latest keep_listener=False keep_mt5=True
+2026-05-22 13:27:16,681 | INFO | Stopping frontend pid=11116
+2026-05-22 13:27:21,382 | INFO | Stopping guarded demo backend pid=1004
+2026-05-22 13:27:25,558 | INFO | Atlas wake launch attempt 2/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-05-22 13:27:26,750 | INFO | MT5 already running
+2026-05-22 13:27:27,374 | INFO | MT5 readiness confirmed: mt5_ready
+2026-05-22 13:27:30,686 | WARNING | Backend health looked fresh but status PID is not alive; starting backend to avoid stale-snapshot false positive (process_running=False, runtime_execute=True, fresh=True, age_seconds=97.8)
+2026-05-22 13:27:30,696 | INFO | Spawn logs for backend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\backend_20260522_112730.log
+2026-05-22 13:27:30,711 | INFO | Started backend (attempt 1/2): C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-22 13:27:37,875 | INFO | Backend readiness confirmed: process_running=True, runtime_execute=True, fresh=True, age_seconds=0.8
+2026-05-22 13:27:40,995 | WARNING | Frontend process exists but is unhealthy; restarting pid=13476 (process_running=True, api_ok=False, comparison_active=False, runtime_execute=False, desktop_window_ready=False, desktop_state_fresh=False, desktop_state_age_seconds=None, wrapper_pid=0, wrapper_running=False, fallback_active=False, desktop_disabled=False, frontend_mode=, failure_reason=)
+2026-05-22 13:27:42,207 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260522_112742.log
+2026-05-22 13:27:44,267 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260522_112744.log
+2026-05-22 13:27:44,293 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-05-22 13:30:04,051 | INFO | Atlas audio watchdog already running; exiting duplicate watchdog instance.
+2026-05-22 13:30:38,664 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-22 18:54:08,076 | ERROR | Atlas audio listener crashed; restarting in 3.0s
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Atlas AI\atlas_audio_watchdog.py", line 95, in run_forever
+    code = int(listener_main([]) or 0)
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\atlas_audio_listener.py", line 55, in main
+    return run_voice_loop()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\voice\wake_loop.py", line 299, in run_voice_loop
+    text, text_conf = mic.next_recognition()
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\voice\input.py", line 103, in next_recognition
+    if self._recognizer.AcceptWaveform(data):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\vosk\__init__.py", line 184, in AcceptWaveform
+    raise Exception("Failed to process waveform")
+Exception: Failed to process waveform
+2026-05-22 19:31:22,622 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-22 20:09:48,182 | INFO | Wake trigger ignored: startup_already_in_progress
+2026-05-22 21:27:16,255 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-24 13:50:16,550 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-25 15:26:49,297 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-25 15:30:18,620 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-25 15:31:20,019 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-25 19:11:00,929 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-25 19:15:15,092 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-25 19:24:47,505 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-25 19:41:33,170 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-26 14:32:08,823 | INFO | Wake trigger ignored: Atlas stack already healthy and running.
+2026-05-27 18:24:41,364 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-28 08:48:55,147 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-28 18:48:36,268 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-29 12:43:53,398 | INFO | Wake trigger ignored: Atlas stack already healthy and running.
+2026-05-31 09:48:31,089 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-31 17:59:40,978 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-31 19:36:11,693 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-05-31 19:55:02,707 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-06-01 08:37:30,383 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-06-01 12:57:19,066 | INFO | Wake trigger accepted. Launch sequence started.
+2026-06-01 12:57:19,096 | INFO | Atlas wake launch attempt 1/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-06-01 12:57:19,640 | INFO | MT5 already running
+2026-06-01 12:57:19,720 | INFO | MT5 readiness confirmed: mt5_ready
+2026-06-01 12:57:22,623 | INFO | Spawn logs for backend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\backend_20260601_105722.log
+2026-06-01 12:57:22,648 | INFO | Started backend (attempt 1/2): C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-06-01 12:57:51,332 | INFO | Backend readiness confirmed: process_running=True, runtime_execute=True, fresh=True, age_seconds=5.2
+2026-06-01 12:57:53,871 | WARNING | Frontend process exists but is unhealthy; restarting pid=6376 (process_running=True, api_ok=True, comparison_active=False, runtime_execute=True, desktop_window_ready=False, desktop_state_fresh=False, desktop_state_age_seconds=321762.2, wrapper_pid=0, wrapper_running=False, fallback_active=False, desktop_disabled=False, frontend_mode=desktop, failure_reason=)
+2026-06-01 12:57:55,522 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260601_105755.log
+2026-06-01 12:57:57,586 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260601_105757.log
+2026-06-01 12:57:57,606 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-06-01 12:58:22,511 | INFO | Frontend readiness confirmed: process_running=True, api_ok=True, comparison_active=False, runtime_execute=True, desktop_window_ready=True, desktop_state_fresh=True, desktop_state_age_seconds=8.4, wrapper_pid=7516, wrapper_running=True, fallback_active=False, desktop_disabled=False, frontend_mode=desktop, failure_reason=
+2026-06-01 12:58:30,526 | INFO | Atlas wake attempt 1/2 completed with result=SUCCESS reason=backend_healthy_desktop_ready
+2026-06-01 12:58:30,995 | INFO | Atlas wake completed with final result=SUCCESS
+2026-06-01 12:58:30,995 | INFO | Launch sequence ended with result=SUCCESS
+2026-06-02 14:55:19,747 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-06-04 21:28:06,444 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-06-05 11:22:47,127 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-06-08 17:32:04,743 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-06-09 14:35:49,023 | INFO | Wake trigger ignored: Atlas stack already healthy and running.
+2026-06-10 17:37:12,239 | INFO | Wake trigger ignored: Atlas stack already healthy and running.
+2026-06-11 01:33:38,933 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-06-16 10:14:23,205 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-06-16 14:47:51,517 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-06-19 13:15:47,009 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-06-23 08:58:21,129 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-06-24 08:08:49,119 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-06-24 19:10:04,829 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-06-28 17:42:34,932 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-06-29 21:34:56,021 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-06-30 09:38:50,815 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-06-30 19:30:12,610 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-07-02 21:56:45,025 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-07-03 13:47:46,753 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-07-03 17:26:50,791 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-07-05 12:21:36,064 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-07-06 13:35:52,827 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-07-07 20:36:17,496 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-07-07 23:24:21,453 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-07-07 23:31:14,186 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-07-15 15:48:18,407 | INFO | Wake trigger accepted. Launch sequence started.
+2026-07-15 15:48:18,438 | INFO | Atlas wake launch attempt 1/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-07-15 15:48:19,701 | INFO | MT5 already running
+2026-07-15 15:48:19,762 | INFO | MT5 readiness confirmed: mt5_ready
+2026-07-15 15:48:26,774 | INFO | Spawn logs for backend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\backend_20260715_134826.log
+2026-07-15 15:48:26,794 | INFO | Started backend (attempt 1/2): C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-07-15 15:48:58,497 | INFO | Backend readiness confirmed: process_running=True, runtime_execute=True, fresh=True, age_seconds=1.3
+2026-07-15 15:49:05,075 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260715_134905.log
+2026-07-15 15:49:07,127 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260715_134907.log
+2026-07-15 15:49:07,151 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-07-15 15:50:44,214 | ERROR | Frontend readiness failed: process_running=True, api_ok=False, comparison_active=False, runtime_execute=False, desktop_window_ready=False, desktop_state_fresh=False, desktop_state_age_seconds=None, wrapper_pid=0, wrapper_running=False, fallback_active=False, desktop_disabled=False, frontend_mode=, failure_reason=
+2026-07-15 15:51:02,091 | INFO | Atlas wake attempt 1/2 completed with result=FAILED reason=no_usable_control_surface
+2026-07-15 15:51:02,111 | ERROR | Atlas wake attempt 1/2 unhealthy (result=FAILED reason=no_usable_control_surface). Triggering full shutdown before restart.
+2026-07-15 15:51:02,117 | INFO | Atlas sleep shutdown requested for run_id=atlas_wake_latest keep_listener=False keep_mt5=True
+2026-07-15 15:51:03,661 | INFO | Stopping frontend pid=7872
+2026-07-15 15:51:07,771 | INFO | Stopping guarded demo backend pid=2088
+2026-07-15 15:51:13,495 | INFO | Atlas wake launch attempt 2/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-07-15 15:51:14,920 | INFO | MT5 already running
+2026-07-15 15:51:14,990 | INFO | MT5 readiness confirmed: mt5_ready
+2026-07-15 15:51:22,649 | WARNING | Backend health looked fresh but status PID is not alive; starting backend to avoid stale-snapshot false positive (process_running=False, runtime_execute=True, fresh=True, age_seconds=52.5)
+2026-07-15 15:51:22,662 | INFO | Spawn logs for backend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\backend_20260715_135122.log
+2026-07-15 15:51:22,689 | INFO | Started backend (attempt 1/2): C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-07-15 15:51:32,357 | INFO | Backend readiness confirmed: process_running=True, runtime_execute=True, fresh=True, age_seconds=0.5
+2026-07-15 15:51:39,436 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260715_135139.log
+2026-07-15 15:51:41,479 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260715_135141.log
+2026-07-15 15:51:41,503 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-07-15 15:54:54,311 | ERROR | Frontend readiness failed: process_running=True, api_ok=False, comparison_active=False, runtime_execute=False, desktop_window_ready=False, desktop_state_fresh=False, desktop_state_age_seconds=None, wrapper_pid=0, wrapper_running=False, fallback_active=False, desktop_disabled=False, frontend_mode=, failure_reason=
+2026-07-15 15:55:25,740 | INFO | Atlas wake attempt 2/2 completed with result=FAILED reason=no_usable_control_surface
+2026-07-15 15:55:34,767 | ERROR | Atlas wake final result unhealthy (result=FAILED reason=no_usable_control_surface). Running final cleanup shutdown.
+2026-07-15 15:55:34,797 | INFO | Atlas sleep shutdown requested for run_id=atlas_wake_latest keep_listener=False keep_mt5=True
+2026-07-15 15:55:36,369 | INFO | Stopping frontend pid=17664
+2026-07-15 15:55:42,699 | INFO | Stopping guarded demo backend pid=13452
+2026-07-15 15:55:47,366 | INFO | Atlas wake completed with final result=FAILED
+2026-07-15 15:55:47,372 | INFO | Launch sequence ended with result=FAILED
+2026-07-15 15:56:34,587 | INFO | Wake trigger accepted. Launch sequence started.
+2026-07-15 15:56:34,593 | INFO | Atlas wake launch attempt 1/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-07-15 15:56:36,023 | INFO | MT5 already running
+2026-07-15 15:56:36,123 | INFO | MT5 readiness confirmed: mt5_ready
+2026-07-15 15:56:44,770 | WARNING | Backend health looked fresh but status PID is not alive; starting backend to avoid stale-snapshot false positive (process_running=False, runtime_execute=True, fresh=True, age_seconds=121.1)
+2026-07-15 15:56:44,791 | INFO | Spawn logs for backend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\backend_20260715_135644.log
+2026-07-15 15:56:44,826 | INFO | Started backend (attempt 1/2): C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-07-15 15:56:54,195 | INFO | Backend readiness confirmed: process_running=True, runtime_execute=True, fresh=True, age_seconds=134.3
+2026-07-15 15:56:59,469 | WARNING | Frontend process exists but is unhealthy; restarting pid=18376 (process_running=True, api_ok=False, comparison_active=False, runtime_execute=False, desktop_window_ready=False, desktop_state_fresh=False, desktop_state_age_seconds=None, wrapper_pid=0, wrapper_running=False, fallback_active=False, desktop_disabled=False, frontend_mode=, failure_reason=)
+2026-07-15 15:57:03,630 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260715_135703.log
+2026-07-15 15:57:05,668 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260715_135705.log
+2026-07-15 15:57:05,707 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-07-23 03:09:50,993 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-07-25 18:44:13,187 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-07-26 13:49:26,673 | INFO | Wake trigger ignored: startup_already_in_progress
+2026-07-26 18:39:02,903 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-07-26 20:03:33,688 | INFO | Wake trigger ignored: startup_already_in_progress
+2026-07-26 20:08:34,421 | INFO | Wake trigger ignored: startup_already_in_progress
+2026-07-26 21:32:56,739 | INFO | Wake trigger ignored: startup_already_in_progress
+2026-07-27 22:40:59,363 | INFO | Wake trigger ignored: startup_already_in_progress
+2026-07-28 18:33:42,729 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-07-28 20:15:26,634 | INFO | Wake trigger ignored: startup_already_in_progress
+2026-07-29 19:01:16,952 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-07-30 10:51:53,253 | INFO | Wake trigger ignored: startup_already_in_progress
+2026-07-30 18:54:33,624 | INFO | Wake trigger ignored: startup_already_in_progress
+2026-08-01 03:24:58,980 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-08-03 13:19:58,076 | INFO | Wake trigger ignored: startup_already_in_progress
+2026-08-03 20:25:49,370 | INFO | Wake trigger ignored: startup_already_in_progress
+2026-08-04 21:19:00,175 | INFO | Wake trigger ignored: startup_already_in_progress
+2026-08-07 19:31:03,993 | INFO | Wake trigger ignored: startup_already_in_progress
+2026-08-07 19:32:55,237 | INFO | Wake trigger ignored: startup_already_in_progress
+2026-08-08 17:06:21,769 | INFO | Wake trigger ignored: startup_already_in_progress
+2026-08-12 11:35:26,607 | INFO | Wake trigger ignored: startup_already_in_progress
+2026-08-12 11:36:03,432 | INFO | Wake trigger ignored: startup_already_in_progress
+2026-08-12 11:51:37,236 | INFO | Wake trigger accepted. Launch sequence started.
+2026-08-12 11:51:37,312 | INFO | Atlas wake launch attempt 1/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-08-12 11:51:38,803 | INFO | MT5 already running
+2026-08-12 11:51:38,863 | INFO | MT5 readiness confirmed: mt5_ready
+2026-08-12 11:51:41,670 | INFO | Spawn logs for backend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\backend_20260812_095141.log
+2026-08-12 11:51:41,683 | INFO | Started backend (attempt 1/2): C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-08-12 11:51:59,746 | INFO | Backend readiness confirmed: process_running=True, runtime_execute=True, fresh=True, age_seconds=0.5
+2026-08-12 11:52:02,805 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260812_095202.log
+2026-08-12 11:52:04,864 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260812_095204.log
+2026-08-12 11:52:04,993 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-08-12 11:53:39,214 | ERROR | Frontend readiness failed: process_running=True, api_ok=False, comparison_active=False, runtime_execute=False, desktop_window_ready=False, desktop_state_fresh=False, desktop_state_age_seconds=None, wrapper_pid=0, wrapper_running=False, fallback_active=False, desktop_disabled=False, frontend_mode=, failure_reason=
+2026-08-12 11:53:55,603 | INFO | Atlas wake attempt 1/2 completed with result=FAILED reason=no_usable_control_surface
+2026-08-12 11:53:55,648 | ERROR | Atlas wake attempt 1/2 unhealthy (result=FAILED reason=no_usable_control_surface). Triggering full shutdown before restart.
+2026-08-12 11:53:55,659 | INFO | Atlas sleep shutdown requested for run_id=atlas_wake_latest keep_listener=False keep_mt5=True
+2026-08-12 11:54:01,263 | INFO | Stopping frontend pid=13068
+2026-08-12 11:54:04,926 | INFO | Stopping guarded demo backend pid=17824
+2026-08-12 11:54:08,555 | INFO | Atlas wake launch attempt 2/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-08-12 11:54:18,640 | INFO | MT5 already running
+2026-08-12 11:54:18,734 | INFO | MT5 readiness confirmed: mt5_ready
+2026-08-12 11:54:22,918 | WARNING | Backend health looked fresh but status PID is not alive; starting backend to avoid stale-snapshot false positive (process_running=False, runtime_execute=True, fresh=True, age_seconds=114.1)
+2026-08-12 11:54:22,959 | INFO | Spawn logs for backend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\backend_20260812_095422.log
+2026-08-12 11:54:22,979 | INFO | Started backend (attempt 1/2): C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-08-12 11:54:53,895 | INFO | Backend readiness confirmed: process_running=True, runtime_execute=True, fresh=True, age_seconds=1.0
+2026-08-12 11:54:57,136 | WARNING | Frontend process exists but is unhealthy; restarting pid=26472 (process_running=True, api_ok=False, comparison_active=False, runtime_execute=False, desktop_window_ready=False, desktop_state_fresh=False, desktop_state_age_seconds=None, wrapper_pid=0, wrapper_running=False, fallback_active=False, desktop_disabled=False, frontend_mode=, failure_reason=)
+2026-08-12 11:54:59,721 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260812_095459.log
+2026-08-12 11:55:01,754 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260812_095501.log
+2026-08-12 11:55:01,788 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-08-12 11:57:39,935 | ERROR | Frontend readiness failed: process_running=True, api_ok=False, comparison_active=False, runtime_execute=False, desktop_window_ready=False, desktop_state_fresh=False, desktop_state_age_seconds=None, wrapper_pid=0, wrapper_running=False, fallback_active=False, desktop_disabled=False, frontend_mode=, failure_reason=
+2026-08-12 12:01:36,995 | INFO | Atlas wake attempt 2/2 completed with result=FAILED reason=no_usable_control_surface
+2026-08-12 12:01:37,182 | ERROR | Atlas wake final result unhealthy (result=FAILED reason=no_usable_control_surface). Running final cleanup shutdown.
+2026-08-12 12:01:37,193 | INFO | Atlas sleep shutdown requested for run_id=atlas_wake_latest keep_listener=False keep_mt5=True
+2026-08-12 12:01:38,182 | INFO | Stopping frontend pid=11780
+2026-08-12 12:01:43,920 | INFO | Stopping guarded demo backend pid=11064
+2026-08-12 12:01:46,225 | INFO | Atlas wake completed with final result=FAILED
+2026-08-12 12:01:46,227 | INFO | Launch sequence ended with result=FAILED
+2026-08-12 20:54:35,268 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-08-12 21:34:36,966 | INFO | Wake trigger accepted. Launch sequence started.
+2026-08-12 21:34:36,998 | INFO | Atlas wake launch attempt 1/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-08-12 21:34:37,981 | INFO | MT5 already running
+2026-08-12 21:34:38,063 | INFO | MT5 readiness confirmed: mt5_ready
+2026-08-12 21:34:44,149 | INFO | Spawn logs for backend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\backend_20260812_193444.log
+2026-08-12 21:34:44,172 | INFO | Started backend (attempt 1/2): C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-08-12 21:35:03,465 | INFO | Backend readiness confirmed: process_running=True, runtime_execute=True, fresh=True, age_seconds=3.9
+2026-08-12 21:35:11,474 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260812_193511.log
+2026-08-12 21:35:13,529 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260812_193513.log
+2026-08-12 21:35:13,555 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-08-13 11:12:36,702 | INFO | Wake trigger accepted. Launch sequence started.
+2026-08-13 11:12:36,785 | INFO | Atlas wake launch attempt 1/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-08-13 11:12:38,545 | INFO | MT5 already running
+2026-08-13 11:12:38,629 | INFO | MT5 readiness confirmed: mt5_ready
+2026-08-13 11:12:40,678 | INFO | Backend already running
+2026-08-13 11:12:41,612 | INFO | Backend readiness confirmed: process_running=True, runtime_execute=True, fresh=True, age_seconds=5.9
+2026-08-13 11:12:46,548 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260813_091246.log
+2026-08-13 11:12:48,624 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260813_091248.log
+2026-08-13 11:12:48,639 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-08-13 11:15:43,557 | ERROR | Frontend readiness failed: process_running=True, api_ok=False, comparison_active=False, runtime_execute=False, desktop_window_ready=False, desktop_state_fresh=False, desktop_state_age_seconds=None, wrapper_pid=0, wrapper_running=False, fallback_active=False, desktop_disabled=False, frontend_mode=, failure_reason=
+2026-08-13 11:16:04,834 | INFO | Atlas wake attempt 1/2 completed with result=FAILED reason=no_usable_control_surface
+2026-08-13 11:16:04,857 | ERROR | Atlas wake attempt 1/2 unhealthy (result=FAILED reason=no_usable_control_surface). Triggering full shutdown before restart.
+2026-08-13 11:16:04,886 | INFO | Atlas sleep shutdown requested for run_id=atlas_wake_latest keep_listener=False keep_mt5=True
+2026-08-13 11:16:07,277 | INFO | Stopping frontend pid=20940
+2026-08-13 11:16:10,794 | INFO | Stopping guarded demo backend pid=17512
+2026-08-13 11:16:14,024 | INFO | Atlas wake launch attempt 2/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-08-13 11:16:14,423 | INFO | MT5 already running
+2026-08-13 11:16:14,463 | INFO | MT5 readiness confirmed: mt5_ready
+2026-08-13 11:16:16,696 | WARNING | Backend health looked fresh but status PID is not alive; starting backend to avoid stale-snapshot false positive (process_running=False, runtime_execute=True, fresh=True, age_seconds=54.1)
+2026-08-13 11:16:16,707 | INFO | Spawn logs for backend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\backend_20260813_091616.log
+2026-08-13 11:16:16,716 | INFO | Started backend (attempt 1/2): C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-08-13 11:16:23,599 | INFO | Backend readiness confirmed: process_running=True, runtime_execute=True, fresh=True, age_seconds=0.4
+2026-08-13 11:16:29,081 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260813_091629.log
+2026-08-13 11:16:31,113 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260813_091631.log
+2026-08-13 11:16:31,142 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-08-13 11:18:04,669 | ERROR | Frontend readiness failed: process_running=True, api_ok=False, comparison_active=False, runtime_execute=False, desktop_window_ready=False, desktop_state_fresh=False, desktop_state_age_seconds=None, wrapper_pid=0, wrapper_running=False, fallback_active=False, desktop_disabled=False, frontend_mode=, failure_reason=
+2026-08-13 11:18:28,519 | INFO | Atlas wake attempt 2/2 completed with result=FAILED reason=no_usable_control_surface
+2026-08-13 11:18:28,567 | ERROR | Atlas wake final result unhealthy (result=FAILED reason=no_usable_control_surface). Running final cleanup shutdown.
+2026-08-13 11:18:28,611 | INFO | Atlas sleep shutdown requested for run_id=atlas_wake_latest keep_listener=False keep_mt5=True
+2026-08-13 11:18:29,086 | INFO | Stopping frontend pid=22660
+2026-08-13 11:18:31,875 | INFO | Stopping guarded demo backend pid=14104
+2026-08-13 11:18:33,061 | INFO | Atlas wake completed with final result=FAILED
+2026-08-13 11:18:33,063 | INFO | Launch sequence ended with result=FAILED
+2026-08-13 15:10:58,208 | INFO | Wake trigger accepted. Launch sequence started.
+2026-08-13 15:10:58,265 | INFO | Atlas wake launch attempt 1/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-08-13 15:10:58,690 | INFO | MT5 already running
+2026-08-13 15:10:58,718 | INFO | MT5 readiness confirmed: mt5_ready
+2026-08-13 15:11:00,968 | INFO | Spawn logs for backend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\backend_20260813_131100.log
+2026-08-13 15:11:00,994 | INFO | Started backend (attempt 1/2): C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-08-13 15:11:07,954 | INFO | Backend readiness confirmed: process_running=True, runtime_execute=True, fresh=True, age_seconds=0.6
+2026-08-13 15:11:13,521 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260813_131113.log
+2026-08-13 15:11:15,548 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260813_131115.log
+2026-08-13 15:11:15,585 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-08-13 15:13:35,215 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-08-13 15:15:53,174 | INFO | Wake trigger accepted. Launch sequence started.
+2026-08-13 15:15:53,198 | INFO | Atlas wake launch attempt 1/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-08-13 15:15:54,030 | INFO | MT5 already running
+2026-08-13 15:15:54,440 | INFO | MT5 readiness confirmed: mt5_ready
+2026-08-13 15:15:56,056 | INFO | Backend already running
+2026-08-13 15:15:57,591 | INFO | Backend readiness confirmed: process_running=True, runtime_execute=True, fresh=True, age_seconds=43.5
+2026-08-13 15:16:02,680 | WARNING | Frontend process exists but is unhealthy; restarting pid=22688 (process_running=True, api_ok=False, comparison_active=False, runtime_execute=False, desktop_window_ready=False, desktop_state_fresh=False, desktop_state_age_seconds=None, wrapper_pid=0, wrapper_running=False, fallback_active=False, desktop_disabled=False, frontend_mode=, failure_reason=)
+2026-08-13 15:16:04,259 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260813_131604.log
+2026-08-13 15:16:06,307 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260813_131606.log
+2026-08-13 15:16:06,332 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-08-13 19:39:55,613 | INFO | Wake trigger ignored: Atlas stack already healthy and running.
+2026-08-14 04:13:31,629 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-08-14 09:09:45,604 | INFO | Wake trigger accepted. Launch sequence started.
+2026-08-14 09:09:45,636 | INFO | Atlas wake launch attempt 1/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-08-14 09:09:46,884 | INFO | MT5 already running
+2026-08-14 09:09:46,928 | INFO | MT5 readiness confirmed: mt5_ready
+2026-08-14 09:09:54,624 | INFO | Spawn logs for backend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\backend_20260814_070954.log
+2026-08-14 09:09:54,633 | INFO | Started backend (attempt 1/2): C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-08-14 09:10:14,495 | INFO | Backend readiness confirmed: process_running=True, runtime_execute=True, fresh=True, age_seconds=2.9
+2026-08-14 09:10:23,665 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260814_071023.log
+2026-08-14 09:10:25,694 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260814_071025.log
+2026-08-14 09:10:25,729 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-08-14 19:51:56,854 | INFO | Wake trigger accepted. Launch sequence started.
+2026-08-14 19:51:56,883 | INFO | Atlas wake launch attempt 1/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-08-14 19:51:58,046 | INFO | MT5 already running
+2026-08-14 19:51:58,097 | INFO | MT5 readiness confirmed: mt5_ready
+2026-08-14 19:52:01,749 | INFO | Backend already running
+2026-08-14 19:52:04,135 | INFO | Backend readiness confirmed: process_running=True, runtime_execute=True, fresh=True, age_seconds=45.1
+2026-08-14 19:52:10,545 | WARNING | Frontend process exists but is unhealthy; restarting pid=1192 (process_running=True, api_ok=False, comparison_active=False, runtime_execute=False, desktop_window_ready=False, desktop_state_fresh=False, desktop_state_age_seconds=None, wrapper_pid=0, wrapper_running=False, fallback_active=False, desktop_disabled=False, frontend_mode=, failure_reason=)
+2026-08-14 19:52:15,128 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260814_175215.log
+2026-08-14 19:52:17,306 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260814_175217.log
+2026-08-14 19:52:17,335 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-08-14 19:53:50,610 | ERROR | Frontend readiness failed: process_running=True, api_ok=False, comparison_active=False, runtime_execute=False, desktop_window_ready=False, desktop_state_fresh=False, desktop_state_age_seconds=None, wrapper_pid=0, wrapper_running=False, fallback_active=False, desktop_disabled=False, frontend_mode=, failure_reason=
+2026-08-14 19:54:14,819 | INFO | Atlas wake attempt 1/2 completed with result=FAILED reason=no_usable_control_surface
+2026-08-14 19:54:14,833 | ERROR | Atlas wake attempt 1/2 unhealthy (result=FAILED reason=no_usable_control_surface). Triggering full shutdown before restart.
+2026-08-14 19:54:14,836 | INFO | Atlas sleep shutdown requested for run_id=atlas_wake_latest keep_listener=False keep_mt5=True
+2026-08-14 19:54:16,150 | INFO | Stopping frontend pid=16164
+2026-08-14 19:54:20,939 | INFO | Stopping guarded demo backend pid=5056
+2026-08-14 19:54:27,847 | INFO | Atlas wake launch attempt 2/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-08-14 19:54:28,993 | INFO | MT5 already running
+2026-08-14 19:54:29,024 | INFO | MT5 readiness confirmed: mt5_ready
+2026-08-14 19:54:37,437 | WARNING | Backend health looked fresh but status PID is not alive; starting backend to avoid stale-snapshot false positive (process_running=False, runtime_execute=True, fresh=True, age_seconds=60.5)
+2026-08-14 19:54:37,450 | INFO | Spawn logs for backend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\backend_20260814_175437.log
+2026-08-14 19:54:37,462 | INFO | Started backend (attempt 1/2): C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-08-14 19:54:46,307 | INFO | Backend readiness confirmed: process_running=True, runtime_execute=True, fresh=True, age_seconds=0.1
+2026-08-14 19:54:57,045 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260814_175457.log
+2026-08-14 19:54:59,067 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260814_175459.log
+2026-08-14 19:54:59,081 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-08-14 19:56:34,735 | ERROR | Frontend readiness failed: process_running=False, api_ok=False, comparison_active=False, runtime_execute=False, desktop_window_ready=False, desktop_state_fresh=False, desktop_state_age_seconds=None, wrapper_pid=0, wrapper_running=False, fallback_active=False, desktop_disabled=False, frontend_mode=, failure_reason=
+2026-08-14 19:56:58,857 | INFO | Atlas wake attempt 2/2 completed with result=FAILED reason=no_usable_control_surface
+2026-08-14 19:56:58,870 | ERROR | Atlas wake final result unhealthy (result=FAILED reason=no_usable_control_surface). Running final cleanup shutdown.
+2026-08-14 19:56:58,870 | INFO | Atlas sleep shutdown requested for run_id=atlas_wake_latest keep_listener=False keep_mt5=True
+2026-08-14 19:57:01,242 | INFO | Stopping guarded demo backend pid=8908
+2026-08-14 19:57:06,591 | INFO | Atlas wake completed with final result=FAILED
+2026-08-14 19:57:06,591 | INFO | Launch sequence ended with result=FAILED
+2026-08-14 20:32:26,934 | INFO | Wake trigger accepted. Launch sequence started.
+2026-08-14 20:32:26,935 | INFO | Atlas wake launch attempt 1/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-08-14 20:32:28,084 | INFO | MT5 already running
+2026-08-14 20:32:28,111 | INFO | MT5 readiness confirmed: mt5_ready
+2026-08-14 20:32:35,973 | INFO | Spawn logs for backend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\backend_20260814_183235.log
+2026-08-14 20:32:35,986 | INFO | Started backend (attempt 1/2): C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-08-14 20:32:44,450 | INFO | Backend readiness confirmed: process_running=True, runtime_execute=True, fresh=True, age_seconds=1.0
+2026-08-14 20:32:50,973 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260814_183250.log
+2026-08-14 20:32:52,999 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260814_183252.log
+2026-08-14 20:32:53,009 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-08-14 20:34:31,510 | ERROR | Frontend readiness failed: process_running=True, api_ok=False, comparison_active=False, runtime_execute=False, desktop_window_ready=False, desktop_state_fresh=False, desktop_state_age_seconds=None, wrapper_pid=0, wrapper_running=False, fallback_active=False, desktop_disabled=False, frontend_mode=, failure_reason=
+2026-08-14 20:34:55,842 | INFO | Atlas wake attempt 1/2 completed with result=FAILED reason=no_usable_control_surface
+2026-08-14 20:34:55,860 | ERROR | Atlas wake attempt 1/2 unhealthy (result=FAILED reason=no_usable_control_surface). Triggering full shutdown before restart.
+2026-08-14 20:34:55,860 | INFO | Atlas sleep shutdown requested for run_id=atlas_wake_latest keep_listener=False keep_mt5=True
+2026-08-14 20:34:57,113 | INFO | Stopping frontend pid=8236
+2026-08-14 20:35:02,063 | INFO | Stopping guarded demo backend pid=7352
+2026-08-14 20:35:08,557 | INFO | Atlas wake launch attempt 2/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-08-14 20:35:09,707 | INFO | MT5 already running
+2026-08-14 20:35:09,747 | INFO | MT5 readiness confirmed: mt5_ready
+2026-08-14 20:35:17,986 | WARNING | Backend health looked fresh but status PID is not alive; starting backend to avoid stale-snapshot false positive (process_running=False, runtime_execute=True, fresh=True, age_seconds=9.8)
+2026-08-14 20:35:17,990 | INFO | Spawn logs for backend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\backend_20260814_183517.log
+2026-08-14 20:35:18,002 | INFO | Started backend (attempt 1/2): C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-08-14 20:35:26,865 | INFO | Backend readiness confirmed: process_running=True, runtime_execute=True, fresh=True, age_seconds=3.1
+2026-08-14 20:35:37,452 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260814_183537.log
+2026-08-14 20:35:39,484 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260814_183539.log
+2026-08-14 20:35:39,499 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-08-14 20:37:35,438 | ERROR | Frontend readiness failed: process_running=True, api_ok=False, comparison_active=False, runtime_execute=False, desktop_window_ready=False, desktop_state_fresh=False, desktop_state_age_seconds=None, wrapper_pid=0, wrapper_running=False, fallback_active=False, desktop_disabled=False, frontend_mode=, failure_reason=
+2026-08-14 20:38:45,020 | INFO | Atlas wake attempt 2/2 completed with result=FAILED reason=no_usable_control_surface
+2026-08-14 20:38:45,054 | ERROR | Atlas wake final result unhealthy (result=FAILED reason=no_usable_control_surface). Running final cleanup shutdown.
+2026-08-14 20:38:45,057 | INFO | Atlas sleep shutdown requested for run_id=atlas_wake_latest keep_listener=False keep_mt5=True
+2026-08-14 20:38:46,605 | INFO | Stopping frontend pid=2552
+2026-08-14 20:38:53,444 | INFO | Stopping guarded demo backend pid=5276
+2026-08-14 20:38:58,871 | INFO | Atlas wake completed with final result=FAILED
+2026-08-14 20:38:58,872 | INFO | Launch sequence ended with result=FAILED
+2026-08-17 16:00:28,202 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-08-17 16:03:40,110 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-08-17 16:04:24,303 | INFO | Atlas sleep shutdown requested for run_id=atlas_wake_latest keep_listener=True keep_mt5=False
+2026-08-17 16:04:29,422 | INFO | Stopping frontend pid=5448
+2026-08-17 16:04:36,430 | INFO | Stopping MT5 pid=1628
+2026-08-18 06:23:15,597 | INFO | Wake trigger accepted. Launch sequence started.
+2026-08-18 06:23:15,610 | INFO | Atlas wake launch attempt 1/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-08-18 06:23:16,716 | INFO | MT5 already running
+2026-08-18 06:23:16,782 | INFO | MT5 readiness confirmed: mt5_ready
+2026-08-18 06:23:22,224 | INFO | Spawn logs for backend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\backend_20260818_042322.log
+2026-08-18 06:23:22,263 | INFO | Started backend (attempt 1/2): C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-08-18 06:23:29,230 | INFO | Backend readiness confirmed: process_running=True, runtime_execute=True, fresh=True, age_seconds=1.0
+2026-08-18 06:23:37,454 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260818_042337.log
+2026-08-18 06:23:39,571 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260818_042339.log
+2026-08-18 06:23:39,612 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-08-18 06:24:55,666 | INFO | Frontend readiness confirmed: process_running=True, api_ok=True, comparison_active=False, runtime_execute=True, desktop_window_ready=True, desktop_state_fresh=True, desktop_state_age_seconds=53.5, wrapper_pid=10708, wrapper_running=True, fallback_active=False, desktop_disabled=False, frontend_mode=desktop, failure_reason=
+2026-08-18 06:25:04,098 | INFO | Atlas wake attempt 1/2 completed with result=SUCCESS reason=backend_healthy_desktop_ready
+2026-08-18 06:25:04,234 | INFO | Atlas wake completed with final result=SUCCESS
+2026-08-18 06:25:04,235 | INFO | Launch sequence ended with result=SUCCESS
+2026-08-19 19:53:13,113 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-08-21 20:40:12,589 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-08-24 09:07:53,484 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-08-24 11:06:49,210 | INFO | Wake trigger accepted. Launch sequence started.
+2026-08-24 11:06:49,243 | INFO | Atlas wake launch attempt 1/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-08-24 11:06:49,755 | INFO | MT5 already running
+2026-08-24 11:06:49,798 | INFO | MT5 readiness confirmed: mt5_ready
+2026-08-24 11:06:52,373 | INFO | Spawn logs for backend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\backend_20260824_090652.log
+2026-08-24 11:06:52,387 | INFO | Started backend (attempt 1/2): C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-08-24 11:07:25,026 | INFO | Backend readiness confirmed: process_running=True, runtime_execute=True, fresh=True, age_seconds=6.7
+2026-08-24 11:07:33,590 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260824_090733.log
+2026-08-24 11:07:35,644 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260824_090735.log
+2026-08-24 11:07:35,680 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-08-24 11:09:42,487 | ERROR | Frontend readiness failed: process_running=True, api_ok=False, comparison_active=False, runtime_execute=False, desktop_window_ready=False, desktop_state_fresh=False, desktop_state_age_seconds=None, wrapper_pid=0, wrapper_running=False, fallback_active=False, desktop_disabled=False, frontend_mode=, failure_reason=
+2026-08-24 11:11:26,320 | INFO | Atlas wake attempt 1/2 completed with result=FAILED reason=no_usable_control_surface
+2026-08-24 11:11:26,506 | ERROR | Atlas wake attempt 1/2 unhealthy (result=FAILED reason=no_usable_control_surface). Triggering full shutdown before restart.
+2026-08-24 11:11:26,537 | INFO | Atlas sleep shutdown requested for run_id=atlas_wake_latest keep_listener=False keep_mt5=True
+2026-08-24 11:11:27,025 | INFO | Stopping frontend pid=3568
+2026-08-24 11:13:29,430 | INFO | Stopping guarded demo backend pid=11384
+2026-08-24 11:13:34,009 | INFO | Atlas wake launch attempt 2/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-08-24 11:13:34,479 | INFO | MT5 already running
+2026-08-24 11:13:34,516 | INFO | MT5 readiness confirmed: mt5_ready
+2026-08-24 11:13:36,701 | WARNING | Backend health looked fresh but status PID is not alive; starting backend to avoid stale-snapshot false positive (process_running=False, runtime_execute=True, fresh=True, age_seconds=26.3)
+2026-08-24 11:13:36,717 | INFO | Spawn logs for backend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\backend_20260824_091336.log
+2026-08-24 11:13:36,752 | INFO | Started backend (attempt 1/2): C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-08-24 11:13:43,660 | INFO | Backend readiness confirmed: process_running=True, runtime_execute=True, fresh=True, age_seconds=0.1
+2026-08-24 11:13:49,431 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260824_091349.log
+2026-08-24 11:13:51,497 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260824_091351.log
+2026-08-24 11:13:51,526 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-08-25 22:00:38,422 | INFO | Wake trigger accepted. Launch sequence started.
+2026-08-25 22:00:38,447 | INFO | Atlas wake launch attempt 1/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-08-25 22:00:39,002 | INFO | MT5 already running
+2026-08-25 22:00:39,057 | INFO | MT5 readiness confirmed: mt5_ready
+2026-08-25 22:00:40,633 | WARNING | Backend process exists but is unhealthy; restarting pid=9000 (process_running=True, runtime_execute=False, fresh=True, age_seconds=54.6)
+2026-08-25 22:00:43,345 | INFO | Spawn logs for backend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\backend_20260825_200043.log
+2026-08-25 22:00:43,372 | INFO | Started backend (attempt 1/2): C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-08-25 22:01:11,879 | INFO | Backend readiness confirmed: process_running=True, runtime_execute=True, fresh=True, age_seconds=1.7
+2026-08-25 22:01:16,938 | WARNING | Frontend process exists but is unhealthy; restarting pid=10680 (process_running=True, api_ok=False, comparison_active=False, runtime_execute=False, desktop_window_ready=False, desktop_state_fresh=False, desktop_state_age_seconds=None, wrapper_pid=0, wrapper_running=False, fallback_active=False, desktop_disabled=False, frontend_mode=, failure_reason=)
+2026-08-25 22:01:19,818 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260825_200119.log
+2026-08-25 22:01:21,936 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260825_200121.log
+2026-08-25 22:01:21,947 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-08-26 18:28:10,527 | INFO | Atlas audio watchdog already running; exiting duplicate watchdog instance.
+2026-08-30 10:38:44,927 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-08-31 08:35:07,517 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-09-01 15:15:06,068 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-09-02 00:06:32,964 | INFO | Wake trigger ignored: Atlas stack already healthy and running.
+2026-09-02 16:37:12,905 | INFO | Wake trigger accepted. Launch sequence started.
+2026-09-02 16:37:13,127 | INFO | Atlas wake launch attempt 1/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-09-02 16:37:14,205 | INFO | MT5 already running
+2026-09-02 16:37:14,266 | INFO | MT5 readiness confirmed: mt5_ready
+2026-09-02 16:37:15,946 | INFO | Backend already running
+2026-09-02 16:37:17,543 | INFO | Backend readiness confirmed: process_running=True, runtime_execute=True, fresh=True, age_seconds=59.3
+2026-09-02 16:37:27,267 | WARNING | Frontend process exists but is unhealthy; restarting pid=17652 (process_running=True, api_ok=False, comparison_active=False, runtime_execute=False, desktop_window_ready=False, desktop_state_fresh=False, desktop_state_age_seconds=None, wrapper_pid=0, wrapper_running=False, fallback_active=False, desktop_disabled=False, frontend_mode=, failure_reason=)
+2026-09-02 16:37:40,826 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260902_143740.log
+2026-09-02 16:37:43,034 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260902_143743.log
+2026-09-02 16:37:43,499 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-09-02 16:39:19,935 | INFO | Frontend readiness confirmed: process_running=True, api_ok=True, comparison_active=False, runtime_execute=True, desktop_window_ready=False, desktop_state_fresh=True, desktop_state_age_seconds=2.9, wrapper_pid=11244, wrapper_running=True, fallback_active=True, desktop_disabled=False, frontend_mode=browser_fallback, failure_reason=startup_timing_failure
+2026-09-02 16:45:41,560 | INFO | Atlas wake attempt 1/2 completed with result=FAILED reason=no_usable_control_surface
+2026-09-02 16:45:41,657 | ERROR | Atlas wake attempt 1/2 unhealthy (result=FAILED reason=no_usable_control_surface). Triggering full shutdown before restart.
+2026-09-02 16:45:41,798 | INFO | Atlas sleep shutdown requested for run_id=atlas_wake_latest keep_listener=False keep_mt5=True
+2026-09-02 16:45:42,990 | INFO | Stopping frontend pid=11704
+2026-09-02 16:45:45,529 | INFO | Stopping guarded demo backend pid=16376
+2026-09-02 16:45:50,474 | INFO | Atlas wake launch attempt 2/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-09-02 16:45:51,195 | INFO | MT5 already running
+2026-09-02 16:45:51,794 | INFO | MT5 readiness confirmed: mt5_ready
+2026-09-02 16:45:56,451 | INFO | Spawn logs for backend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\backend_20260902_144556.log
+2026-09-02 16:45:56,567 | INFO | Started backend (attempt 1/2): C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-09-02 16:46:04,157 | INFO | Backend readiness confirmed: process_running=True, runtime_execute=True, fresh=True, age_seconds=0.7
+2026-09-02 16:46:06,773 | WARNING | Frontend process exists but is unhealthy; restarting pid=11244 (process_running=True, api_ok=True, comparison_active=False, runtime_execute=True, desktop_window_ready=True, desktop_state_fresh=False, desktop_state_age_seconds=400.7, wrapper_pid=11244, wrapper_running=True, fallback_active=False, desktop_disabled=False, frontend_mode=desktop, failure_reason=)
+2026-09-02 16:46:08,466 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260902_144608.log
+2026-09-02 16:46:10,496 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260902_144610.log
+2026-09-02 16:46:10,534 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-09-02 16:48:05,784 | ERROR | Frontend readiness failed: process_running=True, api_ok=False, comparison_active=False, runtime_execute=False, desktop_window_ready=False, desktop_state_fresh=False, desktop_state_age_seconds=None, wrapper_pid=0, wrapper_running=False, fallback_active=False, desktop_disabled=False, frontend_mode=, failure_reason=
+2026-09-02 16:49:34,602 | INFO | Atlas wake attempt 2/2 completed with result=FAILED reason=no_usable_control_surface
+2026-09-02 16:49:34,866 | ERROR | Atlas wake final result unhealthy (result=FAILED reason=no_usable_control_surface). Running final cleanup shutdown.
+2026-09-02 16:49:34,885 | INFO | Atlas sleep shutdown requested for run_id=atlas_wake_latest keep_listener=False keep_mt5=True
+2026-09-02 16:49:35,907 | INFO | Stopping frontend pid=15316
+2026-09-02 16:49:41,126 | INFO | Stopping guarded demo backend pid=18308
+2026-09-02 16:49:44,159 | INFO | Atlas wake completed with final result=FAILED
+2026-09-02 16:49:44,161 | INFO | Launch sequence ended with result=FAILED
+2026-09-04 03:34:33,036 | INFO | Wake trigger ignored: Atlas stack already healthy and running.
+2026-09-04 03:58:42,146 | INFO | Wake trigger ignored: Atlas stack already healthy and running.
+2026-09-04 04:32:33,971 | INFO | Wake trigger ignored: Atlas stack already healthy and running.
+2026-09-07 09:10:58,302 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-09-10 00:03:07,398 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-09-13 04:40:03,155 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-09-14 20:19:52,236 | INFO | Wake trigger ignored: Atlas stack already healthy and running.
+2026-09-15 08:12:11,342 | INFO | Wake trigger ignored: Atlas stack already healthy and running.
+2026-09-19 00:03:26,528 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-09-21 21:01:31,626 | INFO | Wake trigger ignored: Atlas stack already healthy and running.
+2026-09-23 23:58:51,783 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-09-24 03:49:17,868 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-10-09 03:03:07,222 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-10-09 12:01:57,149 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-10-09 12:42:43,653 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-10-09 15:50:56,494 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-10-10 13:26:11,947 | INFO | Wake trigger ignored: Atlas stack already healthy and running.
+2026-10-12 23:32:10,053 | INFO | Wake trigger ignored: Atlas stack already healthy and running.
+2026-10-14 13:49:16,568 | INFO | Wake trigger ignored: Atlas stack already healthy and running.
+2026-10-16 07:51:24,971 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-10-17 23:02:17,015 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-10-20 09:06:26,602 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-10-22 11:38:49,837 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0
+2026-10-23 06:25:28,710 | INFO | Atlas audio watchdog started. restart_delay_sec=3.0

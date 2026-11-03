@@ -1,0 +1,192 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-12 10:44:01,759 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-12 10:44:04,769 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-12 10:44:06,372 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-12 10:44:07,048 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 10:45:06,423 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=3.42 (34.2pips) TP=-5.13 (51.3pips) ATR=17.09 mult=2.00
+2026-05-12 10:45:08,066 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 10:46:08,618 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 10:47:09,325 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 10:48:09,891 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 10:49:10,527 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 10:50:11,335 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 10:51:11,837 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 10:52:12,274 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 10:53:12,848 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 10:54:13,579 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 10:55:14,060 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 10:56:14,631 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 10:57:15,274 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 10:58:15,968 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 10:59:19,064 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-12 10:59:19,064 | INFO | openai._base_client | Retrying request to /chat/completions in 0.428973 seconds
+2026-05-12 10:59:19,878 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-12 10:59:19,878 | INFO | openai._base_client | Retrying request to /chat/completions in 0.899789 seconds
+2026-05-12 10:59:21,766 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-12 11:00:06,575 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=3.31 (33.1pips) TP=-4.97 (49.7pips) ATR=16.56 mult=2.00
+2026-05-12 11:00:22,810 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 11:01:23,456 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 11:02:25,654 | INFO | atlas_ai.gold_knowledge | Gold knowledge applied | base=0.467 boosts=[] penalties=[] final=0.467
+2026-05-12 11:02:25,654 | INFO | atlas_ai.trader | Spread check: 3.40 pips (max: 7.00) -- PASS
+2026-05-12 11:02:25,654 | INFO | atlas_ai.trader | Structure check: score=0.259 (min: 0.240) -- PASS
+2026-05-12 11:02:25,788 | INFO | atlas_ai.trader | Signal=evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0) side=buy confidence=0.467 volume=0.01 result=-5 (missing_runtime_freshness)
+2026-05-12 11:03:26,724 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 44 min left): loss_streak. No trade executed.
+2026-05-12 11:04:28,494 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 43 min left): loss_streak. No trade executed.
+2026-05-12 11:05:29,077 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 42 min left): loss_streak. No trade executed.
+2026-05-12 11:05:36,664 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=3.36 (33.6pips) TP=-5.04 (50.4pips) ATR=16.79 mult=2.00
+2026-05-12 11:06:29,687 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 41 min left): loss_streak. No trade executed.
+2026-05-12 11:07:30,198 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 40 min left): loss_streak. No trade executed.
+2026-05-12 11:08:31,047 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 39 min left): loss_streak. No trade executed.
+2026-05-12 11:08:36,716 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=3.36 (33.6pips) TP=-5.05 (50.5pips) ATR=16.82 mult=2.00
+2026-05-12 11:09:31,867 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 38 min left): loss_streak. No trade executed.
+2026-05-12 11:10:32,482 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 37 min left): loss_streak. No trade executed.
+2026-05-12 11:11:33,394 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 36 min left): loss_streak. No trade executed.
+2026-05-12 11:12:06,769 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=3.37 (33.7pips) TP=-5.05 (50.5pips) ATR=16.83 mult=2.00
+2026-05-12 11:12:34,285 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 35 min left): loss_streak. No trade executed.
+2026-05-12 11:13:35,192 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 34 min left): loss_streak. No trade executed.
+2026-05-12 11:14:35,929 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 33 min left): loss_streak. No trade executed.
+2026-05-12 11:15:36,755 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 32 min left): loss_streak. No trade executed.
+2026-05-12 11:16:37,551 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 31 min left): loss_streak. No trade executed.
+2026-05-12 11:17:38,199 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 30 min left): loss_streak. No trade executed.
+2026-05-12 11:18:39,069 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 29 min left): loss_streak. No trade executed.
+2026-05-12 11:19:39,953 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 28 min left): loss_streak. No trade executed.
+2026-05-12 11:20:40,687 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 27 min left): loss_streak. No trade executed.
+2026-05-12 11:21:41,306 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 26 min left): loss_streak. No trade executed.
+2026-05-12 11:22:41,921 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 25 min left): loss_streak. No trade executed.
+2026-05-12 11:23:42,573 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 24 min left): loss_streak. No trade executed.
+2026-05-12 11:24:43,547 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 23 min left): loss_streak. No trade executed.
+2026-05-12 11:25:44,125 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 22 min left): loss_streak. No trade executed.
+2026-05-12 11:26:44,992 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 21 min left): loss_streak. No trade executed.
+2026-05-12 11:27:45,834 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 20 min left): loss_streak. No trade executed.
+2026-05-12 11:28:46,413 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 19 min left): loss_streak. No trade executed.
+2026-05-12 11:29:47,344 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 18 min left): loss_streak. No trade executed.
+2026-05-12 11:30:48,029 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 17 min left): loss_streak. No trade executed.
+2026-05-12 11:31:48,769 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 16 min left): loss_streak. No trade executed.
+2026-05-12 11:32:49,589 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 15 min left): loss_streak. No trade executed.
+2026-05-12 11:33:50,207 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 14 min left): loss_streak. No trade executed.
+2026-05-12 11:34:51,041 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 13 min left): loss_streak. No trade executed.
+2026-05-12 11:35:51,865 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 12 min left): loss_streak. No trade executed.
+2026-05-12 11:36:52,632 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 11 min left): loss_streak. No trade executed.
+2026-05-12 11:37:53,289 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 10 min left): loss_streak. No trade executed.
+2026-05-12 11:38:53,880 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 9 min left): loss_streak. No trade executed.
+2026-05-12 11:39:54,551 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 8 min left): loss_streak. No trade executed.
+2026-05-12 11:40:55,366 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 7 min left): loss_streak. No trade executed.
+2026-05-12 11:41:56,128 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 6 min left): loss_streak. No trade executed.
+2026-05-12 11:42:56,933 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 5 min left): loss_streak. No trade executed.
+2026-05-12 11:43:57,721 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 4 min left): loss_streak. No trade executed.
+2026-05-12 11:44:58,290 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 3 min left): loss_streak. No trade executed.
+2026-05-12 11:45:59,211 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 2 min left): loss_streak. No trade executed.
+2026-05-12 11:46:59,921 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 1 min left): loss_streak. No trade executed.
+2026-05-12 11:48:00,911 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (medium, 1 min left): loss_streak. No trade executed.
+2026-05-12 11:49:01,735 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 11:50:02,362 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 11:51:03,497 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 11:52:04,398 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 11:53:04,904 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 11:54:05,534 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 11:55:06,235 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 11:56:07,351 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 11:57:08,255 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 11:58:11,787 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-12 11:58:11,794 | INFO | openai._base_client | Retrying request to /chat/completions in 0.463994 seconds
+2026-05-12 11:58:12,865 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-12 11:58:12,865 | INFO | openai._base_client | Retrying request to /chat/completions in 0.874137 seconds
+2026-05-12 11:58:14,023 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-12 11:58:14,061 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 12:00:15,827 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 12:01:18,087 | INFO | atlas_ai.gold_knowledge | Gold knowledge applied | base=0.449 boosts=[] penalties=[] final=0.449
+2026-05-12 12:01:18,087 | INFO | atlas_ai.trader | Spread check: 3.50 pips (max: 7.00) -- PASS
+2026-05-12 12:01:18,087 | INFO | atlas_ai.trader | Structure check: score=0.344 (min: 0.240) -- PASS
+2026-05-12 12:01:18,304 | INFO | atlas_ai.trader | Signal=evolved_rule(fast=21,slow=86,rsi_buy=45.9,rsi_sell=58.2) side=sell confidence=0.449 volume=0.00 result=-5 (missing_runtime_freshness)
+2026-05-12 12:02:19,355 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:03:20,214 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:04:21,194 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:05:22,138 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:06:23,128 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:07:24,562 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:08:25,638 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:09:26,472 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:10:27,590 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:11:28,706 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:12:29,625 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:13:30,242 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:14:31,290 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:15:32,108 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:16:33,102 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:16:38,028 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=3.40 (34.0pips) TP=-5.10 (51.0pips) ATR=16.99 mult=2.00
+2026-05-12 12:17:33,992 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:18:34,843 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:19:35,727 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:20:36,628 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:21:37,486 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:22:38,381 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:23:39,512 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:24:40,501 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:25:41,496 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:26:42,164 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:27:08,210 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=3.40 (34.0pips) TP=-5.10 (51.0pips) ATR=16.99 mult=2.00
+2026-05-12 12:27:43,148 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:28:43,982 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:29:44,867 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:30:38,277 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=3.41 (34.1pips) TP=-5.11 (51.1pips) ATR=17.04 mult=2.00
+2026-05-12 12:30:45,999 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:31:46,899 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:32:48,018 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:33:38,337 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=3.49 (34.9pips) TP=-5.24 (52.4pips) ATR=17.45 mult=2.00
+2026-05-12 12:33:49,116 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:34:50,116 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:35:51,289 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:36:38,387 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=3.49 (34.9pips) TP=-5.24 (52.4pips) ATR=17.47 mult=2.00
+2026-05-12 12:36:52,183 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:37:53,293 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:38:53,992 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:39:38,450 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=3.55 (35.5pips) TP=-5.32 (53.2pips) ATR=17.74 mult=2.00
+2026-05-12 12:39:54,947 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:40:55,888 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:41:56,807 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:42:38,505 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=3.59 (35.9pips) TP=-5.39 (53.9pips) ATR=17.97 mult=2.00
+2026-05-12 12:42:57,709 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:43:58,504 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:44:59,537 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:46:00,440 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:47:01,665 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:48:02,971 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:49:04,420 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:50:05,205 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:51:06,421 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:52:07,387 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:53:08,288 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:54:09,803 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:56:11,148 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:57:12,283 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:58:13,344 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 12:59:14,739 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 13:00:15,755 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 13:01:16,706 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 13:02:08,847 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=3.55 (35.5pips) TP=-5.32 (53.2pips) ATR=17.75 mult=2.00
+2026-05-12 13:02:17,923 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 13:03:18,624 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 13:04:19,574 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 13:05:08,913 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=3.55 (35.5pips) TP=-5.32 (53.2pips) ATR=17.75 mult=2.00
+2026-05-12 13:05:20,624 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 13:06:21,741 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 13:07:22,858 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 13:08:08,971 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=3.58 (35.8pips) TP=-5.38 (53.8pips) ATR=17.92 mult=2.00
+2026-05-12 13:08:23,812 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 13:09:24,775 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 13:10:26,182 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 13:11:27,657 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 13:12:28,823 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 13:13:29,507 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 13:14:30,903 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 13:15:31,843 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 13:16:32,879 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 13:17:33,681 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 13:18:34,299 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 13:19:34,944 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 13:20:36,257 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 13:21:37,432 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 13:22:38,140 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 13:23:38,884 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.
+2026-05-12 13:24:39,915 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold. No trade executed.

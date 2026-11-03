@@ -1,0 +1,1373 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui-server --mode-override live
+2026-04-23 19:17:42,701 | INFO | atlas_ai.voice.startup | Startup greeting triggered.
+2026-04-23 19:17:42,757 | INFO | atlas_ai.ui_server | Starting durable UI server on http://127.0.0.1:8765
+2026-04-23 19:17:45,035 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:45] "GET /api/status HTTP/1.1" 200 -
+2026-04-23 19:17:45,267 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:45] "GET / HTTP/1.1" 200 -
+2026-04-23 19:17:45,455 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:45] "GET / HTTP/1.1" 200 -
+2026-04-23 19:17:48,947 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:48] "GET /api/status HTTP/1.1" 200 -
+2026-04-23 19:17:50,143 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:50] "GET / HTTP/1.1" 200 -
+2026-04-23 19:17:50,395 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:50] "GET /style.css HTTP/1.1" 200 -
+2026-04-23 19:17:50,532 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:50] "GET /app.js HTTP/1.1" 200 -
+2026-04-23 19:17:50,581 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:50] "POST /api/ui-ready HTTP/1.1" 200 -
+2026-04-23 19:17:50,829 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:50] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:17:50,836 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:50] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:17:51,046 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:51] "GET /api/status?_ts=1776964670676 HTTP/1.1" 200 -
+2026-04-23 19:17:51,115 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:51] "GET /api/runtime?_ts=1776964670677 HTTP/1.1" 200 -
+2026-04-23 19:17:51,413 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:51] "GET /api/self-improvement/proposals?_ts=1776964670679 HTTP/1.1" 200 -
+2026-04-23 19:17:51,447 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:51] "GET /api/events?_ts=1776964670676 HTTP/1.1" 200 -
+2026-04-23 19:17:51,455 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:51] "GET /api/self-improvement/audit?_ts=1776964670679 HTTP/1.1" 200 -
+2026-04-23 19:17:51,466 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-23 19:17:51,634 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:17:51,815 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:17:51,817 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:17:51,848 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:51] "GET /api/self-improvement/rollouts?_ts=1776964670679 HTTP/1.1" 200 -
+2026-04-23 19:17:52,063 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:52] "GET /api/learning-insights?_ts=1776964670677 HTTP/1.1" 200 -
+2026-04-23 19:17:54,366 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:54] "GET /api/events?_ts=1776964672696 HTTP/1.1" 200 -
+2026-04-23 19:17:54,407 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:54] "GET /api/learning-insights?_ts=1776964672699 HTTP/1.1" 200 -
+2026-04-23 19:17:54,439 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:54] "GET /api/status?_ts=1776964672694 HTTP/1.1" 200 -
+2026-04-23 19:17:54,531 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:54] "GET /api/runtime?_ts=1776964672697 HTTP/1.1" 200 -
+2026-04-23 19:17:54,936 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:54] "GET /api/events?_ts=1776964674683 HTTP/1.1" 200 -
+2026-04-23 19:17:54,970 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:54] "GET /api/learning-insights?_ts=1776964674684 HTTP/1.1" 200 -
+2026-04-23 19:17:54,993 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:54] "GET /api/status?_ts=1776964674683 HTTP/1.1" 200 -
+2026-04-23 19:17:55,019 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:55] "GET /api/runtime?_ts=1776964674684 HTTP/1.1" 200 -
+2026-04-23 19:17:56,915 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:56] "GET /api/events?_ts=1776964676679 HTTP/1.1" 200 -
+2026-04-23 19:17:56,966 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:56] "GET /api/learning-insights?_ts=1776964676680 HTTP/1.1" 200 -
+2026-04-23 19:17:56,986 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:56] "GET /api/status?_ts=1776964676678 HTTP/1.1" 200 -
+2026-04-23 19:17:57,010 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:57] "GET /api/runtime?_ts=1776964676679 HTTP/1.1" 200 -
+2026-04-23 19:17:57,565 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:57] "GET /api/status HTTP/1.1" 200 -
+2026-04-23 19:17:58,921 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:58] "GET /api/events?_ts=1776964678690 HTTP/1.1" 200 -
+2026-04-23 19:17:59,036 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:59] "GET /api/learning-insights?_ts=1776964678690 HTTP/1.1" 200 -
+2026-04-23 19:17:59,037 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:59] "GET /api/status?_ts=1776964678690 HTTP/1.1" 200 -
+2026-04-23 19:17:59,069 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:17:59] "GET /api/runtime?_ts=1776964678690 HTTP/1.1" 200 -
+2026-04-23 19:18:00,989 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:00] "GET /api/events?_ts=1776964680684 HTTP/1.1" 200 -
+2026-04-23 19:18:01,043 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:01] "GET /api/learning-insights?_ts=1776964680684 HTTP/1.1" 200 -
+2026-04-23 19:18:01,047 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:01] "GET /api/status?_ts=1776964680682 HTTP/1.1" 200 -
+2026-04-23 19:18:01,080 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:01] "GET /api/runtime?_ts=1776964680684 HTTP/1.1" 200 -
+2026-04-23 19:18:05,201 | ERROR | atlas_ai.ui_server | Exception on /api/runtime [GET]
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 494, in runtime_flags
+    flags = dict(source.load_runtime_flags() or {})
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 178, in load_runtime_flags
+    return dict(self.store.load_runtime_flags() or {})
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\memory\knowledge_store.py", line 278, in load_runtime_flags
+    with self.runtime_file.open("r", encoding="utf-8") as fh:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\User\\Desktop\\Atlas AI\\storage\\runtime_flags.json'
+2026-04-23 19:18:05,210 | ERROR | atlas_ai.ui_server | Exception on /api/ask-atlas [POST]
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 691, in ask_atlas
+    return jsonify(assistant.answer(query, mode=mode))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui\ask_atlas.py", line 93, in answer
+    exec_query = self._handle_execution_query(q)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui\ask_atlas.py", line 1460, in _handle_execution_query
+    runtime = dict(self.source.load_runtime_flags() or {})
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 178, in load_runtime_flags
+    return dict(self.store.load_runtime_flags() or {})
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\memory\knowledge_store.py", line 278, in load_runtime_flags
+    with self.runtime_file.open("r", encoding="utf-8") as fh:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\User\\Desktop\\Atlas AI\\storage\\runtime_flags.json'
+2026-04-23 19:18:05,589 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:05] "GET /api/events?_ts=1776964682679 HTTP/1.1" 200 -
+2026-04-23 19:18:05,626 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:05] "GET /api/learning-insights?_ts=1776964682680 HTTP/1.1" 200 -
+2026-04-23 19:18:05,656 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:05] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:18:05,726 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:05] "GET /api/status?_ts=1776964682679 HTTP/1.1" 200 -
+2026-04-23 19:18:06,712 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:06] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:18:06,737 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:06] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:18:06,769 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:06] "GET /api/self-improvement/rollouts?_ts=1776964682686 HTTP/1.1" 200 -
+2026-04-23 19:18:06,879 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:06] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:18:07,353 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:07] "[35m[1mGET /api/runtime?_ts=1776964682680 HTTP/1.1[0m" 500 -
+2026-04-23 19:18:07,376 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:07] "[35m[1mPOST /api/ask-atlas HTTP/1.1[0m" 500 -
+2026-04-23 19:18:08,916 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:08] "GET /api/learning-insights?_ts=1776964688683 HTTP/1.1" 200 -
+2026-04-23 19:18:08,983 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:08] "GET /api/events?_ts=1776964688682 HTTP/1.1" 200 -
+2026-04-23 19:18:09,016 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:09] "GET /api/status?_ts=1776964688681 HTTP/1.1" 200 -
+2026-04-23 19:18:09,061 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:09] "GET /api/runtime?_ts=1776964688682 HTTP/1.1" 200 -
+2026-04-23 19:18:10,956 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:10] "GET /api/learning-insights?_ts=1776964690678 HTTP/1.1" 200 -
+2026-04-23 19:18:10,989 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:10] "GET /api/status?_ts=1776964690677 HTTP/1.1" 200 -
+2026-04-23 19:18:11,042 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:11] "GET /api/events?_ts=1776964690677 HTTP/1.1" 200 -
+2026-04-23 19:18:11,068 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:11] "GET /api/runtime?_ts=1776964690677 HTTP/1.1" 200 -
+2026-04-23 19:18:13,057 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:13] "GET /api/learning-insights?_ts=1776964692689 HTTP/1.1" 200 -
+2026-04-23 19:18:13,171 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:13] "GET /api/status?_ts=1776964692687 HTTP/1.1" 200 -
+2026-04-23 19:18:13,242 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:13] "GET /api/events?_ts=1776964692688 HTTP/1.1" 200 -
+2026-04-23 19:18:13,280 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:13] "GET /api/runtime?_ts=1776964692688 HTTP/1.1" 200 -
+2026-04-23 19:18:15,051 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:15] "GET /api/status?_ts=1776964694679 HTTP/1.1" 200 -
+2026-04-23 19:18:15,193 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:15] "GET /api/learning-insights?_ts=1776964694680 HTTP/1.1" 200 -
+2026-04-23 19:18:15,229 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:15] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:18:15,250 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:15] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:18:15,282 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:15] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:18:15,287 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:15] "GET /api/runtime?_ts=1776964694679 HTTP/1.1" 200 -
+2026-04-23 19:18:15,314 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:15] "GET /api/self-improvement/audit?_ts=1776964694685 HTTP/1.1" 200 -
+2026-04-23 19:18:15,394 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:15] "GET /api/events?_ts=1776964694679 HTTP/1.1" 200 -
+2026-04-23 19:18:15,482 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:15] "GET /api/self-improvement/proposals?_ts=1776964694684 HTTP/1.1" 200 -
+2026-04-23 19:18:15,497 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:15] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:18:15,498 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:15] "GET /api/self-improvement/rollouts?_ts=1776964694684 HTTP/1.1" 200 -
+2026-04-23 19:18:15,594 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:15] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:18:17,000 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:16] "GET /api/status?_ts=1776964696690 HTTP/1.1" 200 -
+2026-04-23 19:18:17,032 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:17] "GET /api/events?_ts=1776964696691 HTTP/1.1" 200 -
+2026-04-23 19:18:17,067 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:17] "GET /api/learning-insights?_ts=1776964696691 HTTP/1.1" 200 -
+2026-04-23 19:18:17,112 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:17] "GET /api/runtime?_ts=1776964696691 HTTP/1.1" 200 -
+2026-04-23 19:18:18,982 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:18] "GET /api/learning-insights?_ts=1776964698684 HTTP/1.1" 200 -
+2026-04-23 19:18:18,984 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:18] "GET /api/events?_ts=1776964698684 HTTP/1.1" 200 -
+2026-04-23 19:18:18,994 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:18] "GET /api/status?_ts=1776964698684 HTTP/1.1" 200 -
+2026-04-23 19:18:19,035 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:19] "GET /api/runtime?_ts=1776964698684 HTTP/1.1" 200 -
+2026-04-23 19:18:21,024 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:21] "GET /api/status?_ts=1776964700678 HTTP/1.1" 200 -
+2026-04-23 19:18:21,342 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:21] "GET /api/events?_ts=1776964700678 HTTP/1.1" 200 -
+2026-04-23 19:18:21,346 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:21] "GET /api/runtime?_ts=1776964700678 HTTP/1.1" 200 -
+2026-04-23 19:18:21,383 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:21] "GET /api/learning-insights?_ts=1776964700679 HTTP/1.1" 200 -
+2026-04-23 19:18:23,318 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:23] "GET /api/events?_ts=1776964702690 HTTP/1.1" 200 -
+2026-04-23 19:18:23,359 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:23] "GET /api/learning-insights?_ts=1776964702691 HTTP/1.1" 200 -
+2026-04-23 19:18:23,407 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:23] "GET /api/status?_ts=1776964702690 HTTP/1.1" 200 -
+2026-04-23 19:18:23,429 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:23] "GET /api/runtime?_ts=1776964702691 HTTP/1.1" 200 -
+2026-04-23 19:18:25,067 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:25] "GET /api/learning-insights?_ts=1776964704692 HTTP/1.1" 200 -
+2026-04-23 19:18:25,071 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:25] "GET /api/status?_ts=1776964704691 HTTP/1.1" 200 -
+2026-04-23 19:18:25,101 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:25] "GET /api/events?_ts=1776964704692 HTTP/1.1" 200 -
+2026-04-23 19:18:25,157 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:25] "GET /api/runtime?_ts=1776964704692 HTTP/1.1" 200 -
+2026-04-23 19:18:27,045 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:27] "GET /api/status?_ts=1776964706679 HTTP/1.1" 200 -
+2026-04-23 19:18:27,167 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:27] "GET /api/runtime?_ts=1776964706679 HTTP/1.1" 200 -
+2026-04-23 19:18:27,201 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:27] "GET /api/learning-insights?_ts=1776964706680 HTTP/1.1" 200 -
+2026-04-23 19:18:27,218 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:27] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:18:27,226 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:27] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:18:27,250 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:27] "GET /api/events?_ts=1776964706679 HTTP/1.1" 200 -
+2026-04-23 19:18:27,295 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:27] "GET /api/self-improvement/audit?_ts=1776964706682 HTTP/1.1" 200 -
+2026-04-23 19:18:27,359 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:27] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:18:27,412 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:27] "GET /api/self-improvement/proposals?_ts=1776964706682 HTTP/1.1" 200 -
+2026-04-23 19:18:27,417 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:27] "GET /api/self-improvement/rollouts?_ts=1776964706682 HTTP/1.1" 200 -
+2026-04-23 19:18:27,461 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:27] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:18:27,536 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:27] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:18:29,002 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:29] "GET /api/events?_ts=1776964708690 HTTP/1.1" 200 -
+2026-04-23 19:18:29,072 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:29] "GET /api/status?_ts=1776964708689 HTTP/1.1" 200 -
+2026-04-23 19:18:29,538 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:29] "GET /api/learning-insights?_ts=1776964708690 HTTP/1.1" 200 -
+2026-04-23 19:18:29,576 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:29] "GET /api/runtime?_ts=1776964708690 HTTP/1.1" 200 -
+2026-04-23 19:18:30,958 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:30] "GET /api/events?_ts=1776964710679 HTTP/1.1" 200 -
+2026-04-23 19:18:31,005 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:31] "GET /api/learning-insights?_ts=1776964710679 HTTP/1.1" 200 -
+2026-04-23 19:18:31,024 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:31] "GET /api/status?_ts=1776964710678 HTTP/1.1" 200 -
+2026-04-23 19:18:31,117 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:31] "GET /api/runtime?_ts=1776964710679 HTTP/1.1" 200 -
+2026-04-23 19:18:33,827 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:33] "GET /api/status?_ts=1776964712680 HTTP/1.1" 200 -
+2026-04-23 19:18:34,860 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:34] "GET /api/runtime?_ts=1776964712682 HTTP/1.1" 200 -
+2026-04-23 19:18:36,059 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:36] "GET /api/events?_ts=1776964712682 HTTP/1.1" 200 -
+2026-04-23 19:18:36,072 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:36] "GET /api/learning-insights?_ts=1776964712683 HTTP/1.1" 200 -
+2026-04-23 19:18:36,929 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:36] "GET /api/events?_ts=1776964716688 HTTP/1.1" 200 -
+2026-04-23 19:18:36,983 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:36] "GET /api/learning-insights?_ts=1776964716688 HTTP/1.1" 200 -
+2026-04-23 19:18:37,020 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:37] "GET /api/status?_ts=1776964716687 HTTP/1.1" 200 -
+2026-04-23 19:18:37,093 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:37] "GET /api/runtime?_ts=1776964716688 HTTP/1.1" 200 -
+2026-04-23 19:18:39,118 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:39] "GET /api/status?_ts=1776964718680 HTTP/1.1" 200 -
+2026-04-23 19:18:39,223 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:39] "GET /api/runtime?_ts=1776964718681 HTTP/1.1" 200 -
+2026-04-23 19:18:39,267 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:18:39,295 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:18:39,326 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:39] "GET /api/events?_ts=1776964718680 HTTP/1.1" 200 -
+2026-04-23 19:18:39,358 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:18:39,371 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:39] "GET /api/self-improvement/audit?_ts=1776964718683 HTTP/1.1" 200 -
+2026-04-23 19:18:39,490 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:39] "GET /api/learning-insights?_ts=1776964718681 HTTP/1.1" 200 -
+2026-04-23 19:18:39,529 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:18:39,554 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:39] "GET /api/self-improvement/proposals?_ts=1776964718683 HTTP/1.1" 200 -
+2026-04-23 19:18:39,568 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:39] "GET /api/self-improvement/rollouts?_ts=1776964718683 HTTP/1.1" 200 -
+2026-04-23 19:18:39,756 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:18:40,939 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:40] "GET /api/events?_ts=1776964720688 HTTP/1.1" 200 -
+2026-04-23 19:18:40,979 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:40] "GET /api/learning-insights?_ts=1776964720689 HTTP/1.1" 200 -
+2026-04-23 19:18:41,001 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:41] "GET /api/status?_ts=1776964720687 HTTP/1.1" 200 -
+2026-04-23 19:18:41,030 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:41] "GET /api/runtime?_ts=1776964720688 HTTP/1.1" 200 -
+2026-04-23 19:18:43,061 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:43] "GET /api/events?_ts=1776964722686 HTTP/1.1" 200 -
+2026-04-23 19:18:43,065 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:43] "GET /api/status?_ts=1776964722686 HTTP/1.1" 200 -
+2026-04-23 19:18:43,093 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:43] "GET /api/learning-insights?_ts=1776964722687 HTTP/1.1" 200 -
+2026-04-23 19:18:43,120 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:43] "GET /api/runtime?_ts=1776964722687 HTTP/1.1" 200 -
+2026-04-23 19:18:45,080 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:45] "GET /api/events?_ts=1776964724678 HTTP/1.1" 200 -
+2026-04-23 19:18:45,133 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:45] "GET /api/learning-insights?_ts=1776964724678 HTTP/1.1" 200 -
+2026-04-23 19:18:45,135 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:45] "GET /api/status?_ts=1776964724677 HTTP/1.1" 200 -
+2026-04-23 19:18:45,199 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:45] "GET /api/runtime?_ts=1776964724678 HTTP/1.1" 200 -
+2026-04-23 19:18:47,163 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:47] "GET /api/events?_ts=1776964726677 HTTP/1.1" 200 -
+2026-04-23 19:18:47,201 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:47] "GET /api/status?_ts=1776964726676 HTTP/1.1" 200 -
+2026-04-23 19:18:47,288 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:47] "GET /api/learning-insights?_ts=1776964726677 HTTP/1.1" 200 -
+2026-04-23 19:18:47,300 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:47] "GET /api/runtime?_ts=1776964726677 HTTP/1.1" 200 -
+2026-04-23 19:18:49,064 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:49] "GET /api/status?_ts=1776964728689 HTTP/1.1" 200 -
+2026-04-23 19:18:49,155 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:49] "GET /api/events?_ts=1776964728690 HTTP/1.1" 200 -
+2026-04-23 19:18:49,247 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:49] "GET /api/learning-insights?_ts=1776964728690 HTTP/1.1" 200 -
+2026-04-23 19:18:49,254 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:49] "GET /api/runtime?_ts=1776964728690 HTTP/1.1" 200 -
+2026-04-23 19:18:51,133 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:51] "GET /api/status?_ts=1776964730714 HTTP/1.1" 200 -
+2026-04-23 19:18:51,327 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:51] "GET /api/runtime?_ts=1776964730715 HTTP/1.1" 200 -
+2026-04-23 19:18:51,360 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:18:51,382 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:18:51,590 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:51] "GET /api/events?_ts=1776964730715 HTTP/1.1" 200 -
+2026-04-23 19:18:51,599 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:51] "GET /api/learning-insights?_ts=1776964730715 HTTP/1.1" 200 -
+2026-04-23 19:18:51,643 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:18:51,648 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:51] "GET /api/self-improvement/audit?_ts=1776964730717 HTTP/1.1" 200 -
+2026-04-23 19:18:51,679 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:18:51,738 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:51] "GET /api/self-improvement/proposals?_ts=1776964730717 HTTP/1.1" 200 -
+2026-04-23 19:18:51,778 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:51] "GET /api/self-improvement/rollouts?_ts=1776964730717 HTTP/1.1" 200 -
+2026-04-23 19:18:51,873 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:18:53,036 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:53] "GET /api/status?_ts=1776964732676 HTTP/1.1" 200 -
+2026-04-23 19:18:53,128 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:53] "GET /api/learning-insights?_ts=1776964732676 HTTP/1.1" 200 -
+2026-04-23 19:18:53,168 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:53] "GET /api/events?_ts=1776964732676 HTTP/1.1" 200 -
+2026-04-23 19:18:53,244 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:53] "GET /api/runtime?_ts=1776964732676 HTTP/1.1" 200 -
+2026-04-23 19:18:58,779 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:18:58] "GET /api/status?_ts=1776964734690 HTTP/1.1" 200 -
+2026-04-23 19:19:01,749 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:01] "GET /api/runtime?_ts=1776964734691 HTTP/1.1" 200 -
+2026-04-23 19:19:02,472 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:02] "GET /api/status?_ts=1776964740679 HTTP/1.1" 200 -
+2026-04-23 19:19:02,587 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:02] "GET /api/events?_ts=1776964734691 HTTP/1.1" 200 -
+2026-04-23 19:19:02,614 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:02] "GET /api/learning-insights?_ts=1776964734691 HTTP/1.1" 200 -
+2026-04-23 19:19:02,620 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:02] "GET /api/runtime?_ts=1776964740681 HTTP/1.1" 200 -
+2026-04-23 19:19:02,684 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:02] "GET /api/events?_ts=1776964740680 HTTP/1.1" 200 -
+2026-04-23 19:19:02,758 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:02] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:19:02,784 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:02] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:19:02,808 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:02] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:19:02,861 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:02] "GET /api/learning-insights?_ts=1776964740687 HTTP/1.1" 200 -
+2026-04-23 19:19:02,873 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:02] "GET /api/self-improvement/audit?_ts=1776964742686 HTTP/1.1" 200 -
+2026-04-23 19:19:03,030 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:03] "GET /api/self-improvement/proposals?_ts=1776964742685 HTTP/1.1" 200 -
+2026-04-23 19:19:03,058 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:03] "GET /api/self-improvement/rollouts?_ts=1776964742685 HTTP/1.1" 200 -
+2026-04-23 19:19:03,366 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:03] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:19:03,378 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:03] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:19:03,448 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:03] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:19:03,889 | INFO | TTS.utils.manage | tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+2026-04-23 19:19:05,028 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:05] "GET /api/learning-insights?_ts=1776964744678 HTTP/1.1" 200 -
+2026-04-23 19:19:05,064 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:05] "GET /api/events?_ts=1776964744678 HTTP/1.1" 200 -
+2026-04-23 19:19:05,071 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:05] "GET /api/status?_ts=1776964744677 HTTP/1.1" 200 -
+2026-04-23 19:19:05,104 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:05] "GET /api/runtime?_ts=1776964744678 HTTP/1.1" 200 -
+2026-04-23 19:19:05,862 | INFO | TTS.tts.models | Using model: xtts
+2026-04-23 19:19:06,920 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:06] "GET /api/events?_ts=1776964746688 HTTP/1.1" 200 -
+2026-04-23 19:19:06,954 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:06] "GET /api/learning-insights?_ts=1776964746689 HTTP/1.1" 200 -
+2026-04-23 19:19:07,017 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:07] "GET /api/status?_ts=1776964746688 HTTP/1.1" 200 -
+2026-04-23 19:19:07,053 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:07] "GET /api/runtime?_ts=1776964746689 HTTP/1.1" 200 -
+2026-04-23 19:19:09,047 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:09] "GET /api/events?_ts=1776964748683 HTTP/1.1" 200 -
+2026-04-23 19:19:09,106 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:09] "GET /api/learning-insights?_ts=1776964748684 HTTP/1.1" 200 -
+2026-04-23 19:19:09,201 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:09] "GET /api/status?_ts=1776964748683 HTTP/1.1" 200 -
+2026-04-23 19:19:09,235 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:09] "GET /api/runtime?_ts=1776964748683 HTTP/1.1" 200 -
+2026-04-23 19:19:10,959 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:10] "GET /api/events?_ts=1776964750678 HTTP/1.1" 200 -
+2026-04-23 19:19:11,163 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:11] "GET /api/learning-insights?_ts=1776964750678 HTTP/1.1" 200 -
+2026-04-23 19:19:11,345 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:11] "GET /api/status?_ts=1776964750677 HTTP/1.1" 200 -
+2026-04-23 19:19:11,371 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:11] "GET /api/runtime?_ts=1776964750678 HTTP/1.1" 200 -
+2026-04-23 19:19:12,958 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:12] "GET /api/events?_ts=1776964752689 HTTP/1.1" 200 -
+2026-04-23 19:19:12,973 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:12] "GET /api/learning-insights?_ts=1776964752689 HTTP/1.1" 200 -
+2026-04-23 19:19:12,993 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:12] "GET /api/status?_ts=1776964752688 HTTP/1.1" 200 -
+2026-04-23 19:19:13,042 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:13] "GET /api/runtime?_ts=1776964752689 HTTP/1.1" 200 -
+2026-04-23 19:19:15,388 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:15] "GET /api/events?_ts=1776964754683 HTTP/1.1" 200 -
+2026-04-23 19:19:15,398 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:15] "GET /api/status?_ts=1776964754683 HTTP/1.1" 200 -
+2026-04-23 19:19:15,499 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:15] "GET /api/learning-insights?_ts=1776964754684 HTTP/1.1" 200 -
+2026-04-23 19:19:15,514 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:15] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:19:15,526 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:15] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:19:15,620 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:15] "GET /api/runtime?_ts=1776964754684 HTTP/1.1" 200 -
+2026-04-23 19:19:15,646 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:15] "GET /api/self-improvement/audit?_ts=1776964754686 HTTP/1.1" 200 -
+2026-04-23 19:19:17,314 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:17] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:19:17,346 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:17] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:19:17,401 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:17] "GET /api/self-improvement/rollouts?_ts=1776964754686 HTTP/1.1" 200 -
+2026-04-23 19:19:17,460 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:17] "GET /api/self-improvement/proposals?_ts=1776964754686 HTTP/1.1" 200 -
+2026-04-23 19:19:17,857 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:17] "GET /api/events?_ts=1776964756679 HTTP/1.1" 200 -
+2026-04-23 19:19:17,862 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:17] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:19:17,959 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:17] "GET /api/status?_ts=1776964756679 HTTP/1.1" 200 -
+2026-04-23 19:19:18,007 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:18] "GET /api/learning-insights?_ts=1776964756680 HTTP/1.1" 200 -
+2026-04-23 19:19:18,041 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:18] "GET /api/runtime?_ts=1776964756679 HTTP/1.1" 200 -
+2026-04-23 19:19:19,008 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:19] "GET /api/learning-insights?_ts=1776964758690 HTTP/1.1" 200 -
+2026-04-23 19:19:19,103 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:19] "GET /api/events?_ts=1776964758689 HTTP/1.1" 200 -
+2026-04-23 19:19:19,137 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:19] "GET /api/status?_ts=1776964758689 HTTP/1.1" 200 -
+2026-04-23 19:19:19,187 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:19] "GET /api/runtime?_ts=1776964758689 HTTP/1.1" 200 -
+2026-04-23 19:19:20,900 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:20] "GET /api/events?_ts=1776964760685 HTTP/1.1" 200 -
+2026-04-23 19:19:21,053 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:21] "GET /api/learning-insights?_ts=1776964760686 HTTP/1.1" 200 -
+2026-04-23 19:19:21,110 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:21] "GET /api/status?_ts=1776964760685 HTTP/1.1" 200 -
+2026-04-23 19:19:21,152 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:21] "GET /api/runtime?_ts=1776964760686 HTTP/1.1" 200 -
+2026-04-23 19:19:22,911 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:22] "GET /api/events?_ts=1776964762677 HTTP/1.1" 200 -
+2026-04-23 19:19:22,967 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:22] "GET /api/learning-insights?_ts=1776964762677 HTTP/1.1" 200 -
+2026-04-23 19:19:22,994 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:22] "GET /api/status?_ts=1776964762676 HTTP/1.1" 200 -
+2026-04-23 19:19:23,030 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:23] "GET /api/runtime?_ts=1776964762677 HTTP/1.1" 200 -
+2026-04-23 19:19:25,025 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:25] "GET /api/events?_ts=1776964764690 HTTP/1.1" 200 -
+2026-04-23 19:19:25,080 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:25] "GET /api/learning-insights?_ts=1776964764691 HTTP/1.1" 200 -
+2026-04-23 19:19:25,254 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:25] "GET /api/runtime?_ts=1776964764691 HTTP/1.1" 200 -
+2026-04-23 19:19:25,283 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:25] "GET /api/status?_ts=1776964764690 HTTP/1.1" 200 -
+2026-04-23 19:19:27,161 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:27] "GET /api/events?_ts=1776964766686 HTTP/1.1" 200 -
+2026-04-23 19:19:27,283 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:27] "GET /api/status?_ts=1776964766685 HTTP/1.1" 200 -
+2026-04-23 19:19:27,331 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:27] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:19:27,375 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:27] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:19:27,432 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:27] "GET /api/runtime?_ts=1776964766687 HTTP/1.1" 200 -
+2026-04-23 19:19:27,519 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:27] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:19:27,575 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:27] "GET /api/self-improvement/audit?_ts=1776964766700 HTTP/1.1" 200 -
+2026-04-23 19:19:27,602 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:27] "GET /api/learning-insights?_ts=1776964766688 HTTP/1.1" 200 -
+2026-04-23 19:19:27,721 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:27] "GET /api/self-improvement/proposals?_ts=1776964766699 HTTP/1.1" 200 -
+2026-04-23 19:19:27,753 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:27] "GET /api/self-improvement/rollouts?_ts=1776964766700 HTTP/1.1" 200 -
+2026-04-23 19:19:27,852 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:27] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:19:27,903 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:27] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:19:29,182 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:29] "GET /api/events?_ts=1776964768681 HTTP/1.1" 200 -
+2026-04-23 19:19:29,269 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:29] "GET /api/learning-insights?_ts=1776964768683 HTTP/1.1" 200 -
+2026-04-23 19:19:29,278 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:29] "GET /api/status?_ts=1776964768679 HTTP/1.1" 200 -
+2026-04-23 19:19:29,557 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:29] "GET /api/runtime?_ts=1776964768682 HTTP/1.1" 200 -
+2026-04-23 19:19:30,992 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:30] "GET /api/events?_ts=1776964770692 HTTP/1.1" 200 -
+2026-04-23 19:19:31,088 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:31] "GET /api/learning-insights?_ts=1776964770693 HTTP/1.1" 200 -
+2026-04-23 19:19:31,125 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:31] "GET /api/status?_ts=1776964770691 HTTP/1.1" 200 -
+2026-04-23 19:19:31,275 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:31] "GET /api/runtime?_ts=1776964770692 HTTP/1.1" 200 -
+2026-04-23 19:19:32,966 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:32] "GET /api/events?_ts=1776964772684 HTTP/1.1" 200 -
+2026-04-23 19:19:33,033 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:33] "GET /api/learning-insights?_ts=1776964772684 HTTP/1.1" 200 -
+2026-04-23 19:19:33,048 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:33] "GET /api/status?_ts=1776964772683 HTTP/1.1" 200 -
+2026-04-23 19:19:33,140 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:33] "GET /api/runtime?_ts=1776964772684 HTTP/1.1" 200 -
+2026-04-23 19:19:34,964 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:34] "GET /api/events?_ts=1776964774681 HTTP/1.1" 200 -
+2026-04-23 19:19:35,079 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:35] "GET /api/learning-insights?_ts=1776964774681 HTTP/1.1" 200 -
+2026-04-23 19:19:35,115 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:35] "GET /api/status?_ts=1776964774680 HTTP/1.1" 200 -
+2026-04-23 19:19:35,172 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:35] "GET /api/runtime?_ts=1776964774681 HTTP/1.1" 200 -
+2026-04-23 19:19:36,992 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:36] "GET /api/events?_ts=1776964776691 HTTP/1.1" 200 -
+2026-04-23 19:19:37,056 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:37] "GET /api/learning-insights?_ts=1776964776692 HTTP/1.1" 200 -
+2026-04-23 19:19:37,085 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:37] "GET /api/status?_ts=1776964776691 HTTP/1.1" 200 -
+2026-04-23 19:19:37,173 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:37] "GET /api/runtime?_ts=1776964776691 HTTP/1.1" 200 -
+2026-04-23 19:19:39,267 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:39] "GET /api/status?_ts=1776964778677 HTTP/1.1" 200 -
+2026-04-23 19:19:39,333 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:19:39,386 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:19:39,437 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:19:39,469 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:39] "GET /api/runtime?_ts=1776964778687 HTTP/1.1" 200 -
+2026-04-23 19:19:39,674 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:39] "GET /api/self-improvement/rollouts?_ts=1776964778737 HTTP/1.1" 200 -
+2026-04-23 19:19:39,679 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:39] "GET /api/self-improvement/proposals?_ts=1776964778737 HTTP/1.1" 200 -
+2026-04-23 19:19:39,751 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:39] "GET /api/self-improvement/audit?_ts=1776964778737 HTTP/1.1" 200 -
+2026-04-23 19:19:39,817 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:39] "GET /api/events?_ts=1776964778679 HTTP/1.1" 200 -
+2026-04-23 19:19:39,851 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:19:40,016 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:40] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:19:40,105 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:40] "GET /api/learning-insights?_ts=1776964778688 HTTP/1.1" 200 -
+2026-04-23 19:19:41,263 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:41] "GET /api/events?_ts=1776964780682 HTTP/1.1" 200 -
+2026-04-23 19:19:41,382 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:41] "GET /api/learning-insights?_ts=1776964780683 HTTP/1.1" 200 -
+2026-04-23 19:19:41,474 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:41] "GET /api/status?_ts=1776964780682 HTTP/1.1" 200 -
+2026-04-23 19:19:41,641 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:41] "GET /api/runtime?_ts=1776964780683 HTTP/1.1" 200 -
+2026-04-23 19:19:43,408 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:43] "GET /api/status?_ts=1776964782692 HTTP/1.1" 200 -
+2026-04-23 19:19:43,446 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:43] "GET /api/events?_ts=1776964782693 HTTP/1.1" 200 -
+2026-04-23 19:19:43,540 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:43] "GET /api/runtime?_ts=1776964782693 HTTP/1.1" 200 -
+2026-04-23 19:19:43,591 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:43] "GET /api/learning-insights?_ts=1776964782694 HTTP/1.1" 200 -
+2026-04-23 19:19:45,236 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:45] "GET /api/events?_ts=1776964784686 HTTP/1.1" 200 -
+2026-04-23 19:19:45,336 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:45] "GET /api/status?_ts=1776964784685 HTTP/1.1" 200 -
+2026-04-23 19:19:45,452 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:45] "GET /api/runtime?_ts=1776964784686 HTTP/1.1" 200 -
+2026-04-23 19:19:45,452 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:45] "GET /api/learning-insights?_ts=1776964784686 HTTP/1.1" 200 -
+2026-04-23 19:19:47,026 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:47] "GET /api/events?_ts=1776964786682 HTTP/1.1" 200 -
+2026-04-23 19:19:47,141 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:47] "GET /api/learning-insights?_ts=1776964786683 HTTP/1.1" 200 -
+2026-04-23 19:19:47,464 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:47] "GET /api/status?_ts=1776964786682 HTTP/1.1" 200 -
+2026-04-23 19:19:47,725 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:47] "GET /api/runtime?_ts=1776964786683 HTTP/1.1" 200 -
+2026-04-23 19:19:49,248 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:49] "GET /api/events?_ts=1776964788691 HTTP/1.1" 200 -
+2026-04-23 19:19:49,440 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:49] "GET /api/learning-insights?_ts=1776964788692 HTTP/1.1" 200 -
+2026-04-23 19:19:49,558 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:49] "GET /api/status?_ts=1776964788690 HTTP/1.1" 200 -
+2026-04-23 19:19:49,712 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:49] "GET /api/runtime?_ts=1776964788691 HTTP/1.1" 200 -
+2026-04-23 19:19:51,249 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:51] "GET /api/events?_ts=1776964790686 HTTP/1.1" 200 -
+2026-04-23 19:19:51,414 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:19:51,519 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:19:51,548 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:19:51,604 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:51] "GET /api/status?_ts=1776964790686 HTTP/1.1" 200 -
+2026-04-23 19:19:51,649 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:51] "GET /api/runtime?_ts=1776964790687 HTTP/1.1" 200 -
+2026-04-23 19:19:51,669 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:51] "GET /api/self-improvement/audit?_ts=1776964790704 HTTP/1.1" 200 -
+2026-04-23 19:19:51,745 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:51] "GET /api/self-improvement/proposals?_ts=1776964790703 HTTP/1.1" 200 -
+2026-04-23 19:19:51,805 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:51] "GET /api/self-improvement/rollouts?_ts=1776964790704 HTTP/1.1" 200 -
+2026-04-23 19:19:51,919 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:19:52,019 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:52] "GET /api/learning-insights?_ts=1776964790687 HTTP/1.1" 200 -
+2026-04-23 19:19:52,137 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:52] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:19:53,181 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:53] "GET /api/events?_ts=1776964792680 HTTP/1.1" 200 -
+2026-04-23 19:19:53,432 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:53] "GET /api/learning-insights?_ts=1776964792681 HTTP/1.1" 200 -
+2026-04-23 19:19:53,857 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:53] "GET /api/runtime?_ts=1776964792680 HTTP/1.1" 200 -
+2026-04-23 19:19:53,942 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:19:53] "GET /api/status?_ts=1776964792678 HTTP/1.1" 200 -
+2026-04-23 19:20:13,264 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:13] "GET /api/learning-insights?_ts=1776964794711 HTTP/1.1" 200 -
+2026-04-23 19:20:13,256 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:13] "GET /api/events?_ts=1776964794710 HTTP/1.1" 200 -
+2026-04-23 19:20:14,057 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:14] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:20:14,062 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:14] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:20:15,058 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:15] "GET /api/self-improvement/rollouts?_ts=1776964803957 HTTP/1.1" 200 -
+2026-04-23 19:20:15,597 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:15] "GET /api/self-improvement/proposals?_ts=1776964803926 HTTP/1.1" 200 -
+2026-04-23 19:20:16,761 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:16] "GET /api/status?_ts=1776964800869 HTTP/1.1" 200 -
+2026-04-23 19:20:16,766 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:16] "GET /api/status?_ts=1776964794709 HTTP/1.1" 200 -
+2026-04-23 19:20:16,842 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:16] "GET /api/runtime?_ts=1776964794710 HTTP/1.1" 200 -
+2026-04-23 19:20:17,011 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:17] "GET /api/status?_ts=1776964812536 HTTP/1.1" 200 -
+2026-04-23 19:20:17,067 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:17] "GET /api/runtime?_ts=1776964812795 HTTP/1.1" 200 -
+2026-04-23 19:20:17,113 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:17] "GET /api/runtime?_ts=1776964801551 HTTP/1.1" 200 -
+2026-04-23 19:20:21,922 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:21] "GET /api/learning-insights?_ts=1776964812795 HTTP/1.1" 200 -
+2026-04-23 19:20:21,965 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:21] "GET /api/events?_ts=1776964812794 HTTP/1.1" 200 -
+2026-04-23 19:20:21,968 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:21] "GET /api/learning-insights?_ts=1776964801553 HTTP/1.1" 200 -
+2026-04-23 19:20:22,033 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:22] "GET /api/events?_ts=1776964801548 HTTP/1.1" 200 -
+2026-04-23 19:20:25,171 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:25] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:20:25,198 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:25] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:20:25,280 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:25] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:20:25,286 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:25] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:20:25,349 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:25] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:20:25,389 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:25] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:20:26,007 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:26] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:20:26,055 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:26] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:20:28,283 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:28] "GET /api/status?_ts=1776964824679 HTTP/1.1" 200 -
+2026-04-23 19:20:28,452 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:28] "GET /api/runtime?_ts=1776964824806 HTTP/1.1" 200 -
+2026-04-23 19:20:28,735 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:28] "GET /api/self-improvement/proposals?_ts=1776964826739 HTTP/1.1" 200 -
+2026-04-23 19:20:28,819 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:28] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:20:28,840 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:28] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:20:28,882 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:28] "GET /api/self-improvement/audit?_ts=1776964826740 HTTP/1.1" 200 -
+2026-04-23 19:20:28,964 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:28] "GET /api/self-improvement/rollouts?_ts=1776964826740 HTTP/1.1" 200 -
+2026-04-23 19:20:31,443 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:31] "GET /api/events?_ts=1776964830726 HTTP/1.1" 200 -
+2026-04-23 19:20:31,456 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:31] "GET /api/events?_ts=1776964824804 HTTP/1.1" 200 -
+2026-04-23 19:20:31,607 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:31] "GET /api/learning-insights?_ts=1776964824807 HTTP/1.1" 200 -
+2026-04-23 19:20:31,660 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:31] "GET /api/status?_ts=1776964830679 HTTP/1.1" 200 -
+2026-04-23 19:20:32,105 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:32] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:20:32,123 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:32] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:20:32,213 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:32] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:20:32,277 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:32] "GET /api/runtime?_ts=1776964830727 HTTP/1.1" 200 -
+2026-04-23 19:20:32,822 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:32] "GET /api/learning-insights?_ts=1776964830727 HTTP/1.1" 200 -
+2026-04-23 19:20:35,927 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:35] "GET /api/status?_ts=1776964834683 HTTP/1.1" 200 -
+2026-04-23 19:20:36,111 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:36] "GET /api/runtime?_ts=1776964834685 HTTP/1.1" 200 -
+2026-04-23 19:20:38,820 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:38] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:20:38,956 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:38] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:20:38,988 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:38] "GET /api/self-improvement/audit?_ts=1776964838706 HTTP/1.1" 200 -
+2026-04-23 19:20:39,104 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:39] "GET /api/self-improvement/proposals?_ts=1776964838705 HTTP/1.1" 200 -
+2026-04-23 19:20:39,136 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:39] "GET /api/self-improvement/rollouts?_ts=1776964838705 HTTP/1.1" 200 -
+2026-04-23 19:20:41,360 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:41] "GET /api/status?_ts=1776964840684 HTTP/1.1" 200 -
+2026-04-23 19:20:41,630 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:41] "GET /api/runtime?_ts=1776964840685 HTTP/1.1" 200 -
+2026-04-23 19:20:43,011 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:43] "GET /api/learning-insights?_ts=1776964840685 HTTP/1.1" 200 -
+2026-04-23 19:20:43,062 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:43] "GET /api/events?_ts=1776964840684 HTTP/1.1" 200 -
+2026-04-23 19:20:43,078 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:43] "GET /api/learning-insights?_ts=1776964834691 HTTP/1.1" 200 -
+2026-04-23 19:20:43,126 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:43] "GET /api/events?_ts=1776964834684 HTTP/1.1" 200 -
+2026-04-23 19:20:43,191 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:43] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:20:43,209 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:43] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:20:43,278 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:43] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:20:45,821 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:45] "GET /api/events?_ts=1776964844730 HTTP/1.1" 200 -
+2026-04-23 19:20:45,836 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:45] "GET /api/learning-insights?_ts=1776964844735 HTTP/1.1" 200 -
+2026-04-23 19:20:45,841 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:45] "GET /api/status?_ts=1776964844729 HTTP/1.1" 200 -
+2026-04-23 19:20:45,908 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:45] "GET /api/runtime?_ts=1776964844733 HTTP/1.1" 200 -
+2026-04-23 19:20:47,398 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:47] "GET /api/events?_ts=1776964846685 HTTP/1.1" 200 -
+2026-04-23 19:20:47,885 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:47] "GET /api/runtime?_ts=1776964846685 HTTP/1.1" 200 -
+2026-04-23 19:20:47,946 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:47] "GET /api/status?_ts=1776964846684 HTTP/1.1" 200 -
+2026-04-23 19:20:48,079 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:48] "GET /api/learning-insights?_ts=1776964846686 HTTP/1.1" 200 -
+2026-04-23 19:20:49,214 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:49] "GET /api/learning-insights?_ts=1776964848687 HTTP/1.1" 200 -
+2026-04-23 19:20:49,254 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:49] "GET /api/events?_ts=1776964848684 HTTP/1.1" 200 -
+2026-04-23 19:20:49,283 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:49] "GET /api/status?_ts=1776964848682 HTTP/1.1" 200 -
+2026-04-23 19:20:49,338 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:49] "GET /api/runtime?_ts=1776964848686 HTTP/1.1" 200 -
+2026-04-23 19:20:52,434 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:52] "GET /api/self-improvement/proposals?_ts=1776964850688 HTTP/1.1" 200 -
+2026-04-23 19:20:52,556 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:52] "GET /api/status?_ts=1776964850683 HTTP/1.1" 200 -
+2026-04-23 19:20:52,726 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:52] "GET /api/runtime?_ts=1776964850684 HTTP/1.1" 200 -
+2026-04-23 19:20:52,749 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:52] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:20:52,763 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:52] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:20:52,808 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:52] "GET /api/events?_ts=1776964850683 HTTP/1.1" 200 -
+2026-04-23 19:20:52,819 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:52] "GET /api/self-improvement/audit?_ts=1776964850689 HTTP/1.1" 200 -
+2026-04-23 19:20:52,888 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:52] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:20:52,942 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:52] "GET /api/learning-insights?_ts=1776964850684 HTTP/1.1" 200 -
+2026-04-23 19:20:52,986 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:52] "GET /api/self-improvement/rollouts?_ts=1776964850688 HTTP/1.1" 200 -
+2026-04-23 19:20:53,052 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:53] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:20:53,090 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:53] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:20:55,024 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:55] "GET /api/events?_ts=1776964854681 HTTP/1.1" 200 -
+2026-04-23 19:20:55,037 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:55] "GET /api/learning-insights?_ts=1776964854682 HTTP/1.1" 200 -
+2026-04-23 19:20:55,121 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:55] "GET /api/status?_ts=1776964854681 HTTP/1.1" 200 -
+2026-04-23 19:20:55,140 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:55] "GET /api/runtime?_ts=1776964854682 HTTP/1.1" 200 -
+2026-04-23 19:20:57,558 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:57] "GET /api/events?_ts=1776964856693 HTTP/1.1" 200 -
+2026-04-23 19:20:57,822 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:57] "GET /api/learning-insights?_ts=1776964856694 HTTP/1.1" 200 -
+2026-04-23 19:20:58,321 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:58] "GET /api/status?_ts=1776964856692 HTTP/1.1" 200 -
+2026-04-23 19:20:58,522 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:58] "GET /api/runtime?_ts=1776964856694 HTTP/1.1" 200 -
+2026-04-23 19:20:59,518 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:59] "GET /api/events?_ts=1776964858754 HTTP/1.1" 200 -
+2026-04-23 19:20:59,817 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:20:59] "GET /api/learning-insights?_ts=1776964858768 HTTP/1.1" 200 -
+2026-04-23 19:21:00,145 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:00] "GET /api/runtime?_ts=1776964858768 HTTP/1.1" 200 -
+2026-04-23 19:21:00,261 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:00] "GET /api/status?_ts=1776964858752 HTTP/1.1" 200 -
+2026-04-23 19:21:01,983 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:01] "GET /api/events?_ts=1776964860688 HTTP/1.1" 200 -
+2026-04-23 19:21:02,195 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:02] "GET /api/learning-insights?_ts=1776964860689 HTTP/1.1" 200 -
+2026-04-23 19:21:03,653 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:03] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:21:03,724 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:03] "GET /api/status?_ts=1776964860688 HTTP/1.1" 200 -
+2026-04-23 19:21:03,856 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:03] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:21:04,274 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:04] "GET /api/self-improvement/proposals?_ts=1776964862708 HTTP/1.1" 200 -
+2026-04-23 19:21:04,279 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:04] "GET /api/self-improvement/rollouts?_ts=1776964862709 HTTP/1.1" 200 -
+2026-04-23 19:21:04,318 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:04] "GET /api/self-improvement/audit?_ts=1776964862711 HTTP/1.1" 200 -
+2026-04-23 19:21:04,518 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:04] "GET /api/runtime?_ts=1776964860689 HTTP/1.1" 200 -
+2026-04-23 19:21:05,543 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:05] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:21:05,551 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:05] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:21:05,914 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:05] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:21:06,048 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:06] "GET /api/status?_ts=1776964864690 HTTP/1.1" 200 -
+2026-04-23 19:21:06,201 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:06] "GET /api/runtime?_ts=1776964864699 HTTP/1.1" 200 -
+2026-04-23 19:21:06,531 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:06] "GET /api/events?_ts=1776964864695 HTTP/1.1" 200 -
+2026-04-23 19:21:06,927 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:06] "GET /api/learning-insights?_ts=1776964864701 HTTP/1.1" 200 -
+2026-04-23 19:21:09,771 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:09] "GET /api/events?_ts=1776964868693 HTTP/1.1" 200 -
+2026-04-23 19:21:09,802 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:09] "GET /api/learning-insights?_ts=1776964868693 HTTP/1.1" 200 -
+2026-04-23 19:21:10,728 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:10] "GET /api/status?_ts=1776964868692 HTTP/1.1" 200 -
+2026-04-23 19:21:12,513 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:12] "GET /api/runtime?_ts=1776964868693 HTTP/1.1" 200 -
+2026-04-23 19:21:24,081 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:24] "GET /api/self-improvement/proposals?_ts=1776964875733 HTTP/1.1" 200 -
+2026-04-23 19:21:26,014 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:26] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:21:28,885 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:28] "GET /api/events?_ts=1776964873420 HTTP/1.1" 200 -
+2026-04-23 19:21:28,966 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:28] "GET /api/learning-insights?_ts=1776964873427 HTTP/1.1" 200 -
+2026-04-23 19:21:29,172 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:29] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:21:30,597 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:30] "GET /api/events?_ts=1776964884902 HTTP/1.1" 200 -
+2026-04-23 19:21:30,675 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:30] "GET /api/events?_ts=1776964879788 HTTP/1.1" 200 -
+2026-04-23 19:21:30,786 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:30] "GET /api/learning-insights?_ts=1776964884909 HTTP/1.1" 200 -
+2026-04-23 19:21:30,838 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:30] "GET /api/status?_ts=1776964878971 HTTP/1.1" 200 -
+2026-04-23 19:21:30,877 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:30] "GET /api/status?_ts=1776964884707 HTTP/1.1" 200 -
+2026-04-23 19:21:30,900 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:30] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:21:30,903 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:30] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:21:30,910 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:30] "GET /api/status?_ts=1776964873328 HTTP/1.1" 200 -
+2026-04-23 19:21:30,950 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:30] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:21:31,021 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:31] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:21:31,045 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:31] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:21:31,073 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:31] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:21:31,153 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:31] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:21:31,193 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:31] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:21:31,196 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:31] "GET /api/self-improvement/audit?_ts=1776964887360 HTTP/1.1" 200 -
+2026-04-23 19:21:31,331 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:31] "GET /api/runtime?_ts=1776964873426 HTTP/1.1" 200 -
+2026-04-23 19:21:31,349 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:31] "GET /api/runtime?_ts=1776964879790 HTTP/1.1" 200 -
+2026-04-23 19:21:31,375 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:31] "GET /api/runtime?_ts=1776964884907 HTTP/1.1" 200 -
+2026-04-23 19:21:31,551 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:31] "GET /api/self-improvement/rollouts?_ts=1776964887359 HTTP/1.1" 200 -
+2026-04-23 19:21:31,672 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:31] "GET /api/learning-insights?_ts=1776964890684 HTTP/1.1" 200 -
+2026-04-23 19:21:31,712 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:31] "GET /api/events?_ts=1776964890683 HTTP/1.1" 200 -
+2026-04-23 19:21:31,717 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:31] "GET /api/self-improvement/proposals?_ts=1776964887359 HTTP/1.1" 200 -
+2026-04-23 19:21:32,296 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:32] "GET /api/status?_ts=1776964890682 HTTP/1.1" 200 -
+2026-04-23 19:21:32,561 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:32] "GET /api/runtime?_ts=1776964890683 HTTP/1.1" 200 -
+2026-04-23 19:21:33,506 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:33] "GET /api/events?_ts=1776964893171 HTTP/1.1" 200 -
+2026-04-23 19:21:33,559 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:33] "GET /api/learning-insights?_ts=1776964893172 HTTP/1.1" 200 -
+2026-04-23 19:21:33,687 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:33] "GET /api/runtime?_ts=1776964893172 HTTP/1.1" 200 -
+2026-04-23 19:21:33,755 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:33] "GET /api/status?_ts=1776964893170 HTTP/1.1" 200 -
+2026-04-23 19:21:35,018 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:35] "GET /api/events?_ts=1776964894685 HTTP/1.1" 200 -
+2026-04-23 19:21:35,053 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:35] "GET /api/learning-insights?_ts=1776964894686 HTTP/1.1" 200 -
+2026-04-23 19:21:35,167 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:35] "GET /api/status?_ts=1776964894684 HTTP/1.1" 200 -
+2026-04-23 19:21:35,450 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:35] "GET /api/runtime?_ts=1776964894685 HTTP/1.1" 200 -
+2026-04-23 19:21:42,362 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:42] "GET /api/self-improvement/audit?_ts=1776964898701 HTTP/1.1" 200 -
+2026-04-23 19:21:42,425 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:42] "GET /api/self-improvement/rollouts?_ts=1776964898700 HTTP/1.1" 200 -
+2026-04-23 19:21:42,426 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:42] "GET /api/self-improvement/proposals?_ts=1776964898699 HTTP/1.1" 200 -
+2026-04-23 19:21:42,445 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:42] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:21:42,455 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:42] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:21:42,697 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:42] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:21:42,823 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:42] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:21:42,916 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:42] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:21:43,116 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:43] "GET /api/status?_ts=1776964902684 HTTP/1.1" 200 -
+2026-04-23 19:21:43,543 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:43] "GET /api/events?_ts=1776964902684 HTTP/1.1" 200 -
+2026-04-23 19:21:43,566 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:43] "GET /api/learning-insights?_ts=1776964902685 HTTP/1.1" 200 -
+2026-04-23 19:21:43,612 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:43] "GET /api/runtime?_ts=1776964902684 HTTP/1.1" 200 -
+2026-04-23 19:21:45,325 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:45] "GET /api/events?_ts=1776964904856 HTTP/1.1" 200 -
+2026-04-23 19:21:45,356 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:45] "GET /api/learning-insights?_ts=1776964904857 HTTP/1.1" 200 -
+2026-04-23 19:21:45,522 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:45] "GET /api/status?_ts=1776964904689 HTTP/1.1" 200 -
+2026-04-23 19:21:45,536 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:45] "GET /api/runtime?_ts=1776964904857 HTTP/1.1" 200 -
+2026-04-23 19:21:47,869 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:47] "GET /api/events?_ts=1776964907556 HTTP/1.1" 200 -
+2026-04-23 19:21:47,958 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:47] "GET /api/learning-insights?_ts=1776964907557 HTTP/1.1" 200 -
+2026-04-23 19:21:48,052 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:48] "GET /api/status?_ts=1776964906684 HTTP/1.1" 200 -
+2026-04-23 19:21:48,167 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:48] "GET /api/runtime?_ts=1776964907557 HTTP/1.1" 200 -
+2026-04-23 19:21:49,164 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:49] "GET /api/events?_ts=1776964908683 HTTP/1.1" 200 -
+2026-04-23 19:21:49,228 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:49] "GET /api/learning-insights?_ts=1776964908684 HTTP/1.1" 200 -
+2026-04-23 19:21:49,293 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:49] "GET /api/status?_ts=1776964908683 HTTP/1.1" 200 -
+2026-04-23 19:21:49,429 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:49] "GET /api/runtime?_ts=1776964908684 HTTP/1.1" 200 -
+2026-04-23 19:21:51,236 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:51] "GET /api/status?_ts=1776964910679 HTTP/1.1" 200 -
+2026-04-23 19:21:51,383 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:51] "GET /api/runtime?_ts=1776964910680 HTTP/1.1" 200 -
+2026-04-23 19:21:51,411 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:21:51,605 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:51] "GET /api/events?_ts=1776964910680 HTTP/1.1" 200 -
+2026-04-23 19:21:51,955 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:21:52,156 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:52] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:21:52,187 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:52] "GET /api/self-improvement/audit?_ts=1776964910695 HTTP/1.1" 200 -
+2026-04-23 19:21:52,225 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:52] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:21:52,290 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:52] "GET /api/learning-insights?_ts=1776964910680 HTTP/1.1" 200 -
+2026-04-23 19:21:52,374 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:52] "GET /api/self-improvement/proposals?_ts=1776964910695 HTTP/1.1" 200 -
+2026-04-23 19:21:52,388 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:52] "GET /api/self-improvement/rollouts?_ts=1776964910695 HTTP/1.1" 200 -
+2026-04-23 19:21:52,468 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:52] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:21:53,031 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:53] "GET /api/events?_ts=1776964912687 HTTP/1.1" 200 -
+2026-04-23 19:21:53,106 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:53] "GET /api/learning-insights?_ts=1776964912688 HTTP/1.1" 200 -
+2026-04-23 19:21:53,158 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:53] "GET /api/status?_ts=1776964912687 HTTP/1.1" 200 -
+2026-04-23 19:21:53,323 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:53] "GET /api/runtime?_ts=1776964912688 HTTP/1.1" 200 -
+2026-04-23 19:21:55,246 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:55] "GET /api/status?_ts=1776964914681 HTTP/1.1" 200 -
+2026-04-23 19:21:55,346 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:55] "GET /api/runtime?_ts=1776964914682 HTTP/1.1" 200 -
+2026-04-23 19:21:55,474 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:55] "GET /api/events?_ts=1776964914681 HTTP/1.1" 200 -
+2026-04-23 19:21:55,496 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:55] "GET /api/learning-insights?_ts=1776964914682 HTTP/1.1" 200 -
+2026-04-23 19:21:56,963 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:56] "GET /api/events?_ts=1776964916677 HTTP/1.1" 200 -
+2026-04-23 19:21:57,056 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:57] "GET /api/learning-insights?_ts=1776964916677 HTTP/1.1" 200 -
+2026-04-23 19:21:57,361 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:57] "GET /api/status?_ts=1776964916676 HTTP/1.1" 200 -
+2026-04-23 19:21:57,479 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:57] "GET /api/runtime?_ts=1776964916677 HTTP/1.1" 200 -
+2026-04-23 19:21:58,889 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:58] "GET /api/events?_ts=1776964918689 HTTP/1.1" 200 -
+2026-04-23 19:21:59,117 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:59] "GET /api/learning-insights?_ts=1776964918690 HTTP/1.1" 200 -
+2026-04-23 19:21:59,355 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:59] "GET /api/status?_ts=1776964918688 HTTP/1.1" 200 -
+2026-04-23 19:21:59,407 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:21:59] "GET /api/runtime?_ts=1776964918689 HTTP/1.1" 200 -
+2026-04-23 19:22:00,983 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:00] "GET /api/events?_ts=1776964920684 HTTP/1.1" 200 -
+2026-04-23 19:22:01,098 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:01] "GET /api/learning-insights?_ts=1776964920684 HTTP/1.1" 200 -
+2026-04-23 19:22:01,195 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:01] "GET /api/runtime?_ts=1776964920684 HTTP/1.1" 200 -
+2026-04-23 19:22:01,201 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:01] "GET /api/status?_ts=1776964920683 HTTP/1.1" 200 -
+2026-04-23 19:22:03,252 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:03] "GET /api/self-improvement/proposals?_ts=1776964922685 HTTP/1.1" 200 -
+2026-04-23 19:22:03,311 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:03] "GET /api/self-improvement/rollouts?_ts=1776964922686 HTTP/1.1" 200 -
+2026-04-23 19:22:03,328 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:03] "GET /api/self-improvement/audit?_ts=1776964922686 HTTP/1.1" 200 -
+2026-04-23 19:22:03,916 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:03] "GET /api/learning-insights?_ts=1776964922678 HTTP/1.1" 200 -
+2026-04-23 19:22:04,066 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:04] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:22:04,159 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:04] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:22:04,160 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:04] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:22:04,222 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:04] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:22:04,274 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:04] "GET /api/events?_ts=1776964922678 HTTP/1.1" 200 -
+2026-04-23 19:22:04,375 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:04] "GET /api/status?_ts=1776964922677 HTTP/1.1" 200 -
+2026-04-23 19:22:04,430 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:04] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:22:04,452 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:04] "GET /api/runtime?_ts=1776964922678 HTTP/1.1" 200 -
+2026-04-23 19:22:04,990 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:04] "GET /api/events?_ts=1776964924689 HTTP/1.1" 200 -
+2026-04-23 19:22:05,094 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:05] "GET /api/learning-insights?_ts=1776964924689 HTTP/1.1" 200 -
+2026-04-23 19:22:05,171 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:05] "GET /api/status?_ts=1776964924688 HTTP/1.1" 200 -
+2026-04-23 19:22:05,237 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:05] "GET /api/runtime?_ts=1776964924689 HTTP/1.1" 200 -
+2026-04-23 19:22:07,123 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:07] "GET /api/status?_ts=1776964926682 HTTP/1.1" 200 -
+2026-04-23 19:22:07,196 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:07] "GET /api/runtime?_ts=1776964926683 HTTP/1.1" 200 -
+2026-04-23 19:22:07,282 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:07] "GET /api/events?_ts=1776964926683 HTTP/1.1" 200 -
+2026-04-23 19:22:07,316 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:07] "GET /api/learning-insights?_ts=1776964926683 HTTP/1.1" 200 -
+2026-04-23 19:22:09,568 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:09] "GET /api/status?_ts=1776964928676 HTTP/1.1" 200 -
+2026-04-23 19:22:09,889 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:09] "GET /api/runtime?_ts=1776964928677 HTTP/1.1" 200 -
+2026-04-23 19:22:12,190 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:12] "GET /api/events?_ts=1776964928677 HTTP/1.1" 200 -
+2026-04-23 19:22:12,355 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:12] "GET /api/learning-insights?_ts=1776964928678 HTTP/1.1" 200 -
+2026-04-23 19:22:40,764 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:40] "GET /api/status?_ts=1776964935411 HTTP/1.1" 200 -
+2026-04-23 19:22:44,494 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:44] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:22:44,826 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:44] "GET /api/self-improvement/proposals?_ts=1776964936960 HTTP/1.1" 200 -
+2026-04-23 19:22:46,205 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:46] "GET /api/events?_ts=1776964935873 HTTP/1.1" 200 -
+2026-04-23 19:22:50,647 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:50] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:22:50,717 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:50] "GET /api/runtime?_ts=1776964935876 HTTP/1.1" 200 -
+2026-04-23 19:22:54,715 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:54] "GET /api/learning-insights?_ts=1776964935900 HTTP/1.1" 200 -
+2026-04-23 19:22:54,695 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:54] "GET /api/events?_ts=1776964954810 HTTP/1.1" 200 -
+2026-04-23 19:22:59,741 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:22:59] "GET /api/status?_ts=1776964954152 HTTP/1.1" 200 -
+2026-04-23 19:23:01,322 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:01] "GET /api/runtime?_ts=1776964954811 HTTP/1.1" 200 -
+2026-04-23 19:23:06,154 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:06] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:23:06,169 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:06] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:23:06,129 | ERROR | atlas_ai.ui_server | Exception on /api/ask-atlas [POST]
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 691, in ask_atlas
+    return jsonify(assistant.answer(query, mode=mode))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui\ask_atlas.py", line 121, in answer
+    response = self._with_handling(self._answer_via_brain(q, mode=mode), handled_as)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui\ask_atlas.py", line 137, in _answer_via_brain
+    engine_result = self.answer_engine.answer(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\brain\answer_engine.py", line 76, in answer
+    performance_feedback_result = self.performance_feedback.evaluate(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\brain\performance_feedback.py", line 82, in evaluate
+    prev_avg = self._rolling_average()
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\brain\performance_feedback.py", line 264, in _rolling_average
+    out[k] = sum(float(x.get(k, 0.0)) for x in self._history) / max(1, len(self._history))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\brain\performance_feedback.py", line 264, in <genexpr>
+    out[k] = sum(float(x.get(k, 0.0)) for x in self._history) / max(1, len(self._history))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: deque mutated during iteration
+2026-04-23 19:23:06,210 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:06] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:23:06,337 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:06] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:23:08,475 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:08] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:23:10,572 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:10] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:23:12,354 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:12] "[35m[1mPOST /api/ask-atlas HTTP/1.1[0m" 500 -
+2026-04-23 19:23:12,501 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:12] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:23:12,505 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:12] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:23:19,306 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:19] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:23:21,573 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:21] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:23:21,576 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:21] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:23:21,585 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:21] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:23:21,593 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:21] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:23:21,627 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:21] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:23:22,445 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:22] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:23:22,452 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:22] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:23:22,542 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:22] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:23:22,549 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:22] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:23:31,430 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:30] "GET /api/events?_ts=1776964996687 HTTP/1.1" 200 -
+2026-04-23 19:23:31,703 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:31] "GET /api/status?_ts=1776964996685 HTTP/1.1" 200 -
+2026-04-23 19:23:31,964 | ERROR | atlas_ai.ui_server | Exception on /api/ask-atlas [POST]
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 691, in ask_atlas
+    return jsonify(assistant.answer(query, mode=mode))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui\ask_atlas.py", line 121, in answer
+    response = self._with_handling(self._answer_via_brain(q, mode=mode), handled_as)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui\ask_atlas.py", line 137, in _answer_via_brain
+    engine_result = self.answer_engine.answer(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\brain\answer_engine.py", line 96, in answer
+    comparison_intel_result = self.comparison_intelligence.evaluate(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\brain\comparison_intelligence.py", line 50, in evaluate
+    baseline = self._rolling_average()
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\brain\comparison_intelligence.py", line 113, in _rolling_average
+    return {k: sum(float(x.get(k, 0.0)) for x in self._history) / max(1, len(self._history)) for k in keys}
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\brain\comparison_intelligence.py", line 113, in <dictcomp>
+    return {k: sum(float(x.get(k, 0.0)) for x in self._history) / max(1, len(self._history)) for k in keys}
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\brain\comparison_intelligence.py", line 113, in <genexpr>
+    return {k: sum(float(x.get(k, 0.0)) for x in self._history) / max(1, len(self._history)) for k in keys}
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: deque mutated during iteration
+2026-04-23 19:23:31,985 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:31] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:23:31,991 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:31] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:23:32,001 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:32] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:23:32,708 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:32] "[35m[1mPOST /api/ask-atlas HTTP/1.1[0m" 500 -
+2026-04-23 19:23:35,692 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:35] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:23:36,257 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:36] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:23:42,017 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:42] "GET /api/status?_ts=1776965010720 HTTP/1.1" 200 -
+2026-04-23 19:23:42,024 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:42] "GET /api/status?_ts=1776965005422 HTTP/1.1" 200 -
+2026-04-23 19:23:42,509 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:42] "GET /api/runtime?_ts=1776964996687 HTTP/1.1" 200 -
+2026-04-23 19:23:42,522 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:42] "GET /api/runtime?_ts=1776965011717 HTTP/1.1" 200 -
+2026-04-23 19:23:42,812 | INFO | atlas_ai.voice.startup | Using cloned voice for startup greeting.
+2026-04-23 19:23:43,862 | INFO | TTS.utils.synthesizer | Text split into sentences.
+2026-04-23 19:23:43,869 | INFO | TTS.utils.synthesizer | Input: ["Hello sir, the time is 19:17, and let's make the market respect us."]
+2026-04-23 19:23:47,847 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:47] "GET /api/learning-insights?_ts=1776965011717 HTTP/1.1" 200 -
+2026-04-23 19:23:48,073 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:48] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:23:48,158 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:48] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:23:48,161 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:48] "GET /api/events?_ts=1776965011567 HTTP/1.1" 200 -
+2026-04-23 19:23:48,175 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:48] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:23:48,278 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:23:48] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:19,673 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:19] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:19,689 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:19] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:19,804 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:19] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:20,142 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:20] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:20,196 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:20] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:20,338 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:20] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:20,487 | INFO | atlas_ai.voice.startup | Startup greeting playback success.
+2026-04-23 19:24:21,085 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:21] "GET /api/events?_ts=1776965005856 HTTP/1.1" 200 -
+2026-04-23 19:24:21,098 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:21] "GET /api/status HTTP/1.1" 200 -
+2026-04-23 19:24:21,101 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:21] "GET /api/status?_ts=1776965026678 HTTP/1.1" 200 -
+2026-04-23 19:24:21,109 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:21] "GET /api/status HTTP/1.1" 200 -
+2026-04-23 19:24:21,502 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:21] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:21,548 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:21] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:21,549 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:21] "GET /api/events?_ts=1776965026679 HTTP/1.1" 200 -
+2026-04-23 19:24:21,589 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:21] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:21,601 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:21] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:21,847 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:21] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:21,882 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:21] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:21,984 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:21] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:22,026 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:22] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:22,063 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:22] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:22,149 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:22] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:22,500 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:22] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:22,543 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:22] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:22,613 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:22] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:23,068 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:23] "GET /api/events?_ts=1776965062680 HTTP/1.1" 200 -
+2026-04-23 19:24:23,131 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:23] "GET /api/status?_ts=1776965062679 HTTP/1.1" 200 -
+2026-04-23 19:24:23,180 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:23] "GET /api/learning-insights?_ts=1776965062681 HTTP/1.1" 200 -
+2026-04-23 19:24:23,244 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:23] "GET /api/runtime?_ts=1776965062680 HTTP/1.1" 200 -
+2026-04-23 19:24:24,971 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:24] "GET /api/learning-insights?_ts=1776965064693 HTTP/1.1" 200 -
+2026-04-23 19:24:25,060 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:25] "GET /api/events?_ts=1776965064692 HTTP/1.1" 200 -
+2026-04-23 19:24:25,107 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:25] "GET /api/status?_ts=1776965064692 HTTP/1.1" 200 -
+2026-04-23 19:24:25,155 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:25] "GET /api/runtime?_ts=1776965064692 HTTP/1.1" 200 -
+2026-04-23 19:24:27,519 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:27] "GET /api/events?_ts=1776965066683 HTTP/1.1" 200 -
+2026-04-23 19:24:27,801 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:27] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:27,963 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:27] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:28,015 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:28] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:28,027 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:28] "GET /api/status?_ts=1776965066682 HTTP/1.1" 200 -
+2026-04-23 19:24:28,066 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:28] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:28,097 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:28] "GET /api/self-improvement/audit?_ts=1776965066699 HTTP/1.1" 200 -
+2026-04-23 19:24:28,161 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:28] "GET /api/self-improvement/proposals?_ts=1776965066699 HTTP/1.1" 200 -
+2026-04-23 19:24:28,194 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:28] "GET /api/runtime?_ts=1776965066683 HTTP/1.1" 200 -
+2026-04-23 19:24:28,277 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:28] "GET /api/self-improvement/rollouts?_ts=1776965066699 HTTP/1.1" 200 -
+2026-04-23 19:24:28,302 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:28] "GET /api/learning-insights?_ts=1776965066684 HTTP/1.1" 200 -
+2026-04-23 19:24:28,382 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:28] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:29,246 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:29] "GET /api/events?_ts=1776965068679 HTTP/1.1" 200 -
+2026-04-23 19:24:29,313 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:29] "GET /api/status?_ts=1776965068679 HTTP/1.1" 200 -
+2026-04-23 19:24:29,359 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:29] "GET /api/learning-insights?_ts=1776965068681 HTTP/1.1" 200 -
+2026-04-23 19:24:29,395 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:29] "GET /api/runtime?_ts=1776965068680 HTTP/1.1" 200 -
+2026-04-23 19:24:31,022 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:31] "GET /api/events?_ts=1776965070689 HTTP/1.1" 200 -
+2026-04-23 19:24:31,126 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:31] "GET /api/learning-insights?_ts=1776965070690 HTTP/1.1" 200 -
+2026-04-23 19:24:31,179 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:31] "GET /api/status?_ts=1776965070689 HTTP/1.1" 200 -
+2026-04-23 19:24:31,324 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:31] "GET /api/runtime?_ts=1776965070689 HTTP/1.1" 200 -
+2026-04-23 19:24:33,063 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:33] "GET /api/events?_ts=1776965072684 HTTP/1.1" 200 -
+2026-04-23 19:24:33,164 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:33] "GET /api/status?_ts=1776965072684 HTTP/1.1" 200 -
+2026-04-23 19:24:33,203 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:33] "GET /api/learning-insights?_ts=1776965072688 HTTP/1.1" 200 -
+2026-04-23 19:24:33,301 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:33] "GET /api/runtime?_ts=1776965072685 HTTP/1.1" 200 -
+2026-04-23 19:24:35,008 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:35] "GET /api/learning-insights?_ts=1776965074679 HTTP/1.1" 200 -
+2026-04-23 19:24:35,045 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:35] "GET /api/events?_ts=1776965074679 HTTP/1.1" 200 -
+2026-04-23 19:24:35,057 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:35] "GET /api/status?_ts=1776965074678 HTTP/1.1" 200 -
+2026-04-23 19:24:35,105 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:35] "GET /api/runtime?_ts=1776965074679 HTTP/1.1" 200 -
+2026-04-23 19:24:36,953 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:36] "GET /api/learning-insights?_ts=1776965076691 HTTP/1.1" 200 -
+2026-04-23 19:24:36,976 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:36] "GET /api/events?_ts=1776965076691 HTTP/1.1" 200 -
+2026-04-23 19:24:37,022 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:37] "GET /api/status?_ts=1776965076690 HTTP/1.1" 200 -
+2026-04-23 19:24:37,058 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:37] "GET /api/runtime?_ts=1776965076691 HTTP/1.1" 200 -
+2026-04-23 19:24:39,099 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:39] "GET /api/status?_ts=1776965078685 HTTP/1.1" 200 -
+2026-04-23 19:24:39,302 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:39,352 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:39] "GET /api/events?_ts=1776965078686 HTTP/1.1" 200 -
+2026-04-23 19:24:39,386 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:39,431 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:39,464 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:39,479 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:39] "GET /api/self-improvement/audit?_ts=1776965078704 HTTP/1.1" 200 -
+2026-04-23 19:24:39,536 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:39] "GET /api/runtime?_ts=1776965078686 HTTP/1.1" 200 -
+2026-04-23 19:24:39,581 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:39] "GET /api/learning-insights?_ts=1776965078687 HTTP/1.1" 200 -
+2026-04-23 19:24:39,606 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:39] "GET /api/self-improvement/proposals?_ts=1776965078702 HTTP/1.1" 200 -
+2026-04-23 19:24:39,633 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:39] "GET /api/self-improvement/rollouts?_ts=1776965078703 HTTP/1.1" 200 -
+2026-04-23 19:24:39,732 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:41,042 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:41] "GET /api/events?_ts=1776965080681 HTTP/1.1" 200 -
+2026-04-23 19:24:41,179 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:41] "GET /api/learning-insights?_ts=1776965080682 HTTP/1.1" 200 -
+2026-04-23 19:24:41,297 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:41] "GET /api/status?_ts=1776965080681 HTTP/1.1" 200 -
+2026-04-23 19:24:41,405 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:41] "GET /api/runtime?_ts=1776965080682 HTTP/1.1" 200 -
+2026-04-23 19:24:43,251 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:43] "GET /api/events?_ts=1776965082693 HTTP/1.1" 200 -
+2026-04-23 19:24:43,426 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:43] "GET /api/learning-insights?_ts=1776965082694 HTTP/1.1" 200 -
+2026-04-23 19:24:43,434 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:43] "GET /api/status?_ts=1776965082692 HTTP/1.1" 200 -
+2026-04-23 19:24:43,505 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:43] "GET /api/runtime?_ts=1776965082694 HTTP/1.1" 200 -
+2026-04-23 19:24:45,048 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:45] "GET /api/events?_ts=1776965084685 HTTP/1.1" 200 -
+2026-04-23 19:24:45,086 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:45] "GET /api/learning-insights?_ts=1776965084686 HTTP/1.1" 200 -
+2026-04-23 19:24:45,157 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:45] "GET /api/status?_ts=1776965084685 HTTP/1.1" 200 -
+2026-04-23 19:24:45,249 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:45] "GET /api/runtime?_ts=1776965084686 HTTP/1.1" 200 -
+2026-04-23 19:24:46,997 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:46] "GET /api/learning-insights?_ts=1776965086682 HTTP/1.1" 200 -
+2026-04-23 19:24:47,082 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:47] "GET /api/events?_ts=1776965086681 HTTP/1.1" 200 -
+2026-04-23 19:24:47,105 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:47] "GET /api/status?_ts=1776965086680 HTTP/1.1" 200 -
+2026-04-23 19:24:47,167 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:47] "GET /api/runtime?_ts=1776965086681 HTTP/1.1" 200 -
+2026-04-23 19:24:49,223 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:49] "GET /api/events?_ts=1776965088679 HTTP/1.1" 200 -
+2026-04-23 19:24:49,291 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:49] "GET /api/learning-insights?_ts=1776965088679 HTTP/1.1" 200 -
+2026-04-23 19:24:49,341 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:49] "GET /api/status?_ts=1776965088678 HTTP/1.1" 200 -
+2026-04-23 19:24:49,415 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:49] "GET /api/runtime?_ts=1776965088679 HTTP/1.1" 200 -
+2026-04-23 19:24:51,168 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:51] "GET /api/status?_ts=1776965090688 HTTP/1.1" 200 -
+2026-04-23 19:24:51,300 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:51] "GET /api/learning-insights?_ts=1776965090689 HTTP/1.1" 200 -
+2026-04-23 19:24:51,354 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:51,361 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:51,387 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:51,428 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:51,432 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:51] "GET /api/events?_ts=1776965090689 HTTP/1.1" 200 -
+2026-04-23 19:24:51,486 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:51] "GET /api/runtime?_ts=1776965090689 HTTP/1.1" 200 -
+2026-04-23 19:24:51,493 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:51] "GET /api/self-improvement/audit?_ts=1776965090701 HTTP/1.1" 200 -
+2026-04-23 19:24:51,581 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:51] "GET /api/self-improvement/proposals?_ts=1776965090701 HTTP/1.1" 200 -
+2026-04-23 19:24:51,597 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:51] "GET /api/self-improvement/rollouts?_ts=1776965090701 HTTP/1.1" 200 -
+2026-04-23 19:24:51,699 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:24:52,909 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:52] "GET /api/events?_ts=1776965092681 HTTP/1.1" 200 -
+2026-04-23 19:24:52,979 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:52] "GET /api/learning-insights?_ts=1776965092681 HTTP/1.1" 200 -
+2026-04-23 19:24:53,063 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:53] "GET /api/status?_ts=1776965092680 HTTP/1.1" 200 -
+2026-04-23 19:24:53,132 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:53] "GET /api/runtime?_ts=1776965092681 HTTP/1.1" 200 -
+2026-04-23 19:24:54,989 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:54] "GET /api/events?_ts=1776965094691 HTTP/1.1" 200 -
+2026-04-23 19:24:55,056 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:55] "GET /api/learning-insights?_ts=1776965094692 HTTP/1.1" 200 -
+2026-04-23 19:24:55,159 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:55] "GET /api/status?_ts=1776965094690 HTTP/1.1" 200 -
+2026-04-23 19:24:55,215 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:55] "GET /api/runtime?_ts=1776965094692 HTTP/1.1" 200 -
+2026-04-23 19:24:56,986 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:56] "GET /api/learning-insights?_ts=1776965096687 HTTP/1.1" 200 -
+2026-04-23 19:24:56,987 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:56] "GET /api/events?_ts=1776965096686 HTTP/1.1" 200 -
+2026-04-23 19:24:57,008 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:57] "GET /api/status?_ts=1776965096686 HTTP/1.1" 200 -
+2026-04-23 19:24:57,052 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:57] "GET /api/runtime?_ts=1776965096687 HTTP/1.1" 200 -
+2026-04-23 19:24:58,928 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:58] "GET /api/learning-insights?_ts=1776965098681 HTTP/1.1" 200 -
+2026-04-23 19:24:58,966 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:58] "GET /api/events?_ts=1776965098681 HTTP/1.1" 200 -
+2026-04-23 19:24:58,999 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:58] "GET /api/status?_ts=1776965098681 HTTP/1.1" 200 -
+2026-04-23 19:24:59,030 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:24:59] "GET /api/runtime?_ts=1776965098681 HTTP/1.1" 200 -
+2026-04-23 19:25:00,941 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:00] "GET /api/learning-insights?_ts=1776965100691 HTTP/1.1" 200 -
+2026-04-23 19:25:00,975 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:00] "GET /api/events?_ts=1776965100690 HTTP/1.1" 200 -
+2026-04-23 19:25:01,015 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:01] "GET /api/status?_ts=1776965100689 HTTP/1.1" 200 -
+2026-04-23 19:25:01,054 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:01] "GET /api/runtime?_ts=1776965100690 HTTP/1.1" 200 -
+2026-04-23 19:25:03,126 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:03] "GET /api/status?_ts=1776965102685 HTTP/1.1" 200 -
+2026-04-23 19:25:03,236 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:03] "GET /api/events?_ts=1776965102686 HTTP/1.1" 200 -
+2026-04-23 19:25:03,271 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:03] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:25:03,286 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:03] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:25:03,305 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:03] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:25:03,386 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:03] "GET /api/learning-insights?_ts=1776965102687 HTTP/1.1" 200 -
+2026-04-23 19:25:03,403 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:03] "GET /api/runtime?_ts=1776965102686 HTTP/1.1" 200 -
+2026-04-23 19:25:03,419 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:03] "GET /api/self-improvement/audit?_ts=1776965102703 HTTP/1.1" 200 -
+2026-04-23 19:25:03,489 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:03] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:25:03,514 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:03] "GET /api/self-improvement/proposals?_ts=1776965102702 HTTP/1.1" 200 -
+2026-04-23 19:25:03,528 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:03] "GET /api/self-improvement/rollouts?_ts=1776965102703 HTTP/1.1" 200 -
+2026-04-23 19:25:03,598 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:03] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:25:05,005 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:05] "GET /api/events?_ts=1776965104684 HTTP/1.1" 200 -
+2026-04-23 19:25:05,049 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:05] "GET /api/status?_ts=1776965104683 HTTP/1.1" 200 -
+2026-04-23 19:25:05,085 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:05] "GET /api/learning-insights?_ts=1776965104685 HTTP/1.1" 200 -
+2026-04-23 19:25:05,118 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:05] "GET /api/runtime?_ts=1776965104684 HTTP/1.1" 200 -
+2026-04-23 19:25:06,958 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:06] "GET /api/events?_ts=1776965106694 HTTP/1.1" 200 -
+2026-04-23 19:25:07,008 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:07] "GET /api/learning-insights?_ts=1776965106695 HTTP/1.1" 200 -
+2026-04-23 19:25:07,052 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:07] "GET /api/status?_ts=1776965106693 HTTP/1.1" 200 -
+2026-04-23 19:25:07,139 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:07] "GET /api/runtime?_ts=1776965106694 HTTP/1.1" 200 -
+2026-04-23 19:25:08,953 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:08] "GET /api/events?_ts=1776965108688 HTTP/1.1" 200 -
+2026-04-23 19:25:09,088 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:09] "GET /api/learning-insights?_ts=1776965108689 HTTP/1.1" 200 -
+2026-04-23 19:25:09,177 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:09] "GET /api/status?_ts=1776965108687 HTTP/1.1" 200 -
+2026-04-23 19:25:09,204 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:09] "GET /api/runtime?_ts=1776965108689 HTTP/1.1" 200 -
+2026-04-23 19:25:10,961 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:10] "GET /api/events?_ts=1776965110683 HTTP/1.1" 200 -
+2026-04-23 19:25:11,031 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:11] "GET /api/learning-insights?_ts=1776965110683 HTTP/1.1" 200 -
+2026-04-23 19:25:11,098 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:11] "GET /api/status?_ts=1776965110682 HTTP/1.1" 200 -
+2026-04-23 19:25:11,198 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:11] "GET /api/runtime?_ts=1776965110683 HTTP/1.1" 200 -
+2026-04-23 19:25:12,925 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:12] "GET /api/events?_ts=1776965112676 HTTP/1.1" 200 -
+2026-04-23 19:25:12,986 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:12] "GET /api/learning-insights?_ts=1776965112677 HTTP/1.1" 200 -
+2026-04-23 19:25:13,043 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:13] "GET /api/status?_ts=1776965112676 HTTP/1.1" 200 -
+2026-04-23 19:25:13,077 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:13] "GET /api/runtime?_ts=1776965112677 HTTP/1.1" 200 -
+2026-04-23 19:25:15,083 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:15] "GET /api/status?_ts=1776965114685 HTTP/1.1" 200 -
+2026-04-23 19:25:15,232 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:15] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:25:15,257 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:15] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:25:15,271 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:15] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:25:15,287 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:15] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:25:15,353 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:15] "GET /api/events?_ts=1776965114685 HTTP/1.1" 200 -
+2026-04-23 19:25:15,418 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:15] "GET /api/runtime?_ts=1776965114686 HTTP/1.1" 200 -
+2026-04-23 19:25:15,419 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:15] "GET /api/self-improvement/audit?_ts=1776965114702 HTTP/1.1" 200 -
+2026-04-23 19:25:15,526 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:15] "GET /api/self-improvement/proposals?_ts=1776965114701 HTTP/1.1" 200 -
+2026-04-23 19:25:15,598 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:15] "GET /api/learning-insights?_ts=1776965114686 HTTP/1.1" 200 -
+2026-04-23 19:25:15,685 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:15] "GET /api/self-improvement/rollouts?_ts=1776965114701 HTTP/1.1" 200 -
+2026-04-23 19:25:15,785 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:15] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:25:17,063 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:17] "GET /api/events?_ts=1776965116681 HTTP/1.1" 200 -
+2026-04-23 19:25:17,113 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:17] "GET /api/learning-insights?_ts=1776965116681 HTTP/1.1" 200 -
+2026-04-23 19:25:17,146 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:17] "GET /api/status?_ts=1776965116680 HTTP/1.1" 200 -
+2026-04-23 19:25:17,183 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:17] "GET /api/runtime?_ts=1776965116681 HTTP/1.1" 200 -
+2026-04-23 19:25:18,944 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:18] "GET /api/events?_ts=1776965118677 HTTP/1.1" 200 -
+2026-04-23 19:25:18,991 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:18] "GET /api/learning-insights?_ts=1776965118678 HTTP/1.1" 200 -
+2026-04-23 19:25:18,997 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:18] "GET /api/status?_ts=1776965118677 HTTP/1.1" 200 -
+2026-04-23 19:25:19,029 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:19] "GET /api/runtime?_ts=1776965118677 HTTP/1.1" 200 -
+2026-04-23 19:25:20,935 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:20] "GET /api/learning-insights?_ts=1776965120687 HTTP/1.1" 200 -
+2026-04-23 19:25:20,989 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:20] "GET /api/events?_ts=1776965120686 HTTP/1.1" 200 -
+2026-04-23 19:25:21,023 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:21] "GET /api/status?_ts=1776965120685 HTTP/1.1" 200 -
+2026-04-23 19:25:21,052 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:21] "GET /api/runtime?_ts=1776965120686 HTTP/1.1" 200 -
+2026-04-23 19:25:22,944 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:22] "GET /api/events?_ts=1776965122682 HTTP/1.1" 200 -
+2026-04-23 19:25:22,981 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:22] "GET /api/learning-insights?_ts=1776965122683 HTTP/1.1" 200 -
+2026-04-23 19:25:23,011 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:23] "GET /api/status?_ts=1776965122681 HTTP/1.1" 200 -
+2026-04-23 19:25:23,049 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:23] "GET /api/runtime?_ts=1776965122682 HTTP/1.1" 200 -
+2026-04-23 19:25:24,939 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:24] "GET /api/events?_ts=1776965124690 HTTP/1.1" 200 -
+2026-04-23 19:25:24,961 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:24] "GET /api/learning-insights?_ts=1776965124691 HTTP/1.1" 200 -
+2026-04-23 19:25:24,984 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:24] "GET /api/status?_ts=1776965124690 HTTP/1.1" 200 -
+2026-04-23 19:25:25,007 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:25] "GET /api/runtime?_ts=1776965124691 HTTP/1.1" 200 -
+2026-04-23 19:25:27,095 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:27] "GET /api/status?_ts=1776965126685 HTTP/1.1" 200 -
+2026-04-23 19:25:27,269 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:27] "GET /api/events?_ts=1776965126686 HTTP/1.1" 200 -
+2026-04-23 19:25:27,313 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:27] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:25:27,354 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:27] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:25:27,367 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:27] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:25:27,367 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:27] "GET /api/learning-insights?_ts=1776965126687 HTTP/1.1" 200 -
+2026-04-23 19:25:27,401 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:27] "GET /api/self-improvement/audit?_ts=1776965126689 HTTP/1.1" 200 -
+2026-04-23 19:25:27,438 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:27] "GET /api/runtime?_ts=1776965126686 HTTP/1.1" 200 -
+2026-04-23 19:25:27,526 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:27] "GET /api/self-improvement/proposals?_ts=1776965126689 HTTP/1.1" 200 -
+2026-04-23 19:25:27,565 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:27] "GET /api/self-improvement/rollouts?_ts=1776965126689 HTTP/1.1" 200 -
+2026-04-23 19:25:27,651 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:27] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:25:27,727 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:27] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:25:29,132 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:29] "GET /api/events?_ts=1776965128682 HTTP/1.1" 200 -
+2026-04-23 19:25:29,195 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:29] "GET /api/learning-insights?_ts=1776965128683 HTTP/1.1" 200 -
+2026-04-23 19:25:29,216 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:29] "GET /api/status?_ts=1776965128681 HTTP/1.1" 200 -
+2026-04-23 19:25:29,295 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:29] "GET /api/runtime?_ts=1776965128682 HTTP/1.1" 200 -
+2026-04-23 19:25:31,177 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:31] "GET /api/events?_ts=1776965130695 HTTP/1.1" 200 -
+2026-04-23 19:25:31,257 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:31] "GET /api/status?_ts=1776965130694 HTTP/1.1" 200 -
+2026-04-23 19:25:31,326 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:31] "GET /api/learning-insights?_ts=1776965130696 HTTP/1.1" 200 -
+2026-04-23 19:25:31,356 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:31] "GET /api/runtime?_ts=1776965130696 HTTP/1.1" 200 -
+2026-04-23 19:25:33,140 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:33] "GET /api/events?_ts=1776965132685 HTTP/1.1" 200 -
+2026-04-23 19:25:33,253 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:33] "GET /api/learning-insights?_ts=1776965132686 HTTP/1.1" 200 -
+2026-04-23 19:25:33,256 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:33] "GET /api/status?_ts=1776965132684 HTTP/1.1" 200 -
+2026-04-23 19:25:33,303 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:33] "GET /api/runtime?_ts=1776965132685 HTTP/1.1" 200 -
+2026-04-23 19:25:35,165 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:35] "GET /api/events?_ts=1776965134684 HTTP/1.1" 200 -
+2026-04-23 19:25:35,347 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:35] "GET /api/learning-insights?_ts=1776965134685 HTTP/1.1" 200 -
+2026-04-23 19:25:35,370 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:35] "GET /api/status?_ts=1776965134684 HTTP/1.1" 200 -
+2026-04-23 19:25:35,479 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:35] "GET /api/runtime?_ts=1776965134685 HTTP/1.1" 200 -
+2026-04-23 19:25:37,355 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:37] "GET /api/events?_ts=1776965136681 HTTP/1.1" 200 -
+2026-04-23 19:25:37,392 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:37] "GET /api/learning-insights?_ts=1776965136682 HTTP/1.1" 200 -
+2026-04-23 19:25:37,396 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:37] "GET /api/status?_ts=1776965136680 HTTP/1.1" 200 -
+2026-04-23 19:25:37,456 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:37] "GET /api/runtime?_ts=1776965136681 HTTP/1.1" 200 -
+2026-04-23 19:25:39,325 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:39] "GET /api/status?_ts=1776965138687 HTTP/1.1" 200 -
+2026-04-23 19:25:39,566 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:39] "GET /api/events?_ts=1776965138687 HTTP/1.1" 200 -
+2026-04-23 19:25:39,634 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:25:39,674 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:25:39,701 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:25:39,736 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:25:39,755 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:39] "GET /api/self-improvement/audit?_ts=1776965138704 HTTP/1.1" 200 -
+2026-04-23 19:25:39,833 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:39] "GET /api/runtime?_ts=1776965138688 HTTP/1.1" 200 -
+2026-04-23 19:25:39,926 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:39] "GET /api/learning-insights?_ts=1776965138688 HTTP/1.1" 200 -
+2026-04-23 19:25:39,953 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:39] "GET /api/self-improvement/proposals?_ts=1776965138703 HTTP/1.1" 200 -
+2026-04-23 19:25:39,983 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:39] "GET /api/self-improvement/rollouts?_ts=1776965138704 HTTP/1.1" 200 -
+2026-04-23 19:25:40,095 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:40] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:25:41,041 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:41] "GET /api/events?_ts=1776965140684 HTTP/1.1" 200 -
+2026-04-23 19:25:41,085 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:41] "GET /api/learning-insights?_ts=1776965140684 HTTP/1.1" 200 -
+2026-04-23 19:25:41,103 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:41] "GET /api/status?_ts=1776965140683 HTTP/1.1" 200 -
+2026-04-23 19:25:41,151 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:41] "GET /api/runtime?_ts=1776965140684 HTTP/1.1" 200 -
+2026-04-23 19:25:43,328 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:43] "GET /api/events?_ts=1776965142683 HTTP/1.1" 200 -
+2026-04-23 19:25:43,542 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:43] "GET /api/status?_ts=1776965142681 HTTP/1.1" 200 -
+2026-04-23 19:25:43,817 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:43] "GET /api/learning-insights?_ts=1776965142685 HTTP/1.1" 200 -
+2026-04-23 19:25:44,002 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:44] "GET /api/runtime?_ts=1776965142684 HTTP/1.1" 200 -
+2026-04-23 19:25:44,977 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:44] "GET /api/events?_ts=1776965144687 HTTP/1.1" 200 -
+2026-04-23 19:25:45,118 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:45] "GET /api/learning-insights?_ts=1776965144688 HTTP/1.1" 200 -
+2026-04-23 19:25:45,183 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:45] "GET /api/status?_ts=1776965144687 HTTP/1.1" 200 -
+2026-04-23 19:25:45,252 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:45] "GET /api/runtime?_ts=1776965144688 HTTP/1.1" 200 -
+2026-04-23 19:25:47,067 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:47] "GET /api/events?_ts=1776965146684 HTTP/1.1" 200 -
+2026-04-23 19:25:47,267 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:47] "GET /api/learning-insights?_ts=1776965146685 HTTP/1.1" 200 -
+2026-04-23 19:25:47,277 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:47] "GET /api/status?_ts=1776965146684 HTTP/1.1" 200 -
+2026-04-23 19:25:47,362 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:47] "GET /api/runtime?_ts=1776965146685 HTTP/1.1" 200 -
+2026-04-23 19:25:49,195 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:49] "GET /api/events?_ts=1776965148680 HTTP/1.1" 200 -
+2026-04-23 19:25:49,342 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:49] "GET /api/learning-insights?_ts=1776965148681 HTTP/1.1" 200 -
+2026-04-23 19:25:49,398 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:49] "GET /api/status?_ts=1776965148680 HTTP/1.1" 200 -
+2026-04-23 19:25:49,441 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:49] "GET /api/runtime?_ts=1776965148680 HTTP/1.1" 200 -
+2026-04-23 19:25:51,146 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:51] "GET /api/status?_ts=1776965150686 HTTP/1.1" 200 -
+2026-04-23 19:25:51,257 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:51] "GET /api/events?_ts=1776965150686 HTTP/1.1" 200 -
+2026-04-23 19:25:51,322 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:51] "GET /api/learning-insights?_ts=1776965150687 HTTP/1.1" 200 -
+2026-04-23 19:25:51,335 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:25:51,339 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:25:51,363 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:25:51,373 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:25:51,421 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:51] "GET /api/self-improvement/audit?_ts=1776965150695 HTTP/1.1" 200 -
+2026-04-23 19:25:51,432 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:51] "GET /api/runtime?_ts=1776965150687 HTTP/1.1" 200 -
+2026-04-23 19:25:51,520 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:51] "GET /api/self-improvement/proposals?_ts=1776965150692 HTTP/1.1" 200 -
+2026-04-23 19:25:51,533 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:51] "GET /api/self-improvement/rollouts?_ts=1776965150693 HTTP/1.1" 200 -
+2026-04-23 19:25:51,606 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:25:53,007 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:53] "GET /api/events?_ts=1776965152683 HTTP/1.1" 200 -
+2026-04-23 19:25:53,012 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:53] "GET /api/learning-insights?_ts=1776965152684 HTTP/1.1" 200 -
+2026-04-23 19:25:53,047 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:53] "GET /api/status?_ts=1776965152682 HTTP/1.1" 200 -
+2026-04-23 19:25:53,080 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:53] "GET /api/runtime?_ts=1776965152684 HTTP/1.1" 200 -
+2026-04-23 19:25:54,974 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:54] "GET /api/events?_ts=1776965154676 HTTP/1.1" 200 -
+2026-04-23 19:25:55,030 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:55] "GET /api/learning-insights?_ts=1776965154677 HTTP/1.1" 200 -
+2026-04-23 19:25:55,046 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:55] "GET /api/status?_ts=1776965154676 HTTP/1.1" 200 -
+2026-04-23 19:25:55,142 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:55] "GET /api/runtime?_ts=1776965154677 HTTP/1.1" 200 -
+2026-04-23 19:25:56,971 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:56] "GET /api/events?_ts=1776965156688 HTTP/1.1" 200 -
+2026-04-23 19:25:56,990 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:56] "GET /api/learning-insights?_ts=1776965156688 HTTP/1.1" 200 -
+2026-04-23 19:25:57,023 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:57] "GET /api/status?_ts=1776965156687 HTTP/1.1" 200 -
+2026-04-23 19:25:57,079 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:57] "GET /api/runtime?_ts=1776965156688 HTTP/1.1" 200 -
+2026-04-23 19:25:58,982 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:58] "GET /api/events?_ts=1776965158682 HTTP/1.1" 200 -
+2026-04-23 19:25:59,015 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:59] "GET /api/learning-insights?_ts=1776965158682 HTTP/1.1" 200 -
+2026-04-23 19:25:59,036 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:59] "GET /api/status?_ts=1776965158681 HTTP/1.1" 200 -
+2026-04-23 19:25:59,067 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:25:59] "GET /api/runtime?_ts=1776965158682 HTTP/1.1" 200 -
+2026-04-23 19:26:00,981 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:00] "GET /api/events?_ts=1776965160676 HTTP/1.1" 200 -
+2026-04-23 19:26:01,040 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:01] "GET /api/learning-insights?_ts=1776965160677 HTTP/1.1" 200 -
+2026-04-23 19:26:01,109 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:01] "GET /api/status?_ts=1776965160676 HTTP/1.1" 200 -
+2026-04-23 19:26:01,146 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:01] "GET /api/runtime?_ts=1776965160677 HTTP/1.1" 200 -
+2026-04-23 19:26:03,186 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:03] "GET /api/status?_ts=1776965162690 HTTP/1.1" 200 -
+2026-04-23 19:26:03,289 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:03] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:26:03,318 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:03] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:26:03,339 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:03] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:26:03,386 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:03] "GET /api/events?_ts=1776965162690 HTTP/1.1" 200 -
+2026-04-23 19:26:03,438 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:03] "GET /api/runtime?_ts=1776965162691 HTTP/1.1" 200 -
+2026-04-23 19:26:03,486 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:03] "GET /api/self-improvement/audit?_ts=1776965162705 HTTP/1.1" 200 -
+2026-04-23 19:26:03,567 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:03] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:26:03,623 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:03] "GET /api/learning-insights?_ts=1776965162691 HTTP/1.1" 200 -
+2026-04-23 19:26:03,722 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:03] "GET /api/self-improvement/proposals?_ts=1776965162703 HTTP/1.1" 200 -
+2026-04-23 19:26:03,791 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:03] "GET /api/self-improvement/rollouts?_ts=1776965162704 HTTP/1.1" 200 -
+2026-04-23 19:26:03,920 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:03] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:26:05,019 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:05] "GET /api/events?_ts=1776965164684 HTTP/1.1" 200 -
+2026-04-23 19:26:05,146 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:05] "GET /api/status?_ts=1776965164683 HTTP/1.1" 200 -
+2026-04-23 19:26:05,196 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:05] "GET /api/learning-insights?_ts=1776965164685 HTTP/1.1" 200 -
+2026-04-23 19:26:05,248 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:05] "GET /api/runtime?_ts=1776965164685 HTTP/1.1" 200 -
+2026-04-23 19:26:06,981 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:06] "GET /api/events?_ts=1776965166677 HTTP/1.1" 200 -
+2026-04-23 19:26:07,025 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:07] "GET /api/learning-insights?_ts=1776965166679 HTTP/1.1" 200 -
+2026-04-23 19:26:07,054 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:07] "GET /api/status?_ts=1776965166677 HTTP/1.1" 200 -
+2026-04-23 19:26:07,090 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:07] "GET /api/runtime?_ts=1776965166678 HTTP/1.1" 200 -
+2026-04-23 19:26:08,978 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:08] "GET /api/events?_ts=1776965168686 HTTP/1.1" 200 -
+2026-04-23 19:26:09,019 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:09] "GET /api/learning-insights?_ts=1776965168687 HTTP/1.1" 200 -
+2026-04-23 19:26:09,040 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:09] "GET /api/status?_ts=1776965168686 HTTP/1.1" 200 -
+2026-04-23 19:26:09,126 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:09] "GET /api/runtime?_ts=1776965168687 HTTP/1.1" 200 -
+2026-04-23 19:26:10,967 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:10] "GET /api/learning-insights?_ts=1776965170684 HTTP/1.1" 200 -
+2026-04-23 19:26:11,011 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:11] "GET /api/events?_ts=1776965170683 HTTP/1.1" 200 -
+2026-04-23 19:26:11,036 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:11] "GET /api/status?_ts=1776965170682 HTTP/1.1" 200 -
+2026-04-23 19:26:11,079 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:11] "GET /api/runtime?_ts=1776965170683 HTTP/1.1" 200 -
+2026-04-23 19:26:12,947 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:12] "GET /api/events?_ts=1776965172678 HTTP/1.1" 200 -
+2026-04-23 19:26:12,976 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:12] "GET /api/learning-insights?_ts=1776965172679 HTTP/1.1" 200 -
+2026-04-23 19:26:13,011 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:13] "GET /api/status?_ts=1776965172677 HTTP/1.1" 200 -
+2026-04-23 19:26:13,042 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:13] "GET /api/runtime?_ts=1776965172678 HTTP/1.1" 200 -
+2026-04-23 19:26:15,135 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:15] "GET /api/status?_ts=1776965174688 HTTP/1.1" 200 -
+2026-04-23 19:26:15,294 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:15] "GET /api/learning-insights?_ts=1776965174690 HTTP/1.1" 200 -
+2026-04-23 19:26:15,312 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:15] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:26:15,331 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:15] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:26:15,353 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:15] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:26:15,368 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:15] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:26:15,404 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:15] "GET /api/events?_ts=1776965174689 HTTP/1.1" 200 -
+2026-04-23 19:26:15,417 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:15] "GET /api/self-improvement/audit?_ts=1776965174700 HTTP/1.1" 200 -
+2026-04-23 19:26:15,426 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:15] "GET /api/runtime?_ts=1776965174689 HTTP/1.1" 200 -
+2026-04-23 19:26:15,534 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:15] "GET /api/self-improvement/rollouts?_ts=1776965174698 HTTP/1.1" 200 -
+2026-04-23 19:26:15,538 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:15] "GET /api/self-improvement/proposals?_ts=1776965174697 HTTP/1.1" 200 -
+2026-04-23 19:26:15,609 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:15] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:26:16,986 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:16] "GET /api/events?_ts=1776965176683 HTTP/1.1" 200 -
+2026-04-23 19:26:17,153 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:17] "GET /api/learning-insights?_ts=1776965176688 HTTP/1.1" 200 -
+2026-04-23 19:26:17,203 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:17] "GET /api/status?_ts=1776965176682 HTTP/1.1" 200 -
+2026-04-23 19:26:17,297 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:17] "GET /api/runtime?_ts=1776965176688 HTTP/1.1" 200 -
+2026-04-23 19:26:19,014 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:19] "GET /api/events?_ts=1776965178678 HTTP/1.1" 200 -
+2026-04-23 19:26:19,061 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:19] "GET /api/learning-insights?_ts=1776965178679 HTTP/1.1" 200 -
+2026-04-23 19:26:19,092 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:19] "GET /api/status?_ts=1776965178677 HTTP/1.1" 200 -
+2026-04-23 19:26:19,141 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:19] "GET /api/runtime?_ts=1776965178679 HTTP/1.1" 200 -
+2026-04-23 19:26:20,990 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:20] "GET /api/events?_ts=1776965180690 HTTP/1.1" 200 -
+2026-04-23 19:26:21,026 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:21] "GET /api/learning-insights?_ts=1776965180690 HTTP/1.1" 200 -
+2026-04-23 19:26:21,065 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:21] "GET /api/status?_ts=1776965180689 HTTP/1.1" 200 -
+2026-04-23 19:26:21,104 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:21] "GET /api/runtime?_ts=1776965180690 HTTP/1.1" 200 -
+2026-04-23 19:26:22,996 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:22] "GET /api/events?_ts=1776965182685 HTTP/1.1" 200 -
+2026-04-23 19:26:23,065 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:23] "GET /api/learning-insights?_ts=1776965182685 HTTP/1.1" 200 -
+2026-04-23 19:26:23,102 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:23] "GET /api/status?_ts=1776965182684 HTTP/1.1" 200 -
+2026-04-23 19:26:23,135 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:23] "GET /api/runtime?_ts=1776965182685 HTTP/1.1" 200 -
+2026-04-23 19:26:24,974 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:24] "GET /api/learning-insights?_ts=1776965184681 HTTP/1.1" 200 -
+2026-04-23 19:26:25,014 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:25] "GET /api/events?_ts=1776965184680 HTTP/1.1" 200 -
+2026-04-23 19:26:25,029 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:25] "GET /api/status?_ts=1776965184679 HTTP/1.1" 200 -
+2026-04-23 19:26:25,079 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:25] "GET /api/runtime?_ts=1776965184680 HTTP/1.1" 200 -
+2026-04-23 19:26:27,125 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:27] "GET /api/status?_ts=1776965186688 HTTP/1.1" 200 -
+2026-04-23 19:26:27,304 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:27] "GET /api/events?_ts=1776965186689 HTTP/1.1" 200 -
+2026-04-23 19:26:27,344 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:27] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:26:27,355 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:27] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:26:27,369 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:27] "GET /api/runtime?_ts=1776965186689 HTTP/1.1" 200 -
+2026-04-23 19:26:27,390 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:27] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:26:27,419 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:27] "GET /api/self-improvement/audit?_ts=1776965186695 HTTP/1.1" 200 -
+2026-04-23 19:26:27,437 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:27] "GET /api/learning-insights?_ts=1776965186689 HTTP/1.1" 200 -
+2026-04-23 19:26:27,458 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:27] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:26:27,566 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:27] "GET /api/self-improvement/proposals?_ts=1776965186694 HTTP/1.1" 200 -
+2026-04-23 19:26:27,576 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:27] "GET /api/self-improvement/rollouts?_ts=1776965186695 HTTP/1.1" 200 -
+2026-04-23 19:26:27,702 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:27] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:26:28,987 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:28] "GET /api/events?_ts=1776965188685 HTTP/1.1" 200 -
+2026-04-23 19:26:29,015 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:29] "GET /api/learning-insights?_ts=1776965188686 HTTP/1.1" 200 -
+2026-04-23 19:26:29,021 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:29] "GET /api/status?_ts=1776965188684 HTTP/1.1" 200 -
+2026-04-23 19:26:29,080 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:29] "GET /api/runtime?_ts=1776965188685 HTTP/1.1" 200 -
+2026-04-23 19:26:31,047 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:31] "GET /api/events?_ts=1776965190679 HTTP/1.1" 200 -
+2026-04-23 19:26:31,125 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:31] "GET /api/learning-insights?_ts=1776965190680 HTTP/1.1" 200 -
+2026-04-23 19:26:31,134 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:31] "GET /api/status?_ts=1776965190678 HTTP/1.1" 200 -
+2026-04-23 19:26:31,181 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:31] "GET /api/runtime?_ts=1776965190680 HTTP/1.1" 200 -
+2026-04-23 19:26:33,008 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:33] "GET /api/events?_ts=1776965192689 HTTP/1.1" 200 -
+2026-04-23 19:26:33,104 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:33] "GET /api/learning-insights?_ts=1776965192691 HTTP/1.1" 200 -
+2026-04-23 19:26:33,115 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:33] "GET /api/status?_ts=1776965192689 HTTP/1.1" 200 -
+2026-04-23 19:26:33,252 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:33] "GET /api/runtime?_ts=1776965192691 HTTP/1.1" 200 -
+2026-04-23 19:26:35,017 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:35] "GET /api/events?_ts=1776965194685 HTTP/1.1" 200 -
+2026-04-23 19:26:35,069 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:35] "GET /api/learning-insights?_ts=1776965194685 HTTP/1.1" 200 -
+2026-04-23 19:26:35,088 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:35] "GET /api/status?_ts=1776965194684 HTTP/1.1" 200 -
+2026-04-23 19:26:35,132 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:35] "GET /api/runtime?_ts=1776965194685 HTTP/1.1" 200 -
+2026-04-23 19:26:37,113 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:37] "GET /api/events?_ts=1776965196697 HTTP/1.1" 200 -
+2026-04-23 19:26:37,363 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:37] "GET /api/learning-insights?_ts=1776965196697 HTTP/1.1" 200 -
+2026-04-23 19:26:37,367 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:37] "GET /api/status?_ts=1776965196683 HTTP/1.1" 200 -
+2026-04-23 19:26:37,580 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:37] "GET /api/runtime?_ts=1776965196697 HTTP/1.1" 200 -
+2026-04-23 19:26:39,306 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:39] "GET /api/status?_ts=1776965198692 HTTP/1.1" 200 -
+2026-04-23 19:26:39,495 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:39] "GET /api/runtime?_ts=1776965198693 HTTP/1.1" 200 -
+2026-04-23 19:26:39,534 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:39] "GET /api/events?_ts=1776965198693 HTTP/1.1" 200 -
+2026-04-23 19:26:39,575 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:26:39,598 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:26:39,641 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:26:39,656 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:26:39,682 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:39] "GET /api/learning-insights?_ts=1776965198693 HTTP/1.1" 200 -
+2026-04-23 19:26:39,691 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:39] "GET /api/self-improvement/audit?_ts=1776965198710 HTTP/1.1" 200 -
+2026-04-23 19:26:39,794 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:39] "GET /api/self-improvement/proposals?_ts=1776965198709 HTTP/1.1" 200 -
+2026-04-23 19:26:39,816 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:39] "GET /api/self-improvement/rollouts?_ts=1776965198709 HTTP/1.1" 200 -
+2026-04-23 19:26:39,919 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:26:41,121 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:41] "GET /api/events?_ts=1776965200685 HTTP/1.1" 200 -
+2026-04-23 19:26:41,174 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:41] "GET /api/status?_ts=1776965200684 HTTP/1.1" 200 -
+2026-04-23 19:26:41,286 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:41] "GET /api/learning-insights?_ts=1776965200686 HTTP/1.1" 200 -
+2026-04-23 19:26:41,337 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:41] "GET /api/runtime?_ts=1776965200685 HTTP/1.1" 200 -
+2026-04-23 19:26:42,997 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:42] "GET /api/events?_ts=1776965202678 HTTP/1.1" 200 -
+2026-04-23 19:26:43,026 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:43] "GET /api/learning-insights?_ts=1776965202679 HTTP/1.1" 200 -
+2026-04-23 19:26:43,045 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:43] "GET /api/status?_ts=1776965202678 HTTP/1.1" 200 -
+2026-04-23 19:26:43,089 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:43] "GET /api/runtime?_ts=1776965202679 HTTP/1.1" 200 -
+2026-04-23 19:26:45,038 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:45] "GET /api/learning-insights?_ts=1776965204690 HTTP/1.1" 200 -
+2026-04-23 19:26:45,076 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:45] "GET /api/events?_ts=1776965204690 HTTP/1.1" 200 -
+2026-04-23 19:26:45,083 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:45] "GET /api/status?_ts=1776965204689 HTTP/1.1" 200 -
+2026-04-23 19:26:45,190 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:45] "GET /api/runtime?_ts=1776965204690 HTTP/1.1" 200 -
+2026-04-23 19:26:46,986 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:46] "GET /api/learning-insights?_ts=1776965206686 HTTP/1.1" 200 -
+2026-04-23 19:26:47,028 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:47] "GET /api/events?_ts=1776965206685 HTTP/1.1" 200 -
+2026-04-23 19:26:47,069 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:47] "GET /api/status?_ts=1776965206684 HTTP/1.1" 200 -
+2026-04-23 19:26:47,127 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:47] "GET /api/runtime?_ts=1776965206685 HTTP/1.1" 200 -
+2026-04-23 19:26:49,013 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:49] "GET /api/events?_ts=1776965208679 HTTP/1.1" 200 -
+2026-04-23 19:26:49,061 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:49] "GET /api/learning-insights?_ts=1776965208679 HTTP/1.1" 200 -
+2026-04-23 19:26:49,072 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:49] "GET /api/status?_ts=1776965208678 HTTP/1.1" 200 -
+2026-04-23 19:26:49,113 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:49] "GET /api/runtime?_ts=1776965208679 HTTP/1.1" 200 -
+2026-04-23 19:26:51,082 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:51] "GET /api/status?_ts=1776965210690 HTTP/1.1" 200 -
+2026-04-23 19:26:51,237 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:26:51,287 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:51] "GET /api/runtime?_ts=1776965210692 HTTP/1.1" 200 -
+2026-04-23 19:26:51,290 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:51] "GET /api/learning-insights?_ts=1776965210692 HTTP/1.1" 200 -
+2026-04-23 19:26:51,303 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:26:51,315 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:26:51,370 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:51] "GET /api/self-improvement/audit?_ts=1776965210699 HTTP/1.1" 200 -
+2026-04-23 19:26:51,403 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:26:51,441 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:51] "GET /api/events?_ts=1776965210691 HTTP/1.1" 200 -
+2026-04-23 19:26:51,536 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:51] "GET /api/self-improvement/proposals?_ts=1776965210697 HTTP/1.1" 200 -
+2026-04-23 19:26:51,538 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:51] "GET /api/self-improvement/rollouts?_ts=1776965210697 HTTP/1.1" 200 -
+2026-04-23 19:26:51,624 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:26:52,956 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:52] "GET /api/events?_ts=1776965212685 HTTP/1.1" 200 -
+2026-04-23 19:26:53,003 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:53] "GET /api/learning-insights?_ts=1776965212686 HTTP/1.1" 200 -
+2026-04-23 19:26:53,015 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:53] "GET /api/status?_ts=1776965212684 HTTP/1.1" 200 -
+2026-04-23 19:26:53,118 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:53] "GET /api/runtime?_ts=1776965212685 HTTP/1.1" 200 -
+2026-04-23 19:26:54,968 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:54] "GET /api/events?_ts=1776965214679 HTTP/1.1" 200 -
+2026-04-23 19:26:55,015 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:55] "GET /api/learning-insights?_ts=1776965214680 HTTP/1.1" 200 -
+2026-04-23 19:26:55,024 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:55] "GET /api/status?_ts=1776965214679 HTTP/1.1" 200 -
+2026-04-23 19:26:55,079 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:55] "GET /api/runtime?_ts=1776965214680 HTTP/1.1" 200 -
+2026-04-23 19:26:56,975 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:56] "GET /api/events?_ts=1776965216677 HTTP/1.1" 200 -
+2026-04-23 19:26:56,994 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:56] "GET /api/learning-insights?_ts=1776965216678 HTTP/1.1" 200 -
+2026-04-23 19:26:57,024 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:57] "GET /api/status?_ts=1776965216676 HTTP/1.1" 200 -
+2026-04-23 19:26:57,065 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:57] "GET /api/runtime?_ts=1776965216677 HTTP/1.1" 200 -
+2026-04-23 19:26:59,119 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:59] "GET /api/events?_ts=1776965218687 HTTP/1.1" 200 -
+2026-04-23 19:26:59,184 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:59] "GET /api/learning-insights?_ts=1776965218688 HTTP/1.1" 200 -
+2026-04-23 19:26:59,186 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:59] "GET /api/status?_ts=1776965218686 HTTP/1.1" 200 -
+2026-04-23 19:26:59,251 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:26:59] "GET /api/runtime?_ts=1776965218687 HTTP/1.1" 200 -
+2026-04-23 19:27:01,010 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:01] "GET /api/events?_ts=1776965220683 HTTP/1.1" 200 -
+2026-04-23 19:27:01,065 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:01] "GET /api/learning-insights?_ts=1776965220683 HTTP/1.1" 200 -
+2026-04-23 19:27:01,080 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:01] "GET /api/status?_ts=1776965220682 HTTP/1.1" 200 -
+2026-04-23 19:27:01,162 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:01] "GET /api/runtime?_ts=1776965220683 HTTP/1.1" 200 -
+2026-04-23 19:27:03,160 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:03] "GET /api/status?_ts=1776965222689 HTTP/1.1" 200 -
+2026-04-23 19:27:03,228 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:03] "GET /api/learning-insights?_ts=1776965222690 HTTP/1.1" 200 -
+2026-04-23 19:27:03,261 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:03] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:27:03,274 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:03] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:27:03,294 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:03] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:27:03,332 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:03] "GET /api/events?_ts=1776965222690 HTTP/1.1" 200 -
+2026-04-23 19:27:03,345 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:03] "GET /api/self-improvement/audit?_ts=1776965222695 HTTP/1.1" 200 -
+2026-04-23 19:27:03,382 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:03] "GET /api/runtime?_ts=1776965222690 HTTP/1.1" 200 -
+2026-04-23 19:27:03,453 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:03] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:27:03,488 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:03] "GET /api/self-improvement/proposals?_ts=1776965222694 HTTP/1.1" 200 -
+2026-04-23 19:27:03,494 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:03] "GET /api/self-improvement/rollouts?_ts=1776965222695 HTTP/1.1" 200 -
+2026-04-23 19:27:03,578 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:03] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:27:04,920 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:04] "GET /api/events?_ts=1776965224682 HTTP/1.1" 200 -
+2026-04-23 19:27:04,985 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:04] "GET /api/learning-insights?_ts=1776965224682 HTTP/1.1" 200 -
+2026-04-23 19:27:05,013 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:05] "GET /api/status?_ts=1776965224681 HTTP/1.1" 200 -
+2026-04-23 19:27:05,069 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:05] "GET /api/runtime?_ts=1776965224682 HTTP/1.1" 200 -
+2026-04-23 19:27:06,964 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:06] "GET /api/events?_ts=1776965226681 HTTP/1.1" 200 -
+2026-04-23 19:27:06,997 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:06] "GET /api/learning-insights?_ts=1776965226682 HTTP/1.1" 200 -
+2026-04-23 19:27:07,027 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:07] "GET /api/status?_ts=1776965226681 HTTP/1.1" 200 -
+2026-04-23 19:27:07,061 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:07] "GET /api/runtime?_ts=1776965226682 HTTP/1.1" 200 -
+2026-04-23 19:27:08,965 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:08] "GET /api/events?_ts=1776965228691 HTTP/1.1" 200 -
+2026-04-23 19:27:09,002 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:09] "GET /api/learning-insights?_ts=1776965228692 HTTP/1.1" 200 -
+2026-04-23 19:27:09,023 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:09] "GET /api/status?_ts=1776965228691 HTTP/1.1" 200 -
+2026-04-23 19:27:09,058 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:09] "GET /api/runtime?_ts=1776965228692 HTTP/1.1" 200 -
+2026-04-23 19:27:10,955 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:10] "GET /api/events?_ts=1776965230684 HTTP/1.1" 200 -
+2026-04-23 19:27:11,010 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:11] "GET /api/learning-insights?_ts=1776965230685 HTTP/1.1" 200 -
+2026-04-23 19:27:11,016 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:11] "GET /api/status?_ts=1776965230684 HTTP/1.1" 200 -
+2026-04-23 19:27:11,055 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:11] "GET /api/runtime?_ts=1776965230684 HTTP/1.1" 200 -
+2026-04-23 19:27:12,942 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:12] "GET /api/events?_ts=1776965232677 HTTP/1.1" 200 -
+2026-04-23 19:27:12,979 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:12] "GET /api/learning-insights?_ts=1776965232677 HTTP/1.1" 200 -
+2026-04-23 19:27:12,995 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:12] "GET /api/status?_ts=1776965232676 HTTP/1.1" 200 -
+2026-04-23 19:27:13,030 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:13] "GET /api/runtime?_ts=1776965232677 HTTP/1.1" 200 -
+2026-04-23 19:27:15,165 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:15] "GET /api/status?_ts=1776965234690 HTTP/1.1" 200 -
+2026-04-23 19:27:15,301 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:15] "GET /api/events?_ts=1776965234691 HTTP/1.1" 200 -
+2026-04-23 19:27:15,319 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:15] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:27:15,366 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:15] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:27:15,376 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:15] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:27:15,409 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:15] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:27:15,534 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:15] "GET /api/runtime?_ts=1776965234691 HTTP/1.1" 200 -
+2026-04-23 19:27:15,542 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:15] "GET /api/self-improvement/audit?_ts=1776965234695 HTTP/1.1" 200 -
+2026-04-23 19:27:15,624 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:15] "GET /api/learning-insights?_ts=1776965234691 HTTP/1.1" 200 -
+2026-04-23 19:27:15,691 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:15] "GET /api/self-improvement/proposals?_ts=1776965234694 HTTP/1.1" 200 -
+2026-04-23 19:27:15,717 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:15] "GET /api/self-improvement/rollouts?_ts=1776965234694 HTTP/1.1" 200 -
+2026-04-23 19:27:15,791 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:15] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:27:16,972 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:16] "GET /api/learning-insights?_ts=1776965236679 HTTP/1.1" 200 -
+2026-04-23 19:27:17,006 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:17] "GET /api/events?_ts=1776965236678 HTTP/1.1" 200 -
+2026-04-23 19:27:17,039 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:17] "GET /api/status?_ts=1776965236678 HTTP/1.1" 200 -
+2026-04-23 19:27:17,111 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:17] "GET /api/runtime?_ts=1776965236679 HTTP/1.1" 200 -
+2026-04-23 19:27:18,947 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:18] "GET /api/events?_ts=1776965238680 HTTP/1.1" 200 -
+2026-04-23 19:27:18,978 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:18] "GET /api/learning-insights?_ts=1776965238680 HTTP/1.1" 200 -
+2026-04-23 19:27:18,981 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:18] "GET /api/status?_ts=1776965238679 HTTP/1.1" 200 -
+2026-04-23 19:27:19,017 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:19] "GET /api/runtime?_ts=1776965238680 HTTP/1.1" 200 -
+2026-04-23 19:27:20,955 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:20] "GET /api/events?_ts=1776965240688 HTTP/1.1" 200 -
+2026-04-23 19:27:20,977 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:20] "GET /api/learning-insights?_ts=1776965240689 HTTP/1.1" 200 -
+2026-04-23 19:27:20,992 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:20] "GET /api/status?_ts=1776965240687 HTTP/1.1" 200 -
+2026-04-23 19:27:21,026 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:21] "GET /api/runtime?_ts=1776965240689 HTTP/1.1" 200 -
+2026-04-23 19:27:22,954 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:22] "GET /api/events?_ts=1776965242678 HTTP/1.1" 200 -
+2026-04-23 19:27:22,987 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:22] "GET /api/learning-insights?_ts=1776965242678 HTTP/1.1" 200 -
+2026-04-23 19:27:23,020 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:23] "GET /api/status?_ts=1776965242676 HTTP/1.1" 200 -
+2026-04-23 19:27:23,082 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:23] "GET /api/runtime?_ts=1776965242678 HTTP/1.1" 200 -
+2026-04-23 19:27:24,959 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:24] "GET /api/events?_ts=1776965244677 HTTP/1.1" 200 -
+2026-04-23 19:27:24,975 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:24] "GET /api/learning-insights?_ts=1776965244678 HTTP/1.1" 200 -
+2026-04-23 19:27:25,010 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:25] "GET /api/status?_ts=1776965244677 HTTP/1.1" 200 -
+2026-04-23 19:27:25,035 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:25] "GET /api/runtime?_ts=1776965244677 HTTP/1.1" 200 -
+2026-04-23 19:27:27,207 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:27] "GET /api/events?_ts=1776965246678 HTTP/1.1" 200 -
+2026-04-23 19:27:27,309 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:27] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:27:27,352 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:27] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:27:27,393 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:27] "GET /api/status?_ts=1776965246678 HTTP/1.1" 200 -
+2026-04-23 19:27:27,394 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:27] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:27:27,460 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:27] "GET /api/runtime?_ts=1776965246678 HTTP/1.1" 200 -
+2026-04-23 19:27:27,475 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:27] "GET /api/self-improvement/audit?_ts=1776965246692 HTTP/1.1" 200 -
+2026-04-23 19:27:27,565 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:27] "GET /api/self-improvement/proposals?_ts=1776965246691 HTTP/1.1" 200 -
+2026-04-23 19:27:27,610 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:27] "GET /api/learning-insights?_ts=1776965246679 HTTP/1.1" 200 -
+2026-04-23 19:27:27,629 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:27] "GET /api/self-improvement/rollouts?_ts=1776965246691 HTTP/1.1" 200 -
+2026-04-23 19:27:27,646 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:27] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:27:27,711 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:27] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:27:28,937 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:28] "GET /api/events?_ts=1776965248686 HTTP/1.1" 200 -
+2026-04-23 19:27:29,003 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:29] "GET /api/learning-insights?_ts=1776965248687 HTTP/1.1" 200 -
+2026-04-23 19:27:29,061 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:29] "GET /api/status?_ts=1776965248685 HTTP/1.1" 200 -
+2026-04-23 19:27:29,087 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:29] "GET /api/runtime?_ts=1776965248687 HTTP/1.1" 200 -
+2026-04-23 19:27:30,808 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:30] "GET /api/learning-insights?_ts=1776965250682 HTTP/1.1" 200 -
+2026-04-23 19:27:30,822 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:30] "GET /api/events?_ts=1776965250681 HTTP/1.1" 200 -
+2026-04-23 19:27:30,937 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:30] "GET /api/status?_ts=1776965250679 HTTP/1.1" 200 -
+2026-04-23 19:27:30,953 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:30] "GET /api/runtime?_ts=1776965250681 HTTP/1.1" 200 -
+2026-04-23 19:27:32,829 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:32] "GET /api/events?_ts=1776965252691 HTTP/1.1" 200 -
+2026-04-23 19:27:32,886 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:32] "GET /api/learning-insights?_ts=1776965252692 HTTP/1.1" 200 -
+2026-04-23 19:27:32,927 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:32] "GET /api/status?_ts=1776965252689 HTTP/1.1" 200 -
+2026-04-23 19:27:32,946 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:32] "GET /api/runtime?_ts=1776965252692 HTTP/1.1" 200 -
+2026-04-23 19:27:34,821 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:34] "GET /api/events?_ts=1776965254687 HTTP/1.1" 200 -
+2026-04-23 19:27:34,838 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:34] "GET /api/learning-insights?_ts=1776965254687 HTTP/1.1" 200 -
+2026-04-23 19:27:34,963 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:34] "GET /api/status?_ts=1776965254685 HTTP/1.1" 200 -
+2026-04-23 19:27:34,972 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:34] "GET /api/runtime?_ts=1776965254687 HTTP/1.1" 200 -
+2026-04-23 19:27:36,816 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:36] "GET /api/learning-insights?_ts=1776965256682 HTTP/1.1" 200 -
+2026-04-23 19:27:36,829 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:36] "GET /api/events?_ts=1776965256680 HTTP/1.1" 200 -
+2026-04-23 19:27:36,889 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:36] "GET /api/status?_ts=1776965256680 HTTP/1.1" 200 -
+2026-04-23 19:27:36,904 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:36] "GET /api/runtime?_ts=1776965256681 HTTP/1.1" 200 -
+2026-04-23 19:27:39,077 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:39] "GET /api/events?_ts=1776965258699 HTTP/1.1" 200 -
+2026-04-23 19:27:39,112 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:27:39,138 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:27:39,144 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:27:39,160 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:27:39,163 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:39] "GET /api/status?_ts=1776965258698 HTTP/1.1" 200 -
+2026-04-23 19:27:39,210 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:39] "GET /api/self-improvement/audit?_ts=1776965258727 HTTP/1.1" 200 -
+2026-04-23 19:27:39,224 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:39] "GET /api/runtime?_ts=1776965258699 HTTP/1.1" 200 -
+2026-04-23 19:27:39,261 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:27:39,289 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:39] "GET /api/self-improvement/proposals?_ts=1776965258726 HTTP/1.1" 200 -
+2026-04-23 19:27:39,295 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:39] "GET /api/self-improvement/rollouts?_ts=1776965258726 HTTP/1.1" 200 -
+2026-04-23 19:27:39,329 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:39] "GET /api/learning-insights?_ts=1776965258699 HTTP/1.1" 200 -
+2026-04-23 19:27:40,843 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:40] "GET /api/events?_ts=1776965260687 HTTP/1.1" 200 -
+2026-04-23 19:27:40,885 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:40] "GET /api/learning-insights?_ts=1776965260688 HTTP/1.1" 200 -
+2026-04-23 19:27:40,983 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:40] "GET /api/status?_ts=1776965260687 HTTP/1.1" 200 -
+2026-04-23 19:27:40,995 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:40] "GET /api/runtime?_ts=1776965260688 HTTP/1.1" 200 -
+2026-04-23 19:27:42,847 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:42] "GET /api/events?_ts=1776965262684 HTTP/1.1" 200 -
+2026-04-23 19:27:42,883 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:42] "GET /api/learning-insights?_ts=1776965262685 HTTP/1.1" 200 -
+2026-04-23 19:27:42,981 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:42] "GET /api/status?_ts=1776965262683 HTTP/1.1" 200 -
+2026-04-23 19:27:42,998 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:42] "GET /api/runtime?_ts=1776965262685 HTTP/1.1" 200 -
+2026-04-23 19:27:44,895 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:44] "GET /api/learning-insights?_ts=1776965264696 HTTP/1.1" 200 -
+2026-04-23 19:27:44,929 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:44] "GET /api/events?_ts=1776965264695 HTTP/1.1" 200 -
+2026-04-23 19:27:45,053 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:45] "GET /api/status?_ts=1776965264694 HTTP/1.1" 200 -
+2026-04-23 19:27:45,094 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:45] "GET /api/runtime?_ts=1776965264696 HTTP/1.1" 200 -
+2026-04-23 19:27:46,855 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:46] "GET /api/events?_ts=1776965266688 HTTP/1.1" 200 -
+2026-04-23 19:27:46,881 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:46] "GET /api/learning-insights?_ts=1776965266689 HTTP/1.1" 200 -
+2026-04-23 19:27:46,987 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:46] "GET /api/status?_ts=1776965266687 HTTP/1.1" 200 -
+2026-04-23 19:27:47,013 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:47] "GET /api/runtime?_ts=1776965266689 HTTP/1.1" 200 -
+2026-04-23 19:27:48,838 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:48] "GET /api/learning-insights?_ts=1776965268682 HTTP/1.1" 200 -
+2026-04-23 19:27:48,868 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:48] "GET /api/events?_ts=1776965268682 HTTP/1.1" 200 -
+2026-04-23 19:27:48,936 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:48] "GET /api/status?_ts=1776965268681 HTTP/1.1" 200 -
+2026-04-23 19:27:48,963 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:48] "GET /api/runtime?_ts=1776965268682 HTTP/1.1" 200 -
+2026-04-23 19:27:50,911 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:50] "GET /api/learning-insights?_ts=1776965270679 HTTP/1.1" 200 -
+2026-04-23 19:27:50,942 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:50] "GET /api/events?_ts=1776965270678 HTTP/1.1" 200 -
+2026-04-23 19:27:50,960 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:50] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:27:50,975 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:50] "GET /api/status?_ts=1776965270678 HTTP/1.1" 200 -
+2026-04-23 19:27:50,979 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:50] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:27:51,057 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:27:51,064 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:27:51,077 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:51] "GET /api/runtime?_ts=1776965270679 HTTP/1.1" 200 -
+2026-04-23 19:27:51,079 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:51] "GET /api/self-improvement/audit?_ts=1776965270689 HTTP/1.1" 200 -
+2026-04-23 19:27:51,110 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:51] "GET /api/self-improvement/proposals?_ts=1776965270686 HTTP/1.1" 200 -
+2026-04-23 19:27:51,110 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:51] "GET /api/self-improvement/rollouts?_ts=1776965270688 HTTP/1.1" 200 -
+2026-04-23 19:27:51,156 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:27:52,828 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:52] "GET /api/learning-insights?_ts=1776965272687 HTTP/1.1" 200 -
+2026-04-23 19:27:52,854 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:52] "GET /api/events?_ts=1776965272686 HTTP/1.1" 200 -
+2026-04-23 19:27:52,922 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:52] "GET /api/status?_ts=1776965272685 HTTP/1.1" 200 -
+2026-04-23 19:27:52,937 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:52] "GET /api/runtime?_ts=1776965272687 HTTP/1.1" 200 -
+2026-04-23 19:27:54,822 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:54] "GET /api/learning-insights?_ts=1776965274683 HTTP/1.1" 200 -
+2026-04-23 19:27:54,849 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:54] "GET /api/events?_ts=1776965274682 HTTP/1.1" 200 -
+2026-04-23 19:27:54,916 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:54] "GET /api/status?_ts=1776965274681 HTTP/1.1" 200 -
+2026-04-23 19:27:54,936 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:54] "GET /api/runtime?_ts=1776965274682 HTTP/1.1" 200 -
+2026-04-23 19:27:56,798 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:56] "GET /api/learning-insights?_ts=1776965276676 HTTP/1.1" 200 -
+2026-04-23 19:27:56,843 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:56] "GET /api/events?_ts=1776965276676 HTTP/1.1" 200 -
+2026-04-23 19:27:56,963 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:56] "GET /api/status?_ts=1776965276676 HTTP/1.1" 200 -
+2026-04-23 19:27:56,976 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:56] "GET /api/runtime?_ts=1776965276676 HTTP/1.1" 200 -
+2026-04-23 19:27:58,855 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:58] "GET /api/learning-insights?_ts=1776965278689 HTTP/1.1" 200 -
+2026-04-23 19:27:58,887 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:58] "GET /api/events?_ts=1776965278688 HTTP/1.1" 200 -
+2026-04-23 19:27:58,959 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:58] "GET /api/status?_ts=1776965278688 HTTP/1.1" 200 -
+2026-04-23 19:27:58,985 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:27:58] "GET /api/runtime?_ts=1776965278689 HTTP/1.1" 200 -
+2026-04-23 19:28:00,837 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:00] "GET /api/events?_ts=1776965280682 HTTP/1.1" 200 -
+2026-04-23 19:28:00,848 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:00] "GET /api/learning-insights?_ts=1776965280682 HTTP/1.1" 200 -
+2026-04-23 19:28:00,964 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:00] "GET /api/status?_ts=1776965280681 HTTP/1.1" 200 -
+2026-04-23 19:28:00,979 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:00] "GET /api/runtime?_ts=1776965280682 HTTP/1.1" 200 -
+2026-04-23 19:28:02,964 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:02] "GET /api/learning-insights?_ts=1776965282693 HTTP/1.1" 200 -
+2026-04-23 19:28:02,969 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:02] "GET /api/status?_ts=1776965282692 HTTP/1.1" 200 -
+2026-04-23 19:28:02,996 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:02] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:28:03,008 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:03] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:28:03,015 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:03] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:28:03,056 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:03] "GET /api/runtime?_ts=1776965282693 HTTP/1.1" 200 -
+2026-04-23 19:28:03,089 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:03] "GET /api/events?_ts=1776965282693 HTTP/1.1" 200 -
+2026-04-23 19:28:03,092 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:03] "GET /api/self-improvement/audit?_ts=1776965282698 HTTP/1.1" 200 -
+2026-04-23 19:28:03,099 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:03] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:28:03,144 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:03] "GET /api/self-improvement/rollouts?_ts=1776965282697 HTTP/1.1" 200 -
+2026-04-23 19:28:03,153 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:03] "GET /api/self-improvement/proposals?_ts=1776965282697 HTTP/1.1" 200 -
+2026-04-23 19:28:03,203 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:03] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 19:28:04,861 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:04] "GET /api/learning-insights?_ts=1776965284679 HTTP/1.1" 200 -
+2026-04-23 19:28:04,864 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:04] "GET /api/events?_ts=1776965284677 HTTP/1.1" 200 -
+2026-04-23 19:28:04,945 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:04] "GET /api/status?_ts=1776965284676 HTTP/1.1" 200 -
+2026-04-23 19:28:04,970 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:04] "GET /api/runtime?_ts=1776965284678 HTTP/1.1" 200 -
+2026-04-23 19:28:06,837 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:06] "GET /api/learning-insights?_ts=1776965286682 HTTP/1.1" 200 -
+2026-04-23 19:28:06,867 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:06] "GET /api/events?_ts=1776965286681 HTTP/1.1" 200 -
+2026-04-23 19:28:06,951 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:06] "GET /api/status?_ts=1776965286680 HTTP/1.1" 200 -
+2026-04-23 19:28:06,974 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:06] "GET /api/runtime?_ts=1776965286681 HTTP/1.1" 200 -
+2026-04-23 19:28:08,830 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:08] "GET /api/learning-insights?_ts=1776965288678 HTTP/1.1" 200 -
+2026-04-23 19:28:08,860 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:08] "GET /api/events?_ts=1776965288677 HTTP/1.1" 200 -
+2026-04-23 19:28:08,919 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:08] "GET /api/status?_ts=1776965288676 HTTP/1.1" 200 -
+2026-04-23 19:28:08,947 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 19:28:08] "GET /api/runtime?_ts=1776965288678 HTTP/1.1" 200 -

@@ -1,0 +1,6 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main ui --mode-override live
+2026-05-20 20:20:30,604 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=bootstrap exception_type= error=
+2026-05-20 20:20:31,634 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=bootstrap status=entered error=
+2026-05-20 20:21:24,592 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=ui_server_wait exception_type= error=ui_server_not_reachable
+2026-05-20 20:21:59,571 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=ui_server_wait status=failed error=ui_server_not_reachable

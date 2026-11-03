@@ -1,0 +1,6 @@
+{
+  "tests/test_operator_assistant.py::test_general_fallback_uses_nearest_market_state_answer": true,
+  "tests/test_demo_auto_execution_from_recommendation.py::test_snapshot_auto_trade_status_uses_runtime_context_required_without_freshness": true,
+  "tests/test_system_command_orchestration.py::test_close_command_blocked_while_startup_in_progress": true,
+  "tests/test_replay_harness.py::test_replay_harness_matches_behavior_baselines": true
+}

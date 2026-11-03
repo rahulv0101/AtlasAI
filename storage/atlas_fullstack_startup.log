@@ -1,0 +1,28 @@
+2026-05-05 05:58:09,390 | INFO | Atlas core stack already running. Skipping relaunch.
+2026-05-05 05:58:10,801 | INFO | Atlas audio path already running.
+2026-05-05 18:47:12,189 | INFO | Starting Atlas full stack via no-console guarded launcher.
+2026-05-05 18:47:12,192 | INFO | Atlas wake launch attempt 1/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-05-05 18:47:14,254 | INFO | Started MT5 terminal from C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-05 18:47:19,693 | INFO | MT5 readiness confirmed: mt5_ready
+2026-05-05 18:47:32,591 | INFO | Spawn logs for backend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\backend_20260505_164732.log
+2026-05-05 18:47:32,605 | INFO | Started backend (attempt 1/2): C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-05 18:47:57,536 | INFO | Backend readiness confirmed: process_running=False, runtime_execute=True, fresh=True, age_seconds=8.6
+2026-05-05 18:48:08,463 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260505_164808.log
+2026-05-05 18:48:10,487 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260505_164810.log
+2026-05-05 18:48:10,498 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-05-05 18:50:21,810 | ERROR | Frontend readiness failed: process_running=False, api_ok=False, comparison_active=False, runtime_execute=False, desktop_window_ready=False, desktop_state_fresh=False, desktop_state_age_seconds=None, wrapper_pid=0, wrapper_running=False, fallback_active=False, desktop_disabled=False, frontend_mode=, failure_reason=
+2026-05-05 18:52:31,165 | INFO | Atlas wake attempt 1/2 completed with result=FAILED reason=no_usable_control_surface
+2026-05-05 18:52:31,183 | ERROR | Atlas wake attempt 1/2 unhealthy (result=FAILED reason=no_usable_control_surface). Triggering full shutdown before restart.
+2026-05-05 18:52:31,185 | INFO | Atlas sleep shutdown requested for run_id=atlas_wake_latest keep_listener=False
+2026-05-05 18:57:10,315 | INFO | Stopping MT5 pid=9956
+2026-05-05 18:57:34,313 | INFO | Atlas wake launch attempt 2/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-08-19 19:54:54,415 | INFO | Starting Atlas full stack via no-console guarded launcher.
+2026-08-19 19:54:54,420 | INFO | Atlas wake launch attempt 1/2 requested for profile=guarded_demo run_id=atlas_wake_latest preset=conservative_filter_rollout_v1
+2026-08-19 19:54:55,092 | INFO | Started MT5 terminal from C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-08-19 19:55:05,272 | INFO | MT5 readiness confirmed: mt5_ready
+2026-08-19 19:55:08,374 | INFO | Spawn logs for backend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\backend_20260819_175508.log
+2026-08-19 19:55:08,387 | INFO | Started backend (attempt 1/2): C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-08-19 19:55:15,309 | INFO | Backend readiness confirmed: process_running=True, runtime_execute=True, fresh=True, age_seconds=0.9
+2026-08-19 19:55:20,238 | INFO | Spawn logs for ui_server redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\ui_server_20260819_175520.log
+2026-08-19 19:55:22,264 | INFO | Spawn logs for frontend redirected to C:\Users\User\Desktop\Atlas AI\storage\wake_spawn_logs\frontend_20260819_175522.log
+2026-08-19 19:55:22,286 | INFO | Started frontend: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live

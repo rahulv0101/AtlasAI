@@ -1,0 +1,47 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-15 18:38:02,864 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-15 18:38:05,871 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-15 18:38:14,374 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-15 18:38:14,381 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=-5.41 (54.1pips) TP=8.12 (81.2pips) ATR=27.07 mult=2.00
+2026-05-15 18:38:18,508 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-15 18:39:21,947 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-15 18:39:21,948 | INFO | openai._base_client | Retrying request to /chat/completions in 0.422527 seconds
+2026-05-15 18:39:23,407 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-15 18:39:23,407 | INFO | openai._base_client | Retrying request to /chat/completions in 0.959285 seconds
+2026-05-15 18:39:24,762 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-15 18:40:25,193 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-15 18:41:14,522 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=-5.43 (54.3pips) TP=8.15 (81.5pips) ATR=27.17 mult=2.00
+2026-05-15 18:42:25,892 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-15 18:43:26,322 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-15 18:44:26,735 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-15 18:44:44,591 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=-5.43 (54.3pips) TP=8.15 (81.5pips) ATR=27.17 mult=2.00
+2026-05-15 18:46:27,449 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-15 18:47:27,795 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-15 18:48:28,170 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-15 18:49:28,533 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-15 18:50:28,894 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-15 18:51:29,197 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-15 18:51:44,721 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=5.45 (54.5pips) TP=-8.17 (81.7pips) ATR=27.24 mult=2.00
+2026-05-15 18:52:29,613 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-15 18:54:44,776 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=5.45 (54.5pips) TP=-8.17 (81.7pips) ATR=27.24 mult=2.00
+2026-05-15 18:57:31,512 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-15 19:01:32,928 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-15 19:03:34,069 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-15 19:05:34,820 | INFO | atlas_ai.gold_knowledge | Gold knowledge applied | base=0.503 boosts=[] penalties=[] final=0.503
+2026-05-15 19:05:34,821 | INFO | atlas_ai.trader | Spread check: 3.40 pips (max: 7.00) -- PASS
+2026-05-15 19:05:34,821 | INFO | atlas_ai.trader | Structure check: score=0.274 (min: 0.240) -- PASS
+2026-05-15 19:05:34,989 | INFO | atlas_ai.trader | Signal=gold_breakout_retest side=buy confidence=0.503 volume=0.01 result=-5 (approval_missing)
+2026-05-15 19:06:35,269 | INFO | atlas_ai.gold_knowledge | Gold knowledge applied | base=0.531 boosts=[] penalties=[] final=0.531
+2026-05-15 19:06:35,270 | INFO | atlas_ai.trader | Spread check: 3.50 pips (max: 7.00) -- PASS
+2026-05-15 19:06:35,270 | INFO | atlas_ai.trader | Structure check: score=0.306 (min: 0.240) -- PASS
+2026-05-15 19:06:35,390 | INFO | atlas_ai.trader | Signal=gold_breakout_retest side=buy confidence=0.531 volume=0.01 result=-5 (approval_missing)
+2026-05-15 19:07:35,700 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-15 19:08:36,376 | INFO | atlas_ai.gold_knowledge | Gold knowledge applied | base=0.467 boosts=[] penalties=[] final=0.467
+2026-05-15 19:08:36,376 | INFO | atlas_ai.trader | Spread check: 3.50 pips (max: 7.00) -- PASS
+2026-05-15 19:08:36,376 | INFO | atlas_ai.trader | Structure check: score=0.329 (min: 0.240) -- PASS
+2026-05-15 19:08:36,668 | INFO | atlas_ai.trader | Signal=gold_breakout_retest side=buy confidence=0.467 volume=0.01 result=-5 (approval_missing)
+2026-05-15 19:10:40,166 | INFO | atlas_ai.gold_knowledge | Gold knowledge applied | base=0.574 boosts=[] penalties=[] final=0.574
+2026-05-15 19:10:40,169 | INFO | atlas_ai.trader | Spread check: 3.40 pips (max: 7.00) -- PASS
+2026-05-15 19:10:40,170 | INFO | atlas_ai.trader | Structure check: score=0.503 (min: 0.240) -- PASS
+2026-05-15 19:10:40,489 | INFO | atlas_ai.trader | Signal=gold_breakout_retest side=buy confidence=0.574 volume=0.01 result=-5 (tiny_live_pilot_setup_restricted)

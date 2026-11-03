@@ -1,0 +1,6 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-12 10:33:56,270 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-12 10:33:59,272 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-12 10:34:00,605 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-12 10:34:01,315 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (short, 11 min left): single_loss_cooldown. No trade executed.

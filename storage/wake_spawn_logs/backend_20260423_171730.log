@@ -1,0 +1,13 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-04-23 19:17:33,423 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-04-23 19:17:36,429 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-04-23 19:17:41,024 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak. No trade executed.
+2026-04-23 19:18:41,761 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak. No trade executed.
+2026-04-23 19:19:43,640 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak. No trade executed.
+2026-04-23 19:20:48,830 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak. No trade executed.
+2026-04-23 19:21:55,032 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak. No trade executed.
+2026-04-23 19:23:31,668 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak. No trade executed.
+2026-04-23 19:24:34,216 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak. No trade executed.
+2026-04-23 19:25:35,797 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak. No trade executed.
+2026-04-23 19:26:37,447 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak. No trade executed.
+2026-04-23 19:27:38,111 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak. No trade executed.

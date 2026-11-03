@@ -1,0 +1,186 @@
+{
+  "backtest": {
+    "completed": true,
+    "expectancy": 0.005542790685350115,
+    "losses": 102,
+    "max_drawdown": 0.026954589380059225,
+    "profit_factor": 3.552535375872932,
+    "score": 67.74,
+    "sharpe": 0.6192001553401771,
+    "trades": 256,
+    "win_rate": 0.6015625,
+    "wins": 154
+  },
+  "created_at": "2026-06-02T13:10:55.901797+00:00",
+  "executed": false,
+  "ok": true,
+  "operator_checklist": [
+    "Confirm the intended shadow drawdown policy before any demo activation.",
+    "Confirm the candidate remains paper/shadow-only until explicit demo promotion.",
+    "Review raw peak drawdown sensitivity versus gross-normalized drawdown.",
+    "Confirm no live promotion is requested or implied by this packet.",
+    "Confirm ExecutionGate remains the only execution authority."
+  ],
+  "queue_item": {
+    "blockers": [],
+    "confidence": 0.68,
+    "created_at": "2026-06-02T04:37:54.336266+00:00",
+    "history": [
+      {
+        "at": "2026-06-02T12:59:37.539222+00:00",
+        "note": "lead_candidate_ready_for_operator_demo_review",
+        "operator": "operator",
+        "status": "demo_review_requested"
+      }
+    ],
+    "id": "mhr_hr78912151819_c604b9a2:eligible_for_demo_review",
+    "operator_note": "lead_candidate_ready_for_operator_demo_review",
+    "origin": "",
+    "preference_score": 0.0,
+    "reasons": [
+      "shadow_review:bars=18000,trades=263",
+      "wins=162,losses=101,win_rate=0.62",
+      "drawdown_policy=gross_normalized,limit=5.00%"
+    ],
+    "recommendation": "eligible_for_demo_review",
+    "reviewed_by": "operator",
+    "safety": {
+      "does_not_execute": true,
+      "does_not_promote_live": true,
+      "paper_or_shadow_only": true,
+      "research_only": true
+    },
+    "stage": "shadow_review",
+    "status": "demo_review_requested",
+    "uid": "mhr_hr78912151819_c604b9a2",
+    "updated_at": "2026-06-02T12:59:37.539222+00:00"
+  },
+  "recommendation": "operator_demo_review",
+  "risk_audit": {
+    "available": true,
+    "diagnosis": {
+      "notes": [
+        "Audit is paper-only and does not change promotion status.",
+        "Raw peak drawdown can be inflated when early running PnL peak is small.",
+        "Gross-normalized drawdown gives an additional stability view without overriding the governor."
+      ],
+      "primary": "raw_peak_drawdown_metric_over_sensitive",
+      "suggested_repair_focus": "reduce_loss_clusters"
+    },
+    "guard": {
+      "gross_normalized_drawdown_passed": true,
+      "raw_peak_drawdown_passed": false,
+      "shadow_drawdown_limit": 0.05
+    },
+    "metrics": {
+      "average_abs_trade": 1.4572243346007605,
+      "drawdown_end_trade": 75,
+      "drawdown_span_trades": 15,
+      "drawdown_start_trade": 60,
+      "gross_normalized_drawdown_pct": 0.047775603392035675,
+      "gross_pnl_movement": 383.25,
+      "hour_breakdown": [
+        {
+          "bucket": "18",
+          "losses": 1,
+          "pnl": -1.75,
+          "trades": 1,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        {
+          "bucket": "10",
+          "losses": 20,
+          "pnl": -0.3499999999985448,
+          "trades": 48,
+          "win_rate": 0.5833333333333334,
+          "wins": 28
+        }
+      ],
+      "losses": 101,
+      "max_drawdown": 18.30999999999767,
+      "net_pnl": 86.62999999999192,
+      "peak_pnl": 86.62999999999192,
+      "raw_peak_drawdown_pct": 0.21135865173726628,
+      "session_breakdown": [
+        {
+          "bucket": "london",
+          "losses": 35,
+          "pnl": 11.199999999998909,
+          "trades": 86,
+          "win_rate": 0.5930232558139535,
+          "wins": 51
+        },
+        {
+          "bucket": "new_york",
+          "losses": 66,
+          "pnl": 75.42999999999302,
+          "trades": 177,
+          "win_rate": 0.6271186440677966,
+          "wins": 111
+        }
+      ],
+      "side_breakdown": [
+        {
+          "bucket": "buy",
+          "losses": 39,
+          "pnl": 30.69999999999527,
+          "trades": 104,
+          "win_rate": 0.625,
+          "wins": 65
+        },
+        {
+          "bucket": "sell",
+          "losses": 62,
+          "pnl": 55.92999999999665,
+          "trades": 159,
+          "win_rate": 0.610062893081761,
+          "wins": 97
+        }
+      ],
+      "trades": 263,
+      "win_rate": 0.6159695817490495,
+      "wins": 162,
+      "worst_loss_streak": 5,
+      "worst_loss_streak_pnl": -12.800000000000182,
+      "worst_trade_pnl": -6.529999999999745
+    }
+  },
+  "safety": {
+    "does_not_execute": true,
+    "does_not_promote_demo": true,
+    "does_not_promote_live": true,
+    "requires_existing_promotion_governor": true,
+    "requires_operator_review": true,
+    "research_only": true
+  },
+  "schema": "atlas_ai_demo_review_packet_v1",
+  "shadow_review": {
+    "available": true,
+    "promotion_governor": {
+      "can_promote_to_demo": true,
+      "max_shadow_drawdown_pct": 0.05,
+      "reason": "",
+      "shadow_drawdown_policy": "gross_normalized"
+    },
+    "recommendation": "eligible_for_demo_review",
+    "summary": {
+      "degradation_pct": 0.0,
+      "losses": 101,
+      "max_drawdown_pct": 0.21135865173726628,
+      "net_pnl": 86.62999999999192,
+      "trades": 263,
+      "win_rate": 0.6159695817490495,
+      "wins": 162
+    }
+  },
+  "stage": "shadow",
+  "strategy": {
+    "compact_summary": "EMA(17/55) RSI(41/55) | SL/TP=0.9x/2.4x | stage=shadow | Backtest: score=67.7 wr=60.16% pf=3.55 sharpe=0.62 dd=2.70% trades=256",
+    "origin": "ai_regime_repair:micro_cooldown_exclude_7_8_9_12_15_18_19",
+    "promotion_reason": "shadow_review_passed_awaiting_demo_review",
+    "promotion_stage": "shadow",
+    "shadow_passed": true
+  },
+  "uid": "mhr_hr78912151819_c604b9a2"
+}

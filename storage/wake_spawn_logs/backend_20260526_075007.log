@@ -1,0 +1,13 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-26 09:50:09,259 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-26 09:50:12,268 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-26 09:50:17,061 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-26 09:50:28,478 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 09:50:28,497 | INFO | openai._base_client | Retrying request to /chat/completions in 0.443370 seconds
+2026-05-26 09:50:29,328 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 09:50:29,329 | INFO | openai._base_client | Retrying request to /chat/completions in 0.922128 seconds
+2026-05-26 09:50:30,689 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 09:51:39,189 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 09:52:40,597 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 09:53:41,797 | INFO | atlas_ai.trader | No directional trade signal selected.

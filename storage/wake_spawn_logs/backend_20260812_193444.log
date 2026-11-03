@@ -1,0 +1,718 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\pythonw.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-08-12 21:34:54,219 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-08-12 21:34:57,228 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-08-12 21:35:27,110 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-08-12 21:36:09,461 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-12 21:36:09,465 | INFO | openai._base_client | Retrying request to /chat/completions in 0.444311 seconds
+2026-08-12 21:36:11,091 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-12 21:36:11,092 | INFO | openai._base_client | Retrying request to /chat/completions in 0.827304 seconds
+2026-08-12 21:36:13,393 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-12 21:36:22,393 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-12 21:38:40,046 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-12 21:51:35,337 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 21:54:51,705 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 21:55:59,576 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 21:57:08,694 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 21:58:16,920 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 21:59:25,510 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 22:00:34,540 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 22:01:42,688 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:02:51,248 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 22:05:07,792 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:06:22,348 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:07:29,478 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:08:37,060 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:10:53,104 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:12:00,679 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:13:08,139 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:14:15,625 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:15:23,150 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 22:16:30,201 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:17:38,338 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 22:18:45,240 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 22:19:53,426 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 22:21:12,428 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:22:27,836 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:23:32,070 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:24:36,057 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:25:40,173 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:26:43,367 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:27:47,160 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:29:50,225 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:30:54,118 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 22:31:57,289 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:33:00,947 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:34:04,930 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:35:08,449 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 22:36:21,182 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:37:30,177 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-12 22:38:34,516 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:39:38,837 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:40:42,507 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:41:46,535 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:42:50,268 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:43:53,799 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:44:57,288 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:46:00,983 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:47:04,033 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:48:08,108 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:49:11,575 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:50:15,263 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 22:51:31,419 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:52:40,526 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:53:43,985 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:54:47,636 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 22:55:51,491 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:56:55,127 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-12 22:57:58,380 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-12 22:59:02,513 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:00:05,899 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:01:09,912 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:02:13,029 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:03:16,588 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:04:20,383 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:05:23,383 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:06:26,916 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:07:33,819 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:08:37,937 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:09:41,430 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:10:45,184 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:11:49,323 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:12:52,567 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:13:56,364 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:15:00,245 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:16:03,348 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:17:06,807 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:18:10,860 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:19:13,975 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:20:18,126 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:21:21,381 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:22:28,871 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:23:32,571 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:24:36,156 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:25:42,761 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:26:48,153 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:27:52,370 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:28:55,884 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:29:59,326 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:31:03,006 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:32:07,173 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:33:10,321 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:34:13,827 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:35:17,210 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:36:21,114 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:37:28,314 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:38:31,945 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:39:35,763 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:40:39,374 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:41:42,914 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:42:46,827 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:43:50,567 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:44:54,414 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:45:58,122 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:47:01,686 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:48:05,509 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:49:09,082 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:50:12,714 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:51:16,057 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:52:27,317 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:53:35,244 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:54:38,970 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:55:42,813 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:56:46,429 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:57:50,009 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:58:53,608 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-12 23:59:57,296 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:02:01,537 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 00:03:05,277 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 00:04:08,987 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:05:12,645 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:06:16,113 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 00:07:19,774 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 00:08:26,259 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 00:09:30,237 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 00:10:33,370 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 00:11:37,022 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 00:12:40,900 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 00:13:44,196 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 00:14:47,841 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 00:15:51,335 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 00:16:55,352 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:17:58,559 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:19:02,255 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:20:05,508 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 00:21:09,590 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:22:13,171 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:23:19,972 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:24:23,719 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:25:27,451 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:26:31,061 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:27:34,804 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:28:38,532 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:29:42,087 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:30:45,810 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:31:49,616 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:32:53,209 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:33:56,852 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:35:00,066 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:36:03,862 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:37:07,980 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:38:14,969 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 00:39:18,646 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:40:22,406 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 00:41:26,129 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 00:42:29,697 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:43:33,376 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 00:44:36,960 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 00:45:40,559 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 00:46:44,249 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:47:47,967 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 00:48:51,359 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 00:49:55,106 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 00:50:58,742 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 00:52:02,645 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 00:53:09,924 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:54:15,424 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:55:19,091 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:56:22,723 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:57:26,250 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:58:29,823 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 00:59:33,444 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:01:41,251 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 01:03:48,571 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 01:04:52,226 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 01:14:40,459 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:16:47,799 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:17:51,331 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:18:55,453 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:19:58,589 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:21:02,408 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:22:06,461 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:23:09,988 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:24:17,236 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:25:21,064 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:26:24,883 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:27:28,628 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:28:32,537 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:29:35,781 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:30:39,850 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:31:42,976 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:32:46,546 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:33:50,889 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:34:54,158 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:35:57,887 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:37:02,130 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:38:05,219 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:39:12,872 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:40:16,109 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:41:20,411 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:42:25,328 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 01:43:29,606 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:44:33,946 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:45:37,932 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:46:41,592 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:47:44,734 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:48:48,394 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:49:52,088 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:50:56,283 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:51:59,454 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 01:53:03,669 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 01:54:11,468 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:55:15,131 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:56:18,839 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:57:22,615 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:58:26,355 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 01:59:29,966 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 02:00:33,920 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 02:01:38,065 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:02:41,836 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:03:45,885 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:04:50,220 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 02:05:53,779 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:06:57,869 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 02:08:01,137 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:09:09,236 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 02:10:12,272 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 02:11:16,326 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 02:12:20,176 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:13:24,058 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 02:14:27,340 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 02:15:31,327 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 02:16:35,875 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:17:40,907 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:18:46,432 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:19:51,010 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:20:54,265 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 02:21:57,919 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 02:23:02,349 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:24:10,045 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 02:25:13,981 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:26:17,909 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:27:21,726 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:28:25,429 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 02:29:29,096 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 02:30:32,886 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 02:31:36,618 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 02:32:40,361 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 02:33:44,274 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:34:40,055 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=42.8pips TP=64.3pips ATR=21.42 mult=2.00
+2026-08-13 02:34:48,265 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:35:52,301 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:36:56,414 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:38:00,302 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:39:14,854 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:40:22,403 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:41:26,384 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:42:30,379 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:43:33,813 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:44:38,326 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:45:10,268 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=42.8pips TP=64.3pips ATR=21.42 mult=2.00
+2026-08-13 02:45:41,848 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:46:46,025 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 02:47:49,411 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 02:48:53,680 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:49:10,511 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=42.8pips TP=64.3pips ATR=21.42 mult=2.00
+2026-08-13 02:51:01,579 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:52:05,685 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:54:09,136 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:55:17,017 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:56:22,117 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:57:26,412 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:58:30,485 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 02:59:34,062 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 03:00:38,821 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 03:01:42,416 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 03:02:46,543 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 03:03:50,011 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 03:04:54,204 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 03:05:57,645 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 03:07:02,030 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 03:08:05,568 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 03:09:09,989 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 03:10:17,161 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 03:11:20,989 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 03:12:24,749 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 03:13:28,571 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 03:14:32,602 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 03:15:13,210 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=42.7pips TP=64.0pips ATR=21.34 mult=2.00
+2026-08-13 03:15:36,388 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 03:16:40,045 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 03:17:44,079 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 03:18:47,974 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 03:19:51,743 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 03:20:55,677 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 03:26:19,353 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 03:27:22,723 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 03:28:27,178 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 03:29:30,631 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 03:30:43,744 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=43.2pips TP=64.9pips ATR=21.62 mult=2.00
+2026-08-13 03:31:38,766 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 03:32:43,194 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 03:33:43,820 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=43.2pips TP=64.9pips ATR=21.62 mult=2.00
+2026-08-13 03:33:46,435 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 03:36:43,881 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=43.2pips TP=64.9pips ATR=21.62 mult=2.00
+2026-08-13 03:36:57,194 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-13 03:36:57,198 | INFO | openai._base_client | Retrying request to /chat/completions in 0.426612 seconds
+2026-08-13 03:36:58,116 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-13 03:36:58,117 | INFO | openai._base_client | Retrying request to /chat/completions in 0.764036 seconds
+2026-08-13 03:36:59,404 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-13 03:39:09,991 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 03:40:17,620 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 03:41:21,323 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 03:42:25,160 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 03:50:56,286 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 03:52:00,155 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 03:54:08,086 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 03:55:15,408 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 03:56:24,373 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 03:57:28,063 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 03:58:31,929 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 03:59:35,755 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 04:00:39,831 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 04:01:43,627 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 04:02:47,923 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 04:03:51,284 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 04:04:55,520 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 04:05:59,011 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 04:07:05,861 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 04:08:11,636 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 04:09:17,869 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 04:10:25,572 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 04:11:29,316 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 04:12:33,044 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 04:13:37,020 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 04:14:40,692 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 04:15:44,667 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 04:16:48,501 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 04:17:52,450 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 04:18:56,047 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 04:20:00,296 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 04:20:45,903 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=45.0pips TP=67.5pips ATR=22.50 mult=2.00
+2026-08-13 04:21:04,190 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 04:22:08,023 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 04:24:12,099 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 04:25:15,499 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 04:26:24,332 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 04:27:27,510 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 04:28:31,652 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 04:29:35,102 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 04:30:38,968 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 04:32:47,374 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 04:33:50,803 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 04:35:58,871 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 04:38:06,270 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 04:39:10,489 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 04:40:14,323 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 04:41:21,349 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 04:42:25,174 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 04:43:28,976 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 04:44:32,904 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 04:45:36,792 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 04:46:40,670 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 04:47:43,976 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 04:48:48,258 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 04:49:52,342 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 04:50:55,741 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 04:52:01,480 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 04:53:08,176 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 04:54:14,228 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 04:55:20,225 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 04:56:31,006 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 04:57:36,481 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 04:58:41,415 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 04:59:45,104 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 05:00:48,984 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:02:56,164 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:03:59,854 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:06:07,650 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:07:12,099 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:08:15,488 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 05:09:19,371 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:11:31,326 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:12:35,224 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 05:13:38,490 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:14:42,192 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 05:15:46,367 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:16:49,603 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:17:53,597 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:18:57,590 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:20:00,774 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:21:04,805 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 05:22:08,775 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 05:24:12,091 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 05:25:16,681 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 05:26:28,095 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 05:27:36,003 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 05:28:39,017 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 05:29:43,404 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 05:30:46,829 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 05:33:58,942 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:37:10,419 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:38:13,960 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:39:18,227 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:40:21,535 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:41:34,597 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:42:41,941 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:43:45,784 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:44:49,475 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:45:53,180 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:46:57,053 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:49:04,550 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:50:08,236 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:51:12,251 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:52:16,031 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:53:19,786 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:54:23,685 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 05:55:28,336 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 05:56:31,796 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 05:57:40,378 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 05:58:43,851 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:00:52,110 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 06:01:56,719 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 06:03:01,739 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:04:06,424 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:05:11,331 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:06:17,053 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:07:36,822 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:08:44,392 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:09:48,617 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:10:53,759 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:12:10,151 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:14:28,323 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:15:32,108 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:16:35,413 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:17:39,210 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:18:43,386 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:19:46,717 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:20:50,554 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:21:54,397 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:22:58,729 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 06:24:02,242 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 06:25:09,563 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 06:26:15,669 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 06:27:46,499 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 06:28:54,233 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 06:29:58,269 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 06:31:02,069 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 06:32:05,853 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 06:33:09,891 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 06:34:13,812 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 06:35:17,588 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 06:36:20,958 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 06:37:25,334 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 06:38:29,164 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 06:39:32,982 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:40:36,751 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:41:40,212 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 06:42:50,857 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:43:58,484 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 06:45:02,362 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:46:06,359 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:47:10,043 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:48:13,567 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:49:17,275 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:50:21,104 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:51:24,851 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:52:28,922 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:53:32,712 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:54:36,501 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:55:40,506 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:56:44,775 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 06:57:48,235 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 06:58:55,611 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 06:59:59,310 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 07:01:03,314 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 07:01:22,885 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=33.3pips TP=50.0pips ATR=16.67 mult=2.00
+2026-08-13 07:02:07,180 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 07:03:11,459 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 07:04:14,628 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 07:04:22,949 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=33.6pips TP=50.4pips ATR=16.80 mult=2.00
+2026-08-13 07:05:18,778 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 07:06:22,110 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 07:07:25,842 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 07:08:30,037 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 07:09:33,257 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 07:10:37,468 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 07:11:41,084 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 07:12:45,434 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 07:16:00,659 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 07:16:53,265 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=34.7pips TP=52.1pips ATR=17.35 mult=2.00
+2026-08-13 07:17:04,713 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 07:19:53,331 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=34.7pips TP=52.1pips ATR=17.35 mult=2.00
+2026-08-13 07:20:16,657 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 07:21:20,735 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 07:22:24,474 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 07:23:28,195 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 07:24:32,160 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 07:25:36,235 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 07:26:40,080 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 07:27:44,009 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 07:29:55,691 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 07:30:23,553 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=34.9pips TP=52.4pips ATR=17.46 mult=2.00
+2026-08-13 07:30:59,214 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 07:33:23,620 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=34.9pips TP=52.4pips ATR=17.46 mult=2.00
+2026-08-13 07:38:23,762 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=34.9pips TP=52.4pips ATR=17.46 mult=2.00
+2026-08-13 07:38:27,513 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 07:39:30,819 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 07:40:34,600 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 07:41:23,906 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=34.9pips TP=52.4pips ATR=17.46 mult=2.00
+2026-08-13 07:41:38,977 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 07:42:42,125 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 07:43:49,675 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 07:44:23,965 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=35.7pips TP=53.5pips ATR=17.84 mult=2.00
+2026-08-13 07:47:03,499 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 07:48:07,303 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 07:49:12,620 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 07:50:17,027 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 07:51:20,302 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 07:52:24,768 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 07:53:28,199 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 07:54:32,525 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 07:55:24,788 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=36.4pips TP=54.6pips ATR=18.18 mult=2.00
+2026-08-13 07:55:36,314 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 07:56:40,216 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 07:57:44,358 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 07:58:51,627 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 07:59:24,871 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=36.7pips TP=55.1pips ATR=18.37 mult=2.00
+2026-08-13 07:59:55,339 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 08:00:59,067 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 08:02:02,724 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 08:03:06,498 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 08:04:10,486 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 08:05:14,446 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 08:05:25,119 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=35.4pips TP=53.1pips ATR=17.71 mult=2.00
+2026-08-13 08:06:18,484 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 08:07:22,500 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 08:08:25,385 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=35.4pips TP=53.1pips ATR=17.71 mult=2.00
+2026-08-13 08:08:26,901 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 08:09:30,545 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 08:10:35,070 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 08:11:38,620 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 08:12:43,210 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 08:13:50,856 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 08:13:55,480 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=35.5pips TP=53.2pips ATR=17.73 mult=2.00
+2026-08-13 08:14:54,997 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 08:15:58,759 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 08:17:02,485 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 08:18:06,128 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 08:19:09,935 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 08:21:17,726 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 08:22:21,490 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 08:24:25,599 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 08:25:29,563 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 08:26:33,720 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 08:27:37,751 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 08:28:52,798 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 08:30:00,414 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 08:31:04,401 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 08:32:08,978 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 08:33:12,540 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 08:35:20,387 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 08:36:24,707 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 08:36:26,190 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=36.3pips TP=54.5pips ATR=18.16 mult=2.00
+2026-08-13 08:37:28,671 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 08:38:32,696 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 08:39:36,037 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 08:40:40,708 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 08:41:44,713 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 08:42:48,007 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 08:43:52,487 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 08:45:00,076 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 08:46:04,015 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 08:47:08,139 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 08:48:12,331 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 08:49:16,355 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 08:50:20,564 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 08:51:24,592 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 08:52:28,494 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 08:53:32,656 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 08:54:37,210 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 08:55:41,920 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 08:56:46,157 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 08:57:49,930 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 08:58:53,962 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 09:00:04,194 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 09:05:26,179 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:06:29,628 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:07:33,531 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:08:38,019 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 09:09:41,857 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:11:49,321 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 09:12:53,526 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:13:56,753 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:15:06,364 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:16:10,294 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:17:14,629 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:18:17,934 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:19:22,508 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:20:26,641 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:21:30,626 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:22:35,161 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:23:38,976 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:24:42,843 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:25:47,311 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:26:50,585 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:27:54,374 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:28:58,154 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:30:06,793 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 09:30:27,875 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=33.3pips TP=49.9pips ATR=16.64 mult=2.00
+2026-08-13 09:31:10,840 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:32:15,024 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:33:57,977 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=33.4pips TP=50.1pips ATR=16.70 mult=2.00
+2026-08-13 09:34:22,576 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 09:36:27,209 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 09:37:30,629 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:38:35,155 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 09:39:38,445 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:40:42,281 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:41:46,587 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:42:49,132 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-13 09:42:49,136 | INFO | openai._base_client | Retrying request to /chat/completions in 0.480136 seconds
+2026-08-13 09:42:50,473 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-13 09:42:50,473 | INFO | openai._base_client | Retrying request to /chat/completions in 0.807305 seconds
+2026-08-13 09:42:51,698 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-13 09:42:54,438 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 09:43:58,847 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:45:13,088 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 09:45:34,556 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=33.5pips TP=50.2pips ATR=16.73 mult=2.00
+2026-08-13 09:46:17,057 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:47:21,043 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 09:49:04,649 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=33.5pips TP=50.2pips ATR=16.73 mult=2.00
+2026-08-13 09:49:29,082 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:51:36,659 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 09:52:40,603 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:53:04,929 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=33.8pips TP=50.7pips ATR=16.89 mult=2.00
+2026-08-13 09:53:44,534 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 09:54:48,526 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:55:52,585 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:56:04,997 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=33.8pips TP=50.7pips ATR=16.89 mult=2.00
+2026-08-13 09:56:56,387 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:58:00,281 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:59:04,034 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 09:59:05,055 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=33.9pips TP=50.8pips ATR=16.93 mult=2.00
+2026-08-13 10:01:30,622 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:02:34,614 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 10:03:35,194 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=32.8pips TP=49.1pips ATR=16.38 mult=2.00
+2026-08-13 10:03:38,702 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 10:04:42,025 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:05:46,027 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:06:50,557 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:07:54,402 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:08:05,337 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=32.8pips TP=49.1pips ATR=16.38 mult=2.00
+2026-08-13 10:08:57,855 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:10:02,321 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:11:05,692 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:11:35,428 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=33.0pips TP=49.5pips ATR=16.49 mult=2.00
+2026-08-13 10:12:10,226 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:13:13,677 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:14:17,428 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:15:29,335 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:16:37,463 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:17:41,470 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:18:45,223 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:19:48,999 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:20:52,986 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:21:57,048 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:23:01,309 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 10:24:05,452 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:25:09,637 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 10:26:13,858 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 10:27:17,978 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 10:28:21,991 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 10:30:29,193 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 10:31:37,473 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 10:32:41,331 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 10:34:48,896 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 10:40:09,816 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:41:13,813 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:42:17,474 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:43:21,802 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:44:25,528 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 10:45:29,965 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:46:37,539 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:47:41,350 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:48:45,658 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:49:49,596 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:50:53,529 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:51:57,435 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:53:01,043 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:54:05,207 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:55:09,288 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:56:13,334 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:57:16,983 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:58:21,223 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 10:59:25,114 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 11:00:28,851 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 11:01:36,996 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 11:02:40,980 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 11:03:45,031 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 11:04:37,520 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=31.6pips TP=47.5pips ATR=15.82 mult=2.00
+2026-08-13 11:04:49,116 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 11:06:57,215 | INFO | atlas_ai.trader | Timing discipline blocked trade: wait for clean entry timing confirmation.
+2026-08-13 11:08:01,813 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-08-13 11:09:05,282 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 11:10:09,364 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 11:11:13,995 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 11:12:34,841 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-13 11:15:20,872 | INFO | atlas_ai.trader | No high-confidence trade found.

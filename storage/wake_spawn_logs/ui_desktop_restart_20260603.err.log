@@ -1,0 +1,15 @@
+2026-06-03 17:23:51,750 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=bootstrap exception_type= error=
+2026-06-03 17:23:51,774 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=bootstrap status=entered error=
+2026-06-03 17:23:51,820 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=ui_server_ready exception_type= error=
+2026-06-03 17:23:51,847 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=ui_server_ready status=ok error=
+2026-06-03 17:23:51,954 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=import_webview exception_type= error=
+2026-06-03 17:23:51,975 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=import_webview status=entered error=
+2026-06-03 17:23:51,993 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=import_webview status=returned error=
+2026-06-03 17:23:52,021 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=window_create exception_type= error=
+2026-06-03 17:23:52,039 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=entered_create_window status=entered error=
+2026-06-03 17:23:52,046 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=create_window_returned status=returned error=
+2026-06-03 17:23:52,073 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=start_loop exception_type= error=
+2026-06-03 17:23:52,103 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=entered_start status=entered error=
+2026-06-03 17:23:52,622 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=first_native_callback status=entered error=
+2026-06-03 17:23:52,655 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=True stage=started exception_type= error=
+2026-06-03 17:23:52,679 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=first_native_callback status=started error=

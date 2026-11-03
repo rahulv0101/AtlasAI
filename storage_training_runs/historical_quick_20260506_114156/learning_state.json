@@ -1,0 +1,22 @@
+{
+  "state": {
+    "best_evolved_strategy": {
+      "fast": 6,
+      "slow": 80,
+      "rsi_buy": 48.959054127492756,
+      "rsi_sell": 41.581662900328816,
+      "profit_score": 0.04585342254234438,
+      "trained_bars": 5000,
+      "source": "optimize_for_profit_fallback",
+      "mutation_train_bars": 1200
+    },
+    "evolved_strategy_pool": {
+      "generated_at": "2026-05-06T09:43:32.235003+00:00",
+      "trained_bars": 1200,
+      "backtest_bars": 5000,
+      "count": 0,
+      "candidates": []
+    }
+  },
+  "updated_at": "2026-05-06T09:43:32.242541+00:00"
+}

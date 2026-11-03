@@ -1,0 +1,18 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\pythonw.exe -m atlas_ai.main ui --mode-override live
+2026-08-12 11:55:06,408 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=bootstrap exception_type= error=
+2026-08-12 11:55:06,455 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=bootstrap status=entered error=
+2026-08-12 11:55:06,508 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=ui_server_ready exception_type= error=
+2026-08-12 11:55:06,538 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=ui_server_ready status=ok error=
+2026-08-12 11:55:07,173 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=import_webview exception_type= error=
+2026-08-12 11:55:07,193 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=import_webview status=entered error=
+2026-08-12 11:55:07,219 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=import_webview status=returned error=
+2026-08-12 11:55:07,247 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=window_create exception_type= error=
+2026-08-12 11:55:07,268 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=entered_create_window status=entered error=
+2026-08-12 11:55:07,283 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=create_window_returned status=returned error=
+2026-08-12 11:55:07,323 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=start_loop exception_type= error=
+2026-08-12 11:55:07,357 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=entered_start status=entered error=
+2026-08-12 11:55:13,211 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=desktop_loop_stability_timeout exception_type= error=desktop window loop did not stabilize before timeout
+2026-08-12 11:55:15,002 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=first_native_callback status=entered error=
+2026-08-12 11:55:15,060 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=True stage=started exception_type= error=
+2026-08-12 11:55:15,206 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=first_native_callback status=started error=

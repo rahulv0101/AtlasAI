@@ -1,0 +1,11 @@
+{
+  "schema": "atlas_ui_heartbeat_v1",
+  "component": "ui_server",
+  "last_heartbeat": "2026-09-03T18:36:55.683851+00:00",
+  "last_heartbeat_ts": 1788460598.6973324,
+  "pid": 7484,
+  "cycle_count": 2544,
+  "cycle_status": "running",
+  "bind_host": "127.0.0.1",
+  "bind_port": 8765
+}

@@ -1,0 +1,41 @@
+{
+  "evidence": {
+    "balanced_confirmation": {
+      "last_outcome": "pending",
+      "pending": 6,
+      "samples": 6
+    }
+  },
+  "policy": {
+    "does_not_execute": true,
+    "does_not_mutate_risk": true,
+    "does_not_mutate_strategy": true,
+    "preference_only": true
+  },
+  "ranking": [
+    {
+      "archetype": "trend_pullback_continuation",
+      "score": 0.0
+    },
+    {
+      "archetype": "range_reversion_filter",
+      "score": 0.0
+    },
+    {
+      "archetype": "low_frequency_volatility_guard",
+      "score": 0.0
+    },
+    {
+      "archetype": "balanced_confirmation",
+      "score": 0.0
+    }
+  ],
+  "schema": "atlas_ai_strategy_preferences_v1",
+  "scores": {
+    "balanced_confirmation": 0.0,
+    "low_frequency_volatility_guard": 0.0,
+    "range_reversion_filter": 0.0,
+    "trend_pullback_continuation": 0.0
+  },
+  "updated_at": "2026-08-17T16:46:57.481296+00:00"
+}

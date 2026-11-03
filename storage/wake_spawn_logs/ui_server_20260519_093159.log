@@ -1,0 +1,27 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui-server --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main ui-server --mode-override live
+2026-05-19 11:32:00,996 | INFO | atlas_ai.voice.startup | Startup greeting triggered.
+2026-05-19 11:32:01,025 | WARNING | atlas_ai.voice.startup | Startup voice clone backend unavailable (backend=none); falling back to existing speech chain.
+2026-05-19 11:32:01,026 | INFO | atlas_ai.voice.startup | Fallback voice used for startup greeting.
+2026-05-19 11:32:01,026 | INFO | atlas_ai.voice.startup | Startup greeting playback success.
+2026-05-19 11:32:01,093 | INFO | atlas_ai.ui_server | Starting durable UI server on http://127.0.0.1:8765
+2026-05-19 11:32:01,282 | INFO | werkzeug | 127.0.0.1 - - [19/May/2026 11:32:01] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-19 11:32:01,298 | INFO | werkzeug | 127.0.0.1 - - [19/May/2026 11:32:01] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-19 11:32:01,593 | INFO | werkzeug | 127.0.0.1 - - [19/May/2026 11:32:01] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-19 11:32:01,804 | INFO | werkzeug | 127.0.0.1 - - [19/May/2026 11:32:01] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-19 11:32:03,129 | INFO | werkzeug | 127.0.0.1 - - [19/May/2026 11:32:03] "GET /api/status HTTP/1.1" 200 -
+2026-05-19 11:32:04,407 | INFO | werkzeug | 127.0.0.1 - - [19/May/2026 11:32:04] "GET / HTTP/1.1" 200 -
+2026-05-19 11:32:04,838 | INFO | werkzeug | 127.0.0.1 - - [19/May/2026 11:32:04] "GET / HTTP/1.1" 200 -
+2026-05-19 11:32:07,081 | INFO | werkzeug | 127.0.0.1 - - [19/May/2026 11:32:07] "GET /api/status HTTP/1.1" 200 -
+2026-05-19 11:32:10,552 | INFO | werkzeug | 127.0.0.1 - - [19/May/2026 11:32:10] "GET / HTTP/1.1" 200 -
+2026-05-19 11:32:10,632 | INFO | werkzeug | 127.0.0.1 - - [19/May/2026 11:32:10] "GET /style.css HTTP/1.1" 200 -
+2026-05-19 11:32:10,669 | INFO | werkzeug | 127.0.0.1 - - [19/May/2026 11:32:10] "GET /app.js HTTP/1.1" 200 -
+2026-05-19 11:32:10,981 | INFO | werkzeug | 127.0.0.1 - - [19/May/2026 11:32:10] "GET /api/status HTTP/1.1" 200 -
+2026-05-19 11:32:11,013 | INFO | werkzeug | 127.0.0.1 - - [19/May/2026 11:32:11] "POST /api/ui-ready HTTP/1.1" 200 -
+2026-05-19 11:32:11,445 | INFO | werkzeug | 127.0.0.1 - - [19/May/2026 11:32:11] "GET /api/status?_ts=1779183130832 HTTP/1.1" 200 -
+2026-05-19 11:32:16,153 | INFO | werkzeug | 127.0.0.1 - - [19/May/2026 11:32:16] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-19 11:32:16,183 | INFO | werkzeug | 127.0.0.1 - - [19/May/2026 11:32:16] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-19 11:32:16,204 | INFO | werkzeug | 127.0.0.1 - - [19/May/2026 11:32:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-19 11:32:17,330 | INFO | werkzeug | 127.0.0.1 - - [19/May/2026 11:32:17] "GET /api/status?_ts=1779183136842 HTTP/1.1" 200 -
+2026-05-19 11:32:23,371 | INFO | werkzeug | 127.0.0.1 - - [19/May/2026 11:32:23] "GET /api/status?_ts=1779183142844 HTTP/1.1" 200 -
+2026-05-19 11:33:51,827 | INFO | werkzeug | 127.0.0.1 - - [19/May/2026 11:33:51] "GET /api/status HTTP/1.1" 200 -

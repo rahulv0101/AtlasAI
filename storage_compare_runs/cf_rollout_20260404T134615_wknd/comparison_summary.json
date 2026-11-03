@@ -1,0 +1,16 @@
+{
+  "updated_at": "2026-04-04T12:38:34.555545+00:00",
+  "run_id": "cf_rollout_20260404T134615_wknd",
+  "preset": "conservative_filter_rollout_v1",
+  "version_hash": "0139330334410e58",
+  "control": {},
+  "experiment": {},
+  "control_status": {
+    "action": "blocked",
+    "message": "Consensus guard blocked trade: side=buy, support=1, required=2."
+  },
+  "experiment_status": {
+    "action": "blocked",
+    "message": "Consensus guard blocked trade: side=buy, support=1, required=2."
+  }
+}

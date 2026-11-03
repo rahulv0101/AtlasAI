@@ -1,0 +1,35 @@
+{
+  "available": true,
+  "correct_block_rate": 1.0,
+  "created_at": "2026-08-29T12:15:00.040778+00:00",
+  "missed_rate": 0.0,
+  "outcome_counts": {
+    "correct_hold_or_block": 1,
+    "inconclusive": 0,
+    "missed_opportunity": 0
+  },
+  "policy": {
+    "does_not_change_execution_policy": true,
+    "does_not_change_risk_policy": true,
+    "does_not_change_strategy_logic": true,
+    "does_not_execute": true,
+    "requires_operator_approval_for_any_candidate_rule": true,
+    "review_only": true
+  },
+  "proposal": {
+    "candidate_change_class": "context_filter_or_confirmation_rule",
+    "focus": "keep the blocker unchanged and continue monitoring",
+    "forbidden_change_class": "global_guard_disable_or_unapproved_threshold_loosen",
+    "next_validation": "replay reviewed cases against a shadow-only candidate rule before any operator approval step",
+    "type": "offline_selectivity_review"
+  },
+  "review_priority": "low",
+  "samples": 1,
+  "schema": "atlas_blocker_selectivity_review_v1",
+  "sides": [
+    "sell"
+  ],
+  "target_blocker": "Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.",
+  "total_adverse_blocked_points": 2947.0,
+  "total_favorable_missed_points": 0
+}

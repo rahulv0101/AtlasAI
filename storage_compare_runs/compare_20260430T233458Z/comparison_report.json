@@ -1,0 +1,703 @@
+{
+  "updated_at": "2026-05-01T06:54:21.392140+00:00",
+  "control": {
+    "trades_taken": 0,
+    "trades_skipped_filtered": 849,
+    "trades_closed": 0,
+    "win_rate": 0.0,
+    "expectancy": 0.0,
+    "profit_factor": 0.0,
+    "drawdown": 0.0,
+    "average_win": 0.0,
+    "average_loss": 0.0
+  },
+  "experiment": {
+    "trades_taken": 0,
+    "trades_skipped_filtered": 849,
+    "trades_closed": 0,
+    "win_rate": 0.0,
+    "expectancy": 0.0,
+    "profit_factor": 0.0,
+    "drawdown": 0.0,
+    "average_win": 0.0,
+    "average_loss": 0.0
+  },
+  "cross_lane": {
+    "taken_by_both": 0,
+    "control_only_taken": 0,
+    "experiment_only_taken": 0,
+    "filtered_by_experiment": 0
+  },
+  "lane_diagnostics": {
+    "latest_control": {
+      "lane": "control",
+      "candidate_key": "XAUUSD|M1|2026-05-01 09:54:00|momentum_continuation|flat|115.0|175.0",
+      "action": "blocked",
+      "message": "Risk guard active: Safety lock active: consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak. No trade executed.",
+      "strategy": "momentum_continuation",
+      "side": "flat",
+      "confidence": 0.0,
+      "session": "",
+      "regime": "trend",
+      "trend_strength": 0.2718,
+      "filter_reason": "Risk guard active: Safety lock active: consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak. No trade executed.",
+      "decision_explanation": {
+        "candidate_id": "|momentum_continuation|flat",
+        "trade_id": "",
+        "lane": "control",
+        "mode": "paper",
+        "symbol": "XAUUSD",
+        "timestamp": "",
+        "signal_source": "momentum_continuation",
+        "regime": "trend",
+        "session": "unknown",
+        "trend_strength": 0.2718,
+        "setup_quality_reasons": [],
+        "active_guards": [],
+        "penalties": [],
+        "final_decision": "block",
+        "reason_codes": [
+          "risk_guard_active_safety_lock_active_consecutive_loss_threshold_rolling_expectancy_degradation_supporting_win_rate_weak_no_trade_executed"
+        ],
+        "explanation_text": "Risk guard active: Safety lock active: consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak. No trade executed."
+      },
+      "shadow_advice": {
+        "trade_id": "|momentum_continuation|flat",
+        "setup_score": 0.0,
+        "confidence": 0.0,
+        "anomaly_flags": [
+          "blocked_trade"
+        ],
+        "alternative_ranking": [
+          {
+            "strategy": "momentum_continuation",
+            "score": 0.0,
+            "confidence": 0.0
+          },
+          {
+            "strategy": "gold_micro_impulse",
+            "score": 0.0,
+            "confidence": 0.0
+          },
+          {
+            "strategy": "gold_liquidity_sweep",
+            "score": 0.0,
+            "confidence": 0.0
+          }
+        ],
+        "recommendation": "observe"
+      },
+      "context_snapshot": {
+        "symbol": "XAUUSD",
+        "timestamp": "2026-05-01T09:54:00",
+        "regime": "trend",
+        "session": "unknown",
+        "trend_strength": 0.2718,
+        "volatility_state": "low",
+        "spread_state": "normal",
+        "liquidity_state": "unknown",
+        "spread_points": 34.0,
+        "dxy_alignment": "unknown",
+        "dxy_trend": "unknown",
+        "us10y_alignment": "unknown",
+        "us10y_trend": "unknown",
+        "vix_regime": "unknown",
+        "vix_alignment": "unknown",
+        "oil_backdrop": "unknown",
+        "oil_alignment": "unknown",
+        "event_risk_state": "unknown",
+        "news_risk_classification": "unknown",
+        "news_sentiment": "unknown",
+        "macro_classification": "unknown",
+        "slippage_state": "unknown",
+        "slippage_points": 0.0,
+        "repeated_entry_risk": false,
+        "overstretched_entry_risk": false
+      },
+      "system_health": {
+        "effective_mode": "paper",
+        "paper_mode_confirmed": true,
+        "filter_state": {
+          "conservative_filter_enabled": false,
+          "research_regime_filter_enabled": false
+        },
+        "ml_state": {
+          "meta_model_enabled": false,
+          "decision_authority": "disabled"
+        },
+        "gemini_state": {
+          "enabled": true,
+          "influence_enabled": false,
+          "provider_health": {
+            "enabled": true,
+            "providers": [
+              {
+                "name": "openai",
+                "in_cooldown": false,
+                "cooldown_seconds_left": 0,
+                "last_error": ""
+              }
+            ]
+          }
+        },
+        "ai_influence_mode": "observer_only",
+        "ai_execution_authority": "execution_authority_forbidden",
+        "stale_data_detected": false,
+        "freshness_runtime": {
+          "status_age_ms": null,
+          "market_data_age_ms": null,
+          "primary_age_ms": null,
+          "backend_cycle_age_ms": null,
+          "is_status_stale": false,
+          "is_stale": false,
+          "state": "unknown",
+          "max_freshness_age_ms": 480000.0,
+          "stale_threshold_ms": 480000.0,
+          "aging_threshold_ms": 240000.0,
+          "source": "status_freshness_contract"
+        },
+        "config_mismatch_detected": false,
+        "mode_truth": {
+          "effective_mode": "paper",
+          "effective_mode_source": "status",
+          "runtime_execute_trades": false,
+          "settings_execute_trades": false,
+          "status_execute_trades": false,
+          "startup_execute_trades": null,
+          "startup_message": "",
+          "explanation": "Status, runtime, startup verification, and settings are aligned."
+        },
+        "routing_risk_detected": false,
+        "self_improvement": {
+          "policy_version": "1.0",
+          "proposal_count": 1,
+          "validated_count": 0,
+          "approval_pending_count": 0,
+          "rollout_active": false,
+          "rollback_available": false,
+          "active_rule_version": "atlas_rules_v1",
+          "latest_rollout_id": ""
+        },
+        "safety_layer": {
+          "safety_lock_active": true,
+          "safety_lock_reason": "consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak",
+          "cooldown_active": false,
+          "cooldown_level": "none",
+          "cooldown_reason": "",
+          "cooldown_status": "not_applicable_due_to_safety_lock",
+          "safety_lock_supersedes_cooldown": true,
+          "volatility_state": "normal",
+          "volatility_action": "allow",
+          "recovery_ready": false,
+          "recovery_mode": "lockdown",
+          "recovery_blockers": [
+            "safety_lock_active"
+          ],
+          "safety_lock_source": "current_session",
+          "safety_lock_triggered_at": "2026-04-30T23:39:03.297757+00:00",
+          "safety_lock_triggering_window": "current_session",
+          "safety_lock_current_session_relevant": true,
+          "safety_lock_requires_manual_unlock": true,
+          "last_loss_at": "",
+          "trades_since_lock": 0,
+          "recovery": {
+            "recovery_ready": false,
+            "recovery_blockers": [
+              "safety_lock_active"
+            ],
+            "required_actions": [
+              "manual_operator_unlock_required",
+              "cooldown_expired",
+              "no_active_hard_blocker",
+              "volatility_back_to_acceptable",
+              "next_setup_meets_high_confluence"
+            ],
+            "can_auto_recover": false,
+            "manual_unlock_endpoint": "/api/safety/unlock",
+            "unlock_requires_confirmation": true
+          }
+        },
+        "broker_connectivity_status": {
+          "connected": true,
+          "symbol_selected": true
+        },
+        "warnings": [],
+        "protective_locks": [
+          "safety_lock_active"
+        ],
+        "classification": {
+          "PASS": [
+            "broker_connectivity_ok",
+            "execution_gate_enforced",
+            "status_pipeline_alive"
+          ],
+          "PROTECTIVE_LOCK": [
+            "safety_lock_active"
+          ],
+          "WARNING": [],
+          "FAIL": []
+        },
+        "macro_data": {
+          "dxy_alignment": {
+            "state": "unknown",
+            "availability": "available"
+          },
+          "us10y_alignment": {
+            "state": "unknown",
+            "availability": "available"
+          },
+          "vix_regime": {
+            "state": "unknown",
+            "availability": "available"
+          },
+          "oil_context": {
+            "state": "unknown",
+            "availability": "available"
+          }
+        },
+        "session_state": "asia",
+        "regime_state": {
+          "regime": "trend",
+          "regime_confidence": 0,
+          "regime_source": "model",
+          "warning": ""
+        },
+        "spread_liquidity": {
+          "spread_points": 34.0,
+          "spread_pips": 3.4,
+          "spread_status": "normal",
+          "spread_liquidity_score": 10,
+          "spread_explanation": "weak_due_to_missing_liquidity_context"
+        },
+        "evolution_state": {
+          "evolution_enabled": false,
+          "evolution_status": "disabled",
+          "evolved_strategy_count": 0,
+          "action": "none"
+        },
+        "filter_status": {
+          "conservative_filter": {
+            "status": "inactive_by_config",
+            "severity": "INFO"
+          },
+          "research_filter": {
+            "status": "inactive_by_config",
+            "severity": "INFO"
+          }
+        }
+      },
+      "updated_at": ""
+    },
+    "latest_experiment": {
+      "lane": "experiment",
+      "candidate_key": "XAUUSD|M1|2026-05-01 09:54:00|momentum_continuation|flat|115.0|175.0",
+      "action": "blocked",
+      "message": "Risk guard active: Safety lock active: consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak. No trade executed.",
+      "strategy": "momentum_continuation",
+      "side": "flat",
+      "confidence": 0.0,
+      "session": "",
+      "regime": "trend",
+      "trend_strength": 0.2718,
+      "filter_reason": "Risk guard active: Safety lock active: consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak. No trade executed.",
+      "decision_explanation": {
+        "candidate_id": "|momentum_continuation|flat",
+        "trade_id": "",
+        "lane": "experiment",
+        "mode": "paper",
+        "symbol": "XAUUSD",
+        "timestamp": "",
+        "signal_source": "momentum_continuation",
+        "regime": "trend",
+        "session": "unknown",
+        "trend_strength": 0.2718,
+        "setup_quality_reasons": [],
+        "active_guards": [],
+        "penalties": [],
+        "final_decision": "block",
+        "reason_codes": [
+          "risk_guard_active_safety_lock_active_consecutive_loss_threshold_rolling_expectancy_degradation_supporting_win_rate_weak_no_trade_executed"
+        ],
+        "explanation_text": "Risk guard active: Safety lock active: consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak. No trade executed."
+      },
+      "shadow_advice": {
+        "trade_id": "|momentum_continuation|flat",
+        "setup_score": 0.0,
+        "confidence": 0.0,
+        "anomaly_flags": [
+          "blocked_trade"
+        ],
+        "alternative_ranking": [
+          {
+            "strategy": "momentum_continuation",
+            "score": 0.0,
+            "confidence": 0.0
+          },
+          {
+            "strategy": "gold_micro_impulse",
+            "score": 0.0,
+            "confidence": 0.0
+          },
+          {
+            "strategy": "gold_liquidity_sweep",
+            "score": 0.0,
+            "confidence": 0.0
+          }
+        ],
+        "recommendation": "observe"
+      },
+      "context_snapshot": {
+        "symbol": "XAUUSD",
+        "timestamp": "2026-05-01T09:54:00",
+        "regime": "trend",
+        "session": "unknown",
+        "trend_strength": 0.2718,
+        "volatility_state": "low",
+        "spread_state": "normal",
+        "liquidity_state": "unknown",
+        "spread_points": 34.0,
+        "dxy_alignment": "unknown",
+        "dxy_trend": "unknown",
+        "us10y_alignment": "unknown",
+        "us10y_trend": "unknown",
+        "vix_regime": "unknown",
+        "vix_alignment": "unknown",
+        "oil_backdrop": "unknown",
+        "oil_alignment": "unknown",
+        "event_risk_state": "unknown",
+        "news_risk_classification": "unknown",
+        "news_sentiment": "unknown",
+        "macro_classification": "unknown",
+        "slippage_state": "unknown",
+        "slippage_points": 0.0,
+        "repeated_entry_risk": false,
+        "overstretched_entry_risk": false
+      },
+      "system_health": {
+        "effective_mode": "paper",
+        "paper_mode_confirmed": true,
+        "filter_state": {
+          "conservative_filter_enabled": false,
+          "research_regime_filter_enabled": false
+        },
+        "ml_state": {
+          "meta_model_enabled": false,
+          "decision_authority": "disabled"
+        },
+        "gemini_state": {
+          "enabled": true,
+          "influence_enabled": false,
+          "provider_health": {
+            "enabled": true,
+            "providers": [
+              {
+                "name": "openai",
+                "in_cooldown": false,
+                "cooldown_seconds_left": 0,
+                "last_error": ""
+              }
+            ]
+          }
+        },
+        "ai_influence_mode": "observer_only",
+        "ai_execution_authority": "execution_authority_forbidden",
+        "stale_data_detected": false,
+        "freshness_runtime": {
+          "status_age_ms": null,
+          "market_data_age_ms": null,
+          "primary_age_ms": null,
+          "backend_cycle_age_ms": null,
+          "is_status_stale": false,
+          "is_stale": false,
+          "state": "unknown",
+          "max_freshness_age_ms": 480000.0,
+          "stale_threshold_ms": 480000.0,
+          "aging_threshold_ms": 240000.0,
+          "source": "status_freshness_contract"
+        },
+        "config_mismatch_detected": false,
+        "mode_truth": {
+          "effective_mode": "paper",
+          "effective_mode_source": "status",
+          "runtime_execute_trades": false,
+          "settings_execute_trades": false,
+          "status_execute_trades": false,
+          "startup_execute_trades": null,
+          "startup_message": "",
+          "explanation": "Status, runtime, startup verification, and settings are aligned."
+        },
+        "routing_risk_detected": false,
+        "self_improvement": {
+          "policy_version": "1.0",
+          "proposal_count": 1,
+          "validated_count": 0,
+          "approval_pending_count": 0,
+          "rollout_active": false,
+          "rollback_available": false,
+          "active_rule_version": "atlas_rules_v1",
+          "latest_rollout_id": ""
+        },
+        "safety_layer": {
+          "safety_lock_active": true,
+          "safety_lock_reason": "consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak",
+          "cooldown_active": false,
+          "cooldown_level": "none",
+          "cooldown_reason": "",
+          "cooldown_status": "not_applicable_due_to_safety_lock",
+          "safety_lock_supersedes_cooldown": true,
+          "volatility_state": "normal",
+          "volatility_action": "allow",
+          "recovery_ready": false,
+          "recovery_mode": "lockdown",
+          "recovery_blockers": [
+            "safety_lock_active"
+          ],
+          "safety_lock_source": "current_session",
+          "safety_lock_triggered_at": "2026-04-30T23:39:03.647971+00:00",
+          "safety_lock_triggering_window": "current_session",
+          "safety_lock_current_session_relevant": true,
+          "safety_lock_requires_manual_unlock": true,
+          "last_loss_at": "",
+          "trades_since_lock": 0,
+          "recovery": {
+            "recovery_ready": false,
+            "recovery_blockers": [
+              "safety_lock_active"
+            ],
+            "required_actions": [
+              "manual_operator_unlock_required",
+              "cooldown_expired",
+              "no_active_hard_blocker",
+              "volatility_back_to_acceptable",
+              "next_setup_meets_high_confluence"
+            ],
+            "can_auto_recover": false,
+            "manual_unlock_endpoint": "/api/safety/unlock",
+            "unlock_requires_confirmation": true
+          }
+        },
+        "broker_connectivity_status": {
+          "connected": true,
+          "symbol_selected": true
+        },
+        "warnings": [],
+        "protective_locks": [
+          "safety_lock_active"
+        ],
+        "classification": {
+          "PASS": [
+            "broker_connectivity_ok",
+            "execution_gate_enforced",
+            "status_pipeline_alive"
+          ],
+          "PROTECTIVE_LOCK": [
+            "safety_lock_active"
+          ],
+          "WARNING": [],
+          "FAIL": []
+        },
+        "macro_data": {
+          "dxy_alignment": {
+            "state": "unknown",
+            "availability": "available"
+          },
+          "us10y_alignment": {
+            "state": "unknown",
+            "availability": "available"
+          },
+          "vix_regime": {
+            "state": "unknown",
+            "availability": "available"
+          },
+          "oil_context": {
+            "state": "unknown",
+            "availability": "available"
+          }
+        },
+        "session_state": "asia",
+        "regime_state": {
+          "regime": "trend",
+          "regime_confidence": 0,
+          "regime_source": "model",
+          "warning": ""
+        },
+        "spread_liquidity": {
+          "spread_points": 34.0,
+          "spread_pips": 3.4,
+          "spread_status": "normal",
+          "spread_liquidity_score": 10,
+          "spread_explanation": "weak_due_to_missing_liquidity_context"
+        },
+        "evolution_state": {
+          "evolution_enabled": false,
+          "evolution_status": "disabled",
+          "evolved_strategy_count": 0,
+          "action": "none"
+        },
+        "filter_status": {
+          "conservative_filter": {
+            "status": "inactive_by_config",
+            "severity": "INFO"
+          },
+          "research_filter": {
+            "status": "inactive_by_config",
+            "severity": "INFO"
+          }
+        }
+      },
+      "updated_at": ""
+    }
+  },
+  "trades_removed_breakdown": [],
+  "winners_vs_losers_removed": {
+    "losers_avoided": 0,
+    "winners_lost": 0,
+    "net_trade_quality_impact": 0,
+    "removed_trade_expectancy": 0.0,
+    "removed_trade_pnl_sum": 0.0,
+    "removed_trade_outcomes_known": 0
+  },
+  "filter_effectiveness": {
+    "assessment": "neutral"
+  },
+  "decision_checklist": {
+    "sample": {
+      "current_stage": "insufficient",
+      "current_counts": {
+        "control_closed": 0,
+        "experiment_closed": 0,
+        "filtered_observations": 0,
+        "removed_outcomes_known": 0
+      },
+      "matched_thresholds": {},
+      "minimum_comparison_thresholds": {
+        "control_closed": 100,
+        "experiment_closed": 70,
+        "filtered_observations": 25,
+        "removed_outcomes_known": 20
+      },
+      "minimum_sample_reached": false,
+      "early_sanity_reached": false
+    },
+    "raw": {
+      "sample_stage": "insufficient",
+      "control_closed_trades": 0,
+      "experiment_closed_trades": 0,
+      "experiment_trade_ratio": 0.0,
+      "filtered_trade_observations": 0,
+      "removed_outcomes_known": 0,
+      "control_win_rate": 0.0,
+      "experiment_win_rate": 0.0,
+      "win_rate_delta": 0.0,
+      "control_expectancy": 0.0,
+      "experiment_expectancy": 0.0,
+      "expectancy_delta": 0.0,
+      "control_profit_factor": 0.0,
+      "experiment_profit_factor": 0.0,
+      "profit_factor_delta": 0.0,
+      "control_drawdown": 0.0,
+      "experiment_drawdown": 0.0,
+      "drawdown_delta": 0.0,
+      "losers_avoided": 0,
+      "winners_removed": 0,
+      "net_removal_edge": 0
+    },
+    "checks": {
+      "minimum_sample_reached": {
+        "status": "fail",
+        "value": {
+          "current_stage": "insufficient",
+          "current_counts": {
+            "control_closed": 0,
+            "experiment_closed": 0,
+            "filtered_observations": 0,
+            "removed_outcomes_known": 0
+          },
+          "matched_thresholds": {},
+          "minimum_comparison_thresholds": {
+            "control_closed": 100,
+            "experiment_closed": 70,
+            "filtered_observations": 25,
+            "removed_outcomes_known": 20
+          },
+          "minimum_sample_reached": false,
+          "early_sanity_reached": false
+        },
+        "reason": "Sample is still below early sanity-check thresholds."
+      },
+      "trade_count_meaningful": {
+        "status": "fail",
+        "value": 0.0,
+        "threshold": {
+          "warn_below": 0.65,
+          "fail_below": 0.5,
+          "hard_fail_below": 0.35
+        },
+        "reason": "Experiment trade count collapsed below 35% of control."
+      },
+      "win_rate_change": {
+        "status": "unknown",
+        "value": 0.0,
+        "reason": "No meaningful win-rate change yet."
+      },
+      "expectancy_change": {
+        "status": "pass",
+        "value": 0.0,
+        "reason": "Experiment expectancy improved or stayed flat."
+      },
+      "profit_factor_change": {
+        "status": "unknown",
+        "value": 0.0,
+        "reason": "No meaningful profit-factor change yet."
+      },
+      "drawdown_change": {
+        "status": "pass",
+        "value": 0.0,
+        "threshold": {
+          "max_relative_worsening": 0.1
+        },
+        "reason": "Experiment drawdown did not materially worsen."
+      },
+      "losers_avoided_vs_winners_removed": {
+        "status": "unknown",
+        "value": {
+          "losers_avoided": 0,
+          "winners_removed": 0,
+          "net_removal_edge": 0
+        },
+        "reason": "Not enough removed-trade outcomes are known yet."
+      },
+      "sample_shrinkage_illusion": {
+        "status": "fail",
+        "value": {
+          "trade_ratio": 0.0,
+          "expectancy_delta": 0.0,
+          "profit_factor_delta": 0.0
+        },
+        "reason": "Results look vulnerable to a sample-shrinkage illusion."
+      },
+      "session_stability": {
+        "status": "unknown",
+        "value": {
+          "shared_buckets": [],
+          "eligible_buckets": [],
+          "control": {},
+          "experiment": {}
+        },
+        "reason": "Not enough session data to assess stability."
+      },
+      "regime_stability": {
+        "status": "unknown",
+        "value": {
+          "shared_buckets": [],
+          "eligible_buckets": [],
+          "control": {},
+          "experiment": {}
+        },
+        "reason": "Not enough regime data to assess stability."
+      }
+    },
+    "classification": "CONTINUE_TESTING",
+    "explanation": "Evidence is still mixed or the sample is not yet strong enough for a conservative decision."
+  }
+}

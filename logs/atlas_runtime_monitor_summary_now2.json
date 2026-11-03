@@ -1,0 +1,24 @@
+{
+  "started_at_utc": "2026-05-04T22:04:25.027806+00:00",
+  "ended_at_utc": "2026-05-04T22:05:58.481385+00:00",
+  "duration_sec": 93,
+  "samples": 3,
+  "base_url": "http://127.0.0.1:8765",
+  "api_ok_ratio": 1.0,
+  "broker_connected_ratio": 1.0,
+  "execute_true_ratio": 1.0,
+  "last_physical_counts": {
+    "live": 1,
+    "ui-server": 1,
+    "ui": 1,
+    "audio-listener": 1,
+    "other": 0
+  },
+  "last_logical_counts": {
+    "live": 1,
+    "ui-server": 1,
+    "ui": 1,
+    "audio-listener": 1,
+    "other": 0
+  }
+}

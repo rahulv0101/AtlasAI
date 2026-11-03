@@ -1,0 +1,13 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-18 17:08:03,047 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-18 17:08:06,058 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-18 17:08:12,184 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-18 17:08:20,233 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 17:09:30,274 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 17:10:33,926 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 17:11:37,366 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 17:12:39,563 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 17:13:42,857 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 17:14:48,810 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 17:15:52,047 | INFO | atlas_ai.trader | No high-confidence trade found.

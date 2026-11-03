@@ -1,0 +1,19 @@
+Startup voice clone backend unavailable (backend=none); falling back to existing speech chain.
+127.0.0.1 - - [02/Jun/2026 15:28:46] "GET /api/ai/research/queue HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jun/2026 15:31:32] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jun/2026 15:31:46] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jun/2026 15:31:49] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jun/2026 15:31:51] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jun/2026 15:31:53] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jun/2026 15:31:55] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jun/2026 15:31:57] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jun/2026 15:31:59] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jun/2026 15:32:01] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jun/2026 15:32:04] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jun/2026 15:32:06] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jun/2026 15:32:08] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jun/2026 15:32:10] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jun/2026 15:32:12] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jun/2026 15:32:32] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jun/2026 15:32:32] "GET /api/runtime HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jun/2026 15:32:32] "GET /api/ai/research/queue HTTP/1.1" 200 -

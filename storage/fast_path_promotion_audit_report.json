@@ -1,0 +1,39 @@
+{
+  "schema": "atlas_fast_path_promotion_audit_v1",
+  "generated_at": "2026-08-17T14:57:56.514569+00:00",
+  "window_hours": 12.0,
+  "read_only": true,
+  "path_counts": {
+    "slow_path": {
+      "entered": 0,
+      "transitioned_to_next": 0,
+      "reached_promotion": 0
+    },
+    "medium_path": {
+      "entered": 0,
+      "transitioned_to_next": 0,
+      "reached_promotion": 0
+    },
+    "fast_path": {
+      "entered": 0,
+      "transitioned_to_next": 0,
+      "reached_promotion": 0
+    }
+  },
+  "transitions": {
+    "slow_to_medium": 0,
+    "medium_to_fast": 0,
+    "slow_to_fast": 0
+  },
+  "transition_examples": [],
+  "promotion": {
+    "promotion_candidate_events": 0,
+    "promoted_events": 0,
+    "events": []
+  },
+  "evidence_count": 0,
+  "observation_count": 0,
+  "audit_event_count": 0,
+  "summary": "0 learning observations across 0 evidence fingerprints; 0 path transitions; 0 promotion completions in the selected window.",
+  "policy_note": "Observability only; this report does not change promotion logic, ranking weights, or execution policy."
+}

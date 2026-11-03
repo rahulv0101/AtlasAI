@@ -1,0 +1,16 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-04-23 07:43:53,149 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-04-23 07:43:56,154 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-04-23 07:44:00,921 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-23 07:45:01,846 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-23 07:46:04,890 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-23 07:47:34,131 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-23 07:48:41,791 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-23 07:49:51,869 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-23 07:50:59,805 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-23 07:52:00,699 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-23 07:53:01,950 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-23 07:54:03,001 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-23 07:55:03,753 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-23 07:56:04,408 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-23 07:57:05,141 | INFO | atlas_ai.trader | No high-confidence trade found.

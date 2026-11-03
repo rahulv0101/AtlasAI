@@ -1,0 +1,52 @@
+{
+  "proposal_id": "proposal_outcome_momentum_continuation_weak",
+  "generated_at": "2026-05-04T10:24:51.574558+00:00",
+  "category": "strategy_logic",
+  "status": "approved_for_rollout",
+  "evidence": {
+    "strength": 0.697,
+    "sample_count": 28,
+    "grade": "moderate"
+  },
+  "readiness": {
+    "decision_samples": 57,
+    "closed_outcomes": 97,
+    "joined_samples": 50,
+    "joined_training_ready": true,
+    "meta_model_dataset_source": "decision_outcome_joined",
+    "meta_model_status": "candidate",
+    "learning_stability": {
+      "stable": true,
+      "recent_win_rate": 0.275,
+      "baseline_win_rate": 0.3402,
+      "delta": -0.0652,
+      "samples": 97,
+      "recent_samples": 40,
+      "max_allowed_delta": 0.18
+    },
+    "samples_needed_for_joined_training": 0
+  },
+  "validation": {
+    "required": [
+      "backtest",
+      "shadow_compare",
+      "regression_tests"
+    ],
+    "completed": [
+      "validation_report_generated"
+    ],
+    "missing": [
+      "backtest",
+      "shadow_compare",
+      "regression_tests"
+    ]
+  },
+  "promotion_readiness": {
+    "meets_strength_threshold": false,
+    "meets_sample_threshold": false,
+    "joined_training_ready": true,
+    "operator_approval_required": true,
+    "ready_for_rollout_review": false
+  },
+  "updated_at": "2026-05-04T10:24:51.582083+00:00"
+}

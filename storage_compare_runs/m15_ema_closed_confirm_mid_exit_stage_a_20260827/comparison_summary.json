@@ -1,0 +1,37 @@
+{
+  "updated_at": "2026-08-29T13:52:46.917638+00:00",
+  "run_id": "m15_ema_closed_confirm_mid_exit_stage_a_20260827",
+  "preset": "ema_crossover_closed_confirm_mid_exit_stage_a",
+  "version_hash": "5d884554853dd07c",
+  "control": {},
+  "experiment": {},
+  "control_status": {
+    "action": "blocked",
+    "message": "Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed."
+  },
+  "experiment_status": {
+    "action": "blocked",
+    "message": "Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed."
+  },
+  "comparison_tracker": {
+    "report_path": "storage_compare_runs\\m15_ema_closed_confirm_mid_exit_stage_a_20260827\\comparison_report.json",
+    "tracker_path": "storage_compare_runs\\m15_ema_closed_confirm_mid_exit_stage_a_20260827\\comparison_tracker.json",
+    "cross_lane": {
+      "taken_by_both": 0,
+      "control_only_taken": 0,
+      "experiment_only_taken": 0,
+      "filtered_by_experiment": 0
+    },
+    "winners_vs_losers_removed": {
+      "losers_avoided": 0,
+      "winners_lost": 0,
+      "net_trade_quality_impact": 0,
+      "removed_trade_expectancy": 0.0,
+      "removed_trade_pnl_sum": 0.0,
+      "removed_trade_outcomes_known": 0
+    },
+    "filter_effectiveness": {
+      "assessment": "neutral"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui-server --mode-override live
+2026-04-23 00:10:48,974 | INFO | atlas_ai.voice.startup | Startup greeting triggered.
+2026-04-23 00:10:49,064 | INFO | atlas_ai.ui_server | Starting durable UI server on http://127.0.0.1:8765
+2026-04-23 00:10:49,672 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:10:49] "GET /api/status HTTP/1.1" 200 -
+2026-04-23 00:10:51,603 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:10:51] "GET / HTTP/1.1" 200 -
+2026-04-23 00:10:51,826 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:10:51] "GET / HTTP/1.1" 200 -
+2026-04-23 00:10:53,109 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:10:53] "GET /api/status HTTP/1.1" 200 -
+2026-04-23 00:10:55,365 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:10:55] "GET / HTTP/1.1" 200 -
+2026-04-23 00:10:55,444 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:10:55] "GET /style.css HTTP/1.1" 200 -
+2026-04-23 00:10:55,475 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:10:55] "GET /app.js HTTP/1.1" 200 -
+2026-04-23 00:10:55,671 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:10:55] "GET /api/status?_ts=1776895855494 HTTP/1.1" 200 -
+2026-04-23 00:10:55,711 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:10:55] "GET /api/runtime?_ts=1776895855495 HTTP/1.1" 200 -
+2026-04-23 00:10:56,117 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:10:56] "POST /api/ui-ready HTTP/1.1" 200 -
+2026-04-23 00:10:56,608 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:10:56] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 00:10:56,652 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:10:56] "GET /api/status HTTP/1.1" 200 -
+2026-04-23 00:10:56,668 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:10:56] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 00:10:56,747 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:10:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-23 00:10:59,294 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:10:59] "GET /api/events?_ts=1776895855495 HTTP/1.1" 200 -
+2026-04-23 00:10:59,615 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:10:59] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 00:10:59,657 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:10:59] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 00:11:00,019 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:11:00] "GET /api/learning-insights?_ts=1776895855495 HTTP/1.1" 200 -
+2026-04-23 00:11:00,072 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:11:00] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 00:11:05,172 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:11:05] "GET /api/status HTTP/1.1" 200 -
+2026-04-23 00:11:16,427 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:11:16] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 00:11:16,459 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:11:16] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 00:11:16,473 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:11:16] "GET /api/status?_ts=1776895873497 HTTP/1.1" 200 -
+2026-04-23 00:11:16,539 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:11:16] "GET /api/runtime?_ts=1776895873498 HTTP/1.1" 200 -
+2026-04-23 00:11:17,901 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:11:17] "GET /api/events?_ts=1776895873497 HTTP/1.1" 200 -
+2026-04-23 00:11:17,933 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:11:17] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 00:11:18,033 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:11:18] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 00:11:18,170 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:11:18] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-23 00:11:18,175 | INFO | werkzeug | 127.0.0.1 - - [23/Apr/2026 00:11:18] "GET /api/learning-insights?_ts=1776895873498 HTTP/1.1" 200 -
+2026-04-23 00:12:04,071 | INFO | TTS.utils.manage | tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+2026-04-23 00:12:06,461 | INFO | TTS.tts.models | Using model: xtts
+2026-04-23 00:13:57,227 | INFO | atlas_ai.voice.startup | Using cloned voice for startup greeting.
+2026-04-23 00:13:57,483 | INFO | TTS.utils.synthesizer | Text split into sentences.
+2026-04-23 00:13:57,483 | INFO | TTS.utils.synthesizer | Input: ["Hello sir, the time is 00:10, and let's make the market respect us."]
+2026-04-23 00:13:58,159 | INFO | atlas_ai.voice.startup | Startup greeting playback success.

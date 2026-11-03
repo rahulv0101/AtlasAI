@@ -1,0 +1,356 @@
+{
+  "symbol": "XAUUSD",
+  "timeframe": "M1",
+  "gemini_enabled": true,
+  "risk": {
+    "equity": 892444.93,
+    "balance": 892444.93,
+    "daily_loss_pct": 0.0,
+    "open_positions": 0,
+    "spread_points": 34.0,
+    "trades_today": 0,
+    "consecutive_losses": 0,
+    "daily_profit_zar": 0.0,
+    "weekly_loss_pct": 0.0
+  },
+  "signals": [
+    {
+      "strategy": "momentum_continuation",
+      "side": "flat",
+      "confidence": 0.0
+    },
+    {
+      "strategy": "gold_micro_impulse",
+      "side": "flat",
+      "confidence": 0.0
+    },
+    {
+      "strategy": "gold_liquidity_sweep",
+      "side": "flat",
+      "confidence": 0.0
+    },
+    {
+      "strategy": "evolved_rule(fast=14,slow=62,rsi_buy=42.1,rsi_sell=52.4)",
+      "side": "flat",
+      "confidence": 0.0
+    }
+  ],
+  "signals_active": [
+    {
+      "strategy": "momentum_continuation",
+      "side": "flat",
+      "confidence": 0.0,
+      "contextual_score": 0.0
+    },
+    {
+      "strategy": "gold_micro_impulse",
+      "side": "flat",
+      "confidence": 0.0,
+      "contextual_score": 0.0
+    },
+    {
+      "strategy": "gold_liquidity_sweep",
+      "side": "flat",
+      "confidence": 0.0,
+      "contextual_score": 0.0
+    },
+    {
+      "strategy": "evolved_rule(fast=14,slow=62,rsi_buy=42.1,rsi_sell=52.4)",
+      "side": "flat",
+      "confidence": 0.0,
+      "contextual_score": 0.0
+    }
+  ],
+  "chosen": {
+    "strategy": "momentum_continuation",
+    "side": "flat",
+    "confidence": 0.0,
+    "stop_loss_points": 115.0,
+    "take_profit_points": 175.0
+  },
+  "market": {
+    "recent_close": [
+      4754.34,
+      4753.27,
+      4753.16,
+      4753.22,
+      4754.65,
+      4754.41,
+      4754.21,
+      4752.58,
+      4752.55,
+      4752.98,
+      4752.61,
+      4753.38,
+      4755.18,
+      4755.08,
+      4755.56,
+      4755.6,
+      4754.51,
+      4756.6,
+      4756.57,
+      4756.75
+    ],
+    "recent_time": [
+      "2026-04-22 07:55:00",
+      "2026-04-22 07:56:00",
+      "2026-04-22 07:57:00",
+      "2026-04-22 07:58:00",
+      "2026-04-22 07:59:00",
+      "2026-04-22 08:00:00",
+      "2026-04-22 08:01:00",
+      "2026-04-22 08:02:00",
+      "2026-04-22 08:03:00",
+      "2026-04-22 08:04:00",
+      "2026-04-22 08:05:00",
+      "2026-04-22 08:06:00",
+      "2026-04-22 08:07:00",
+      "2026-04-22 08:08:00",
+      "2026-04-22 08:09:00",
+      "2026-04-22 08:10:00",
+      "2026-04-22 08:11:00",
+      "2026-04-22 08:12:00",
+      "2026-04-22 08:13:00",
+      "2026-04-22 08:14:00"
+    ],
+    "last_close": 4756.75
+  },
+  "regime": {
+    "name": "range",
+    "trend_strength": 0.0038,
+    "volatility_pct": 0.0119
+  },
+  "higher_timeframe": {
+    "confirm_tf": "M5",
+    "bias": "sell"
+  },
+  "action": "hold",
+  "message": "No high-confidence trade found.",
+  "execute_trades": false,
+  "gemini_influence_enabled": false,
+  "drift": {
+    "active": true,
+    "severe": false,
+    "delta": -0.19,
+    "recent_win_rate_20": 0.15,
+    "baseline_win_rate": 0.34,
+    "signal_adjustments": [],
+    "strategy_weight_adjustments": [
+      "momentum_continuation wr=0.35 x0.88"
+    ]
+  },
+  "contextual_ranking": {
+    "chosen_score": 0.0,
+    "top": [
+      {
+        "strategy": "momentum_continuation",
+        "score": 0.0,
+        "factor": 1.0,
+        "setup_quality_score": 0.0,
+        "reasons": [
+          "disabled",
+          "flat_signal"
+        ]
+      },
+      {
+        "strategy": "gold_micro_impulse",
+        "score": 0.0,
+        "factor": 1.0,
+        "setup_quality_score": 0.0,
+        "reasons": [
+          "disabled",
+          "flat_signal"
+        ]
+      },
+      {
+        "strategy": "gold_liquidity_sweep",
+        "score": 0.0,
+        "factor": 1.0,
+        "setup_quality_score": 0.0,
+        "reasons": [
+          "disabled",
+          "flat_signal"
+        ]
+      }
+    ],
+    "best_actionable": {}
+  },
+  "best_actionable_candidate": null,
+  "signal_summary": {
+    "raw_count": 4,
+    "active_count": 4,
+    "filtered_out_count": 0,
+    "evolved_raw_count": 1,
+    "evolved_active_count": 1
+  },
+  "health": {
+    "broker": {
+      "connected": true,
+      "symbol_selected": true
+    },
+    "llm": {
+      "enabled": true,
+      "providers": [
+        {
+          "name": "openai",
+          "in_cooldown": false,
+          "cooldown_seconds_left": 0,
+          "last_error": ""
+        }
+      ]
+    },
+    "risk_guard": {
+      "max_trades_per_day": 12,
+      "max_consecutive_losses": 3,
+      "cooldown_minutes_after_loss_streak": 60
+    }
+  },
+  "gemini_note": "Deferred to post-execution to reduce loop latency.",
+  "same_side_support": {
+    "side": "flat",
+    "count": 0
+  },
+  "min_confidence_threshold": 0.58,
+  "win_rate_focus": {
+    "enabled": true,
+    "target": 0.55,
+    "recent_win_rate": 0.267,
+    "samples": 30,
+    "confidence_bump": 0.08
+  },
+  "confidence_diagnostics": {
+    "chosen_strategy": "momentum_continuation",
+    "chosen_side": "flat",
+    "chosen_confidence": 0.0,
+    "chosen_contextual_score": 0.0,
+    "min_confidence_threshold": 0.58,
+    "confidence_gap": -0.58,
+    "same_side_support": 0,
+    "dominant_drag_reasons": [
+      "disabled",
+      "flat_signal"
+    ],
+    "suggested_focus": "No high-confidence setup because confidence is below threshold."
+  },
+  "lane": "control",
+  "context_snapshot": {
+    "symbol": "XAUUSD",
+    "timestamp": "2026-04-22T08:14:00",
+    "regime": "range",
+    "session": "unknown",
+    "trend_strength": 0.0038,
+    "volatility_state": "low",
+    "spread_state": "normal",
+    "liquidity_state": "unknown",
+    "repeated_entry_risk": false,
+    "overstretched_entry_risk": false
+  },
+  "decision_explanation": {
+    "candidate_id": "|momentum_continuation|flat",
+    "trade_id": "",
+    "lane": "control",
+    "mode": "paper",
+    "symbol": "XAUUSD",
+    "timestamp": "",
+    "signal_source": "momentum_continuation",
+    "regime": "range",
+    "session": "unknown",
+    "trend_strength": 0.0038,
+    "setup_quality_reasons": [],
+    "active_guards": [],
+    "penalties": [],
+    "final_decision": "block",
+    "reason_codes": [
+      "no_high_confidence_trade_found"
+    ],
+    "explanation_text": "No high-confidence trade found."
+  },
+  "system_health": {
+    "effective_mode": "paper",
+    "paper_mode_confirmed": true,
+    "filter_state": {
+      "conservative_filter_enabled": false,
+      "research_regime_filter_enabled": false
+    },
+    "ml_state": {
+      "meta_model_enabled": false,
+      "decision_authority": "disabled"
+    },
+    "gemini_state": {
+      "enabled": true,
+      "influence_enabled": false,
+      "provider_health": {
+        "enabled": true,
+        "providers": [
+          {
+            "name": "openai",
+            "in_cooldown": false,
+            "cooldown_seconds_left": 0,
+            "last_error": ""
+          }
+        ]
+      }
+    },
+    "stale_data_detected": false,
+    "config_mismatch_detected": false,
+    "routing_risk_detected": false,
+    "broker_connectivity_status": {
+      "connected": true,
+      "symbol_selected": true
+    },
+    "warnings": []
+  },
+  "shadow_advice": {
+    "trade_id": "|momentum_continuation|flat",
+    "setup_score": 0.0,
+    "confidence": 0.0,
+    "anomaly_flags": [
+      "blocked_trade"
+    ],
+    "alternative_ranking": [
+      {
+        "strategy": "momentum_continuation",
+        "score": 0.0,
+        "confidence": 0.0
+      },
+      {
+        "strategy": "gold_micro_impulse",
+        "score": 0.0,
+        "confidence": 0.0
+      },
+      {
+        "strategy": "gold_liquidity_sweep",
+        "score": 0.0,
+        "confidence": 0.0
+      }
+    ],
+    "recommendation": "observe"
+  },
+  "freshness_timing": {
+    "cycle_started_at": "2026-04-22T05:14:38.073294+00:00",
+    "ingest_started_at": "2026-04-22T05:14:38.073294+00:00",
+    "ingest_completed_at": "2026-04-22T05:14:38.339449+00:00",
+    "ingest_duration_ms": 266.15,
+    "market_fetch": {
+      "started_at": "2026-04-22T05:14:38.337451+00:00",
+      "ended_at": "2026-04-22T05:14:38.339449+00:00",
+      "duration_ms": 2.0,
+      "retries": 0,
+      "retry_sleep_ms": 0.0,
+      "bars_requested": 1200,
+      "bars_received": 1200,
+      "ok": true,
+      "error": ""
+    },
+    "signal_generation_completed_at": "2026-04-22T05:14:38.462053+00:00",
+    "decision_pre_checks_completed_at": "2026-04-22T05:14:38.499036+00:00",
+    "cycle_elapsed_ms_before_gates": 425.17,
+    "status_write_attempted_at": "2026-04-22T05:14:38.505041+00:00",
+    "backend_cycle_age_ms": 431.75
+  },
+  "freshness_runtime": {
+    "status_age_ms": 431.75,
+    "is_stale": false
+  },
+  "updated_at": "2026-04-22T05:14:38.505041+00:00"
+}

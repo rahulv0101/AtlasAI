@@ -1,0 +1,521 @@
+{
+  "updated_at": "2026-04-10T16:42:41.061071+00:00",
+  "control": {
+    "trades_taken": 0,
+    "trades_skipped_filtered": 1735,
+    "trades_closed": 0,
+    "win_rate": 0.0,
+    "expectancy": 0.0,
+    "profit_factor": 0.0,
+    "drawdown": 0.0,
+    "average_win": 0.0,
+    "average_loss": 0.0
+  },
+  "experiment": {
+    "trades_taken": 0,
+    "trades_skipped_filtered": 1730,
+    "trades_closed": 0,
+    "win_rate": 0.0,
+    "expectancy": 0.0,
+    "profit_factor": 0.0,
+    "drawdown": 0.0,
+    "average_win": 0.0,
+    "average_loss": 0.0
+  },
+  "cross_lane": {
+    "taken_by_both": 0,
+    "control_only_taken": 0,
+    "experiment_only_taken": 0,
+    "filtered_by_experiment": 0
+  },
+  "lane_diagnostics": {
+    "latest_control": {
+      "lane": "control",
+      "candidate_key": "XAUUSD|M1|2026-04-10 19:42:00|evolved_rule(fast=12,slow=82,rsi_buy=49.8,rsi_sell=40.0)|sell|100.0|160.0",
+      "action": "blocked",
+      "message": "M1 spread guard blocked trade (35.0 pts).",
+      "strategy": "evolved_rule(fast=12,slow=82,rsi_buy=49.8,rsi_sell=40.0)",
+      "side": "sell",
+      "confidence": 0.680994,
+      "session": "",
+      "regime": "trend",
+      "trend_strength": 0.1758,
+      "filter_reason": "M1 spread guard blocked trade (35.0 pts).",
+      "decision_explanation": {
+        "candidate_id": "|evolved_rule(fast=12,slow=82,rsi_buy=49.8,rsi_sell=40.0)|sell",
+        "trade_id": "",
+        "lane": "control",
+        "mode": "paper",
+        "symbol": "XAUUSD",
+        "timestamp": "",
+        "signal_source": "evolved_rule(fast=12,slow=82,rsi_buy=49.8,rsi_sell=40.0)",
+        "regime": "trend",
+        "session": "unknown",
+        "trend_strength": 0.1758,
+        "setup_quality_reasons": [
+          "consensus_support",
+          "htf_aligned",
+          "drift_low_volume",
+          "disabled"
+        ],
+        "active_guards": [
+          {
+            "name": "loss_learning",
+            "enabled": true,
+            "applied": true,
+            "hard_blocked": false,
+            "reason": "Recent sell penalty 0.090 (wr=0.33, loss_streak=2)"
+          },
+          {
+            "name": "ema_fresh_cross_guard",
+            "enabled": true,
+            "applied": false,
+            "hard_blocked": false,
+            "reason": ""
+          },
+          {
+            "name": "side_balance",
+            "enabled": true,
+            "applied": false,
+            "hard_blocked": false,
+            "reason": "insufficient_samples"
+          },
+          {
+            "name": "execution_cluster",
+            "enabled": true,
+            "applied": false,
+            "hard_blocked": false,
+            "reason": "insufficient_history"
+          },
+          {
+            "name": "smart_context",
+            "enabled": true,
+            "applied": true,
+            "hard_blocked": false,
+            "reason": ""
+          },
+          {
+            "name": "m1_quality",
+            "enabled": true,
+            "applied": true,
+            "hard_blocked": true,
+            "reason": ""
+          }
+        ],
+        "penalties": [
+          {
+            "source": "loss_learning",
+            "value": 0.09,
+            "reason": "Recent sell penalty 0.090 (wr=0.33, loss_streak=2)"
+          }
+        ],
+        "final_decision": "block",
+        "reason_codes": [
+          "consensus_support",
+          "htf_aligned",
+          "drift_low_volume",
+          "disabled",
+          "loss_learning",
+          "smart_context",
+          "m1_quality",
+          "m1_spread_guard_blocked_trade_35_0_pts"
+        ],
+        "explanation_text": "M1 spread guard blocked trade (35.0 pts)."
+      },
+      "shadow_advice": {
+        "trade_id": "|evolved_rule(fast=12,slow=82,rsi_buy=49.8,rsi_sell=40.0)|sell",
+        "setup_score": 0.0,
+        "confidence": 0.681,
+        "anomaly_flags": [
+          "blocked_trade"
+        ],
+        "alternative_ranking": [
+          {
+            "strategy": "evolved_rule(fast=12,slow=82,rsi_buy=49.8,rsi_sell=40.0)",
+            "score": 0.6047,
+            "confidence": 0.0
+          },
+          {
+            "strategy": "evolved_rule(fast=13,slow=80,rsi_buy=50.4,rsi_sell=40.0)",
+            "score": 0.5837,
+            "confidence": 0.0
+          },
+          {
+            "strategy": "evolved_rule(fast=12,slow=84,rsi_buy=48.6,rsi_sell=40.0)",
+            "score": 0.5622,
+            "confidence": 0.0
+          }
+        ],
+        "recommendation": "observe"
+      },
+      "context_snapshot": {
+        "symbol": "XAUUSD",
+        "timestamp": "2026-04-10T19:42:00",
+        "regime": "trend",
+        "session": "unknown",
+        "trend_strength": 0.1758,
+        "volatility_state": "normal",
+        "spread_state": "normal",
+        "liquidity_state": "unknown",
+        "repeated_entry_risk": false,
+        "overstretched_entry_risk": false
+      },
+      "system_health": {
+        "effective_mode": "paper",
+        "paper_mode_confirmed": true,
+        "filter_state": {
+          "conservative_filter_enabled": false,
+          "research_regime_filter_enabled": false
+        },
+        "ml_state": {
+          "meta_model_enabled": false,
+          "decision_authority": "disabled"
+        },
+        "gemini_state": {
+          "enabled": true,
+          "influence_enabled": false,
+          "provider_health": {
+            "enabled": true,
+            "providers": [
+              {
+                "name": "openai",
+                "in_cooldown": false,
+                "cooldown_seconds_left": 0,
+                "last_error": ""
+              }
+            ]
+          }
+        },
+        "stale_data_detected": false,
+        "config_mismatch_detected": false,
+        "routing_risk_detected": false,
+        "broker_connectivity_status": {
+          "connected": true,
+          "symbol_selected": true
+        },
+        "warnings": []
+      },
+      "updated_at": ""
+    },
+    "latest_experiment": {
+      "lane": "experiment",
+      "candidate_key": "XAUUSD|M1|2026-04-10 19:42:00|evolved_rule(fast=12,slow=82,rsi_buy=49.8,rsi_sell=40.0)|sell|100.0|160.0",
+      "action": "blocked",
+      "message": "M1 spread guard blocked trade (35.0 pts).",
+      "strategy": "evolved_rule(fast=12,slow=82,rsi_buy=49.8,rsi_sell=40.0)",
+      "side": "sell",
+      "confidence": 0.599844,
+      "session": "",
+      "regime": "trend",
+      "trend_strength": 0.1765,
+      "filter_reason": "M1 spread guard blocked trade (35.0 pts).",
+      "decision_explanation": {
+        "candidate_id": "|evolved_rule(fast=12,slow=82,rsi_buy=49.8,rsi_sell=40.0)|sell",
+        "trade_id": "",
+        "lane": "experiment",
+        "mode": "paper",
+        "symbol": "XAUUSD",
+        "timestamp": "",
+        "signal_source": "evolved_rule(fast=12,slow=82,rsi_buy=49.8,rsi_sell=40.0)",
+        "regime": "trend",
+        "session": "unknown",
+        "trend_strength": 0.1765,
+        "setup_quality_reasons": [
+          "consensus_support",
+          "htf_aligned",
+          "drift_low_volume",
+          "disabled"
+        ],
+        "active_guards": [
+          {
+            "name": "loss_learning",
+            "enabled": true,
+            "applied": true,
+            "hard_blocked": false,
+            "reason": "Recent sell penalty 0.090 (wr=0.33, loss_streak=2)"
+          },
+          {
+            "name": "ema_fresh_cross_guard",
+            "enabled": true,
+            "applied": false,
+            "hard_blocked": false,
+            "reason": ""
+          },
+          {
+            "name": "side_balance",
+            "enabled": true,
+            "applied": false,
+            "hard_blocked": false,
+            "reason": "insufficient_samples"
+          },
+          {
+            "name": "execution_cluster",
+            "enabled": true,
+            "applied": false,
+            "hard_blocked": false,
+            "reason": "insufficient_history"
+          },
+          {
+            "name": "smart_context",
+            "enabled": true,
+            "applied": true,
+            "hard_blocked": false,
+            "reason": ""
+          },
+          {
+            "name": "m1_quality",
+            "enabled": true,
+            "applied": true,
+            "hard_blocked": true,
+            "reason": ""
+          }
+        ],
+        "penalties": [
+          {
+            "source": "loss_learning",
+            "value": 0.09,
+            "reason": "Recent sell penalty 0.090 (wr=0.33, loss_streak=2)"
+          }
+        ],
+        "final_decision": "block",
+        "reason_codes": [
+          "consensus_support",
+          "htf_aligned",
+          "drift_low_volume",
+          "disabled",
+          "loss_learning",
+          "smart_context",
+          "m1_quality",
+          "m1_spread_guard_blocked_trade_35_0_pts"
+        ],
+        "explanation_text": "M1 spread guard blocked trade (35.0 pts)."
+      },
+      "shadow_advice": {
+        "trade_id": "|evolved_rule(fast=12,slow=82,rsi_buy=49.8,rsi_sell=40.0)|sell",
+        "setup_score": 0.0,
+        "confidence": 0.5998,
+        "anomaly_flags": [
+          "blocked_trade"
+        ],
+        "alternative_ranking": [
+          {
+            "strategy": "evolved_rule(fast=12,slow=82,rsi_buy=49.8,rsi_sell=40.0)",
+            "score": 0.6052,
+            "confidence": 0.0
+          },
+          {
+            "strategy": "evolved_rule(fast=13,slow=80,rsi_buy=50.4,rsi_sell=40.0)",
+            "score": 0.5841,
+            "confidence": 0.0
+          },
+          {
+            "strategy": "evolved_rule(fast=12,slow=84,rsi_buy=48.6,rsi_sell=40.0)",
+            "score": 0.5627,
+            "confidence": 0.0
+          }
+        ],
+        "recommendation": "observe"
+      },
+      "context_snapshot": {
+        "symbol": "XAUUSD",
+        "timestamp": "2026-04-10T19:42:00",
+        "regime": "trend",
+        "session": "unknown",
+        "trend_strength": 0.1765,
+        "volatility_state": "normal",
+        "spread_state": "normal",
+        "liquidity_state": "unknown",
+        "repeated_entry_risk": false,
+        "overstretched_entry_risk": false
+      },
+      "system_health": {
+        "effective_mode": "paper",
+        "paper_mode_confirmed": true,
+        "filter_state": {
+          "conservative_filter_enabled": false,
+          "research_regime_filter_enabled": false
+        },
+        "ml_state": {
+          "meta_model_enabled": false,
+          "decision_authority": "disabled"
+        },
+        "gemini_state": {
+          "enabled": true,
+          "influence_enabled": false,
+          "provider_health": {
+            "enabled": true,
+            "providers": [
+              {
+                "name": "openai",
+                "in_cooldown": false,
+                "cooldown_seconds_left": 0,
+                "last_error": ""
+              }
+            ]
+          }
+        },
+        "stale_data_detected": false,
+        "config_mismatch_detected": false,
+        "routing_risk_detected": false,
+        "broker_connectivity_status": {
+          "connected": true,
+          "symbol_selected": true
+        },
+        "warnings": []
+      },
+      "updated_at": ""
+    }
+  },
+  "trades_removed_breakdown": [],
+  "winners_vs_losers_removed": {
+    "losers_avoided": 0,
+    "winners_lost": 0,
+    "net_trade_quality_impact": 0,
+    "removed_trade_expectancy": 0.0,
+    "removed_trade_pnl_sum": 0.0,
+    "removed_trade_outcomes_known": 0
+  },
+  "filter_effectiveness": {
+    "assessment": "neutral"
+  },
+  "decision_checklist": {
+    "sample": {
+      "current_stage": "insufficient",
+      "current_counts": {
+        "control_closed": 0,
+        "experiment_closed": 0,
+        "filtered_observations": 0,
+        "removed_outcomes_known": 0
+      },
+      "matched_thresholds": {},
+      "minimum_comparison_thresholds": {
+        "control_closed": 100,
+        "experiment_closed": 70,
+        "filtered_observations": 25,
+        "removed_outcomes_known": 20
+      },
+      "minimum_sample_reached": false,
+      "early_sanity_reached": false
+    },
+    "raw": {
+      "sample_stage": "insufficient",
+      "control_closed_trades": 0,
+      "experiment_closed_trades": 0,
+      "experiment_trade_ratio": 0.0,
+      "filtered_trade_observations": 0,
+      "removed_outcomes_known": 0,
+      "control_win_rate": 0.0,
+      "experiment_win_rate": 0.0,
+      "win_rate_delta": 0.0,
+      "control_expectancy": 0.0,
+      "experiment_expectancy": 0.0,
+      "expectancy_delta": 0.0,
+      "control_profit_factor": 0.0,
+      "experiment_profit_factor": 0.0,
+      "profit_factor_delta": 0.0,
+      "control_drawdown": 0.0,
+      "experiment_drawdown": 0.0,
+      "drawdown_delta": 0.0,
+      "losers_avoided": 0,
+      "winners_removed": 0,
+      "net_removal_edge": 0
+    },
+    "checks": {
+      "minimum_sample_reached": {
+        "status": "fail",
+        "value": {
+          "current_stage": "insufficient",
+          "current_counts": {
+            "control_closed": 0,
+            "experiment_closed": 0,
+            "filtered_observations": 0,
+            "removed_outcomes_known": 0
+          },
+          "matched_thresholds": {},
+          "minimum_comparison_thresholds": {
+            "control_closed": 100,
+            "experiment_closed": 70,
+            "filtered_observations": 25,
+            "removed_outcomes_known": 20
+          },
+          "minimum_sample_reached": false,
+          "early_sanity_reached": false
+        },
+        "reason": "Sample is still below early sanity-check thresholds."
+      },
+      "trade_count_meaningful": {
+        "status": "fail",
+        "value": 0.0,
+        "threshold": {
+          "warn_below": 0.65,
+          "fail_below": 0.5,
+          "hard_fail_below": 0.35
+        },
+        "reason": "Experiment trade count collapsed below 35% of control."
+      },
+      "win_rate_change": {
+        "status": "unknown",
+        "value": 0.0,
+        "reason": "No meaningful win-rate change yet."
+      },
+      "expectancy_change": {
+        "status": "pass",
+        "value": 0.0,
+        "reason": "Experiment expectancy improved or stayed flat."
+      },
+      "profit_factor_change": {
+        "status": "unknown",
+        "value": 0.0,
+        "reason": "No meaningful profit-factor change yet."
+      },
+      "drawdown_change": {
+        "status": "pass",
+        "value": 0.0,
+        "threshold": {
+          "max_relative_worsening": 0.1
+        },
+        "reason": "Experiment drawdown did not materially worsen."
+      },
+      "losers_avoided_vs_winners_removed": {
+        "status": "unknown",
+        "value": {
+          "losers_avoided": 0,
+          "winners_removed": 0,
+          "net_removal_edge": 0
+        },
+        "reason": "Not enough removed-trade outcomes are known yet."
+      },
+      "sample_shrinkage_illusion": {
+        "status": "fail",
+        "value": {
+          "trade_ratio": 0.0,
+          "expectancy_delta": 0.0,
+          "profit_factor_delta": 0.0
+        },
+        "reason": "Results look vulnerable to a sample-shrinkage illusion."
+      },
+      "session_stability": {
+        "status": "unknown",
+        "value": {
+          "shared_buckets": [],
+          "eligible_buckets": [],
+          "control": {},
+          "experiment": {}
+        },
+        "reason": "Not enough session data to assess stability."
+      },
+      "regime_stability": {
+        "status": "unknown",
+        "value": {
+          "shared_buckets": [],
+          "eligible_buckets": [],
+          "control": {},
+          "experiment": {}
+        },
+        "reason": "Not enough regime data to assess stability."
+      }
+    },
+    "classification": "CONTINUE_TESTING",
+    "explanation": "Evidence is still mixed or the sample is not yet strong enough for a conservative decision."
+  }
+}

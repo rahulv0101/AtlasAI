@@ -1,0 +1,78 @@
+{
+  "run_id": "cf_rollout_20260404T145649_wknd2",
+  "created_at": "2026-04-04T12:56:54.064460+00:00",
+  "mode": "paper_compare",
+  "preset": "conservative_filter_rollout_v1",
+  "version_hash": "0139330334410e58",
+  "market_open": false,
+  "latest_bar_utc": "2026-04-02T21:59:00+00:00",
+  "comparison_root": "C:\\Users\\User\\Desktop\\Atlas AI\\storage_compare_runs\\cf_rollout_20260404T145649_wknd2",
+  "control": {
+    "symbol": "XAUUSD",
+    "timeframe": "M1",
+    "execute_trades": false,
+    "meta_model_enabled": false,
+    "gemini_influence_enabled": false,
+    "research_confidence_threshold": 0.5,
+    "research_regime_filter_enabled": false,
+    "conservative_filter_enabled": false,
+    "conservative_filter_block_late_us_trend": true,
+    "conservative_filter_block_post_spike": true,
+    "conservative_filter_block_poor_liquidity": true,
+    "conservative_filter_poor_liquidity_volume_ratio": 0.8,
+    "conservative_filter_post_spike_atr_multiple": 1.6,
+    "enabled_strategies": [
+      "momentum_continuation",
+      "gold_micro_impulse",
+      "gold_liquidity_sweep"
+    ],
+    "disabled_strategies": [
+      "vwap_proxy_reversion",
+      "rsi_trend_hybrid",
+      "macd_trend",
+      "candlestick_patterns"
+    ],
+    "max_risk_per_trade": 0.005,
+    "max_open_trades": 2,
+    "max_spread_points": 80.0,
+    "min_same_side_signals": 2,
+    "backtest_max_hold_bars": 12,
+    "backtest_include_evolved": true,
+    "lane": "control",
+    "storage_dir": "C:\\Users\\User\\Desktop\\Atlas AI\\storage_compare_runs\\cf_rollout_20260404T145649_wknd2\\control"
+  },
+  "experiment": {
+    "symbol": "XAUUSD",
+    "timeframe": "M1",
+    "execute_trades": false,
+    "meta_model_enabled": false,
+    "gemini_influence_enabled": false,
+    "research_confidence_threshold": 0.5,
+    "research_regime_filter_enabled": false,
+    "conservative_filter_enabled": true,
+    "conservative_filter_block_late_us_trend": true,
+    "conservative_filter_block_post_spike": true,
+    "conservative_filter_block_poor_liquidity": true,
+    "conservative_filter_poor_liquidity_volume_ratio": 0.8,
+    "conservative_filter_post_spike_atr_multiple": 1.6,
+    "enabled_strategies": [
+      "momentum_continuation",
+      "gold_micro_impulse",
+      "gold_liquidity_sweep"
+    ],
+    "disabled_strategies": [
+      "vwap_proxy_reversion",
+      "rsi_trend_hybrid",
+      "macd_trend",
+      "candlestick_patterns"
+    ],
+    "max_risk_per_trade": 0.005,
+    "max_open_trades": 2,
+    "max_spread_points": 80.0,
+    "min_same_side_signals": 2,
+    "backtest_max_hold_bars": 12,
+    "backtest_include_evolved": true,
+    "lane": "experiment",
+    "storage_dir": "C:\\Users\\User\\Desktop\\Atlas AI\\storage_compare_runs\\cf_rollout_20260404T145649_wknd2\\experiment"
+  }
+}

@@ -1,0 +1,735 @@
+{
+  "label_bucket_overview": {
+    "high-quality winner": {
+      "count": 148,
+      "suspicious_example_count": 0
+    },
+    "acceptable trade": {
+      "count": 247,
+      "suspicious_example_count": 3
+    },
+    "avoidable loser": {
+      "count": 36,
+      "suspicious_example_count": 3
+    },
+    "low-quality setup": {
+      "count": 106,
+      "suspicious_example_count": 3
+    }
+  },
+  "representative_examples": {
+    "high-quality winner": {
+      "count": 148,
+      "typical_examples": [
+        {
+          "trade_ref": "T0045:evolved_rule:sell:2026-04-01T05:46:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-01T05:46:00",
+          "session": "asia",
+          "regime": "trend",
+          "trend_strength_ratio": 3.12,
+          "volatility_state": "normal_volatility",
+          "confidence": 0.873,
+          "entry_type": "first_entry_quality",
+          "direction": "sell",
+          "holding_time_bars": 2,
+          "outcome": "win",
+          "trade_return": 0.00755,
+          "exit_type": "take_profit",
+          "reason_codes": [
+            "first_entry_quality",
+            "favorable_session",
+            "high_quality_confirmation"
+          ],
+          "label_confidence": "high",
+          "explanation": "Labeled high-quality winner because reasons=['first_entry_quality', 'favorable_session', 'high_quality_confirmation'] with outcome=win in asia / trend."
+        },
+        {
+          "trade_ref": "T0125:evolved_rule:sell:2026-04-01T15:33:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-01T15:33:00",
+          "session": "new_york",
+          "regime": "range",
+          "trend_strength_ratio": 1.7489,
+          "volatility_state": "normal_volatility",
+          "confidence": 0.898,
+          "entry_type": "first_entry_quality",
+          "direction": "sell",
+          "holding_time_bars": 1,
+          "outcome": "win",
+          "trade_return": 0.00755,
+          "exit_type": "take_profit",
+          "reason_codes": [
+            "first_entry_quality",
+            "favorable_session",
+            "high_quality_confirmation"
+          ],
+          "label_confidence": "high",
+          "explanation": "Labeled high-quality winner because reasons=['first_entry_quality', 'favorable_session', 'high_quality_confirmation'] with outcome=win in new_york / range."
+        },
+        {
+          "trade_ref": "T0190:evolved_rule:buy:2026-04-02T02:04:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-02T02:04:00",
+          "session": "asia",
+          "regime": "trend",
+          "trend_strength_ratio": 10.3581,
+          "volatility_state": "normal_volatility",
+          "confidence": 0.8385,
+          "entry_type": "standard_entry",
+          "direction": "buy",
+          "holding_time_bars": 1,
+          "outcome": "win",
+          "trade_return": 0.00755,
+          "exit_type": "take_profit",
+          "reason_codes": [
+            "strong_trend_clean_entry",
+            "favorable_session",
+            "high_quality_confirmation"
+          ],
+          "label_confidence": "high",
+          "explanation": "Labeled high-quality winner because reasons=['strong_trend_clean_entry', 'favorable_session', 'high_quality_confirmation'] with outcome=win in asia / trend."
+        }
+      ],
+      "borderline_examples": [
+        {
+          "trade_ref": "T0157:evolved_rule:buy:2026-04-01T19:12:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-01T19:12:00",
+          "session": "new_york",
+          "regime": "trend",
+          "trend_strength_ratio": 6.6814,
+          "volatility_state": "normal_volatility",
+          "confidence": 1.0,
+          "entry_type": "standard_entry",
+          "direction": "buy",
+          "holding_time_bars": 2,
+          "outcome": "win",
+          "trade_return": 0.00245,
+          "exit_type": "breakeven_stop",
+          "reason_codes": [
+            "favorable_session",
+            "high_quality_confirmation"
+          ],
+          "label_confidence": "high",
+          "explanation": "Labeled high-quality winner because reasons=['favorable_session', 'high_quality_confirmation'] with outcome=win in new_york / trend."
+        },
+        {
+          "trade_ref": "T0015:momentum_continuation:buy:2026-04-01T03:26:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-01T03:26:00",
+          "session": "asia",
+          "regime": "trend",
+          "trend_strength_ratio": 18.7584,
+          "volatility_state": "normal_volatility",
+          "confidence": 0.5808,
+          "entry_type": "standard_entry",
+          "direction": "buy",
+          "holding_time_bars": 1,
+          "outcome": "win",
+          "trade_return": 0.007159,
+          "exit_type": "take_profit",
+          "reason_codes": [
+            "strong_trend_clean_entry",
+            "favorable_session"
+          ],
+          "label_confidence": "high",
+          "explanation": "Labeled high-quality winner because reasons=['strong_trend_clean_entry', 'favorable_session'] with outcome=win in asia / trend."
+        }
+      ],
+      "suspicious_examples": [],
+      "reason_code_counts": {
+        "high_quality_confirmation": 129,
+        "favorable_session": 117,
+        "strong_trend_clean_entry": 77,
+        "first_entry_quality": 26
+      }
+    },
+    "acceptable trade": {
+      "count": 247,
+      "typical_examples": [
+        {
+          "trade_ref": "T0119:evolved_rule:buy:2026-04-01T15:00:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-01T15:00:00",
+          "session": "new_york",
+          "regime": "trend",
+          "trend_strength_ratio": 9.71,
+          "volatility_state": "normal_volatility",
+          "confidence": 1.0,
+          "entry_type": "first_entry_quality",
+          "direction": "buy",
+          "holding_time_bars": 2,
+          "outcome": "loss",
+          "trade_return": -0.0002,
+          "exit_type": "breakeven_stop",
+          "reason_codes": [
+            "first_entry_quality"
+          ],
+          "label_confidence": "medium",
+          "explanation": "Labeled acceptable trade because reasons=['first_entry_quality'] with outcome=loss in new_york / trend."
+        },
+        {
+          "trade_ref": "T0146:momentum_continuation:buy:2026-04-01T16:19:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-01T16:19:00",
+          "session": "new_york",
+          "regime": "range",
+          "trend_strength_ratio": 0.1591,
+          "volatility_state": "normal_volatility",
+          "confidence": 0.5434,
+          "entry_type": "standard_entry",
+          "direction": "buy",
+          "holding_time_bars": 2,
+          "outcome": "loss",
+          "trade_return": -0.0002,
+          "exit_type": "breakeven_stop",
+          "reason_codes": [
+            "favorable_session"
+          ],
+          "label_confidence": "medium",
+          "explanation": "Labeled acceptable trade because reasons=['favorable_session'] with outcome=loss in new_york / range."
+        },
+        {
+          "trade_ref": "T0151:momentum_continuation:buy:2026-04-01T17:49:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-01T17:49:00",
+          "session": "new_york",
+          "regime": "trend",
+          "trend_strength_ratio": 5.5773,
+          "volatility_state": "normal_volatility",
+          "confidence": 0.6332,
+          "entry_type": "standard_entry",
+          "direction": "buy",
+          "holding_time_bars": 2,
+          "outcome": "loss",
+          "trade_return": -0.0002,
+          "exit_type": "breakeven_stop",
+          "reason_codes": [
+            "favorable_session"
+          ],
+          "label_confidence": "medium",
+          "explanation": "Labeled acceptable trade because reasons=['favorable_session'] with outcome=loss in new_york / trend."
+        }
+      ],
+      "borderline_examples": [
+        {
+          "trade_ref": "T0162:evolved_rule:buy:2026-04-01T19:18:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-01T19:18:00",
+          "session": "new_york",
+          "regime": "trend",
+          "trend_strength_ratio": 4.694,
+          "volatility_state": "low_volatility",
+          "confidence": 1.0,
+          "entry_type": "standard_entry",
+          "direction": "buy",
+          "holding_time_bars": 1,
+          "outcome": "win",
+          "trade_return": 0.00755,
+          "exit_type": "take_profit",
+          "reason_codes": [
+            "mixed_context"
+          ],
+          "label_confidence": "medium",
+          "explanation": "Labeled acceptable trade because reasons=['mixed_context'] with outcome=win in new_york / trend."
+        },
+        {
+          "trade_ref": "T0174:evolved_rule:buy:2026-04-01T20:28:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-01T20:28:00",
+          "session": "new_york",
+          "regime": "trend",
+          "trend_strength_ratio": 11.7209,
+          "volatility_state": "low_volatility",
+          "confidence": 0.5324,
+          "entry_type": "standard_entry",
+          "direction": "buy",
+          "holding_time_bars": 1,
+          "outcome": "win",
+          "trade_return": 0.00755,
+          "exit_type": "take_profit",
+          "reason_codes": [
+            "mixed_context"
+          ],
+          "label_confidence": "medium",
+          "explanation": "Labeled acceptable trade because reasons=['mixed_context'] with outcome=win in new_york / trend."
+        }
+      ],
+      "suspicious_examples": [
+        {
+          "trade_ref": "T0004:momentum_continuation:buy:2026-04-01T01:41:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-01T01:41:00",
+          "session": "asia",
+          "regime": "trend",
+          "trend_strength_ratio": 8.9222,
+          "volatility_state": "normal_volatility",
+          "confidence": 0.722,
+          "entry_type": "standard_entry",
+          "direction": "buy",
+          "holding_time_bars": 1,
+          "outcome": "loss",
+          "trade_return": -0.00545,
+          "exit_type": "stop_loss",
+          "reason_codes": [
+            "strong_trend_clean_entry"
+          ],
+          "label_confidence": "medium",
+          "explanation": "Labeled acceptable trade because reasons=['strong_trend_clean_entry'] with outcome=loss in asia / trend."
+        },
+        {
+          "trade_ref": "T0005:momentum_continuation:buy:2026-04-01T01:42:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-01T01:42:00",
+          "session": "asia",
+          "regime": "trend",
+          "trend_strength_ratio": 7.0466,
+          "volatility_state": "normal_volatility",
+          "confidence": 0.5626,
+          "entry_type": "standard_entry",
+          "direction": "buy",
+          "holding_time_bars": 1,
+          "outcome": "win",
+          "trade_return": 0.007159,
+          "exit_type": "take_profit",
+          "reason_codes": [
+            "favorable_session"
+          ],
+          "label_confidence": "medium",
+          "explanation": "Labeled acceptable trade because reasons=['favorable_session'] with outcome=win in asia / trend."
+        },
+        {
+          "trade_ref": "T0006:momentum_continuation:buy:2026-04-01T01:43:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-01T01:43:00",
+          "session": "asia",
+          "regime": "trend",
+          "trend_strength_ratio": 9.1682,
+          "volatility_state": "normal_volatility",
+          "confidence": 0.6351,
+          "entry_type": "standard_entry",
+          "direction": "buy",
+          "holding_time_bars": 1,
+          "outcome": "loss",
+          "trade_return": -0.00545,
+          "exit_type": "stop_loss",
+          "reason_codes": [
+            "strong_trend_clean_entry"
+          ],
+          "label_confidence": "medium",
+          "explanation": "Labeled acceptable trade because reasons=['strong_trend_clean_entry'] with outcome=loss in asia / trend."
+        }
+      ],
+      "reason_code_counts": {
+        "strong_trend_clean_entry": 86,
+        "favorable_session": 75,
+        "first_entry_quality": 29,
+        "high_quality_confirmation": 27,
+        "mixed_context": 25,
+        "neutral_context": 5
+      }
+    },
+    "avoidable loser": {
+      "count": 36,
+      "typical_examples": [
+        {
+          "trade_ref": "T0010:momentum_continuation:sell:2026-04-01T01:53:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-01T01:53:00",
+          "session": "asia",
+          "regime": "high_volatility_range",
+          "trend_strength_ratio": 0.7493,
+          "volatility_state": "normal_volatility",
+          "confidence": 0.8769,
+          "entry_type": "standard_entry",
+          "direction": "sell",
+          "holding_time_bars": 1,
+          "outcome": "loss",
+          "trade_return": -0.00545,
+          "exit_type": "stop_loss",
+          "reason_codes": [
+            "poor_liquidity"
+          ],
+          "label_confidence": "high",
+          "explanation": "Labeled avoidable loser because reasons=['poor_liquidity'] with outcome=loss in asia / high_volatility_range."
+        },
+        {
+          "trade_ref": "T0011:momentum_continuation:sell:2026-04-01T01:54:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-01T01:54:00",
+          "session": "asia",
+          "regime": "high_volatility_range",
+          "trend_strength_ratio": 1.8428,
+          "volatility_state": "normal_volatility",
+          "confidence": 0.7022,
+          "entry_type": "standard_entry",
+          "direction": "sell",
+          "holding_time_bars": 1,
+          "outcome": "loss",
+          "trade_return": -0.00545,
+          "exit_type": "stop_loss",
+          "reason_codes": [
+            "poor_liquidity"
+          ],
+          "label_confidence": "high",
+          "explanation": "Labeled avoidable loser because reasons=['poor_liquidity'] with outcome=loss in asia / high_volatility_range."
+        },
+        {
+          "trade_ref": "T0020:momentum_continuation:sell:2026-04-01T03:43:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-01T03:43:00",
+          "session": "asia",
+          "regime": "trend",
+          "trend_strength_ratio": 6.6859,
+          "volatility_state": "normal_volatility",
+          "confidence": 0.5639,
+          "entry_type": "standard_entry",
+          "direction": "sell",
+          "holding_time_bars": 1,
+          "outcome": "loss",
+          "trade_return": -0.00545,
+          "exit_type": "stop_loss",
+          "reason_codes": [
+            "poor_liquidity"
+          ],
+          "label_confidence": "high",
+          "explanation": "Labeled avoidable loser because reasons=['poor_liquidity'] with outcome=loss in asia / trend."
+        }
+      ],
+      "borderline_examples": [
+        {
+          "trade_ref": "T0156:evolved_rule:buy:2026-04-01T19:11:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-01T19:11:00",
+          "session": "new_york",
+          "regime": "trend",
+          "trend_strength_ratio": 8.4518,
+          "volatility_state": "low_volatility",
+          "confidence": 1.0,
+          "entry_type": "standard_entry",
+          "direction": "buy",
+          "holding_time_bars": 1,
+          "outcome": "loss",
+          "trade_return": -0.00545,
+          "exit_type": "stop_loss",
+          "reason_codes": [
+            "low_vol_trend"
+          ],
+          "label_confidence": "high",
+          "explanation": "Labeled avoidable loser because reasons=['low_vol_trend'] with outcome=loss in new_york / trend."
+        },
+        {
+          "trade_ref": "T0271:evolved_rule:sell:2026-04-02T06:15:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-02T06:15:00",
+          "session": "asia",
+          "regime": "trend",
+          "trend_strength_ratio": 2.3137,
+          "volatility_state": "normal_volatility",
+          "confidence": 1.0,
+          "entry_type": "standard_entry",
+          "direction": "sell",
+          "holding_time_bars": 1,
+          "outcome": "loss",
+          "trade_return": -0.00545,
+          "exit_type": "stop_loss",
+          "reason_codes": [
+            "poor_liquidity"
+          ],
+          "label_confidence": "high",
+          "explanation": "Labeled avoidable loser because reasons=['poor_liquidity'] with outcome=loss in asia / trend."
+        }
+      ],
+      "suspicious_examples": [
+        {
+          "trade_ref": "T0010:momentum_continuation:sell:2026-04-01T01:53:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-01T01:53:00",
+          "session": "asia",
+          "regime": "high_volatility_range",
+          "trend_strength_ratio": 0.7493,
+          "volatility_state": "normal_volatility",
+          "confidence": 0.8769,
+          "entry_type": "standard_entry",
+          "direction": "sell",
+          "holding_time_bars": 1,
+          "outcome": "loss",
+          "trade_return": -0.00545,
+          "exit_type": "stop_loss",
+          "reason_codes": [
+            "poor_liquidity"
+          ],
+          "label_confidence": "high",
+          "explanation": "Labeled avoidable loser because reasons=['poor_liquidity'] with outcome=loss in asia / high_volatility_range."
+        },
+        {
+          "trade_ref": "T0083:evolved_rule:buy:2026-04-01T10:12:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-01T10:12:00",
+          "session": "london",
+          "regime": "trend",
+          "trend_strength_ratio": 12.9134,
+          "volatility_state": "normal_volatility",
+          "confidence": 0.9334,
+          "entry_type": "standard_entry",
+          "direction": "buy",
+          "holding_time_bars": 1,
+          "outcome": "loss",
+          "trade_return": -0.00545,
+          "exit_type": "stop_loss",
+          "reason_codes": [
+            "poor_liquidity"
+          ],
+          "label_confidence": "high",
+          "explanation": "Labeled avoidable loser because reasons=['poor_liquidity'] with outcome=loss in london / trend."
+        },
+        {
+          "trade_ref": "T0084:evolved_rule:buy:2026-04-01T10:13:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-01T10:13:00",
+          "session": "london",
+          "regime": "trend",
+          "trend_strength_ratio": 10.8309,
+          "volatility_state": "normal_volatility",
+          "confidence": 0.806,
+          "entry_type": "standard_entry",
+          "direction": "buy",
+          "holding_time_bars": 1,
+          "outcome": "loss",
+          "trade_return": -0.00545,
+          "exit_type": "stop_loss",
+          "reason_codes": [
+            "poor_liquidity"
+          ],
+          "label_confidence": "high",
+          "explanation": "Labeled avoidable loser because reasons=['poor_liquidity'] with outcome=loss in london / trend."
+        }
+      ],
+      "reason_code_counts": {
+        "poor_liquidity": 19,
+        "london_drag": 13,
+        "low_vol_trend": 4
+      }
+    },
+    "low-quality setup": {
+      "count": 106,
+      "typical_examples": [
+        {
+          "trade_ref": "T0054:evolved_rule:sell:2026-04-01T07:36:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-01T07:36:00",
+          "session": "london",
+          "regime": "trend",
+          "trend_strength_ratio": 16.0506,
+          "volatility_state": "low_volatility",
+          "confidence": 0.6456,
+          "entry_type": "repeated_reentry",
+          "direction": "sell",
+          "holding_time_bars": 1,
+          "outcome": "loss",
+          "trade_return": -0.00545,
+          "exit_type": "stop_loss",
+          "reason_codes": [
+            "post_spike",
+            "london_drag",
+            "low_vol_trend",
+            "repeated_reentry"
+          ],
+          "label_confidence": "high",
+          "explanation": "Labeled low-quality setup because reasons=['post_spike', 'london_drag', 'low_vol_trend', 'repeated_reentry'] with outcome=loss in london / trend."
+        },
+        {
+          "trade_ref": "T0055:evolved_rule:sell:2026-04-01T07:37:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-01T07:37:00",
+          "session": "london",
+          "regime": "trend",
+          "trend_strength_ratio": 13.2116,
+          "volatility_state": "low_volatility",
+          "confidence": 0.6237,
+          "entry_type": "repeated_reentry",
+          "direction": "sell",
+          "holding_time_bars": 1,
+          "outcome": "loss",
+          "trade_return": -0.00545,
+          "exit_type": "stop_loss",
+          "reason_codes": [
+            "post_spike",
+            "london_drag",
+            "low_vol_trend",
+            "repeated_reentry"
+          ],
+          "label_confidence": "high",
+          "explanation": "Labeled low-quality setup because reasons=['post_spike', 'london_drag', 'low_vol_trend', 'repeated_reentry'] with outcome=loss in london / trend."
+        },
+        {
+          "trade_ref": "T0050:evolved_rule:sell:2026-04-01T07:30:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-01T07:30:00",
+          "session": "london",
+          "regime": "trend",
+          "trend_strength_ratio": 12.0517,
+          "volatility_state": "low_volatility",
+          "confidence": 0.8283,
+          "entry_type": "standard_entry",
+          "direction": "sell",
+          "holding_time_bars": 1,
+          "outcome": "loss",
+          "trade_return": -0.00545,
+          "exit_type": "stop_loss",
+          "reason_codes": [
+            "london_drag",
+            "low_vol_trend",
+            "poor_liquidity"
+          ],
+          "label_confidence": "high",
+          "explanation": "Labeled low-quality setup because reasons=['london_drag', 'low_vol_trend', 'poor_liquidity'] with outcome=loss in london / trend."
+        }
+      ],
+      "borderline_examples": [
+        {
+          "trade_ref": "T0002:momentum_continuation:buy:2026-04-01T01:39:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-01T01:39:00",
+          "session": "asia",
+          "regime": "trend",
+          "trend_strength_ratio": 9.0719,
+          "volatility_state": "normal_volatility",
+          "confidence": 0.6096,
+          "entry_type": "first_entry_quality",
+          "direction": "buy",
+          "holding_time_bars": 1,
+          "outcome": "win",
+          "trade_return": 0.007159,
+          "exit_type": "take_profit",
+          "reason_codes": [
+            "post_spike"
+          ],
+          "label_confidence": "medium",
+          "explanation": "Labeled low-quality setup because reasons=['post_spike'] with outcome=win in asia / trend."
+        },
+        {
+          "trade_ref": "T0178:momentum_continuation:sell:2026-04-01T21:24:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-01T21:24:00",
+          "session": "late_us",
+          "regime": "trend",
+          "trend_strength_ratio": 17.8025,
+          "volatility_state": "normal_volatility",
+          "confidence": 0.5027,
+          "entry_type": "standard_entry",
+          "direction": "sell",
+          "holding_time_bars": 1,
+          "outcome": "win",
+          "trade_return": 0.007159,
+          "exit_type": "take_profit",
+          "reason_codes": [
+            "late_us_trend"
+          ],
+          "label_confidence": "medium",
+          "explanation": "Labeled low-quality setup because reasons=['late_us_trend'] with outcome=win in late_us / trend."
+        }
+      ],
+      "suspicious_examples": [
+        {
+          "trade_ref": "T0002:momentum_continuation:buy:2026-04-01T01:39:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-01T01:39:00",
+          "session": "asia",
+          "regime": "trend",
+          "trend_strength_ratio": 9.0719,
+          "volatility_state": "normal_volatility",
+          "confidence": 0.6096,
+          "entry_type": "first_entry_quality",
+          "direction": "buy",
+          "holding_time_bars": 1,
+          "outcome": "win",
+          "trade_return": 0.007159,
+          "exit_type": "take_profit",
+          "reason_codes": [
+            "post_spike"
+          ],
+          "label_confidence": "medium",
+          "explanation": "Labeled low-quality setup because reasons=['post_spike'] with outcome=win in asia / trend."
+        },
+        {
+          "trade_ref": "T0028:momentum_continuation:sell:2026-04-01T04:40:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-01T04:40:00",
+          "session": "asia",
+          "regime": "trend",
+          "trend_strength_ratio": 6.0044,
+          "volatility_state": "normal_volatility",
+          "confidence": 0.6098,
+          "entry_type": "repeated_reentry",
+          "direction": "sell",
+          "holding_time_bars": 1,
+          "outcome": "win",
+          "trade_return": 0.007159,
+          "exit_type": "take_profit",
+          "reason_codes": [
+            "post_spike",
+            "repeated_reentry"
+          ],
+          "label_confidence": "high",
+          "explanation": "Labeled low-quality setup because reasons=['post_spike', 'repeated_reentry'] with outcome=win in asia / trend."
+        },
+        {
+          "trade_ref": "T0034:evolved_rule:sell:2026-04-01T04:53:00",
+          "symbol": "XAUUSD",
+          "timestamp": "2026-04-01T04:53:00",
+          "session": "asia",
+          "regime": "trend",
+          "trend_strength_ratio": 6.1468,
+          "volatility_state": "normal_volatility",
+          "confidence": 0.8405,
+          "entry_type": "repeated_reentry",
+          "direction": "sell",
+          "holding_time_bars": 1,
+          "outcome": "win",
+          "trade_return": 0.00755,
+          "exit_type": "take_profit",
+          "reason_codes": [
+            "post_spike",
+            "repeated_reentry"
+          ],
+          "label_confidence": "high",
+          "explanation": "Labeled low-quality setup because reasons=['post_spike', 'repeated_reentry'] with outcome=win in asia / trend."
+        }
+      ],
+      "reason_code_counts": {
+        "post_spike": 73,
+        "repeated_reentry": 49,
+        "late_us_trend": 26,
+        "london_drag": 15,
+        "low_vol_trend": 13,
+        "poor_liquidity": 6
+      }
+    }
+  },
+  "consistency_assessment": {
+    "high-quality winner": "Mostly clean; positive reasons dominate. A few winners can still arise from poor-context setups, so outcome alone should not define quality.",
+    "acceptable trade": "Broadest and noisiest bucket; useful as a neutral class, but still too mixed for direct scoring weight without sub-ranking.",
+    "avoidable loser": "Clean enough for negative teaching signal; mostly driven by poor liquidity, London drag, and low-volatility trend contexts.",
+    "low-quality setup": "Strong negative teaching bucket; post-spike and repeated re-entry dominate and remain poor even when some trades win."
+  },
+  "reason_code_review": {
+    "high_quality_winner_wrong_bucket_candidates": [],
+    "avoidable_loser_missing_negative_reason_candidates": [],
+    "acceptable_trade_mixed_context_count": 25
+  },
+  "recommendations": {
+    "relabels": [
+      "Keep acceptable trade as a neutral bucket, but avoid using it as a strong positive or negative label in the first score version.",
+      "Treat low-quality setup as an outcome-independent downgrade signal.",
+      "Treat avoidable loser as the clearest negative training target."
+    ],
+    "definition_fixes": [
+      "Keep positive and negative reason codes separate; do not mix favorable codes into avoidable-loser labels.",
+      "Preserve low-confidence ambiguous cases in acceptable trade instead of forcing them into avoidable loser."
+    ],
+    "scoring_readiness": "Labels are usable for a first offline hybrid score, but acceptable trade is still too broad to weight heavily.",
+    "safest_scoring_approach": "Hybrid first: rule-based negative downgrades from low-quality/avoidable labels plus soft positive boosts from high-quality-winner patterns."
+  }
+}

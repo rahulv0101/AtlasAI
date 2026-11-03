@@ -1,0 +1,10 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-26 10:02:41,310 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-26 10:02:44,315 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-26 10:02:48,142 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-26 10:02:56,907 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 10:04:07,375 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 10:05:14,308 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 10:05:50,223 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=27.2pips TP=40.9pips ATR=13.62 mult=2.00
+2026-05-26 10:06:14,706 | INFO | atlas_ai.trader | No directional trade signal selected.

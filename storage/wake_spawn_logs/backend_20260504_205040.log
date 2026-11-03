@@ -1,0 +1,18 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-04 22:50:42,646 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-04 22:50:45,652 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-04 22:51:48,010 | INFO | TTS.utils.manage | tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+2026-05-04 22:51:49,462 | INFO | TTS.tts.models | Using model: xtts
+2026-05-04 23:01:10,618 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-04 23:03:21,137 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 23:04:22,318 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 23:05:23,301 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 23:06:24,319 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 23:07:42,315 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 23:08:43,363 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 23:09:44,424 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 23:10:46,835 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 23:11:52,565 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 23:12:54,416 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 23:13:55,124 | INFO | atlas_ai.trader | No high-confidence trade found.

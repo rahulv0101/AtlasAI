@@ -1,0 +1,33 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-15 09:14:37,831 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-15 09:14:40,835 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-15 09:14:43,533 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-15 09:14:47,493 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-15 09:14:47,493 | INFO | openai._base_client | Retrying request to /chat/completions in 0.436283 seconds
+2026-05-15 09:14:48,284 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-15 09:14:48,284 | INFO | openai._base_client | Retrying request to /chat/completions in 0.903820 seconds
+2026-05-15 09:14:49,587 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-15 09:23:53,160 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-15 09:24:53,544 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-15 09:25:53,912 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-15 09:26:54,215 | INFO | atlas_ai.gold_knowledge | Gold knowledge applied | base=0.666 boosts=[] penalties=[] final=0.666
+2026-05-15 09:26:54,215 | INFO | atlas_ai.trader | Spread check: 3.40 pips (max: 7.00) -- PASS
+2026-05-15 09:26:54,215 | INFO | atlas_ai.trader | Structure check: score=0.591 (min: 0.240) -- PASS
+2026-05-15 09:26:55,633 | INFO | atlas_ai.trader | Signal=evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9) side=buy confidence=0.666 volume=0.01 result=0 (filled)
+2026-05-15 09:27:13,799 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=4.22 (42.2pips) TP=-6.33 (63.3pips) ATR=21.11 mult=2.00
+2026-05-15 09:27:55,997 | INFO | atlas_ai.gold_knowledge | Gold knowledge applied | base=0.630 boosts=[] penalties=[] final=0.630
+2026-05-15 09:27:55,997 | INFO | atlas_ai.trader | Spread check: 3.40 pips (max: 7.00) -- PASS
+2026-05-15 09:27:55,997 | INFO | atlas_ai.trader | Structure check: score=0.303 (min: 0.240) -- PASS
+2026-05-15 09:27:57,376 | INFO | atlas_ai.trader | Signal=evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9) side=buy confidence=0.630 volume=0.01 result=0 (filled)
+2026-05-15 09:28:57,700 | INFO | atlas_ai.gold_knowledge | Gold knowledge applied | base=0.710 boosts=[] penalties=[] final=0.710
+2026-05-15 09:28:57,700 | INFO | atlas_ai.trader | Spread check: 3.40 pips (max: 7.00) -- PASS
+2026-05-15 09:28:57,700 | INFO | atlas_ai.trader | Structure check: score=0.495 (min: 0.240) -- PASS
+2026-05-15 09:28:57,912 | INFO | atlas_ai.trader | Signal=evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9) side=buy confidence=0.710 volume=0.01 result=-5 (tiny_live_pilot_max_trades_reached)
+2026-05-15 09:29:58,263 | INFO | atlas_ai.gold_knowledge | Gold knowledge applied | base=0.540 boosts=[] penalties=[] final=0.540
+2026-05-15 09:29:58,263 | INFO | atlas_ai.trader | Spread check: 3.40 pips (max: 7.00) -- PASS
+2026-05-15 09:29:58,263 | INFO | atlas_ai.trader | Structure check: score=0.165 (min: 0.240) -- BLOCK
+2026-05-15 09:30:58,565 | INFO | atlas_ai.gold_knowledge | Gold knowledge applied | base=0.454 boosts=[] penalties=[] final=0.454
+2026-05-15 09:31:58,805 | INFO | atlas_ai.gold_knowledge | Gold knowledge applied | base=0.590 boosts=[] penalties=[] final=0.590
+2026-05-15 09:33:43,921 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=4.22 (42.2pips) TP=-6.33 (63.3pips) ATR=21.11 mult=2.00
+2026-05-15 09:36:43,961 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=4.22 (42.2pips) TP=-6.33 (63.3pips) ATR=21.11 mult=2.00

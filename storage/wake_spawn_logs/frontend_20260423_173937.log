@@ -1,0 +1,21 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-04-23 19:39:41,235 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=bootstrap exception_type= error=
+2026-04-23 19:39:41,264 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=bootstrap status=entered error=
+2026-04-23 19:39:41,465 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=ui_server_ready exception_type= error=
+2026-04-23 19:39:41,497 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=ui_server_ready status=ok error=
+2026-04-23 19:39:41,721 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=known_instability_detected status=continuing_native_with_safe_mode error=
+2026-04-23 19:39:41,751 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=recent_instability_detected status=continuing_native_with_safe_mode error=
+2026-04-23 19:39:42,012 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=import_webview exception_type= error=
+2026-04-23 19:39:42,130 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=import_webview status=entered error=
+2026-04-23 19:39:42,207 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=import_webview status=returned error=
+2026-04-23 19:39:42,284 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=window_create exception_type= error=
+2026-04-23 19:39:42,326 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=entered_create_window status=entered error=
+2026-04-23 19:39:42,418 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=create_window_returned status=returned error=
+2026-04-23 19:39:42,447 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=start_loop exception_type= error=
+2026-04-23 19:39:42,477 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=entered_start status=entered error=
+2026-04-23 19:39:45,027 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=first_native_callback status=entered error=
+2026-04-23 19:39:45,082 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=True stage=started exception_type= error=
+2026-04-23 19:39:45,127 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=first_native_callback status=started error=
+2026-04-24 15:11:44,802 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=start_returned status=returned error=
+2026-04-24 15:11:44,836 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=start_loop_returned exception_type= error=window_loop_returned
+2026-04-24 15:11:44,867 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=wrapper_exit_reason status=returning error=

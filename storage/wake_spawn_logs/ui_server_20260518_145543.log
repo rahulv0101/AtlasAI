@@ -1,0 +1,19 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui-server --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main ui-server --mode-override live
+2026-05-18 16:55:45,756 | INFO | atlas_ai.voice.startup | Startup greeting triggered.
+2026-05-18 16:55:46,844 | WARNING | atlas_ai.voice.startup | Startup voice clone backend unavailable (backend=none); falling back to existing speech chain.
+2026-05-18 16:55:46,867 | INFO | atlas_ai.voice.startup | Fallback voice used for startup greeting.
+2026-05-18 16:55:46,873 | INFO | atlas_ai.voice.startup | Startup greeting playback success.
+2026-05-18 16:55:47,033 | INFO | atlas_ai.ui_server | Starting durable UI server on http://127.0.0.1:8765
+2026-05-18 16:55:47,553 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 16:55:47] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 16:55:47,638 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 16:55:47] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 16:55:48,603 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 16:55:48] "GET / HTTP/1.1" 200 -
+2026-05-18 16:55:49,159 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 16:55:49] "GET / HTTP/1.1" 200 -
+2026-05-18 16:55:55,774 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 16:55:55] "GET / HTTP/1.1" 200 -
+2026-05-18 16:55:55,889 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 16:55:55] "GET /style.css HTTP/1.1" 200 -
+2026-05-18 16:55:55,919 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 16:55:55] "GET /app.js HTTP/1.1" 200 -
+2026-05-18 16:55:56,322 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 16:55:56] "POST /api/ui-ready HTTP/1.1" 200 -
+2026-05-18 16:56:01,731 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 16:56:01] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 16:56:01,863 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 16:56:01] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 16:56:02,043 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 16:56:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-18 16:56:02,064 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 16:56:02] "GET /api/self-improvement/audit?_ts=1779116156132 HTTP/1.1" 200 -

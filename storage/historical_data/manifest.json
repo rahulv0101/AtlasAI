@@ -1,0 +1,42 @@
+{
+  "symbol": "XAUUSD",
+  "updated_at": "2026-05-13T21:54:18.811640+00:00",
+  "files": [
+    {
+      "timeframe": "M1",
+      "ok": true,
+      "bars_requested": 12000,
+      "bars_received": 12000,
+      "first_bar_utc": "2026-05-01T07:51:00+00:00",
+      "last_bar_utc": "2026-05-13T23:58:00+00:00",
+      "path": "C:\\Users\\User\\Desktop\\Atlas AI\\storage\\historical_data\\XAUUSD_M1.csv"
+    },
+    {
+      "timeframe": "M5",
+      "ok": true,
+      "bars_requested": 8000,
+      "bars_received": 8000,
+      "first_bar_utc": "2026-04-02T01:20:00+00:00",
+      "last_bar_utc": "2026-05-13T23:55:00+00:00",
+      "path": "C:\\Users\\User\\Desktop\\Atlas AI\\storage\\historical_data\\XAUUSD_M5.csv"
+    },
+    {
+      "timeframe": "M15",
+      "ok": true,
+      "bars_requested": 6000,
+      "bars_received": 6000,
+      "first_bar_utc": "2026-02-10T02:30:00+00:00",
+      "last_bar_utc": "2026-05-13T23:45:00+00:00",
+      "path": "C:\\Users\\User\\Desktop\\Atlas AI\\storage\\historical_data\\XAUUSD_M15.csv"
+    },
+    {
+      "timeframe": "H1",
+      "ok": true,
+      "bars_requested": 3000,
+      "bars_received": 3000,
+      "first_bar_utc": "2025-11-06T11:00:00+00:00",
+      "last_bar_utc": "2026-05-13T23:00:00+00:00",
+      "path": "C:\\Users\\User\\Desktop\\Atlas AI\\storage\\historical_data\\XAUUSD_H1.csv"
+    }
+  ]
+}

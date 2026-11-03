@@ -1,0 +1,856 @@
+{
+  "generated_at": "2026-08-31T10:23:19.315062+00:00",
+  "purpose": "Identify entries produced under learning_force_entry_per_session/adaptive probe logic so they are not treated as normal strategy evidence.",
+  "normal_demo_threshold_reference": {
+    "confidence_threshold": 0.52,
+    "structure_score_min": 0.35,
+    "spread_max_pips": 4.5
+  },
+  "forced_learning_probe_count": 29,
+  "forced_learning_probe_entries": [
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 725,
+      "timestamp": "2026-05-04T17:31:27.773476+00:00",
+      "session": "new_york",
+      "symbol": null,
+      "decision": "BUY_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "normal_conditions",
+        "macro_unavailable_price_inferred",
+        "adaptive_probe_entry"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 848,
+      "timestamp": "2026-05-04T19:23:39.310853+00:00",
+      "session": "new_york",
+      "symbol": null,
+      "decision": "BUY_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "macro_unavailable_price_inferred",
+        "adaptive_probe_entry",
+        "normal_conditions"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 8969,
+      "timestamp": "2026-05-14T17:00:03.965876+00:00",
+      "session": "new_york",
+      "symbol": null,
+      "decision": "BUY_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "normal_conditions",
+        "macro_unavailable_price_inferred",
+        "adaptive_probe_entry"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 15885,
+      "timestamp": "2026-05-19T12:55:23.510607+00:00",
+      "session": "new_york",
+      "symbol": null,
+      "decision": "BUY_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "macro_unavailable_price_inferred",
+        "adaptive_probe_entry",
+        "normal_conditions"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 18559,
+      "timestamp": "2026-05-20T17:00:37.980480+00:00",
+      "session": "new_york",
+      "symbol": null,
+      "decision": "SELL_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "macro_unavailable_price_inferred",
+        "normal_conditions",
+        "adaptive_probe_entry"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 20897,
+      "timestamp": "2026-05-21T12:32:13.185571+00:00",
+      "session": "new_york",
+      "symbol": null,
+      "decision": "BUY_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "normal_conditions",
+        "macro_unavailable_price_inferred",
+        "adaptive_probe_entry"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 21043,
+      "timestamp": "2026-05-21T13:45:11.333591+00:00",
+      "session": "overlap",
+      "symbol": null,
+      "decision": "BUY_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "normal_conditions",
+        "adaptive_probe_entry",
+        "macro_unavailable_price_inferred"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 24626,
+      "timestamp": "2026-05-25T15:30:16.229067+00:00",
+      "session": "new_york",
+      "symbol": null,
+      "decision": "SELL_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "normal_conditions",
+        "adaptive_probe_entry",
+        "macro_unavailable_price_inferred"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 29286,
+      "timestamp": "2026-05-27T07:20:03.196941+00:00",
+      "session": "london",
+      "symbol": null,
+      "decision": "BUY_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "macro_unavailable_price_inferred",
+        "adaptive_probe_entry",
+        "normal_conditions"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 31056,
+      "timestamp": "2026-05-29T00:30:08.454018+00:00",
+      "session": "asia",
+      "symbol": null,
+      "decision": "SELL_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "normal_conditions",
+        "adaptive_probe_entry",
+        "macro_unavailable_price_inferred"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 31880,
+      "timestamp": "2026-05-29T07:22:15.839029+00:00",
+      "session": "london",
+      "symbol": null,
+      "decision": "SELL_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "normal_conditions",
+        "adaptive_probe_entry",
+        "macro_unavailable_price_inferred"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 32459,
+      "timestamp": "2026-06-01T11:00:09.628506+00:00",
+      "session": "london",
+      "symbol": null,
+      "decision": "BUY_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "macro_unavailable_price_inferred",
+        "normal_conditions",
+        "adaptive_probe_entry"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 32999,
+      "timestamp": "2026-06-01T15:30:26.961264+00:00",
+      "session": "new_york",
+      "symbol": null,
+      "decision": "BUY_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "macro_unavailable_price_inferred",
+        "normal_conditions",
+        "adaptive_probe_entry"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 37480,
+      "timestamp": "2026-06-03T18:28:00.043891+00:00",
+      "session": "new_york",
+      "symbol": null,
+      "decision": "BUY_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "macro_unavailable_price_inferred",
+        "adaptive_probe_entry",
+        "normal_conditions"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 38207,
+      "timestamp": "2026-06-04T04:52:10.907939+00:00",
+      "session": "asia",
+      "symbol": null,
+      "decision": "SELL_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "macro_unavailable_price_inferred",
+        "normal_conditions",
+        "adaptive_probe_entry"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 43683,
+      "timestamp": "2026-06-09T15:45:25.299219+00:00",
+      "session": "new_york",
+      "symbol": null,
+      "decision": "BUY_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "normal_conditions",
+        "adaptive_probe_entry",
+        "macro_unavailable_price_inferred"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 46530,
+      "timestamp": "2026-06-10T15:30:03.666734+00:00",
+      "session": "new_york",
+      "symbol": null,
+      "decision": "BUY_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "normal_conditions",
+        "adaptive_probe_entry",
+        "macro_unavailable_price_inferred"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 49572,
+      "timestamp": "2026-06-12T00:01:18.749437+00:00",
+      "session": "asia",
+      "symbol": null,
+      "decision": "SELL_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "macro_unavailable_price_inferred",
+        "adaptive_probe_entry",
+        "normal_conditions"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 54393,
+      "timestamp": "2026-08-13T15:30:00.467919+00:00",
+      "session": "new_york",
+      "symbol": null,
+      "decision": "BUY_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "normal_conditions",
+        "macro_unavailable_price_inferred",
+        "adaptive_probe_entry"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 55633,
+      "timestamp": "2026-08-14T07:32:25.025256+00:00",
+      "session": "london",
+      "symbol": null,
+      "decision": "BUY_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "macro_unavailable_price_inferred",
+        "adaptive_probe_entry",
+        "normal_conditions"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 58219,
+      "timestamp": "2026-08-18T15:30:07.876596+00:00",
+      "session": "new_york",
+      "symbol": null,
+      "decision": "BUY_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "adaptive_probe_entry",
+        "macro_unavailable_price_inferred",
+        "normal_conditions"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 59245,
+      "timestamp": "2026-08-19T00:03:56.219302+00:00",
+      "session": "asia",
+      "symbol": null,
+      "decision": "BUY_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "adaptive_probe_entry",
+        "macro_unavailable_price_inferred",
+        "normal_conditions"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 63328,
+      "timestamp": "2026-08-20T15:30:47.614901+00:00",
+      "session": "new_york",
+      "symbol": null,
+      "decision": "SELL_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "macro_unavailable_price_inferred",
+        "normal_conditions",
+        "adaptive_probe_entry"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 63935,
+      "timestamp": "2026-08-21T00:04:08.599053+00:00",
+      "session": "asia",
+      "symbol": null,
+      "decision": "SELL_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "macro_unavailable_price_inferred",
+        "normal_conditions",
+        "adaptive_probe_entry"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 66008,
+      "timestamp": "2026-08-24T15:38:16.517521+00:00",
+      "session": "new_york",
+      "symbol": null,
+      "decision": "SELL_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "normal_conditions",
+        "adaptive_probe_entry",
+        "macro_unavailable_price_inferred"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 67896,
+      "timestamp": "2026-08-25T07:30:10.956913+00:00",
+      "session": "london",
+      "symbol": null,
+      "decision": "BUY_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "normal_conditions",
+        "macro_unavailable_price_inferred",
+        "adaptive_probe_entry"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 71611,
+      "timestamp": "2026-08-26T15:32:03.624118+00:00",
+      "session": "new_york",
+      "symbol": null,
+      "decision": "BUY_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "normal_conditions",
+        "macro_unavailable_price_inferred",
+        "adaptive_probe_entry"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 76471,
+      "timestamp": "2026-08-28T08:18:18.854924+00:00",
+      "session": "london",
+      "symbol": null,
+      "decision": "SELL_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "macro_unavailable_price_inferred",
+        "normal_conditions",
+        "adaptive_probe_entry"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 78668,
+      "timestamp": "2026-08-31T10:05:02.149406+00:00",
+      "session": "london",
+      "symbol": null,
+      "decision": "BUY_CANDIDATE",
+      "confidence": 0.4,
+      "structure_score": null,
+      "spread_status": "elevated",
+      "volatility_class": "normal_volatility",
+      "can_create_execution_request": false,
+      "execution_request_created": true,
+      "forced_demo_entry": true,
+      "tags": [
+        "macro_unavailable_price_inferred",
+        "normal_conditions",
+        "adaptive_probe_entry"
+      ],
+      "normalization": "forced_learning_probe_candidate_or_request",
+      "exclude_from_normal_strategy_performance": true
+    }
+  ],
+  "broker_fill_confirmed_from_retained_history": false,
+  "broker_fill_assessment": "No retained fill/order/ticket record was found that can be tied to the forced probe entry. One forced execution request candidate is retained and should still be excluded from normal strategy-performance analysis unless a broker statement later proves no fill occurred.",
+  "related_marker_hits_sample": [
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 1,
+      "snippet": "{\"timestamp\": \"2026-04-30T11:53:52.300775+00:00\", \"session\": \"london\", \"structure_read\": \"No clear structure: ranging or choppy market\", \"momentum_read\": \"Weak or mixed momentum: no directional conviction\", \"location_read\": \"Location unclear: insufficient level context\", \"confirmation_read\": \"DXY flat: no macro confirmation | ADX 0.0: weak trend, ranging conditions\", \"buy_score\": 0.0, \"sell_score\": 0.0, \"no_trade_score\": 0.6, \"decision\": \"NO_TRADE\", \"confidence\": 0.0, \"blockers\": [], \"reason\": \"Buy score (0.000) and sell score (0.000) too close (gap: 0.000). No clear edge.\", \"can_create_execution_request\": false, \"execution_request_created\": false, \"forced_demo_entry\": false}"
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 2,
+      "snippet": "{\"timestamp\": \"2026-04-30T11:54:22.981688+00:00\", \"session\": \"london\", \"structure_read\": \"No clear structure: ranging or choppy market\", \"momentum_read\": \"Weak or mixed momentum: no directional conviction\", \"location_read\": \"Location unclear: insufficient level context\", \"confirmation_read\": \"DXY flat: no macro confirmation | ADX 0.0: weak trend, ranging conditions\", \"buy_score\": 0.0, \"sell_score\": 0.0, \"no_trade_score\": 0.6, \"decision\": \"NO_TRADE\", \"confidence\": 0.0, \"blockers\": [], \"reason\": \"Buy score (0.000) and sell score (0.000) too close (gap: 0.000). No clear edge.\", \"can_create_execution_request\": false, \"execution_request_created\": false, \"forced_demo_entry\": false}"
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 3,
+      "snippet": "{\"timestamp\": \"2026-04-30T11:54:53.370438+00:00\", \"session\": \"london\", \"structure_read\": \"No clear structure: ranging or choppy market\", \"momentum_read\": \"Weak or mixed momentum: no directional conviction\", \"location_read\": \"Location unclear: insufficient level context\", \"confirmation_read\": \"DXY flat: no macro confirmation | ADX 0.0: weak trend, ranging conditions\", \"buy_score\": 0.0, \"sell_score\": 0.0, \"no_trade_score\": 0.6, \"decision\": \"NO_TRADE\", \"confidence\": 0.0, \"blockers\": [], \"reason\": \"Buy score (0.000) and sell score (0.000) too close (gap: 0.000). No clear edge.\", \"can_create_execution_request\": false, \"execution_request_created\": false, \"forced_demo_entry\": false}"
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 4,
+      "snippet": "{\"timestamp\": \"2026-04-30T11:55:26.816123+00:00\", \"session\": \"london\", \"structure_read\": \"No clear structure: ranging or choppy market\", \"momentum_read\": \"Weak or mixed momentum: no directional conviction\", \"location_read\": \"Location unclear: insufficient level context\", \"confirmation_read\": \"DXY flat: no macro confirmation | ADX 0.0: weak trend, ranging conditions\", \"buy_score\": 0.0, \"sell_score\": 0.0, \"no_trade_score\": 0.6, \"decision\": \"NO_TRADE\", \"confidence\": 0.0, \"blockers\": [], \"reason\": \"Buy score (0.000) and sell score (0.000) too close (gap: 0.000). No clear edge.\", \"can_create_execution_request\": false, \"execution_request_created\": false, \"forced_demo_entry\": false}"
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 5,
+      "snippet": "{\"timestamp\": \"2026-04-30T11:55:57.299889+00:00\", \"session\": \"london\", \"structure_read\": \"No clear structure: ranging or choppy market\", \"momentum_read\": \"Weak or mixed momentum: no directional conviction\", \"location_read\": \"Location unclear: insufficient level context\", \"confirmation_read\": \"DXY flat: no macro confirmation | ADX 0.0: weak trend, ranging conditions\", \"buy_score\": 0.0, \"sell_score\": 0.0, \"no_trade_score\": 0.6, \"decision\": \"NO_TRADE\", \"confidence\": 0.0, \"blockers\": [], \"reason\": \"Buy score (0.000) and sell score (0.000) too close (gap: 0.000). No clear edge.\", \"can_create_execution_request\": false, \"execution_request_created\": false, \"forced_demo_entry\": false}"
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 6,
+      "snippet": "{\"timestamp\": \"2026-04-30T11:56:27.364573+00:00\", \"session\": \"london\", \"structure_read\": \"No clear structure: ranging or choppy market\", \"momentum_read\": \"Weak or mixed momentum: no directional conviction\", \"location_read\": \"Location unclear: insufficient level context\", \"confirmation_read\": \"DXY flat: no macro confirmation | ADX 0.0: weak trend, ranging conditions\", \"buy_score\": 0.0, \"sell_score\": 0.0, \"no_trade_score\": 0.6, \"decision\": \"NO_TRADE\", \"confidence\": 0.0, \"blockers\": [], \"reason\": \"Buy score (0.000) and sell score (0.000) too close (gap: 0.000). No clear edge.\", \"can_create_execution_request\": false, \"execution_request_created\": false, \"forced_demo_entry\": false}"
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 7,
+      "snippet": "{\"timestamp\": \"2026-04-30T11:56:57.389235+00:00\", \"session\": \"london\", \"structure_read\": \"No clear structure: ranging or choppy market\", \"momentum_read\": \"Weak or mixed momentum: no directional conviction\", \"location_read\": \"Location unclear: insufficient level context\", \"confirmation_read\": \"DXY flat: no macro confirmation | ADX 0.0: weak trend, ranging conditions\", \"buy_score\": 0.0, \"sell_score\": 0.0, \"no_trade_score\": 0.6, \"decision\": \"NO_TRADE\", \"confidence\": 0.0, \"blockers\": [], \"reason\": \"Buy score (0.000) and sell score (0.000) too close (gap: 0.000). No clear edge.\", \"can_create_execution_request\": false, \"execution_request_created\": false, \"forced_demo_entry\": false}"
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 8,
+      "snippet": "{\"timestamp\": \"2026-04-30T11:57:27.416643+00:00\", \"session\": \"london\", \"structure_read\": \"No clear structure: ranging or choppy market\", \"momentum_read\": \"Weak or mixed momentum: no directional conviction\", \"location_read\": \"Location unclear: insufficient level context\", \"confirmation_read\": \"DXY flat: no macro confirmation | ADX 0.0: weak trend, ranging conditions\", \"buy_score\": 0.0, \"sell_score\": 0.0, \"no_trade_score\": 0.6, \"decision\": \"NO_TRADE\", \"confidence\": 0.0, \"blockers\": [], \"reason\": \"Buy score (0.000) and sell score (0.000) too close (gap: 0.000). No clear edge.\", \"can_create_execution_request\": false, \"execution_request_created\": false, \"forced_demo_entry\": false}"
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 9,
+      "snippet": "{\"timestamp\": \"2026-04-30T11:57:57.421725+00:00\", \"session\": \"london\", \"structure_read\": \"No clear structure: ranging or choppy market\", \"momentum_read\": \"Weak or mixed momentum: no directional conviction\", \"location_read\": \"Location unclear: insufficient level context\", \"confirmation_read\": \"DXY flat: no macro confirmation | ADX 0.0: weak trend, ranging conditions\", \"buy_score\": 0.0, \"sell_score\": 0.0, \"no_trade_score\": 0.6, \"decision\": \"NO_TRADE\", \"confidence\": 0.0, \"blockers\": [], \"reason\": \"Buy score (0.000) and sell score (0.000) too close (gap: 0.000). No clear edge.\", \"can_create_execution_request\": false, \"execution_request_created\": false, \"forced_demo_entry\": false}"
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 10,
+      "snippet": "{\"timestamp\": \"2026-04-30T11:58:27.431661+00:00\", \"session\": \"london\", \"structure_read\": \"No clear structure: ranging or choppy market\", \"momentum_read\": \"Weak or mixed momentum: no directional conviction\", \"location_read\": \"Location unclear: insufficient level context\", \"confirmation_read\": \"DXY flat: no macro confirmation | ADX 0.0: weak trend, ranging conditions\", \"buy_score\": 0.0, \"sell_score\": 0.0, \"no_trade_score\": 0.6, \"decision\": \"NO_TRADE\", \"confidence\": 0.0, \"blockers\": [], \"reason\": \"Buy score (0.000) and sell score (0.000) too close (gap: 0.000). No clear edge.\", \"can_create_execution_request\": false, \"execution_request_created\": false, \"forced_demo_entry\": false}"
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 11,
+      "snippet": "{\"timestamp\": \"2026-04-30T11:58:57.439688+00:00\", \"session\": \"london\", \"structure_read\": \"No clear structure: ranging or choppy market\", \"momentum_read\": \"Weak or mixed momentum: no directional conviction\", \"location_read\": \"Location unclear: insufficient level context\", \"confirmation_read\": \"DXY flat: no macro confirmation | ADX 0.0: weak trend, ranging conditions\", \"buy_score\": 0.0, \"sell_score\": 0.0, \"no_trade_score\": 0.6, \"decision\": \"NO_TRADE\", \"confidence\": 0.0, \"blockers\": [], \"reason\": \"Buy score (0.000) and sell score (0.000) too close (gap: 0.000). No clear edge.\", \"can_create_execution_request\": false, \"execution_request_created\": false, \"forced_demo_entry\": false}"
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 12,
+      "snippet": "{\"timestamp\": \"2026-04-30T12:38:29.973062+00:00\", \"session\": \"new_york\", \"structure_read\": \"Uptrend confirmed: higher highs + higher lows\", \"momentum_read\": \"Weak or mixed momentum: no directional conviction\", \"location_read\": \"Price near resistance: sell setup possible\", \"confirmation_read\": \"DXY flat: no macro confirmation | ADX 4.4: weak trend, ranging conditions | Chop volatility: confidence reduced\", \"buy_score\": 0.2125, \"sell_score\": 0.17, \"no_trade_score\": 0.52, \"decision\": \"NO_TRADE\", \"confidence\": 0.2125, \"blockers\": [], \"reason\": \"Buy score (0.212) and sell score (0.170) too close (gap: 0.042). No clear edge.\", \"can_create_execution_request\": false, \"volatility_class\": \"chop_volati"
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 13,
+      "snippet": "{\"timestamp\": \"2026-04-30T12:39:23.424185+00:00\", \"session\": \"new_york\", \"structure_read\": \"Uptrend confirmed: higher highs + higher lows\", \"momentum_read\": \"Weak or mixed momentum: no directional conviction\", \"location_read\": \"Price near resistance: sell setup possible\", \"confirmation_read\": \"DXY flat: no macro confirmation | ADX 4.4: weak trend, ranging conditions | Chop volatility: confidence reduced\", \"buy_score\": 0.2125, \"sell_score\": 0.17, \"no_trade_score\": 0.52, \"decision\": \"NO_TRADE\", \"confidence\": 0.2125, \"blockers\": [], \"reason\": \"Buy score (0.212) and sell score (0.170) too close (gap: 0.042). No clear edge.\", \"can_create_execution_request\": false, \"volatility_class\": \"chop_volati"
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 14,
+      "snippet": "{\"timestamp\": \"2026-04-30T12:39:53.708314+00:00\", \"session\": \"new_york\", \"structure_read\": \"Uptrend confirmed: higher highs + higher lows\", \"momentum_read\": \"Weak or mixed momentum: no directional conviction\", \"location_read\": \"Price near resistance: sell setup possible\", \"confirmation_read\": \"DXY flat: no macro confirmation | ADX 4.4: weak trend, ranging conditions | Chop volatility: confidence reduced\", \"buy_score\": 0.2125, \"sell_score\": 0.17, \"no_trade_score\": 0.52, \"decision\": \"NO_TRADE\", \"confidence\": 0.2125, \"blockers\": [], \"reason\": \"Buy score (0.212) and sell score (0.170) too close (gap: 0.042). No clear edge.\", \"can_create_execution_request\": false, \"volatility_class\": \"chop_volati"
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 15,
+      "snippet": "{\"timestamp\": \"2026-04-30T12:40:23.833656+00:00\", \"session\": \"new_york\", \"structure_read\": \"Uptrend confirmed: higher highs + higher lows\", \"momentum_read\": \"Weak or mixed momentum: no directional conviction\", \"location_read\": \"Price near resistance: sell setup possible\", \"confirmation_read\": \"DXY flat: no macro confirmation | ADX 4.4: weak trend, ranging conditions | Chop volatility: confidence reduced\", \"buy_score\": 0.2125, \"sell_score\": 0.17, \"no_trade_score\": 0.52, \"decision\": \"NO_TRADE\", \"confidence\": 0.2125, \"blockers\": [], \"reason\": \"Buy score (0.212) and sell score (0.170) too close (gap: 0.042). No clear edge.\", \"can_create_execution_request\": false, \"volatility_class\": \"chop_volati"
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 16,
+      "snippet": "{\"timestamp\": \"2026-04-30T12:40:53.859110+00:00\", \"session\": \"new_york\", \"structure_read\": \"Uptrend confirmed: higher highs + higher lows\", \"momentum_read\": \"Weak or mixed momentum: no directional conviction\", \"location_read\": \"Price near resistance: sell setup possible\", \"confirmation_read\": \"DXY flat: no macro confirmation | ADX 4.4: weak trend, ranging conditions | Chop volatility: confidence reduced\", \"buy_score\": 0.2125, \"sell_score\": 0.17, \"no_trade_score\": 0.52, \"decision\": \"NO_TRADE\", \"confidence\": 0.2125, \"blockers\": [], \"reason\": \"Buy score (0.212) and sell score (0.170) too close (gap: 0.042). No clear edge.\", \"can_create_execution_request\": false, \"volatility_class\": \"chop_volati"
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 17,
+      "snippet": "{\"timestamp\": \"2026-04-30T12:53:57.555812+00:00\", \"session\": \"new_york\", \"structure_read\": \"Uptrend confirmed: higher highs + higher lows\", \"momentum_read\": \"Strong bullish momentum: 0.71\", \"location_read\": \"Price near resistance: sell setup possible\", \"confirmation_read\": \"DXY flat: no macro confirmation | ADX 4.4: weak trend, ranging conditions\", \"buy_score\": 0.45, \"sell_score\": 0.2, \"no_trade_score\": 0.15, \"decision\": \"BUY_CANDIDATE\", \"confidence\": 0.45, \"blockers\": [], \"reason\": \"Buy confluence confirmed. Score: 0.450 vs sell: 0.200.\", \"can_create_execution_request\": false, \"volatility_class\": \"normal_volatility\", \"volatility_confidence\": 0.66, \"atr_ratio\": 0.923936897358833, \"spread_sta"
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 18,
+      "snippet": "{\"timestamp\": \"2026-04-30T12:54:29.277052+00:00\", \"session\": \"new_york\", \"structure_read\": \"Uptrend confirmed: higher highs + higher lows\", \"momentum_read\": \"Strong bullish momentum: 0.88\", \"location_read\": \"Price near resistance: sell setup possible\", \"confirmation_read\": \"DXY flat: no macro confirmation | ADX 4.4: weak trend, ranging conditions\", \"buy_score\": 0.45, \"sell_score\": 0.2, \"no_trade_score\": 0.15, \"decision\": \"BUY_CANDIDATE\", \"confidence\": 0.45, \"blockers\": [], \"reason\": \"Buy confluence confirmed. Score: 0.450 vs sell: 0.200.\", \"can_create_execution_request\": false, \"volatility_class\": \"normal_volatility\", \"volatility_confidence\": 0.66, \"atr_ratio\": 0.923936897358833, \"spread_sta"
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 19,
+      "snippet": "{\"timestamp\": \"2026-04-30T12:54:59.401349+00:00\", \"session\": \"new_york\", \"structure_read\": \"Uptrend confirmed: higher highs + higher lows\", \"momentum_read\": \"Strong bullish momentum: 0.85\", \"location_read\": \"Price near resistance: sell setup possible\", \"confirmation_read\": \"DXY flat: no macro confirmation | ADX 4.4: weak trend, ranging conditions\", \"buy_score\": 0.45, \"sell_score\": 0.2, \"no_trade_score\": 0.15, \"decision\": \"BUY_CANDIDATE\", \"confidence\": 0.45, \"blockers\": [], \"reason\": \"Buy confluence confirmed. Score: 0.450 vs sell: 0.200.\", \"can_create_execution_request\": false, \"volatility_class\": \"normal_volatility\", \"volatility_confidence\": 0.66, \"atr_ratio\": 0.923936897358833, \"spread_sta"
+    },
+    {
+      "source_file": "logs\\scan_results.jsonl",
+      "line": 20,
+      "snippet": "{\"timestamp\": \"2026-04-30T12:55:30.016024+00:00\", \"session\": \"new_york\", \"structure_read\": \"Uptrend confirmed: higher highs + higher lows\", \"momentum_read\": \"Strong bullish momentum: 0.80\", \"location_read\": \"Price near resistance: sell setup possible\", \"confirmation_read\": \"DXY flat: no macro confirmation | ADX 4.4: weak trend, ranging conditions\", \"buy_score\": 0.45, \"sell_score\": 0.2, \"no_trade_score\": 0.15, \"decision\": \"BUY_CANDIDATE\", \"confidence\": 0.45, \"blockers\": [], \"reason\": \"Buy confluence confirmed. Score: 0.450 vs sell: 0.200.\", \"can_create_execution_request\": false, \"volatility_class\": \"normal_volatility\", \"volatility_confidence\": 0.66, \"atr_ratio\": 0.923936897358833, \"spread_sta"
+    }
+  ],
+  "fill_or_order_hits_sample": [
+    {
+      "source_file": "storage\\events.jsonl",
+      "line": 1282,
+      "snippet": "{\"time\": \"2026-06-09T12:35:49.030182+00:00\", \"type\": \"system\", \"message\": \"Wake trigger ignored because Atlas stack is already healthy.\", \"meta\": {\"overall_result\": \"SUCCESS\", \"health\": {\"checked_at\": \"2026-06-09T12:35:47.464921+00:00\", \"launch_profile\": \"guarded_demo\", \"core_runtime_health\": {\"ok\": true, \"mt5_ready\": true, \"backend_ready\": true, \"detail\": \"process_running=True, runtime_execute=True, fresh=True, age_seconds=10.6\"}, \"http_ui_health\": {\"ok\": true, \"api_ok\": true, \"profile_ok\": true, \"status_url\": \"http://127.0.0.1:8765/api/status\"}, \"desktop_shell_health\": {\"ok\": true, \"fallback_active\": false, \"frontend_mode\": \"desktop\", \"failure_reason\": \"\", \"degraded_since\": \"\"}, \"control_s"
+    },
+    {
+      "source_file": "storage\\events.jsonl",
+      "line": 2699,
+      "snippet": "{\"time\": \"2026-06-10T07:49:31.015401+00:00\", \"type\": \"learning\", \"message\": \"Loss-pattern lesson memory backfilled.\", \"meta\": {\"schema\": \"atlas_loss_lesson_backfill_v1\", \"rebuilt_at\": \"2026-06-10T07:49:30.866228+00:00\", \"recent_outcomes\": 200, \"pattern_lessons\": 20, \"loss_dominant_lessons\": 17, \"decision_context\": {\"decision_samples_scanned\": 88, \"outcomes_scanned\": 200, \"outcomes_linked\": 5, \"link_rate\": 0.025, \"policy_note\": \"Decision context enrichment is bounded teaching memory only; it does not change strategy, risk, guards, or execution policy.\"}, \"context_quality\": {\"location_known\": 0, \"momentum_known\": 16, \"volatility_known\": 16}, \"policy_note\": \"Backfill rebuilds structured teachin"
+    },
+    {
+      "source_file": "storage\\events.jsonl",
+      "line": 3194,
+      "snippet": "{\"time\": \"2026-06-10T15:37:12.242526+00:00\", \"type\": \"system\", \"message\": \"Wake trigger ignored because Atlas stack is already healthy.\", \"meta\": {\"overall_result\": \"SUCCESS\", \"health\": {\"checked_at\": \"2026-06-10T15:37:10.642802+00:00\", \"launch_profile\": \"guarded_demo\", \"core_runtime_health\": {\"ok\": true, \"mt5_ready\": true, \"backend_ready\": true, \"detail\": \"process_running=True, runtime_execute=True, fresh=True, age_seconds=47.4\"}, \"http_ui_health\": {\"ok\": true, \"api_ok\": true, \"profile_ok\": true, \"status_url\": \"http://127.0.0.1:8765/api/status\"}, \"desktop_shell_health\": {\"ok\": true, \"fallback_active\": false, \"frontend_mode\": \"desktop\", \"failure_reason\": \"\", \"degraded_since\": \"\"}, \"control_s"
+    },
+    {
+      "source_file": "storage\\events.jsonl",
+      "line": 7864,
+      "snippet": "{\"time\": \"2026-08-13T17:39:55.616892+00:00\", \"type\": \"system\", \"message\": \"Wake trigger ignored because Atlas stack is already healthy.\", \"meta\": {\"overall_result\": \"SUCCESS\", \"health\": {\"checked_at\": \"2026-08-13T17:39:54.507394+00:00\", \"launch_profile\": \"guarded_demo\", \"core_runtime_health\": {\"ok\": true, \"mt5_ready\": true, \"backend_ready\": true, \"detail\": \"process_running=True, runtime_execute=True, fresh=True, age_seconds=28.1\"}, \"http_ui_health\": {\"ok\": true, \"api_ok\": true, \"profile_ok\": true, \"status_url\": \"http://127.0.0.1:8765/api/status\"}, \"desktop_shell_health\": {\"ok\": true, \"fallback_active\": false, \"frontend_mode\": \"desktop\", \"failure_reason\": \"\", \"degraded_since\": \"\"}, \"control_s"
+    },
+    {
+      "source_file": "storage\\events.jsonl.tmp",
+      "line": 72,
+      "snippet": "{\"time\": \"2026-05-13T22:25:56.803720+00:00\", \"type\": \"training\", \"message\": \"Historical backtest loss analysis recorded\", \"meta\": {\"generated_at\": \"2026-05-13T22:25:56.765178+00:00\", \"source\": \"historical_backtest\", \"symbol\": \"XAUUSD\", \"timeframe\": \"M1\", \"training_balance_zar\": 100.0, \"bars\": 5000, \"first_bar_utc\": \"2026-05-08T10:02:00\", \"last_bar_utc\": \"2026-05-14T01:25:00\", \"total_trades\": 941, \"wins\": 388, \"losses\": 553, \"win_rate\": 0.412327311370882, \"total_return\": 0.050319703012707745, \"sampled_loss_count\": 300, \"patterns\": {\"classification\": [{\"value\": \"weak_pullback\", \"count\": 133}, {\"value\": \"stop_hunt\", \"count\": 86}, {\"value\": \"late_entry\", \"count\": 78}, {\"value\": \"false_continuati"
+    },
+    {
+      "source_file": "storage\\events.jsonl.tmp",
+      "line": 987,
+      "snippet": "{\"time\": \"2026-05-14T18:18:19.362251+00:00\", \"type\": \"decision_sample\", \"message\": \"Captured live decision sample.\", \"meta\": {\"decision_id\": \"e11a4b2b\", \"strategy\": \"evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)\", \"setup_family\": \"continuation\", \"side\": \"sell\", \"confidence\": 0.462, \"timeframe\": \"M1\", \"regime\": \"range\", \"higher_tf_bias\": \"sell\", \"session\": \"new_york\", \"hour_utc\": 18, \"spread_points\": 34.0, \"same_side_support\": 3, \"same_side_ratio\": 0.75, \"volatility_pct\": 0.0201, \"trend_strength\": 0.1009, \"m1_quality\": {\"enabled\": true, \"applied\": true, \"factor\": 0.9, \"spread_points\": 34.0, \"body_ratio\": 0.7593, \"last_volume\": 85.0, \"avg_volume_8\": 236.25, \"session\": \"new_york\", \"r"
+    },
+    {
+      "source_file": "storage\\events.jsonl.tmp",
+      "line": 988,
+      "snippet": "{\"time\": \"2026-05-14T18:18:19.363233+00:00\", \"type\": \"execution\", \"message\": \"Execution blocked for sell via evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9): approval_missing\", \"meta\": {\"symbol\": \"XAUUSD\", \"timeframe\": \"M1\", \"action\": \"blocked\", \"message\": \"Execution blocked for sell via evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9): approval_missing\", \"chosen\": {\"strategy\": \"evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)\", \"side\": \"sell\", \"confidence\": 0.46197}, \"risk\": {\"equity\": 146666.65, \"balance\": 146666.65, \"daily_loss_pct\": 0.0, \"weekly_loss_pct\": 0.0002, \"open_positions\": 0, \"spread_points\": 34.0, \"trades_today\": 0, \"consecutive_losses\": 0, \"daily_profi"
+    },
+    {
+      "source_file": "storage\\events.jsonl.tmp",
+      "line": 1031,
+      "snippet": "{\"time\": \"2026-05-14T18:58:43.070227+00:00\", \"type\": \"decision_sample\", \"message\": \"Captured live decision sample.\", \"meta\": {\"decision_id\": \"8f588913\", \"strategy\": \"evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)\", \"setup_family\": \"continuation\", \"side\": \"sell\", \"confidence\": 0.4885, \"timeframe\": \"M1\", \"regime\": \"trend\", \"higher_tf_bias\": \"sell\", \"session\": \"new_york\", \"hour_utc\": 18, \"spread_points\": 35.0, \"same_side_support\": 3, \"same_side_ratio\": 0.75, \"volatility_pct\": 0.018, \"trend_strength\": 0.1537, \"m1_quality\": {\"enabled\": true, \"applied\": true, \"factor\": 0.924, \"spread_points\": 35.0, \"body_ratio\": 0.982, \"last_volume\": 104.0, \"avg_volume_8\": 142.62, \"session\": \"new_york\", "
+    },
+    {
+      "source_file": "storage\\events.jsonl.tmp",
+      "line": 1032,
+      "snippet": "{\"time\": \"2026-05-14T18:58:43.082636+00:00\", \"type\": \"execution\", \"message\": \"Execution blocked for sell via evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9): approval_missing\", \"meta\": {\"symbol\": \"XAUUSD\", \"timeframe\": \"M1\", \"action\": \"blocked\", \"message\": \"Execution blocked for sell via evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9): approval_missing\", \"chosen\": {\"strategy\": \"evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)\", \"side\": \"sell\", \"confidence\": 0.4885178760000001}, \"risk\": {\"equity\": 146666.65, \"balance\": 146666.65, \"daily_loss_pct\": 0.0, \"weekly_loss_pct\": 0.0002, \"open_positions\": 0, \"spread_points\": 35.0, \"trades_today\": 0, \"consecutive_losses\": 0, \""
+    },
+    {
+      "source_file": "storage\\events.jsonl.tmp",
+      "line": 1058,
+      "snippet": "{\"time\": \"2026-05-14T19:20:55.208478+00:00\", \"type\": \"decision_sample\", \"message\": \"Captured live decision sample.\", \"meta\": {\"decision_id\": \"65fed7ff\", \"strategy\": \"evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)\", \"setup_family\": \"continuation\", \"side\": \"sell\", \"confidence\": 0.6297, \"timeframe\": \"M1\", \"regime\": \"trend\", \"higher_tf_bias\": \"sell\", \"session\": \"new_york\", \"hour_utc\": 19, \"spread_points\": 35.0, \"same_side_support\": 3, \"same_side_ratio\": 0.75, \"volatility_pct\": 0.0134, \"trend_strength\": 0.1506, \"m1_quality\": {\"enabled\": true, \"applied\": true, \"factor\": 0.924, \"spread_points\": 35.0, \"body_ratio\": 0.763, \"last_volume\": 209.0, \"avg_volume_8\": 163.12, \"session\": \"new_york\","
+    },
+    {
+      "source_file": "storage\\events.jsonl.tmp",
+      "line": 1059,
+      "snippet": "{\"time\": \"2026-05-14T19:20:55.221331+00:00\", \"type\": \"execution\", \"message\": \"Executed sell via evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)\", \"meta\": {\"symbol\": \"XAUUSD\", \"timeframe\": \"M1\", \"action\": \"execute\", \"message\": \"Executed sell via evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)\", \"chosen\": {\"strategy\": \"evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)\", \"side\": \"sell\", \"confidence\": 0.629713656}, \"risk\": {\"equity\": 146666.65, \"balance\": 146666.65, \"daily_loss_pct\": 0.0, \"weekly_loss_pct\": 0.0002, \"open_positions\": 0, \"spread_points\": 35.0, \"trades_today\": 0, \"consecutive_losses\": 0, \"daily_profit_zar\": 0.0}, \"signal_summary\": {\"raw_count\": 6, \"active_c"
+    },
+    {
+      "source_file": "storage\\events.jsonl.tmp",
+      "line": 1060,
+      "snippet": "{\"time\": \"2026-05-14T19:20:55.253093+00:00\", \"type\": \"learning\", \"message\": \"Execution reject not counted as trade outcome.\", \"meta\": {\"strategy\": \"evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)\", \"retcode\": 0, \"comment\": \"filled\", \"counted_as_trade\": false}}"
+    },
+    {
+      "source_file": "storage\\events.jsonl.tmp",
+      "line": 1457,
+      "snippet": "{\"time\": \"2026-05-14T22:30:21.225097+00:00\", \"type\": \"learning\", \"message\": \"Processed 1 closed deal(s) for win/loss learning.\", \"meta\": {}}"
+    },
+    {
+      "source_file": "storage\\events.jsonl.tmp",
+      "line": 2058,
+      "snippet": "{\"time\": \"2026-05-15T07:26:55.578784+00:00\", \"type\": \"execution\", \"message\": \"Executed buy via evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)\", \"meta\": {\"symbol\": \"XAUUSD\", \"timeframe\": \"M1\", \"action\": \"execute\", \"message\": \"Executed buy via evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)\", \"chosen\": {\"strategy\": \"evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)\", \"side\": \"buy\", \"confidence\": 0.6664059999999999}, \"risk\": {\"equity\": 146693.34, \"balance\": 146693.34, \"daily_loss_pct\": 0.0, \"weekly_loss_pct\": 0.0, \"open_positions\": 0, \"spread_points\": 34.0, \"trades_today\": 0, \"consecutive_losses\": 0, \"daily_profit_zar\": 0.0}, \"signal_summary\": {\"raw_count\": 7, \"active_"
+    },
+    {
+      "source_file": "storage\\events.jsonl.tmp",
+      "line": 2061,
+      "snippet": "{\"time\": \"2026-05-15T07:27:57.317031+00:00\", \"type\": \"execution\", \"message\": \"Executed buy via evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)\", \"meta\": {\"symbol\": \"XAUUSD\", \"timeframe\": \"M1\", \"action\": \"execute\", \"message\": \"Executed buy via evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)\", \"chosen\": {\"strategy\": \"evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)\", \"side\": \"buy\", \"confidence\": 0.63}, \"risk\": {\"equity\": 146677.73, \"balance\": 146677.73, \"daily_loss_pct\": 0.0, \"weekly_loss_pct\": 0.0001, \"open_positions\": 0, \"spread_points\": 34.0, \"trades_today\": 0, \"consecutive_losses\": 0, \"daily_profit_zar\": -15.61}, \"signal_summary\": {\"raw_count\": 7, \"active_count\": "
+    },
+    {
+      "source_file": "storage\\events.jsonl.tmp",
+      "line": 2064,
+      "snippet": "{\"time\": \"2026-05-15T07:28:57.861749+00:00\", \"type\": \"execution\", \"message\": \"Execution failed for buy via evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)\", \"meta\": {\"symbol\": \"XAUUSD\", \"timeframe\": \"M1\", \"action\": \"failed\", \"message\": \"Execution failed for buy via evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)\", \"chosen\": {\"strategy\": \"evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)\", \"side\": \"buy\", \"confidence\": 0.71}, \"risk\": {\"equity\": 146704.79, \"balance\": 146704.79, \"daily_loss_pct\": 0.0, \"weekly_loss_pct\": 0.0, \"open_positions\": 0, \"spread_points\": 34.0, \"trades_today\": 0, \"consecutive_losses\": 0, \"daily_profit_zar\": 11.45}, \"signal_summary\": {\"raw_count\": "
+    },
+    {
+      "source_file": "storage\\events.jsonl.tmp",
+      "line": 2217,
+      "snippet": "{\"time\": \"2026-05-15T09:13:22.768377+00:00\", \"type\": \"execution\", \"message\": \"Execution failed for sell via gold_breakout_retest\", \"meta\": {\"symbol\": \"XAUUSD\", \"timeframe\": \"M1\", \"action\": \"failed\", \"message\": \"Execution failed for sell via gold_breakout_retest\", \"chosen\": {\"strategy\": \"gold_breakout_retest\", \"side\": \"sell\", \"confidence\": 0.5664235122000001}, \"risk\": {\"equity\": 146704.79, \"balance\": 146704.79, \"daily_loss_pct\": 0.0, \"weekly_loss_pct\": 0.0, \"open_positions\": 0, \"spread_points\": 34.0, \"trades_today\": 0, \"consecutive_losses\": 0, \"daily_profit_zar\": 11.45}, \"signal_summary\": {\"raw_count\": 7, \"active_count\": 5, \"filtered_out_count\": 2, \"evolved_raw_count\": 1, \"evolved_active_coun"
+    },
+    {
+      "source_file": "storage\\events.jsonl.tmp",
+      "line": 2220,
+      "snippet": "{\"time\": \"2026-05-15T09:14:23.387463+00:00\", \"type\": \"execution\", \"message\": \"Execution failed for sell via gold_breakout_retest\", \"meta\": {\"symbol\": \"XAUUSD\", \"timeframe\": \"M1\", \"action\": \"failed\", \"message\": \"Execution failed for sell via gold_breakout_retest\", \"chosen\": {\"strategy\": \"gold_breakout_retest\", \"side\": \"sell\", \"confidence\": 0.6326775000000001}, \"risk\": {\"equity\": 146704.79, \"balance\": 146704.79, \"daily_loss_pct\": 0.0, \"weekly_loss_pct\": 0.0, \"open_positions\": 0, \"spread_points\": 34.0, \"trades_today\": 0, \"consecutive_losses\": 0, \"daily_profit_zar\": 11.45}, \"signal_summary\": {\"raw_count\": 7, \"active_count\": 5, \"filtered_out_count\": 2, \"evolved_raw_count\": 1, \"evolved_active_coun"
+    },
+    {
+      "source_file": "storage\\events.jsonl.tmp",
+      "line": 2223,
+      "snippet": "{\"time\": \"2026-05-15T09:15:25.150188+00:00\", \"type\": \"execution\", \"message\": \"Executed sell via momentum_continuation\", \"meta\": {\"symbol\": \"XAUUSD\", \"timeframe\": \"M1\", \"action\": \"execute\", \"message\": \"Executed sell via momentum_continuation\", \"chosen\": {\"strategy\": \"momentum_continuation\", \"side\": \"sell\", \"confidence\": 0.5548095}, \"risk\": {\"equity\": 146704.79, \"balance\": 146704.79, \"daily_loss_pct\": 0.0, \"weekly_loss_pct\": 0.0, \"open_positions\": 0, \"spread_points\": 34.0, \"trades_today\": 0, \"consecutive_losses\": 0, \"daily_profit_zar\": 11.45}, \"signal_summary\": {\"raw_count\": 7, \"active_count\": 5, \"filtered_out_count\": 2, \"evolved_raw_count\": 1, \"evolved_active_count\": 1}, \"higher_timeframe\": {"
+    },
+    {
+      "source_file": "storage\\events.jsonl.tmp",
+      "line": 2226,
+      "snippet": "{\"time\": \"2026-05-15T09:16:25.724427+00:00\", \"type\": \"execution\", \"message\": \"Execution failed for sell via gold_breakout_retest\", \"meta\": {\"symbol\": \"XAUUSD\", \"timeframe\": \"M1\", \"action\": \"failed\", \"message\": \"Execution failed for sell via gold_breakout_retest\", \"chosen\": {\"strategy\": \"gold_breakout_retest\", \"side\": \"sell\", \"confidence\": 0.95}, \"risk\": {\"equity\": 146733.32, \"balance\": 146733.32, \"daily_loss_pct\": 0.0, \"weekly_loss_pct\": 0.0, \"open_positions\": 0, \"spread_points\": 35.0, \"trades_today\": 0, \"consecutive_losses\": 0, \"daily_profit_zar\": 39.98}, \"signal_summary\": {\"raw_count\": 7, \"active_count\": 5, \"filtered_out_count\": 2, \"evolved_raw_count\": 1, \"evolved_active_count\": 1}, \"highe"
+    }
+  ]
+}

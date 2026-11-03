@@ -1,0 +1,24 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-19 11:39:53,453 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-19 11:39:56,473 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-19 11:40:18,123 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-19 11:40:26,249 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 11:41:36,248 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 11:42:40,946 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 11:43:47,817 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 11:44:53,083 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 11:46:02,933 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 11:47:06,126 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 11:48:06,753 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 11:49:07,344 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 11:50:13,396 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 11:51:14,026 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 11:52:17,669 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-19 11:52:17,670 | INFO | openai._base_client | Retrying request to /chat/completions in 0.497431 seconds
+2026-05-19 11:52:18,538 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-19 11:52:18,539 | INFO | openai._base_client | Retrying request to /chat/completions in 0.757019 seconds
+2026-05-19 11:52:19,661 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-19 11:56:23,135 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 12:01:47,413 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 12:02:49,913 | INFO | atlas_ai.trader | No high-confidence trade found.

@@ -1,0 +1,37 @@
+{
+  "updated_at": "2026-05-01T06:54:21.711138+00:00",
+  "run_id": "compare_20260430T233458Z",
+  "preset": "conservative_filter_rollout_v1",
+  "version_hash": "bd48b71f75d8abcc",
+  "control": {},
+  "experiment": {},
+  "control_status": {
+    "action": "blocked",
+    "message": "Risk guard active: Safety lock active: consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak. No trade executed."
+  },
+  "experiment_status": {
+    "action": "blocked",
+    "message": "Risk guard active: Safety lock active: consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak. No trade executed."
+  },
+  "comparison_tracker": {
+    "report_path": "C:\\Users\\User\\Desktop\\Atlas AI\\storage_compare_runs\\compare_20260430T233458Z\\comparison_report.json",
+    "tracker_path": "C:\\Users\\User\\Desktop\\Atlas AI\\storage_compare_runs\\compare_20260430T233458Z\\comparison_tracker.json",
+    "cross_lane": {
+      "taken_by_both": 0,
+      "control_only_taken": 0,
+      "experiment_only_taken": 0,
+      "filtered_by_experiment": 0
+    },
+    "winners_vs_losers_removed": {
+      "losers_avoided": 0,
+      "winners_lost": 0,
+      "net_trade_quality_impact": 0,
+      "removed_trade_expectancy": 0.0,
+      "removed_trade_pnl_sum": 0.0,
+      "removed_trade_outcomes_known": 0
+    },
+    "filter_effectiveness": {
+      "assessment": "neutral"
+    }
+  }
+}

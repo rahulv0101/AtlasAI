@@ -1,0 +1,282 @@
+{
+  "config": {
+    "version_hash": "710508569928f966",
+    "control_overlay": "off",
+    "experiment_overlay": "trend_late_us_only"
+  },
+  "control": {
+    "trades": 537,
+    "wins": 247,
+    "losses": 290,
+    "win_rate": 0.45996275605214154,
+    "expectancy": 0.0005079062424103178,
+    "profit_factor": 1.179113874355197,
+    "average_win": 0.007269213166696836,
+    "average_loss": -0.005250862068964763,
+    "max_drawdown": 0.08195240611853942,
+    "trades_per_day": 280.07243752263673,
+    "total_return": 0.29958206721308617
+  },
+  "experiment": {
+    "trades": 510,
+    "wins": 241,
+    "losses": 269,
+    "win_rate": 0.4725490196078431,
+    "expectancy": 0.0006513299232744598,
+    "profit_factor": 1.2341262058570754,
+    "average_win": 0.007265469962115202,
+    "average_loss": -0.005274349442378414,
+    "max_drawdown": 0.08195240611853942,
+    "trades_per_day": 265.9905831220572,
+    "total_return": 0.3797785509568448
+  },
+  "filter_effect": {
+    "trades_removed": 27,
+    "winners_removed": 0,
+    "losers_removed": 0,
+    "net_removed_more_losers_than_winners": false,
+    "filtered_candidates": 31
+  },
+  "london": {
+    "control": {
+      "trades": 167,
+      "wins": 76,
+      "losses": 91,
+      "win_rate": 0.4550898203592814,
+      "expectancy": 0.0002665191356424444,
+      "profit_factor": 1.0897443202990105,
+      "average_win": 0.007111298627002942,
+      "average_loss": -0.005449999999999288,
+      "max_drawdown": 0.057040591224986115,
+      "trades_per_day": 138.52534562211983,
+      "total_return": 0.04206725355020644
+    },
+    "experiment": {
+      "trades": 168,
+      "wins": 77,
+      "losses": 91,
+      "win_rate": 0.4583333333333333,
+      "expectancy": 0.000312202380953083,
+      "profit_factor": 1.1057566286926608,
+      "average_win": 0.007122077922078616,
+      "average_loss": -0.005449999999999288,
+      "max_drawdown": 0.04809311495594791,
+      "trades_per_day": 139.35483870967744,
+      "total_return": 0.05034278518782267
+    },
+    "control_by_volatility": {
+      "high": {
+        "trades": 16,
+        "wins": 6,
+        "losses": 10,
+        "win_rate": 0.375,
+        "expectancy": -0.0006972826086949453,
+        "profit_factor": 0.7952931790986961,
+        "average_win": 0.007223913043478564,
+        "average_loss": -0.00544999999999905,
+        "max_drawdown": 0.028646100728740423,
+        "trades_per_day": 886.1538461538462,
+        "total_return": -0.0113960116623879
+      },
+      "low": {
+        "trades": 11,
+        "wins": 5,
+        "losses": 6,
+        "win_rate": 0.45454545454545453,
+        "expectancy": -0.00047648221343814457,
+        "profit_factor": 0.8397154633694236,
+        "average_win": 0.0054917391304357644,
+        "average_loss": -0.005449999999999736,
+        "max_drawdown": 0.02695458937986387,
+        "trades_per_day": 208.42105263157896,
+        "total_return": -0.0054050837464701545
+      },
+      "normal": {
+        "trades": 122,
+        "wins": 57,
+        "losses": 65,
+        "win_rate": 0.4672131147540984,
+        "expectancy": 0.00046049536707126564,
+        "profit_factor": 1.1585897947288717,
+        "average_win": 0.007200533943555131,
+        "average_loss": -0.005449999999999199,
+        "max_drawdown": 0.06698705793682466,
+        "trades_per_day": 106.7314702308627,
+        "total_return": 0.055198538839306456
+      }
+    },
+    "control_by_hour": {
+      "7": {
+        "trades": 13,
+        "wins": 6,
+        "losses": 7,
+        "win_rate": 0.46153846153846156,
+        "expectancy": -0.000599999999999426,
+        "profit_factor": 0.7955439056358442,
+        "average_win": 0.005058333333334576,
+        "average_loss": -0.005450000000000001,
+        "max_drawdown": 0.02452197585331425,
+        "trades_per_day": 12.700135685210313,
+        "total_return": -0.007967412287914158
+      },
+      "8": {
+        "trades": 35,
+        "wins": 20,
+        "losses": 15,
+        "win_rate": 0.5714285714285714,
+        "expectancy": 0.0017885093167707942,
+        "profit_factor": 1.7657226432659328,
+        "average_win": 0.0072173913043481015,
+        "average_loss": -0.0054499999999989435,
+        "max_drawdown": 0.022943750810802202,
+        "trades_per_day": 34.544208361891705,
+        "total_return": 0.06380875981621048
+      },
+      "9": {
+        "trades": 39,
+        "wins": 17,
+        "losses": 22,
+        "win_rate": 0.4358974358974359,
+        "expectancy": 7.619843924258496e-05,
+        "profit_factor": 1.0247851470430476,
+        "average_win": 0.007227749360614134,
+        "average_loss": -0.005449999999999063,
+        "max_drawdown": 0.05288257761559432,
+        "trades_per_day": 37.464976651100734,
+        "total_return": 0.0022041438199490587
+      },
+      "10": {
+        "trades": 40,
+        "wins": 19,
+        "losses": 21,
+        "win_rate": 0.475,
+        "expectancy": 0.0005782608695659528,
+        "profit_factor": 1.2021007844704474,
+        "average_win": 0.007241075514874528,
+        "average_loss": -0.0054499999999989435,
+        "max_drawdown": 0.029023347519535732,
+        "trades_per_day": 38.840188806473364,
+        "total_return": 0.02257244666916886
+      },
+      "11": {
+        "trades": 18,
+        "wins": 6,
+        "losses": 12,
+        "win_rate": 0.3333333333333333,
+        "expectancy": -0.00113840579710068,
+        "profit_factor": 0.686677303550249,
+        "average_win": 0.007484782608697169,
+        "average_loss": -0.005449999999999604,
+        "max_drawdown": 0.03555030258437488,
+        "trades_per_day": 17.38430583501006,
+        "total_return": -0.020621864508328144
+      },
+      "12": {
+        "trades": 22,
+        "wins": 8,
+        "losses": 14,
+        "win_rate": 0.36363636363636365,
+        "expectancy": -0.0007227272727265391,
+        "profit_factor": 0.791612057667311,
+        "average_win": 0.00755000000000182,
+        "average_loss": -0.0054499999999998855,
+        "max_drawdown": 0.02162243163226001,
+        "trades_per_day": 22.045929018789145,
+        "total_return": -0.016202843397534344
+      }
+    }
+  },
+  "trend_strength": {
+    "trend_all_control": {
+      "trades": 448,
+      "wins": 202,
+      "losses": 246,
+      "win_rate": 0.45089285714285715,
+      "expectancy": 0.00035455163043555954,
+      "profit_factor": 1.1218138198820125,
+      "average_win": 0.007241530348687826,
+      "average_loss": -0.005300609756096803,
+      "max_drawdown": 0.1117638979694612,
+      "trades_per_day": 237.5257731958763,
+      "total_return": 0.16178453664298575
+    },
+    "strong_trend_control": {
+      "trades": 448,
+      "wins": 202,
+      "losses": 246,
+      "win_rate": 0.45089285714285715,
+      "expectancy": 0.00035455163043555954,
+      "profit_factor": 1.1218138198820125,
+      "average_win": 0.007241530348687826,
+      "average_loss": -0.005300609756096803,
+      "max_drawdown": 0.1117638979694612,
+      "trades_per_day": 237.5257731958763,
+      "total_return": 0.16178453664298575
+    },
+    "weak_trend_control": {
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": 0.0,
+      "expectancy": 0.0,
+      "profit_factor": 0.0,
+      "average_win": 0.0,
+      "average_loss": 0.0,
+      "max_drawdown": 0.0,
+      "trades_per_day": 0.0,
+      "total_return": 0.0
+    },
+    "weak_repeat_entries": {
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": 0.0,
+      "expectancy": 0.0,
+      "profit_factor": 0.0,
+      "average_win": 0.0,
+      "average_loss": 0.0,
+      "max_drawdown": 0.0,
+      "trades_per_day": 0.0,
+      "total_return": 0.0
+    },
+    "weak_first_entries": {
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": 0.0,
+      "expectancy": 0.0,
+      "profit_factor": 0.0,
+      "average_win": 0.0,
+      "average_loss": 0.0,
+      "max_drawdown": 0.0,
+      "trades_per_day": 0.0,
+      "total_return": 0.0
+    },
+    "weak_hold_1bar": {
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": 0.0,
+      "expectancy": 0.0,
+      "profit_factor": 0.0,
+      "average_win": 0.0,
+      "average_loss": 0.0,
+      "max_drawdown": 0.0,
+      "trades_per_day": 0.0,
+      "total_return": 0.0
+    },
+    "weak_hold_gt1": {
+      "trades": 0,
+      "wins": 0,
+      "losses": 0,
+      "win_rate": 0.0,
+      "expectancy": 0.0,
+      "profit_factor": 0.0,
+      "average_win": 0.0,
+      "average_loss": 0.0,
+      "max_drawdown": 0.0,
+      "trades_per_day": 0.0,
+      "total_return": 0.0
+    }
+  }
+}

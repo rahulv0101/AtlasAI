@@ -1,0 +1,52 @@
+{
+  "available": true,
+  "candidate_rule": {
+    "action": "flag_blocked_case_for_shadow_context_review",
+    "does_not_allow_trade": true,
+    "does_not_lower_min_same_side_signals": true,
+    "name": "context_aware_consensus_selectivity_review",
+    "requires_context_confirmation_fields": [
+      "higher_timeframe_alignment",
+      "directional_structure",
+      "momentum_quality",
+      "spread_state",
+      "loss_pattern_state"
+    ]
+  },
+  "created_at": "2026-08-29T12:15:00.043781+00:00",
+  "metrics": {
+    "correct_block_false_unlock_risk_count": 1,
+    "false_unlock_risk_rate": 1.0,
+    "inconclusive_count": 0,
+    "missed_opportunity_capture_count": 0,
+    "net_review_edge": -1.0,
+    "opportunity_capture_rate": 0.0,
+    "unknown_rate": 0.0
+  },
+  "mode": "shadow_review_only",
+  "next_step": "continue monitoring; reviewed evidence does not justify even a shadow repair lane yet",
+  "policy": {
+    "does_not_allow_trade": true,
+    "does_not_change_execution_policy": true,
+    "does_not_change_risk_policy": true,
+    "does_not_change_strategy_logic": true,
+    "does_not_execute": true,
+    "does_not_lower_thresholds": true,
+    "requires_operator_approval_for_any_candidate_rule": true,
+    "shadow_review_only": true
+  },
+  "samples": 1,
+  "schema": "atlas_blocker_selectivity_replay_v1",
+  "source_review": {
+    "proposal": {
+      "candidate_change_class": "context_filter_or_confirmation_rule",
+      "focus": "keep the blocker unchanged and continue monitoring",
+      "forbidden_change_class": "global_guard_disable_or_unapproved_threshold_loosen",
+      "next_validation": "replay reviewed cases against a shadow-only candidate rule before any operator approval step",
+      "type": "offline_selectivity_review"
+    },
+    "review_priority": "low"
+  },
+  "target_blocker": "Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.",
+  "verdict": "keep_blocker_unchanged"
+}

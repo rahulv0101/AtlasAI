@@ -1,0 +1,18 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-04-22 17:50:25,530 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-04-22 17:50:28,536 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-04-22 17:50:33,413 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-22 17:50:36,842 | WARNING | root | Stopped duplicate atlas process pid=17328 for mode=live
+2026-04-22 17:51:33,849 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-22 17:53:17,867 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-22 17:54:30,946 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-22 17:55:37,487 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-22 17:56:38,220 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-22 17:57:38,715 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-22 18:01:40,793 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-22 18:02:41,199 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-22 18:03:41,617 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-22 18:04:42,041 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-22 18:05:42,422 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-22 18:07:43,202 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-22 18:08:43,684 | INFO | atlas_ai.trader | No high-confidence trade found.

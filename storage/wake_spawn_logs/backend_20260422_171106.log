@@ -1,0 +1,7 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-04-22 19:11:09,007 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-04-22 19:11:12,012 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-04-22 19:11:20,599 | WARNING | root | Stopped duplicate atlas process pid=4360 for mode=live
+2026-04-22 19:11:25,557 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-22 19:12:29,284 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-22 19:13:35,619 | INFO | atlas_ai.trader | No high-confidence trade found.

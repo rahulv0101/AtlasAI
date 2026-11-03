@@ -1,0 +1,10 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-26 10:15:55,989 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-26 10:15:59,010 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-26 10:16:03,219 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-26 10:16:09,345 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 10:16:09,346 | INFO | openai._base_client | Retrying request to /chat/completions in 0.480017 seconds
+2026-05-26 10:16:10,121 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 10:16:10,122 | INFO | openai._base_client | Retrying request to /chat/completions in 0.768506 seconds
+2026-05-26 10:16:11,204 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"

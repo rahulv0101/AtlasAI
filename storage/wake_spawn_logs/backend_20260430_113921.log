@@ -1,0 +1,10 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-04-30 13:39:23,575 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-04-30 13:39:26,578 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-04-30 13:41:34,893 | INFO | TTS.utils.manage | tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+2026-04-30 13:41:36,828 | INFO | TTS.tts.models | Using model: xtts
+2026-04-30 13:53:52,063 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-04-30 13:56:17,531 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak. No trade executed.
+2026-04-30 13:57:19,059 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak. No trade executed.
+2026-04-30 13:58:19,761 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak. No trade executed.
+2026-04-30 13:59:20,346 | WARNING | atlas_ai.trader | Risk guard active: Safety lock active: consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak. No trade executed.

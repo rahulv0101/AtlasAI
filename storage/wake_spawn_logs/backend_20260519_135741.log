@@ -1,0 +1,90 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-19 15:57:45,092 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-19 15:57:48,096 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-19 15:57:50,450 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-19 15:57:54,112 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 15:58:54,336 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 15:59:54,612 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:00:20,480 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=3.96 (39.6pips) TP=-5.94 (59.4pips) ATR=19.81 mult=2.00
+2026-05-19 16:00:54,841 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:01:55,639 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:02:55,906 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:03:20,516 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=4.01 (40.1pips) TP=-6.01 (60.1pips) ATR=20.04 mult=2.00
+2026-05-19 16:03:56,155 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:04:56,425 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:05:56,648 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:06:56,883 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:07:57,118 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:08:57,366 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:09:57,599 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:10:57,820 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:11:58,053 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:12:58,327 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:14:14,151 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:16:15,931 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:17:16,162 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:18:16,507 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:19:16,764 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:20:16,993 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:21:18,543 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:22:18,803 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:23:19,062 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:24:19,316 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:25:19,596 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:26:19,855 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:27:20,137 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:28:20,430 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:29:22,492 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:30:33,763 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:31:46,157 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:32:47,489 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:33:48,474 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:35:09,235 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:36:09,444 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:37:09,690 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:38:09,973 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:39:10,221 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:40:10,450 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:41:10,653 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:42:10,881 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:43:11,223 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:44:16,213 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:45:22,891 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:46:32,172 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:47:43,380 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:48:53,475 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:49:58,728 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:50:59,422 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:51:59,690 | WARNING | atlas_ai.trader | Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.
+2026-05-19 16:53:07,118 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 16:53:38,957 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=4.31 (43.1pips) TP=-6.46 (64.6pips) ATR=21.55 mult=2.00
+2026-05-19 16:54:07,994 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 16:55:17,693 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 16:56:18,121 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 16:57:21,925 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 16:58:44,160 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 16:59:44,414 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 17:00:47,339 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-19 17:00:47,339 | INFO | openai._base_client | Retrying request to /chat/completions in 0.395027 seconds
+2026-05-19 17:00:48,716 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-19 17:00:48,716 | INFO | openai._base_client | Retrying request to /chat/completions in 0.837953 seconds
+2026-05-19 17:00:49,862 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-19 17:07:51,717 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 17:12:52,923 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 17:14:58,723 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 17:15:59,449 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 17:16:59,662 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 17:21:00,943 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 17:26:02,727 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 17:27:02,947 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 17:28:03,192 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 17:30:16,975 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 17:32:28,868 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 17:35:41,494 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 17:38:54,696 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 17:39:54,984 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 17:40:55,252 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 17:41:55,492 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 17:42:55,812 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 17:43:56,162 | INFO | atlas_ai.trader | No high-confidence trade found.

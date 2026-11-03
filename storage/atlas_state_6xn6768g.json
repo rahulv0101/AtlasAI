@@ -1,0 +1,233 @@
+{
+  "event": "mandatory_reconciliation_completed",
+  "payload": {
+    "active_automation_policy_id": "p1",
+    "adapter_type": "MT5BrokerAdapter",
+    "auto_signal_history": {},
+    "automation_explicit_resume_active": true,
+    "automation_explicit_resume_at": 1779297189.9620063,
+    "automation_explicit_resume_policy_id": "p1",
+    "automation_pause_reason": "",
+    "automation_pause_reason_before_sleep": "",
+    "automation_paused": false,
+    "automation_paused_before_sleep": false,
+    "automation_paused_by_sleep": false,
+    "automation_profiles": {
+      "ap1": {
+        "active_rollout_stage": "limited_live_pilot",
+        "allowed_instruments": [
+          "XAUUSD"
+        ],
+        "allowed_sessions": [
+          "london"
+        ],
+        "allowed_setup_families": [
+          "continuation"
+        ],
+        "approval_required_for_activation": true,
+        "approved": true,
+        "created_at": 1776707612.3422651,
+        "daily_loss_cap": 1.0,
+        "enabled": true,
+        "environment": "both",
+        "escalation_conditions": {
+          "performance_degrading": 1.0
+        },
+        "id": "ap1",
+        "max_trades_per_session": 2,
+        "pause_conditions": {
+          "max_blocker_severity": 0.7,
+          "max_overreaction_score": 0.7,
+          "max_recent_losses": 2.0,
+          "max_regime_noise": 0.7,
+          "min_confidence": 0.55,
+          "min_evidence_strength": 0.55,
+          "min_stability_score": 0.45
+        },
+        "size_cap": 0.02,
+        "updated_at": 1776707612.3482566
+      },
+      "p1": {
+        "active_rollout_stage": "limited_live_pilot",
+        "allowed_instruments": [
+          "XAUUSD"
+        ],
+        "allowed_sessions": [
+          "london"
+        ],
+        "allowed_setup_families": [
+          "continuation"
+        ],
+        "approval_required_for_activation": true,
+        "approved": true,
+        "created_at": 1776945816.226837,
+        "daily_loss_cap": 0.6,
+        "enabled": true,
+        "environment": "live",
+        "escalation_conditions": {
+          "performance_degrading": 1.0
+        },
+        "id": "p1",
+        "max_trades_per_session": 2,
+        "pause_conditions": {
+          "max_blocker_severity": 0.7,
+          "max_overreaction_score": 0.7,
+          "max_recent_losses": 2.0,
+          "max_regime_noise": 0.7,
+          "min_confidence": 0.55,
+          "min_evidence_strength": 0.55,
+          "min_stability_score": 0.45
+        },
+        "size_cap": 0.01,
+        "updated_at": 1776945816.2837968
+      }
+    },
+    "autonomy_mode": "guarded_execution",
+    "execution_environment": "demo",
+    "gate_enabled": true,
+    "kill_switch": {
+      "active": false,
+      "changed_at": 1776712657.888216,
+      "reason": "operator_requested"
+    },
+    "last_auto_signal_signature": "sig_demo_1",
+    "last_automation_block_reason": "simulation_market_state_cannot_execute",
+    "last_automation_event": {
+      "ok": false,
+      "reason": "simulation_market_state_cannot_execute",
+      "ts": 1776945816.3365295
+    },
+    "last_autonomy_cycle": {
+      "action_taken": "blocked",
+      "autonomy_mode": "guarded_execution",
+      "blocker_reasons": [
+        "simulation_market_state_cannot_execute"
+      ],
+      "completed_at": 1776945816.356712,
+      "confidence": 0.82,
+      "dxy_alignment": "conflict",
+      "evidence_strength": 0.79,
+      "execution_result": {
+        "ok": false,
+        "reason": "simulation_market_state_cannot_execute"
+      },
+      "instrument": "XAUUSD",
+      "market_snapshot": {},
+      "market_state_mode": "simulation",
+      "operating_mode": "guarded_demo",
+      "requested_action": {
+        "action_type": "place_trade",
+        "environment": "demo",
+        "size": 0.01
+      },
+      "session": "london",
+      "setup_family": "continuation",
+      "signal_id": "sig_demo_1",
+      "simulation_market_state": true,
+      "spread_liquidity_state": {
+        "liquidity_state": "unknown",
+        "spread_points": null,
+        "spread_state": "tight"
+      },
+      "ts": 1776945816.3129523,
+      "us10y_alignment": "aligned",
+      "xau_bias": "buy"
+    },
+    "last_execution_result": {
+      "dry_run": true,
+      "ok": true,
+      "request_id": "exec_3c3231771e"
+    },
+    "last_execution_truth": {
+      "action_type": "place_trade",
+      "approval_status": "pending",
+      "broker_order_id": "",
+      "broker_status": "",
+      "dry_run": false,
+      "environment": "demo",
+      "execution_status": "pending",
+      "failure_class": "approval_or_authority",
+      "ok": false,
+      "payload_summary": "instrument=XAUUSD setup_family=continuation setup=continuation strategy=evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9) side=buy size=0.0092 confidence=0.544 stop_loss_points=100.00 take_profit_points=160.00 data_source=broker_runtime environment_mode=demo decision_id=2b0649ea",
+      "phase": "preflight",
+      "reason": "approval_missing",
+      "request_id": "exec_8dc512b137",
+      "request_origin": "trader_guarded",
+      "requested_by": "trader",
+      "result": {},
+      "ts": 1778844322.006198
+    },
+    "last_gate_decision": {},
+    "last_reconciled_at": 1779322479.6727943,
+    "last_shutdown_clean": false,
+    "mismatch_detected": false,
+    "operator_present": true,
+    "order_tracker": {},
+    "orphan_orders": {},
+    "reconciliation_status": "clear",
+    "regression_reason": "",
+    "regression_triggered": false,
+    "rollout_stage": "limited_live_pilot",
+    "rollout_stage_updated_at": 1776712320.007638,
+    "saved_at": 1779322479.7528486,
+    "session_control": {
+      "consecutive_loss_limit": 2,
+      "consecutive_losses": 0,
+      "current_local_time": "2026-05-21T01:14:39.752848+01:00",
+      "current_session": "none",
+      "current_session_window_local": "none",
+      "daily_stop_triggered": false,
+      "daily_trade_count": 0,
+      "daily_trade_limit": 6,
+      "forced_flat_required": false,
+      "last_reset_at": 1779318867.591363,
+      "minutes_to_session_close": -1,
+      "next_session_local": "london@2026-05-21T08:00:00+01:00",
+      "session_active": false,
+      "session_block_reason": "outside_active_session",
+      "session_calendar_status": "closed",
+      "session_pause": false,
+      "session_pause_reason": "",
+      "session_source": "in_memory_default",
+      "session_timezone": "Europe/London"
+    },
+    "session_trade_counts": {},
+    "sleep_alert_count": 0,
+    "sleep_mode_activated_at": null,
+    "sleep_mode_active": false,
+    "sleep_mode_reason": "",
+    "tiny_live_pilot": {
+      "allowed_instrument": "XAUUSD",
+      "allowed_setup_family": "continuation",
+      "approval_required_per_request": true,
+      "approved": true,
+      "configured": true,
+      "daily_loss_cap": 0.6,
+      "enabled": true,
+      "max_consecutive_losses": 1,
+      "max_trades_per_day": 2,
+      "pause_on_blocker_threshold": 0.7,
+      "pause_on_degrading_performance": true,
+      "pause_on_forced_flat": true,
+      "pause_on_overreaction": 0.7,
+      "pause_on_stability_drop": 0.45,
+      "pause_reason": "",
+      "paused": false,
+      "rollout_stage_required": "limited_live_pilot",
+      "size_cap": 0.01
+    },
+    "tiny_live_pilot_attempts_today": 2,
+    "tiny_live_pilot_consecutive_losses": 0,
+    "tiny_live_pilot_daily_loss_used": 0.0,
+    "tiny_live_pilot_last_attempt": {
+      "event": "configured",
+      "ts": 1776945816.142755
+    },
+    "tiny_live_pilot_last_block_reason": "",
+    "tiny_live_pilot_trade_count": 0
+  },
+  "previous_saved_at": 1779322479.0738373,
+  "revision": 33020,
+  "saved_at": 1779322480.4385629,
+  "schema_version": 1
+}

@@ -1,0 +1,94 @@
+{
+  "enabled": true,
+  "advisory_only": true,
+  "source": "screenshot_plus_chart_features",
+  "symbol": "XAUUSD",
+  "timeframe": "M15",
+  "captured_at": "2026-08-29T13:52:40.301862+00:00",
+  "visual_bias": "sell",
+  "visual_structure": "LH/LL",
+  "pattern_seen": "messy_range",
+  "setup_cleanliness": "messy",
+  "setup_quality": 0.3831,
+  "visual_confirmation": "does_not_confirm",
+  "confidence_effect": "caution_or_confidence_haircut_only",
+  "reasons": [
+    "directional structure is visible",
+    "compressed or overlapping candles suggest a messy range"
+  ],
+  "image": {
+    "available": true,
+    "status": "loaded",
+    "path": "storage_compare_runs\\m15_ema_closed_confirm_mid_exit_stage_a_20260827\\control\\chart_vision\\latest_desktop_chart.png",
+    "width": 1550,
+    "height": 830,
+    "brightness_ratio": 0.4774,
+    "contrast": 1.0
+  },
+  "visual_features": {
+    "available": true,
+    "status": "parsed",
+    "width": 1550,
+    "height": 830,
+    "chart_crop": {
+      "left": 77,
+      "top": 149,
+      "right": 1457,
+      "bottom": 780
+    },
+    "foreground_density": 0.02569,
+    "edge_density": 0.2675,
+    "slope": 0.22646,
+    "visual_move": -29.0552,
+    "visual_direction": "down",
+    "visual_structure": "LH/LL",
+    "visual_momentum": "strong",
+    "visual_location": "mid_range",
+    "visual_noise": "medium",
+    "visual_range_span": 0.6222,
+    "confidence": 0.6339
+  },
+  "visual_parser_bias": "sell",
+  "visual_conflict": false,
+  "evidence_required": [
+    "screenshot from the active chart",
+    "matching M1/M15 candle-derived structure",
+    "clean location away from mid-range"
+  ],
+  "policy_note": "Visual chart reading is advisory evidence only; it cannot place trades, bypass guards, or rewrite strategy/risk/execution policy.",
+  "capture": {
+    "ok": true,
+    "path": "storage_compare_runs\\m15_ema_closed_confirm_mid_exit_stage_a_20260827\\control\\chart_vision\\latest_desktop_chart.png",
+    "captured_at": "2026-08-29T13:52:40.103806+00:00",
+    "target_window": "mt5",
+    "capture_source": "mt5_window",
+    "capture_method": {
+      "ok": true,
+      "method": "printwindow"
+    },
+    "window": {
+      "hwnd": 1836776,
+      "title": "57399598 - HFMarketsSA-Demo2: Demo Account - Hedge - HF Markets SA (Pty) Ltd",
+      "bbox": [
+        -7,
+        -7,
+        1543,
+        823
+      ],
+      "width": 1550,
+      "height": 830,
+      "terminal_score": 105,
+      "found": true,
+      "match_count": 1
+    },
+    "focus": {
+      "attempted": false,
+      "ok": false,
+      "reason": "printwindow_content_capture_used"
+    },
+    "note": "Captured MT5/HFM chart screenshot for advisory visual chart analysis."
+  },
+  "real_screenshot_attempted": true,
+  "live_chart_window_confirmed": true,
+  "saved_at": "2026-08-29T13:52:40.302863+00:00"
+}

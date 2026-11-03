@@ -1,0 +1,4154 @@
+{
+  "version": "bounded_online_learning_v1",
+  "allowed_influence": "bounded_confidence_haircut",
+  "latest": {
+    "version": "bounded_online_learning_v1",
+    "mode": "fast_path_observe",
+    "allowed_influence": "bounded_confidence_haircut",
+    "confidence_haircut_cap": 0.0569,
+    "evidence_strength": 0.82,
+    "overreaction_risk": 0.15,
+    "samples": 4655,
+    "top_pattern_count": 356,
+    "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+    "current_action": "hold",
+    "current_blockers": [
+      "macro_context_conflict_too_strong",
+      "no_clear_setup"
+    ],
+    "chosen": {
+      "strategy": "momentum_continuation",
+      "side": "flat",
+      "confidence": 0.45
+    },
+    "context": {
+      "session": "unknown",
+      "momentum": "unknown",
+      "location": "unknown",
+      "spread_points": 0.0,
+      "confluence_gap": 7.0
+    },
+    "teaching_focus": [
+      "label this as no-trade until a specific setup family is visible"
+    ],
+    "lesson_digest": {
+      "primary_lesson": "label this as no-trade until a specific setup family is visible",
+      "supporting_lessons": [],
+      "confidence": "strong",
+      "recommended_use": "promote_to_operator_lesson",
+      "pattern_count": 356,
+      "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+    },
+    "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+    "updated_at": "2026-05-21T15:09:57.690129+00:00"
+  },
+  "recent_observations": [
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4582,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.45
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 7.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:18:42.558064+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "slow_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.0,
+      "overreaction_risk": 0.5,
+      "samples": 0,
+      "top_pattern_count": 0,
+      "top_fingerprint": "",
+      "current_action": "blocked",
+      "current_blockers": [],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "sell",
+        "confidence": 0.4959
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": -5.0
+      },
+      "teaching_focus": [
+        "continue collecting evidence"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "continue collecting evidence",
+        "supporting_lessons": [],
+        "confidence": "weak",
+        "recommended_use": "observe_more",
+        "pattern_count": 0,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:19:44.319353+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "slow_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.0,
+      "overreaction_risk": 0.5,
+      "samples": 0,
+      "top_pattern_count": 0,
+      "top_fingerprint": "",
+      "current_action": "blocked",
+      "current_blockers": [],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "sell",
+        "confidence": 0.4872
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": -4.0
+      },
+      "teaching_focus": [
+        "continue collecting evidence"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "continue collecting evidence",
+        "supporting_lessons": [],
+        "confidence": "weak",
+        "recommended_use": "observe_more",
+        "pattern_count": 0,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:20:47.366530+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "slow_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.0,
+      "overreaction_risk": 0.5,
+      "samples": 0,
+      "top_pattern_count": 0,
+      "top_fingerprint": "",
+      "current_action": "blocked",
+      "current_blockers": [],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "sell",
+        "confidence": 0.4872
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": -4.0
+      },
+      "teaching_focus": [
+        "continue collecting evidence"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "continue collecting evidence",
+        "supporting_lessons": [],
+        "confidence": "weak",
+        "recommended_use": "observe_more",
+        "pattern_count": 0,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:21:49.307048+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4583,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.45
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 7.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:22:50.582276+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4584,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.45
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 7.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:23:51.676648+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4585,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.45
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 7.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:24:52.833395+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4586,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "sell",
+        "confidence": 0.4437
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 1.0
+      },
+      "teaching_focus": [
+        "collect more examples before changing any trading behavior"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "collect more examples before changing any trading behavior",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:25:54.138512+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4587,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.45
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 7.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:26:46.525148+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4588,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.43
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 9.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:27:47.570872+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4589,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.45
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 7.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:28:48.751342+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4590,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "sell",
+        "confidence": 0.442
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 0.0
+      },
+      "teaching_focus": [
+        "collect more examples before changing any trading behavior"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "collect more examples before changing any trading behavior",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:29:49.870227+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4591,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "sell",
+        "confidence": 0.4335
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 1.0
+      },
+      "teaching_focus": [
+        "collect more examples before changing any trading behavior"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "collect more examples before changing any trading behavior",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:30:50.953923+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "medium_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.64,
+      "overreaction_risk": 0.15,
+      "samples": 4592,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=structure_too_weak+macro_context_conflict_too_strong",
+      "current_action": "blocked",
+      "current_blockers": [
+        "structure_too_weak",
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "gold_liquidity_sweep",
+        "side": "buy",
+        "confidence": 0.3901
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 47.0
+      },
+      "teaching_focus": [
+        "prefer clearer HH/HL or LH/LL structure before continuation entries"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "prefer clearer HH/HL or LH/LL structure before continuation entries",
+        "supporting_lessons": [],
+        "confidence": "moderate",
+        "recommended_use": "keep_as_watch_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:31:52.238105+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4593,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "sell",
+        "confidence": 0.442
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 0.0
+      },
+      "teaching_focus": [
+        "collect more examples before changing any trading behavior"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "collect more examples before changing any trading behavior",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:32:53.538818+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "slow_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.2,
+      "overreaction_risk": 0.5,
+      "samples": 0,
+      "top_pattern_count": 0,
+      "top_fingerprint": "",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "sell",
+        "confidence": 0.4505
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": -1.0
+      },
+      "teaching_focus": [
+        "inspect repeated blockers before proposing any parameter change"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "inspect repeated blockers before proposing any parameter change",
+        "supporting_lessons": [],
+        "confidence": "weak",
+        "recommended_use": "observe_more",
+        "pattern_count": 0,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:33:54.585185+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "slow_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.2,
+      "overreaction_risk": 0.5,
+      "samples": 0,
+      "top_pattern_count": 0,
+      "top_fingerprint": "",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "gold_breakout_retest",
+        "side": "sell",
+        "confidence": 0.5015
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": -7.0
+      },
+      "teaching_focus": [
+        "inspect repeated blockers before proposing any parameter change"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "inspect repeated blockers before proposing any parameter change",
+        "supporting_lessons": [],
+        "confidence": "weak",
+        "recommended_use": "observe_more",
+        "pattern_count": 0,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:34:55.643410+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4594,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "sell",
+        "confidence": 0.4335
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 1.0
+      },
+      "teaching_focus": [
+        "collect more examples before changing any trading behavior"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "collect more examples before changing any trading behavior",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:35:56.670223+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4595,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "sell",
+        "confidence": 0.4165
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 3.0
+      },
+      "teaching_focus": [
+        "collect more examples before changing any trading behavior"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "collect more examples before changing any trading behavior",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:36:57.727563+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "slow_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.2,
+      "overreaction_risk": 0.5,
+      "samples": 0,
+      "top_pattern_count": 0,
+      "top_fingerprint": "",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "gold_breakout_retest",
+        "side": "sell",
+        "confidence": 0.5015
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": -7.0
+      },
+      "teaching_focus": [
+        "inspect repeated blockers before proposing any parameter change"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "inspect repeated blockers before proposing any parameter change",
+        "supporting_lessons": [],
+        "confidence": "weak",
+        "recommended_use": "observe_more",
+        "pattern_count": 0,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:37:58.770979+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4596,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "sell",
+        "confidence": 0.4335
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 1.0
+      },
+      "teaching_focus": [
+        "collect more examples before changing any trading behavior"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "collect more examples before changing any trading behavior",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:38:59.841625+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "medium_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.64,
+      "overreaction_risk": 0.15,
+      "samples": 4597,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=structure_too_weak+macro_context_conflict_too_strong",
+      "current_action": "blocked",
+      "current_blockers": [
+        "structure_too_weak",
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "gold_liquidity_sweep",
+        "side": "buy",
+        "confidence": 0.6137
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 46.0
+      },
+      "teaching_focus": [
+        "prefer clearer HH/HL or LH/LL structure before continuation entries"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "prefer clearer HH/HL or LH/LL structure before continuation entries",
+        "supporting_lessons": [],
+        "confidence": "moderate",
+        "recommended_use": "keep_as_watch_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:40:00.920343+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4598,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "sell",
+        "confidence": 0.4335
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 1.0
+      },
+      "teaching_focus": [
+        "collect more examples before changing any trading behavior"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "collect more examples before changing any trading behavior",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:41:01.906964+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4599,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.43
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 9.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:42:04.621772+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4600,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.45
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 7.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:43:08.679007+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4601,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "gold_micro_impulse",
+        "side": "flat",
+        "confidence": 0.45
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 7.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:44:09.865052+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4602,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=structure_too_weak+macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "structure_too_weak",
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.45
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 7.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible",
+        "prefer clearer HH/HL or LH/LL structure before continuation entries"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [
+          "prefer clearer HH/HL or LH/LL structure before continuation entries"
+        ],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:45:10.919572+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "medium_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.64,
+      "overreaction_risk": 0.15,
+      "samples": 4603,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=structure_too_weak+macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "structure_too_weak",
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.31
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 21.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible",
+        "prefer clearer HH/HL or LH/LL structure before continuation entries"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [
+          "prefer clearer HH/HL or LH/LL structure before continuation entries"
+        ],
+        "confidence": "moderate",
+        "recommended_use": "keep_as_watch_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:46:12.646771+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4604,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.43
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 9.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:47:13.789566+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "slow_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.2,
+      "overreaction_risk": 0.5,
+      "samples": 0,
+      "top_pattern_count": 0,
+      "top_fingerprint": "",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.5015
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": -7.0
+      },
+      "teaching_focus": [
+        "inspect repeated blockers before proposing any parameter change"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "inspect repeated blockers before proposing any parameter change",
+        "supporting_lessons": [],
+        "confidence": "weak",
+        "recommended_use": "observe_more",
+        "pattern_count": 0,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:48:15.040332+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "slow_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.2,
+      "overreaction_risk": 0.5,
+      "samples": 0,
+      "top_pattern_count": 0,
+      "top_fingerprint": "",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.493
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": -6.0
+      },
+      "teaching_focus": [
+        "inspect repeated blockers before proposing any parameter change"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "inspect repeated blockers before proposing any parameter change",
+        "supporting_lessons": [],
+        "confidence": "weak",
+        "recommended_use": "observe_more",
+        "pattern_count": 0,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:49:16.122681+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "medium_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.64,
+      "overreaction_risk": 0.15,
+      "samples": 4605,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=structure_too_weak+macro_context_conflict_too_strong",
+      "current_action": "blocked",
+      "current_blockers": [
+        "structure_too_weak",
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.459
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": -2.0
+      },
+      "teaching_focus": [
+        "prefer clearer HH/HL or LH/LL structure before continuation entries"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "prefer clearer HH/HL or LH/LL structure before continuation entries",
+        "supporting_lessons": [],
+        "confidence": "moderate",
+        "recommended_use": "keep_as_watch_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:50:17.222502+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "medium_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.64,
+      "overreaction_risk": 0.15,
+      "samples": 4606,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=structure_too_weak+macro_context_conflict_too_strong",
+      "current_action": "blocked",
+      "current_blockers": [
+        "structure_too_weak",
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.459
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": -2.0
+      },
+      "teaching_focus": [
+        "prefer clearer HH/HL or LH/LL structure before continuation entries"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "prefer clearer HH/HL or LH/LL structure before continuation entries",
+        "supporting_lessons": [],
+        "confidence": "moderate",
+        "recommended_use": "keep_as_watch_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:51:18.254819+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "medium_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.64,
+      "overreaction_risk": 0.15,
+      "samples": 4607,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=structure_too_weak+macro_context_conflict_too_strong",
+      "current_action": "blocked",
+      "current_blockers": [
+        "structure_too_weak",
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.459
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": -2.0
+      },
+      "teaching_focus": [
+        "prefer clearer HH/HL or LH/LL structure before continuation entries"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "prefer clearer HH/HL or LH/LL structure before continuation entries",
+        "supporting_lessons": [],
+        "confidence": "moderate",
+        "recommended_use": "keep_as_watch_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:52:19.457610+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "slow_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.2,
+      "overreaction_risk": 0.5,
+      "samples": 0,
+      "top_pattern_count": 0,
+      "top_fingerprint": "",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "buy",
+        "confidence": 0.4477
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 26.0
+      },
+      "teaching_focus": [
+        "inspect repeated blockers before proposing any parameter change"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "inspect repeated blockers before proposing any parameter change",
+        "supporting_lessons": [],
+        "confidence": "weak",
+        "recommended_use": "observe_more",
+        "pattern_count": 0,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:53:20.624349+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4608,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=structure_too_weak+macro_context_conflict_too_strong",
+      "current_action": "hold",
+      "current_blockers": [
+        "structure_too_weak",
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "gold_liquidity_sweep",
+        "side": "sell",
+        "confidence": 0.43
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 9.0
+      },
+      "teaching_focus": [
+        "prefer clearer HH/HL or LH/LL structure before continuation entries"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "prefer clearer HH/HL or LH/LL structure before continuation entries",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:54:21.774918+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "slow_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.2,
+      "overreaction_risk": 0.5,
+      "samples": 0,
+      "top_pattern_count": 0,
+      "top_fingerprint": "",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "buy",
+        "confidence": 0.748
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 26.0
+      },
+      "teaching_focus": [
+        "inspect repeated blockers before proposing any parameter change"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "inspect repeated blockers before proposing any parameter change",
+        "supporting_lessons": [],
+        "confidence": "weak",
+        "recommended_use": "observe_more",
+        "pattern_count": 0,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:55:22.975195+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "slow_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.2,
+      "overreaction_risk": 0.5,
+      "samples": 0,
+      "top_pattern_count": 0,
+      "top_fingerprint": "",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "buy",
+        "confidence": 0.5508
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 36.0
+      },
+      "teaching_focus": [
+        "inspect repeated blockers before proposing any parameter change"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "inspect repeated blockers before proposing any parameter change",
+        "supporting_lessons": [],
+        "confidence": "weak",
+        "recommended_use": "observe_more",
+        "pattern_count": 0,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:56:24.254045+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "slow_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.2,
+      "overreaction_risk": 0.5,
+      "samples": 0,
+      "top_pattern_count": 0,
+      "top_fingerprint": "",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "buy",
+        "confidence": 0.5687
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 32.0
+      },
+      "teaching_focus": [
+        "inspect repeated blockers before proposing any parameter change"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "inspect repeated blockers before proposing any parameter change",
+        "supporting_lessons": [],
+        "confidence": "weak",
+        "recommended_use": "observe_more",
+        "pattern_count": 0,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:57:26.749510+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "slow_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.2,
+      "overreaction_risk": 0.5,
+      "samples": 0,
+      "top_pattern_count": 0,
+      "top_fingerprint": "",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "buy",
+        "confidence": 0.5551
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 32.0
+      },
+      "teaching_focus": [
+        "inspect repeated blockers before proposing any parameter change"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "inspect repeated blockers before proposing any parameter change",
+        "supporting_lessons": [],
+        "confidence": "weak",
+        "recommended_use": "observe_more",
+        "pattern_count": 0,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T13:58:35.228436+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4609,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.45
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 7.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:03:59.284205+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4610,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.43
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 9.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:05:00.403459+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4611,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.43
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 9.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:06:01.646748+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "medium_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.64,
+      "overreaction_risk": 0.15,
+      "samples": 4612,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=structure_too_weak+macro_context_conflict_too_strong",
+      "current_action": "blocked",
+      "current_blockers": [
+        "structure_too_weak",
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.1846
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 47.0
+      },
+      "teaching_focus": [
+        "prefer clearer HH/HL or LH/LL structure before continuation entries"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "prefer clearer HH/HL or LH/LL structure before continuation entries",
+        "supporting_lessons": [],
+        "confidence": "moderate",
+        "recommended_use": "keep_as_watch_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:07:02.796521+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "slow_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.2,
+      "overreaction_risk": 0.5,
+      "samples": 0,
+      "top_pattern_count": 0,
+      "top_fingerprint": "",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.1339
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 39.0
+      },
+      "teaching_focus": [
+        "inspect repeated blockers before proposing any parameter change"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "inspect repeated blockers before proposing any parameter change",
+        "supporting_lessons": [],
+        "confidence": "weak",
+        "recommended_use": "observe_more",
+        "pattern_count": 0,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:08:04.229730+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "slow_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.2,
+      "overreaction_risk": 0.5,
+      "samples": 0,
+      "top_pattern_count": 0,
+      "top_fingerprint": "",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "sell",
+        "confidence": 0.3321
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 36.0
+      },
+      "teaching_focus": [
+        "inspect repeated blockers before proposing any parameter change"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "inspect repeated blockers before proposing any parameter change",
+        "supporting_lessons": [],
+        "confidence": "weak",
+        "recommended_use": "observe_more",
+        "pattern_count": 0,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:09:05.240654+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "slow_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.2,
+      "overreaction_risk": 0.5,
+      "samples": 0,
+      "top_pattern_count": 0,
+      "top_fingerprint": "",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "sell",
+        "confidence": 0.2303
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 38.0
+      },
+      "teaching_focus": [
+        "inspect repeated blockers before proposing any parameter change"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "inspect repeated blockers before proposing any parameter change",
+        "supporting_lessons": [],
+        "confidence": "weak",
+        "recommended_use": "observe_more",
+        "pattern_count": 0,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:10:06.233274+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "slow_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.2,
+      "overreaction_risk": 0.5,
+      "samples": 0,
+      "top_pattern_count": 0,
+      "top_fingerprint": "",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.0693
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 50.0
+      },
+      "teaching_focus": [
+        "inspect repeated blockers before proposing any parameter change"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "inspect repeated blockers before proposing any parameter change",
+        "supporting_lessons": [],
+        "confidence": "weak",
+        "recommended_use": "observe_more",
+        "pattern_count": 0,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:11:07.443764+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "slow_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.2,
+      "overreaction_risk": 0.5,
+      "samples": 0,
+      "top_pattern_count": 0,
+      "top_fingerprint": "",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "sell",
+        "confidence": 0.2001
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 34.0
+      },
+      "teaching_focus": [
+        "inspect repeated blockers before proposing any parameter change"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "inspect repeated blockers before proposing any parameter change",
+        "supporting_lessons": [],
+        "confidence": "weak",
+        "recommended_use": "observe_more",
+        "pattern_count": 0,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:12:08.865743+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "medium_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.64,
+      "overreaction_risk": 0.15,
+      "samples": 4613,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=structure_too_weak+macro_context_conflict_too_strong",
+      "current_action": "blocked",
+      "current_blockers": [
+        "structure_too_weak",
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.0848
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 53.0
+      },
+      "teaching_focus": [
+        "prefer clearer HH/HL or LH/LL structure before continuation entries"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "prefer clearer HH/HL or LH/LL structure before continuation entries",
+        "supporting_lessons": [],
+        "confidence": "moderate",
+        "recommended_use": "keep_as_watch_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:13:13.237239+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "medium_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.64,
+      "overreaction_risk": 0.15,
+      "samples": 4614,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=structure_too_weak+macro_context_conflict_too_strong",
+      "current_action": "blocked",
+      "current_blockers": [
+        "structure_too_weak",
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.0593
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 58.0
+      },
+      "teaching_focus": [
+        "prefer clearer HH/HL or LH/LL structure before continuation entries"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "prefer clearer HH/HL or LH/LL structure before continuation entries",
+        "supporting_lessons": [],
+        "confidence": "moderate",
+        "recommended_use": "keep_as_watch_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:14:16.614221+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "medium_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.64,
+      "overreaction_risk": 0.15,
+      "samples": 4615,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=structure_too_weak+macro_context_conflict_too_strong",
+      "current_action": "blocked",
+      "current_blockers": [
+        "structure_too_weak",
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.0455
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 58.0
+      },
+      "teaching_focus": [
+        "prefer clearer HH/HL or LH/LL structure before continuation entries"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "prefer clearer HH/HL or LH/LL structure before continuation entries",
+        "supporting_lessons": [],
+        "confidence": "moderate",
+        "recommended_use": "keep_as_watch_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:15:19.142071+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "medium_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.64,
+      "overreaction_risk": 0.15,
+      "samples": 4616,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=structure_too_weak+macro_context_conflict_too_strong",
+      "current_action": "blocked",
+      "current_blockers": [
+        "structure_too_weak",
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.0533
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 54.0
+      },
+      "teaching_focus": [
+        "prefer clearer HH/HL or LH/LL structure before continuation entries"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "prefer clearer HH/HL or LH/LL structure before continuation entries",
+        "supporting_lessons": [],
+        "confidence": "moderate",
+        "recommended_use": "keep_as_watch_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:16:21.970151+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "medium_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.64,
+      "overreaction_risk": 0.15,
+      "samples": 4617,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=structure_too_weak+macro_context_conflict_too_strong",
+      "current_action": "blocked",
+      "current_blockers": [
+        "structure_too_weak",
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.0168
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 55.0
+      },
+      "teaching_focus": [
+        "prefer clearer HH/HL or LH/LL structure before continuation entries"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "prefer clearer HH/HL or LH/LL structure before continuation entries",
+        "supporting_lessons": [],
+        "confidence": "moderate",
+        "recommended_use": "keep_as_watch_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:17:23.157402+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "medium_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.64,
+      "overreaction_risk": 0.15,
+      "samples": 4618,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=structure_too_weak+macro_context_conflict_too_strong",
+      "current_action": "blocked",
+      "current_blockers": [
+        "structure_too_weak",
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.0108
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 55.0
+      },
+      "teaching_focus": [
+        "prefer clearer HH/HL or LH/LL structure before continuation entries"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "prefer clearer HH/HL or LH/LL structure before continuation entries",
+        "supporting_lessons": [],
+        "confidence": "moderate",
+        "recommended_use": "keep_as_watch_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:18:24.265827+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4619,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.45
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 7.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:19:25.355743+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4620,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.43
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 9.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:20:26.599495+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4621,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.45
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 7.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:21:27.854552+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "medium_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.64,
+      "overreaction_risk": 0.15,
+      "samples": 4622,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=structure_too_weak+macro_context_conflict_too_strong",
+      "current_action": "blocked",
+      "current_blockers": [
+        "structure_too_weak",
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "gold_liquidity_sweep",
+        "side": "buy",
+        "confidence": 0.2037
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 55.0
+      },
+      "teaching_focus": [
+        "prefer clearer HH/HL or LH/LL structure before continuation entries"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "prefer clearer HH/HL or LH/LL structure before continuation entries",
+        "supporting_lessons": [],
+        "confidence": "moderate",
+        "recommended_use": "keep_as_watch_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:22:28.986569+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "slow_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.2,
+      "overreaction_risk": 0.5,
+      "samples": 0,
+      "top_pattern_count": 0,
+      "top_fingerprint": "",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "sell",
+        "confidence": 0.5015
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": -7.0
+      },
+      "teaching_focus": [
+        "inspect repeated blockers before proposing any parameter change"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "inspect repeated blockers before proposing any parameter change",
+        "supporting_lessons": [],
+        "confidence": "weak",
+        "recommended_use": "observe_more",
+        "pattern_count": 0,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:23:30.103754+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4623,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "sell",
+        "confidence": 0.408
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 4.0
+      },
+      "teaching_focus": [
+        "collect more examples before changing any trading behavior"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "collect more examples before changing any trading behavior",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:24:31.169874+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4624,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.45
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 7.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:25:32.388453+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "slow_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.2,
+      "overreaction_risk": 0.5,
+      "samples": 0,
+      "top_pattern_count": 0,
+      "top_fingerprint": "",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "sell",
+        "confidence": 0.4505
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": -1.0
+      },
+      "teaching_focus": [
+        "inspect repeated blockers before proposing any parameter change"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "inspect repeated blockers before proposing any parameter change",
+        "supporting_lessons": [],
+        "confidence": "weak",
+        "recommended_use": "observe_more",
+        "pattern_count": 0,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:26:33.563966+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4625,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.43
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 9.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:27:35.487091+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4626,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.45
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 7.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:34:07.331636+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4627,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.43
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 9.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:35:08.464150+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4628,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.45
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 7.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:36:09.582202+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "medium_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.64,
+      "overreaction_risk": 0.15,
+      "samples": 4629,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=structure_too_weak+macro_context_conflict_too_strong",
+      "current_action": "blocked",
+      "current_blockers": [
+        "structure_too_weak",
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "gold_liquidity_sweep",
+        "side": "sell",
+        "confidence": 0.7707
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 43.0
+      },
+      "teaching_focus": [
+        "prefer clearer HH/HL or LH/LL structure before continuation entries"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "prefer clearer HH/HL or LH/LL structure before continuation entries",
+        "supporting_lessons": [],
+        "confidence": "moderate",
+        "recommended_use": "keep_as_watch_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:37:10.647054+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4630,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.43
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 9.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:38:11.800936+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4631,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.45
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 7.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:39:12.895090+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4632,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.43
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 9.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:40:13.983568+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "slow_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.2,
+      "overreaction_risk": 0.5,
+      "samples": 0,
+      "top_pattern_count": 0,
+      "top_fingerprint": "",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.4698
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": -2.0
+      },
+      "teaching_focus": [
+        "inspect repeated blockers before proposing any parameter change"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "inspect repeated blockers before proposing any parameter change",
+        "supporting_lessons": [],
+        "confidence": "weak",
+        "recommended_use": "observe_more",
+        "pattern_count": 0,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:41:15.066508+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "slow_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.2,
+      "overreaction_risk": 0.5,
+      "samples": 0,
+      "top_pattern_count": 0,
+      "top_fingerprint": "",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.5133
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": -7.0
+      },
+      "teaching_focus": [
+        "inspect repeated blockers before proposing any parameter change"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "inspect repeated blockers before proposing any parameter change",
+        "supporting_lessons": [],
+        "confidence": "weak",
+        "recommended_use": "observe_more",
+        "pattern_count": 0,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:42:16.163041+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4633,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.4263
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 3.0
+      },
+      "teaching_focus": [
+        "collect more examples before changing any trading behavior"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "collect more examples before changing any trading behavior",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:43:17.240606+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "slow_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.2,
+      "overreaction_risk": 0.5,
+      "samples": 0,
+      "top_pattern_count": 0,
+      "top_fingerprint": "",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.5133
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": -7.0
+      },
+      "teaching_focus": [
+        "inspect repeated blockers before proposing any parameter change"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "inspect repeated blockers before proposing any parameter change",
+        "supporting_lessons": [],
+        "confidence": "weak",
+        "recommended_use": "observe_more",
+        "pattern_count": 0,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:44:18.230430+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4634,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.4176
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 4.0
+      },
+      "teaching_focus": [
+        "collect more examples before changing any trading behavior"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "collect more examples before changing any trading behavior",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:45:19.365504+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "slow_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.2,
+      "overreaction_risk": 0.5,
+      "samples": 0,
+      "top_pattern_count": 0,
+      "top_fingerprint": "",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.4611
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": -1.0
+      },
+      "teaching_focus": [
+        "inspect repeated blockers before proposing any parameter change"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "inspect repeated blockers before proposing any parameter change",
+        "supporting_lessons": [],
+        "confidence": "weak",
+        "recommended_use": "observe_more",
+        "pattern_count": 0,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:46:20.720088+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4635,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.43
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 9.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:47:22.285760+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4636,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.4176
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 4.0
+      },
+      "teaching_focus": [
+        "collect more examples before changing any trading behavior"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "collect more examples before changing any trading behavior",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:48:25.445155+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4637,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "gold_micro_impulse",
+        "side": "flat",
+        "confidence": 0.45
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 7.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:49:26.774794+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4638,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.45
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 7.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:50:27.898415+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4639,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.45
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 7.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:51:29.018959+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4640,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=structure_too_weak+macro_context_conflict_too_strong",
+      "current_action": "hold",
+      "current_blockers": [
+        "structure_too_weak",
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.4
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 12.0
+      },
+      "teaching_focus": [
+        "prefer clearer HH/HL or LH/LL structure before continuation entries"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "prefer clearer HH/HL or LH/LL structure before continuation entries",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:52:30.170103+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4641,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=structure_too_weak+macro_context_conflict_too_strong",
+      "current_action": "hold",
+      "current_blockers": [
+        "structure_too_weak",
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.4
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 12.0
+      },
+      "teaching_focus": [
+        "prefer clearer HH/HL or LH/LL structure before continuation entries"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "prefer clearer HH/HL or LH/LL structure before continuation entries",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:53:31.359132+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4642,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.45
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 7.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:54:32.478521+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4643,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.45
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 7.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:55:33.704721+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4644,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.45
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 7.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:56:36.498976+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4645,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.43
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 9.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:57:37.673545+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4646,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.43
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 9.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:58:38.652023+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4647,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.45
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 7.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T14:59:39.736713+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "medium_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.64,
+      "overreaction_risk": 0.15,
+      "samples": 4648,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=spread_liquidity_too_poor+macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "spread_liquidity_too_poor",
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.36
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 16.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "moderate",
+        "recommended_use": "keep_as_watch_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T15:00:40.851698+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "medium_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.64,
+      "overreaction_risk": 0.15,
+      "samples": 4649,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=spread_liquidity_too_poor+macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "spread_liquidity_too_poor",
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.36
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 16.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "moderate",
+        "recommended_use": "keep_as_watch_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T15:01:41.996384+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4650,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.45
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 7.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T15:02:43.012931+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4651,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.43
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 9.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T15:03:44.286323+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4652,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.45
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 7.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T15:04:50.571065+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "medium_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.64,
+      "overreaction_risk": 0.15,
+      "samples": 4653,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=structure_too_weak+macro_context_conflict_too_strong",
+      "current_action": "hold",
+      "current_blockers": [
+        "structure_too_weak",
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.39
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 13.0
+      },
+      "teaching_focus": [
+        "prefer clearer HH/HL or LH/LL structure before continuation entries"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "prefer clearer HH/HL or LH/LL structure before continuation entries",
+        "supporting_lessons": [],
+        "confidence": "moderate",
+        "recommended_use": "keep_as_watch_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T15:05:52.239785+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4654,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=structure_too_weak+macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "structure_too_weak",
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.45
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 7.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible",
+        "prefer clearer HH/HL or LH/LL structure before continuation entries"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [
+          "prefer clearer HH/HL or LH/LL structure before continuation entries"
+        ],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T15:06:53.557726+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "slow_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.2,
+      "overreaction_risk": 0.5,
+      "samples": 0,
+      "top_pattern_count": 0,
+      "top_fingerprint": "",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "gold_breakout_retest",
+        "side": "sell",
+        "confidence": 0.5015
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": -7.0
+      },
+      "teaching_focus": [
+        "inspect repeated blockers before proposing any parameter change"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "inspect repeated blockers before proposing any parameter change",
+        "supporting_lessons": [],
+        "confidence": "weak",
+        "recommended_use": "observe_more",
+        "pattern_count": 0,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T15:07:54.653780+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "slow_path_observe",
+      "allowed_influence": "report_only",
+      "confidence_haircut_cap": 0.0,
+      "evidence_strength": 0.2,
+      "overreaction_risk": 0.5,
+      "samples": 0,
+      "top_pattern_count": 0,
+      "top_fingerprint": "",
+      "current_action": "blocked",
+      "current_blockers": [
+        "macro_context_conflict_too_strong"
+      ],
+      "chosen": {
+        "strategy": "gold_breakout_retest",
+        "side": "sell",
+        "confidence": 0.5015
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": -7.0
+      },
+      "teaching_focus": [
+        "inspect repeated blockers before proposing any parameter change"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "inspect repeated blockers before proposing any parameter change",
+        "supporting_lessons": [],
+        "confidence": "weak",
+        "recommended_use": "observe_more",
+        "pattern_count": 0,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T15:08:55.763346+00:00"
+    },
+    {
+      "version": "bounded_online_learning_v1",
+      "mode": "fast_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "confidence_haircut_cap": 0.0569,
+      "evidence_strength": 0.82,
+      "overreaction_risk": 0.15,
+      "samples": 4655,
+      "top_pattern_count": 356,
+      "top_fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "current_action": "hold",
+      "current_blockers": [
+        "macro_context_conflict_too_strong",
+        "no_clear_setup"
+      ],
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.45
+      },
+      "context": {
+        "session": "unknown",
+        "momentum": "unknown",
+        "location": "unknown",
+        "spread_points": 0.0,
+        "confluence_gap": 7.0
+      },
+      "teaching_focus": [
+        "label this as no-trade until a specific setup family is visible"
+      ],
+      "lesson_digest": {
+        "primary_lesson": "label this as no-trade until a specific setup family is visible",
+        "supporting_lessons": [],
+        "confidence": "strong",
+        "recommended_use": "promote_to_operator_lesson",
+        "pattern_count": 356,
+        "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+      },
+      "policy_note": "Online learning is bounded; it cannot rewrite strategies, change risk, alter execution policy, bypass gates, or boost confidence.",
+      "updated_at": "2026-05-21T15:09:57.690129+00:00"
+    }
+  ],
+  "top_fingerprints": [
+    {
+      "fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong+no_clear_setup",
+      "count": 36
+    },
+    {
+      "fingerprint": "unknown",
+      "count": 26
+    },
+    {
+      "fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=structure_too_weak+macro_context_conflict_too_strong",
+      "count": 18
+    },
+    {
+      "fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=macro_context_conflict_too_strong",
+      "count": 12
+    },
+    {
+      "fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=no_clear_setup",
+      "count": 3
+    },
+    {
+      "fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=structure_too_weak+macro_context_conflict_too_strong+no_clear_setup",
+      "count": 3
+    },
+    {
+      "fingerprint": "regime=unknown|structure=unknown|momentum=unknown|location=unknown|blockers=spread_liquidity_too_poor+macro_context_conflict_too_strong+no_clear_setup",
+      "count": 2
+    }
+  ],
+  "lesson_digest": {
+    "primary_lesson": "label this as no-trade until a specific setup family is visible",
+    "supporting_lessons": [],
+    "confidence": "strong",
+    "recommended_use": "promote_to_operator_lesson",
+    "pattern_count": 356,
+    "policy_note": "Lesson digest is explanatory memory only; it cannot rewrite strategies, thresholds, risk, or execution authority."
+  },
+  "policy_note": "Online learning may apply only bounded confidence haircuts when explicitly eligible; live trading behavior remains controlled by existing strategies, risk policy, and ExecutionGate.",
+  "updated_at": "2026-05-21T15:09:57.690129+00:00"
+}

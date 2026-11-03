@@ -1,0 +1,52 @@
+{
+  "available": true,
+  "candidate_rule": {
+    "action": "flag_blocked_case_for_shadow_context_review",
+    "does_not_allow_trade": true,
+    "does_not_lower_min_same_side_signals": true,
+    "name": "context_aware_consensus_selectivity_review",
+    "requires_context_confirmation_fields": [
+      "higher_timeframe_alignment",
+      "directional_structure",
+      "momentum_quality",
+      "spread_state",
+      "loss_pattern_state"
+    ]
+  },
+  "created_at": "2026-10-23T05:17:16.026883+00:00",
+  "metrics": {
+    "correct_block_false_unlock_risk_count": 45,
+    "false_unlock_risk_rate": 0.2284,
+    "inconclusive_count": 28,
+    "missed_opportunity_capture_count": 124,
+    "net_review_edge": 0.401,
+    "opportunity_capture_rate": 0.6294,
+    "unknown_rate": 0.1421
+  },
+  "mode": "shadow_review_only",
+  "next_step": "create a proposal-only context confirmation rule and replay it against richer stored setup context",
+  "policy": {
+    "does_not_allow_trade": true,
+    "does_not_change_execution_policy": true,
+    "does_not_change_risk_policy": true,
+    "does_not_change_strategy_logic": true,
+    "does_not_execute": true,
+    "does_not_lower_thresholds": true,
+    "requires_operator_approval_for_any_candidate_rule": true,
+    "shadow_review_only": true
+  },
+  "samples": 197,
+  "schema": "atlas_blocker_selectivity_replay_v1",
+  "source_review": {
+    "proposal": {
+      "candidate_change_class": "context_filter_or_confirmation_rule",
+      "focus": "inspect whether the blocker needs more context-aware confirmation, not a lower global threshold",
+      "forbidden_change_class": "global_guard_disable_or_unapproved_threshold_loosen",
+      "next_validation": "replay reviewed cases against a shadow-only candidate rule before any operator approval step",
+      "type": "offline_selectivity_review"
+    },
+    "review_priority": "high"
+  },
+  "target_blocker": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=mixed, session=london).",
+  "verdict": "shadow_review_candidate"
+}

@@ -1,0 +1,604 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui-server --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main ui-server --mode-override live
+2026-05-06 22:07:37,592 | INFO | atlas_ai.voice.startup | Startup greeting triggered.
+2026-05-06 22:07:37,730 | INFO | atlas_ai.ui_server | Starting durable UI server on http://127.0.0.1:8765
+2026-05-06 22:07:39,882 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:07:39] "GET / HTTP/1.1" 200 -
+2026-05-06 22:07:40,161 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:07:40] "GET / HTTP/1.1" 200 -
+2026-05-06 22:07:41,350 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:07:41] "GET /api/status HTTP/1.1" 200 -
+2026-05-06 22:07:45,339 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:07:45] "GET /api/status HTTP/1.1" 200 -
+2026-05-06 22:07:46,085 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:07:46] "GET / HTTP/1.1" 200 -
+2026-05-06 22:07:46,132 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:07:46] "GET /style.css HTTP/1.1" 200 -
+2026-05-06 22:07:46,132 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:07:46] "GET /app.js HTTP/1.1" 200 -
+2026-05-06 22:07:47,270 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:07:47] "POST /api/ui-ready HTTP/1.1" 200 -
+2026-05-06 22:07:48,226 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:07:48] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:07:48,477 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:07:48] "GET /api/events?_ts=1778098066247 HTTP/1.1" 200 -
+2026-05-06 22:07:48,551 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:07:48] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:07:48,631 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:07:48] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:07:48,953 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:07:48] "GET /api/self-improvement/proposals?_ts=1778098066250 HTTP/1.1" 200 -
+2026-05-06 22:07:49,323 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:07:49] "GET /api/self-improvement/rollouts?_ts=1778098066251 HTTP/1.1" 200 -
+2026-05-06 22:07:49,384 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:07:49] "GET /api/self-improvement/audit?_ts=1778098066251 HTTP/1.1" 200 -
+2026-05-06 22:07:49,433 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:07:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-06 22:07:49,979 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:07:49] "GET /api/status?_ts=1778098066246 HTTP/1.1" 200 -
+2026-05-06 22:07:50,377 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:07:50] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:07:50,776 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:07:50] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:07:51,180 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:07:51] "GET /api/learning-insights?_ts=1778098066247 HTTP/1.1" 200 -
+2026-05-06 22:07:53,225 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:07:53] "GET /api/runtime?_ts=1778098066247 HTTP/1.1" 200 -
+2026-05-06 22:07:54,366 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:07:54] "GET /api/events?_ts=1778098072252 HTTP/1.1" 200 -
+2026-05-06 22:07:55,331 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:07:55] "GET /api/status?_ts=1778098072251 HTTP/1.1" 200 -
+2026-05-06 22:07:55,662 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:07:55] "GET /api/runtime?_ts=1778098072252 HTTP/1.1" 200 -
+2026-05-06 22:07:55,684 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:07:55] "GET /api/learning-insights?_ts=1778098072253 HTTP/1.1" 200 -
+2026-05-06 22:08:00,588 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:00] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:08:00,603 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:00] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:08:00,700 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:00] "GET /api/self-improvement/audit?_ts=1778098078257 HTTP/1.1" 200 -
+2026-05-06 22:08:00,876 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:00] "GET /api/self-improvement/rollouts?_ts=1778098078257 HTTP/1.1" 200 -
+2026-05-06 22:08:00,883 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:00] "GET /api/self-improvement/proposals?_ts=1778098078257 HTTP/1.1" 200 -
+2026-05-06 22:08:01,630 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:01] "GET /api/events?_ts=1778098076258 HTTP/1.1" 200 -
+2026-05-06 22:08:02,148 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:02] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:08:02,675 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:02] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:08:02,940 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:02] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:08:03,209 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:03] "GET /api/status?_ts=1778098076257 HTTP/1.1" 200 -
+2026-05-06 22:08:04,887 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:04] "GET /api/events?_ts=1778098082249 HTTP/1.1" 200 -
+2026-05-06 22:08:05,022 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:05] "GET /api/learning-insights?_ts=1778098076258 HTTP/1.1" 200 -
+2026-05-06 22:08:05,075 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:05] "GET /api/runtime?_ts=1778098076258 HTTP/1.1" 200 -
+2026-05-06 22:08:05,655 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:05] "GET /api/runtime?_ts=1778098082250 HTTP/1.1" 200 -
+2026-05-06 22:08:05,685 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:05] "GET /api/status HTTP/1.1" 200 -
+2026-05-06 22:08:06,447 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:06] "GET /api/learning-insights?_ts=1778098082250 HTTP/1.1" 200 -
+2026-05-06 22:08:06,514 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:06] "GET /api/status?_ts=1778098082248 HTTP/1.1" 200 -
+2026-05-06 22:08:06,660 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:06] "GET /api/status HTTP/1.1" 200 -
+2026-05-06 22:08:07,063 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:07] "GET /api/status HTTP/1.1" 200 -
+2026-05-06 22:08:10,121 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:10] "GET /api/events?_ts=1778098088256 HTTP/1.1" 200 -
+2026-05-06 22:08:12,243 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:12] "GET /api/runtime?_ts=1778098088256 HTTP/1.1" 200 -
+2026-05-06 22:08:12,267 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:12] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:08:12,277 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:12] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:08:12,294 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:12] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:08:12,315 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:12] "GET /api/self-improvement/audit?_ts=1778098090258 HTTP/1.1" 200 -
+2026-05-06 22:08:12,471 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:12] "GET /api/self-improvement/proposals?_ts=1778098090257 HTTP/1.1" 200 -
+2026-05-06 22:08:12,479 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:12] "GET /api/self-improvement/rollouts?_ts=1778098090258 HTTP/1.1" 200 -
+2026-05-06 22:08:12,544 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:12] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:08:12,686 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:12] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:08:12,729 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:12] "GET /api/status?_ts=1778098088255 HTTP/1.1" 200 -
+2026-05-06 22:08:12,845 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:12] "GET /api/learning-insights?_ts=1778098088256 HTTP/1.1" 200 -
+2026-05-06 22:08:13,607 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:13] "GET /api/status HTTP/1.1" 200 -
+2026-05-06 22:08:20,423 | INFO | TTS.utils.manage | tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+2026-05-06 22:08:20,562 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:20] "GET /api/events?_ts=1778098094257 HTTP/1.1" 200 -
+2026-05-06 22:08:21,889 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:21] "GET /api/events?_ts=1778098100275 HTTP/1.1" 200 -
+2026-05-06 22:08:22,413 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:22] "GET /api/runtime?_ts=1778098094257 HTTP/1.1" 200 -
+2026-05-06 22:08:23,001 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:23] "GET /api/runtime?_ts=1778098100276 HTTP/1.1" 200 -
+2026-05-06 22:08:23,323 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:23] "GET /api/learning-insights?_ts=1778098094257 HTTP/1.1" 200 -
+2026-05-06 22:08:23,417 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:23] "GET /api/learning-insights?_ts=1778098100277 HTTP/1.1" 200 -
+2026-05-06 22:08:24,598 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:24] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:08:24,622 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:24] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:08:24,884 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:24] "GET /api/self-improvement/audit?_ts=1778098102261 HTTP/1.1" 200 -
+2026-05-06 22:08:24,895 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:24] "GET /api/self-improvement/proposals?_ts=1778098102259 HTTP/1.1" 200 -
+2026-05-06 22:08:24,935 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:24] "GET /api/status?_ts=1778098100269 HTTP/1.1" 200 -
+2026-05-06 22:08:24,944 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:24] "GET /api/self-improvement/rollouts?_ts=1778098102260 HTTP/1.1" 200 -
+2026-05-06 22:08:25,027 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:25] "GET /api/status HTTP/1.1" 200 -
+2026-05-06 22:08:25,037 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:25] "GET /api/status?_ts=1778098094257 HTTP/1.1" 200 -
+2026-05-06 22:08:25,397 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:25] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:08:25,560 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:25] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:08:25,651 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:25] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:08:26,609 | INFO | TTS.tts.models | Using model: xtts
+2026-05-06 22:08:27,023 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:27] "GET /api/events?_ts=1778098106257 HTTP/1.1" 200 -
+2026-05-06 22:08:27,904 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:27] "GET /api/runtime?_ts=1778098106259 HTTP/1.1" 200 -
+2026-05-06 22:08:28,109 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:28] "GET /api/learning-insights?_ts=1778098106260 HTTP/1.1" 200 -
+2026-05-06 22:08:28,327 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:28] "GET /api/status?_ts=1778098106256 HTTP/1.1" 200 -
+2026-05-06 22:08:31,165 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:31] "GET /api/events?_ts=1778098110250 HTTP/1.1" 200 -
+2026-05-06 22:08:32,060 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:32] "GET /api/runtime?_ts=1778098110251 HTTP/1.1" 200 -
+2026-05-06 22:08:32,723 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:32] "GET /api/learning-insights?_ts=1778098110251 HTTP/1.1" 200 -
+2026-05-06 22:08:33,047 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:33] "GET /api/status?_ts=1778098110250 HTTP/1.1" 200 -
+2026-05-06 22:08:34,590 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:34] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:08:34,681 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:34] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:08:35,231 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:35] "GET /api/events?_ts=1778098114255 HTTP/1.1" 200 -
+2026-05-06 22:08:35,351 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:35] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:08:35,582 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:35] "GET /api/self-improvement/proposals?_ts=1778098114261 HTTP/1.1" 200 -
+2026-05-06 22:08:35,784 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:35] "GET /api/self-improvement/rollouts?_ts=1778098114261 HTTP/1.1" 200 -
+2026-05-06 22:08:35,912 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:35] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:08:35,966 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:35] "GET /api/self-improvement/audit?_ts=1778098114262 HTTP/1.1" 200 -
+2026-05-06 22:08:36,033 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:36] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:08:37,188 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:37] "GET /api/status?_ts=1778098114254 HTTP/1.1" 200 -
+2026-05-06 22:08:37,206 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:37] "GET /api/learning-insights?_ts=1778098114257 HTTP/1.1" 200 -
+2026-05-06 22:08:37,601 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:37] "GET /api/runtime?_ts=1778098114256 HTTP/1.1" 200 -
+2026-05-06 22:08:39,473 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:39] "GET /api/events?_ts=1778098118264 HTTP/1.1" 200 -
+2026-05-06 22:08:39,793 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:39] "GET /api/learning-insights?_ts=1778098118264 HTTP/1.1" 200 -
+2026-05-06 22:08:39,909 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:39] "GET /api/status?_ts=1778098118263 HTTP/1.1" 200 -
+2026-05-06 22:08:39,994 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:39] "GET /api/runtime?_ts=1778098118264 HTTP/1.1" 200 -
+2026-05-06 22:08:40,582 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:40] "GET /api/events?_ts=1778098120254 HTTP/1.1" 200 -
+2026-05-06 22:08:42,518 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:42] "GET /api/status?_ts=1778098120254 HTTP/1.1" 200 -
+2026-05-06 22:08:43,028 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:08:43] "GET /api/learning-insights?_ts=1778098120255 HTTP/1.1" 200 -
+2026-05-06 22:11:02,392 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:11:02] "GET /api/runtime?_ts=1778098120255 HTTP/1.1" 200 -
+2026-05-06 22:13:01,982 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:13:01] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:13:03,224 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:13:03] "GET /api/self-improvement/proposals?_ts=1778098222262 HTTP/1.1" 200 -
+2026-05-06 22:13:12,620 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:13:12] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:13:15,048 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:13:15] "GET /api/events?_ts=1778098165049 HTTP/1.1" 200 -
+2026-05-06 22:13:32,657 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:13:32] "GET /api/self-improvement/rollouts?_ts=1778098222403 HTTP/1.1" 200 -
+2026-05-06 22:13:35,387 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:13:35] "GET /api/self-improvement/audit?_ts=1778098222403 HTTP/1.1" 200 -
+2026-05-06 22:16:09,649 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:16:09] "GET /api/events?_ts=1778098294606 HTTP/1.1" 200 -
+2026-05-06 22:16:49,512 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:16:49] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:16:49,504 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:16:49] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:16:52,615 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:16:52] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:17:30,461 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:17:30] "GET /api/learning-insights?_ts=1778098175225 HTTP/1.1" 200 -
+2026-05-06 22:17:51,080 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:17:50] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:18:07,352 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:18:06] "GET /api/status?_ts=1778098158121 HTTP/1.1" 200 -
+2026-05-06 22:18:11,225 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:18:10] "GET /api/self-improvement/audit?_ts=1778098400586 HTTP/1.1" 200 -
+2026-05-06 22:19:51,698 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:19:51] "GET /api/learning-insights?_ts=1778098314351 HTTP/1.1" 200 -
+2026-05-06 22:19:49,609 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:19:49] "GET /api/events?_ts=1778098472598 HTTP/1.1" 200 -
+2026-05-06 22:19:54,956 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:19:54] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:19:57,634 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:19:56] "GET /api/runtime?_ts=1778098170132 HTTP/1.1" 200 -
+2026-05-06 22:19:58,660 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:19:58] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:19:58,672 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:19:58] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:19:59,098 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:19:59] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:20:31,162 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:20:31] "GET /api/status?_ts=1778098278587 HTTP/1.1" 200 -
+2026-05-06 22:21:13,319 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:13] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:21:22,727 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:22] "GET /api/self-improvement/rollouts?_ts=1778098594776 HTTP/1.1" 200 -
+2026-05-06 22:21:27,547 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:27] "GET /api/self-improvement/audit?_ts=1778098600286 HTTP/1.1" 200 -
+2026-05-06 22:21:29,763 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:29] "GET /api/runtime?_ts=1778098308734 HTTP/1.1" 200 -
+2026-05-06 22:21:29,873 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:29] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:21:30,413 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:30] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:21:30,522 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:30] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:21:34,186 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:34] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:21:34,206 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:34] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:21:39,663 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:39] "GET /api/events?_ts=1778098893764 HTTP/1.1" 200 -
+2026-05-06 22:21:39,875 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:39] "GET /api/events?_ts=1778098704676 HTTP/1.1" 200 -
+2026-05-06 22:21:39,994 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:21:40,011 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:40] "GET /api/runtime?_ts=1778098475217 HTTP/1.1" 200 -
+2026-05-06 22:21:40,113 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:40] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:21:40,137 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:40] "GET /api/learning-insights?_ts=1778098478142 HTTP/1.1" 200 -
+2026-05-06 22:21:40,140 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:40] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:21:40,144 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:40] "GET /api/status?_ts=1778098469596 HTTP/1.1" 200 -
+2026-05-06 22:21:40,219 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:40] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:21:40,245 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:40] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:21:40,323 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:40] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:21:40,375 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:40] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:21:40,455 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:40] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:21:41,409 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:41] "GET /api/runtime?_ts=1778098711933 HTTP/1.1" 200 -
+2026-05-06 22:21:41,623 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:41] "GET /api/events?_ts=1778098900414 HTTP/1.1" 200 -
+2026-05-06 22:21:41,688 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:41] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:21:41,828 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:41] "GET /api/status?_ts=1778098698835 HTTP/1.1" 200 -
+2026-05-06 22:21:41,859 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:41] "GET /api/status?_ts=1778098893447 HTTP/1.1" 200 -
+2026-05-06 22:21:42,064 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:42] "GET /api/learning-insights?_ts=1778098893765 HTTP/1.1" 200 -
+2026-05-06 22:21:42,174 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:42] "GET /api/learning-insights?_ts=1778098715777 HTTP/1.1" 200 -
+2026-05-06 22:21:42,255 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:42] "GET /api/runtime?_ts=1778098893764 HTTP/1.1" 200 -
+2026-05-06 22:21:42,321 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:42] "GET /api/runtime?_ts=1778098900414 HTTP/1.1" 200 -
+2026-05-06 22:21:42,424 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:42] "GET /api/learning-insights?_ts=1778098900414 HTTP/1.1" 200 -
+2026-05-06 22:21:42,447 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:21:42] "GET /api/status?_ts=1778098900413 HTTP/1.1" 200 -
+2026-05-06 22:22:17,630 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:22:17] "GET /api/self-improvement/proposals?_ts=1778098906433 HTTP/1.1" 200 -
+2026-05-06 22:22:36,600 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:22:36] "GET /api/events?_ts=1778098904260 HTTP/1.1" 200 -
+2026-05-06 22:22:46,467 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:22:46] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:22:50,889 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:22:50] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:22:57,533 | ERROR | atlas_ai.ui_server | Exception on /api/status [GET]
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 526, in status
+    payload["learning_summary"] = _build_learning_summary(source)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 312, in _build_learning_summary
+    latest_training = _latest_training_summary(source)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 233, in _latest_training_summary
+    events = list(source.load_events(limit=240))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 353, in load_events
+    return list(self.store.tail_events(limit=limit))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\memory\knowledge_store.py", line 251, in tail_events
+    return [json.loads(line) for line in lines]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\memory\knowledge_store.py", line 251, in <listcomp>
+    return [json.loads(line) for line in lines]
+            ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 1943 (char 1942)
+2026-05-06 22:22:57,553 | ERROR | atlas_ai.ui_server | Exception on /api/runtime [GET]
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 733, in runtime_flags
+    flags["learning_summary"] = _build_learning_summary(source)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 318, in _build_learning_summary
+    latest_training = _latest_training_summary(source)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 233, in _latest_training_summary
+    events = list(source.load_events(limit=240))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 353, in load_events
+    return list(self.store.tail_events(limit=limit))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\memory\knowledge_store.py", line 251, in tail_events
+    return [json.loads(line) for line in lines]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\memory\knowledge_store.py", line 251, in <listcomp>
+    return [json.loads(line) for line in lines]
+            ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 1415 (char 1414)
+2026-05-06 22:22:57,583 | ERROR | atlas_ai.ui_server | Exception on /api/events [GET]
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 539, in events
+    return jsonify(source.load_events(limit=120))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 353, in load_events
+    return list(self.store.tail_events(limit=limit))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\memory\knowledge_store.py", line 251, in tail_events
+    return [json.loads(line) for line in lines]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\memory\knowledge_store.py", line 251, in <listcomp>
+    return [json.loads(line) for line in lines]
+            ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 4261 (char 4260)
+2026-05-06 22:22:57,598 | ERROR | atlas_ai.ui_server | Exception on /api/status [GET]
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 526, in status
+    payload["learning_summary"] = _build_learning_summary(source)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 312, in _build_learning_summary
+    latest_training = _latest_training_summary(source)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 233, in _latest_training_summary
+    events = list(source.load_events(limit=240))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 353, in load_events
+    return list(self.store.tail_events(limit=limit))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\memory\knowledge_store.py", line 251, in tail_events
+    return [json.loads(line) for line in lines]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\memory\knowledge_store.py", line 251, in <listcomp>
+    return [json.loads(line) for line in lines]
+            ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ':' delimiter: line 1 column 570 (char 569)
+2026-05-06 22:22:57,605 | ERROR | atlas_ai.ui_server | Exception on /api/runtime [GET]
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 733, in runtime_flags
+    flags["learning_summary"] = _build_learning_summary(source)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 312, in _build_learning_summary
+    latest_training = _latest_training_summary(source)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 233, in _latest_training_summary
+    events = list(source.load_events(limit=240))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 353, in load_events
+    return list(self.store.tail_events(limit=limit))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\memory\knowledge_store.py", line 251, in tail_events
+    return [json.loads(line) for line in lines]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\memory\knowledge_store.py", line 251, in <listcomp>
+    return [json.loads(line) for line in lines]
+            ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 721 (char 720)
+2026-05-06 22:22:57,614 | ERROR | atlas_ai.ui_server | Exception on /api/learning-insights [GET]
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 549, in learning_insights
+    learning_summary = _build_learning_summary(source)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 312, in _build_learning_summary
+    latest_training = _latest_training_summary(source)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 233, in _latest_training_summary
+    events = list(source.load_events(limit=240))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 353, in load_events
+    return list(self.store.tail_events(limit=limit))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\memory\knowledge_store.py", line 251, in tail_events
+    return [json.loads(line) for line in lines]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\memory\knowledge_store.py", line 251, in <listcomp>
+    return [json.loads(line) for line in lines]
+            ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 3130 (char 3129)
+2026-05-06 22:22:57,636 | INFO | atlas_ai.voice.startup | Using cloned voice for startup greeting.
+2026-05-06 22:22:57,651 | ERROR | atlas_ai.ui_server | Exception on /api/ask-atlas [POST]
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 933, in ask_atlas
+    return jsonify(assistant.answer(query, mode=mode))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui\ask_atlas.py", line 195, in answer
+    response = self._with_handling(self._answer_via_brain(q, mode=mode), handled_as)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui\ask_atlas.py", line 211, in _answer_via_brain
+    events = list(self.source.load_events(limit=160) or [])
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 353, in load_events
+    return list(self.store.tail_events(limit=limit))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\memory\knowledge_store.py", line 251, in tail_events
+    return [json.loads(line) for line in lines]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\memory\knowledge_store.py", line 251, in <listcomp>
+    return [json.loads(line) for line in lines]
+            ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 75 (char 74)
+2026-05-06 22:22:57,653 | ERROR | atlas_ai.ui_server | Exception on /api/events [GET]
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 539, in events
+    return jsonify(source.load_events(limit=120))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 353, in load_events
+    return list(self.store.tail_events(limit=limit))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\memory\knowledge_store.py", line 251, in tail_events
+    return [json.loads(line) for line in lines]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\memory\knowledge_store.py", line 251, in <listcomp>
+    return [json.loads(line) for line in lines]
+            ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 2986 (char 2985)
+2026-05-06 22:22:57,675 | ERROR | atlas_ai.ui_server | Exception on /api/learning-insights [GET]
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 549, in learning_insights
+    learning_summary = _build_learning_summary(source)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 312, in _build_learning_summary
+    latest_training = _latest_training_summary(source)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 233, in _latest_training_summary
+    events = list(source.load_events(limit=240))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 353, in load_events
+    return list(self.store.tail_events(limit=limit))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\memory\knowledge_store.py", line 251, in tail_events
+    return [json.loads(line) for line in lines]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\memory\knowledge_store.py", line 251, in <listcomp>
+    return [json.loads(line) for line in lines]
+            ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 181 (char 180)
+2026-05-06 22:22:57,675 | ERROR | atlas_ai.ui_server | Exception on /api/learning-insights [GET]
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 549, in learning_insights
+    learning_summary = _build_learning_summary(source)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 318, in _build_learning_summary
+    latest_training = _latest_training_summary(source)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 233, in _latest_training_summary
+    events = list(source.load_events(limit=240))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\ui_server.py", line 353, in load_events
+    return list(self.store.tail_events(limit=limit))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\memory\knowledge_store.py", line 251, in tail_events
+    return [json.loads(line) for line in lines]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\memory\knowledge_store.py", line 251, in <listcomp>
+    return [json.loads(line) for line in lines]
+            ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 856 (char 855)
+2026-05-06 22:22:58,089 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:22:58] "GET /api/status?_ts=1778098904248 HTTP/1.1" 200 -
+2026-05-06 22:22:58,326 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:22:58] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:22:58,890 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:22:58] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:22:59,819 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:22:59] "[35m[1mGET /api/runtime?_ts=1778098904261 HTTP/1.1[0m" 500 -
+2026-05-06 22:22:59,820 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:22:59] "[35m[1mGET /api/status HTTP/1.1[0m" 500 -
+2026-05-06 22:22:59,857 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:22:59] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:22:59,860 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:22:59] "[35m[1mGET /api/events?_ts=1778098911005 HTTP/1.1[0m" 500 -
+2026-05-06 22:22:59,874 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:22:59] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:22:59,875 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:22:59] "[35m[1mGET /api/status?_ts=1778098910327 HTTP/1.1[0m" 500 -
+2026-05-06 22:22:59,885 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:22:59] "[35m[1mGET /api/runtime HTTP/1.1[0m" 500 -
+2026-05-06 22:22:59,888 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:22:59] "[35m[1mGET /api/learning-insights?_ts=1778098911022 HTTP/1.1[0m" 500 -
+2026-05-06 22:22:59,896 | INFO | atlas_ai.voice.startup | Startup greeting playback success.
+2026-05-06 22:22:59,977 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:22:59] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:22:59,979 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:22:59] "[35m[1mPOST /api/ask-atlas HTTP/1.1[0m" 500 -
+2026-05-06 22:22:59,982 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:22:59] "[35m[1mGET /api/events?_ts=1778098965679 HTTP/1.1[0m" 500 -
+2026-05-06 22:22:59,984 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:22:59] "[35m[1mGET /api/learning-insights?_ts=1778098965788 HTTP/1.1[0m" 500 -
+2026-05-06 22:22:59,991 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:22:59] "[35m[1mGET /api/learning-insights?_ts=1778098904261 HTTP/1.1[0m" 500 -
+2026-05-06 22:23:00,327 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:23:00] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:23:00,340 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:23:00] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:23:00,471 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:23:00] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:23:00,516 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:23:00] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:23:00,568 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:23:00] "GET /api/self-improvement/audit?_ts=1778098978268 HTTP/1.1" 200 -
+2026-05-06 22:23:00,779 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:23:00] "GET /api/self-improvement/proposals?_ts=1778098978267 HTTP/1.1" 200 -
+2026-05-06 22:23:00,791 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:23:00] "GET /api/self-improvement/rollouts?_ts=1778098978267 HTTP/1.1" 200 -
+2026-05-06 22:23:01,050 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:23:01] "GET /api/runtime?_ts=1778098965773 HTTP/1.1" 200 -
+2026-05-06 22:23:01,083 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:23:01] "GET /api/runtime?_ts=1778098911005 HTTP/1.1" 200 -
+2026-05-06 22:23:01,450 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:23:01] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-06 22:23:02,341 | INFO | werkzeug | 127.0.0.1 - - [06/May/2026 22:23:02] "GET /api/status?_ts=1778098962225 HTTP/1.1" 200 -

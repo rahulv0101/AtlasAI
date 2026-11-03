@@ -1,0 +1,173 @@
+{
+  "late_us_removed_from_control": {
+    "trades": 26,
+    "wins": 6,
+    "losses": 20,
+    "win_rate": 0.23076923076923078,
+    "expectancy": -0.00185928093645409,
+    "average_win": 0.007484782608697169,
+    "average_loss": -0.0046624999999994666
+  },
+  "late_us_removed_by_strategy": {
+    "evolved_rule": {
+      "trades": 20,
+      "wins": 5,
+      "losses": 15,
+      "win_rate": 0.25,
+      "expectancy": -0.0014124999999994086,
+      "average_win": 0.007550000000001821,
+      "average_loss": -0.004399999999999817
+    },
+    "momentum_continuation": {
+      "trades": 6,
+      "wins": 1,
+      "losses": 5,
+      "win_rate": 0.16666666666666666,
+      "expectancy": -0.003348550724636363,
+      "average_win": 0.007158695652173913,
+      "average_loss": -0.005449999999998418
+    }
+  },
+  "late_us_removed_count": 26,
+  "late_us_removed_winners": 6,
+  "late_us_removed_losers": 20,
+  "weak_trend_definition": {
+    "metric": "bottom quartile of trend_strength_ratio among executed trend trades",
+    "quartiles": {
+      "0.25": 6.277762430884744,
+      "0.5": 9.601978142189406,
+      "0.75": 14.794651560376607
+    },
+    "weak_cutoff": 6.277762430884744
+  },
+  "weak_trend": {
+    "trades": 112,
+    "wins": 50,
+    "losses": 62,
+    "win_rate": 0.44642857142857145,
+    "expectancy": 0.0003967003105598604,
+    "average_win": 0.007331608695653432,
+    "average_loss": -0.0051959677419349546
+  },
+  "strong_trend": {
+    "trades": 336,
+    "wins": 152,
+    "losses": 184,
+    "win_rate": 0.4523809523809524,
+    "expectancy": 0.0003405020703941259,
+    "average_win": 0.007211899313501803,
+    "average_loss": -0.005335869565216565
+  },
+  "weak_trend_repeat_true": {
+    "trades": 102,
+    "wins": 49,
+    "losses": 53,
+    "win_rate": 0.4803921568627451,
+    "expectancy": 0.0008919650468891281,
+    "average_win": 0.007430212954748386,
+    "average_loss": -0.0051528301886788665
+  },
+  "weak_trend_repeat_false": {
+    "trades": 10,
+    "wins": 1,
+    "losses": 9,
+    "win_rate": 0.1,
+    "expectancy": -0.004654999999998662,
+    "average_win": 0.0025000000000007278,
+    "average_loss": -0.005449999999998593
+  },
+  "weak_trend_hold_1bar": {
+    "trades": 102,
+    "wins": 43,
+    "losses": 59,
+    "win_rate": 0.4215686274509804,
+    "expectancy": -2.3316283034125557e-05,
+    "average_win": 0.007422598584429949,
+    "average_loss": -0.0054499999999994666
+  },
+  "weak_trend_hold_gt1": {
+    "trades": 10,
+    "wins": 7,
+    "losses": 3,
+    "win_rate": 0.7,
+    "expectancy": 0.004680869565218509,
+    "average_win": 0.00677267080745482,
+    "average_loss": -0.0001999999999995518
+  },
+  "weak_trend_by_session": {
+    "asia": {
+      "trades": 37,
+      "wins": 17,
+      "losses": 20,
+      "win_rate": 0.4594594594594595,
+      "expectancy": 0.0006331374853121981,
+      "average_win": 0.007480946291561602,
+      "average_loss": -0.005187499999999795
+    },
+    "late_us": {
+      "trades": 5,
+      "wins": 1,
+      "losses": 4,
+      "win_rate": 0.2,
+      "expectancy": -0.0017999999999994542,
+      "average_win": 0.00755000000000182,
+      "average_loss": -0.0041374999999997724
+    },
+    "london": {
+      "trades": 18,
+      "wins": 9,
+      "losses": 9,
+      "win_rate": 0.5,
+      "expectancy": 0.0007259661835757898,
+      "average_win": 0.006901932367151053,
+      "average_loss": -0.005449999999999473
+    },
+    "new_york": {
+      "trades": 52,
+      "wins": 23,
+      "losses": 29,
+      "win_rate": 0.4423076923076923,
+      "expectancy": 0.00032571070234203907,
+      "average_win": 0.007379867674859257,
+      "average_loss": -0.005268965517240578
+    }
+  },
+  "weak_trend_by_strategy": {
+    "evolved_rule": {
+      "trades": 76,
+      "wins": 35,
+      "losses": 41,
+      "win_rate": 0.4605263157894737,
+      "expectancy": 0.0006085526315797961,
+      "average_win": 0.007405714285716081,
+      "average_loss": -0.005193902439024349
+    },
+    "momentum_continuation": {
+      "trades": 36,
+      "wins": 15,
+      "losses": 21,
+      "win_rate": 0.4166666666666667,
+      "expectancy": -5.0543478260004056e-05,
+      "average_win": 0.007158695652173915,
+      "average_loss": -0.005199999999998514
+    }
+  },
+  "weak_trend_low_vol": {
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 1.0,
+    "expectancy": 0.00755000000000182,
+    "average_win": 0.00755000000000182,
+    "average_loss": 0.0
+  },
+  "weak_trend_not_low_vol": {
+    "trades": 111,
+    "wins": 49,
+    "losses": 62,
+    "win_rate": 0.44144144144144143,
+    "expectancy": 0.0003322561692135363,
+    "average_win": 0.007327151730258567,
+    "average_loss": -0.0051959677419349546
+  }
+}

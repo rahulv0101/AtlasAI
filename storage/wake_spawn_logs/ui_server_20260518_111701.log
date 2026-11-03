@@ -1,0 +1,20 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui-server --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main ui-server --mode-override live
+2026-05-18 13:17:04,264 | INFO | atlas_ai.voice.startup | Startup greeting triggered.
+2026-05-18 13:17:04,335 | WARNING | atlas_ai.voice.startup | Startup voice clone backend unavailable (backend=none); falling back to existing speech chain.
+2026-05-18 13:17:04,356 | INFO | atlas_ai.voice.startup | Fallback voice used for startup greeting.
+2026-05-18 13:17:04,360 | INFO | atlas_ai.voice.startup | Startup greeting playback success.
+2026-05-18 13:17:04,478 | INFO | atlas_ai.ui_server | Starting durable UI server on http://127.0.0.1:8765
+2026-05-18 13:17:05,092 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 13:17:05] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 13:17:05,120 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 13:17:05] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 13:17:05,199 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 13:17:05] "GET /api/self-improvement/audit?_ts=1779103022450 HTTP/1.1" 200 -
+2026-05-18 13:17:06,855 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 13:17:06] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 13:17:06,870 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 13:17:06] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 13:17:06,991 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 13:17:06] "GET /api/self-improvement/audit?_ts=1779103022515 HTTP/1.1" 200 -
+2026-05-18 13:17:07,045 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 13:17:07] "GET /api/self-improvement/rollouts?_ts=1779103022450 HTTP/1.1" 200 -
+2026-05-18 13:17:09,798 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 13:17:09] "GET /api/self-improvement/proposals?_ts=1779103022512 HTTP/1.1" 200 -
+2026-05-18 13:17:09,952 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 13:17:09] "GET /api/self-improvement/rollouts?_ts=1779103022515 HTTP/1.1" 200 -
+2026-05-18 13:17:16,928 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 13:17:16] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 13:17:16,984 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 13:17:16] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 13:17:21,566 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 13:17:21] "GET /api/self-improvement/proposals?_ts=1779103034452 HTTP/1.1" 200 -
+2026-05-18 13:17:25,420 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 13:17:25] "GET /api/self-improvement/rollouts?_ts=1779103034452 HTTP/1.1" 200 -

@@ -1,0 +1,127 @@
+{
+  "candidate": {
+    "backtest_score": 67.74,
+    "backtest_trades": 256,
+    "backtest_win_rate": 0.6015625,
+    "demo_active": false,
+    "promotion_reason": "shadow_review_passed_awaiting_demo_review",
+    "promotion_stage": "shadow",
+    "shadow_passed": true
+  },
+  "created_at": "2026-06-02T13:17:52.746087+00:00",
+  "executed": false,
+  "latest_shadow_review": {
+    "available": true,
+    "promotion_governor": {
+      "can_promote_to_demo": true,
+      "max_shadow_drawdown_pct": 0.05,
+      "reason": "",
+      "shadow_drawdown_policy": "gross_normalized"
+    },
+    "recommendation": "eligible_for_demo_review",
+    "summary": {
+      "degradation_pct": 0.0,
+      "losses": 101,
+      "max_drawdown_pct": 0.21135865173726628,
+      "net_pnl": 86.62999999999192,
+      "trades": 263,
+      "win_rate": 0.6159695817490495,
+      "wins": 162
+    }
+  },
+  "ok": true,
+  "operator_boundary": {
+    "does_not_call_promote_to_demo": true,
+    "does_not_execute_trades": true,
+    "does_not_promote_live": true,
+    "does_not_set_demo_active": true,
+    "requires_explicit_demo_activation_command": true
+  },
+  "packet": {
+    "available": true,
+    "path": "C:\\Users\\User\\Desktop\\Atlas AI\\storage\\ai_demo_review_packet_mhr_hr78912151819_c604b9a2.json",
+    "safety": {
+      "does_not_execute": true,
+      "does_not_promote_demo": true,
+      "does_not_promote_live": true,
+      "requires_existing_promotion_governor": true,
+      "requires_operator_review": true,
+      "research_only": true
+    }
+  },
+  "queue_item": {
+    "blockers": [],
+    "confidence": 0.68,
+    "created_at": "2026-06-02T04:37:54.336266+00:00",
+    "demo_review_packet": {
+      "created_at": "2026-06-02T13:10:55.901797+00:00",
+      "does_not_promote_demo": true,
+      "does_not_promote_live": true,
+      "executed": false,
+      "path": "C:\\Users\\User\\Desktop\\Atlas AI\\storage\\ai_demo_review_packet_mhr_hr78912151819_c604b9a2.json",
+      "schema": "atlas_ai_demo_review_packet_v1"
+    },
+    "history": [
+      {
+        "at": "2026-06-02T12:59:37.539222+00:00",
+        "note": "lead_candidate_ready_for_operator_demo_review",
+        "operator": "operator",
+        "status": "demo_review_requested"
+      },
+      {
+        "at": "2026-06-02T13:10:55.906319+00:00",
+        "note": "demo_review_packet_generated",
+        "operator": "system",
+        "status": "demo_review_requested"
+      },
+      {
+        "at": "2026-06-02T13:13:57.068560+00:00",
+        "note": "operator_demo_review_approved_record_only",
+        "operator": "operator",
+        "status": "demo_review_approved"
+      }
+    ],
+    "id": "mhr_hr78912151819_c604b9a2:eligible_for_demo_review",
+    "operator_note": "operator_demo_review_approved_record_only",
+    "origin": "",
+    "preference_score": 0.0,
+    "reasons": [
+      "shadow_review:bars=18000,trades=263",
+      "wins=162,losses=101,win_rate=0.62",
+      "drawdown_policy=gross_normalized,limit=5.00%"
+    ],
+    "recommendation": "eligible_for_demo_review",
+    "reviewed_by": "operator",
+    "safety": {
+      "does_not_execute": true,
+      "does_not_promote_live": true,
+      "paper_or_shadow_only": true,
+      "research_only": true
+    },
+    "stage": "shadow_review",
+    "status": "demo_review_approved",
+    "uid": "mhr_hr78912151819_c604b9a2",
+    "updated_at": "2026-06-02T13:13:57.068560+00:00"
+  },
+  "readiness": {
+    "candidate_shadow_passed": true,
+    "candidate_stage_allows_demo": true,
+    "demo_review_approved": true,
+    "governor_basic_check_passed": true,
+    "governor_basic_reason": "",
+    "packet_available": true
+  },
+  "recommendation": "operator_may_consider_demo_activation",
+  "safety": {
+    "does_not_execute": true,
+    "does_not_promote_demo": true,
+    "does_not_promote_live": true,
+    "executed": false,
+    "proposal_only": true,
+    "requires_operator_command": true,
+    "requires_promotion_governor": true,
+    "research_only": true
+  },
+  "schema": "atlas_ai_demo_activation_proposal_v1",
+  "uid": "mhr_hr78912151819_c604b9a2"
+}

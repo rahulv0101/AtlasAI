@@ -1,0 +1,23 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-18 18:59:51,298 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-18 18:59:54,301 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-18 18:59:56,850 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-18 18:59:59,990 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 19:01:00,391 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 19:02:00,720 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 19:03:01,064 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 19:03:56,913 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=-4.21 (42.1pips) TP=6.31 (63.1pips) ATR=21.04 mult=2.00
+2026-05-18 19:05:01,707 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 19:06:57,006 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=-4.25 (42.5pips) TP=6.37 (63.7pips) ATR=21.25 mult=2.00
+2026-05-18 19:07:02,421 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 19:08:02,766 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 19:09:03,064 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 19:10:03,514 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 19:11:03,872 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 19:12:04,181 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 19:13:04,528 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 19:14:04,870 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 19:15:05,303 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 19:16:13,461 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 19:19:25,646 | INFO | atlas_ai.trader | No high-confidence trade found.

@@ -1,0 +1,10 @@
+{
+  "schema": "atlas_backend_heartbeat_v1",
+  "component": "backend_trader",
+  "last_heartbeat": "2026-08-17T16:03:46.024409+00:00",
+  "last_heartbeat_ts": 1786982626.0244095,
+  "mode": "paper",
+  "pid": 1234,
+  "cycle_count": 8,
+  "cycle_status": "running"
+}

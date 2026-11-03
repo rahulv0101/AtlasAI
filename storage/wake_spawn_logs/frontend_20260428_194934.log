@@ -1,0 +1,19 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+2026-04-28 21:49:44,621 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=bootstrap exception_type= error=
+2026-04-28 21:49:44,694 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=bootstrap status=entered error=
+2026-04-28 21:49:44,749 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=ui_server_ready exception_type= error=
+2026-04-28 21:49:44,799 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=ui_server_ready status=ok error=
+2026-04-28 21:49:45,991 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=known_instability_detected status=continuing_native_with_safe_mode error=
+2026-04-28 21:49:46,029 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=recent_instability_detected status=continuing_native_with_safe_mode error=
+2026-04-28 21:49:46,319 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=import_webview exception_type= error=
+2026-04-28 21:49:46,380 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=import_webview status=entered error=
+2026-04-28 21:49:46,419 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=import_webview status=returned error=
+2026-04-28 21:49:46,512 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=window_create exception_type= error=
+2026-04-28 21:49:46,543 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=entered_create_window status=entered error=
+2026-04-28 21:49:46,560 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=create_window_returned status=returned error=
+2026-04-28 21:49:46,629 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=start_loop exception_type= error=
+2026-04-28 21:49:46,720 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=entered_start status=entered error=
+2026-04-28 21:49:49,382 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=first_native_callback status=entered error=
+2026-04-28 21:49:49,449 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=True stage=started exception_type= error=
+2026-04-28 21:49:49,482 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=first_native_callback status=started error=
+[0428/220443.404:ERROR:ui\gfx\win\window_impl.cc:134] Failed to unregister class Chrome_WidgetWin_0. Error = 1411

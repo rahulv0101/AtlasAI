@@ -1,0 +1,104 @@
+{
+  "end_at": "2026-05-18T06:00:00+00:00",
+  "latest": {
+    "ts": "2026-05-15T23:49:51.622979+00:00",
+    "mode": "weekend_learning_only",
+    "execution_disabled": true,
+    "weekend_learning_only": true,
+    "automation_paused": true,
+    "automation_pause_reason": "weekend_learning_only_operator_requested",
+    "automation_explicit_resume_active": false,
+    "broker_connected": true,
+    "status_action": "hold",
+    "primary_blocker": "No high-confidence trade found.",
+    "hard_blockers": [
+      "spread_liquidity_too_poor",
+      "macro_context_conflict_too_strong",
+      "no_clear_setup"
+    ],
+    "market": {
+      "session": "late_us",
+      "setup_family": "no_trade",
+      "structure": "LH/LL",
+      "momentum": "weak",
+      "location": "pullback",
+      "spread_points": 45.0
+    },
+    "online_learning": {
+      "samples": 1488,
+      "mode": "medium_path_observe",
+      "allowed_influence": "bounded_confidence_haircut",
+      "evidence_strength": 0.92,
+      "overreaction_risk": 0.49,
+      "top_fingerprint": "regime=trending|structure=LH/LL|momentum=weak|location=pullback|blockers=momentum_quality+spread_liquidity+macro_alignment",
+      "teaching_focus": [
+        "separate direction bias from entry momentum; require confirmation before acting",
+        "label this as no-trade until a specific setup family is visible"
+      ]
+    },
+    "near_setup_top_patterns": [
+      {
+        "fingerprint": "regime=trending|structure=LH/LL|momentum=mixed|location=mid_range|blockers=momentum_quality+entry_location+confluence_gap",
+        "count": 137,
+        "last_seen": "2026-05-15T15:07:53.889672+02:00",
+        "teaching_focus": [
+          "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+          "separate direction bias from entry momentum; require confirmation before acting",
+          "label this as no-trade until a specific setup family is visible"
+        ]
+      },
+      {
+        "fingerprint": "regime=trending|structure=HH/HL|momentum=mixed|location=mid_range|blockers=momentum_quality+entry_location+confluence_gap",
+        "count": 60,
+        "last_seen": "2026-05-15T14:25:39.990782+02:00",
+        "teaching_focus": [
+          "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+          "separate direction bias from entry momentum; require confirmation before acting",
+          "label this as no-trade until a specific setup family is visible"
+        ]
+      },
+      {
+        "fingerprint": "regime=unknown|structure=mixed|momentum=mixed|location=pullback|blockers=spread_liquidity+momentum_quality+structure_quality",
+        "count": 59,
+        "last_seen": "2026-05-14T23:59:50.166566+02:00",
+        "teaching_focus": [
+          "separate direction bias from entry momentum; require confirmation before acting",
+          "prefer clearer HH/HL or LH/LL structure before continuation entries"
+        ]
+      },
+      {
+        "fingerprint": "regime=unknown|structure=mixed|momentum=mixed|location=mid_range|blockers=momentum_quality+entry_location+confluence_gap",
+        "count": 58,
+        "last_seen": "2026-05-15T15:01:47.269714+02:00",
+        "teaching_focus": [
+          "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+          "separate direction bias from entry momentum; require confirmation before acting",
+          "label this as no-trade until a specific setup family is visible"
+        ]
+      },
+      {
+        "fingerprint": "regime=trending|structure=HH/HL|momentum=weak|location=mid_range|blockers=momentum_quality+entry_location+confluence_gap",
+        "count": 32,
+        "last_seen": "2026-05-15T14:57:23.418997+02:00",
+        "teaching_focus": [
+          "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+          "separate direction bias from entry momentum; require confirmation before acting",
+          "prefer clearer HH/HL or LH/LL structure before continuation entries"
+        ]
+      }
+    ],
+    "post_trade": {
+      "total_closed_trades_seen": 9,
+      "top_pattern": {
+        "fingerprint": "regime=trending|structure=LH/LL|momentum=mixed|location=mid_range|blockers=momentum_quality+entry_location+structure_quality",
+        "count": 3,
+        "wins": 2,
+        "losses": 1,
+        "profit": 38.14,
+        "last_seen": "2026-05-15T13:26:57.167394+02:00"
+      },
+      "policy_note": "This connects MT5 outcomes to observed setup context; it does not change strategy, risk, guard, or execution policy."
+    },
+    "policy_note": "Weekend learning digest is observability only; it does not change strategy, risk, guards, or execution policy."
+  }
+}

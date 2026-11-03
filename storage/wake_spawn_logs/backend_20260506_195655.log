@@ -1,0 +1,8 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-06 21:57:10,619 | WARNING | root | Stopped duplicate atlas process pid=3844 for mode=live
+2026-05-06 21:57:10,801 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-06 21:57:13,811 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-06 21:58:13,041 | INFO | TTS.utils.manage | tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+2026-05-06 21:58:14,618 | INFO | TTS.tts.models | Using model: xtts
+2026-05-06 22:06:03,774 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.

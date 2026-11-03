@@ -1,0 +1,36 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-18 15:36:08,120 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-18 15:36:11,125 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-18 15:36:14,234 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-18 15:36:16,898 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 15:37:17,299 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 15:38:17,705 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 15:39:18,150 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 15:40:18,469 | INFO | atlas_ai.gold_knowledge | Gold knowledge applied | base=0.556 boosts=[] penalties=[] final=0.556
+2026-05-18 15:40:18,470 | INFO | atlas_ai.trader | Spread check: 3.50 pips (max: 7.00) -- PASS
+2026-05-18 15:40:18,470 | INFO | atlas_ai.trader | Structure check: score=0.185 (min: 0.240) -- BLOCK
+2026-05-18 15:41:18,813 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 15:42:19,120 | INFO | atlas_ai.gold_knowledge | Gold knowledge applied | base=0.721 boosts=[] penalties=[] final=0.721
+2026-05-18 15:42:19,121 | INFO | atlas_ai.trader | Spread check: 3.50 pips (max: 7.00) -- PASS
+2026-05-18 15:42:19,121 | INFO | atlas_ai.trader | Structure check: score=0.397 (min: 0.240) -- PASS
+2026-05-18 15:42:22,799 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-18 15:42:22,800 | INFO | openai._base_client | Retrying request to /chat/completions in 0.413085 seconds
+2026-05-18 15:42:23,678 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-18 15:42:23,679 | INFO | openai._base_client | Retrying request to /chat/completions in 0.776250 seconds
+2026-05-18 15:42:24,808 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-18 15:42:24,876 | INFO | atlas_ai.trader | Signal=evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9) side=buy confidence=0.721 volume=0.01 result=-5 (tiny_live_pilot_paused:weekend_learning_only_operator_requested)
+2026-05-18 15:48:14,427 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=-5.14 (51.4pips) TP=7.71 (77.1pips) ATR=25.71 mult=2.00
+2026-05-18 15:49:27,821 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 15:50:28,179 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 15:51:14,829 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=-5.14 (51.4pips) TP=7.71 (77.1pips) ATR=25.71 mult=2.00
+2026-05-18 15:52:40,235 | INFO | atlas_ai.gold_knowledge | Gold knowledge applied | base=0.663 boosts=[] penalties=[] final=0.663
+2026-05-18 15:52:40,267 | INFO | atlas_ai.trader | Spread check: 3.50 pips (max: 7.00) -- PASS
+2026-05-18 15:52:40,267 | INFO | atlas_ai.trader | Structure check: score=0.453 (min: 0.240) -- PASS
+2026-05-18 15:52:40,832 | INFO | atlas_ai.trader | Signal=momentum_continuation side=buy confidence=0.663 volume=0.01 result=-5 (tiny_live_pilot_paused:weekend_learning_only_operator_requested)
+2026-05-18 15:53:41,911 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 15:54:15,857 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=-5.16 (51.6pips) TP=7.74 (77.4pips) ATR=25.80 mult=2.00
+2026-05-18 15:54:48,068 | INFO | atlas_ai.gold_knowledge | Gold knowledge applied | base=0.805 boosts=[] penalties=[] final=0.805
+2026-05-18 15:54:48,089 | INFO | atlas_ai.trader | Spread check: 3.50 pips (max: 7.00) -- PASS
+2026-05-18 15:54:48,089 | INFO | atlas_ai.trader | Structure check: score=0.502 (min: 0.240) -- PASS
+2026-05-18 15:54:50,649 | INFO | atlas_ai.trader | Signal=momentum_continuation side=buy confidence=0.805 volume=0.01 result=-5 (tiny_live_pilot_paused:weekend_learning_only_operator_requested)

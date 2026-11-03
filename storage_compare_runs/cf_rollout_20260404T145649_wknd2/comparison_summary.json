@@ -1,0 +1,37 @@
+{
+  "updated_at": "2026-04-04T12:58:00.093442+00:00",
+  "run_id": "cf_rollout_20260404T145649_wknd2",
+  "preset": "conservative_filter_rollout_v1",
+  "version_hash": "0139330334410e58",
+  "control": {},
+  "experiment": {},
+  "control_status": {
+    "action": "blocked",
+    "message": "Consensus guard blocked trade: side=buy, support=1, required=2."
+  },
+  "experiment_status": {
+    "action": "blocked",
+    "message": "Consensus guard blocked trade: side=buy, support=1, required=2."
+  },
+  "comparison_tracker": {
+    "report_path": "C:\\Users\\User\\Desktop\\Atlas AI\\storage_compare_runs\\cf_rollout_20260404T145649_wknd2\\comparison_report.json",
+    "tracker_path": "C:\\Users\\User\\Desktop\\Atlas AI\\storage_compare_runs\\cf_rollout_20260404T145649_wknd2\\comparison_tracker.json",
+    "cross_lane": {
+      "taken_by_both": 0,
+      "control_only_taken": 0,
+      "experiment_only_taken": 0,
+      "filtered_by_experiment": 0
+    },
+    "winners_vs_losers_removed": {
+      "losers_avoided": 0,
+      "winners_lost": 0,
+      "net_trade_quality_impact": 0,
+      "removed_trade_expectancy": 0.0,
+      "removed_trade_pnl_sum": 0.0,
+      "removed_trade_outcomes_known": 0
+    },
+    "filter_effectiveness": {
+      "assessment": "neutral"
+    }
+  }
+}

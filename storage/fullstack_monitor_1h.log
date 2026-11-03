@@ -1,0 +1,6 @@
+[2026-04-30T19:20:04.230354+00:00] monitor_started
+[2026-04-30T19:20:08.217107+00:00] count=0 killed_system=[5692, 7244, 6544] restarted=True
+[2026-04-30T19:21:27.029277+00:00] count=0 killed_system=[1020, 12080, 8996] restarted=True
+[2026-04-30T19:22:30.307018+00:00] count=0 killed_system=[13024, 15320, 5008] restarted=True
+[2026-04-30T19:23:38.122641+00:00] count=0 killed_system=[9804, 12700, 5284] restarted=True
+[2026-04-30T19:24:51.359240+00:00] count=0 killed_system=[8380, 11260, 13268] restarted=True

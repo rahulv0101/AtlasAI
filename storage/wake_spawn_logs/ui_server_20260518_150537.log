@@ -1,0 +1,26 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui-server --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main ui-server --mode-override live
+2026-05-18 17:05:38,853 | INFO | atlas_ai.voice.startup | Startup greeting triggered.
+2026-05-18 17:05:38,891 | WARNING | atlas_ai.voice.startup | Startup voice clone backend unavailable (backend=none); falling back to existing speech chain.
+2026-05-18 17:05:38,892 | INFO | atlas_ai.voice.startup | Fallback voice used for startup greeting.
+2026-05-18 17:05:38,893 | INFO | atlas_ai.voice.startup | Startup greeting playback success.
+2026-05-18 17:05:39,032 | INFO | atlas_ai.ui_server | Starting durable UI server on http://127.0.0.1:8765
+2026-05-18 17:05:39,552 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:05:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:05:39,619 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:05:39] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:05:39,623 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:05:39] "GET /api/self-improvement/audit?_ts=1779116738456 HTTP/1.1" 200 -
+2026-05-18 17:05:40,797 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:05:40] "GET /api/self-improvement/proposals?_ts=1779116738456 HTTP/1.1" 200 -
+2026-05-18 17:05:40,866 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:05:40] "GET /api/self-improvement/rollouts?_ts=1779116738456 HTTP/1.1" 200 -
+2026-05-18 17:05:41,626 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:05:41] "GET / HTTP/1.1" 200 -
+2026-05-18 17:05:41,875 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:05:41] "GET / HTTP/1.1" 200 -
+2026-05-18 17:05:46,007 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:05:46] "GET / HTTP/1.1" 200 -
+2026-05-18 17:05:46,105 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:05:46] "GET /style.css HTTP/1.1" 200 -
+2026-05-18 17:05:46,117 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:05:46] "GET /app.js HTTP/1.1" 200 -
+2026-05-18 17:05:46,424 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:05:46] "POST /api/ui-ready HTTP/1.1" 200 -
+2026-05-18 17:05:51,393 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:05:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:05:51,411 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:05:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:05:51,476 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:05:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-18 17:05:51,856 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:05:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:05:51,972 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:05:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:05:54,992 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:05:54] "GET /api/self-improvement/audit?_ts=1779116750463 HTTP/1.1" 200 -
+2026-05-18 17:06:00,299 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:06:00] "GET /api/self-improvement/proposals?_ts=1779116750460 HTTP/1.1" 200 -
+2026-05-18 17:06:04,839 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:06:04] "GET /api/self-improvement/rollouts?_ts=1779116750461 HTTP/1.1" 200 -

@@ -1,0 +1,11 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui-server --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main ui-server --mode-override live
+2026-05-18 13:27:14,936 | INFO | atlas_ai.voice.startup | Startup greeting triggered.
+2026-05-18 13:27:14,982 | WARNING | atlas_ai.voice.startup | Startup voice clone backend unavailable (backend=none); falling back to existing speech chain.
+2026-05-18 13:27:14,983 | INFO | atlas_ai.voice.startup | Fallback voice used for startup greeting.
+2026-05-18 13:27:14,984 | INFO | atlas_ai.voice.startup | Startup greeting playback success.
+2026-05-18 13:27:15,066 | INFO | atlas_ai.ui_server | Starting durable UI server on http://127.0.0.1:8765
+2026-05-18 13:27:15,766 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 13:27:15] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 13:27:15,779 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 13:27:15] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 13:27:15,847 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 13:27:15] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 13:27:15,874 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 13:27:15] "POST /api/ask-atlas HTTP/1.1" 200 -

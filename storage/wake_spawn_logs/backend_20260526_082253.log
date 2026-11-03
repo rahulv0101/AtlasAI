@@ -1,0 +1,27 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-26 10:22:54,730 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-26 10:22:57,737 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-26 10:22:59,722 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-26 10:23:04,484 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 10:24:06,273 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 10:25:06,691 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 10:26:08,901 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 10:26:08,903 | INFO | openai._base_client | Retrying request to /chat/completions in 0.377936 seconds
+2026-05-26 10:26:10,082 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 10:26:10,082 | INFO | openai._base_client | Retrying request to /chat/completions in 0.880078 seconds
+2026-05-26 10:26:11,265 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 10:29:12,419 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 10:31:13,201 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 10:33:14,972 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 10:34:15,271 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 10:35:17,271 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 10:36:17,610 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 10:37:17,903 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 10:38:26,460 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 10:39:26,791 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 10:40:27,101 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 10:41:27,484 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 10:42:27,773 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 10:49:32,449 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 10:50:33,309 | INFO | atlas_ai.trader | No directional trade signal selected.

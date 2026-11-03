@@ -1,0 +1,23 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui-server --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main ui-server --mode-override live
+2026-05-18 17:19:36,917 | INFO | atlas_ai.voice.startup | Startup greeting triggered.
+2026-05-18 17:19:36,955 | WARNING | atlas_ai.voice.startup | Startup voice clone backend unavailable (backend=none); falling back to existing speech chain.
+2026-05-18 17:19:36,955 | INFO | atlas_ai.voice.startup | Fallback voice used for startup greeting.
+2026-05-18 17:19:36,959 | INFO | atlas_ai.voice.startup | Startup greeting playback success.
+2026-05-18 17:19:37,030 | INFO | atlas_ai.ui_server | Starting durable UI server on http://127.0.0.1:8765
+2026-05-18 17:19:37,619 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:19:37] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:19:37,733 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:19:37] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:19:37,758 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:19:37] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:19:37,768 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:19:37] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:19:39,250 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:19:39] "GET / HTTP/1.1" 200 -
+2026-05-18 17:19:39,633 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:19:39] "GET / HTTP/1.1" 200 -
+2026-05-18 17:19:45,424 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:19:45] "GET / HTTP/1.1" 200 -
+2026-05-18 17:19:45,560 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:19:45] "GET /app.js HTTP/1.1" 200 -
+2026-05-18 17:19:45,577 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:19:45] "GET /style.css HTTP/1.1" 200 -
+2026-05-18 17:19:46,385 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:19:46] "POST /api/ui-ready HTTP/1.1" 200 -
+2026-05-18 17:19:51,317 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:19:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:19:51,345 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:19:51] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-18 17:19:51,614 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:19:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-18 17:19:51,644 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:19:51] "GET /api/self-improvement/audit?_ts=1779117585798 HTTP/1.1" 200 -
+2026-05-18 17:19:56,853 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:19:56] "GET /api/self-improvement/proposals?_ts=1779117585796 HTTP/1.1" 200 -
+2026-05-18 17:19:57,368 | INFO | werkzeug | 127.0.0.1 - - [18/May/2026 17:19:57] "GET /api/self-improvement/rollouts?_ts=1779117585797 HTTP/1.1" 200 -

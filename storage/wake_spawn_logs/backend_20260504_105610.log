@@ -1,0 +1,33 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-04 12:56:13,494 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-04 12:56:16,499 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-04 12:57:29,366 | INFO | TTS.utils.manage | tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+2026-05-04 12:57:31,726 | INFO | TTS.tts.models | Using model: xtts
+2026-05-04 13:05:43,024 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-04 13:07:52,034 | WARNING | atlas_ai.trader | Risk guard active: Max open trades reached. No trade executed.
+2026-05-04 13:08:53,879 | WARNING | atlas_ai.trader | Risk guard active: Max open trades reached. No trade executed.
+2026-05-04 13:09:54,893 | WARNING | atlas_ai.trader | Risk guard active: Max open trades reached. No trade executed.
+2026-05-04 13:10:56,477 | WARNING | atlas_ai.trader | Risk guard active: Max open trades reached. No trade executed.
+2026-05-04 13:11:57,736 | WARNING | atlas_ai.trader | Risk guard active: Max open trades reached. No trade executed.
+2026-05-04 13:13:07,151 | WARNING | atlas_ai.trader | Risk guard active: Max open trades reached. No trade executed.
+2026-05-04 13:14:09,621 | WARNING | atlas_ai.trader | Risk guard active: Max open trades reached. No trade executed.
+2026-05-04 13:15:10,900 | WARNING | atlas_ai.trader | Risk guard active: Max open trades reached. No trade executed.
+2026-05-04 13:16:12,275 | WARNING | atlas_ai.trader | Risk guard active: Max open trades reached. No trade executed.
+2026-05-04 13:17:13,270 | WARNING | atlas_ai.trader | Risk guard active: Max open trades reached. No trade executed.
+2026-05-04 13:18:25,704 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-04 13:18:25,728 | INFO | openai._base_client | Retrying request to /chat/completions in 0.428631 seconds
+2026-05-04 13:18:26,799 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-04 13:18:26,799 | INFO | openai._base_client | Retrying request to /chat/completions in 0.790102 seconds
+2026-05-04 13:18:28,006 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-04 13:19:29,814 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 13:20:30,854 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 13:21:32,043 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 13:23:45,997 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 13:24:48,805 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-04 13:24:48,806 | INFO | openai._base_client | Retrying request to /chat/completions in 0.489953 seconds
+2026-05-04 13:24:49,633 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-04 13:24:49,636 | INFO | openai._base_client | Retrying request to /chat/completions in 0.857525 seconds
+2026-05-04 13:24:50,906 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-04 13:25:53,790 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 13:26:54,899 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 13:27:56,261 | INFO | atlas_ai.trader | No high-confidence trade found.

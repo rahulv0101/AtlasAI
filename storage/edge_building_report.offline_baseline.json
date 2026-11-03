@@ -1,0 +1,452 @@
+{
+  "ok": true,
+  "source_label_report": "storage/trade_labels_report.offline_baseline.json",
+  "scoring_mode": "forward_safe_setup_quality_v1",
+  "feature_weights": {
+    "late_us_trend": -20.0,
+    "london_drag": -16.0,
+    "low_vol_trend": -14.0,
+    "post_spike": -16.0,
+    "repeated_reentry": -10.0,
+    "poor_liquidity": -18.0,
+    "high_volatility_range": -5.0,
+    "favorable_session": 3.0,
+    "range_regime": 4.0,
+    "mid_trend_strength": 2.0,
+    "strong_trend_overstretch": -4.0
+  },
+  "control_metrics": {
+    "trades": 537,
+    "wins": 247,
+    "losses": 290,
+    "win_rate": 0.459963,
+    "expectancy": 0.000508,
+    "profit_factor": 1.179139,
+    "average_win": 0.007269,
+    "average_loss": -0.005251,
+    "max_drawdown": 0.081949
+  },
+  "loss_breakdown": {
+    "by_session": {
+      "asia": {
+        "trades": 140,
+        "wins": 70,
+        "losses": 70,
+        "win_rate": 0.5,
+        "expectancy": 0.001016,
+        "profit_factor": 1.383426,
+        "average_win": 0.007332,
+        "average_loss": -0.0053,
+        "max_drawdown": 0.045361
+      },
+      "london": {
+        "trades": 167,
+        "wins": 76,
+        "losses": 91,
+        "win_rate": 0.45509,
+        "expectancy": 0.000267,
+        "profit_factor": 1.089773,
+        "average_win": 0.007111,
+        "average_loss": -0.00545,
+        "max_drawdown": 0.057038
+      },
+      "new_york": {
+        "trades": 200,
+        "wins": 94,
+        "losses": 106,
+        "win_rate": 0.47,
+        "expectancy": 0.000663,
+        "profit_factor": 1.238281,
+        "average_win": 0.007334,
+        "average_loss": -0.005252,
+        "max_drawdown": 0.044206
+      },
+      "late_us": {
+        "trades": 30,
+        "wins": 7,
+        "losses": 23,
+        "win_rate": 0.233333,
+        "expectancy": -0.001555,
+        "profit_factor": 0.529354,
+        "average_win": 0.007494,
+        "average_loss": -0.004309,
+        "max_drawdown": 0.046013
+      }
+    },
+    "by_regime": {
+      "trend": {
+        "trades": 448,
+        "wins": 202,
+        "losses": 246,
+        "win_rate": 0.450893,
+        "expectancy": 0.000355,
+        "profit_factor": 1.121839,
+        "average_win": 0.007242,
+        "average_loss": -0.005301,
+        "max_drawdown": 0.11176
+      },
+      "high_volatility_range": {
+        "trades": 26,
+        "wins": 11,
+        "losses": 15,
+        "win_rate": 0.423077,
+        "expectancy": -4e-05,
+        "profit_factor": 0.987205,
+        "average_win": 0.007337,
+        "average_loss": -0.00545,
+        "max_drawdown": 0.024951
+      },
+      "range": {
+        "trades": 63,
+        "wins": 34,
+        "losses": 29,
+        "win_rate": 0.539683,
+        "expectancy": 0.001825,
+        "profit_factor": 1.838803,
+        "average_win": 0.007412,
+        "average_loss": -0.004726,
+        "max_drawdown": 0.038832
+      }
+    },
+    "by_trend_strength": {
+      "strong": {
+        "trades": 266,
+        "wins": 116,
+        "losses": 150,
+        "win_rate": 0.43609,
+        "expectancy": 0.000127,
+        "profit_factor": 1.041973,
+        "average_win": 0.007202,
+        "average_loss": -0.005345,
+        "max_drawdown": 0.092792
+      },
+      "medium": {
+        "trades": 147,
+        "wins": 69,
+        "losses": 78,
+        "win_rate": 0.469388,
+        "expectancy": 0.00067,
+        "profit_factor": 1.243724,
+        "average_win": 0.007284,
+        "average_loss": -0.005181,
+        "max_drawdown": 0.067626
+      },
+      "very_weak": {
+        "trades": 69,
+        "wins": 34,
+        "losses": 35,
+        "win_rate": 0.492754,
+        "expectancy": 0.001088,
+        "profit_factor": 1.428874,
+        "average_win": 0.007354,
+        "average_loss": -0.005,
+        "max_drawdown": 0.050564
+      },
+      "weak": {
+        "trades": 55,
+        "wins": 28,
+        "losses": 27,
+        "win_rate": 0.509091,
+        "expectancy": 0.001193,
+        "profit_factor": 1.462227,
+        "average_win": 0.00741,
+        "average_loss": -0.005256,
+        "max_drawdown": 0.042845
+      }
+    },
+    "by_volatility_state": {
+      "normal_volatility": {
+        "trades": 376,
+        "wins": 172,
+        "losses": 204,
+        "win_rate": 0.457447,
+        "expectancy": 0.000491,
+        "profit_factor": 1.172586,
+        "average_win": 0.007293,
+        "average_loss": -0.005244,
+        "max_drawdown": 0.081949
+      },
+      "low_volatility": {
+        "trades": 27,
+        "wins": 10,
+        "losses": 17,
+        "win_rate": 0.37037,
+        "expectancy": -0.000433,
+        "profit_factor": 0.847971,
+        "average_win": 0.006521,
+        "average_loss": -0.004524,
+        "max_drawdown": 0.028646
+      },
+      "high_volatility": {
+        "trades": 134,
+        "wins": 65,
+        "losses": 69,
+        "win_rate": 0.485075,
+        "expectancy": 0.000745,
+        "profit_factor": 1.265502,
+        "average_win": 0.007321,
+        "average_loss": -0.00545,
+        "max_drawdown": 0.078542
+      }
+    },
+    "repeated_entry": {
+      "repeat": {
+        "trades": 440,
+        "wins": 203,
+        "losses": 237,
+        "win_rate": 0.461364,
+        "expectancy": 0.000518,
+        "profit_factor": 1.182233,
+        "average_win": 0.007278,
+        "average_loss": -0.005273,
+        "max_drawdown": 0.079787
+      },
+      "first": {
+        "trades": 97,
+        "wins": 44,
+        "losses": 53,
+        "win_rate": 0.453608,
+        "expectancy": 0.000465,
+        "profit_factor": 1.164984,
+        "average_win": 0.007231,
+        "average_loss": -0.005153,
+        "max_drawdown": 0.051122
+      }
+    },
+    "overstretched_entry": {
+      "post_spike": {
+        "trades": 73,
+        "wins": 25,
+        "losses": 48,
+        "win_rate": 0.342466,
+        "expectancy": -0.000879,
+        "profit_factor": 0.739117,
+        "average_win": 0.007268,
+        "average_loss": -0.005122,
+        "max_drawdown": 0.089555
+      },
+      "not_post_spike": {
+        "trades": 464,
+        "wins": 222,
+        "losses": 242,
+        "win_rate": 0.478448,
+        "expectancy": 0.000726,
+        "profit_factor": 1.263859,
+        "average_win": 0.007269,
+        "average_loss": -0.005276,
+        "max_drawdown": 0.06833
+      }
+    },
+    "top_loss_buckets": [
+      {
+        "trades": 26,
+        "wins": 6,
+        "losses": 20,
+        "win_rate": 0.230769,
+        "expectancy": -0.001859,
+        "profit_factor": 0.481598,
+        "average_win": 0.007485,
+        "average_loss": -0.004662,
+        "max_drawdown": 0.047592,
+        "name": "late_us_trend"
+      },
+      {
+        "trades": 19,
+        "wins": 7,
+        "losses": 12,
+        "win_rate": 0.368421,
+        "expectancy": -0.001202,
+        "profit_factor": 0.650749,
+        "average_win": 0.00608,
+        "average_loss": -0.00545,
+        "max_drawdown": 0.037227,
+        "name": "low_vol_trend"
+      },
+      {
+        "trades": 35,
+        "wins": 13,
+        "losses": 22,
+        "win_rate": 0.371429,
+        "expectancy": -0.000971,
+        "profit_factor": 0.716464,
+        "average_win": 0.006608,
+        "average_loss": -0.00545,
+        "max_drawdown": 0.055329,
+        "name": "london_drag"
+      },
+      {
+        "trades": 73,
+        "wins": 25,
+        "losses": 48,
+        "win_rate": 0.342466,
+        "expectancy": -0.000879,
+        "profit_factor": 0.739117,
+        "average_win": 0.007268,
+        "average_loss": -0.005122,
+        "max_drawdown": 0.089555,
+        "name": "post_spike"
+      },
+      {
+        "trades": 41,
+        "wins": 18,
+        "losses": 23,
+        "win_rate": 0.439024,
+        "expectancy": -5.8e-05,
+        "profit_factor": 0.980957,
+        "average_win": 0.006831,
+        "average_loss": -0.00545,
+        "max_drawdown": 0.038878,
+        "name": "poor_liquidity"
+      }
+    ]
+  },
+  "score_validation": {
+    "bands": {
+      "high": {
+        "trades": 299,
+        "wins": 152,
+        "losses": 147,
+        "win_rate": 0.508361,
+        "expectancy": 0.001139,
+        "profit_factor": 1.439568,
+        "average_win": 0.007339,
+        "average_loss": -0.005271,
+        "max_drawdown": 0.038743
+      },
+      "mid": {
+        "trades": 155,
+        "wins": 67,
+        "losses": 88,
+        "win_rate": 0.432258,
+        "expectancy": 0.000171,
+        "profit_factor": 1.057915,
+        "average_win": 0.007241,
+        "average_loss": -0.005211,
+        "max_drawdown": 0.065302
+      },
+      "low": {
+        "trades": 83,
+        "wins": 28,
+        "losses": 55,
+        "win_rate": 0.337349,
+        "expectancy": -0.001137,
+        "profit_factor": 0.673649,
+        "average_win": 0.006959,
+        "average_loss": -0.005259,
+        "max_drawdown": 0.091471
+      }
+    },
+    "cutoff_score": 74.0
+  },
+  "filter_experiment": {
+    "cutoff_score": 74.0,
+    "control": {
+      "trades": 537,
+      "wins": 247,
+      "losses": 290,
+      "win_rate": 0.459963,
+      "expectancy": 0.000508,
+      "profit_factor": 1.179139,
+      "average_win": 0.007269,
+      "average_loss": -0.005251,
+      "max_drawdown": 0.081949
+    },
+    "experiment": {
+      "trades": 454,
+      "wins": 219,
+      "losses": 235,
+      "win_rate": 0.482379,
+      "expectancy": 0.000809,
+      "profit_factor": 1.297674,
+      "average_win": 0.007309,
+      "average_loss": -0.005249,
+      "max_drawdown": 0.07607
+    },
+    "removed": {
+      "trades": 83,
+      "wins": 28,
+      "losses": 55,
+      "win_rate": 0.337349,
+      "expectancy": -0.001137,
+      "profit_factor": 0.673649,
+      "average_win": 0.006959,
+      "average_loss": -0.005259,
+      "max_drawdown": 0.091471
+    },
+    "trades_removed": 83,
+    "winners_removed": 28,
+    "losers_removed": 55,
+    "filter_precision": 0.662651,
+    "removed_reason_counts": {
+      "repeated_reentry": 81,
+      "post_spike": 38,
+      "strong_trend_overstretch": 36,
+      "favorable_session": 24,
+      "late_us_trend": 23,
+      "london_drag": 19,
+      "poor_liquidity": 17,
+      "low_vol_trend": 13,
+      "high_volatility_range": 9,
+      "mid_trend_strength": 4,
+      "range_regime": 1
+    }
+  },
+  "stability": {
+    "first_half": {
+      "control": {
+        "trades": 268,
+        "wins": 121,
+        "losses": 147,
+        "win_rate": 0.451493,
+        "expectancy": 0.000428,
+        "profit_factor": 1.151178,
+        "average_win": 0.007222,
+        "average_loss": -0.005164,
+        "max_drawdown": 0.081949
+      },
+      "experiment": {
+        "trades": 221,
+        "wins": 105,
+        "losses": 116,
+        "win_rate": 0.475113,
+        "expectancy": 0.000754,
+        "profit_factor": 1.277373,
+        "average_win": 0.007308,
+        "average_loss": -0.005178,
+        "max_drawdown": 0.07607
+      }
+    },
+    "second_half": {
+      "control": {
+        "trades": 269,
+        "wins": 126,
+        "losses": 143,
+        "win_rate": 0.468401,
+        "expectancy": 0.000587,
+        "profit_factor": 1.206937,
+        "average_win": 0.007314,
+        "average_loss": -0.00534,
+        "max_drawdown": 0.076387
+      },
+      "experiment": {
+        "trades": 233,
+        "wins": 114,
+        "losses": 119,
+        "win_rate": 0.48927,
+        "expectancy": 0.000861,
+        "profit_factor": 1.316945,
+        "average_win": 0.00731,
+        "average_loss": -0.005318,
+        "max_drawdown": 0.056274
+      }
+    }
+  },
+  "readiness": {
+    "ready_for_research_filtering": true,
+    "ready_for_live_trading_integration": false,
+    "notes": [
+      "Score uses only pre-entry/context fields and ignores realized outcome when assigning per-trade quality.",
+      "This remains a research-only ranking/filtering layer until it survives broader out-of-sample testing."
+    ]
+  }
+}

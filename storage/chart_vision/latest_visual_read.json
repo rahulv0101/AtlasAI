@@ -1,0 +1,94 @@
+{
+  "enabled": true,
+  "advisory_only": true,
+  "source": "screenshot_plus_chart_features",
+  "symbol": "XAUUSD",
+  "timeframe": "M1",
+  "captured_at": "2026-10-23T05:17:12.961087+00:00",
+  "visual_bias": "buy",
+  "visual_structure": "HH/HL",
+  "pattern_seen": "messy_range",
+  "setup_cleanliness": "messy",
+  "setup_quality": 0.3804,
+  "visual_confirmation": "does_not_confirm",
+  "confidence_effect": "caution_or_confidence_haircut_only",
+  "reasons": [
+    "directional structure is visible",
+    "compressed or overlapping candles suggest a messy range"
+  ],
+  "image": {
+    "available": true,
+    "status": "loaded",
+    "path": "C:\\Users\\User\\Desktop\\Atlas AI\\storage\\chart_vision\\latest_desktop_chart.png",
+    "width": 1550,
+    "height": 830,
+    "brightness_ratio": 0.4453,
+    "contrast": 1.0
+  },
+  "visual_features": {
+    "available": true,
+    "status": "parsed",
+    "width": 1550,
+    "height": 830,
+    "chart_crop": {
+      "left": 77,
+      "top": 149,
+      "right": 1457,
+      "bottom": 780
+    },
+    "foreground_density": 0.04063,
+    "edge_density": 0.18222,
+    "slope": -0.04623,
+    "visual_move": 7.2413,
+    "visual_direction": "up",
+    "visual_structure": "HH/HL",
+    "visual_momentum": "mixed",
+    "visual_location": "mid_range",
+    "visual_noise": "medium",
+    "visual_range_span": 0.8444,
+    "confidence": 0.6191
+  },
+  "visual_parser_bias": "buy",
+  "visual_conflict": false,
+  "evidence_required": [
+    "screenshot from the active chart",
+    "matching M1/M15 candle-derived structure",
+    "clean location away from mid-range"
+  ],
+  "policy_note": "Visual chart reading is advisory evidence only; it cannot place trades, bypass guards, or rewrite strategy/risk/execution policy.",
+  "capture": {
+    "ok": true,
+    "path": "C:\\Users\\User\\Desktop\\Atlas AI\\storage\\chart_vision\\latest_desktop_chart.png",
+    "captured_at": "2026-10-23T05:17:12.876751+00:00",
+    "target_window": "mt5",
+    "capture_source": "mt5_window",
+    "capture_method": {
+      "ok": true,
+      "method": "printwindow"
+    },
+    "window": {
+      "hwnd": 395492,
+      "title": "57399598 - HFMarketsSA-Demo2: Demo Account - Hedge - HF Markets SA (Pty) Ltd",
+      "bbox": [
+        -7,
+        -7,
+        1543,
+        823
+      ],
+      "width": 1550,
+      "height": 830,
+      "terminal_score": 105,
+      "found": true,
+      "match_count": 1
+    },
+    "focus": {
+      "attempted": false,
+      "ok": false,
+      "reason": "printwindow_content_capture_used"
+    },
+    "note": "Captured MT5/HFM chart screenshot for advisory visual chart analysis."
+  },
+  "real_screenshot_attempted": true,
+  "live_chart_window_confirmed": true,
+  "saved_at": "2026-10-23T05:17:12.962088+00:00"
+}

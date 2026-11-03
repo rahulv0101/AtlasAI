@@ -1,0 +1,19 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-19 07:19:33,618 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-19 07:19:36,624 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-19 07:19:41,141 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-19 07:19:47,272 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 07:20:58,418 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 07:22:13,206 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-19 07:22:13,219 | INFO | openai._base_client | Retrying request to /chat/completions in 0.497950 seconds
+2026-05-19 07:22:14,329 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-19 07:22:14,330 | INFO | openai._base_client | Retrying request to /chat/completions in 0.933461 seconds
+2026-05-19 07:22:15,528 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-19 07:22:15,743 | INFO | atlas_ai.gold_knowledge | Gold knowledge applied | base=0.576 boosts=[] penalties=['session_asia:x0.5'] final=0.288
+2026-05-19 07:23:24,661 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 07:24:49,215 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 07:25:57,599 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 07:27:01,271 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 07:28:02,137 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 07:29:07,319 | INFO | atlas_ai.trader | No high-confidence trade found.

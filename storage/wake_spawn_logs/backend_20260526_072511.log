@@ -1,0 +1,18 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-26 09:25:13,988 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-26 09:25:17,021 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-26 09:25:27,692 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-26 09:25:39,026 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 09:26:41,823 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 09:27:44,004 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-26 09:28:46,799 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 09:29:54,256 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 09:29:54,503 | INFO | openai._base_client | Retrying request to /chat/completions in 0.430506 seconds
+2026-05-26 09:29:55,591 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 09:29:55,599 | INFO | openai._base_client | Retrying request to /chat/completions in 0.917799 seconds
+2026-05-26 09:29:57,668 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 09:30:28,563 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=27.2pips TP=40.8pips ATR=13.60 mult=2.00
+2026-05-26 09:33:01,537 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 09:33:29,310 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=27.2pips TP=40.8pips ATR=13.60 mult=2.00
+2026-05-26 09:34:03,175 | INFO | atlas_ai.trader | No directional trade signal selected.

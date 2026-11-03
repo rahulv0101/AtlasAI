@@ -1,0 +1,109 @@
+{
+  "state": {
+    "allocator": {
+      "momentum_continuation": {
+        "wins": 61,
+        "losses": 62,
+        "pnl": 0.09707173913053144
+      },
+      "evolved_rule": {
+        "wins": 209,
+        "losses": 209,
+        "pnl": 0.5546000000004224
+      }
+    },
+    "best_evolved_strategy": {
+      "fast": 39,
+      "slow": 100,
+      "rsi_buy": 48.76632241812285,
+      "rsi_sell": 44.32106355027882,
+      "profit_score": 0.024446760951437742,
+      "trained_bars": 2200,
+      "trades": 409,
+      "wins": 236,
+      "losses": 173,
+      "win_rate": 0.5770171149144254,
+      "signature": "f39_s100_rb48.8_rs44.3",
+      "source": "mutation_tournament",
+      "mutation_train_bars": 1400
+    },
+    "evolved_strategy_pool": {
+      "generated_at": "2026-05-06T10:45:27.350344+00:00",
+      "trained_bars": 1400,
+      "backtest_bars": 2200,
+      "count": 4,
+      "champion_signature": "f39_s100_rb48.8_rs44.3",
+      "candidates": [
+        {
+          "fast": 39,
+          "slow": 100,
+          "rsi_buy": 48.76632241812285,
+          "rsi_sell": 44.32106355027882,
+          "score": 0.024446760951437742,
+          "trades": 409,
+          "wins": 236,
+          "losses": 173,
+          "win_rate": 0.5770171149144254,
+          "profit_component": 0.029425324394167264,
+          "confidence_floor": 0.6795203622290873,
+          "generations": 10,
+          "population": 18,
+          "source": "mutation_tournament",
+          "signature": "f39_s100_rb48.8_rs44.3"
+        },
+        {
+          "fast": 34,
+          "slow": 99,
+          "rsi_buy": 46.842488925244886,
+          "rsi_sell": 46.92628128343138,
+          "score": 0.024348028572229282,
+          "trades": 353,
+          "wins": 207,
+          "losses": 146,
+          "win_rate": 0.5864022662889519,
+          "profit_component": 0.029174657454164754,
+          "confidence_floor": 0.6920827041594702,
+          "generations": 10,
+          "population": 18,
+          "source": "mutation_tournament",
+          "signature": "f34_s99_rb46.8_rs46.9"
+        },
+        {
+          "fast": 40,
+          "slow": 94,
+          "rsi_buy": 49.153612691162294,
+          "rsi_sell": 45.70837321700376,
+          "score": 0.023675552868544336,
+          "trades": 401,
+          "wins": 232,
+          "losses": 169,
+          "win_rate": 0.5785536159600998,
+          "profit_component": 0.02847599490187846,
+          "confidence_floor": 0.6476479508677808,
+          "generations": 10,
+          "population": 18,
+          "source": "mutation_tournament",
+          "signature": "f40_s94_rb49.2_rs45.7"
+        },
+        {
+          "fast": 33,
+          "slow": 92,
+          "rsi_buy": 49.207393131868905,
+          "rsi_sell": 45.573402003695094,
+          "score": 0.023217373610317598,
+          "trades": 393,
+          "wins": 226,
+          "losses": 167,
+          "win_rate": 0.5750636132315522,
+          "profit_component": 0.02797188175614597,
+          "confidence_floor": 0.6718798384974057,
+          "generations": 10,
+          "population": 18,
+          "source": "mutation_tournament",
+          "signature": "f33_s92_rb49.2_rs45.6"
+        }
+      ]
+    }
+  },
+  "updated_at": "2026-05-06T10:45:27.374543+00:00"
+}

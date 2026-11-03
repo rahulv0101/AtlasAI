@@ -1,0 +1,12 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main ui --mode-override live
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\main.py", line 1791, in <module>
+    main()
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\main.py", line 1653, in main
+    run_ui_only(
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\main.py", line 1296, in run_ui_only
+    raise RuntimeError("Durable UI server did not become reachable for desktop shell attach.")
+RuntimeError: Durable UI server did not become reachable for desktop shell attach.

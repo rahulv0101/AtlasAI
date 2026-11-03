@@ -1,0 +1,15 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-18 17:41:35,805 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-18 17:41:38,812 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-18 17:41:41,175 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-18 17:41:41,179 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=-4.43 (44.3pips) TP=6.65 (66.5pips) ATR=22.15 mult=2.00
+2026-05-18 17:42:57,687 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 17:45:15,130 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 17:46:28,182 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 17:47:33,981 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 17:47:42,768 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=-4.43 (44.3pips) TP=6.65 (66.5pips) ATR=22.15 mult=2.00
+2026-05-18 17:48:36,179 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 17:50:36,788 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 17:51:37,029 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 17:52:37,265 | INFO | atlas_ai.trader | No high-confidence trade found.

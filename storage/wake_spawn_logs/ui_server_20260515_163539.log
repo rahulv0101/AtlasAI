@@ -1,0 +1,12 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui-server --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main ui-server --mode-override live
+2026-05-15 18:35:47,146 | INFO | atlas_ai.voice.startup | Startup greeting triggered.
+2026-05-15 18:35:47,189 | WARNING | atlas_ai.voice.startup | Startup voice clone backend unavailable (backend=none); falling back to existing speech chain.
+2026-05-15 18:35:47,190 | INFO | atlas_ai.voice.startup | Fallback voice used for startup greeting.
+2026-05-15 18:35:47,242 | INFO | atlas_ai.voice.startup | Startup greeting playback success.
+2026-05-15 18:35:47,307 | INFO | atlas_ai.ui_server | Starting durable UI server on http://127.0.0.1:8765
+2026-05-15 18:35:49,613 | INFO | werkzeug | 127.0.0.1 - - [15/May/2026 18:35:49] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-15 18:35:49,630 | INFO | werkzeug | 127.0.0.1 - - [15/May/2026 18:35:49] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-15 18:35:49,690 | INFO | werkzeug | 127.0.0.1 - - [15/May/2026 18:35:49] "GET /api/self-improvement/audit?_ts=1778862949491 HTTP/1.1" 200 -
+2026-05-15 18:35:50,843 | INFO | werkzeug | 127.0.0.1 - - [15/May/2026 18:35:50] "GET /api/self-improvement/proposals?_ts=1778862949489 HTTP/1.1" 200 -
+2026-05-15 18:35:50,858 | INFO | werkzeug | 127.0.0.1 - - [15/May/2026 18:35:50] "GET /api/self-improvement/rollouts?_ts=1778862949490 HTTP/1.1" 200 -

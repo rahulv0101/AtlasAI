@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-10-23T05:18:09.970800+00:00",
+  "http": {
+    "checks": [],
+    "ok": false
+  },
+  "message": "UI server unhealthy: process_missing.",
+  "restart_attempt": {
+    "reason": "process_missing",
+    "started_ui_server": {
+      "command": [
+        "C:\\Users\\User\\Desktop\\Atlas AI\\.venv\\Scripts\\python.exe",
+        "-m",
+        "atlas_ai.main",
+        "ui-server"
+      ],
+      "pid": 13928,
+      "started": true
+    },
+    "stopped_existing_ui_server": {
+      "attempted": false,
+      "pid": null,
+      "was_running": false
+    }
+  },
+  "restart_enabled": true,
+  "schema": "atlas_ui_staleness_alert_v1",
+  "status": "active",
+  "ui_health": {
+    "bind_host": "127.0.0.1",
+    "bind_port": 8765,
+    "cycle_count": 41480,
+    "is_fresh": true,
+    "last_heartbeat": "2026-10-23T05:16:30.541725+00:00",
+    "pid": 85356,
+    "seconds_since_heartbeat": 99,
+    "staleness_threshold_seconds": 180,
+    "status": "live"
+  },
+  "ui_process": {
+    "detail": "",
+    "pid": null,
+    "running": false
+  }
+}

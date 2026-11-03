@@ -1,0 +1,14 @@
+{
+  "backend_health": {
+    "cycle_count": 38861,
+    "is_fresh": true,
+    "last_heartbeat": "2026-10-23T05:13:47.501741+00:00",
+    "seconds_since_heartbeat": 230,
+    "staleness_threshold_seconds": 450,
+    "status": "live"
+  },
+  "message": "Backend heartbeat is fresh again.",
+  "schema": "atlas_backend_staleness_alert_v1",
+  "status": "recovered",
+  "updated_at": "2026-10-23T05:17:38.341252+00:00"
+}

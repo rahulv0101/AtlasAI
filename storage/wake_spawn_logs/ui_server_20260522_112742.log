@@ -1,0 +1,37 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui-server --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\pythonw.exe -m atlas_ai.main ui-server --mode-override live
+2026-05-22 13:27:43,097 | INFO | atlas_ai.voice.startup | Startup greeting triggered.
+2026-05-22 13:27:43,130 | WARNING | atlas_ai.voice.startup | Startup voice clone backend unavailable (backend=none); falling back to existing speech chain.
+2026-05-22 13:27:43,131 | INFO | atlas_ai.voice.startup | Fallback voice used for startup greeting.
+2026-05-22 13:27:43,133 | INFO | atlas_ai.voice.startup | Startup greeting playback success.
+2026-05-22 13:27:43,198 | INFO | atlas_ai.ui_server | Starting durable UI server on http://127.0.0.1:8765
+2026-05-22 13:27:45,870 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:27:45] "GET / HTTP/1.1" 200 -
+2026-05-22 13:27:46,068 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:27:46] "GET / HTTP/1.1" 200 -
+2026-05-22 13:27:55,544 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:27:55] "GET / HTTP/1.1" 200 -
+2026-05-22 13:27:55,648 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:27:55] "GET /style.css HTTP/1.1" 200 -
+2026-05-22 13:27:55,649 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:27:55] "GET /app.js HTTP/1.1" 200 -
+2026-05-22 13:27:55,712 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:27:55] "POST /api/ui-ready HTTP/1.1" 200 -
+2026-05-22 13:27:57,494 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:27:57] "GET /api/status/compact?_ts=1779449275736 HTTP/1.1" 200 -
+2026-05-22 13:28:00,294 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:28:00] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-22 13:28:00,362 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:28:00] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-22 13:28:00,392 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:28:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-22 13:28:02,207 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:28:02] "GET /api/self-improvement/rollouts?_ts=1779449275739 HTTP/1.1" 200 -
+2026-05-22 13:28:02,208 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:28:02] "GET /api/self-improvement/proposals?_ts=1779449275739 HTTP/1.1" 200 -
+2026-05-22 13:28:03,318 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:28:03] "GET /api/status/compact?_ts=1779449281736 HTTP/1.1" 200 -
+2026-05-22 13:28:26,534 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:28:26] "GET /api/status/compact?_ts=1779449294061 HTTP/1.1" 200 -
+2026-05-22 13:28:26,540 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:28:26] "GET /api/status/compact?_ts=1779449299736 HTTP/1.1" 200 -
+2026-05-22 13:28:27,522 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:28:27] "GET /api/status/compact?_ts=1779449306248 HTTP/1.1" 200 -
+2026-05-22 13:28:32,953 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:28:32] "GET /api/health HTTP/1.1" 200 -
+2026-05-22 13:28:35,607 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:28:35] "GET /api/status/compact?_ts=1779449311738 HTTP/1.1" 200 -
+2026-05-22 13:28:58,617 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:28:58] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-22 13:28:58,626 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:28:58] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-05-22 13:28:58,655 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:28:58] "GET /api/self-improvement/proposals?_ts=1779449335894 HTTP/1.1" 200 -
+2026-05-22 13:28:58,772 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:28:58] "GET /api/self-improvement/audit?_ts=1779449335895 HTTP/1.1" 200 -
+2026-05-22 13:28:58,776 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:28:58] "GET /api/self-improvement/rollouts?_ts=1779449335894 HTTP/1.1" 200 -
+2026-05-22 13:29:27,129 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:29:27] "GET /api/status/compact?_ts=1779449334094 HTTP/1.1" 200 -
+2026-05-22 13:29:27,131 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:29:27] "GET /api/status/compact?_ts=1779449339745 HTTP/1.1" 200 -
+2026-05-22 13:29:27,195 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:29:27] "GET /api/status/compact?_ts=1779449323740 HTTP/1.1" 200 -
+2026-05-22 13:29:27,288 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:29:27] "GET /api/status/compact?_ts=1779449317737 HTTP/1.1" 200 -
+2026-05-22 13:29:27,411 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:29:27] "GET /api/health HTTP/1.1" 200 -
+2026-05-22 13:31:00,059 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:31:00] "GET /api/health HTTP/1.1" 200 -
+2026-05-22 13:31:08,763 | INFO | werkzeug | 127.0.0.1 - - [22/May/2026 13:31:08] "GET /api/self-improvement/proposals?_ts=1779449458867 HTTP/1.1" 200 -

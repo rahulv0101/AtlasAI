@@ -1,0 +1,7 @@
+2026-06-02 22:12:36,678 | INFO | atlas_ai.voice.startup | Startup greeting triggered.
+2026-06-02 22:12:36,710 | WARNING | atlas_ai.voice.startup | Startup voice clone backend unavailable (backend=none); falling back to existing speech chain.
+2026-06-02 22:12:36,712 | INFO | atlas_ai.voice.startup | Fallback voice used for startup greeting.
+2026-06-02 22:12:36,717 | INFO | atlas_ai.voice.startup | Startup greeting playback success.
+2026-06-02 22:12:36,811 | INFO | atlas_ai.ui_server | Starting durable UI server on http://127.0.0.1:8765
+2026-06-02 22:13:07,174 | INFO | werkzeug | 127.0.0.1 - - [02/Jun/2026 22:13:07] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-06-02 22:13:07,552 | INFO | werkzeug | 127.0.0.1 - - [02/Jun/2026 22:13:07] "GET /api/status HTTP/1.1" 200 -

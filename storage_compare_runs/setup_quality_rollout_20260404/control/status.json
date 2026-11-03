@@ -1,0 +1,492 @@
+{
+  "symbol": "XAUUSD",
+  "timeframe": "M1",
+  "gemini_enabled": true,
+  "risk": {
+    "equity": 868735.03,
+    "balance": 868735.03,
+    "daily_loss_pct": 0.0,
+    "open_positions": 0,
+    "spread_points": 35.0,
+    "trades_today": 0,
+    "consecutive_losses": 0,
+    "daily_profit_zar": 0.0,
+    "weekly_loss_pct": 0.0
+  },
+  "signals": [
+    {
+      "strategy": "evolved_rule(fast=12,slow=84,rsi_buy=48.6,rsi_sell=40.0)",
+      "side": "sell",
+      "confidence": 0.8985
+    },
+    {
+      "strategy": "evolved_rule(fast=12,slow=82,rsi_buy=49.8,rsi_sell=40.0)",
+      "side": "sell",
+      "confidence": 0.8673
+    },
+    {
+      "strategy": "evolved_rule(fast=13,slow=82,rsi_buy=47.7,rsi_sell=40.0)",
+      "side": "sell",
+      "confidence": 0.8615
+    },
+    {
+      "strategy": "evolved_rule(fast=13,slow=80,rsi_buy=50.4,rsi_sell=40.0)",
+      "side": "sell",
+      "confidence": 0.8298
+    },
+    {
+      "strategy": "momentum_continuation",
+      "side": "flat",
+      "confidence": 0.0
+    },
+    {
+      "strategy": "gold_micro_impulse",
+      "side": "flat",
+      "confidence": 0.0
+    },
+    {
+      "strategy": "gold_liquidity_sweep",
+      "side": "flat",
+      "confidence": 0.0
+    }
+  ],
+  "signals_active": [
+    {
+      "strategy": "evolved_rule(fast=12,slow=82,rsi_buy=49.8,rsi_sell=40.0)",
+      "side": "sell",
+      "confidence": 0.8673,
+      "contextual_score": 0.6047
+    },
+    {
+      "strategy": "evolved_rule(fast=13,slow=80,rsi_buy=50.4,rsi_sell=40.0)",
+      "side": "sell",
+      "confidence": 0.8298,
+      "contextual_score": 0.5837
+    },
+    {
+      "strategy": "evolved_rule(fast=12,slow=84,rsi_buy=48.6,rsi_sell=40.0)",
+      "side": "sell",
+      "confidence": 0.8985,
+      "contextual_score": 0.5622
+    },
+    {
+      "strategy": "evolved_rule(fast=13,slow=82,rsi_buy=47.7,rsi_sell=40.0)",
+      "side": "sell",
+      "confidence": 0.8615,
+      "contextual_score": 0.5296
+    },
+    {
+      "strategy": "momentum_continuation",
+      "side": "flat",
+      "confidence": 0.0,
+      "contextual_score": 0.0
+    }
+  ],
+  "chosen": {
+    "strategy": "evolved_rule(fast=12,slow=82,rsi_buy=49.8,rsi_sell=40.0)",
+    "side": "sell",
+    "confidence": 0.6809939119782337,
+    "stop_loss_points": 100.0,
+    "take_profit_points": 160.0
+  },
+  "market": {
+    "recent_close": [
+      4756.88,
+      4760.76,
+      4758.76,
+      4759.44,
+      4760.15,
+      4761.25,
+      4758.02,
+      4757.57,
+      4762.07,
+      4761.21,
+      4759.62,
+      4761.13,
+      4762.95,
+      4761.63,
+      4763.31,
+      4763.29,
+      4762.28,
+      4760.43,
+      4757.16,
+      4757.24
+    ],
+    "recent_time": [
+      "2026-04-10 19:23:00",
+      "2026-04-10 19:24:00",
+      "2026-04-10 19:25:00",
+      "2026-04-10 19:26:00",
+      "2026-04-10 19:27:00",
+      "2026-04-10 19:28:00",
+      "2026-04-10 19:29:00",
+      "2026-04-10 19:30:00",
+      "2026-04-10 19:31:00",
+      "2026-04-10 19:32:00",
+      "2026-04-10 19:33:00",
+      "2026-04-10 19:34:00",
+      "2026-04-10 19:35:00",
+      "2026-04-10 19:36:00",
+      "2026-04-10 19:37:00",
+      "2026-04-10 19:38:00",
+      "2026-04-10 19:39:00",
+      "2026-04-10 19:40:00",
+      "2026-04-10 19:41:00",
+      "2026-04-10 19:42:00"
+    ],
+    "last_close": 4757.24
+  },
+  "regime": {
+    "name": "trend",
+    "trend_strength": 0.1758,
+    "volatility_pct": 0.0374
+  },
+  "higher_timeframe": {
+    "confirm_tf": "M5",
+    "bias": "sell"
+  },
+  "action": "blocked",
+  "message": "M1 spread guard blocked trade (35.0 pts).",
+  "execute_trades": false,
+  "gemini_influence_enabled": false,
+  "drift": {
+    "active": true,
+    "severe": false,
+    "delta": -0.196,
+    "recent_win_rate_20": 0.15,
+    "baseline_win_rate": 0.346,
+    "signal_adjustments": [],
+    "strategy_weight_adjustments": [
+      "momentum_continuation wr=0.35 x0.88"
+    ]
+  },
+  "contextual_ranking": {
+    "chosen_score": 0.6047,
+    "top": [
+      {
+        "strategy": "evolved_rule(fast=12,slow=82,rsi_buy=49.8,rsi_sell=40.0)",
+        "score": 0.6047,
+        "factor": 1.024,
+        "setup_quality_score": 0.0,
+        "reasons": [
+          "consensus_support",
+          "htf_aligned",
+          "drift_low_volume",
+          "disabled"
+        ]
+      },
+      {
+        "strategy": "evolved_rule(fast=13,slow=80,rsi_buy=50.4,rsi_sell=40.0)",
+        "score": 0.5837,
+        "factor": 1.024,
+        "setup_quality_score": 0.0,
+        "reasons": [
+          "consensus_support",
+          "htf_aligned",
+          "drift_low_volume",
+          "disabled"
+        ]
+      },
+      {
+        "strategy": "evolved_rule(fast=12,slow=84,rsi_buy=48.6,rsi_sell=40.0)",
+        "score": 0.5622,
+        "factor": 1.024,
+        "setup_quality_score": 0.0,
+        "reasons": [
+          "consensus_support",
+          "htf_aligned",
+          "drift_low_volume",
+          "disabled"
+        ]
+      }
+    ],
+    "best_actionable": {
+      "strategy": "evolved_rule(fast=12,slow=82,rsi_buy=49.8,rsi_sell=40.0)",
+      "side": "sell",
+      "confidence": 0.8673,
+      "score": 0.6047,
+      "setup_quality_score": 0.0,
+      "reasons": [
+        "consensus_support",
+        "htf_aligned",
+        "drift_low_volume",
+        "disabled"
+      ]
+    }
+  },
+  "best_actionable_candidate": {
+    "strategy": "evolved_rule(fast=12,slow=82,rsi_buy=49.8,rsi_sell=40.0)",
+    "side": "sell",
+    "confidence": 0.8673,
+    "score": 0.6047,
+    "setup_quality_score": 0.0,
+    "reasons": [
+      "consensus_support",
+      "htf_aligned",
+      "drift_low_volume",
+      "disabled"
+    ]
+  },
+  "signal_summary": {
+    "raw_count": 7,
+    "active_count": 7,
+    "filtered_out_count": 0,
+    "evolved_raw_count": 4,
+    "evolved_active_count": 4
+  },
+  "health": {
+    "broker": {
+      "connected": true,
+      "symbol_selected": true
+    },
+    "llm": {
+      "enabled": true,
+      "providers": [
+        {
+          "name": "openai",
+          "in_cooldown": false,
+          "cooldown_seconds_left": 0,
+          "last_error": ""
+        }
+      ]
+    },
+    "risk_guard": {
+      "max_trades_per_day": 12,
+      "max_consecutive_losses": 3,
+      "cooldown_minutes_after_loss_streak": 60
+    }
+  },
+  "gemini_note": "Deferred to post-execution to reduce loop latency.",
+  "same_side_support": {
+    "side": "sell",
+    "count": 4
+  },
+  "min_confidence_threshold": 0.58,
+  "win_rate_focus": {
+    "enabled": true,
+    "target": 0.55,
+    "recent_win_rate": 0.2,
+    "samples": 30,
+    "confidence_bump": 0.08
+  },
+  "loss_learning": {
+    "applied": true,
+    "penalty": 0.09,
+    "components": {
+      "hour_pattern_penalty": 0.0,
+      "recent_side_penalty": 0.09
+    },
+    "reason": "Recent sell penalty 0.090 (wr=0.33, loss_streak=2)"
+  },
+  "ema_fresh_cross_guard": {
+    "enabled": true,
+    "mode": "soft",
+    "required": true,
+    "chosen_side": "sell",
+    "ema_side": "flat",
+    "ema_confidence": 0.0,
+    "confidence_before": 0.7893,
+    "confidence_after": 0.7261
+  },
+  "side_balance": {
+    "enabled": true,
+    "applied": false,
+    "reason": "insufficient_samples",
+    "counts": {
+      "buy": 0,
+      "sell": 0
+    }
+  },
+  "execution_cluster": {
+    "enabled": true,
+    "applied": false,
+    "reason": "insufficient_history",
+    "lookback": 0
+  },
+  "smart_context": {
+    "enabled": true,
+    "applied": true,
+    "factor": 0.9924,
+    "penalty": 0.0376,
+    "boost": 0.03,
+    "session_samples": 29,
+    "hour_samples": 1,
+    "session_win_rate": 0.345,
+    "hour_win_rate": 0.0,
+    "reasons": [
+      "session_new_york_wr=0.34",
+      "trend_htf_aligned"
+    ]
+  },
+  "m1_quality": {
+    "enabled": true,
+    "applied": true,
+    "factor": 0.945,
+    "spread_points": 35.0,
+    "body_ratio": 0.0546,
+    "last_volume": 220.0,
+    "avg_volume_8": 292.88,
+    "session": "new_york",
+    "reasons": [
+      "m1_weak_body",
+      "htf_trend_alignment"
+    ],
+    "hard_blocked": true
+  },
+  "lane": "control",
+  "context_snapshot": {
+    "symbol": "XAUUSD",
+    "timestamp": "2026-04-10T19:42:00",
+    "regime": "trend",
+    "session": "unknown",
+    "trend_strength": 0.1758,
+    "volatility_state": "normal",
+    "spread_state": "normal",
+    "liquidity_state": "unknown",
+    "repeated_entry_risk": false,
+    "overstretched_entry_risk": false
+  },
+  "decision_explanation": {
+    "candidate_id": "|evolved_rule(fast=12,slow=82,rsi_buy=49.8,rsi_sell=40.0)|sell",
+    "trade_id": "",
+    "lane": "control",
+    "mode": "paper",
+    "symbol": "XAUUSD",
+    "timestamp": "",
+    "signal_source": "evolved_rule(fast=12,slow=82,rsi_buy=49.8,rsi_sell=40.0)",
+    "regime": "trend",
+    "session": "unknown",
+    "trend_strength": 0.1758,
+    "setup_quality_reasons": [
+      "consensus_support",
+      "htf_aligned",
+      "drift_low_volume",
+      "disabled"
+    ],
+    "active_guards": [
+      {
+        "name": "loss_learning",
+        "enabled": true,
+        "applied": true,
+        "hard_blocked": false,
+        "reason": "Recent sell penalty 0.090 (wr=0.33, loss_streak=2)"
+      },
+      {
+        "name": "ema_fresh_cross_guard",
+        "enabled": true,
+        "applied": false,
+        "hard_blocked": false,
+        "reason": ""
+      },
+      {
+        "name": "side_balance",
+        "enabled": true,
+        "applied": false,
+        "hard_blocked": false,
+        "reason": "insufficient_samples"
+      },
+      {
+        "name": "execution_cluster",
+        "enabled": true,
+        "applied": false,
+        "hard_blocked": false,
+        "reason": "insufficient_history"
+      },
+      {
+        "name": "smart_context",
+        "enabled": true,
+        "applied": true,
+        "hard_blocked": false,
+        "reason": ""
+      },
+      {
+        "name": "m1_quality",
+        "enabled": true,
+        "applied": true,
+        "hard_blocked": true,
+        "reason": ""
+      }
+    ],
+    "penalties": [
+      {
+        "source": "loss_learning",
+        "value": 0.09,
+        "reason": "Recent sell penalty 0.090 (wr=0.33, loss_streak=2)"
+      }
+    ],
+    "final_decision": "block",
+    "reason_codes": [
+      "consensus_support",
+      "htf_aligned",
+      "drift_low_volume",
+      "disabled",
+      "loss_learning",
+      "smart_context",
+      "m1_quality",
+      "m1_spread_guard_blocked_trade_35_0_pts"
+    ],
+    "explanation_text": "M1 spread guard blocked trade (35.0 pts)."
+  },
+  "system_health": {
+    "effective_mode": "paper",
+    "paper_mode_confirmed": true,
+    "filter_state": {
+      "conservative_filter_enabled": false,
+      "research_regime_filter_enabled": false
+    },
+    "ml_state": {
+      "meta_model_enabled": false,
+      "decision_authority": "disabled"
+    },
+    "gemini_state": {
+      "enabled": true,
+      "influence_enabled": false,
+      "provider_health": {
+        "enabled": true,
+        "providers": [
+          {
+            "name": "openai",
+            "in_cooldown": false,
+            "cooldown_seconds_left": 0,
+            "last_error": ""
+          }
+        ]
+      }
+    },
+    "stale_data_detected": false,
+    "config_mismatch_detected": false,
+    "routing_risk_detected": false,
+    "broker_connectivity_status": {
+      "connected": true,
+      "symbol_selected": true
+    },
+    "warnings": []
+  },
+  "shadow_advice": {
+    "trade_id": "|evolved_rule(fast=12,slow=82,rsi_buy=49.8,rsi_sell=40.0)|sell",
+    "setup_score": 0.0,
+    "confidence": 0.681,
+    "anomaly_flags": [
+      "blocked_trade"
+    ],
+    "alternative_ranking": [
+      {
+        "strategy": "evolved_rule(fast=12,slow=82,rsi_buy=49.8,rsi_sell=40.0)",
+        "score": 0.6047,
+        "confidence": 0.0
+      },
+      {
+        "strategy": "evolved_rule(fast=13,slow=80,rsi_buy=50.4,rsi_sell=40.0)",
+        "score": 0.5837,
+        "confidence": 0.0
+      },
+      {
+        "strategy": "evolved_rule(fast=12,slow=84,rsi_buy=48.6,rsi_sell=40.0)",
+        "score": 0.5622,
+        "confidence": 0.0
+      }
+    ],
+    "recommendation": "observe"
+  },
+  "updated_at": "2026-04-10T16:42:38.888349+00:00"
+}

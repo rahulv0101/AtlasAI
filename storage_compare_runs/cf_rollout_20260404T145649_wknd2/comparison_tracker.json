@@ -1,0 +1,41 @@
+{
+  "paired_candidates": {
+    "XAUUSD|M1|2026-04-02 23:59:00|momentum_continuation|buy|115.0|175.0": {
+      "candidate_key": "XAUUSD|M1|2026-04-02 23:59:00|momentum_continuation|buy|115.0|175.0",
+      "control": {
+        "lane": "control",
+        "candidate_key": "XAUUSD|M1|2026-04-02 23:59:00|momentum_continuation|buy|115.0|175.0",
+        "action": "blocked",
+        "message": "Consensus guard blocked trade: side=buy, support=1, required=2.",
+        "strategy": "momentum_continuation",
+        "side": "buy",
+        "confidence": 0.260954,
+        "session": "",
+        "regime": "range",
+        "trend_strength": 0.1029,
+        "filter_reason": "Consensus guard blocked trade: side=buy, support=1, required=2.",
+        "updated_at": ""
+      },
+      "experiment": {
+        "lane": "experiment",
+        "candidate_key": "XAUUSD|M1|2026-04-02 23:59:00|momentum_continuation|buy|115.0|175.0",
+        "action": "blocked",
+        "message": "Consensus guard blocked trade: side=buy, support=1, required=2.",
+        "strategy": "momentum_continuation",
+        "side": "buy",
+        "confidence": 0.260954,
+        "session": "",
+        "regime": "range",
+        "trend_strength": 0.1029,
+        "filter_reason": "Consensus guard blocked trade: side=buy, support=1, required=2.",
+        "updated_at": ""
+      },
+      "updated_at": "2026-04-04T12:58:00.079470+00:00"
+    }
+  },
+  "filtered_by_experiment": {},
+  "taken_by_both": {},
+  "control_only_taken": {},
+  "experiment_only_taken": {},
+  "last_report_at": "2026-04-04T12:58:00.088698+00:00"
+}

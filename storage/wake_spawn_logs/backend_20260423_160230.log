@@ -1,0 +1,11 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-04-23 18:02:32,869 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-04-23 18:02:35,877 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-04-23 18:02:38,340 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-23 18:03:38,856 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-23 18:04:39,490 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-23 18:05:42,857 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-23 18:05:42,857 | INFO | openai._base_client | Retrying request to /chat/completions in 0.465773 seconds
+2026-04-23 18:05:43,704 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-23 18:05:43,705 | INFO | openai._base_client | Retrying request to /chat/completions in 0.851015 seconds
+2026-04-23 18:05:44,988 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"

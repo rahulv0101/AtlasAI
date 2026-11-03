@@ -1,0 +1,22 @@
+{
+  "execute_trades": false,
+  "gemini_influence_enabled": false,
+  "paper_rollout": {
+    "lane": "experiment",
+    "run_id": "cf_rollout_20260404T145649_wknd2",
+    "preset": "conservative_filter_rollout_v1"
+  },
+  "updated_at": "2026-04-04T12:56:59.593169+00:00",
+  "closed_learning_synced_until": "2026-04-04T12:56:59.245160+00:00",
+  "drift_alert_last_at": "2026-04-04T12:56:59.437758+00:00",
+  "drift_alert_last_delta": -0.1959,
+  "risk_guard_state": {
+    "date": "2026-04-04",
+    "trades_today": 0,
+    "consecutive_losses": 0,
+    "cooldown_until": "",
+    "start_balance": 854418.49,
+    "week_key": "2026-03-30",
+    "week_start_balance": 854418.49
+  }
+}

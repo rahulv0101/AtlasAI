@@ -1,0 +1,37 @@
+{
+  "action": "paper_ready",
+  "message": "Paper rollout preset ready for lane=experiment.",
+  "lane": "experiment",
+  "run_id": "compare_20260430T232442Z",
+  "preset": "conservative_filter_rollout_v1",
+  "effective_mode": "paper",
+  "symbol": "XAUUSD",
+  "timeframe": "M1",
+  "conservative_filter": {
+    "enabled": true,
+    "block_late_us_trend": true,
+    "block_post_spike": true,
+    "block_poor_liquidity": true,
+    "poor_liquidity_volume_ratio": 0.8,
+    "post_spike_atr_multiple": 1.6
+  },
+  "setup_quality_filter": {
+    "enabled": false,
+    "min_score": 76.0
+  },
+  "meta_model": {
+    "enabled": false
+  },
+  "overlay_state": {
+    "research_regime_filter_enabled": false,
+    "gemini_influence_enabled": false
+  },
+  "risk": {
+    "max_risk_per_trade": 0.005,
+    "max_open_trades": 2,
+    "max_spread_points": 80.0,
+    "max_trades_per_day": 12,
+    "max_consecutive_losses": 3
+  },
+  "updated_at": "2026-04-30T23:24:42.469802+00:00"
+}

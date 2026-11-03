@@ -1,0 +1,3906 @@
+{
+  "symbol": "XAUUSD",
+  "timeframe": "M15",
+  "session": "new_york",
+  "gemini_enabled": true,
+  "risk": {
+    "equity": 121209.66,
+    "balance": 121209.66,
+    "daily_loss_pct": 0.0,
+    "open_positions": 0,
+    "spread_points": 43.0,
+    "trades_today": 0,
+    "consecutive_losses": 0,
+    "daily_profit_zar": 0.0,
+    "weekly_loss_pct": 0.0
+  },
+  "signals": [
+    {
+      "strategy": "ema_crossover",
+      "side": "sell",
+      "confidence": 1.0
+    },
+    {
+      "strategy": "momentum_continuation",
+      "side": "sell",
+      "confidence": 0.7502
+    },
+    {
+      "strategy": "pullback_trend",
+      "side": "flat",
+      "confidence": 0.0
+    }
+  ],
+  "signals_active": [
+    {
+      "strategy": "momentum_continuation",
+      "side": "sell",
+      "confidence": 0.7502,
+      "contextual_score": 0.5616
+    }
+  ],
+  "chosen": {
+    "strategy": "momentum_continuation",
+    "side": "sell",
+    "confidence": 0.7502444503614677,
+    "signal_confidence_seed": 0.7502444503614677,
+    "stop_loss_points": 115.0,
+    "take_profit_points": 175.0
+  },
+  "market": {
+    "recent_close": [
+      4497.82,
+      4480.88,
+      4469.06,
+      4479.29,
+      4480.81,
+      4478.04,
+      4467.16,
+      4469.21,
+      4461.01,
+      4456.25,
+      4451.39,
+      4456.78,
+      4457.12,
+      4462.03,
+      4465.12,
+      4458.47,
+      4457.74,
+      4457.8,
+      4457.01,
+      4454.84
+    ],
+    "recent_time": [
+      "2026-08-28 19:00:00",
+      "2026-08-28 19:15:00",
+      "2026-08-28 19:30:00",
+      "2026-08-28 19:45:00",
+      "2026-08-28 20:00:00",
+      "2026-08-28 20:15:00",
+      "2026-08-28 20:30:00",
+      "2026-08-28 20:45:00",
+      "2026-08-28 21:00:00",
+      "2026-08-28 21:15:00",
+      "2026-08-28 21:30:00",
+      "2026-08-28 21:45:00",
+      "2026-08-28 22:00:00",
+      "2026-08-28 22:15:00",
+      "2026-08-28 22:30:00",
+      "2026-08-28 22:45:00",
+      "2026-08-28 23:00:00",
+      "2026-08-28 23:15:00",
+      "2026-08-28 23:30:00",
+      "2026-08-28 23:45:00"
+    ],
+    "last_close": 4454.84
+  },
+  "regime": {
+    "name": "trend",
+    "trend_strength": 2.7693,
+    "volatility_pct": 0.1531,
+    "regime_label": "trending",
+    "regime_label_detail": {
+      "label": "trending",
+      "confidence": 0.95,
+      "reason": "close-to-close slope -2.7693% exceeds trend threshold",
+      "metrics": {
+        "samples": 60,
+        "slope_pct": -2.769266,
+        "atr_pct": 0.153122,
+        "range_pct": 3.614271,
+        "trend_threshold_pct": 0.12,
+        "high_volatility_atr_pct": 0.06,
+        "low_volatility_atr_pct": 0.02
+      },
+      "policy_note": "regime label is observational only; ranking weights are unchanged"
+    }
+  },
+  "higher_timeframe": {
+    "confirm_tf": "H1",
+    "context_tfs": [
+      "H1",
+      "H4"
+    ],
+    "bias": "sell",
+    "details": {
+      "H1": "sell",
+      "H4": "sell"
+    }
+  },
+  "action": "blocked",
+  "message": "Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.",
+  "execute_trades": false,
+  "gemini_influence_enabled": false,
+  "drift": {
+    "active": false,
+    "severe": false,
+    "delta": -0.14,
+    "recent_win_rate_20": 0.3,
+    "baseline_win_rate": 0.44,
+    "signal_adjustments": [],
+    "strategy_weight_adjustments": []
+  },
+  "setup_family": "continuation",
+  "chart_features": {
+    "timeframe": "M15",
+    "data_source": "mt5_rates_api",
+    "visible_terminal_chart_required": false,
+    "trend_state": "downtrend",
+    "trend_structure": "LH/LL",
+    "momentum_state": "mixed",
+    "location_state": "mid_range",
+    "setup_type_hint": "no_trade",
+    "reliability": "medium",
+    "warnings": [],
+    "candle_expansion": 0.0,
+    "compression_score": 0.7912,
+    "wickiness": 0.6849,
+    "chop_score": 0.6849,
+    "atr_ratio": 0.1531
+  },
+  "contextual_ranking": {
+    "chosen_score": 0.5616,
+    "top": [
+      {
+        "strategy": "momentum_continuation",
+        "score": 0.5616,
+        "factor": 0.8815,
+        "setup_quality_score": 0.0,
+        "reasons": [
+          "weak_consensus",
+          "htf_aligned",
+          "trend_strategy_fit",
+          "spread_pressure",
+          "disabled"
+        ],
+        "advisory_setup_quality_score": 61.0,
+        "setup_quality_source": "setup_playbook_advisory"
+      }
+    ],
+    "best_actionable": {
+      "strategy": "momentum_continuation",
+      "side": "sell",
+      "confidence": 0.7502,
+      "score": 0.5616,
+      "setup_quality_score": 0.0,
+      "reasons": [
+        "weak_consensus",
+        "htf_aligned",
+        "trend_strategy_fit",
+        "spread_pressure",
+        "disabled"
+      ]
+    }
+  },
+  "visual_chart_read": {
+    "enabled": true,
+    "advisory_only": true,
+    "source": "screenshot_plus_chart_features",
+    "symbol": "XAUUSD",
+    "timeframe": "M15",
+    "captured_at": "2026-08-29T13:52:40.301862+00:00",
+    "visual_bias": "sell",
+    "visual_structure": "LH/LL",
+    "pattern_seen": "messy_range",
+    "setup_cleanliness": "messy",
+    "setup_quality": 0.3831,
+    "visual_confirmation": "does_not_confirm",
+    "confidence_effect": "caution_or_confidence_haircut_only",
+    "reasons": [
+      "directional structure is visible",
+      "compressed or overlapping candles suggest a messy range"
+    ],
+    "image": {
+      "available": true,
+      "status": "loaded",
+      "path": "storage_compare_runs\\m15_ema_closed_confirm_mid_exit_stage_a_20260827\\control\\chart_vision\\latest_desktop_chart.png",
+      "width": 1550,
+      "height": 830,
+      "brightness_ratio": 0.4774,
+      "contrast": 1.0
+    },
+    "visual_features": {
+      "available": true,
+      "status": "parsed",
+      "width": 1550,
+      "height": 830,
+      "chart_crop": {
+        "left": 77,
+        "top": 149,
+        "right": 1457,
+        "bottom": 780
+      },
+      "foreground_density": 0.02569,
+      "edge_density": 0.2675,
+      "slope": 0.22646,
+      "visual_move": -29.0552,
+      "visual_direction": "down",
+      "visual_structure": "LH/LL",
+      "visual_momentum": "strong",
+      "visual_location": "mid_range",
+      "visual_noise": "medium",
+      "visual_range_span": 0.6222,
+      "confidence": 0.6339
+    },
+    "visual_parser_bias": "sell",
+    "visual_conflict": false,
+    "evidence_required": [
+      "screenshot from the active chart",
+      "matching M1/M15 candle-derived structure",
+      "clean location away from mid-range"
+    ],
+    "policy_note": "Visual chart reading is advisory evidence only; it cannot place trades, bypass guards, or rewrite strategy/risk/execution policy.",
+    "capture": {
+      "ok": true,
+      "path": "storage_compare_runs\\m15_ema_closed_confirm_mid_exit_stage_a_20260827\\control\\chart_vision\\latest_desktop_chart.png",
+      "captured_at": "2026-08-29T13:52:40.103806+00:00",
+      "target_window": "mt5",
+      "capture_source": "mt5_window",
+      "capture_method": {
+        "ok": true,
+        "method": "printwindow"
+      },
+      "window": {
+        "hwnd": 1836776,
+        "title": "57399598 - HFMarketsSA-Demo2: Demo Account - Hedge - HF Markets SA (Pty) Ltd",
+        "bbox": [
+          -7,
+          -7,
+          1543,
+          823
+        ],
+        "width": 1550,
+        "height": 830,
+        "terminal_score": 105,
+        "found": true,
+        "match_count": 1
+      },
+      "focus": {
+        "attempted": false,
+        "ok": false,
+        "reason": "printwindow_content_capture_used"
+      },
+      "note": "Captured MT5/HFM chart screenshot for advisory visual chart analysis."
+    },
+    "real_screenshot_attempted": true,
+    "live_chart_window_confirmed": true,
+    "saved_at": "2026-08-29T13:52:40.302863+00:00",
+    "available": true,
+    "stale": false,
+    "loaded_at_epoch": 1788011560.6525786,
+    "visual_watch_used_for_decision": true
+  },
+  "best_actionable_candidate": {
+    "strategy": "momentum_continuation",
+    "side": "sell",
+    "confidence": 0.7502,
+    "score": 0.5616,
+    "setup_quality_score": 0.0,
+    "reasons": [
+      "weak_consensus",
+      "htf_aligned",
+      "trend_strategy_fit",
+      "spread_pressure",
+      "disabled"
+    ],
+    "advisory_setup_quality_score": 61.0,
+    "setup_quality_source": "setup_playbook_advisory"
+  },
+  "signal_summary": {
+    "raw_count": 3,
+    "active_count": 1,
+    "filtered_out_count": 2,
+    "evolved_raw_count": 0,
+    "evolved_active_count": 0
+  },
+  "learning_status": {
+    "evolved_pool_count": 1,
+    "demo_chromosome_active_count": 0,
+    "demo_chromosome_active_ids": [],
+    "demo_chromosome_status": {
+      "loaded": false,
+      "reason": "population_file_missing",
+      "active_count": 0,
+      "active_ids": []
+    },
+    "evolved_pool_stale": true,
+    "last_training_time": "2026-05-13T22:18:43.996892+00:00",
+    "meta_model_status": "candidate",
+    "meta_model_accuracy": 0.3,
+    "meta_model_brier": 0.4976,
+    "learning_playbook_present": true,
+    "allocator_strategies_tracked": 31
+  },
+  "learning_status_snapshot": {
+    "evolved_pool_count": 1,
+    "demo_chromosome_active_count": 0,
+    "demo_chromosome_active_ids": [],
+    "demo_chromosome_status": {
+      "loaded": false,
+      "reason": "population_file_missing",
+      "active_count": 0,
+      "active_ids": []
+    },
+    "evolved_pool_stale": true,
+    "last_training_time": "2026-05-13T22:18:43.996892+00:00",
+    "meta_model_status": "candidate",
+    "meta_model_accuracy": 0.3,
+    "meta_model_brier": 0.4976,
+    "learning_playbook_present": true,
+    "allocator_strategies_tracked": 31
+  },
+  "account_profile": {
+    "account_tier": "standard_account",
+    "tier_reason": "balance supports standard guarded risk profile",
+    "risk_profile": "capital_preservation_standard",
+    "current_size_tier": "tier_5_0p10",
+    "next_size_tier_requirement": "max_tier_reached",
+    "size_tier_reason": "bounded_stepwise_scaling"
+  },
+  "context_snapshot": {
+    "symbol": "XAUUSD",
+    "timestamp": "2026-08-28T23:45:00",
+    "regime": "trend",
+    "session": "new_york",
+    "trend_strength": 2.7693,
+    "trend_state": "downtrend",
+    "trend_structure": "LH/LL",
+    "momentum": "mixed",
+    "location": "mid_range",
+    "setup_type_hint": "no_trade",
+    "chart_reliability": "medium",
+    "volatility_state": "high",
+    "spread_state": "wide",
+    "liquidity_state": "poor",
+    "spread_points": 43.0,
+    "dxy_alignment": "unknown",
+    "dxy_trend": "unknown",
+    "us10y_alignment": "unknown",
+    "us10y_trend": "unknown",
+    "vix_regime": "unknown",
+    "vix_alignment": "unknown",
+    "oil_backdrop": "unknown",
+    "oil_alignment": "unknown",
+    "event_risk_state": "unknown",
+    "news_risk_classification": "unknown",
+    "news_sentiment": "unknown",
+    "macro_classification": "unknown",
+    "slippage_state": "unknown",
+    "slippage_points": 0.0,
+    "repeated_entry_risk": false,
+    "overstretched_entry_risk": false,
+    "context_completeness": {
+      "known_macro_fields": 0,
+      "total_macro_fields": 12,
+      "missing_macro_fields": [
+        "dxy_alignment",
+        "dxy_trend",
+        "event_risk_state",
+        "macro_classification",
+        "news_risk_classification",
+        "news_sentiment",
+        "oil_alignment",
+        "oil_backdrop",
+        "us10y_alignment",
+        "us10y_trend",
+        "vix_alignment",
+        "vix_regime"
+      ],
+      "macro_available": false,
+      "external_context_loaded": false
+    },
+    "regime_label": "trending",
+    "regime_label_detail": {
+      "label": "trending",
+      "confidence": 0.95,
+      "reason": "close-to-close slope -2.7693% exceeds trend threshold",
+      "metrics": {
+        "samples": 60,
+        "slope_pct": -2.769266,
+        "atr_pct": 0.153122,
+        "range_pct": 3.614271,
+        "trend_threshold_pct": 0.12,
+        "high_volatility_atr_pct": 0.06,
+        "low_volatility_atr_pct": 0.02
+      },
+      "policy_note": "regime label is observational only; ranking weights are unchanged"
+    }
+  },
+  "regime_label": "trending",
+  "regime_label_detail": {
+    "label": "trending",
+    "confidence": 0.95,
+    "reason": "close-to-close slope -2.7693% exceeds trend threshold",
+    "metrics": {
+      "samples": 60,
+      "slope_pct": -2.769266,
+      "atr_pct": 0.153122,
+      "range_pct": 3.614271,
+      "trend_threshold_pct": 0.12,
+      "high_volatility_atr_pct": 0.06,
+      "low_volatility_atr_pct": 0.02
+    },
+    "policy_note": "regime label is observational only; ranking weights are unchanged"
+  },
+  "learning_critic": {
+    "enabled": true,
+    "applied": false,
+    "status": "lesson_not_loss_dominant",
+    "fingerprint": "strategy=momentum_continuation|side=sell|setup=continuation|session=new_york|regime=trend|trend=downtrend|location=mid_range|momentum=mixed|volatility=high",
+    "matched_fingerprint": "strategy=momentum_continuation|side=sell|setup=continuation|session=new_york|regime=trend|trend=trend|location=unknown|momentum=mixed|volatility=normal",
+    "match_strength": "strong_partial_match",
+    "match_score": 0.91,
+    "matched_fields": [
+      "strategy",
+      "side",
+      "setup",
+      "session",
+      "regime",
+      "momentum"
+    ],
+    "different_fields": [
+      "trend",
+      "volatility"
+    ],
+    "unknown_fields": [
+      "location"
+    ],
+    "haircut": 0.0,
+    "samples": 1,
+    "loss_rate": 1.0,
+    "previous_failure_axis": "",
+    "idea_quality": "",
+    "timing_quality": "",
+    "next_time_action": "",
+    "future_recognition": [],
+    "policy_note": "Learning critic is observability only unless an existing bounded lesson adjustment applies."
+  },
+  "timing_readiness": {
+    "enabled": true,
+    "status": "no_timing_failure_axis",
+    "failure_axis": "",
+    "timing_quality": "",
+    "next_time_action": "",
+    "fresh_location_or_retest": false,
+    "momentum_turning_or_strong": false,
+    "missing": [
+      "fresh_entry_or_retest",
+      "strong_or_turning_m1_momentum"
+    ],
+    "observed": {
+      "location": "mid_range",
+      "momentum": "mixed",
+      "radar_phase": "unknown",
+      "trigger_state": "unknown"
+    },
+    "recommendation": "monitor_timing_lesson",
+    "policy": {
+      "observability_only": true,
+      "does_not_execute": true,
+      "does_not_change_strategy_logic": true,
+      "does_not_change_risk_policy": true,
+      "does_not_change_execution_policy": true
+    }
+  },
+  "loss_to_win_playbook": {
+    "enabled": true,
+    "schema": "atlas_loss_to_win_playbook_v1",
+    "status": "loss_pattern_needs_correction",
+    "source": "historical_loss_analysis",
+    "lessons_available": 4,
+    "top_lesson": {
+      "classification": "false_continuation",
+      "samples": 5,
+      "strategy_relevant": true,
+      "confirmed": false,
+      "missing": [
+        "strong_m1_momentum"
+      ],
+      "checks": [
+        {
+          "code": "strong_m1_momentum",
+          "status": "missing",
+          "detail": "momentum=mixed"
+        },
+        {
+          "code": "structure_hold",
+          "status": "present",
+          "detail": "trend_strength=2.77"
+        }
+      ],
+      "corrected_entry": "Require structure to hold and momentum to confirm before accepting continuation.",
+      "confirmation_required": [
+        "structure_hold",
+        "strong_m1_momentum",
+        "same_side_support"
+      ]
+    },
+    "candidates": [
+      {
+        "classification": "false_continuation",
+        "samples": 5,
+        "strategy_relevant": true,
+        "confirmed": false,
+        "missing": [
+          "strong_m1_momentum"
+        ],
+        "checks": [
+          {
+            "code": "strong_m1_momentum",
+            "status": "missing",
+            "detail": "momentum=mixed"
+          },
+          {
+            "code": "structure_hold",
+            "status": "present",
+            "detail": "trend_strength=2.77"
+          }
+        ],
+        "corrected_entry": "Require structure to hold and momentum to confirm before accepting continuation.",
+        "confirmation_required": [
+          "structure_hold",
+          "strong_m1_momentum",
+          "same_side_support"
+        ]
+      },
+      {
+        "classification": "weak_pullback",
+        "samples": 72,
+        "strategy_relevant": false,
+        "confirmed": false,
+        "missing": [
+          "valid_pullback_location",
+          "strong_or_turning_m1_momentum"
+        ],
+        "checks": [
+          {
+            "code": "valid_pullback_location",
+            "status": "missing",
+            "detail": "location=mid_range"
+          },
+          {
+            "code": "strong_or_turning_m1_momentum",
+            "status": "missing",
+            "detail": "momentum=mixed"
+          },
+          {
+            "code": "controlled_wick_pressure",
+            "status": "present",
+            "detail": "wickiness=0.00"
+          }
+        ],
+        "corrected_entry": "Only treat the pullback as tradable after price reaches a valid reaction zone and M1 momentum turns back with the setup.",
+        "confirmation_required": [
+          "valid_pullback_location",
+          "strong_or_turning_m1_momentum",
+          "controlled_wick_pressure"
+        ]
+      },
+      {
+        "classification": "stop_hunt",
+        "samples": 55,
+        "strategy_relevant": false,
+        "confirmed": false,
+        "missing": [
+          "not_entry_into_raw_sweep"
+        ],
+        "checks": [
+          {
+            "code": "reduced_wick_pressure",
+            "status": "present",
+            "detail": "wickiness=0.00"
+          },
+          {
+            "code": "momentum_confirmation",
+            "status": "present",
+            "detail": "momentum=mixed"
+          },
+          {
+            "code": "not_entry_into_raw_sweep",
+            "status": "missing",
+            "detail": "location=mid_range"
+          }
+        ],
+        "corrected_entry": "Wait for sweep rejection, structure reclaim, or calmer wick pressure before treating the move as confirmed.",
+        "confirmation_required": [
+          "rejection_after_sweep",
+          "structure_reclaim_or_hold",
+          "reduced_wick_pressure"
+        ]
+      },
+      {
+        "classification": "late_entry",
+        "samples": 47,
+        "strategy_relevant": false,
+        "confirmed": false,
+        "missing": [
+          "fresh_entry_location"
+        ],
+        "checks": [
+          {
+            "code": "no_overextension",
+            "status": "present",
+            "detail": "expansion=0.00, position=0.50"
+          },
+          {
+            "code": "fresh_entry_location",
+            "status": "missing",
+            "detail": "location=mid_range"
+          }
+        ],
+        "corrected_entry": "Skip the chase and wait for a retest, pullback, or fresh structure entry before executing.",
+        "confirmation_required": [
+          "no_overextension",
+          "retest_or_pullback",
+          "fresh_entry_location"
+        ]
+      }
+    ],
+    "next_action": "wait for corrected-entry confirmations before trusting this setup",
+    "policy_note": "This playbook converts repeated historical losses into corrected-entry teaching. It does not rewrite strategies, lower thresholds, alter risk, or bypass execution gates."
+  },
+  "winner_playbook": {
+    "enabled": true,
+    "schema": "atlas_winner_playbook_v1",
+    "status": "winner_pattern_not_confirmed",
+    "source": "historical_winner_analysis",
+    "lessons_available": 4,
+    "top_lesson": {
+      "key": "momentum_continuation|continuation",
+      "strategy": "momentum_continuation",
+      "setup_family": "continuation",
+      "samples": 5,
+      "strategy_relevant": true,
+      "setup_relevant": true,
+      "confirmed": false,
+      "missing": [
+        "strong_m1_momentum"
+      ],
+      "checks": [
+        {
+          "code": "structure_hold",
+          "status": "present",
+          "detail": "trend_strength=2.77"
+        },
+        {
+          "code": "strong_m1_momentum",
+          "status": "missing",
+          "detail": "momentum=mixed"
+        }
+      ],
+      "winning_signature": "Continuation winners need structure to hold and momentum to support the same side.",
+      "confirmation_required": [
+        "structure_hold",
+        "strong_m1_momentum",
+        "same_side_support"
+      ]
+    },
+    "candidates": [
+      {
+        "key": "momentum_continuation|continuation",
+        "strategy": "momentum_continuation",
+        "setup_family": "continuation",
+        "samples": 5,
+        "strategy_relevant": true,
+        "setup_relevant": true,
+        "confirmed": false,
+        "missing": [
+          "strong_m1_momentum"
+        ],
+        "checks": [
+          {
+            "code": "structure_hold",
+            "status": "present",
+            "detail": "trend_strength=2.77"
+          },
+          {
+            "code": "strong_m1_momentum",
+            "status": "missing",
+            "detail": "momentum=mixed"
+          }
+        ],
+        "winning_signature": "Continuation winners need structure to hold and momentum to support the same side.",
+        "confirmation_required": [
+          "structure_hold",
+          "strong_m1_momentum",
+          "same_side_support"
+        ]
+      }
+    ],
+    "next_action": "wait for the missing winner confirmations",
+    "policy_note": "This playbook teaches what historical winning setup versions looked like. It does not rewrite strategies, lower thresholds, alter risk, or bypass execution gates."
+  },
+  "timing_discipline": {
+    "enabled": true,
+    "status": "timing_block",
+    "score": 25,
+    "side": "sell",
+    "missing": [
+      "tradable_location",
+      "strong_or_turning_m1_momentum",
+      "new_york_extra_momentum_confirmation",
+      "visual_confirmation",
+      "visual_tradable_location"
+    ],
+    "reasons": [
+      "entry_location_is_mid_range_or_unclear",
+      "m1_momentum_not_confirmed",
+      "new_york_recent_performance_requires_stronger_confirmation",
+      "continuous_visual_watch_does_not_confirm_setup",
+      "continuous_visual_watch_sees_mid_range"
+    ],
+    "observed": {
+      "location": "mid_range",
+      "momentum": "mixed",
+      "trend_state": "downtrend",
+      "trend_strength": 2.7693,
+      "session": "new_york",
+      "setup_hint": "no_trade",
+      "top_loss_reason": "unknown",
+      "visual_watch_used": true,
+      "visual_confirmation": "does_not_confirm",
+      "visual_direction": "down",
+      "visual_location": "mid_range",
+      "visual_momentum": "strong"
+    },
+    "requirements": [
+      "fresh_entry_or_retest",
+      "strong_or_turning_m1_momentum",
+      "avoid_mid_range",
+      "structure_hold_for_continuation",
+      "sweep_rejection_or_structure_reclaim_when_stop_hunt_risk_is_dominant"
+    ],
+    "hard_block": true,
+    "passed": false,
+    "check": "timing_discipline",
+    "reason_code": "AWAITING_TRADABLE_LOCATION",
+    "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, New York momentum confirmation, visual confirmation, and visual tradable location missing (location=mid_range, momentum=mixed, session=new_york).",
+    "condition_values": {
+      "side": "sell",
+      "score": 25,
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "new_york_extra_momentum_confirmation",
+        "visual_confirmation",
+        "visual_tradable_location"
+      ],
+      "reasons": [
+        "entry_location_is_mid_range_or_unclear",
+        "m1_momentum_not_confirmed",
+        "new_york_recent_performance_requires_stronger_confirmation",
+        "continuous_visual_watch_does_not_confirm_setup",
+        "continuous_visual_watch_sees_mid_range"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "downtrend",
+        "trend_strength": 2.7693,
+        "session": "new_york",
+        "setup_hint": "no_trade",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      }
+    },
+    "checked_at": "2026-08-29T13:52:40.652578+00:00",
+    "structured_result": {
+      "schema": "atlas_timing_discipline_result_v1",
+      "passed": false,
+      "check": "timing_discipline",
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, New York momentum confirmation, visual confirmation, and visual tradable location missing (location=mid_range, momentum=mixed, session=new_york).",
+      "condition_values": {
+        "side": "sell",
+        "score": 25,
+        "missing": [
+          "tradable_location",
+          "strong_or_turning_m1_momentum",
+          "new_york_extra_momentum_confirmation",
+          "visual_confirmation",
+          "visual_tradable_location"
+        ],
+        "reasons": [
+          "entry_location_is_mid_range_or_unclear",
+          "m1_momentum_not_confirmed",
+          "new_york_recent_performance_requires_stronger_confirmation",
+          "continuous_visual_watch_does_not_confirm_setup",
+          "continuous_visual_watch_sees_mid_range"
+        ],
+        "observed": {
+          "location": "mid_range",
+          "momentum": "mixed",
+          "trend_state": "downtrend",
+          "trend_strength": 2.7693,
+          "session": "new_york",
+          "setup_hint": "no_trade",
+          "top_loss_reason": "unknown",
+          "visual_watch_used": true,
+          "visual_confirmation": "does_not_confirm",
+          "visual_direction": "down",
+          "visual_location": "mid_range",
+          "visual_momentum": "strong"
+        }
+      },
+      "checked_at": "2026-08-29T13:52:40.652578+00:00"
+    },
+    "recommendation": "wait_for_clean_timing_confirmation",
+    "policy": {
+      "bounded_timing_gate": true,
+      "does_not_change_risk_policy": true,
+      "does_not_lower_thresholds": true,
+      "does_not_force_entries": true,
+      "operator_requested": true
+    }
+  },
+  "safety_layer": {
+    "safety_lock_active": false,
+    "safety_lock_reason": "",
+    "safety_lock_started_at": "",
+    "safety_lock_scope": "new_entries",
+    "recovery_requirements": [
+      "manual_operator_unlock_required",
+      "cooldown_expired",
+      "no_active_hard_blocker",
+      "volatility_back_to_acceptable",
+      "next_setup_meets_high_confluence"
+    ],
+    "cooldown_active": false,
+    "cooldown_reason": "",
+    "cooldown_until": "",
+    "cooldown_level": "none",
+    "volatility_state": "extreme",
+    "volatility_reason": "extreme volatility regime; new entries paused",
+    "volatility_action": "block_new_entries",
+    "loss_streak": 0,
+    "rolling_drawdown_pct": 0.0,
+    "rolling_expectancy_zar": 0.0,
+    "supporting_win_rate": 0.0,
+    "dominant_loss_class": "none",
+    "dominant_loss_class_count": 0,
+    "recovery_ready": false,
+    "recovery_blockers": [
+      "extreme_volatility"
+    ],
+    "recovery_mode": "cooldown"
+  },
+  "health": {
+    "broker": {
+      "connected": true,
+      "symbol_selected": true
+    },
+    "llm": {
+      "enabled": true,
+      "providers": [
+        {
+          "name": "openai",
+          "in_cooldown": false,
+          "cooldown_seconds_left": 0,
+          "last_error": "",
+          "last_error_kind": ""
+        }
+      ]
+    },
+    "risk_guard": {
+      "max_trades_per_day": 12,
+      "max_consecutive_losses": 3,
+      "cooldown_minutes_after_loss_streak": 60
+    }
+  },
+  "gemini_note": "Deferred to post-execution to reduce loop latency.",
+  "lane": "control",
+  "decision_explanation": {
+    "candidate_id": "|momentum_continuation|sell",
+    "trade_id": "",
+    "lane": "control",
+    "mode": "paper",
+    "symbol": "XAUUSD",
+    "timestamp": "",
+    "signal_source": "momentum_continuation",
+    "regime": "trend",
+    "session": "new_york",
+    "trend_strength": 2.7693,
+    "setup_quality_reasons": [
+      "weak_consensus",
+      "htf_aligned",
+      "trend_strategy_fit",
+      "spread_pressure",
+      "disabled"
+    ],
+    "active_guards": [
+      {
+        "name": "risk_guard",
+        "enabled": true,
+        "applied": true,
+        "hard_blocked": true,
+        "reason": "Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed."
+      }
+    ],
+    "penalties": [],
+    "final_decision": "block",
+    "blocker_class": "safety_gate",
+    "primary_blocker": "Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.",
+    "blocker_recoverability": "wait_or_operator_review",
+    "bias_breakdown": {
+      "signal_bias": "sell",
+      "chart_structure_bias": "sell",
+      "higher_timeframe_bias": "sell",
+      "final_trade_bias": "neutral",
+      "conflict": false,
+      "explanation": "Signal, chart structure, higher-timeframe, and final trade bias are tracked separately."
+    },
+    "reason_codes": [
+      "weak_consensus",
+      "htf_aligned",
+      "trend_strategy_fit",
+      "spread_pressure",
+      "disabled",
+      "risk_guard",
+      "risk_guard_active_volatility_protection_active_extreme_volatility_regime_new_entries_paused_no_trade_executed"
+    ],
+    "explanation_text": "Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed."
+  },
+  "decision_trace": {
+    "schema": "atlas_decision_trace_v1",
+    "symbol": "XAUUSD",
+    "timeframe": "M15",
+    "final_action": "blocked",
+    "final_decision": "block",
+    "message": "Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.",
+    "blocker_class": "safety_gate",
+    "primary_blocker": "Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.",
+    "blocker_recoverability": "wait_or_operator_review",
+    "blocker_summary": {
+      "class": "safety_gate",
+      "primary": "Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.",
+      "recoverability": "wait_or_operator_review",
+      "signal": {
+        "side": "sell",
+        "confidence": 0.7502,
+        "threshold": 0.0,
+        "confidence_gap": 0.0
+      },
+      "risk": {
+        "daily_loss_pct": 0.0,
+        "weekly_loss_pct": 0.0,
+        "open_positions": 0,
+        "spread_points": 43.0
+      },
+      "context": {
+        "session": "new_york",
+        "regime": "trend",
+        "volatility_state": "high"
+      }
+    },
+    "bias_breakdown": {
+      "signal_bias": "sell",
+      "chart_structure_bias": "sell",
+      "higher_timeframe_bias": "sell",
+      "final_trade_bias": "neutral",
+      "conflict": false,
+      "explanation": "Signal, chart structure, higher-timeframe, and final trade bias are tracked separately."
+    },
+    "signal": {
+      "raw": [
+        {
+          "strategy": "ema_crossover",
+          "side": "sell",
+          "confidence": 1.0,
+          "score": 1.0
+        },
+        {
+          "strategy": "momentum_continuation",
+          "side": "sell",
+          "confidence": 0.7502,
+          "score": 0.7502
+        },
+        {
+          "strategy": "pullback_trend",
+          "side": "flat",
+          "confidence": 0.0,
+          "score": 0.0
+        }
+      ],
+      "active": [
+        {
+          "strategy": "momentum_continuation",
+          "side": "sell",
+          "confidence": 0.7502,
+          "score": 0.7502
+        }
+      ],
+      "summary": {
+        "raw_count": 3,
+        "active_count": 1,
+        "filtered_out_count": 2,
+        "evolved_raw_count": 0,
+        "evolved_active_count": 0
+      }
+    },
+    "ranking": {
+      "chosen_score": 0.5616,
+      "top": [
+        {
+          "strategy": "momentum_continuation",
+          "score": 0.5616,
+          "factor": 0.8815,
+          "setup_quality_score": 0.0,
+          "reasons": [
+            "weak_consensus",
+            "htf_aligned",
+            "trend_strategy_fit",
+            "spread_pressure",
+            "disabled"
+          ],
+          "advisory_setup_quality_score": 61.0,
+          "setup_quality_source": "setup_playbook_advisory"
+        }
+      ],
+      "best_actionable": {
+        "strategy": "momentum_continuation",
+        "side": "sell",
+        "confidence": 0.7502,
+        "score": 0.5616,
+        "setup_quality_score": 0.0,
+        "reasons": [
+          "weak_consensus",
+          "htf_aligned",
+          "trend_strategy_fit",
+          "spread_pressure",
+          "disabled"
+        ],
+        "advisory_setup_quality_score": 61.0,
+        "setup_quality_source": "setup_playbook_advisory"
+      }
+    },
+    "selected_candidate": {
+      "strategy": "momentum_continuation",
+      "side": "sell",
+      "confidence": 0.7502,
+      "signal_confidence_seed": 0.7502,
+      "stop_loss_points": 115.0,
+      "take_profit_points": 175.0
+    },
+    "context": {
+      "session": "new_york",
+      "regime": "trend",
+      "trend_strength": 2.7693,
+      "spread_state": "wide",
+      "liquidity_state": "poor",
+      "volatility_state": "high",
+      "higher_timeframe_bias": "sell",
+      "chart_structure_bias": "sell"
+    },
+    "filters": {
+      "guards": [
+        {
+          "name": "risk_guard",
+          "enabled": true,
+          "applied": true,
+          "hard_blocked": true,
+          "reason": "Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed."
+        }
+      ],
+      "hard_blockers": [
+        {
+          "name": "risk_guard",
+          "enabled": true,
+          "applied": true,
+          "hard_blocked": true,
+          "reason": "Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed."
+        }
+      ],
+      "reason_codes": [
+        "weak_consensus",
+        "htf_aligned",
+        "trend_strategy_fit",
+        "spread_pressure",
+        "disabled",
+        "risk_guard",
+        "risk_guard_active_volatility_protection_active_extreme_volatility_regime_new_entries_paused_no_trade_executed"
+      ]
+    },
+    "risk": {
+      "daily_loss_pct": 0.0,
+      "weekly_loss_pct": 0.0,
+      "open_positions": 0,
+      "spread_points": 43.0,
+      "trades_today": 0,
+      "consecutive_losses": 0,
+      "max_open_trades": null
+    },
+    "execution_gate": {
+      "execute_trades": false,
+      "environment": "",
+      "result": {},
+      "request_id": "",
+      "decision_id": ""
+    },
+    "evidence_separation": {
+      "market_bias": "sell",
+      "signal_direction": "sell",
+      "higher_timeframe_bias": "sell",
+      "final_trade_bias": "neutral",
+      "setup_readiness": "forming_waiting_for_confirmations",
+      "confidence": 0.7502,
+      "threshold": 0.0,
+      "confidence_ready": true,
+      "blocker_class": "safety_gate",
+      "primary_blocker": "Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.",
+      "execution_permission": "not_allowed",
+      "execution_reason": "Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.",
+      "policy_note": "Evidence lanes are explanatory only; they do not change strategy, risk, or execution policy."
+    },
+    "trace_notes": [
+      "read_only_observability",
+      "does_not_modify_strategy_risk_or_execution"
+    ]
+  },
+  "blocker_classification": {
+    "class": "safety_gate",
+    "primary": "Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.",
+    "recoverability": "wait_or_operator_review",
+    "signal": {
+      "side": "sell",
+      "confidence": 0.7502,
+      "threshold": 0.0,
+      "confidence_gap": 0.0
+    },
+    "risk": {
+      "daily_loss_pct": 0.0,
+      "weekly_loss_pct": 0.0,
+      "open_positions": 0,
+      "spread_points": 43.0
+    },
+    "context": {
+      "session": "new_york",
+      "regime": "trend",
+      "volatility_state": "high"
+    }
+  },
+  "blocker_class": "safety_gate",
+  "primary_blocker": "Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.",
+  "decision_analysis": {
+    "market_bias": "neutral",
+    "signal_bias": "sell",
+    "chart_structure_bias": "sell",
+    "higher_timeframe_bias": "sell",
+    "final_trade_bias": "neutral",
+    "bias_breakdown": {
+      "signal_bias": "sell",
+      "chart_structure_bias": "sell",
+      "higher_timeframe_bias": "sell",
+      "final_trade_bias": "neutral",
+      "legacy_market_bias": "neutral",
+      "conflict": false,
+      "explanation": "Signal, structure, and final decision are separated so candidate direction is not mistaken for market direction."
+    },
+    "confidence_score": 44,
+    "confidence_level": "low",
+    "confidence_basis": "atlas_conviction",
+    "signal_confidence_seed_score": 75,
+    "conviction_adjustments": [
+      {
+        "label": "same_side_support",
+        "delta": -6.0,
+        "reason": "the chosen direction lacks same-side confirmation support"
+      },
+      {
+        "label": "recovery",
+        "delta": -8.0,
+        "reason": "recovery conditions are not fully ready"
+      }
+    ],
+    "trend": {
+      "state": "downtrend",
+      "structure": "LH/LL"
+    },
+    "structure_context": {
+      "trend_direction": "bearish",
+      "reaction_zones": "unknown",
+      "breakout_or_rejection_behavior": "unknown"
+    },
+    "momentum": {
+      "state": "mixed"
+    },
+    "location": {
+      "state": "mid_range"
+    },
+    "setup_type": "continuation",
+    "entry_quality": "avoid",
+    "reasoning": [
+      "M15 structure is clear",
+      "execution friction is elevated",
+      "market regime reads as volatile with 52/100 confidence"
+    ],
+    "warnings": [
+      "mixed_momentum",
+      "suboptimal_location",
+      "spread_liquidity_caution"
+    ],
+    "blockers": [
+      "spread_liquidity_too_poor"
+    ],
+    "hard_blockers": [
+      "spread_liquidity_too_poor"
+    ],
+    "top_blockers": [
+      {
+        "name": "confluence_gap",
+        "actual": 44.0,
+        "target": 85.0,
+        "delta_to_pass": 41.0,
+        "unit": "score",
+        "detail": "overall confluence remains below execution threshold",
+        "delta_text": "41.000 score to pass"
+      },
+      {
+        "name": "spread_liquidity",
+        "actual": 10.0,
+        "target": 35.0,
+        "delta_to_pass": 25.0,
+        "unit": "score",
+        "detail": "spread/liquidity safety score below minimum",
+        "delta_text": "25.000 score to pass"
+      },
+      {
+        "name": "momentum_quality",
+        "actual": 50.0,
+        "target": 65.0,
+        "delta_to_pass": 15.0,
+        "unit": "score",
+        "detail": "momentum remains mixed/weak for execution",
+        "delta_text": "15.000 score to pass"
+      }
+    ],
+    "confluence_score": 44,
+    "confluence_threshold": 85,
+    "confluence": {
+      "score": 44,
+      "threshold": 85,
+      "qualified": false
+    },
+    "feature_scores": {
+      "xau_structure_score": {
+        "score": 92,
+        "level": "strong"
+      },
+      "xau_momentum_score": {
+        "score": 50,
+        "level": "mixed"
+      },
+      "dxy_alignment_score": {
+        "score": 52,
+        "level": "mixed"
+      },
+      "yield_alignment_score": {
+        "score": 52,
+        "level": "mixed"
+      },
+      "vix_alignment_score": {
+        "score": 54,
+        "level": "mixed"
+      },
+      "oil_context_score": {
+        "score": 50,
+        "level": "mixed"
+      },
+      "spread_safety_score": {
+        "score": 10,
+        "level": "weak"
+      },
+      "session_quality_score": {
+        "score": 86,
+        "level": "strong"
+      },
+      "event_risk_score": {
+        "score": 62,
+        "level": "acceptable"
+      },
+      "news_context_score": {
+        "score": 52,
+        "level": "mixed"
+      }
+    },
+    "macro_context": {
+      "xau_symbol": "XAUUSD",
+      "dxy": {
+        "state": "mixed",
+        "trend": "unavailable",
+        "score": 52,
+        "availability": "unavailable",
+        "source": "price_only_inferred"
+      },
+      "us10y": {
+        "state": "mixed",
+        "trend": "unavailable",
+        "score": 52,
+        "availability": "unavailable",
+        "source": "price_only_inferred"
+      },
+      "vix": {
+        "state": "mixed",
+        "regime": "unavailable",
+        "score": 54,
+        "availability": "unavailable",
+        "source": "price_only_inferred"
+      },
+      "oil": {
+        "state": "mixed",
+        "backdrop": "unavailable",
+        "score": 50,
+        "availability": "unavailable",
+        "source": "price_only_inferred"
+      },
+      "event_news": {
+        "event_risk_state": "unknown",
+        "event_risk_score": 62,
+        "news_context_score": 52,
+        "news_risk_classification": "unknown",
+        "news_sentiment": "unknown",
+        "macro_classification": "unknown",
+        "availability": "unavailable"
+      },
+      "execution_friction": {
+        "spread_state": "wide",
+        "liquidity_state": "poor",
+        "slippage_state": "unknown",
+        "spread_points": 43.0,
+        "spread_pips": 4.3,
+        "slippage_points": 0.0,
+        "score": 10,
+        "state": "caution",
+        "spread_status": "blocked",
+        "spread_explanation": "score_consistent_with_spread_and_liquidity",
+        "reward_to_spread_ratio": 4.07,
+        "min_reward_to_spread_ratio": 2.0,
+        "spread_block_reasons": []
+      },
+      "session": {
+        "state": "new_york",
+        "score": 86,
+        "state_class": "acceptable",
+        "availability": "available"
+      },
+      "regime": {
+        "state": "volatile",
+        "score": 52,
+        "reasons": [
+          "candle expansion / volatility is elevated",
+          "spread or liquidity is unstable"
+        ]
+      },
+      "reversal": {
+        "candidate": false,
+        "confirmed": false,
+        "bias": "neutral",
+        "score": 0
+      },
+      "operator_terminal": {
+        "reads": [
+          "DXY=mixed",
+          "US10Y=mixed",
+          "VIX=unavailable",
+          "oil=unavailable",
+          "event=unknown",
+          "spread=wide",
+          "slippage=unknown",
+          "session=new_york",
+          "regime=volatile",
+          "reversal=none"
+        ],
+        "allow_reason": [
+          "lower highs and lower lows on M15",
+          "new_york session quality is acceptable"
+        ],
+        "block_reason": [
+          "spread_liquidity_too_poor"
+        ]
+      }
+    },
+    "market_regime": {
+      "regime": "volatile",
+      "regime_confidence": 52,
+      "regime_confidence_level": "low",
+      "regime_reasons": [
+        "candle expansion / volatility is elevated",
+        "spread or liquidity is unstable"
+      ],
+      "scores": {
+        "trending": 34,
+        "ranging": 46,
+        "volatile": 52
+      },
+      "timestamp": "2026-08-29T13:52:40.665604+00:00",
+      "behavior": {
+        "trending": "prioritize continuation/pullback and avoid blind counter-trend entries",
+        "ranging": "prefer mean reversion only at defined extremes with confirmation",
+        "volatile": "defensive mode; reduce size or block entries depending on severity"
+      }
+    },
+    "reversal_detection": {
+      "reversal_candidate": false,
+      "reversal_confidence": 0,
+      "reversal_confidence_level": "low",
+      "reversal_bias": "neutral",
+      "reversal_reasons": [
+        "exhaustion wick / rejection is present"
+      ],
+      "confirmed_reversal": false,
+      "requires": [
+        "macro divergence/conflict",
+        "structure confirmation",
+        "momentum confirmation"
+      ]
+    },
+    "context_alignment": {
+      "dxy": {
+        "state": "mixed",
+        "trend": "unavailable",
+        "score": 52,
+        "availability": "unavailable",
+        "source": "price_only_inferred"
+      },
+      "us10y": {
+        "state": "mixed",
+        "trend": "unavailable",
+        "score": 52,
+        "availability": "unavailable",
+        "source": "price_only_inferred"
+      },
+      "vix": {
+        "state": "mixed",
+        "regime": "unavailable",
+        "score": 54,
+        "availability": "unavailable",
+        "source": "price_only_inferred"
+      },
+      "oil": {
+        "state": "mixed",
+        "backdrop": "unavailable",
+        "score": 50,
+        "availability": "unavailable",
+        "source": "price_only_inferred"
+      },
+      "spread_liquidity": {
+        "spread_state": "wide",
+        "liquidity_state": "poor",
+        "slippage_state": "unknown",
+        "spread_points": 43.0,
+        "spread_pips": 4.3,
+        "slippage_points": 0.0,
+        "score": 10,
+        "state": "caution",
+        "spread_status": "blocked",
+        "spread_explanation": "score_consistent_with_spread_and_liquidity",
+        "reward_to_spread_ratio": 4.07,
+        "min_reward_to_spread_ratio": 2.0,
+        "spread_block_reasons": []
+      },
+      "session": {
+        "state": "new_york",
+        "score": 86,
+        "state_class": "acceptable",
+        "availability": "available"
+      },
+      "regime": {
+        "state": "volatile",
+        "score": 52,
+        "reasons": [
+          "candle expansion / volatility is elevated",
+          "spread or liquidity is unstable"
+        ]
+      },
+      "reversal": {
+        "candidate": false,
+        "confirmed": false,
+        "bias": "neutral",
+        "score": 0
+      },
+      "event_news": {
+        "event_risk_state": "unknown",
+        "event_risk_score": 62,
+        "news_context_score": 52,
+        "news_risk_classification": "unknown",
+        "news_sentiment": "unknown",
+        "macro_classification": "unknown",
+        "availability": "unavailable"
+      }
+    },
+    "recommended_action": "hold",
+    "safety_note": "Capital preservation first. No forced trade if structure, momentum, spread, session, or macro context are not aligned.",
+    "timeframe_logic": {
+      "structure_trend": "M15",
+      "entry_confirmation": "M15",
+      "execution_timing": "M15",
+      "higher_timeframe_confirmation": "H1",
+      "higher_timeframe_bias": "sell",
+      "data_source": "mt5_rates_api",
+      "visible_terminal_chart_required": false
+    },
+    "trading_response": {
+      "bias": "neutral",
+      "bias_breakdown": {
+        "signal_bias": "sell",
+        "chart_structure_bias": "sell",
+        "higher_timeframe_bias": "sell",
+        "final_trade_bias": "neutral",
+        "legacy_market_bias": "neutral",
+        "conflict": false,
+        "explanation": "Signal, structure, and final decision are separated so candidate direction is not mistaken for market direction."
+      },
+      "bias_strength": "strong",
+      "trade_decision": "NO_TRADE",
+      "confidence": {
+        "score": 44,
+        "level": "low"
+      },
+      "buy_score": 30,
+      "sell_score": 75,
+      "no_trade_score": 84,
+      "structure_read": {
+        "state": "downtrend",
+        "structure": "LH/LL",
+        "score": 92
+      },
+      "momentum_read": {
+        "state": "mixed",
+        "score": 50
+      },
+      "location_read": {
+        "state": "mid_range",
+        "bonus": -10
+      },
+      "confirmation_read": {
+        "dxy_alignment_score": 52,
+        "us10y_alignment_score": 52,
+        "session_state": "new_york",
+        "spread_state": "wide",
+        "regime_state": "volatile",
+        "event_risk_state": "unknown"
+      },
+      "reward_vs_risk": {
+        "ratio": 1.522,
+        "take_profit_points": 175.0,
+        "stop_loss_points": 115.0
+      },
+      "blockers": [
+        "spread_liquidity_too_poor"
+      ],
+      "top_blockers": [
+        {
+          "name": "confluence_gap",
+          "actual": 44.0,
+          "target": 85.0,
+          "delta_to_pass": 41.0,
+          "unit": "score",
+          "detail": "overall confluence remains below execution threshold",
+          "delta_text": "41.000 score to pass"
+        },
+        {
+          "name": "spread_liquidity",
+          "actual": 10.0,
+          "target": 35.0,
+          "delta_to_pass": 25.0,
+          "unit": "score",
+          "detail": "spread/liquidity safety score below minimum",
+          "delta_text": "25.000 score to pass"
+        },
+        {
+          "name": "momentum_quality",
+          "actual": 50.0,
+          "target": 65.0,
+          "delta_to_pass": 15.0,
+          "unit": "score",
+          "detail": "momentum remains mixed/weak for execution",
+          "delta_text": "15.000 score to pass"
+        }
+      ],
+      "top_blocker_summary": [
+        "confluence_gap: 44.000/85.000 (41.000 score to pass)",
+        "spread_liquidity: 10.000/35.000 (25.000 score to pass)",
+        "momentum_quality: 50.000/65.000 (15.000 score to pass)"
+      ],
+      "context_alignment": {
+        "dxy": {
+          "state": "mixed",
+          "trend": "unavailable",
+          "score": 52,
+          "availability": "unavailable",
+          "source": "price_only_inferred"
+        },
+        "us10y": {
+          "state": "mixed",
+          "trend": "unavailable",
+          "score": 52,
+          "availability": "unavailable",
+          "source": "price_only_inferred"
+        },
+        "vix": {
+          "state": "mixed",
+          "regime": "unavailable",
+          "score": 54,
+          "availability": "unavailable",
+          "source": "price_only_inferred"
+        },
+        "oil": {
+          "state": "mixed",
+          "backdrop": "unavailable",
+          "score": 50,
+          "availability": "unavailable",
+          "source": "price_only_inferred"
+        },
+        "spread_liquidity": {
+          "spread_state": "wide",
+          "liquidity_state": "poor",
+          "slippage_state": "unknown",
+          "spread_points": 43.0,
+          "spread_pips": 4.3,
+          "slippage_points": 0.0,
+          "score": 10,
+          "state": "caution",
+          "spread_status": "blocked",
+          "spread_explanation": "score_consistent_with_spread_and_liquidity",
+          "reward_to_spread_ratio": 4.07,
+          "min_reward_to_spread_ratio": 2.0,
+          "spread_block_reasons": []
+        },
+        "session": {
+          "state": "new_york",
+          "score": 86,
+          "state_class": "acceptable",
+          "availability": "available"
+        },
+        "regime": {
+          "state": "volatile",
+          "score": 52,
+          "reasons": [
+            "candle expansion / volatility is elevated",
+            "spread or liquidity is unstable"
+          ]
+        },
+        "reversal": {
+          "candidate": false,
+          "confirmed": false,
+          "bias": "neutral",
+          "score": 0
+        },
+        "event_news": {
+          "event_risk_state": "unknown",
+          "event_risk_score": 62,
+          "news_context_score": 52,
+          "news_risk_classification": "unknown",
+          "news_sentiment": "unknown",
+          "macro_classification": "unknown",
+          "availability": "unavailable"
+        }
+      },
+      "recommended_action": "hold",
+      "size_band_rationale": {
+        "band": "blocked",
+        "cap_multiplier": 0.0,
+        "risk_fraction_of_max": 0.0,
+        "rationale": [
+          "No size allocated because hard blockers are active."
+        ]
+      },
+      "safety_note": "Capital preservation first. No forced trade if structure, momentum, spread, session, or macro context are not aligned.",
+      "timeframe_logic": {
+        "structure_trend": "M15",
+        "entry_confirmation": "M15",
+        "execution_timing": "M15",
+        "higher_timeframe_confirmation": "H1",
+        "higher_timeframe_bias": "sell",
+        "data_source": "mt5_rates_api",
+        "visible_terminal_chart_required": false
+      },
+      "execution_mode": "guarded",
+      "market_regime": {
+        "regime": "volatile",
+        "regime_confidence": 52,
+        "regime_confidence_level": "low",
+        "regime_reasons": [
+          "candle expansion / volatility is elevated",
+          "spread or liquidity is unstable"
+        ],
+        "scores": {
+          "trending": 34,
+          "ranging": 46,
+          "volatile": 52
+        },
+        "timestamp": "2026-08-29T13:52:40.665604+00:00",
+        "behavior": {
+          "trending": "prioritize continuation/pullback and avoid blind counter-trend entries",
+          "ranging": "prefer mean reversion only at defined extremes with confirmation",
+          "volatile": "defensive mode; reduce size or block entries depending on severity"
+        }
+      },
+      "reversal_detection": {
+        "reversal_candidate": false,
+        "reversal_confidence": 0,
+        "reversal_confidence_level": "low",
+        "reversal_bias": "neutral",
+        "reversal_reasons": [
+          "exhaustion wick / rejection is present"
+        ],
+        "confirmed_reversal": false,
+        "requires": [
+          "macro divergence/conflict",
+          "structure confirmation",
+          "momentum confirmation"
+        ]
+      },
+      "account_tier": "standard_account",
+      "risk_profile": "capital_preservation_standard",
+      "size_tier": {
+        "current_size_tier": "tier_5_0p10",
+        "next_size_tier_requirement": "max_tier_reached",
+        "size_tier_reason": "bounded_stepwise_scaling"
+      }
+    },
+    "setup_playbook": {
+      "mode": "advisory_only",
+      "policy_note": "Ranks setup quality only; existing risk and execution gates remain authoritative.",
+      "top_candidate": {
+        "name": "pullback_continuation",
+        "side": "sell",
+        "score": 61,
+        "readiness": "developing",
+        "present": [
+          "clear_trend_structure",
+          "momentum_not_against_structure"
+        ],
+        "missing": [
+          "pullback_entry_location"
+        ],
+        "supporting_evidence": [
+          "structure=LH/LL",
+          "momentum=mixed",
+          "location=mid_range"
+        ],
+        "risk_notes": [
+          "execution_friction_elevated"
+        ],
+        "execution_focus": "wait for M1 confirmation in the pullback direction before existing gates can approve.",
+        "teaching": {
+          "good_example": "Clear HH/HL or LH/LL structure, pullback into structure, momentum turns back with the trend, spread acceptable.",
+          "bad_example": "Trend label exists but price is mid-range, momentum is weak, or macro/execution context is fighting the idea.",
+          "operator_label_hint": "correct_hold if Atlas avoids mid-range or weak momentum; too_cautious/missed_trade only if pullback and confirmation were clean."
+        }
+      },
+      "ranked_candidates": [
+        {
+          "name": "pullback_continuation",
+          "side": "sell",
+          "score": 61,
+          "readiness": "developing",
+          "present": [
+            "clear_trend_structure",
+            "momentum_not_against_structure"
+          ],
+          "missing": [
+            "pullback_entry_location"
+          ],
+          "supporting_evidence": [
+            "structure=LH/LL",
+            "momentum=mixed",
+            "location=mid_range"
+          ],
+          "risk_notes": [
+            "execution_friction_elevated"
+          ],
+          "execution_focus": "wait for M1 confirmation in the pullback direction before existing gates can approve.",
+          "teaching": {
+            "good_example": "Clear HH/HL or LH/LL structure, pullback into structure, momentum turns back with the trend, spread acceptable.",
+            "bad_example": "Trend label exists but price is mid-range, momentum is weak, or macro/execution context is fighting the idea.",
+            "operator_label_hint": "correct_hold if Atlas avoids mid-range or weak momentum; too_cautious/missed_trade only if pullback and confirmation were clean."
+          }
+        },
+        {
+          "name": "breakout_retest",
+          "side": "sell",
+          "score": 47,
+          "readiness": "not_ready",
+          "present": [
+            "trend_context"
+          ],
+          "missing": [
+            "breakout_or_retest_location",
+            "breakout_follow_through"
+          ],
+          "supporting_evidence": [
+            "setup_hint=continuation",
+            "momentum=mixed",
+            "location=mid_range"
+          ],
+          "risk_notes": [
+            "execution_friction_elevated"
+          ],
+          "execution_focus": "prefer confirmed retest/follow-through instead of chasing the first break.",
+          "teaching": {
+            "good_example": "Breakout confirms, retest holds, follow-through returns, and liquidity remains usable.",
+            "bad_example": "First break is chased without retest or follow-through, especially in thin liquidity.",
+            "operator_label_hint": "bad_setup if Atlas chases; missed_trade only if clean retest confirmation was present."
+          }
+        },
+        {
+          "name": "range_edge_reversal",
+          "side": "sell",
+          "score": 30,
+          "readiness": "not_ready",
+          "present": [],
+          "missing": [
+            "range_context",
+            "range_edge_location",
+            "avoid_mid_range_entry"
+          ],
+          "supporting_evidence": [
+            "regime=trend",
+            "location=mid_range",
+            "setup_hint=continuation"
+          ],
+          "risk_notes": [
+            "execution_friction_elevated"
+          ],
+          "execution_focus": "wait for range-edge rejection; avoid mid-range execution.",
+          "teaching": {
+            "good_example": "Defined range, price at edge, rejection appears, trend strength stays weak, and execution friction is acceptable.",
+            "bad_example": "Price is in the middle of the range or the range edge is not defined.",
+            "operator_label_hint": "correct_hold for mid-range avoidance; missed_trade only after clean edge rejection."
+          }
+        },
+        {
+          "name": "liquidity_sweep_reversal",
+          "side": "neutral",
+          "score": 25,
+          "readiness": "not_ready",
+          "present": [],
+          "missing": [
+            "new_local_high",
+            "new_local_low",
+            "exhaustion_wick",
+            "structure_break",
+            "momentum_confirmation"
+          ],
+          "supporting_evidence": [
+            "new_local_high=False",
+            "new_local_low=False",
+            "exhaustion_wick=False",
+            "structure_break=False",
+            "momentum_confirmation=False"
+          ],
+          "risk_notes": [
+            "execution_friction_elevated",
+            "counter_trend_requires_confirmation"
+          ],
+          "execution_focus": "only treat as actionable after structure break and reversal momentum confirmation.",
+          "teaching": {
+            "good_example": "Sweep, fast rejection, structure reclaim, and reversal momentum confirmation all appear together.",
+            "bad_example": "A wick appears without reclaim or confirmation.",
+            "operator_label_hint": "correct_hold when reversal confirmation is missing; bad_setup if Atlas treats sweep alone as enough."
+          }
+        }
+      ],
+      "current_missing": [
+        "pullback_entry_location"
+      ],
+      "current_risks": [
+        "execution_friction_elevated"
+      ],
+      "summary": "pullback_continuation is the closest playbook at 61/100."
+    },
+    "setup_radar": {
+      "mode": "observability_only",
+      "timing_state": "setup_forming",
+      "top_watch": {
+        "name": "pullback_continuation",
+        "side": "sell",
+        "score": 61,
+        "readiness": "developing",
+        "phase": "early_watch",
+        "trigger_state": "forming_waiting_for_confirmations",
+        "trigger_checklist": [
+          {
+            "code": "spread_liquidity_too_poor",
+            "status": "blocked",
+            "label": "spread liquidity too poor"
+          },
+          {
+            "code": "execution_friction_elevated",
+            "status": "risk",
+            "label": "spread/liquidity must stay acceptable"
+          },
+          {
+            "code": "pullback_entry_location",
+            "status": "missing",
+            "label": "price must pull back into a valid structure/reaction zone"
+          },
+          {
+            "code": "momentum_confirmation",
+            "status": "missing",
+            "label": "M1 momentum must turn back in the setup direction"
+          },
+          {
+            "code": "momentum_not_against_structure",
+            "status": "present",
+            "label": "momentum not against structure"
+          },
+          {
+            "code": "clear_trend_structure",
+            "status": "present",
+            "label": "clear trend structure"
+          }
+        ],
+        "missing_to_entry": [
+          "pullback_entry_location",
+          "momentum_confirmation"
+        ],
+        "risks": [
+          "execution_friction_elevated"
+        ],
+        "next_confirmation": "spread liquidity too poor",
+        "execution_focus": "wait for M1 confirmation in the pullback direction before existing gates can approve."
+      },
+      "watchlist": [
+        {
+          "name": "pullback_continuation",
+          "side": "sell",
+          "score": 61,
+          "readiness": "developing",
+          "phase": "early_watch",
+          "trigger_state": "forming_waiting_for_confirmations",
+          "trigger_checklist": [
+            {
+              "code": "spread_liquidity_too_poor",
+              "status": "blocked",
+              "label": "spread liquidity too poor"
+            },
+            {
+              "code": "execution_friction_elevated",
+              "status": "risk",
+              "label": "spread/liquidity must stay acceptable"
+            },
+            {
+              "code": "pullback_entry_location",
+              "status": "missing",
+              "label": "price must pull back into a valid structure/reaction zone"
+            },
+            {
+              "code": "momentum_confirmation",
+              "status": "missing",
+              "label": "M1 momentum must turn back in the setup direction"
+            },
+            {
+              "code": "momentum_not_against_structure",
+              "status": "present",
+              "label": "momentum not against structure"
+            },
+            {
+              "code": "clear_trend_structure",
+              "status": "present",
+              "label": "clear trend structure"
+            }
+          ],
+          "missing_to_entry": [
+            "pullback_entry_location",
+            "momentum_confirmation"
+          ],
+          "risks": [
+            "execution_friction_elevated"
+          ],
+          "next_confirmation": "spread liquidity too poor",
+          "execution_focus": "wait for M1 confirmation in the pullback direction before existing gates can approve."
+        },
+        {
+          "name": "breakout_retest",
+          "side": "sell",
+          "score": 47,
+          "readiness": "not_ready",
+          "phase": "conditions_blocking",
+          "trigger_state": "context_blocked",
+          "trigger_checklist": [
+            {
+              "code": "spread_liquidity_too_poor",
+              "status": "blocked",
+              "label": "spread liquidity too poor"
+            },
+            {
+              "code": "execution_friction_elevated",
+              "status": "risk",
+              "label": "spread/liquidity must stay acceptable"
+            },
+            {
+              "code": "breakout_or_retest_location",
+              "status": "missing",
+              "label": "breakout must retest or hold a clean reaction level"
+            },
+            {
+              "code": "breakout_follow_through",
+              "status": "missing",
+              "label": "breakout needs follow-through after the retest"
+            },
+            {
+              "code": "momentum_confirmation",
+              "status": "missing",
+              "label": "M1 momentum must turn back in the setup direction"
+            },
+            {
+              "code": "trend_context",
+              "status": "present",
+              "label": "trend context"
+            }
+          ],
+          "missing_to_entry": [
+            "breakout_or_retest_location",
+            "breakout_follow_through",
+            "momentum_confirmation"
+          ],
+          "risks": [
+            "execution_friction_elevated"
+          ],
+          "next_confirmation": "spread liquidity too poor",
+          "execution_focus": "prefer confirmed retest/follow-through instead of chasing the first break."
+        },
+        {
+          "name": "range_edge_reversal",
+          "side": "sell",
+          "score": 30,
+          "readiness": "not_ready",
+          "phase": "conditions_blocking",
+          "trigger_state": "context_blocked",
+          "trigger_checklist": [
+            {
+              "code": "spread_liquidity_too_poor",
+              "status": "blocked",
+              "label": "spread liquidity too poor"
+            },
+            {
+              "code": "execution_friction_elevated",
+              "status": "risk",
+              "label": "spread/liquidity must stay acceptable"
+            },
+            {
+              "code": "range_context",
+              "status": "missing",
+              "label": "range context must be clearly defined"
+            },
+            {
+              "code": "range_edge_location",
+              "status": "missing",
+              "label": "price must be at a range edge, not the middle"
+            },
+            {
+              "code": "avoid_mid_range_entry",
+              "status": "missing",
+              "label": "entry must move away from mid-range"
+            }
+          ],
+          "missing_to_entry": [
+            "range_context",
+            "range_edge_location",
+            "avoid_mid_range_entry"
+          ],
+          "risks": [
+            "execution_friction_elevated"
+          ],
+          "next_confirmation": "spread liquidity too poor",
+          "execution_focus": "wait for range-edge rejection; avoid mid-range execution."
+        },
+        {
+          "name": "liquidity_sweep_reversal",
+          "side": "neutral",
+          "score": 25,
+          "readiness": "not_ready",
+          "phase": "conditions_blocking",
+          "trigger_state": "context_blocked",
+          "trigger_checklist": [
+            {
+              "code": "spread_liquidity_too_poor",
+              "status": "blocked",
+              "label": "spread liquidity too poor"
+            },
+            {
+              "code": "execution_friction_elevated",
+              "status": "risk",
+              "label": "spread/liquidity must stay acceptable"
+            },
+            {
+              "code": "counter_trend_requires_confirmation",
+              "status": "risk",
+              "label": "counter-trend idea needs stronger confirmation"
+            },
+            {
+              "code": "new_local_high",
+              "status": "missing",
+              "label": "liquidity sweep needs a new local high or low"
+            },
+            {
+              "code": "new_local_low",
+              "status": "missing",
+              "label": "liquidity sweep needs a new local high or low"
+            },
+            {
+              "code": "exhaustion_wick",
+              "status": "missing",
+              "label": "sweep needs rejection or exhaustion wick evidence"
+            },
+            {
+              "code": "structure_break",
+              "status": "missing",
+              "label": "reversal needs structure reclaim/break confirmation"
+            },
+            {
+              "code": "momentum_confirmation",
+              "status": "missing",
+              "label": "M1 momentum must turn back in the setup direction"
+            }
+          ],
+          "missing_to_entry": [
+            "new_local_high",
+            "new_local_low",
+            "exhaustion_wick",
+            "structure_break"
+          ],
+          "risks": [
+            "execution_friction_elevated",
+            "counter_trend_requires_confirmation"
+          ],
+          "next_confirmation": "spread liquidity too poor",
+          "execution_focus": "only treat as actionable after structure break and reversal momentum confirmation."
+        }
+      ],
+      "conditions_slowing_setups": [
+        "spread/liquidity is slowing valid entries",
+        "momentum is mixed",
+        "price is mid-range"
+      ],
+      "operator_summary": "pullback_continuation is forming_waiting_for_confirmations.",
+      "policy_note": "Setup radar is advisory only; it does not lower thresholds or bypass gates."
+    },
+    "timing_engine": {
+      "state": "setup_forming",
+      "top_watch": {
+        "name": "pullback_continuation",
+        "side": "sell",
+        "score": 61,
+        "readiness": "developing",
+        "phase": "early_watch",
+        "trigger_state": "forming_waiting_for_confirmations",
+        "trigger_checklist": [
+          {
+            "code": "spread_liquidity_too_poor",
+            "status": "blocked",
+            "label": "spread liquidity too poor"
+          },
+          {
+            "code": "execution_friction_elevated",
+            "status": "risk",
+            "label": "spread/liquidity must stay acceptable"
+          },
+          {
+            "code": "pullback_entry_location",
+            "status": "missing",
+            "label": "price must pull back into a valid structure/reaction zone"
+          },
+          {
+            "code": "momentum_confirmation",
+            "status": "missing",
+            "label": "M1 momentum must turn back in the setup direction"
+          },
+          {
+            "code": "momentum_not_against_structure",
+            "status": "present",
+            "label": "momentum not against structure"
+          },
+          {
+            "code": "clear_trend_structure",
+            "status": "present",
+            "label": "clear trend structure"
+          }
+        ],
+        "missing_to_entry": [
+          "pullback_entry_location",
+          "momentum_confirmation"
+        ],
+        "risks": [
+          "execution_friction_elevated"
+        ],
+        "next_confirmation": "spread liquidity too poor",
+        "execution_focus": "wait for M1 confirmation in the pullback direction before existing gates can approve."
+      },
+      "waiting_for": [
+        "pullback_entry_location",
+        "momentum_confirmation"
+      ],
+      "trigger_state": "forming_waiting_for_confirmations",
+      "trigger_checklist": [
+        {
+          "code": "spread_liquidity_too_poor",
+          "status": "blocked",
+          "label": "spread liquidity too poor"
+        },
+        {
+          "code": "execution_friction_elevated",
+          "status": "risk",
+          "label": "spread/liquidity must stay acceptable"
+        },
+        {
+          "code": "pullback_entry_location",
+          "status": "missing",
+          "label": "price must pull back into a valid structure/reaction zone"
+        },
+        {
+          "code": "momentum_confirmation",
+          "status": "missing",
+          "label": "M1 momentum must turn back in the setup direction"
+        },
+        {
+          "code": "momentum_not_against_structure",
+          "status": "present",
+          "label": "momentum not against structure"
+        },
+        {
+          "code": "clear_trend_structure",
+          "status": "present",
+          "label": "clear trend structure"
+        }
+      ],
+      "next_confirmation": "spread liquidity too poor",
+      "conditions_slowing_setups": [
+        "spread/liquidity is slowing valid entries",
+        "momentum is mixed",
+        "price is mid-range"
+      ],
+      "summary": "pullback_continuation is forming_waiting_for_confirmations.",
+      "policy_note": "Timing engine is observability only; execution gates remain authoritative."
+    },
+    "strategy_coverage": {
+      "mode": "observability_only",
+      "top_playbook": "pullback_continuation",
+      "top_playbook_readiness": "developing",
+      "matching_signal_count": 3,
+      "directional_signal_count": 2,
+      "best_matching_signal": {
+        "strategy": "ema_crossover",
+        "side": "sell",
+        "confidence": 1.0
+      },
+      "coverage_gap": false,
+      "weak_coverage": false,
+      "suggested_focus": "Enabled strategies cover the current top playbook well enough for normal gates.",
+      "policy_note": "Coverage diagnostic is observability only; it does not enable strategies or bypass execution gates."
+    },
+    "buy_score": 30,
+    "sell_score": 75,
+    "no_trade_score": 84,
+    "trade_decision": "NO_TRADE",
+    "bias_strength": "strong",
+    "pre_trade_memo": {
+      "bias": "neutral",
+      "signal_bias": "sell",
+      "chart_structure_bias": "sell",
+      "higher_timeframe_bias": "sell",
+      "bias_breakdown": {
+        "signal_bias": "sell",
+        "chart_structure_bias": "sell",
+        "higher_timeframe_bias": "sell",
+        "final_trade_bias": "neutral",
+        "legacy_market_bias": "neutral",
+        "conflict": false,
+        "explanation": "Signal, structure, and final decision are separated so candidate direction is not mistaken for market direction."
+      },
+      "setup_type": "continuation",
+      "confluence_score": 44,
+      "confluence_threshold": 85,
+      "reward_vs_risk": {
+        "ratio": 1.522,
+        "take_profit_points": 175.0,
+        "stop_loss_points": 115.0
+      },
+      "supporting_factors": [
+        "lower highs and lower lows on M15",
+        "new_york session quality is acceptable"
+      ],
+      "contradictory_factors": [
+        "momentum is mixed",
+        "entry location is suboptimal",
+        "spread conditions are unsafe",
+        "liquidity is weak"
+      ],
+      "reasons_not_to_trade": [
+        "spread_liquidity_too_poor"
+      ],
+      "top_blockers": [
+        {
+          "name": "confluence_gap",
+          "actual": 44.0,
+          "target": 85.0,
+          "delta_to_pass": 41.0,
+          "unit": "score",
+          "detail": "overall confluence remains below execution threshold",
+          "delta_text": "41.000 score to pass"
+        },
+        {
+          "name": "spread_liquidity",
+          "actual": 10.0,
+          "target": 35.0,
+          "delta_to_pass": 25.0,
+          "unit": "score",
+          "detail": "spread/liquidity safety score below minimum",
+          "delta_text": "25.000 score to pass"
+        },
+        {
+          "name": "momentum_quality",
+          "actual": 50.0,
+          "target": 65.0,
+          "delta_to_pass": 15.0,
+          "unit": "score",
+          "detail": "momentum remains mixed/weak for execution",
+          "delta_text": "15.000 score to pass"
+        }
+      ],
+      "final_decision": "hold",
+      "size_band_rationale": {
+        "band": "blocked",
+        "cap_multiplier": 0.0,
+        "risk_fraction_of_max": 0.0,
+        "rationale": [
+          "No size allocated because hard blockers are active."
+        ]
+      },
+      "timeframe_logic": {
+        "structure_trend": "M15",
+        "entry_confirmation": "M15",
+        "execution_timing": "M15",
+        "higher_timeframe_confirmation": "H1",
+        "higher_timeframe_bias": "sell",
+        "data_source": "mt5_rates_api",
+        "visible_terminal_chart_required": false
+      },
+      "market_regime": {
+        "regime": "volatile",
+        "regime_confidence": 52,
+        "regime_confidence_level": "low",
+        "regime_reasons": [
+          "candle expansion / volatility is elevated",
+          "spread or liquidity is unstable"
+        ],
+        "scores": {
+          "trending": 34,
+          "ranging": 46,
+          "volatile": 52
+        },
+        "timestamp": "2026-08-29T13:52:40.665604+00:00",
+        "behavior": {
+          "trending": "prioritize continuation/pullback and avoid blind counter-trend entries",
+          "ranging": "prefer mean reversion only at defined extremes with confirmation",
+          "volatile": "defensive mode; reduce size or block entries depending on severity"
+        }
+      },
+      "reversal_detection": {
+        "reversal_candidate": false,
+        "reversal_confidence": 0,
+        "reversal_confidence_level": "low",
+        "reversal_bias": "neutral",
+        "reversal_reasons": [
+          "exhaustion wick / rejection is present"
+        ],
+        "confirmed_reversal": false,
+        "requires": [
+          "macro divergence/conflict",
+          "structure confirmation",
+          "momentum confirmation"
+        ]
+      },
+      "account_tier": "standard_account",
+      "risk_profile": "capital_preservation_standard",
+      "size_tier": {
+        "current_size_tier": "tier_5_0p10",
+        "next_size_tier_requirement": "max_tier_reached",
+        "size_tier_reason": "bounded_stepwise_scaling"
+      },
+      "setup_playbook": {
+        "name": "pullback_continuation",
+        "side": "sell",
+        "score": 61,
+        "readiness": "developing",
+        "present": [
+          "clear_trend_structure",
+          "momentum_not_against_structure"
+        ],
+        "missing": [
+          "pullback_entry_location"
+        ],
+        "supporting_evidence": [
+          "structure=LH/LL",
+          "momentum=mixed",
+          "location=mid_range"
+        ],
+        "risk_notes": [
+          "execution_friction_elevated"
+        ],
+        "execution_focus": "wait for M1 confirmation in the pullback direction before existing gates can approve.",
+        "teaching": {
+          "good_example": "Clear HH/HL or LH/LL structure, pullback into structure, momentum turns back with the trend, spread acceptable.",
+          "bad_example": "Trend label exists but price is mid-range, momentum is weak, or macro/execution context is fighting the idea.",
+          "operator_label_hint": "correct_hold if Atlas avoids mid-range or weak momentum; too_cautious/missed_trade only if pullback and confirmation were clean."
+        }
+      }
+    },
+    "decision_protocol": {
+      "observe": {
+        "xauusd_structure": {
+          "trend_state": "downtrend",
+          "trend_structure": "LH/LL",
+          "momentum_state": "mixed",
+          "location_state": "mid_range"
+        },
+        "dxy_direction": "unavailable",
+        "us10y_direction": "unavailable",
+        "spread_liquidity": {
+          "spread_state": "wide",
+          "liquidity_state": "poor",
+          "spread_points": 43.0,
+          "slippage_state": "unknown"
+        },
+        "session": "new_york",
+        "event_news_risk": {
+          "event_risk_state": "unknown",
+          "news_context_state": "unknown",
+          "high_impact_news_window": false
+        },
+        "summary": [
+          "XAU structure=LH/LL momentum=mixed location=mid_range",
+          "DXY=unavailable US10Y=unavailable",
+          "spread/liquidity=wide/poor",
+          "session=new_york event_risk=unknown"
+        ]
+      },
+      "orient": {
+        "market_regime": "volatile",
+        "regime_confidence": 52,
+        "setup_type": "continuation",
+        "macro_alignment": {
+          "dxy_state": "mixed",
+          "us10y_state": "mixed",
+          "conflict": false
+        },
+        "reaction_zone_context": "unknown",
+        "breakout_rejection_behavior": "unknown",
+        "summary": [
+          "regime=volatile",
+          "setup=continuation",
+          "playbook=pullback_continuation",
+          "macro DXY/US10Y=mixed/mixed"
+        ]
+      },
+      "critique": {
+        "top_failure_reasons": [
+          "spread liquidity too poor",
+          "mixed momentum",
+          "suboptimal location"
+        ],
+        "ranked_blockers": [
+          {
+            "name": "confluence_gap",
+            "actual": 44.0,
+            "target": 85.0,
+            "delta_to_pass": 41.0,
+            "unit": "score",
+            "detail": "overall confluence remains below execution threshold",
+            "delta_text": "41.000 score to pass"
+          },
+          {
+            "name": "spread_liquidity",
+            "actual": 10.0,
+            "target": 35.0,
+            "delta_to_pass": 25.0,
+            "unit": "score",
+            "detail": "spread/liquidity safety score below minimum",
+            "delta_text": "25.000 score to pass"
+          },
+          {
+            "name": "momentum_quality",
+            "actual": 50.0,
+            "target": 65.0,
+            "delta_to_pass": 15.0,
+            "unit": "score",
+            "detail": "momentum remains mixed/weak for execution",
+            "delta_text": "15.000 score to pass"
+          }
+        ],
+        "summary": [
+          "spread liquidity too poor",
+          "mixed momentum",
+          "suboptimal location"
+        ]
+      },
+      "decide": {
+        "confluence_score": 44,
+        "confluence_threshold": 85,
+        "score_passed": false,
+        "blockers": [
+          "spread_liquidity_too_poor"
+        ],
+        "blockers_override_score": true,
+        "recommended_action": "hold",
+        "summary": [
+          "confluence=44/85",
+          "blockers=spread_liquidity_too_poor",
+          "action=hold",
+          "top_blockers=confluence_gap: 44.000/85.000 (41.000 score to pass); spread_liquidity: 10.000/35.000 (25.000 score to pass)"
+        ]
+      },
+      "act": {
+        "execution_request_eligible": false,
+        "requires_execution_gates": true,
+        "gate_conditions": {
+          "score_passed": false,
+          "no_hard_blockers": false,
+          "existing_execution_gates_approve": false
+        },
+        "summary": "not_eligible_for_execution_request"
+      }
+    },
+    "explanation": "No-trade: spread liquidity too poor.",
+    "account_profile": {
+      "account_tier": "standard_account",
+      "tier_reason": "balance supports standard guarded risk profile",
+      "risk_profile": "capital_preservation_standard",
+      "current_size_tier": "tier_5_0p10",
+      "next_size_tier_requirement": "max_tier_reached",
+      "size_tier_reason": "bounded_stepwise_scaling"
+    }
+  },
+  "pre_trade_memo": {
+    "bias": "neutral",
+    "signal_bias": "sell",
+    "chart_structure_bias": "sell",
+    "higher_timeframe_bias": "sell",
+    "bias_breakdown": {
+      "signal_bias": "sell",
+      "chart_structure_bias": "sell",
+      "higher_timeframe_bias": "sell",
+      "final_trade_bias": "neutral",
+      "legacy_market_bias": "neutral",
+      "conflict": false,
+      "explanation": "Signal, structure, and final decision are separated so candidate direction is not mistaken for market direction."
+    },
+    "setup_type": "continuation",
+    "confluence_score": 44,
+    "confluence_threshold": 85,
+    "reward_vs_risk": {
+      "ratio": 1.522,
+      "take_profit_points": 175.0,
+      "stop_loss_points": 115.0
+    },
+    "supporting_factors": [
+      "lower highs and lower lows on M15",
+      "new_york session quality is acceptable"
+    ],
+    "contradictory_factors": [
+      "momentum is mixed",
+      "entry location is suboptimal",
+      "spread conditions are unsafe",
+      "liquidity is weak"
+    ],
+    "reasons_not_to_trade": [
+      "spread_liquidity_too_poor"
+    ],
+    "top_blockers": [
+      {
+        "name": "confluence_gap",
+        "actual": 44.0,
+        "target": 85.0,
+        "delta_to_pass": 41.0,
+        "unit": "score",
+        "detail": "overall confluence remains below execution threshold",
+        "delta_text": "41.000 score to pass"
+      },
+      {
+        "name": "spread_liquidity",
+        "actual": 10.0,
+        "target": 35.0,
+        "delta_to_pass": 25.0,
+        "unit": "score",
+        "detail": "spread/liquidity safety score below minimum",
+        "delta_text": "25.000 score to pass"
+      },
+      {
+        "name": "momentum_quality",
+        "actual": 50.0,
+        "target": 65.0,
+        "delta_to_pass": 15.0,
+        "unit": "score",
+        "detail": "momentum remains mixed/weak for execution",
+        "delta_text": "15.000 score to pass"
+      }
+    ],
+    "final_decision": "hold",
+    "size_band_rationale": {
+      "band": "blocked",
+      "cap_multiplier": 0.0,
+      "risk_fraction_of_max": 0.0,
+      "rationale": [
+        "No size allocated because hard blockers are active."
+      ]
+    },
+    "timeframe_logic": {
+      "structure_trend": "M15",
+      "entry_confirmation": "M15",
+      "execution_timing": "M15",
+      "higher_timeframe_confirmation": "H1",
+      "higher_timeframe_bias": "sell",
+      "data_source": "mt5_rates_api",
+      "visible_terminal_chart_required": false
+    },
+    "market_regime": {
+      "regime": "volatile",
+      "regime_confidence": 52,
+      "regime_confidence_level": "low",
+      "regime_reasons": [
+        "candle expansion / volatility is elevated",
+        "spread or liquidity is unstable"
+      ],
+      "scores": {
+        "trending": 34,
+        "ranging": 46,
+        "volatile": 52
+      },
+      "timestamp": "2026-08-29T13:52:40.665604+00:00",
+      "behavior": {
+        "trending": "prioritize continuation/pullback and avoid blind counter-trend entries",
+        "ranging": "prefer mean reversion only at defined extremes with confirmation",
+        "volatile": "defensive mode; reduce size or block entries depending on severity"
+      }
+    },
+    "reversal_detection": {
+      "reversal_candidate": false,
+      "reversal_confidence": 0,
+      "reversal_confidence_level": "low",
+      "reversal_bias": "neutral",
+      "reversal_reasons": [
+        "exhaustion wick / rejection is present"
+      ],
+      "confirmed_reversal": false,
+      "requires": [
+        "macro divergence/conflict",
+        "structure confirmation",
+        "momentum confirmation"
+      ]
+    },
+    "account_tier": "standard_account",
+    "risk_profile": "capital_preservation_standard",
+    "size_tier": {
+      "current_size_tier": "tier_5_0p10",
+      "next_size_tier_requirement": "max_tier_reached",
+      "size_tier_reason": "bounded_stepwise_scaling"
+    },
+    "setup_playbook": {
+      "name": "pullback_continuation",
+      "side": "sell",
+      "score": 61,
+      "readiness": "developing",
+      "present": [
+        "clear_trend_structure",
+        "momentum_not_against_structure"
+      ],
+      "missing": [
+        "pullback_entry_location"
+      ],
+      "supporting_evidence": [
+        "structure=LH/LL",
+        "momentum=mixed",
+        "location=mid_range"
+      ],
+      "risk_notes": [
+        "execution_friction_elevated"
+      ],
+      "execution_focus": "wait for M1 confirmation in the pullback direction before existing gates can approve.",
+      "teaching": {
+        "good_example": "Clear HH/HL or LH/LL structure, pullback into structure, momentum turns back with the trend, spread acceptable.",
+        "bad_example": "Trend label exists but price is mid-range, momentum is weak, or macro/execution context is fighting the idea.",
+        "operator_label_hint": "correct_hold if Atlas avoids mid-range or weak momentum; too_cautious/missed_trade only if pullback and confirmation were clean."
+      }
+    }
+  },
+  "market_regime": {
+    "regime": "volatile",
+    "regime_confidence": 52,
+    "regime_confidence_level": "low",
+    "regime_reasons": [
+      "candle expansion / volatility is elevated",
+      "spread or liquidity is unstable"
+    ],
+    "scores": {
+      "trending": 34,
+      "ranging": 46,
+      "volatile": 52
+    },
+    "timestamp": "2026-08-29T13:52:40.665604+00:00",
+    "behavior": {
+      "trending": "prioritize continuation/pullback and avoid blind counter-trend entries",
+      "ranging": "prefer mean reversion only at defined extremes with confirmation",
+      "volatile": "defensive mode; reduce size or block entries depending on severity"
+    }
+  },
+  "reversal_detection": {
+    "reversal_candidate": false,
+    "reversal_confidence": 0,
+    "reversal_confidence_level": "low",
+    "reversal_bias": "neutral",
+    "reversal_reasons": [
+      "exhaustion wick / rejection is present"
+    ],
+    "confirmed_reversal": false,
+    "requires": [
+      "macro divergence/conflict",
+      "structure confirmation",
+      "momentum confirmation"
+    ]
+  },
+  "setup_playbook": {
+    "mode": "advisory_only",
+    "policy_note": "Ranks setup quality only; existing risk and execution gates remain authoritative.",
+    "top_candidate": {
+      "name": "pullback_continuation",
+      "side": "sell",
+      "score": 61,
+      "readiness": "developing",
+      "present": [
+        "clear_trend_structure",
+        "momentum_not_against_structure"
+      ],
+      "missing": [
+        "pullback_entry_location"
+      ],
+      "supporting_evidence": [
+        "structure=LH/LL",
+        "momentum=mixed",
+        "location=mid_range"
+      ],
+      "risk_notes": [
+        "execution_friction_elevated"
+      ],
+      "execution_focus": "wait for M1 confirmation in the pullback direction before existing gates can approve.",
+      "teaching": {
+        "good_example": "Clear HH/HL or LH/LL structure, pullback into structure, momentum turns back with the trend, spread acceptable.",
+        "bad_example": "Trend label exists but price is mid-range, momentum is weak, or macro/execution context is fighting the idea.",
+        "operator_label_hint": "correct_hold if Atlas avoids mid-range or weak momentum; too_cautious/missed_trade only if pullback and confirmation were clean."
+      }
+    },
+    "ranked_candidates": [
+      {
+        "name": "pullback_continuation",
+        "side": "sell",
+        "score": 61,
+        "readiness": "developing",
+        "present": [
+          "clear_trend_structure",
+          "momentum_not_against_structure"
+        ],
+        "missing": [
+          "pullback_entry_location"
+        ],
+        "supporting_evidence": [
+          "structure=LH/LL",
+          "momentum=mixed",
+          "location=mid_range"
+        ],
+        "risk_notes": [
+          "execution_friction_elevated"
+        ],
+        "execution_focus": "wait for M1 confirmation in the pullback direction before existing gates can approve.",
+        "teaching": {
+          "good_example": "Clear HH/HL or LH/LL structure, pullback into structure, momentum turns back with the trend, spread acceptable.",
+          "bad_example": "Trend label exists but price is mid-range, momentum is weak, or macro/execution context is fighting the idea.",
+          "operator_label_hint": "correct_hold if Atlas avoids mid-range or weak momentum; too_cautious/missed_trade only if pullback and confirmation were clean."
+        }
+      },
+      {
+        "name": "breakout_retest",
+        "side": "sell",
+        "score": 47,
+        "readiness": "not_ready",
+        "present": [
+          "trend_context"
+        ],
+        "missing": [
+          "breakout_or_retest_location",
+          "breakout_follow_through"
+        ],
+        "supporting_evidence": [
+          "setup_hint=continuation",
+          "momentum=mixed",
+          "location=mid_range"
+        ],
+        "risk_notes": [
+          "execution_friction_elevated"
+        ],
+        "execution_focus": "prefer confirmed retest/follow-through instead of chasing the first break.",
+        "teaching": {
+          "good_example": "Breakout confirms, retest holds, follow-through returns, and liquidity remains usable.",
+          "bad_example": "First break is chased without retest or follow-through, especially in thin liquidity.",
+          "operator_label_hint": "bad_setup if Atlas chases; missed_trade only if clean retest confirmation was present."
+        }
+      },
+      {
+        "name": "range_edge_reversal",
+        "side": "sell",
+        "score": 30,
+        "readiness": "not_ready",
+        "present": [],
+        "missing": [
+          "range_context",
+          "range_edge_location",
+          "avoid_mid_range_entry"
+        ],
+        "supporting_evidence": [
+          "regime=trend",
+          "location=mid_range",
+          "setup_hint=continuation"
+        ],
+        "risk_notes": [
+          "execution_friction_elevated"
+        ],
+        "execution_focus": "wait for range-edge rejection; avoid mid-range execution.",
+        "teaching": {
+          "good_example": "Defined range, price at edge, rejection appears, trend strength stays weak, and execution friction is acceptable.",
+          "bad_example": "Price is in the middle of the range or the range edge is not defined.",
+          "operator_label_hint": "correct_hold for mid-range avoidance; missed_trade only after clean edge rejection."
+        }
+      },
+      {
+        "name": "liquidity_sweep_reversal",
+        "side": "neutral",
+        "score": 25,
+        "readiness": "not_ready",
+        "present": [],
+        "missing": [
+          "new_local_high",
+          "new_local_low",
+          "exhaustion_wick",
+          "structure_break",
+          "momentum_confirmation"
+        ],
+        "supporting_evidence": [
+          "new_local_high=False",
+          "new_local_low=False",
+          "exhaustion_wick=False",
+          "structure_break=False",
+          "momentum_confirmation=False"
+        ],
+        "risk_notes": [
+          "execution_friction_elevated",
+          "counter_trend_requires_confirmation"
+        ],
+        "execution_focus": "only treat as actionable after structure break and reversal momentum confirmation.",
+        "teaching": {
+          "good_example": "Sweep, fast rejection, structure reclaim, and reversal momentum confirmation all appear together.",
+          "bad_example": "A wick appears without reclaim or confirmation.",
+          "operator_label_hint": "correct_hold when reversal confirmation is missing; bad_setup if Atlas treats sweep alone as enough."
+        }
+      }
+    ],
+    "current_missing": [
+      "pullback_entry_location"
+    ],
+    "current_risks": [
+      "execution_friction_elevated"
+    ],
+    "summary": "pullback_continuation is the closest playbook at 61/100."
+  },
+  "setup_hunter": {
+    "mode": "proactive_scan",
+    "state": "execution_candidate_active",
+    "candidate_count": 6,
+    "closest_setup": {
+      "source": "strategy_signal",
+      "name": "ema_crossover",
+      "side": "sell",
+      "score": 100,
+      "confidence": 1.0,
+      "confidence_gap": 0.0,
+      "readiness": "signal_candidate",
+      "phase": "forming",
+      "trigger_state": "raw_signal_tracking",
+      "missing_to_entry": [
+        "setup_confirmation"
+      ],
+      "risks": [
+        "spread_liquidity_too_poor"
+      ],
+      "next_confirmation": "confirm signal quality and setup fit",
+      "formation_tasks": [
+        "track whether the raw signal gains setup confirmation"
+      ]
+    },
+    "top_candidates": [
+      {
+        "source": "strategy_signal",
+        "name": "ema_crossover",
+        "side": "sell",
+        "score": 100,
+        "confidence": 1.0,
+        "confidence_gap": 0.0,
+        "readiness": "signal_candidate",
+        "phase": "forming",
+        "trigger_state": "raw_signal_tracking",
+        "missing_to_entry": [
+          "setup_confirmation"
+        ],
+        "risks": [
+          "spread_liquidity_too_poor"
+        ],
+        "next_confirmation": "confirm signal quality and setup fit",
+        "formation_tasks": [
+          "track whether the raw signal gains setup confirmation"
+        ]
+      },
+      {
+        "source": "strategy_signal",
+        "name": "momentum_continuation",
+        "side": "sell",
+        "score": 75,
+        "confidence": 0.7502,
+        "confidence_gap": 0.0,
+        "readiness": "signal_candidate",
+        "phase": "forming",
+        "trigger_state": "raw_signal_tracking",
+        "missing_to_entry": [
+          "setup_confirmation"
+        ],
+        "risks": [
+          "spread_liquidity_too_poor"
+        ],
+        "next_confirmation": "confirm signal quality and setup fit",
+        "formation_tasks": [
+          "track whether the raw signal gains setup confirmation"
+        ]
+      },
+      {
+        "source": "setup_radar",
+        "name": "pullback_continuation",
+        "side": "sell",
+        "score": 61,
+        "confidence": 0.61,
+        "confidence_gap": 0.0,
+        "readiness": "developing",
+        "phase": "forming",
+        "trigger_state": "forming_waiting_for_confirmations",
+        "missing_to_entry": [
+          "pullback_entry_location",
+          "momentum_confirmation"
+        ],
+        "risks": [
+          "execution_friction_elevated"
+        ],
+        "next_confirmation": "spread liquidity too poor",
+        "formation_tasks": [
+          "track price moving into a valid entry location",
+          "watch for momentum confirmation in the setup direction"
+        ]
+      },
+      {
+        "source": "setup_radar",
+        "name": "breakout_retest",
+        "side": "sell",
+        "score": 47,
+        "confidence": 0.47,
+        "confidence_gap": 0.0,
+        "readiness": "not_ready",
+        "phase": "context_blocked",
+        "trigger_state": "context_blocked",
+        "missing_to_entry": [
+          "breakout_or_retest_location",
+          "breakout_follow_through",
+          "momentum_confirmation"
+        ],
+        "risks": [
+          "execution_friction_elevated"
+        ],
+        "next_confirmation": "spread liquidity too poor",
+        "formation_tasks": [
+          "track price moving into a valid entry location",
+          "track breakout retest and follow-through",
+          "watch for momentum confirmation in the setup direction"
+        ]
+      },
+      {
+        "source": "setup_radar",
+        "name": "range_edge_reversal",
+        "side": "sell",
+        "score": 30,
+        "confidence": 0.3,
+        "confidence_gap": 0.0,
+        "readiness": "not_ready",
+        "phase": "context_blocked",
+        "trigger_state": "context_blocked",
+        "missing_to_entry": [
+          "range_context",
+          "range_edge_location",
+          "avoid_mid_range_entry"
+        ],
+        "risks": [
+          "execution_friction_elevated"
+        ],
+        "next_confirmation": "spread liquidity too poor",
+        "formation_tasks": [
+          "track range edge rejection instead of mid-range",
+          "track price moving into a valid entry location"
+        ]
+      }
+    ],
+    "hard_blockers": [
+      "spread_liquidity_too_poor"
+    ],
+    "next_action": "track whether the raw signal gains setup confirmation",
+    "operator_summary": "Actively tracking ema_crossover sell setup; next: track whether the raw signal gains setup confirmation.",
+    "policy_note": "Setup hunter is advisory only; it looks for forming setups but does not create fake setups, lower thresholds, bypass guards, or change execution policy."
+  },
+  "setup_quality_observation": {
+    "mode": "advisory_only",
+    "score": 61,
+    "score_scale": "0_to_100",
+    "top_setup": "pullback_continuation",
+    "side": "sell",
+    "readiness": "developing",
+    "missing": [
+      "pullback_entry_location"
+    ],
+    "risks": [
+      "execution_friction_elevated"
+    ],
+    "bias_entry_conflict": false,
+    "lessons": [
+      "mid-range is observation, not entry",
+      "wait for momentum confirmation",
+      "wait for pullback location"
+    ],
+    "ranked": [
+      {
+        "name": "pullback_continuation",
+        "score": 61,
+        "readiness": "developing",
+        "missing": [
+          "pullback_entry_location"
+        ]
+      },
+      {
+        "name": "breakout_retest",
+        "score": 47,
+        "readiness": "not_ready",
+        "missing": [
+          "breakout_or_retest_location",
+          "breakout_follow_through"
+        ]
+      },
+      {
+        "name": "range_edge_reversal",
+        "score": 30,
+        "readiness": "not_ready",
+        "missing": [
+          "range_context",
+          "range_edge_location",
+          "avoid_mid_range_entry"
+        ]
+      },
+      {
+        "name": "liquidity_sweep_reversal",
+        "score": 25,
+        "readiness": "not_ready",
+        "missing": [
+          "new_local_high",
+          "new_local_low",
+          "exhaustion_wick",
+          "structure_break"
+        ]
+      }
+    ],
+    "policy_note": "Advisory setup-quality observation only; it does not change strategy, risk, thresholds, or execution policy."
+  },
+  "self_improvement_state": {
+    "policy_version": "1.0",
+    "proposal_count": 0,
+    "validated_count": 0,
+    "approval_pending_count": 0,
+    "insight_count": 1,
+    "rollout_count": 2,
+    "rollout_active": true,
+    "rollback_available": true,
+    "active_rule_version": "atlas_rules_v1",
+    "latest_proposal_id": "",
+    "pending_proposal_id": "",
+    "pending_proposal_category": "",
+    "pending_proposal_target_blocker": "",
+    "latest_insight_id": "insight_outcome_momentum_continuation_weak",
+    "latest_rollout_id": "rollout_proposal_consensus_selectivity_context_review"
+  },
+  "system_health": {
+    "effective_mode": "paper",
+    "effective_mode_label": "PAPER",
+    "paper_mode_confirmed": true,
+    "filter_state": {
+      "conservative_filter_enabled": false,
+      "research_regime_filter_enabled": false
+    },
+    "ml_state": {
+      "meta_model_enabled": false,
+      "decision_authority": "disabled"
+    },
+    "gemini_state": {
+      "enabled": true,
+      "influence_enabled": false,
+      "provider_health": {
+        "enabled": true,
+        "providers": [
+          {
+            "name": "openai",
+            "in_cooldown": false,
+            "cooldown_seconds_left": 0,
+            "last_error": "",
+            "last_error_kind": ""
+          }
+        ]
+      }
+    },
+    "ai_influence_mode": "observer_only",
+    "ai_execution_authority": "execution_authority_forbidden",
+    "stale_data_detected": false,
+    "freshness_runtime": {
+      "status_age_ms": null,
+      "market_data_age_ms": null,
+      "primary_age_ms": null,
+      "backend_cycle_age_ms": null,
+      "is_status_stale": false,
+      "is_stale": false,
+      "state": "unknown",
+      "max_freshness_age_ms": 7200000.0,
+      "stale_threshold_ms": 7200000.0,
+      "aging_threshold_ms": 3600000.0,
+      "source": "status_freshness_contract"
+    },
+    "config_mismatch_detected": false,
+    "mode_truth": {
+      "effective_mode": "paper",
+      "effective_mode_label": "PAPER",
+      "effective_mode_source": "status",
+      "runtime_execute_trades": false,
+      "settings_execute_trades": false,
+      "status_execute_trades": false,
+      "startup_execute_trades": null,
+      "startup_message": "",
+      "explanation": "Status, runtime, startup verification, and settings are aligned.",
+      "gate_execution_environment": "paper",
+      "gate_execution_environment_label": "Paper",
+      "execution_gate_enabled": false
+    },
+    "routing_risk_detected": false,
+    "self_improvement": {
+      "policy_version": "1.0",
+      "proposal_count": 0,
+      "validated_count": 0,
+      "approval_pending_count": 0,
+      "rollout_active": true,
+      "rollback_available": true,
+      "active_rule_version": "atlas_rules_v1",
+      "latest_proposal_id": "",
+      "pending_proposal_id": "",
+      "pending_proposal_category": "",
+      "pending_proposal_target_blocker": "",
+      "latest_rollout_id": "rollout_proposal_consensus_selectivity_context_review"
+    },
+    "safety_layer": {
+      "safety_lock_active": false,
+      "safety_lock_reason": "",
+      "cooldown_active": false,
+      "cooldown_level": "none",
+      "cooldown_reason": "",
+      "cooldown_status": "inactive",
+      "safety_lock_supersedes_cooldown": false,
+      "volatility_state": "extreme",
+      "volatility_action": "block_new_entries",
+      "recovery_ready": false,
+      "recovery_mode": "cooldown",
+      "recovery_blockers": [
+        "extreme_volatility"
+      ],
+      "safety_lock_source": "historical",
+      "safety_lock_triggered_at": "",
+      "safety_lock_triggering_window": "recent_outcomes_12",
+      "safety_lock_current_session_relevant": false,
+      "safety_lock_requires_manual_unlock": true,
+      "last_loss_at": "",
+      "trades_since_lock": 0,
+      "recovery": {
+        "recovery_ready": false,
+        "recovery_blockers": [
+          "extreme_volatility"
+        ],
+        "required_actions": [
+          "manual_operator_unlock_required",
+          "cooldown_expired",
+          "no_active_hard_blocker",
+          "volatility_back_to_acceptable",
+          "next_setup_meets_high_confluence"
+        ],
+        "can_auto_recover": false,
+        "manual_unlock_endpoint": "/api/safety/unlock",
+        "unlock_requires_confirmation": true
+      }
+    },
+    "broker_connectivity_status": {
+      "connected": true,
+      "symbol_selected": true
+    },
+    "warnings": [],
+    "protective_locks": [
+      "extreme_volatility_protection_active"
+    ],
+    "classification": {
+      "PASS": [
+        "broker_connectivity_ok",
+        "execution_gate_enforced",
+        "status_pipeline_alive"
+      ],
+      "PROTECTIVE_LOCK": [
+        "extreme_volatility_protection_active"
+      ],
+      "WARNING": [],
+      "FAIL": []
+    },
+    "macro_data": {
+      "dxy_alignment": {
+        "state": "unavailable",
+        "availability": "unavailable",
+        "source": "price_only_inferred"
+      },
+      "us10y_alignment": {
+        "state": "unavailable",
+        "availability": "unavailable",
+        "source": "price_only_inferred"
+      },
+      "vix_regime": {
+        "state": "unavailable",
+        "availability": "unavailable",
+        "source": "price_only_inferred"
+      },
+      "oil_context": {
+        "state": "unavailable",
+        "availability": "unavailable",
+        "source": "price_only_inferred"
+      }
+    },
+    "session_state": "new_york",
+    "regime_state": {
+      "regime": "trend",
+      "regime_confidence": 0,
+      "regime_source": "model",
+      "warning": ""
+    },
+    "spread_liquidity": {
+      "spread_points": 43.0,
+      "spread_pips": 4.3,
+      "spread_status": "elevated",
+      "spread_liquidity_score": 10,
+      "spread_explanation": "score_consistent_with_spread_and_liquidity"
+    },
+    "evolution_state": {
+      "evolution_enabled": false,
+      "evolution_status": "disabled",
+      "evolved_strategy_count": 1,
+      "action": "none"
+    },
+    "filter_status": {
+      "conservative_filter": {
+        "status": "inactive_by_config",
+        "severity": "INFO"
+      },
+      "research_filter": {
+        "status": "inactive_by_config",
+        "severity": "INFO"
+      }
+    }
+  },
+  "execution_state": {
+    "execution_gate_enabled": false,
+    "kill_switch_active": false,
+    "kill_switch_reason": "not_set",
+    "active_request_id": "",
+    "pending_count": 0,
+    "dry_run_default": true,
+    "rollout_stage": "paper_only",
+    "execution_environment": "paper",
+    "environment_model": {
+      "requested": "paper",
+      "canonical": "paper",
+      "execution_environment": "paper",
+      "operating_mode": "paper",
+      "live_like": false,
+      "real_live": false,
+      "real_live_enabled": false,
+      "label": "Paper"
+    },
+    "adapter_type": "MT5BrokerAdapter",
+    "execution_environment_label": "Paper",
+    "real_live_enabled": false,
+    "real_live_label": "Real Live (disabled / not in use)",
+    "live_execution_allowed": false,
+    "active_restrictions": {
+      "live_allowed": false,
+      "allowed_instruments": [],
+      "allowed_setup_families": [],
+      "max_size": 0.0,
+      "daily_loss_cap_pct": 0.0,
+      "approval_required": true
+    },
+    "approval_required": true,
+    "autonomy_mode": "recommend_only",
+    "autonomy_modes_supported": [
+      "full_live_disabled_by_default",
+      "guarded_autonomous_demo",
+      "guarded_execution",
+      "observe_only",
+      "recommend_only"
+    ],
+    "autonomy_mode_semantics": {
+      "observe_only": {
+        "can_create_execution_request": false,
+        "can_submit_order": false,
+        "block_reason": "autonomy_mode_observe_only"
+      },
+      "recommend_only": {
+        "can_create_execution_request": false,
+        "can_submit_order": false,
+        "block_reason": "autonomy_mode_recommend_only"
+      },
+      "guarded_execution": {
+        "can_create_execution_request": true,
+        "can_submit_order": true,
+        "requires_existing_gates": true,
+        "block_reason": ""
+      },
+      "guarded_autonomous_demo": {
+        "can_create_execution_request": true,
+        "can_submit_order": true,
+        "requires_existing_gates": true,
+        "demo_only": true,
+        "real_live_allowed": false,
+        "block_reason": "guarded_autonomous_demo_requires_demo_environment"
+      },
+      "full_live_disabled_by_default": {
+        "can_create_execution_request": false,
+        "can_submit_order": false,
+        "block_reason": "full_live_autonomy_disabled_by_default"
+      }
+    },
+    "autonomous_trader_mandate": {
+      "schema": "atlas_autonomous_trader_mandate_v1",
+      "status": "draft_requires_operator_review",
+      "target_role": "bounded_autonomous_trader",
+      "default_environment": "guarded_demo",
+      "real_live_trading": "disabled_until_explicit_operator_approval",
+      "execution_authority": "ExecutionGate",
+      "hard_boundaries_count": 8
+    },
+    "autonomy_live_default_safe": true,
+    "mode_separation": {
+      "market_state_mode": "broker_or_runtime",
+      "execution_mode": "paper",
+      "autonomy_mode": "recommend_only",
+      "real_live_enabled": false
+    },
+    "sleep_mode_active": false,
+    "sleep_mode_reason": "",
+    "sleep_mode_activated_at": null,
+    "sleep_execution_blocked": false,
+    "monitoring_active_while_sleeping": true,
+    "alert_only_while_sleeping": false,
+    "sleep_alert_count": 0,
+    "operator_present": false,
+    "session_override_active": false,
+    "session_override_testing_only": true,
+    "session_override_reason": "",
+    "session_override_effective_session": "",
+    "session_override_effective_minutes_to_close": 0,
+    "session_override_last_block_reason": "",
+    "session_override_note": "off",
+    "session_override_real_session_active": false,
+    "session_override_simulated_session_active": false,
+    "last_execution_result": {},
+    "regression_triggered": false,
+    "regression_reason": "",
+    "automation_enabled": false,
+    "automation_paused": false,
+    "automation_pause_reason": "",
+    "automation_paused_by_sleep": false,
+    "automation_explicit_resume_active": false,
+    "automation_explicit_resume_at": 0.0,
+    "automation_explicit_resume_policy_id": "",
+    "automation_active_policy_id": "",
+    "automation_policy": {},
+    "automation_live_allowed": false,
+    "automation_last_block_reason": "",
+    "automation_last_event": {},
+    "execution_truth": {},
+    "gate_decisions_last_cycle": {},
+    "auto_trade_allowed": false,
+    "auto_trade_reason": "execution_environment_not_demo",
+    "auto_trade_last_block_reason": "execution_environment_not_demo",
+    "auto_trade_demo_only": true,
+    "auto_trade_last_attempt": {},
+    "last_auto_execution_result": {},
+    "last_auto_execution_block_reason": "",
+    "last_auto_signal_signature": "",
+    "last_autonomy_cycle": {},
+    "recovery_mode": "fresh_start",
+    "recovery_reason": "no_persisted_state",
+    "recovery_requires_explicit_resume": false,
+    "restored_policy_id": "",
+    "last_shutdown_clean": true,
+    "session_control": {
+      "current_session": "none",
+      "session_active": false,
+      "minutes_to_session_close": -1,
+      "session_timezone": "UTC",
+      "current_local_time": "2026-08-29T13:52:40.683615+00:00",
+      "current_session_window_local": "none",
+      "session_calendar_status": "closed",
+      "next_session_local": "asia@2026-08-31T00:00:00+00:00",
+      "session_source": "in_memory_default",
+      "daily_trade_count": 0,
+      "daily_trade_limit": 6,
+      "consecutive_losses": 0,
+      "consecutive_loss_limit": 2,
+      "daily_stop_triggered": false,
+      "session_pause": false,
+      "session_pause_reason": "",
+      "session_block_reason": "outside_active_session",
+      "forced_flat_required": false,
+      "last_reset_at": 1788001142.462083
+    },
+    "tiny_live_pilot": {
+      "configured": false,
+      "enabled": false,
+      "approved": false,
+      "allowed_instrument": "XAUUSD",
+      "allowed_setup_family": "continuation",
+      "size_cap": 0.01,
+      "max_trades_per_day": 2,
+      "daily_loss_cap": 0.6,
+      "max_consecutive_losses": 1,
+      "rollout_stage_required": "limited_live_pilot",
+      "approval_required_per_request": true,
+      "pause_on_forced_flat": true,
+      "pause_on_blocker_threshold": 0.7,
+      "pause_on_stability_drop": 0.45,
+      "pause_on_overreaction": 0.7,
+      "pause_on_degrading_performance": true,
+      "paused": false,
+      "pause_reason": ""
+    },
+    "tiny_live_pilot_attempts_today": 0,
+    "tiny_live_pilot_trade_count": 0,
+    "tiny_live_pilot_consecutive_losses": 0,
+    "tiny_live_pilot_last_block_reason": "",
+    "tiny_live_pilot_last_attempt": {},
+    "tiny_live_pilot_daily_loss_used": 0.0,
+    "last_live_order_status": "none",
+    "pending_live_orders_count": 0,
+    "partially_filled_count": 0,
+    "reconciliation_required": false,
+    "last_broker_reject_reason": "",
+    "last_uncertain_execution_state": "",
+    "live_approvals_used": 0,
+    "top_reconciliation_request_id": "",
+    "top_reconciliation_reason": "",
+    "orphan_order_count": 0,
+    "top_orphan_order_id": "",
+    "top_orphan_summary": "",
+    "reconciliation_status": "clear",
+    "last_reconciled_at": 1788011520.5895042,
+    "mismatch_detected": false,
+    "forced_flat_pending": false,
+    "forced_flat_urgency": "none",
+    "last_audit_event": {
+      "ts": 1788011520.6169252,
+      "event": "automation_state_save",
+      "request_id": "",
+      "details": {
+        "event": "mandatory_reconciliation_completed",
+        "ok": true,
+        "reason": "saved"
+      }
+    }
+  },
+  "execution_gate": {
+    "execution_environment": "paper",
+    "execution_environment_label": "Paper",
+    "execution_gate_enabled": false,
+    "rollout_stage": "paper_only",
+    "adapter_type": "MT5BrokerAdapter"
+  },
+  "shadow_advice": {
+    "trade_id": "|momentum_continuation|sell",
+    "setup_score": 0.0,
+    "confidence": 0.7502,
+    "anomaly_flags": [
+      "wide_spread",
+      "poor_liquidity",
+      "blocked_trade"
+    ],
+    "alternative_ranking": [
+      {
+        "strategy": "momentum_continuation",
+        "score": 0.5616,
+        "confidence": 0.0
+      }
+    ],
+    "recommendation": "observe"
+  },
+  "trader_cognition": {
+    "schema": "atlas_trader_cognition_v1",
+    "mode": "bounded_trader_like_reasoning",
+    "observation": "new_york session, regime=trend, structure=LH/LL, momentum=mixed, location=mid_range, spread=wide.",
+    "thesis": "SELL thesis from momentum_continuation if evidence stays aligned.",
+    "counter_thesis": "Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed; spread/liquidity condition is wide",
+    "discipline_check": {
+      "status": "disciplined",
+      "checks": [
+        "avoid chasing from poor location",
+        "wait for cleaner momentum"
+      ],
+      "policy_note": "Simulated trader discipline only; Atlas has no real emotions or private desires."
+    },
+    "service_intent": {
+      "statement": "Serve the operator by pursuing profitable XAUUSD trading decisions.",
+      "boundary": "Profit pursuit remains subordinate to risk limits, evidence quality, and ExecutionGate.",
+      "real_feelings": false
+    },
+    "decision": "block",
+    "confidence": 0.7502,
+    "threshold": 0.0,
+    "required_next_evidence": [
+      "stronger same-side support"
+    ],
+    "autonomy_boundary": {
+      "target_role": "bounded_autonomous_trader",
+      "execution_authority": "ExecutionGate",
+      "does_not_change_strategy_logic": true,
+      "does_not_change_risk_policy": true,
+      "does_not_bypass_execution_policy": true
+    }
+  },
+  "freshness_timing": {
+    "cycle_started_at": "2026-08-29T13:52:39.149964+00:00",
+    "ingest_started_at": "2026-08-29T13:52:39.149964+00:00",
+    "ingest_completed_at": "2026-08-29T13:52:39.712696+00:00",
+    "ingest_duration_ms": 562.73,
+    "market_fetch": {
+      "started_at": "2026-08-29T13:52:39.705683+00:00",
+      "ended_at": "2026-08-29T13:52:39.712696+00:00",
+      "duration_ms": 7.01,
+      "retries": 0,
+      "retry_sleep_ms": 0.0,
+      "bars_requested": 1200,
+      "bars_received": 1200,
+      "ok": true,
+      "error": ""
+    },
+    "signal_generation_completed_at": "2026-08-29T13:52:39.742748+00:00",
+    "decision_pre_checks_completed_at": "2026-08-29T13:52:40.306879+00:00",
+    "cycle_elapsed_ms_before_gates": 1156.63,
+    "status_write_attempted_at": "2026-08-29T13:52:40.687621+00:00",
+    "backend_cycle_age_ms": 1537.66
+  },
+  "freshness_runtime": {
+    "status_age_ms": 1537.66,
+    "is_stale": false
+  },
+  "missed_entry_audit": {
+    "recorded": false,
+    "deduped": true,
+    "reason": "duplicate_recent_missed_entry_audit"
+  },
+  "missed_entry_outcome_review": {
+    "reviewed": true,
+    "path": "storage_compare_runs\\m15_ema_closed_confirm_mid_exit_stage_a_20260827\\control\\missed_entry_outcome_reviews.jsonl",
+    "summary": {
+      "missed_opportunity": 0,
+      "correct_hold_or_block": 0,
+      "inconclusive": 10,
+      "direction_unavailable": 0
+    }
+  },
+  "missed_entry_learning_summary": {
+    "schema": "atlas_missed_entry_learning_summary_v1",
+    "available": true,
+    "created_at": "2026-08-29T13:52:40.864465+00:00",
+    "samples": 1200,
+    "missed_opportunity": 70,
+    "correct_hold_or_block": 47,
+    "top_blockers": [
+      {
+        "primary_blocker": "Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.",
+        "samples": 1200,
+        "missed_opportunity": 70,
+        "correct_hold_or_block": 47,
+        "inconclusive": 1083,
+        "total_favorable_missed_points": 34482.0,
+        "total_adverse_blocked_points": 11045.0,
+        "missed_rate": 0.0583,
+        "correct_block_rate": 0.0392,
+        "repair_priority": "high",
+        "suggested_action": "review_blocker_selectivity"
+      }
+    ],
+    "top_repair_candidate": {
+      "primary_blocker": "Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.",
+      "samples": 1200,
+      "missed_opportunity": 70,
+      "correct_hold_or_block": 47,
+      "inconclusive": 1083,
+      "total_favorable_missed_points": 34482.0,
+      "total_adverse_blocked_points": 11045.0,
+      "missed_rate": 0.0583,
+      "correct_block_rate": 0.0392,
+      "repair_priority": "high",
+      "suggested_action": "review_blocker_selectivity"
+    },
+    "policy": {
+      "summary_only": true,
+      "does_not_execute": true,
+      "does_not_change_strategy_logic": true,
+      "does_not_change_risk_policy": true,
+      "does_not_change_execution_policy": true
+    }
+  },
+  "blocker_selectivity_review": {
+    "schema": "atlas_blocker_selectivity_review_v1",
+    "available": true,
+    "created_at": "2026-08-29T13:52:41.113017+00:00",
+    "target_blocker": "Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.",
+    "samples": 2400,
+    "sides": [
+      "sell"
+    ],
+    "outcome_counts": {
+      "missed_opportunity": 774,
+      "correct_hold_or_block": 345,
+      "inconclusive": 1281
+    },
+    "missed_rate": 0.3225,
+    "correct_block_rate": 0.1437,
+    "total_favorable_missed_points": 674039.0,
+    "total_adverse_blocked_points": 142474.0,
+    "review_priority": "high",
+    "proposal": {
+      "type": "offline_selectivity_review",
+      "focus": "inspect whether the blocker needs more context-aware confirmation, not a lower global threshold",
+      "candidate_change_class": "context_filter_or_confirmation_rule",
+      "forbidden_change_class": "global_guard_disable_or_unapproved_threshold_loosen",
+      "next_validation": "replay reviewed cases against a shadow-only candidate rule before any operator approval step"
+    },
+    "policy": {
+      "review_only": true,
+      "does_not_execute": true,
+      "does_not_change_strategy_logic": true,
+      "does_not_change_risk_policy": true,
+      "does_not_change_execution_policy": true,
+      "requires_operator_approval_for_any_candidate_rule": true
+    },
+    "path": "storage_compare_runs\\m15_ema_closed_confirm_mid_exit_stage_a_20260827\\control\\blocker_selectivity_review.json"
+  },
+  "blocker_selectivity_replay": {
+    "schema": "atlas_blocker_selectivity_replay_v1",
+    "available": true,
+    "created_at": "2026-08-29T13:52:41.360679+00:00",
+    "target_blocker": "Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.",
+    "mode": "shadow_review_only",
+    "candidate_rule": {
+      "name": "context_aware_consensus_selectivity_review",
+      "action": "flag_blocked_case_for_shadow_context_review",
+      "does_not_allow_trade": true,
+      "does_not_lower_min_same_side_signals": true,
+      "requires_context_confirmation_fields": [
+        "higher_timeframe_alignment",
+        "directional_structure",
+        "momentum_quality",
+        "spread_state",
+        "loss_pattern_state"
+      ]
+    },
+    "samples": 2400,
+    "metrics": {
+      "missed_opportunity_capture_count": 774,
+      "correct_block_false_unlock_risk_count": 345,
+      "inconclusive_count": 1281,
+      "opportunity_capture_rate": 0.3225,
+      "false_unlock_risk_rate": 0.1437,
+      "unknown_rate": 0.5337,
+      "net_review_edge": 0.1788
+    },
+    "verdict": "shadow_review_candidate",
+    "next_step": "create a proposal-only context confirmation rule and replay it against richer stored setup context",
+    "source_review": {
+      "review_priority": "high",
+      "proposal": {
+        "type": "offline_selectivity_review",
+        "focus": "inspect whether the blocker needs more context-aware confirmation, not a lower global threshold",
+        "candidate_change_class": "context_filter_or_confirmation_rule",
+        "forbidden_change_class": "global_guard_disable_or_unapproved_threshold_loosen",
+        "next_validation": "replay reviewed cases against a shadow-only candidate rule before any operator approval step"
+      }
+    },
+    "policy": {
+      "shadow_review_only": true,
+      "does_not_execute": true,
+      "does_not_allow_trade": true,
+      "does_not_change_strategy_logic": true,
+      "does_not_change_risk_policy": true,
+      "does_not_change_execution_policy": true,
+      "does_not_lower_thresholds": true,
+      "requires_operator_approval_for_any_candidate_rule": true
+    },
+    "path": "storage_compare_runs\\m15_ema_closed_confirm_mid_exit_stage_a_20260827\\control\\blocker_selectivity_replay.json"
+  },
+  "blocker_selectivity_collection_plan": {
+    "schema": "atlas_blocker_selectivity_collection_plan_v1",
+    "created_at": "2026-08-29T13:52:41.612484+00:00",
+    "proposal_id": "proposal_consensus_selectivity_context_review",
+    "source_validation_step": "shadow_compare",
+    "source_decision": "continue_collecting",
+    "failure_reasons": [
+      "too_many_inconclusive_reviews"
+    ],
+    "current_metrics": {
+      "capture_rate": 0.3225,
+      "false_unlock_risk_rate": 0.1437,
+      "unknown_rate": 0.5337,
+      "net_review_edge": 0.1788,
+      "samples": 0
+    },
+    "retry_requirements": {
+      "min_samples": 120,
+      "max_unknown_rate": 0.45,
+      "min_net_review_edge": 0.1,
+      "capture_must_exceed_false_unlock": true
+    },
+    "capture_fields": [
+      "higher_timeframe_alignment",
+      "directional_structure",
+      "momentum_quality",
+      "spread_state",
+      "loss_pattern_state"
+    ],
+    "collection_focus": [
+      "capture blocker-side context at the moment consensus blocks",
+      "label whether later movement favored the blocked side",
+      "separate correct protective blocks from missed opportunity blocks",
+      "keep draft proposal parked until shadow_compare passes"
+    ],
+    "policy": {
+      "collection_only": true,
+      "does_not_execute": true,
+      "does_not_allow_trade": true,
+      "does_not_change_strategy_logic": true,
+      "does_not_change_risk_policy": true,
+      "does_not_change_execution_policy": true,
+      "does_not_lower_thresholds": true
+    },
+    "path": "storage_compare_runs\\m15_ema_closed_confirm_mid_exit_stage_a_20260827\\control\\blocker_selectivity_collection_plan.json"
+  },
+  "blocker_selectivity_offline_collector": {
+    "schema": "atlas_blocker_selectivity_offline_collector_v1",
+    "created_at": "2026-08-29T13:52:42.197383+00:00",
+    "proposal_id": "proposal_consensus_selectivity_context_review",
+    "target_blocker": "",
+    "mode": "offline_collection_only",
+    "source_artifacts": [
+      "storage/missed_entry_audits.jsonl",
+      "storage/missed_entry_outcome_reviews.jsonl"
+    ],
+    "required_fields": [
+      "higher_timeframe_alignment",
+      "directional_structure",
+      "momentum_quality",
+      "spread_state",
+      "loss_pattern_state"
+    ],
+    "required_samples": 120,
+    "all_time_audit_samples": 415,
+    "enriched_samples": 415,
+    "missing_context_samples": 0,
+    "remaining_enriched_samples_needed": 0,
+    "reviewed_outcome_samples": 12964,
+    "outcome_counts": {
+      "missed_opportunity": 4705,
+      "correct_hold_or_block": 5427,
+      "inconclusive": 2832
+    },
+    "metrics": {
+      "missed_rate": 0.3629,
+      "correct_block_rate": 0.4186,
+      "unknown_rate": 0.2185,
+      "net_review_edge": -0.0557
+    },
+    "ready_to_retry_shadow_compare": true,
+    "top_missing_fields": [],
+    "backfill": {
+      "ok": true,
+      "scanned": 415,
+      "updated": 0
+    },
+    "policy": {
+      "offline_collection_only": true,
+      "synthetic_samples_created": false,
+      "does_not_execute": true,
+      "does_not_allow_trade": true,
+      "does_not_change_strategy_logic": true,
+      "does_not_change_risk_policy": true,
+      "does_not_change_execution_policy": true,
+      "does_not_lower_thresholds": true
+    },
+    "path": "storage_compare_runs\\m15_ema_closed_confirm_mid_exit_stage_a_20260827\\control\\blocker_selectivity_offline_collector.json"
+  },
+  "blocker_selectivity_collection_readiness": {
+    "schema": "atlas_blocker_selectivity_collection_readiness_v1",
+    "created_at": "2026-08-29T13:52:42.248299+00:00",
+    "ready_to_retry_shadow_compare": true,
+    "required_fields": [
+      "higher_timeframe_alignment",
+      "directional_structure",
+      "momentum_quality",
+      "spread_state",
+      "loss_pattern_state"
+    ],
+    "target_blocker": "",
+    "required_samples": 120,
+    "total_recent_audits": 240,
+    "enriched_samples": 240,
+    "missing_context_samples": 0,
+    "remaining_enriched_samples_needed": 0,
+    "top_missing_fields": [],
+    "policy": {
+      "readiness_only": true,
+      "does_not_execute": true,
+      "does_not_change_strategy_logic": true,
+      "does_not_change_risk_policy": true,
+      "does_not_change_execution_policy": true
+    },
+    "path": "storage_compare_runs\\m15_ema_closed_confirm_mid_exit_stage_a_20260827\\control\\blocker_selectivity_collection_readiness.json"
+  },
+  "blocker_selectivity_shadow_compare_retry": {
+    "attempted": true,
+    "ok": false,
+    "source": "recent_readiness",
+    "missing": [],
+    "comparison": {},
+    "policy": {}
+  },
+  "updated_at": "2026-08-29T13:52:42.289636+00:00"
+}

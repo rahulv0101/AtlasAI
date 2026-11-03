@@ -1,0 +1,27 @@
+{
+  "run_id": "setup_quality_rollout_20260404",
+  "checked_at": "2026-04-10T16:40:21.145573+00:00",
+  "require_market_open": true,
+  "market_data": {
+    "terminal_connected": true,
+    "trade_allowed": true,
+    "account_login": 57399598,
+    "account_server": "HFMarketsSA-Demo2",
+    "symbol": "XAUUSD",
+    "symbol_selected": true,
+    "symbol_visible": true,
+    "timeframe_requested": "M1",
+    "latest_tick_utc": "2026-04-10T19:40:20+00:00",
+    "latest_bar_utc": "2026-04-10T19:39:00+00:00",
+    "bars_received": 50,
+    "timestamp_source": "live_feed",
+    "mt5_last_error": [
+      1,
+      "Success"
+    ],
+    "freshness_threshold_seconds": 480,
+    "latest_bar_age_seconds": -10718.854,
+    "freshness_passed": true,
+    "attempt": 1
+  }
+}

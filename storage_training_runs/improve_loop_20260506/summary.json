@@ -1,0 +1,90 @@
+{
+  "baseline_total_return": 0.208094,
+  "best_total_return": 0.208094,
+  "improved": false,
+  "best_run": null,
+  "attempts": [
+    {
+      "name": "attempt_1_more_history",
+      "storage_dir": "c:\\Users\\User\\Desktop\\Atlas AI\\storage_training_runs\\improve_loop_20260506\\attempt_1_more_history",
+      "budget_zar": 100.0,
+      "total_return": 0.07972754117559987,
+      "ending_balance_zar": 107.97,
+      "bars": 4000,
+      "trades": 320,
+      "wins": 137,
+      "losses": 183,
+      "best_evolved_strategy": {
+        "fast": 28,
+        "slow": 83,
+        "rsi_buy": 49.993899102270845,
+        "rsi_sell": 68.61763992206193,
+        "profit_score": 0.031826068690650695,
+        "trained_bars": 4000,
+        "trades": 574,
+        "wins": 322,
+        "losses": 252,
+        "win_rate": 0.5609756097560976,
+        "signature": "f28_s83_rb50.0_rs68.6",
+        "source": "mutation_tournament",
+        "mutation_train_bars": 2400
+      },
+      "pool_count": 5,
+      "champion_signature": "f28_s83_rb50.0_rs68.6",
+      "improved_over_baseline": false
+    },
+    {
+      "name": "attempt_2_deeper_search",
+      "storage_dir": "c:\\Users\\User\\Desktop\\Atlas AI\\storage_training_runs\\improve_loop_20260506\\attempt_2_deeper_search",
+      "budget_zar": 100.0,
+      "total_return": 0.18332317580103522,
+      "ending_balance_zar": 118.33,
+      "bars": 5000,
+      "trades": 437,
+      "wins": 191,
+      "losses": 246,
+      "best_evolved_strategy": {
+        "fast": 41,
+        "slow": 104,
+        "rsi_buy": 48.817247007087936,
+        "rsi_sell": 41.96624556501472,
+        "profit_score": 0.02951870601031274,
+        "trained_bars": 5000,
+        "trades": 1245,
+        "wins": 650,
+        "losses": 595,
+        "win_rate": 0.5220883534136547,
+        "signature": "f41_s104_rb48.8_rs42.0",
+        "source": "mutation_tournament",
+        "mutation_train_bars": 3200
+      },
+      "pool_count": 4,
+      "champion_signature": "f41_s104_rb48.8_rs42.0",
+      "improved_over_baseline": false
+    },
+    {
+      "name": "attempt_3_wider_pool",
+      "storage_dir": "c:\\Users\\User\\Desktop\\Atlas AI\\storage_training_runs\\improve_loop_20260506\\attempt_3_wider_pool",
+      "budget_zar": 100.0,
+      "total_return": 0.10064539983635072,
+      "ending_balance_zar": 110.06,
+      "bars": 6000,
+      "trades": 688,
+      "wins": 287,
+      "losses": 401,
+      "best_evolved_strategy": {
+        "fast": 11,
+        "slow": 68,
+        "rsi_buy": 55.53566968185414,
+        "rsi_sell": 48.152946801930696,
+        "profit_score": 0.12787790584244152,
+        "trained_bars": 6000,
+        "source": "optimize_for_profit_fallback",
+        "mutation_train_bars": 4000
+      },
+      "pool_count": 0,
+      "champion_signature": "",
+      "improved_over_baseline": false
+    }
+  ]
+}

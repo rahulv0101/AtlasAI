@@ -1,0 +1,7 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-01 13:25:25,526 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-01 13:25:28,532 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-01 13:27:28,492 | INFO | TTS.utils.manage | tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+2026-05-01 13:27:31,037 | INFO | TTS.tts.models | Using model: xtts
+2026-05-01 13:44:10,220 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-01 13:46:12,699 | WARNING | atlas_ai.trader | Risk guard active: Weekly drawdown limit reached. No trade executed.

@@ -1,0 +1,52 @@
+{
+  "all_time_audit_samples": 415,
+  "backfill": {
+    "ok": true,
+    "scanned": 415,
+    "updated": 0
+  },
+  "created_at": "2026-08-29T13:52:42.197383+00:00",
+  "enriched_samples": 415,
+  "metrics": {
+    "correct_block_rate": 0.4186,
+    "missed_rate": 0.3629,
+    "net_review_edge": -0.0557,
+    "unknown_rate": 0.2185
+  },
+  "missing_context_samples": 0,
+  "mode": "offline_collection_only",
+  "outcome_counts": {
+    "correct_hold_or_block": 5427,
+    "inconclusive": 2832,
+    "missed_opportunity": 4705
+  },
+  "policy": {
+    "does_not_allow_trade": true,
+    "does_not_change_execution_policy": true,
+    "does_not_change_risk_policy": true,
+    "does_not_change_strategy_logic": true,
+    "does_not_execute": true,
+    "does_not_lower_thresholds": true,
+    "offline_collection_only": true,
+    "synthetic_samples_created": false
+  },
+  "proposal_id": "proposal_consensus_selectivity_context_review",
+  "ready_to_retry_shadow_compare": true,
+  "remaining_enriched_samples_needed": 0,
+  "required_fields": [
+    "higher_timeframe_alignment",
+    "directional_structure",
+    "momentum_quality",
+    "spread_state",
+    "loss_pattern_state"
+  ],
+  "required_samples": 120,
+  "reviewed_outcome_samples": 12964,
+  "schema": "atlas_blocker_selectivity_offline_collector_v1",
+  "source_artifacts": [
+    "storage/missed_entry_audits.jsonl",
+    "storage/missed_entry_outcome_reviews.jsonl"
+  ],
+  "target_blocker": "",
+  "top_missing_fields": []
+}

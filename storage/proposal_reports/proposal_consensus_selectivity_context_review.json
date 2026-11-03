@@ -1,0 +1,48 @@
+{
+  "proposal_id": "proposal_consensus_selectivity_context_review",
+  "generated_at": "2026-08-20T03:53:03.416416+00:00",
+  "category": "filters",
+  "status": "shadow_active",
+  "validation_step": "shadow_compare",
+  "ok": true,
+  "comparison": {
+    "control_behavior": "keep consensus guard behavior unchanged",
+    "draft_behavior": "shadow-flag context-confirmed consensus blocks for review only",
+    "capture_rate": 0.4583,
+    "false_unlock_risk_rate": 0.3194,
+    "unknown_rate": 0.2222,
+    "net_review_edge": 0.1389,
+    "samples": 72,
+    "decision": "pass"
+  },
+  "validation": {
+    "required": [
+      "richer_context_replay",
+      "shadow_compare",
+      "regression_tests",
+      "operator_review"
+    ],
+    "completed": [
+      "richer_context_replay",
+      "shadow_compare",
+      "regression_tests",
+      "operator_review"
+    ],
+    "missing": []
+  },
+  "promotion_readiness": {
+    "operator_approval_required": true,
+    "ready_for_rollout_review": false,
+    "reason": "shadow_compare_only; regression_tests and operator_review still required"
+  },
+  "policy": {
+    "shadow_compare_only": true,
+    "does_not_execute": true,
+    "does_not_allow_trade": true,
+    "does_not_change_strategy_logic": true,
+    "does_not_change_risk_policy": true,
+    "does_not_change_execution_policy": true,
+    "does_not_lower_thresholds": true
+  },
+  "updated_at": "2026-08-20T03:53:03.421862+00:00"
+}

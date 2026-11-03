@@ -1,0 +1,1329 @@
+{
+  "startup_verification": {
+    "profile": "guarded_demo",
+    "execute_trades": true,
+    "effective_mode": "live",
+    "trader_mode": "guarded_demo_live_path",
+    "gate_execution_environment": "demo",
+    "paper_early_return_blocked": true,
+    "gate_demo_ready": true,
+    "startup_ok": true,
+    "startup_message": "ATLAS STARTED IN GUARDED DEMO MODE"
+  },
+  "ui_desktop_window": {
+    "ok": true,
+    "ready": true,
+    "stage": "started",
+    "backend": "webview",
+    "error": "",
+    "exception_type": "",
+    "traceback": "",
+    "classification": {
+      "code": "",
+      "category": "ok",
+      "operator_cause": "",
+      "operator_action": ""
+    },
+    "failure_reason": "",
+    "frontend_mode": "desktop",
+    "desktop_window_ready": true,
+    "desktop_shell_healthy": true,
+    "desktop_ui_available": true,
+    "fallback_active": false,
+    "fallback_url": "http://127.0.0.1:8765",
+    "degraded_since": "",
+    "failure_evidence": {},
+    "preferred_gui": "edgechromium",
+    "failure_count": 0,
+    "failure_threshold": 2,
+    "disabled_due_to_repeated_failures": false,
+    "wrapper_pid": 9180,
+    "ts": "2026-05-22T11:34:03.553131+00:00",
+    "updated_at": "2026-05-22T11:34:03.553131+00:00"
+  },
+  "weekend_learning_only_reason": "cleared_operator_requested_full_stack_2026_05_18",
+  "risk_guard_state": {
+    "date": "2026-05-22",
+    "trades_today": 0,
+    "consecutive_losses": 0,
+    "cooldown_until": "",
+    "start_balance": 146757.93,
+    "week_key": "2026-05-18",
+    "week_start_balance": 146647.9,
+    "safety_lock_active": false,
+    "safety_lock_reason": "",
+    "safety_lock_started_at": "",
+    "safety_lock_scope": "new_entries",
+    "recovery_requirements": [
+      "manual_operator_unlock_required",
+      "cooldown_expired",
+      "no_active_hard_blocker",
+      "volatility_back_to_acceptable",
+      "next_setup_meets_high_confluence"
+    ],
+    "cooldown_level": "none",
+    "cooldown_reason": "",
+    "cooldown_marker": "",
+    "cooldown_consumed_marker": "",
+    "volatility_state": "normal",
+    "volatility_reason": "volatility within acceptable bounds",
+    "volatility_action": "allow"
+  },
+  "llm_alert_last_at": "2026-05-22T16:54:07.755105+00:00",
+  "ui_process_lifecycle": {
+    "process_role": "ui_wrapper",
+    "stage": "desktop_shell_attach",
+    "status": "running",
+    "pid": 9180,
+    "ppid": 13948,
+    "error": "",
+    "exception_type": "",
+    "traceback": "",
+    "meta": {},
+    "ts": "2026-05-22T11:34:01.828836+00:00",
+    "updated_at": "2026-05-22T11:34:01.828836+00:00"
+  },
+  "launcher_lifecycle": {
+    "startup_requested_at": "2026-05-22T11:27:25.560722+00:00",
+    "launch_profile": "guarded_demo",
+    "wake_attempt_index": 2,
+    "wake_max_attempts": 2,
+    "updated_at": "2026-05-22T11:27:44.295422+00:00",
+    "mt5_readiness_started_at": "2026-05-22T11:27:26.750636+00:00",
+    "mt5_readiness_completed_at": "2026-05-22T11:27:27.354585+00:00",
+    "mt5_readiness_result": "healthy",
+    "backend_readiness_started_at": "2026-05-22T11:27:36.713470+00:00",
+    "backend_readiness_completed_at": "2026-05-22T11:27:37.839296+00:00",
+    "backend_readiness_result": "healthy",
+    "ui_server_spawned_at": "2026-05-22T11:27:42.208703+00:00",
+    "ui_server_spawn_command": [
+      "C:\\Users\\User\\Desktop\\Atlas AI\\.venv\\Scripts\\python.exe",
+      "-m",
+      "atlas_ai.main",
+      "ui-server",
+      "--mode-override",
+      "live"
+    ],
+    "frontend_spawned_at": "2026-05-22T11:27:44.267434+00:00",
+    "frontend_spawn_command": [
+      "C:\\Users\\User\\Desktop\\Atlas AI\\.venv\\Scripts\\python.exe",
+      "-m",
+      "atlas_ai.main",
+      "ui",
+      "--mode-override",
+      "live"
+    ],
+    "frontend_force_browser_only": false,
+    "frontend_force_browser_reason": "",
+    "frontend_readiness_started_at": "2026-05-22T11:27:44.294423+00:00",
+    "frontend_readiness_completed_at": "2026-05-22T11:26:37.440407+00:00",
+    "frontend_readiness_result": "failed",
+    "final_startup_verdict": "FAILED",
+    "final_startup_reason": "no_usable_control_surface",
+    "fallback_reason": "",
+    "launch_completed_at": "2026-05-22T11:27:15.903537+00:00",
+    "backend_spawned_at": "2026-05-22T11:27:30.697715+00:00",
+    "backend_spawn_command": [
+      "C:\\Users\\User\\Desktop\\Atlas AI\\.venv\\Scripts\\python.exe",
+      "-m",
+      "atlas_ai.main",
+      "live",
+      "--poll-seconds",
+      "60",
+      "--mode-override",
+      "live"
+    ],
+    "desktop_stabilization_started_at": "2026-05-21T14:33:02.641974+00:00",
+    "desktop_stabilization_completed_at": "2026-05-21T14:33:02.843382+00:00",
+    "desktop_stabilization_result": "ready"
+  },
+  "gemini_influence_enabled": true,
+  "automation_resume_sticky": true,
+  "ui_desktop_native_lifecycle": {
+    "preferred_gui": "edgechromium",
+    "safe_native_window": true,
+    "server_already_running": true,
+    "fallback_url": "http://127.0.0.1:8765",
+    "wrapper_exit_reason": "",
+    "last_stage": "first_native_callback",
+    "last_status": "started",
+    "last_updated_at": "2026-05-22T11:34:03.602664+00:00",
+    "first_error": {
+      "ts": "2026-05-18T20:33:04.395752+00:00",
+      "stage": "ui_server_wait",
+      "status": "failed",
+      "error": "ui_server_not_reachable",
+      "exception_type": "",
+      "traceback": "",
+      "meta": {}
+    },
+    "history": [
+      {
+        "ts": "2026-05-21T11:42:16.114873+00:00",
+        "stage": "bootstrap",
+        "status": "entered",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {
+          "host": "127.0.0.1",
+          "port": 8765,
+          "preferred_gui": "edgechromium",
+          "force_browser_only": false,
+          "server_already_running": true,
+          "safe_native_window": true
+        }
+      },
+      {
+        "ts": "2026-05-21T11:42:16.164822+00:00",
+        "stage": "ui_server_ready",
+        "status": "ok",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {}
+      },
+      {
+        "ts": "2026-05-21T11:42:16.304672+00:00",
+        "stage": "import_webview",
+        "status": "entered",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {
+          "desktop_attempt": 1
+        }
+      },
+      {
+        "ts": "2026-05-21T11:42:16.318679+00:00",
+        "stage": "import_webview",
+        "status": "returned",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {
+          "desktop_attempt": 1,
+          "module_file": "C:\\Users\\User\\Desktop\\Atlas AI\\.venv\\Lib\\site-packages\\webview\\__init__.py",
+          "module_name": "webview"
+        }
+      },
+      {
+        "ts": "2026-05-21T11:42:16.382004+00:00",
+        "stage": "create_window_returned",
+        "status": "returned",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {
+          "desktop_attempt": 1,
+          "window_type": "Window",
+          "has_maximize": true,
+          "has_destroy": true
+        }
+      },
+      {
+        "ts": "2026-05-21T11:42:16.416389+00:00",
+        "stage": "entered_start",
+        "status": "entered",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {
+          "start_kwargs": {
+            "gui": "edgechromium"
+          }
+        }
+      },
+      {
+        "ts": "2026-05-21T11:42:17.086521+00:00",
+        "stage": "first_native_callback",
+        "status": "entered",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {}
+      },
+      {
+        "ts": "2026-05-21T11:42:17.167023+00:00",
+        "stage": "first_native_callback",
+        "status": "started",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {}
+      },
+      {
+        "ts": "2026-05-21T13:04:13.167637+00:00",
+        "stage": "bootstrap",
+        "status": "entered",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {
+          "host": "127.0.0.1",
+          "port": 8765,
+          "preferred_gui": "edgechromium",
+          "force_browser_only": false,
+          "server_already_running": true,
+          "safe_native_window": true
+        }
+      },
+      {
+        "ts": "2026-05-21T13:04:13.483937+00:00",
+        "stage": "ui_server_ready",
+        "status": "ok",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {}
+      },
+      {
+        "ts": "2026-05-21T13:04:14.065904+00:00",
+        "stage": "import_webview",
+        "status": "entered",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {
+          "desktop_attempt": 1
+        }
+      },
+      {
+        "ts": "2026-05-21T13:04:14.087213+00:00",
+        "stage": "import_webview",
+        "status": "returned",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {
+          "desktop_attempt": 1,
+          "module_file": "C:\\Users\\User\\Desktop\\Atlas AI\\.venv\\Lib\\site-packages\\webview\\__init__.py",
+          "module_name": "webview"
+        }
+      },
+      {
+        "ts": "2026-05-21T13:04:14.152388+00:00",
+        "stage": "create_window_returned",
+        "status": "returned",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {
+          "desktop_attempt": 1,
+          "window_type": "Window",
+          "has_maximize": true,
+          "has_destroy": true
+        }
+      },
+      {
+        "ts": "2026-05-21T13:04:14.187815+00:00",
+        "stage": "entered_start",
+        "status": "entered",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {
+          "start_kwargs": {
+            "gui": "edgechromium"
+          }
+        }
+      },
+      {
+        "ts": "2026-05-21T13:04:15.466023+00:00",
+        "stage": "first_native_callback",
+        "status": "entered",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {}
+      },
+      {
+        "ts": "2026-05-21T13:04:15.531758+00:00",
+        "stage": "first_native_callback",
+        "status": "started",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {}
+      },
+      {
+        "ts": "2026-05-21T13:26:17.144682+00:00",
+        "stage": "bootstrap",
+        "status": "entered",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {
+          "host": "127.0.0.1",
+          "port": 8765,
+          "preferred_gui": "edgechromium",
+          "force_browser_only": false,
+          "server_already_running": true,
+          "safe_native_window": true
+        }
+      },
+      {
+        "ts": "2026-05-21T13:26:17.188914+00:00",
+        "stage": "ui_server_ready",
+        "status": "ok",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {}
+      },
+      {
+        "ts": "2026-05-21T13:26:17.633841+00:00",
+        "stage": "import_webview",
+        "status": "entered",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {
+          "desktop_attempt": 1
+        }
+      },
+      {
+        "ts": "2026-05-21T13:26:17.648292+00:00",
+        "stage": "import_webview",
+        "status": "returned",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {
+          "desktop_attempt": 1,
+          "module_file": "C:\\Users\\User\\Desktop\\Atlas AI\\.venv\\Lib\\site-packages\\webview\\__init__.py",
+          "module_name": "webview"
+        }
+      },
+      {
+        "ts": "2026-05-21T13:26:17.711512+00:00",
+        "stage": "create_window_returned",
+        "status": "returned",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {
+          "desktop_attempt": 1,
+          "window_type": "Window",
+          "has_maximize": true,
+          "has_destroy": true
+        }
+      },
+      {
+        "ts": "2026-05-21T13:26:17.729850+00:00",
+        "stage": "entered_start",
+        "status": "entered",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {
+          "start_kwargs": {
+            "gui": "edgechromium"
+          }
+        }
+      },
+      {
+        "ts": "2026-05-21T13:26:18.892927+00:00",
+        "stage": "first_native_callback",
+        "status": "entered",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {}
+      },
+      {
+        "ts": "2026-05-21T13:26:18.949460+00:00",
+        "stage": "first_native_callback",
+        "status": "started",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {}
+      },
+      {
+        "ts": "2026-05-21T14:32:54.664352+00:00",
+        "stage": "first_native_callback",
+        "status": "entered",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {}
+      },
+      {
+        "ts": "2026-05-21T14:32:54.721402+00:00",
+        "stage": "first_native_callback",
+        "status": "started",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {}
+      },
+      {
+        "ts": "2026-05-22T11:27:45.999958+00:00",
+        "stage": "bootstrap",
+        "status": "entered",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {
+          "host": "127.0.0.1",
+          "port": 8765,
+          "preferred_gui": "edgechromium",
+          "force_browser_only": false,
+          "server_already_running": true,
+          "safe_native_window": true
+        }
+      },
+      {
+        "ts": "2026-05-22T11:27:46.096689+00:00",
+        "stage": "ui_server_ready",
+        "status": "ok",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {}
+      },
+      {
+        "ts": "2026-05-22T11:27:46.289668+00:00",
+        "stage": "import_webview",
+        "status": "entered",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {
+          "desktop_attempt": 1
+        }
+      },
+      {
+        "ts": "2026-05-22T11:27:46.330363+00:00",
+        "stage": "import_webview",
+        "status": "returned",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {
+          "desktop_attempt": 1,
+          "module_file": "C:\\Users\\User\\Desktop\\Atlas AI\\.venv\\Lib\\site-packages\\webview\\__init__.py",
+          "module_name": "webview"
+        }
+      },
+      {
+        "ts": "2026-05-22T11:27:46.422356+00:00",
+        "stage": "create_window_returned",
+        "status": "returned",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {
+          "desktop_attempt": 1,
+          "window_type": "Window",
+          "has_maximize": true,
+          "has_destroy": true
+        }
+      },
+      {
+        "ts": "2026-05-22T11:27:46.461644+00:00",
+        "stage": "entered_start",
+        "status": "entered",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {
+          "start_kwargs": {
+            "gui": "edgechromium"
+          }
+        }
+      },
+      {
+        "ts": "2026-05-22T11:34:01.866318+00:00",
+        "stage": "bootstrap",
+        "status": "entered",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {
+          "host": "127.0.0.1",
+          "port": 8765,
+          "preferred_gui": "edgechromium",
+          "force_browser_only": false,
+          "server_already_running": true,
+          "safe_native_window": true
+        }
+      },
+      {
+        "ts": "2026-05-22T11:34:01.896730+00:00",
+        "stage": "ui_server_ready",
+        "status": "ok",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {}
+      },
+      {
+        "ts": "2026-05-22T11:34:02.301141+00:00",
+        "stage": "import_webview",
+        "status": "entered",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {
+          "desktop_attempt": 1
+        }
+      },
+      {
+        "ts": "2026-05-22T11:34:02.312531+00:00",
+        "stage": "import_webview",
+        "status": "returned",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {
+          "desktop_attempt": 1,
+          "module_file": "C:\\Users\\User\\Desktop\\Atlas AI\\.venv\\Lib\\site-packages\\webview\\__init__.py",
+          "module_name": "webview"
+        }
+      },
+      {
+        "ts": "2026-05-22T11:34:02.368456+00:00",
+        "stage": "create_window_returned",
+        "status": "returned",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {
+          "desktop_attempt": 1,
+          "window_type": "Window",
+          "has_maximize": true,
+          "has_destroy": true
+        }
+      },
+      {
+        "ts": "2026-05-22T11:34:02.411270+00:00",
+        "stage": "entered_start",
+        "status": "entered",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {
+          "start_kwargs": {
+            "gui": "edgechromium"
+          }
+        }
+      },
+      {
+        "ts": "2026-05-22T11:34:03.501222+00:00",
+        "stage": "first_native_callback",
+        "status": "entered",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {}
+      },
+      {
+        "ts": "2026-05-22T11:34:03.602664+00:00",
+        "stage": "first_native_callback",
+        "status": "started",
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {}
+      }
+    ]
+  },
+  "weekend_learning_only_started_at": "2026-05-15T22:20:20.806141Z",
+  "updated_at": "2026-05-22T16:54:11.766965+00:00",
+  "ui_process_roles": {
+    "ui_wrapper": {
+      "last": {
+        "process_role": "ui_wrapper",
+        "stage": "desktop_shell_attach",
+        "status": "running",
+        "pid": 9180,
+        "ppid": 13948,
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {},
+        "ts": "2026-05-22T11:34:01.828836+00:00",
+        "updated_at": "2026-05-22T11:34:01.828836+00:00"
+      },
+      "history": [
+        {
+          "process_role": "ui_wrapper",
+          "stage": "startup",
+          "status": "starting",
+          "pid": 6432,
+          "ppid": 9224,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {},
+          "ts": "2026-05-21T14:30:31.987965+00:00",
+          "updated_at": "2026-05-21T14:30:31.987965+00:00"
+        },
+        {
+          "process_role": "ui_wrapper",
+          "stage": "ui_server_wait",
+          "status": "starting",
+          "pid": 6432,
+          "ppid": 9224,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {
+            "url": "http://127.0.0.1:8765",
+            "timeout_seconds": 25.0
+          },
+          "ts": "2026-05-21T14:30:32.461156+00:00",
+          "updated_at": "2026-05-21T14:30:32.461156+00:00"
+        },
+        {
+          "process_role": "ui_wrapper",
+          "stage": "ui_server_probe_existing",
+          "status": "starting",
+          "pid": 6432,
+          "ppid": 9224,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {
+            "url": "http://127.0.0.1:8765",
+            "timeout_seconds": 2.0,
+            "source_mode": "ui"
+          },
+          "ts": "2026-05-21T14:30:32.703747+00:00",
+          "updated_at": "2026-05-21T14:30:32.703747+00:00"
+        },
+        {
+          "process_role": "ui_wrapper",
+          "stage": "ui_server_probe_existing",
+          "status": "not_ready",
+          "pid": 6432,
+          "ppid": 9224,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {
+            "url": "http://127.0.0.1:8765",
+            "timeout_seconds": 2.0,
+            "source_mode": "ui"
+          },
+          "ts": "2026-05-21T14:30:36.552972+00:00",
+          "updated_at": "2026-05-21T14:30:36.552972+00:00"
+        },
+        {
+          "process_role": "ui_wrapper",
+          "stage": "ui_server_spawn",
+          "status": "starting",
+          "pid": 6432,
+          "ppid": 9224,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {
+            "url": "http://127.0.0.1:8765",
+            "source_mode": "ui"
+          },
+          "ts": "2026-05-21T14:30:40.349046+00:00",
+          "updated_at": "2026-05-21T14:30:40.349046+00:00"
+        },
+        {
+          "process_role": "ui_wrapper",
+          "stage": "ui_server_spawn",
+          "status": "failed",
+          "pid": 6432,
+          "ppid": 9224,
+          "error": "durable_ui_server_not_reachable",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {
+            "url": "http://127.0.0.1:8765",
+            "timeout_seconds": 25.0,
+            "source_mode": "ui"
+          },
+          "ts": "2026-05-21T14:31:07.965810+00:00",
+          "updated_at": "2026-05-21T14:31:07.965810+00:00"
+        },
+        {
+          "process_role": "ui_wrapper",
+          "stage": "ui_server_wait",
+          "status": "failed",
+          "pid": 6432,
+          "ppid": 9224,
+          "error": "durable_ui_server_not_reachable",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {
+            "url": "http://127.0.0.1:8765",
+            "timeout_seconds": 25.0,
+            "wrapper_pid": 6432
+          },
+          "ts": "2026-05-21T14:31:08.033941+00:00",
+          "updated_at": "2026-05-21T14:31:08.033941+00:00"
+        },
+        {
+          "process_role": "ui_wrapper",
+          "stage": "wrapper_exit",
+          "status": "failed",
+          "pid": 6432,
+          "ppid": 9224,
+          "error": "Durable UI server did not become reachable for desktop shell attach.",
+          "exception_type": "RuntimeError",
+          "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\User\\Desktop\\Atlas AI\\atlas_ai\\main.py\", line 1296, in run_ui_only\n    raise RuntimeError(\"Durable UI server did not become reachable for desktop shell attach.\")\nRuntimeError: Durable UI server did not become reachable for desktop shell attach.\n",
+          "meta": {
+            "exit_reason": "wrapper_exception_before_desktop_ready",
+            "wrapper_pid": 6432
+          },
+          "ts": "2026-05-21T14:31:08.097344+00:00",
+          "updated_at": "2026-05-21T14:31:08.097344+00:00"
+        },
+        {
+          "process_role": "ui_wrapper",
+          "stage": "startup",
+          "status": "starting",
+          "pid": 19248,
+          "ppid": 7520,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {},
+          "ts": "2026-05-22T11:27:45.429346+00:00",
+          "updated_at": "2026-05-22T11:27:45.429346+00:00"
+        },
+        {
+          "process_role": "ui_wrapper",
+          "stage": "ui_server_wait",
+          "status": "starting",
+          "pid": 19248,
+          "ppid": 7520,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {
+            "url": "http://127.0.0.1:8765",
+            "timeout_seconds": 25.0
+          },
+          "ts": "2026-05-22T11:27:45.507633+00:00",
+          "updated_at": "2026-05-22T11:27:45.507633+00:00"
+        },
+        {
+          "process_role": "ui_wrapper",
+          "stage": "ui_server_probe_existing",
+          "status": "starting",
+          "pid": 19248,
+          "ppid": 7520,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {
+            "url": "http://127.0.0.1:8765",
+            "timeout_seconds": 2.0,
+            "source_mode": "ui"
+          },
+          "ts": "2026-05-22T11:27:45.545201+00:00",
+          "updated_at": "2026-05-22T11:27:45.545201+00:00"
+        },
+        {
+          "process_role": "ui_wrapper",
+          "stage": "ui_server_probe_existing",
+          "status": "started",
+          "pid": 19248,
+          "ppid": 7520,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {
+            "url": "http://127.0.0.1:8765",
+            "timeout_seconds": 2.0,
+            "source_mode": "ui"
+          },
+          "ts": "2026-05-22T11:27:45.871634+00:00",
+          "updated_at": "2026-05-22T11:27:45.871634+00:00"
+        },
+        {
+          "process_role": "ui_wrapper",
+          "stage": "ui_server_wait",
+          "status": "started",
+          "pid": 19248,
+          "ppid": 7520,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {},
+          "ts": "2026-05-22T11:27:45.901663+00:00",
+          "updated_at": "2026-05-22T11:27:45.901663+00:00"
+        },
+        {
+          "process_role": "ui_wrapper",
+          "stage": "desktop_shell_attach",
+          "status": "running",
+          "pid": 19248,
+          "ppid": 7520,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {},
+          "ts": "2026-05-22T11:27:45.942169+00:00",
+          "updated_at": "2026-05-22T11:27:45.942169+00:00"
+        },
+        {
+          "process_role": "ui_wrapper",
+          "stage": "startup",
+          "status": "starting",
+          "pid": 9180,
+          "ppid": 13948,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {},
+          "ts": "2026-05-22T11:34:01.542632+00:00",
+          "updated_at": "2026-05-22T11:34:01.542632+00:00"
+        },
+        {
+          "process_role": "ui_wrapper",
+          "stage": "ui_server_wait",
+          "status": "starting",
+          "pid": 9180,
+          "ppid": 13948,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {
+            "url": "http://127.0.0.1:8765",
+            "timeout_seconds": 25.0
+          },
+          "ts": "2026-05-22T11:34:01.589203+00:00",
+          "updated_at": "2026-05-22T11:34:01.589203+00:00"
+        },
+        {
+          "process_role": "ui_wrapper",
+          "stage": "ui_server_probe_existing",
+          "status": "starting",
+          "pid": 9180,
+          "ppid": 13948,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {
+            "url": "http://127.0.0.1:8765",
+            "timeout_seconds": 2.0,
+            "source_mode": "ui"
+          },
+          "ts": "2026-05-22T11:34:01.615315+00:00",
+          "updated_at": "2026-05-22T11:34:01.615315+00:00"
+        },
+        {
+          "process_role": "ui_wrapper",
+          "stage": "ui_server_probe_existing",
+          "status": "started",
+          "pid": 9180,
+          "ppid": 13948,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {
+            "url": "http://127.0.0.1:8765",
+            "timeout_seconds": 2.0,
+            "source_mode": "ui"
+          },
+          "ts": "2026-05-22T11:34:01.747242+00:00",
+          "updated_at": "2026-05-22T11:34:01.747242+00:00"
+        },
+        {
+          "process_role": "ui_wrapper",
+          "stage": "ui_server_wait",
+          "status": "started",
+          "pid": 9180,
+          "ppid": 13948,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {},
+          "ts": "2026-05-22T11:34:01.782256+00:00",
+          "updated_at": "2026-05-22T11:34:01.782256+00:00"
+        },
+        {
+          "process_role": "ui_wrapper",
+          "stage": "desktop_shell_attach",
+          "status": "running",
+          "pid": 9180,
+          "ppid": 13948,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {},
+          "ts": "2026-05-22T11:34:01.828836+00:00",
+          "updated_at": "2026-05-22T11:34:01.828836+00:00"
+        }
+      ]
+    },
+    "ui_server": {
+      "last": {
+        "process_role": "ui_server",
+        "stage": "app_created",
+        "status": "started",
+        "pid": 2160,
+        "ppid": 18168,
+        "error": "",
+        "exception_type": "",
+        "traceback": "",
+        "meta": {},
+        "ts": "2026-05-22T11:33:44.803110+00:00",
+        "updated_at": "2026-05-22T11:33:44.803110+00:00"
+      },
+      "history": [
+        {
+          "process_role": "ui_server",
+          "stage": "startup",
+          "status": "starting",
+          "pid": 11072,
+          "ppid": 13596,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {},
+          "ts": "2026-05-20T23:14:27.541470+00:00",
+          "updated_at": "2026-05-20T23:14:27.541470+00:00"
+        },
+        {
+          "process_role": "ui_server",
+          "stage": "app_created",
+          "status": "started",
+          "pid": 11072,
+          "ppid": 13596,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {},
+          "ts": "2026-05-20T23:14:27.641715+00:00",
+          "updated_at": "2026-05-20T23:14:27.641715+00:00"
+        },
+        {
+          "process_role": "ui_server",
+          "stage": "startup",
+          "status": "starting",
+          "pid": 18848,
+          "ppid": 14424,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {},
+          "ts": "2026-05-21T00:51:47.543595+00:00",
+          "updated_at": "2026-05-21T00:51:47.543595+00:00"
+        },
+        {
+          "process_role": "ui_server",
+          "stage": "app_created",
+          "status": "started",
+          "pid": 18848,
+          "ppid": 14424,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {},
+          "ts": "2026-05-21T00:51:48.203844+00:00",
+          "updated_at": "2026-05-21T00:51:48.203844+00:00"
+        },
+        {
+          "process_role": "ui_server",
+          "stage": "startup",
+          "status": "starting",
+          "pid": 16180,
+          "ppid": 16060,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {},
+          "ts": "2026-05-21T03:13:40.100273+00:00",
+          "updated_at": "2026-05-21T03:13:40.100273+00:00"
+        },
+        {
+          "process_role": "ui_server",
+          "stage": "app_created",
+          "status": "started",
+          "pid": 16180,
+          "ppid": 16060,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {},
+          "ts": "2026-05-21T03:13:40.320791+00:00",
+          "updated_at": "2026-05-21T03:13:40.320791+00:00"
+        },
+        {
+          "process_role": "ui_server",
+          "stage": "startup",
+          "status": "starting",
+          "pid": 10084,
+          "ppid": 1140,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {},
+          "ts": "2026-05-21T11:38:38.716335+00:00",
+          "updated_at": "2026-05-21T11:38:38.716335+00:00"
+        },
+        {
+          "process_role": "ui_server",
+          "stage": "app_created",
+          "status": "started",
+          "pid": 10084,
+          "ppid": 1140,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {},
+          "ts": "2026-05-21T11:38:38.813989+00:00",
+          "updated_at": "2026-05-21T11:38:38.813989+00:00"
+        },
+        {
+          "process_role": "ui_server",
+          "stage": "startup",
+          "status": "starting",
+          "pid": 6432,
+          "ppid": 5440,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {},
+          "ts": "2026-05-21T11:42:13.545974+00:00",
+          "updated_at": "2026-05-21T11:42:13.545974+00:00"
+        },
+        {
+          "process_role": "ui_server",
+          "stage": "app_created",
+          "status": "started",
+          "pid": 6432,
+          "ppid": 5440,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {},
+          "ts": "2026-05-21T11:42:13.639793+00:00",
+          "updated_at": "2026-05-21T11:42:13.639793+00:00"
+        },
+        {
+          "process_role": "ui_server",
+          "stage": "startup",
+          "status": "starting",
+          "pid": 4192,
+          "ppid": 16780,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {},
+          "ts": "2026-05-21T12:16:24.485095+00:00",
+          "updated_at": "2026-05-21T12:16:24.485095+00:00"
+        },
+        {
+          "process_role": "ui_server",
+          "stage": "app_created",
+          "status": "started",
+          "pid": 4192,
+          "ppid": 16780,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {},
+          "ts": "2026-05-21T12:16:24.670347+00:00",
+          "updated_at": "2026-05-21T12:16:24.670347+00:00"
+        },
+        {
+          "process_role": "ui_server",
+          "stage": "startup",
+          "status": "starting",
+          "pid": 3304,
+          "ppid": 17616,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {},
+          "ts": "2026-05-21T13:26:14.449930+00:00",
+          "updated_at": "2026-05-21T13:26:14.449930+00:00"
+        },
+        {
+          "process_role": "ui_server",
+          "stage": "app_created",
+          "status": "started",
+          "pid": 3304,
+          "ppid": 17616,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {},
+          "ts": "2026-05-21T13:26:14.529653+00:00",
+          "updated_at": "2026-05-21T13:26:14.529653+00:00"
+        },
+        {
+          "process_role": "ui_server",
+          "stage": "startup",
+          "status": "starting",
+          "pid": 14012,
+          "ppid": 6968,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {},
+          "ts": "2026-05-21T14:01:23.566111+00:00",
+          "updated_at": "2026-05-21T14:01:23.566111+00:00"
+        },
+        {
+          "process_role": "ui_server",
+          "stage": "app_created",
+          "status": "started",
+          "pid": 14012,
+          "ppid": 6968,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {},
+          "ts": "2026-05-21T14:01:23.709027+00:00",
+          "updated_at": "2026-05-21T14:01:23.709027+00:00"
+        },
+        {
+          "process_role": "ui_server",
+          "stage": "startup",
+          "status": "starting",
+          "pid": 13488,
+          "ppid": 7520,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {},
+          "ts": "2026-05-22T11:27:43.017433+00:00",
+          "updated_at": "2026-05-22T11:27:43.017433+00:00"
+        },
+        {
+          "process_role": "ui_server",
+          "stage": "app_created",
+          "status": "started",
+          "pid": 13488,
+          "ppid": 7520,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {},
+          "ts": "2026-05-22T11:27:43.121369+00:00",
+          "updated_at": "2026-05-22T11:27:43.121369+00:00"
+        },
+        {
+          "process_role": "ui_server",
+          "stage": "startup",
+          "status": "starting",
+          "pid": 2160,
+          "ppid": 18168,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {},
+          "ts": "2026-05-22T11:33:44.712847+00:00",
+          "updated_at": "2026-05-22T11:33:44.712847+00:00"
+        },
+        {
+          "process_role": "ui_server",
+          "stage": "app_created",
+          "status": "started",
+          "pid": 2160,
+          "ppid": 18168,
+          "error": "",
+          "exception_type": "",
+          "traceback": "",
+          "meta": {},
+          "ts": "2026-05-22T11:33:44.803110+00:00",
+          "updated_at": "2026-05-22T11:33:44.803110+00:00"
+        }
+      ]
+    }
+  },
+  "automation_resume_sticky_reason": "operator_requested_resume_must_not_drop",
+  "self_improvement_runtime": {
+    "execution_rule_source": "approved_registry_only",
+    "approved_registry_loaded": true,
+    "draft_rules_loaded_into_execution": false,
+    "active_rule_registry_version": "atlas_rules_v1",
+    "active_rule_version_id": "",
+    "latest_promoted_proposal_id": "",
+    "proposal_count": 1,
+    "approval_pending_count": 0,
+    "rollout_active": true,
+    "draft_count": 0,
+    "promoted_rule_count": 0,
+    "checked_at": "2026-05-22T11:34:01.525586+00:00"
+  },
+  "closed_learning_synced_until": "2026-05-22T12:52:15.787577+00:00",
+  "weekend_learning_only": false,
+  "voice_startup_greeting": {
+    "status": "skipped",
+    "backend_requested": "clone",
+    "backend_used": "",
+    "message": "startup_greeting_already_announced",
+    "error": "",
+    "ts": "2026-05-22T13:34:07.230227",
+    "updated_at": "2026-05-22T13:34:07.230227"
+  },
+  "runtime_heartbeat": {
+    "backend_trader": {
+      "component": "backend_trader",
+      "last_heartbeat_at": "2026-05-22T16:54:08.920751+00:00",
+      "last_heartbeat_ts": 1779468848.9207518,
+      "cycle_status": "stopped",
+      "interval_seconds": 120.0,
+      "stale_after_seconds": 180.0
+    },
+    "ui_server": {
+      "component": "ui_server",
+      "last_heartbeat_at": "2026-05-22T12:49:10.952693+00:00",
+      "last_heartbeat_ts": 1779454150.952693,
+      "cycle_status": "running",
+      "interval_seconds": 120.0,
+      "stale_after_seconds": 180.0
+    }
+  },
+  "desktop_host_stability": {
+    "accessibility_recursion_seen": false,
+    "force_browser_fallback": false,
+    "last_reason": "",
+    "last_detected_at": "",
+    "recommended_frontend_mode": "desktop",
+    "last_success_at": "2026-05-22T11:34:03.553131+00:00",
+    "updated_at": "2026-05-22T11:34:03.553131+00:00"
+  },
+  "voice_listener_orchestration": {
+    "last_detected_transcript": "huh",
+    "last_detected_transcript_normalized": "huh",
+    "last_detected_intent": "general_question",
+    "last_detected_at": "2026-05-22T14:51:30.191836",
+    "updated_at": "2026-05-22T14:51:30.191836",
+    "listener_path": "voice.wake_loop",
+    "listener_status": "active",
+    "voice_session_turn_limit": 1,
+    "sleep_confirmation_window_seconds": 0.0,
+    "matched_command": "close_system",
+    "confirmation_required": true,
+    "confirmation_satisfied": false,
+    "shutdown_requested_at": "",
+    "sleep_confirmation_pending_at": "2026-05-22T13:52:47.521594",
+    "startup_requested_at": "2026-05-22T13:22:41.992394",
+    "startup_source": "voice.wake_loop",
+    "launch_dispatch_state": "idle",
+    "wake_phrase_matched": true,
+    "wake_confidence": 0.0,
+    "launch_dispatched_at": "2026-05-22T13:22:42.026430",
+    "final_startup_verdict": "SUCCESS",
+    "final_startup_reason": "backend_healthy_desktop_ready",
+    "browser_fallback_used": false,
+    "fallback_reason": "",
+    "launch_completed_at": "2026-05-19T18:42:11.043166",
+    "launch_thread_alive": false
+  },
+  "execute_trades": true,
+  "startup_orchestration": {
+    "startup_in_progress": true,
+    "startup_source": "commands.system.start_system",
+    "startup_started_at": "2026-05-22T11:22:42.085266+00:00",
+    "last_wake_trigger_at": "2026-05-22T11:22:42.085266+00:00",
+    "updated_at": "2026-05-22T11:22:42.085266+00:00",
+    "reason": "already_running_healthy",
+    "startup_finished_at": "2026-05-19T16:42:11.011148+00:00"
+  }
+}

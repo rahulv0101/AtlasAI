@@ -1,0 +1,16 @@
+{
+  "execute_trades": false,
+  "updated_at": "2026-08-17T16:45:58.023272+00:00",
+  "runtime_heartbeat": {
+    "backend_trader": {
+      "component": "backend_trader",
+      "last_heartbeat_at": "2026-08-17T16:45:58.009527+00:00",
+      "last_heartbeat_ts": 1786985158.009527,
+      "cycle_status": "running",
+      "mode": "paper",
+      "pid": 1234,
+      "cycle_count": 1,
+      "heartbeat_file": "storage\\debug_timing_route\\heartbeat.json"
+    }
+  }
+}

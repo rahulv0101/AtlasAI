@@ -1,0 +1,128 @@
+{
+  "approval": {
+    "approved": false,
+    "approved_at": "",
+    "approved_by": "",
+    "required": true
+  },
+  "created_at": "2026-06-04T19:37:20.655064+00:00",
+  "evidence": {
+    "collector": {
+      "enriched_samples": 166,
+      "metrics": {
+        "correct_block_rate": 0.2474,
+        "missed_rate": 0.4474,
+        "net_review_edge": 0.2,
+        "unknown_rate": 0.3053
+      },
+      "outcome_counts": {
+        "correct_hold_or_block": 141,
+        "inconclusive": 174,
+        "missed_opportunity": 255
+      },
+      "remaining_enriched_samples_needed": 0,
+      "required_samples": 120,
+      "reviewed_outcome_samples": 570
+    },
+    "regression_tests": {
+      "completed_marker_present": true,
+      "ok": true,
+      "source": "proposal_validation_completed_marker"
+    },
+    "replay_metrics": {
+      "correct_block_false_unlock_risk_count": 17,
+      "false_unlock_risk_rate": 0.3469,
+      "inconclusive_count": 10,
+      "missed_opportunity_capture_count": 22,
+      "net_review_edge": 0.102,
+      "opportunity_capture_rate": 0.449,
+      "unknown_rate": 0.2041
+    },
+    "shadow_compare": {
+      "capture_rate": 0.449,
+      "control_behavior": "keep consensus guard behavior unchanged",
+      "decision": "pass",
+      "draft_behavior": "shadow-flag context-confirmed consensus blocks for review only",
+      "false_unlock_risk_rate": 0.3469,
+      "net_review_edge": 0.102,
+      "samples": 49,
+      "unknown_rate": 0.2041
+    }
+  },
+  "ok": true,
+  "operator_decision_required": "approve_guarded_rollout_or_reject",
+  "operator_options": [
+    {
+      "decision": "approve_guarded_rollout",
+      "effect": "records operator approval and creates a guarded demo rollout entry",
+      "requires_explicit_operator_command": true
+    },
+    {
+      "decision": "reject_or_defer",
+      "effect": "keeps proposal non-executing and leaves current consensus behavior unchanged",
+      "requires_explicit_operator_command": true
+    }
+  ],
+  "operator_posture": {
+    "approval_still_requires_explicit_operator_command": true,
+    "does_not_approve": true,
+    "inputs": {
+      "collector_net_review_edge": 0.2,
+      "ready_for_operator_review": true,
+      "regression_ok": true,
+      "replay_net_review_edge": 0.102,
+      "shadow_decision": "pass",
+      "shadow_net_review_edge": 0.102
+    },
+    "posture": "guarded_rollout_candidate",
+    "reason": "Collector, replay, and shadow-compare evidence all show positive net review edge.",
+    "suggested_operator_action": "consider_guarded_rollout_approval"
+  },
+  "proposal_id": "proposal_consensus_selectivity_context_review",
+  "proposal_summary": {
+    "category": "filters",
+    "current_behavior": {
+      "observed_blocker": "Consensus guard blocked trade: side=sell, support=1, required=2.",
+      "summary": "Consensus guard requires same-side support before a candidate can proceed."
+    },
+    "proposed_change": {
+      "candidate_rule_name": "context_aware_consensus_selectivity_review",
+      "does_not_allow_trade": true,
+      "does_not_lower_min_same_side_signals": true,
+      "suggested_direction": "add shadow-only context confirmation review lane",
+      "target": "consensus_guard_selectivity_review",
+      "type": "context_confirmation_candidate"
+    },
+    "reason": "create a proposal-only context confirmation rule and replay it against richer stored setup context",
+    "target_blocker": "Consensus guard blocked trade: side=sell, support=1, required=2."
+  },
+  "recommendation": "review_for_operator_approval",
+  "safety": {
+    "does_not_activate_rollout": true,
+    "does_not_approve": true,
+    "does_not_change_execution_policy": true,
+    "does_not_change_risk_policy": true,
+    "does_not_change_strategy_logic": true,
+    "does_not_execute": true,
+    "does_not_lower_thresholds": true
+  },
+  "schema": "atlas_consensus_selectivity_operator_review_packet_v1",
+  "status": "awaiting_approval",
+  "validation": {
+    "completed": [
+      "richer_context_replay",
+      "shadow_compare",
+      "regression_tests"
+    ],
+    "missing": [
+      "operator_review"
+    ],
+    "ready_for_operator_review": true,
+    "required": [
+      "richer_context_replay",
+      "shadow_compare",
+      "regression_tests",
+      "operator_review"
+    ]
+  }
+}

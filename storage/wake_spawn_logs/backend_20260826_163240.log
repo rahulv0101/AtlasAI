@@ -1,0 +1,17 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-08-26 18:32:42,542 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-08-26 18:32:45,548 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-08-26 18:32:48,376 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-08-26 18:33:12,687 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-26 18:34:16,955 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-26 18:35:24,480 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-26 18:35:24,485 | INFO | openai._base_client | Retrying request to /chat/completions in 0.472761 seconds
+2026-08-26 18:35:25,556 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-26 18:35:25,557 | INFO | openai._base_client | Retrying request to /chat/completions in 0.819234 seconds
+2026-08-26 18:35:26,964 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-08-26 18:35:35,695 | INFO | atlas_ai.trader | Timing discipline blocked trade: Waiting for clean entry timing: fresh entry or retest, visual tradable location, visual momentum confirmation, and visual directional impulse missing (location=breakout, momentum=strong, session=new_york).
+2026-08-26 18:36:44,322 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-26 18:37:51,198 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-08-26 18:38:18,701 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=33.2pips TP=49.8pips ATR=16.59 mult=2.00
+2026-08-26 18:39:21,746 | INFO | atlas_ai.trader | Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, New York momentum confirmation, and visual confirmation missing (location=mid_range, momentum=mixed, session=new_york).

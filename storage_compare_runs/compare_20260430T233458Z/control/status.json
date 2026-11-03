@@ -1,0 +1,1247 @@
+{
+  "symbol": "XAUUSD",
+  "timeframe": "M1",
+  "gemini_enabled": true,
+  "risk": {
+    "equity": 729115.61,
+    "balance": 729115.61,
+    "daily_loss_pct": 0.0,
+    "open_positions": 0,
+    "spread_points": 34.0,
+    "trades_today": 0,
+    "consecutive_losses": 0,
+    "daily_profit_zar": 0.0,
+    "weekly_loss_pct": 0.0
+  },
+  "signals": [
+    {
+      "strategy": "momentum_continuation",
+      "side": "flat",
+      "confidence": 0.0
+    },
+    {
+      "strategy": "gold_micro_impulse",
+      "side": "flat",
+      "confidence": 0.0
+    },
+    {
+      "strategy": "gold_liquidity_sweep",
+      "side": "flat",
+      "confidence": 0.0
+    },
+    {
+      "strategy": "evolved_rule(fast=10,slow=63,rsi_buy=44.2,rsi_sell=52.7)",
+      "side": "flat",
+      "confidence": 0.0
+    }
+  ],
+  "signals_active": [
+    {
+      "strategy": "momentum_continuation",
+      "side": "flat",
+      "confidence": 0.0,
+      "contextual_score": 0.0
+    },
+    {
+      "strategy": "gold_micro_impulse",
+      "side": "flat",
+      "confidence": 0.0,
+      "contextual_score": 0.0
+    },
+    {
+      "strategy": "gold_liquidity_sweep",
+      "side": "flat",
+      "confidence": 0.0,
+      "contextual_score": 0.0
+    },
+    {
+      "strategy": "evolved_rule(fast=10,slow=63,rsi_buy=44.2,rsi_sell=52.7)",
+      "side": "flat",
+      "confidence": 0.0,
+      "contextual_score": 0.0
+    }
+  ],
+  "chosen": {
+    "strategy": "momentum_continuation",
+    "side": "flat",
+    "confidence": 0.0,
+    "stop_loss_points": 115.0,
+    "take_profit_points": 175.0
+  },
+  "market": {
+    "recent_close": [
+      4596.54,
+      4597.18,
+      4594.91,
+      4592.36,
+      4592.36,
+      4592.06,
+      4591.98,
+      4593.13,
+      4592.16,
+      4593.35,
+      4595.75,
+      4593.2,
+      4593.84,
+      4595.64,
+      4592.2,
+      4591.48,
+      4593.36,
+      4593.27,
+      4593.3,
+      4593.42
+    ],
+    "recent_time": [
+      "2026-05-01 09:35:00",
+      "2026-05-01 09:36:00",
+      "2026-05-01 09:37:00",
+      "2026-05-01 09:38:00",
+      "2026-05-01 09:39:00",
+      "2026-05-01 09:40:00",
+      "2026-05-01 09:41:00",
+      "2026-05-01 09:42:00",
+      "2026-05-01 09:43:00",
+      "2026-05-01 09:44:00",
+      "2026-05-01 09:45:00",
+      "2026-05-01 09:46:00",
+      "2026-05-01 09:47:00",
+      "2026-05-01 09:48:00",
+      "2026-05-01 09:49:00",
+      "2026-05-01 09:50:00",
+      "2026-05-01 09:51:00",
+      "2026-05-01 09:52:00",
+      "2026-05-01 09:53:00",
+      "2026-05-01 09:54:00"
+    ],
+    "last_close": 4593.42
+  },
+  "regime": {
+    "name": "trend",
+    "trend_strength": 0.2718,
+    "volatility_pct": 0.0237
+  },
+  "higher_timeframe": {
+    "confirm_tf": "M5",
+    "bias": "sell"
+  },
+  "action": "blocked",
+  "message": "Risk guard active: Safety lock active: consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak. No trade executed.",
+  "execute_trades": false,
+  "gemini_influence_enabled": false,
+  "drift": {
+    "active": true,
+    "severe": false,
+    "delta": -0.19,
+    "recent_win_rate_20": 0.15,
+    "baseline_win_rate": 0.34,
+    "signal_adjustments": [],
+    "strategy_weight_adjustments": [
+      "momentum_continuation wr=0.35 x0.88"
+    ]
+  },
+  "contextual_ranking": {
+    "chosen_score": 0.0,
+    "top": [
+      {
+        "strategy": "momentum_continuation",
+        "score": 0.0,
+        "factor": 1.0,
+        "setup_quality_score": 0.0,
+        "reasons": [
+          "disabled",
+          "flat_signal"
+        ]
+      },
+      {
+        "strategy": "gold_micro_impulse",
+        "score": 0.0,
+        "factor": 1.0,
+        "setup_quality_score": 0.0,
+        "reasons": [
+          "disabled",
+          "flat_signal"
+        ]
+      },
+      {
+        "strategy": "gold_liquidity_sweep",
+        "score": 0.0,
+        "factor": 1.0,
+        "setup_quality_score": 0.0,
+        "reasons": [
+          "disabled",
+          "flat_signal"
+        ]
+      }
+    ],
+    "best_actionable": {}
+  },
+  "best_actionable_candidate": null,
+  "signal_summary": {
+    "raw_count": 4,
+    "active_count": 4,
+    "filtered_out_count": 0,
+    "evolved_raw_count": 1,
+    "evolved_active_count": 1
+  },
+  "account_profile": {
+    "account_tier": "standard_account",
+    "tier_reason": "balance supports standard guarded risk profile",
+    "risk_profile": "capital_preservation_standard",
+    "current_size_tier": "tier_5_0p10",
+    "next_size_tier_requirement": "max_tier_reached",
+    "size_tier_reason": "bounded_stepwise_scaling"
+  },
+  "safety_layer": {
+    "safety_lock_active": true,
+    "safety_lock_reason": "consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak",
+    "safety_lock_started_at": "2026-04-30T23:39:03.297757+00:00",
+    "safety_lock_scope": "new_entries",
+    "recovery_requirements": [
+      "manual_operator_unlock_required",
+      "cooldown_expired",
+      "no_active_hard_blocker",
+      "volatility_back_to_acceptable",
+      "next_setup_meets_high_confluence"
+    ],
+    "cooldown_active": false,
+    "cooldown_reason": "",
+    "cooldown_until": "",
+    "cooldown_level": "none",
+    "volatility_state": "normal",
+    "volatility_reason": "volatility within acceptable bounds",
+    "volatility_action": "allow",
+    "loss_streak": 3,
+    "rolling_drawdown_pct": 0.0,
+    "rolling_expectancy_zar": -2227.67,
+    "supporting_win_rate": 0.15,
+    "dominant_loss_class": "none",
+    "dominant_loss_class_count": 0,
+    "recovery_ready": false,
+    "recovery_blockers": [
+      "safety_lock_active"
+    ],
+    "recovery_mode": "lockdown"
+  },
+  "health": {
+    "broker": {
+      "connected": true,
+      "symbol_selected": true
+    },
+    "llm": {
+      "enabled": true,
+      "providers": [
+        {
+          "name": "openai",
+          "in_cooldown": false,
+          "cooldown_seconds_left": 0,
+          "last_error": ""
+        }
+      ]
+    },
+    "risk_guard": {
+      "max_trades_per_day": 12,
+      "max_consecutive_losses": 3,
+      "cooldown_minutes_after_loss_streak": 60
+    }
+  },
+  "gemini_note": "Deferred to post-execution to reduce loop latency.",
+  "lane": "control",
+  "context_snapshot": {
+    "symbol": "XAUUSD",
+    "timestamp": "2026-05-01T09:54:00",
+    "regime": "trend",
+    "session": "unknown",
+    "trend_strength": 0.2718,
+    "volatility_state": "low",
+    "spread_state": "normal",
+    "liquidity_state": "unknown",
+    "spread_points": 34.0,
+    "dxy_alignment": "unknown",
+    "dxy_trend": "unknown",
+    "us10y_alignment": "unknown",
+    "us10y_trend": "unknown",
+    "vix_regime": "unknown",
+    "vix_alignment": "unknown",
+    "oil_backdrop": "unknown",
+    "oil_alignment": "unknown",
+    "event_risk_state": "unknown",
+    "news_risk_classification": "unknown",
+    "news_sentiment": "unknown",
+    "macro_classification": "unknown",
+    "slippage_state": "unknown",
+    "slippage_points": 0.0,
+    "repeated_entry_risk": false,
+    "overstretched_entry_risk": false
+  },
+  "decision_explanation": {
+    "candidate_id": "|momentum_continuation|flat",
+    "trade_id": "",
+    "lane": "control",
+    "mode": "paper",
+    "symbol": "XAUUSD",
+    "timestamp": "",
+    "signal_source": "momentum_continuation",
+    "regime": "trend",
+    "session": "unknown",
+    "trend_strength": 0.2718,
+    "setup_quality_reasons": [],
+    "active_guards": [],
+    "penalties": [],
+    "final_decision": "block",
+    "reason_codes": [
+      "risk_guard_active_safety_lock_active_consecutive_loss_threshold_rolling_expectancy_degradation_supporting_win_rate_weak_no_trade_executed"
+    ],
+    "explanation_text": "Risk guard active: Safety lock active: consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak. No trade executed."
+  },
+  "decision_analysis": {
+    "market_bias": "neutral",
+    "confidence_score": 32,
+    "confidence_level": "low",
+    "trend": {
+      "state": "unclear",
+      "structure": "mixed"
+    },
+    "structure_context": {
+      "trend_direction": "unclear",
+      "reaction_zones": "unknown",
+      "breakout_or_rejection_behavior": "unknown"
+    },
+    "momentum": {
+      "state": "mixed"
+    },
+    "location": {
+      "state": "unclear"
+    },
+    "setup_type": "no_trade",
+    "entry_quality": "avoid",
+    "reasoning": [
+      "market regime reads as unknown with 28/100 confidence"
+    ],
+    "warnings": [
+      "unclear_or_range_structure",
+      "mixed_momentum",
+      "suboptimal_location",
+      "session_behavior_caution"
+    ],
+    "blockers": [
+      "structure_too_weak",
+      "no_clear_setup"
+    ],
+    "hard_blockers": [
+      "structure_too_weak",
+      "no_clear_setup"
+    ],
+    "confluence_score": 32,
+    "confluence_threshold": 85,
+    "confluence": {
+      "score": 32,
+      "threshold": 85,
+      "qualified": false
+    },
+    "feature_scores": {
+      "xau_structure_score": {
+        "score": 18,
+        "level": "weak"
+      },
+      "xau_momentum_score": {
+        "score": 50,
+        "level": "mixed"
+      },
+      "dxy_alignment_score": {
+        "score": 52,
+        "level": "mixed"
+      },
+      "yield_alignment_score": {
+        "score": 52,
+        "level": "mixed"
+      },
+      "vix_alignment_score": {
+        "score": 54,
+        "level": "mixed"
+      },
+      "oil_context_score": {
+        "score": 50,
+        "level": "mixed"
+      },
+      "spread_safety_score": {
+        "score": 68,
+        "level": "acceptable"
+      },
+      "session_quality_score": {
+        "score": 42,
+        "level": "mixed"
+      },
+      "event_risk_score": {
+        "score": 62,
+        "level": "acceptable"
+      },
+      "news_context_score": {
+        "score": 52,
+        "level": "mixed"
+      }
+    },
+    "macro_context": {
+      "xau_symbol": "XAUUSD",
+      "dxy": {
+        "state": "mixed",
+        "trend": "unknown",
+        "score": 52,
+        "availability": "unavailable"
+      },
+      "us10y": {
+        "state": "mixed",
+        "trend": "unknown",
+        "score": 52,
+        "availability": "unavailable"
+      },
+      "vix": {
+        "state": "mixed",
+        "regime": "unknown",
+        "score": 54,
+        "availability": "unavailable"
+      },
+      "oil": {
+        "state": "mixed",
+        "backdrop": "unknown",
+        "score": 50,
+        "availability": "unavailable"
+      },
+      "event_news": {
+        "event_risk_state": "unknown",
+        "event_risk_score": 62,
+        "news_context_score": 52,
+        "news_risk_classification": "unknown",
+        "news_sentiment": "unknown",
+        "macro_classification": "unknown",
+        "availability": "unavailable"
+      },
+      "execution_friction": {
+        "spread_state": "normal",
+        "liquidity_state": "unknown",
+        "slippage_state": "unknown",
+        "spread_points": 34.0,
+        "spread_pips": 3.4,
+        "slippage_points": 0.0,
+        "score": 68,
+        "state": "acceptable",
+        "spread_status": "normal",
+        "spread_explanation": "weak_due_to_missing_liquidity_context",
+        "reward_to_spread_ratio": 5.147,
+        "min_reward_to_spread_ratio": 2.0,
+        "spread_block_reasons": []
+      },
+      "session": {
+        "state": "asia",
+        "score": 42,
+        "state_class": "caution",
+        "availability": "available"
+      },
+      "regime": {
+        "state": "unknown",
+        "score": 28,
+        "reasons": []
+      },
+      "reversal": {
+        "candidate": false,
+        "confirmed": false,
+        "bias": "neutral",
+        "score": 0
+      },
+      "operator_terminal": {
+        "reads": [
+          "DXY=mixed",
+          "US10Y=mixed",
+          "VIX=unknown",
+          "oil=unknown",
+          "event=unknown",
+          "spread=normal",
+          "slippage=unknown",
+          "session=asia",
+          "regime=unknown",
+          "reversal=none"
+        ],
+        "allow_reason": [],
+        "block_reason": [
+          "structure_too_weak",
+          "no_clear_setup"
+        ]
+      }
+    },
+    "market_regime": {
+      "regime": "unknown",
+      "regime_confidence": 28,
+      "regime_confidence_level": "low",
+      "regime_reasons": [],
+      "scores": {
+        "trending": 0,
+        "ranging": 0,
+        "volatile": 28
+      },
+      "timestamp": "2026-05-01T06:54:19.281575+00:00",
+      "behavior": {
+        "trending": "prioritize continuation/pullback and avoid blind counter-trend entries",
+        "ranging": "prefer mean reversion only at defined extremes with confirmation",
+        "volatile": "defensive mode; reduce size or block entries depending on severity"
+      }
+    },
+    "reversal_detection": {
+      "reversal_candidate": false,
+      "reversal_confidence": 0,
+      "reversal_confidence_level": "low",
+      "reversal_bias": "neutral",
+      "reversal_reasons": [],
+      "confirmed_reversal": false,
+      "requires": [
+        "macro divergence/conflict",
+        "structure confirmation",
+        "momentum confirmation"
+      ]
+    },
+    "context_alignment": {
+      "dxy": {
+        "state": "mixed",
+        "trend": "unknown",
+        "score": 52,
+        "availability": "unavailable"
+      },
+      "us10y": {
+        "state": "mixed",
+        "trend": "unknown",
+        "score": 52,
+        "availability": "unavailable"
+      },
+      "vix": {
+        "state": "mixed",
+        "regime": "unknown",
+        "score": 54,
+        "availability": "unavailable"
+      },
+      "oil": {
+        "state": "mixed",
+        "backdrop": "unknown",
+        "score": 50,
+        "availability": "unavailable"
+      },
+      "spread_liquidity": {
+        "spread_state": "normal",
+        "liquidity_state": "unknown",
+        "slippage_state": "unknown",
+        "spread_points": 34.0,
+        "spread_pips": 3.4,
+        "slippage_points": 0.0,
+        "score": 68,
+        "state": "acceptable",
+        "spread_status": "normal",
+        "spread_explanation": "weak_due_to_missing_liquidity_context",
+        "reward_to_spread_ratio": 5.147,
+        "min_reward_to_spread_ratio": 2.0,
+        "spread_block_reasons": []
+      },
+      "session": {
+        "state": "asia",
+        "score": 42,
+        "state_class": "caution",
+        "availability": "available"
+      },
+      "regime": {
+        "state": "unknown",
+        "score": 28,
+        "reasons": []
+      },
+      "reversal": {
+        "candidate": false,
+        "confirmed": false,
+        "bias": "neutral",
+        "score": 0
+      },
+      "event_news": {
+        "event_risk_state": "unknown",
+        "event_risk_score": 62,
+        "news_context_score": 52,
+        "news_risk_classification": "unknown",
+        "news_sentiment": "unknown",
+        "macro_classification": "unknown",
+        "availability": "unavailable"
+      }
+    },
+    "recommended_action": "hold",
+    "safety_note": "Capital preservation first. No forced trade if structure, momentum, spread, session, or macro context are not aligned.",
+    "timeframe_logic": {
+      "structure_trend": "M15",
+      "entry_confirmation": "M1"
+    },
+    "trading_response": {
+      "bias": "neutral",
+      "bias_strength": "strong",
+      "trade_decision": "NO_TRADE",
+      "confidence": {
+        "score": 32,
+        "level": "low"
+      },
+      "buy_score": 7,
+      "sell_score": 7,
+      "no_trade_score": 100,
+      "structure_read": {
+        "state": "unclear",
+        "structure": "mixed",
+        "score": 18
+      },
+      "momentum_read": {
+        "state": "mixed",
+        "score": 50
+      },
+      "location_read": {
+        "state": "unclear",
+        "bonus": -10
+      },
+      "confirmation_read": {
+        "dxy_alignment_score": 52,
+        "us10y_alignment_score": 52,
+        "session_state": "asia",
+        "spread_state": "normal",
+        "regime_state": "unknown",
+        "event_risk_state": "unknown"
+      },
+      "reward_vs_risk": {
+        "ratio": 1.522,
+        "take_profit_points": 175.0,
+        "stop_loss_points": 115.0
+      },
+      "blockers": [
+        "structure_too_weak",
+        "no_clear_setup"
+      ],
+      "context_alignment": {
+        "dxy": {
+          "state": "mixed",
+          "trend": "unknown",
+          "score": 52,
+          "availability": "unavailable"
+        },
+        "us10y": {
+          "state": "mixed",
+          "trend": "unknown",
+          "score": 52,
+          "availability": "unavailable"
+        },
+        "vix": {
+          "state": "mixed",
+          "regime": "unknown",
+          "score": 54,
+          "availability": "unavailable"
+        },
+        "oil": {
+          "state": "mixed",
+          "backdrop": "unknown",
+          "score": 50,
+          "availability": "unavailable"
+        },
+        "spread_liquidity": {
+          "spread_state": "normal",
+          "liquidity_state": "unknown",
+          "slippage_state": "unknown",
+          "spread_points": 34.0,
+          "spread_pips": 3.4,
+          "slippage_points": 0.0,
+          "score": 68,
+          "state": "acceptable",
+          "spread_status": "normal",
+          "spread_explanation": "weak_due_to_missing_liquidity_context",
+          "reward_to_spread_ratio": 5.147,
+          "min_reward_to_spread_ratio": 2.0,
+          "spread_block_reasons": []
+        },
+        "session": {
+          "state": "asia",
+          "score": 42,
+          "state_class": "caution",
+          "availability": "available"
+        },
+        "regime": {
+          "state": "unknown",
+          "score": 28,
+          "reasons": []
+        },
+        "reversal": {
+          "candidate": false,
+          "confirmed": false,
+          "bias": "neutral",
+          "score": 0
+        },
+        "event_news": {
+          "event_risk_state": "unknown",
+          "event_risk_score": 62,
+          "news_context_score": 52,
+          "news_risk_classification": "unknown",
+          "news_sentiment": "unknown",
+          "macro_classification": "unknown",
+          "availability": "unavailable"
+        }
+      },
+      "recommended_action": "hold",
+      "size_band_rationale": {
+        "band": "blocked",
+        "cap_multiplier": 0.0,
+        "risk_fraction_of_max": 0.0,
+        "rationale": [
+          "No size allocated because hard blockers are active."
+        ]
+      },
+      "safety_note": "Capital preservation first. No forced trade if structure, momentum, spread, session, or macro context are not aligned.",
+      "timeframe_logic": {
+        "structure_trend": "M15",
+        "entry_confirmation": "M1"
+      },
+      "execution_mode": "guarded",
+      "market_regime": {
+        "regime": "unknown",
+        "regime_confidence": 28,
+        "regime_confidence_level": "low",
+        "regime_reasons": [],
+        "scores": {
+          "trending": 0,
+          "ranging": 0,
+          "volatile": 28
+        },
+        "timestamp": "2026-05-01T06:54:19.281575+00:00",
+        "behavior": {
+          "trending": "prioritize continuation/pullback and avoid blind counter-trend entries",
+          "ranging": "prefer mean reversion only at defined extremes with confirmation",
+          "volatile": "defensive mode; reduce size or block entries depending on severity"
+        }
+      },
+      "reversal_detection": {
+        "reversal_candidate": false,
+        "reversal_confidence": 0,
+        "reversal_confidence_level": "low",
+        "reversal_bias": "neutral",
+        "reversal_reasons": [],
+        "confirmed_reversal": false,
+        "requires": [
+          "macro divergence/conflict",
+          "structure confirmation",
+          "momentum confirmation"
+        ]
+      },
+      "account_tier": "standard_account",
+      "risk_profile": "capital_preservation_standard",
+      "size_tier": {
+        "current_size_tier": "tier_5_0p10",
+        "next_size_tier_requirement": "max_tier_reached",
+        "size_tier_reason": "bounded_stepwise_scaling"
+      }
+    },
+    "buy_score": 7,
+    "sell_score": 7,
+    "no_trade_score": 100,
+    "trade_decision": "NO_TRADE",
+    "bias_strength": "strong",
+    "pre_trade_memo": {
+      "bias": "neutral",
+      "setup_type": "no_clear_setup",
+      "confluence_score": 32,
+      "confluence_threshold": 85,
+      "reward_vs_risk": {
+        "ratio": 1.522,
+        "take_profit_points": 175.0,
+        "stop_loss_points": 115.0
+      },
+      "supporting_factors": [],
+      "contradictory_factors": [
+        "market structure is unclear",
+        "momentum is mixed",
+        "entry location is suboptimal",
+        "asia session quality is weaker"
+      ],
+      "reasons_not_to_trade": [
+        "structure_too_weak",
+        "no_clear_setup"
+      ],
+      "final_decision": "hold",
+      "size_band_rationale": {
+        "band": "blocked",
+        "cap_multiplier": 0.0,
+        "risk_fraction_of_max": 0.0,
+        "rationale": [
+          "No size allocated because hard blockers are active."
+        ]
+      },
+      "timeframe_logic": {
+        "structure_trend": "M15",
+        "entry_confirmation": "M1"
+      },
+      "market_regime": {
+        "regime": "unknown",
+        "regime_confidence": 28,
+        "regime_confidence_level": "low",
+        "regime_reasons": [],
+        "scores": {
+          "trending": 0,
+          "ranging": 0,
+          "volatile": 28
+        },
+        "timestamp": "2026-05-01T06:54:19.281575+00:00",
+        "behavior": {
+          "trending": "prioritize continuation/pullback and avoid blind counter-trend entries",
+          "ranging": "prefer mean reversion only at defined extremes with confirmation",
+          "volatile": "defensive mode; reduce size or block entries depending on severity"
+        }
+      },
+      "reversal_detection": {
+        "reversal_candidate": false,
+        "reversal_confidence": 0,
+        "reversal_confidence_level": "low",
+        "reversal_bias": "neutral",
+        "reversal_reasons": [],
+        "confirmed_reversal": false,
+        "requires": [
+          "macro divergence/conflict",
+          "structure confirmation",
+          "momentum confirmation"
+        ]
+      },
+      "account_tier": "standard_account",
+      "risk_profile": "capital_preservation_standard",
+      "size_tier": {
+        "current_size_tier": "tier_5_0p10",
+        "next_size_tier_requirement": "max_tier_reached",
+        "size_tier_reason": "bounded_stepwise_scaling"
+      }
+    },
+    "decision_protocol": {
+      "observe": {
+        "xauusd_structure": {
+          "trend_state": "unclear",
+          "trend_structure": "mixed",
+          "momentum_state": "mixed",
+          "location_state": "unclear"
+        },
+        "dxy_direction": "unknown",
+        "us10y_direction": "unknown",
+        "spread_liquidity": {
+          "spread_state": "normal",
+          "liquidity_state": "unknown",
+          "spread_points": 34.0,
+          "slippage_state": "unknown"
+        },
+        "session": "asia",
+        "event_news_risk": {
+          "event_risk_state": "unknown",
+          "news_context_state": "unknown",
+          "high_impact_news_window": false
+        },
+        "summary": [
+          "XAU structure=mixed momentum=mixed location=unclear",
+          "DXY=unknown US10Y=unknown",
+          "spread/liquidity=normal/unknown",
+          "session=asia event_risk=unknown"
+        ]
+      },
+      "orient": {
+        "market_regime": "unknown",
+        "regime_confidence": 28,
+        "setup_type": "no_clear_setup",
+        "macro_alignment": {
+          "dxy_state": "mixed",
+          "us10y_state": "mixed",
+          "conflict": false
+        },
+        "reaction_zone_context": "unknown",
+        "breakout_rejection_behavior": "unknown",
+        "summary": [
+          "regime=unknown",
+          "setup=no_clear_setup",
+          "macro DXY/US10Y=mixed/mixed"
+        ]
+      },
+      "critique": {
+        "top_failure_reasons": [
+          "structure too weak",
+          "no clear setup",
+          "unclear or range structure"
+        ],
+        "summary": [
+          "structure too weak",
+          "no clear setup",
+          "unclear or range structure"
+        ]
+      },
+      "decide": {
+        "confluence_score": 32,
+        "confluence_threshold": 85,
+        "score_passed": false,
+        "blockers": [
+          "structure_too_weak",
+          "no_clear_setup"
+        ],
+        "blockers_override_score": true,
+        "recommended_action": "hold",
+        "summary": [
+          "confluence=32/85",
+          "blockers=structure_too_weak, no_clear_setup",
+          "action=hold"
+        ]
+      },
+      "act": {
+        "execution_request_eligible": false,
+        "requires_execution_gates": true,
+        "gate_conditions": {
+          "score_passed": false,
+          "no_hard_blockers": false,
+          "existing_execution_gates_approve": false
+        },
+        "summary": "not_eligible_for_execution_request"
+      }
+    },
+    "explanation": "No-trade: no valid setup is confirmed yet; structure/location confirmation is missing.",
+    "account_profile": {
+      "account_tier": "standard_account",
+      "tier_reason": "balance supports standard guarded risk profile",
+      "risk_profile": "capital_preservation_standard",
+      "current_size_tier": "tier_5_0p10",
+      "next_size_tier_requirement": "max_tier_reached",
+      "size_tier_reason": "bounded_stepwise_scaling"
+    }
+  },
+  "pre_trade_memo": {
+    "bias": "neutral",
+    "setup_type": "no_clear_setup",
+    "confluence_score": 32,
+    "confluence_threshold": 85,
+    "reward_vs_risk": {
+      "ratio": 1.522,
+      "take_profit_points": 175.0,
+      "stop_loss_points": 115.0
+    },
+    "supporting_factors": [],
+    "contradictory_factors": [
+      "market structure is unclear",
+      "momentum is mixed",
+      "entry location is suboptimal",
+      "asia session quality is weaker"
+    ],
+    "reasons_not_to_trade": [
+      "structure_too_weak",
+      "no_clear_setup"
+    ],
+    "final_decision": "hold",
+    "size_band_rationale": {
+      "band": "blocked",
+      "cap_multiplier": 0.0,
+      "risk_fraction_of_max": 0.0,
+      "rationale": [
+        "No size allocated because hard blockers are active."
+      ]
+    },
+    "timeframe_logic": {
+      "structure_trend": "M15",
+      "entry_confirmation": "M1"
+    },
+    "market_regime": {
+      "regime": "unknown",
+      "regime_confidence": 28,
+      "regime_confidence_level": "low",
+      "regime_reasons": [],
+      "scores": {
+        "trending": 0,
+        "ranging": 0,
+        "volatile": 28
+      },
+      "timestamp": "2026-05-01T06:54:19.281575+00:00",
+      "behavior": {
+        "trending": "prioritize continuation/pullback and avoid blind counter-trend entries",
+        "ranging": "prefer mean reversion only at defined extremes with confirmation",
+        "volatile": "defensive mode; reduce size or block entries depending on severity"
+      }
+    },
+    "reversal_detection": {
+      "reversal_candidate": false,
+      "reversal_confidence": 0,
+      "reversal_confidence_level": "low",
+      "reversal_bias": "neutral",
+      "reversal_reasons": [],
+      "confirmed_reversal": false,
+      "requires": [
+        "macro divergence/conflict",
+        "structure confirmation",
+        "momentum confirmation"
+      ]
+    },
+    "account_tier": "standard_account",
+    "risk_profile": "capital_preservation_standard",
+    "size_tier": {
+      "current_size_tier": "tier_5_0p10",
+      "next_size_tier_requirement": "max_tier_reached",
+      "size_tier_reason": "bounded_stepwise_scaling"
+    }
+  },
+  "market_regime": {
+    "regime": "unknown",
+    "regime_confidence": 28,
+    "regime_confidence_level": "low",
+    "regime_reasons": [],
+    "scores": {
+      "trending": 0,
+      "ranging": 0,
+      "volatile": 28
+    },
+    "timestamp": "2026-05-01T06:54:19.281575+00:00",
+    "behavior": {
+      "trending": "prioritize continuation/pullback and avoid blind counter-trend entries",
+      "ranging": "prefer mean reversion only at defined extremes with confirmation",
+      "volatile": "defensive mode; reduce size or block entries depending on severity"
+    }
+  },
+  "reversal_detection": {
+    "reversal_candidate": false,
+    "reversal_confidence": 0,
+    "reversal_confidence_level": "low",
+    "reversal_bias": "neutral",
+    "reversal_reasons": [],
+    "confirmed_reversal": false,
+    "requires": [
+      "macro divergence/conflict",
+      "structure confirmation",
+      "momentum confirmation"
+    ]
+  },
+  "self_improvement_state": {
+    "policy_version": "1.0",
+    "proposal_count": 1,
+    "validated_count": 0,
+    "approval_pending_count": 0,
+    "insight_count": 1,
+    "rollout_count": 0,
+    "rollout_active": false,
+    "rollback_available": false,
+    "active_rule_version": "atlas_rules_v1",
+    "latest_proposal_id": "proposal_outcome_momentum_continuation_weak",
+    "latest_insight_id": "insight_outcome_momentum_continuation_weak",
+    "latest_rollout_id": ""
+  },
+  "system_health": {
+    "effective_mode": "paper",
+    "paper_mode_confirmed": true,
+    "filter_state": {
+      "conservative_filter_enabled": false,
+      "research_regime_filter_enabled": false
+    },
+    "ml_state": {
+      "meta_model_enabled": false,
+      "decision_authority": "disabled"
+    },
+    "gemini_state": {
+      "enabled": true,
+      "influence_enabled": false,
+      "provider_health": {
+        "enabled": true,
+        "providers": [
+          {
+            "name": "openai",
+            "in_cooldown": false,
+            "cooldown_seconds_left": 0,
+            "last_error": ""
+          }
+        ]
+      }
+    },
+    "ai_influence_mode": "observer_only",
+    "ai_execution_authority": "execution_authority_forbidden",
+    "stale_data_detected": false,
+    "freshness_runtime": {
+      "status_age_ms": null,
+      "market_data_age_ms": null,
+      "primary_age_ms": null,
+      "backend_cycle_age_ms": null,
+      "is_status_stale": false,
+      "is_stale": false,
+      "state": "unknown",
+      "max_freshness_age_ms": 480000.0,
+      "stale_threshold_ms": 480000.0,
+      "aging_threshold_ms": 240000.0,
+      "source": "status_freshness_contract"
+    },
+    "config_mismatch_detected": false,
+    "mode_truth": {
+      "effective_mode": "paper",
+      "effective_mode_source": "status",
+      "runtime_execute_trades": false,
+      "settings_execute_trades": false,
+      "status_execute_trades": false,
+      "startup_execute_trades": null,
+      "startup_message": "",
+      "explanation": "Status, runtime, startup verification, and settings are aligned."
+    },
+    "routing_risk_detected": false,
+    "self_improvement": {
+      "policy_version": "1.0",
+      "proposal_count": 1,
+      "validated_count": 0,
+      "approval_pending_count": 0,
+      "rollout_active": false,
+      "rollback_available": false,
+      "active_rule_version": "atlas_rules_v1",
+      "latest_rollout_id": ""
+    },
+    "safety_layer": {
+      "safety_lock_active": true,
+      "safety_lock_reason": "consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak",
+      "cooldown_active": false,
+      "cooldown_level": "none",
+      "cooldown_reason": "",
+      "cooldown_status": "not_applicable_due_to_safety_lock",
+      "safety_lock_supersedes_cooldown": true,
+      "volatility_state": "normal",
+      "volatility_action": "allow",
+      "recovery_ready": false,
+      "recovery_mode": "lockdown",
+      "recovery_blockers": [
+        "safety_lock_active"
+      ],
+      "safety_lock_source": "current_session",
+      "safety_lock_triggered_at": "2026-04-30T23:39:03.297757+00:00",
+      "safety_lock_triggering_window": "current_session",
+      "safety_lock_current_session_relevant": true,
+      "safety_lock_requires_manual_unlock": true,
+      "last_loss_at": "",
+      "trades_since_lock": 0,
+      "recovery": {
+        "recovery_ready": false,
+        "recovery_blockers": [
+          "safety_lock_active"
+        ],
+        "required_actions": [
+          "manual_operator_unlock_required",
+          "cooldown_expired",
+          "no_active_hard_blocker",
+          "volatility_back_to_acceptable",
+          "next_setup_meets_high_confluence"
+        ],
+        "can_auto_recover": false,
+        "manual_unlock_endpoint": "/api/safety/unlock",
+        "unlock_requires_confirmation": true
+      }
+    },
+    "broker_connectivity_status": {
+      "connected": true,
+      "symbol_selected": true
+    },
+    "warnings": [],
+    "protective_locks": [
+      "safety_lock_active"
+    ],
+    "classification": {
+      "PASS": [
+        "broker_connectivity_ok",
+        "execution_gate_enforced",
+        "status_pipeline_alive"
+      ],
+      "PROTECTIVE_LOCK": [
+        "safety_lock_active"
+      ],
+      "WARNING": [],
+      "FAIL": []
+    },
+    "macro_data": {
+      "dxy_alignment": {
+        "state": "unknown",
+        "availability": "available"
+      },
+      "us10y_alignment": {
+        "state": "unknown",
+        "availability": "available"
+      },
+      "vix_regime": {
+        "state": "unknown",
+        "availability": "available"
+      },
+      "oil_context": {
+        "state": "unknown",
+        "availability": "available"
+      }
+    },
+    "session_state": "asia",
+    "regime_state": {
+      "regime": "trend",
+      "regime_confidence": 0,
+      "regime_source": "model",
+      "warning": ""
+    },
+    "spread_liquidity": {
+      "spread_points": 34.0,
+      "spread_pips": 3.4,
+      "spread_status": "normal",
+      "spread_liquidity_score": 10,
+      "spread_explanation": "weak_due_to_missing_liquidity_context"
+    },
+    "evolution_state": {
+      "evolution_enabled": false,
+      "evolution_status": "disabled",
+      "evolved_strategy_count": 0,
+      "action": "none"
+    },
+    "filter_status": {
+      "conservative_filter": {
+        "status": "inactive_by_config",
+        "severity": "INFO"
+      },
+      "research_filter": {
+        "status": "inactive_by_config",
+        "severity": "INFO"
+      }
+    }
+  },
+  "shadow_advice": {
+    "trade_id": "|momentum_continuation|flat",
+    "setup_score": 0.0,
+    "confidence": 0.0,
+    "anomaly_flags": [
+      "blocked_trade"
+    ],
+    "alternative_ranking": [
+      {
+        "strategy": "momentum_continuation",
+        "score": 0.0,
+        "confidence": 0.0
+      },
+      {
+        "strategy": "gold_micro_impulse",
+        "score": 0.0,
+        "confidence": 0.0
+      },
+      {
+        "strategy": "gold_liquidity_sweep",
+        "score": 0.0,
+        "confidence": 0.0
+      }
+    ],
+    "recommendation": "observe"
+  },
+  "freshness_timing": {
+    "cycle_started_at": "2026-05-01T06:54:18.799853+00:00",
+    "ingest_started_at": "2026-05-01T06:54:18.799853+00:00",
+    "ingest_completed_at": "2026-05-01T06:54:18.887205+00:00",
+    "ingest_duration_ms": 87.35,
+    "market_fetch": {
+      "started_at": "2026-05-01T06:54:18.886114+00:00",
+      "ended_at": "2026-05-01T06:54:18.887205+00:00",
+      "duration_ms": 1.09,
+      "retries": 0,
+      "retry_sleep_ms": 0.0,
+      "bars_requested": 1200,
+      "bars_received": 1200,
+      "ok": true,
+      "error": ""
+    },
+    "signal_generation_completed_at": "2026-05-01T06:54:18.895252+00:00",
+    "decision_pre_checks_completed_at": "2026-05-01T06:54:18.901262+00:00",
+    "cycle_elapsed_ms_before_gates": 97.53,
+    "status_write_attempted_at": "2026-05-01T06:54:19.293905+00:00",
+    "backend_cycle_age_ms": 494.05
+  },
+  "freshness_runtime": {
+    "status_age_ms": 494.05,
+    "is_stale": false
+  },
+  "updated_at": "2026-05-01T06:54:19.309706+00:00"
+}

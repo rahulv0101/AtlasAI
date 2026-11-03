@@ -1,0 +1,7 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui-browser --mode-override live
+2026-04-22 19:55:59,271 | INFO | atlas_ai.voice.startup | Startup greeting triggered.
+ * Serving Flask app 'atlas_ai.ui_server'
+ * Debug mode: off
+2026-04-22 19:55:59,338 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8765
+2026-04-22 19:55:59,338 | INFO | werkzeug | [33mPress CTRL+C to quit[0m

@@ -1,0 +1,1094 @@
+{
+  "population_size": 59,
+  "recommendations": [
+    {
+      "blockers": [],
+      "confidence": 0.8516,
+      "origin": "ai_regime_repair:micro_cooldown_exclude_8_9_12_15_18_19",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:67.9"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "mhr_hr8912151819_381d63d9"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.8477,
+      "origin": "ai_regime_repair:micro_cooldown_exclude_7_8_12_15_18_19",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:66.9"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "backtested",
+      "uid": "mhr_hr7812151819_6e09eb76"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.847,
+      "origin": "ai_regime_repair:micro_cooldown_exclude_12_15_18_19",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:66.8"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "mhr_hr12151819_f87bcbf6"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.8456,
+      "origin": "ai_regime_repair:micro_cooldown_exclude_15_18_19",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:66.4"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "mhr_hr151819_f2e518e3"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.8452,
+      "origin": "ai_regime_repair:micro_cooldown_exclude_12_15_18",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:66.3"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "backtested",
+      "uid": "mhr_hr121518_4f990d83"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.8445,
+      "origin": "ai_regime_repair:micro_cooldown_exclude_12_19",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:66.1"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "backtested",
+      "uid": "mhr_hr1219_a2296050"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.8435,
+      "origin": "ai_regime_repair:micro_cooldown_exclude_12_18_19",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:65.9"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "backtested",
+      "uid": "mhr_hr121819_17726321"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.8432,
+      "origin": "ai_regime_repair:micro_cooldown_exclude_19",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:65.8"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "mhr_hr19_b5463ad2"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.843,
+      "origin": "ai_session_repair:london_only_volume",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:65.8"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "london_4f7c3886fd6"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.843,
+      "origin": "ai_hour_filter:exclude_12",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:65.8"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "hour_600dacadacc3"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.843,
+      "origin": "ai_hour_filter:exclude_8",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:65.8"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "hour_341bb9050d01"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.843,
+      "origin": "ai_hour_filter:exclude_8_12",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:65.8"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "hour_ab85381ebcc9"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.8423,
+      "origin": "ai_regime_repair:micro_cooldown_exclude_18_19",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:65.6"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "backtested",
+      "uid": "mhr_hr1819_80ccef6c"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.8415,
+      "origin": "ai_cluster_repair:london_only_quality",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:65.4"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "cluster_ba6481ae1d"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.8415,
+      "origin": "ai_session_repair:london_only_same",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:65.4"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "backtested",
+      "uid": "london_4133399e19c"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.8415,
+      "origin": "ai_session_repair:london_only_light_conf",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:65.4"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "backtested",
+      "uid": "london_2656d74de77"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.8409,
+      "origin": "ai_regime_repair:micro_cooldown_exclude_18",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:65.2"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "backtested",
+      "uid": "mhr_hr18_72d50510"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.8401,
+      "origin": "ai_hybrid:hybrid_score_low_sl_mid_conf",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:65.0"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "hybrid_64698950b749"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.8401,
+      "origin": "ai_hybrid:hybrid_trend_reward_balance",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:65.0"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "hybrid_d3d9b84bed58"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.8398,
+      "origin": "ai_drawdown_hybrid:dd_tighter_stop_hold",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:65.0"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "ddhybrid_cc5205a3d1"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.8394,
+      "origin": "ai_drawdown_hybrid:dd_trend_filter_light",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:64.8"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "ddhybrid_d82d87cf61"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.8393,
+      "origin": "ai_loss_cooldown:cooldown_2_lift_04",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:64.8"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "cool_2fb10cf36c78"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.8393,
+      "origin": "ai_loss_cooldown:cooldown_3_lift_05",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:64.8"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "cool_87c6175152e4"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.8392,
+      "origin": "ai_micro_cooldown:cool_2_lift_05",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:64.8"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "mcool_0bba088e1a9"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.8392,
+      "origin": "ai_micro_cooldown:cool_4_lift_05",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:64.8"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "backtested",
+      "uid": "mcool_923d9ca4a64"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.8358,
+      "origin": "ai_micro_cooldown:cool_3_lift_07",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:64.0"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "mcool_c0d1c1ae72c"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.8343,
+      "origin": "ai_micro_cooldown:cool_3_lift_06",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:63.6"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "backtested",
+      "uid": "mcool_50774e3fc33"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.834,
+      "origin": "ai_repair:tighter_risk_reward_filter",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:63.5"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "repair_ef3d60bd757e"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.834,
+      "origin": "ai_loss_cooldown:cooldown_4_lift_06",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:63.5"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "cool_87e39e0f9e11"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.83,
+      "origin": "ai_drawdown_hybrid:dd_conf_volume_light",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:62.5"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "ddhybrid_f8a0e588a0"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.8296,
+      "origin": "mutation",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:62.4"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "237db698ce122878"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.828,
+      "origin": "ai_repair:higher_confirmation_shorter_hold",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:62.0"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "repair_e4ea5026452b"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.8246,
+      "origin": "ai_cluster_repair:avoid_late_us_proxy_london_ny_strict",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:61.1"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "cluster_f973bf281e"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.824,
+      "origin": "ai_hybrid:hybrid_volume_conf_balance",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:61.0"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "hybrid_b84ba48d16c5"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.8236,
+      "origin": "ai_loss_cooldown:cooldown_5_lift_08",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:60.9"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "cool_059b1f47ade3"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.8233,
+      "origin": "ai_drawdown_control:tight_stop_keep_reward",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:60.8"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "ddctl_f5ee6b2ff13"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.8222,
+      "origin": "ai_drawdown_control:quality_filter_mid",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:60.5"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "ddctl_0a47dbac0f7"
+    },
+    {
+      "blockers": [],
+      "confidence": 0.8213,
+      "origin": "ai_hour_filter:exclude_8_12_v2",
+      "preference_score": 0.0,
+      "reasons": [
+        "backtest_score:60.3"
+      ],
+      "recommendation": "eligible_for_shadow_or_demo_review",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "shadow",
+      "uid": "hour2_7d52d6e2abd"
+    },
+    {
+      "blockers": [
+        "insufficient_trades:52<200"
+      ],
+      "confidence": 0.8,
+      "origin": "ai_repair:trend_strength_guard",
+      "preference_score": 0.0,
+      "reasons": [],
+      "recommendation": "reject_or_archive",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "rejected",
+      "uid": "repair_dfe5d7dede3b"
+    },
+    {
+      "blockers": [
+        "backtest_score_below_shadow_threshold:57.85<60.00"
+      ],
+      "confidence": 0.8,
+      "origin": "ai_repair:higher_confirmation_shorter_hold",
+      "preference_score": 0.0,
+      "reasons": [],
+      "recommendation": "reject_or_archive",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "backtested",
+      "uid": "repair_7614d419d261"
+    },
+    {
+      "blockers": [
+        "backtest_score_below_shadow_threshold:59.22<60.00"
+      ],
+      "confidence": 0.8,
+      "origin": "ai_repair:tighter_risk_reward_filter",
+      "preference_score": 0.0,
+      "reasons": [],
+      "recommendation": "reject_or_archive",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "backtested",
+      "uid": "repair_ae304cac83bb"
+    },
+    {
+      "blockers": [
+        "insufficient_trades:6<200"
+      ],
+      "confidence": 0.8,
+      "origin": "ai_repair:trend_strength_guard",
+      "preference_score": 0.0,
+      "reasons": [],
+      "recommendation": "reject_or_archive",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "rejected",
+      "uid": "repair_5254ab63eed6"
+    },
+    {
+      "blockers": [
+        "insufficient_trades:25<200"
+      ],
+      "confidence": 0.8,
+      "origin": "ai_repair:higher_confirmation_shorter_hold",
+      "preference_score": 0.0,
+      "reasons": [],
+      "recommendation": "reject_or_archive",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "rejected",
+      "uid": "repair_45873c67f8ea"
+    },
+    {
+      "blockers": [
+        "insufficient_trades:25<200"
+      ],
+      "confidence": 0.8,
+      "origin": "ai_repair:tighter_risk_reward_filter",
+      "preference_score": 0.0,
+      "reasons": [],
+      "recommendation": "reject_or_archive",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "rejected",
+      "uid": "repair_0a08d027372a"
+    },
+    {
+      "blockers": [
+        "insufficient_trades:4<200"
+      ],
+      "confidence": 0.8,
+      "origin": "ai_repair:trend_strength_guard",
+      "preference_score": 0.0,
+      "reasons": [],
+      "recommendation": "reject_or_archive",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "rejected",
+      "uid": "repair_da64a54145ab"
+    },
+    {
+      "blockers": [
+        "win_rate_too_low:0.52<0.52"
+      ],
+      "confidence": 0.8,
+      "origin": "ai_micro_repair:tiny_confidence_lift",
+      "preference_score": 0.0,
+      "reasons": [],
+      "recommendation": "reject_or_archive",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "rejected",
+      "uid": "repair_7b9ecab47ff6"
+    },
+    {
+      "blockers": [
+        "backtest_score_below_shadow_threshold:59.70<60.00"
+      ],
+      "confidence": 0.8,
+      "origin": "ai_micro_repair:tiny_volume_lift",
+      "preference_score": 0.0,
+      "reasons": [],
+      "recommendation": "reject_or_archive",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "backtested",
+      "uid": "repair_be7bd8217cf1"
+    },
+    {
+      "blockers": [
+        "backtest_score_below_shadow_threshold:58.64<60.00"
+      ],
+      "confidence": 0.8,
+      "origin": "ai_micro_repair:tiny_hold_reduction",
+      "preference_score": 0.0,
+      "reasons": [],
+      "recommendation": "reject_or_archive",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "backtested",
+      "uid": "repair_9379a447a581"
+    },
+    {
+      "blockers": [
+        "backtest_score_below_shadow_threshold:59.73<60.00"
+      ],
+      "confidence": 0.8,
+      "origin": "ai_micro_repair:tiny_trend_and_reward_lift",
+      "preference_score": 0.0,
+      "reasons": [],
+      "recommendation": "reject_or_archive",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "backtested",
+      "uid": "repair_64ff83ecd811"
+    },
+    {
+      "blockers": [
+        "backtest_score_below_shadow_threshold:59.73<60.00"
+      ],
+      "confidence": 0.8,
+      "origin": "ai_hybrid:hybrid_drawdown_filter_light",
+      "preference_score": 0.0,
+      "reasons": [],
+      "recommendation": "reject_or_archive",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "backtested",
+      "uid": "hybrid_6cbf8a509437"
+    },
+    {
+      "blockers": [
+        "backtest_score_below_shadow_threshold:57.16<60.00"
+      ],
+      "confidence": 0.8,
+      "origin": "ai_drawdown_hybrid:dd_conf_body_light",
+      "preference_score": 0.0,
+      "reasons": [],
+      "recommendation": "reject_or_archive",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "backtested",
+      "uid": "ddhybrid_6462cfd324"
+    },
+    {
+      "blockers": [
+        "backtest_score_below_shadow_threshold:58.04<60.00"
+      ],
+      "confidence": 0.8,
+      "origin": "ai_drawdown_control:short_hold_conf",
+      "preference_score": 0.0,
+      "reasons": [],
+      "recommendation": "reject_or_archive",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "backtested",
+      "uid": "ddctl_de66ffcffc1"
+    },
+    {
+      "blockers": [
+        "backtest_score_below_shadow_threshold:57.84<60.00"
+      ],
+      "confidence": 0.8,
+      "origin": "ai_drawdown_control:lower_reward_faster_exit",
+      "preference_score": 0.0,
+      "reasons": [],
+      "recommendation": "reject_or_archive",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "backtested",
+      "uid": "ddctl_b9677d4667e"
+    },
+    {
+      "blockers": [
+        "backtest_score_below_shadow_threshold:57.62<60.00"
+      ],
+      "confidence": 0.8,
+      "origin": "ai_drawdown_control:body_trend_guard",
+      "preference_score": 0.0,
+      "reasons": [],
+      "recommendation": "reject_or_archive",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "backtested",
+      "uid": "ddctl_e5a70e8b502"
+    },
+    {
+      "blockers": [
+        "insufficient_trades:153<200"
+      ],
+      "confidence": 0.8,
+      "origin": "ai_cluster_repair:ny_only_sell_bias_proxy",
+      "preference_score": 0.0,
+      "reasons": [],
+      "recommendation": "reject_or_archive",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "rejected",
+      "uid": "cluster_4a5c2ba566"
+    },
+    {
+      "blockers": [
+        "backtest_score_below_shadow_threshold:59.47<60.00"
+      ],
+      "confidence": 0.8,
+      "origin": "ai_cluster_repair:sell_edge_filter",
+      "preference_score": 0.0,
+      "reasons": [],
+      "recommendation": "reject_or_archive",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "backtested",
+      "uid": "cluster_d1023cd45e"
+    },
+    {
+      "blockers": [
+        "backtest_score_below_shadow_threshold:58.70<60.00"
+      ],
+      "confidence": 0.8,
+      "origin": "ai_hour_filter:exclude_12_v2",
+      "preference_score": 0.0,
+      "reasons": [],
+      "recommendation": "reject_or_archive",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "backtested",
+      "uid": "hour2_a65780a95f4"
+    },
+    {
+      "blockers": [
+        "win_rate_too_low:0.51<0.52"
+      ],
+      "confidence": 0.8,
+      "origin": "ai_hour_filter:exclude_8_v2",
+      "preference_score": 0.0,
+      "reasons": [],
+      "recommendation": "reject_or_archive",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "rejected",
+      "uid": "hour2_1b0edc30f29"
+    },
+    {
+      "blockers": [
+        "insufficient_demo_trades:0<100"
+      ],
+      "confidence": 0.58,
+      "origin": "ai_regime_repair:micro_cooldown_exclude_7_8_9_12_15_18_19",
+      "preference_score": 0.0,
+      "reasons": [],
+      "recommendation": "continue_demo_validation",
+      "safety": {
+        "does_not_execute": true,
+        "does_not_promote": true,
+        "execution_gate_required": true,
+        "recommendation_only": true
+      },
+      "stage": "demo",
+      "uid": "mhr_hr78912151819_c604b9a2"
+    }
+  ],
+  "safety": {
+    "does_not_execute": true,
+    "does_not_promote": true,
+    "recommendation_only": true,
+    "requires_human_approval_for_live": true,
+    "requires_promotion_governor": true
+  },
+  "schema": "atlas_ai_promotion_intelligence_v1",
+  "top_recommendation": {
+    "blockers": [],
+    "confidence": 0.8516,
+    "origin": "ai_regime_repair:micro_cooldown_exclude_8_9_12_15_18_19",
+    "preference_score": 0.0,
+    "reasons": [
+      "backtest_score:67.9"
+    ],
+    "recommendation": "eligible_for_shadow_or_demo_review",
+    "safety": {
+      "does_not_execute": true,
+      "does_not_promote": true,
+      "execution_gate_required": true,
+      "recommendation_only": true
+    },
+    "stage": "shadow",
+    "uid": "mhr_hr8912151819_381d63d9"
+  },
+  "updated_at": "2026-06-08T17:41:00.845485+00:00"
+}

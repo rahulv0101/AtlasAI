@@ -1,0 +1,52 @@
+{
+  "execute_trades": false,
+  "gemini_influence_enabled": false,
+  "paper_rollout": {
+    "lane": "control",
+    "run_id": "m15_ema_closed_confirm_mid_exit_stage_a_20260827",
+    "preset": "ema_crossover_closed_confirm_mid_exit_stage_a"
+  },
+  "updated_at": "2026-08-29T13:53:16.966694+00:00",
+  "runtime_heartbeat": {
+    "backend_trader": {
+      "component": "backend_trader",
+      "last_heartbeat_at": "2026-08-29T13:53:16.929583+00:00",
+      "last_heartbeat_ts": 1788011596.9295838,
+      "cycle_status": "running",
+      "interval_seconds": 120.0,
+      "stale_after_seconds": 180.0,
+      "mode": "paper",
+      "pid": 22508,
+      "cycle_count": 2053,
+      "heartbeat_file": "storage_compare_runs\\m15_ema_closed_confirm_mid_exit_stage_a_20260827\\control\\heartbeat.json"
+    }
+  },
+  "closed_learning_synced_until": "2026-08-29T13:44:43.470598+00:00",
+  "risk_guard_state": {
+    "date": "2026-08-29",
+    "trades_today": 0,
+    "consecutive_losses": 0,
+    "cooldown_until": "",
+    "start_balance": 121209.66,
+    "week_key": "2026-08-24",
+    "week_start_balance": 121209.66,
+    "safety_lock_active": false,
+    "safety_lock_reason": "",
+    "safety_lock_started_at": "",
+    "safety_lock_scope": "new_entries",
+    "recovery_requirements": [
+      "manual_operator_unlock_required",
+      "cooldown_expired",
+      "no_active_hard_blocker",
+      "volatility_back_to_acceptable",
+      "next_setup_meets_high_confluence"
+    ],
+    "cooldown_level": "none",
+    "cooldown_reason": "",
+    "cooldown_marker": "",
+    "cooldown_consumed_marker": "",
+    "volatility_state": "extreme",
+    "volatility_reason": "extreme volatility regime; new entries paused",
+    "volatility_action": "block_new_entries"
+  }
+}

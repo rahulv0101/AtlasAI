@@ -1,0 +1,10 @@
+{
+  "execute_trades": false,
+  "gemini_influence_enabled": false,
+  "paper_rollout": {
+    "lane": "experiment",
+    "run_id": "compare_20260430T232442Z",
+    "preset": "conservative_filter_rollout_v1"
+  },
+  "updated_at": "2026-04-30T23:24:42.417704+00:00"
+}

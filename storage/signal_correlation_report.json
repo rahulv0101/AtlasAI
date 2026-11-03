@@ -1,0 +1,14 @@
+{
+  "flagged_pairs": [],
+  "generated_at": "2026-08-09T11:50:39.269763+00:00",
+  "matrix": {},
+  "policy_note": "Read-only redundancy measurement; ranking weights are not changed automatically.",
+  "read_only": true,
+  "rolling_window": 500,
+  "schema": "atlas_signal_correlation_report_v1",
+  "source_rows": 500,
+  "strategies": [],
+  "summary": "Not enough strategy families to measure redundancy (0 found across 0 usable rows).",
+  "threshold": 0.8,
+  "usable_rows": 0
+}

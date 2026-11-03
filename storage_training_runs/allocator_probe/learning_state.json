@@ -1,0 +1,62 @@
+{
+  "state": {
+    "allocator": {
+      "ema_crossover": {
+        "wins": 125,
+        "losses": 70,
+        "pnl": 0.5850000000000005
+      },
+      "rsi_mean_reversion": {
+        "wins": 1,
+        "losses": 1,
+        "pnl": 0.0
+      },
+      "breakout": {
+        "wins": 1,
+        "losses": 1,
+        "pnl": 0.0
+      },
+      "candlestick_patterns": {
+        "wins": 1,
+        "losses": 1,
+        "pnl": 0.0
+      },
+      "macd_trend": {
+        "wins": 12,
+        "losses": 1,
+        "pnl": 0.08499999999999608
+      },
+      "bollinger_mean_reversion": {
+        "wins": 1,
+        "losses": 1,
+        "pnl": 0.0
+      },
+      "stochastic_reversal": {
+        "wins": 1,
+        "losses": 1,
+        "pnl": 0.0
+      },
+      "vwap_proxy_reversion": {
+        "wins": 103,
+        "losses": 100,
+        "pnl": 0.25785714285713424
+      },
+      "momentum_continuation": {
+        "wins": 64,
+        "losses": 92,
+        "pnl": 0.024347826086921445
+      },
+      "pullback_trend": {
+        "wins": 60,
+        "losses": 30,
+        "pnl": 0.3109090909091
+      },
+      "rsi_trend_hybrid": {
+        "wins": 1,
+        "losses": 2,
+        "pnl": -0.004999999999999783
+      }
+    }
+  },
+  "updated_at": "2026-05-06T10:42:57.740718+00:00"
+}

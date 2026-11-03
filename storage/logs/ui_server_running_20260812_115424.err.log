@@ -1,0 +1,16 @@
+2026-08-12 11:54:25,425 | INFO | atlas_ai.voice.startup | Startup greeting triggered.
+2026-08-12 11:54:25,473 | WARNING | atlas_ai.voice.startup | Startup voice clone backend unavailable (backend=none); falling back to existing speech chain.
+2026-08-12 11:54:25,475 | INFO | atlas_ai.voice.startup | Fallback voice used for startup greeting.
+2026-08-12 11:54:25,478 | INFO | atlas_ai.voice.startup | Startup greeting playback success.
+2026-08-12 11:54:25,586 | INFO | atlas_ai.ui_server | Starting durable UI server on http://127.0.0.1:8765
+2026-08-12 11:54:45,983 | INFO | werkzeug | 127.0.0.1 - - [12/Aug/2026 11:54:45] "GET / HTTP/1.1" 200 -
+2026-08-12 11:54:48,865 | INFO | werkzeug | 127.0.0.1 - - [12/Aug/2026 11:54:48] "GET /style.css HTTP/1.1" 200 -
+2026-08-12 11:54:48,907 | INFO | werkzeug | 127.0.0.1 - - [12/Aug/2026 11:54:48] "GET /app.js HTTP/1.1" 200 -
+2026-08-12 11:54:50,297 | INFO | werkzeug | 127.0.0.1 - - [12/Aug/2026 11:54:50] "GET /api/status HTTP/1.1" 200 -
+2026-08-12 11:54:53,708 | INFO | werkzeug | 127.0.0.1 - - [12/Aug/2026 11:54:53] "POST /api/ui-ready HTTP/1.1" 200 -
+2026-08-12 11:54:53,862 | INFO | werkzeug | 127.0.0.1 - - [12/Aug/2026 11:54:53] "GET /api/events?_ts=1786528493840 HTTP/1.1" 200 -
+2026-08-12 11:54:53,876 | INFO | werkzeug | 127.0.0.1 - - [12/Aug/2026 11:54:53] "GET /api/learning-insights?_ts=1786528493840 HTTP/1.1" 200 -
+2026-08-12 11:54:54,782 | INFO | werkzeug | 127.0.0.1 - - [12/Aug/2026 11:54:54] "GET /api/runtime?_ts=1786528493840 HTTP/1.1" 200 -
+2026-08-12 11:54:56,301 | INFO | werkzeug | 127.0.0.1 - - [12/Aug/2026 11:54:56] "GET /api/status HTTP/1.1" 200 -
+2026-08-12 11:54:56,304 | INFO | werkzeug | 127.0.0.1 - - [12/Aug/2026 11:54:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-08-12 11:54:56,309 | INFO | werkzeug | 127.0.0.1 - - [12/Aug/2026 11:54:56] "GET /api/status/compact?_ts=1786528493792 HTTP/1.1" 200 -

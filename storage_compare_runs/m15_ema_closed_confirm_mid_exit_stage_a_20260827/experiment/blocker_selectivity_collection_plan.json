@@ -1,0 +1,47 @@
+{
+  "capture_fields": [
+    "higher_timeframe_alignment",
+    "directional_structure",
+    "momentum_quality",
+    "spread_state",
+    "loss_pattern_state"
+  ],
+  "collection_focus": [
+    "capture blocker-side context at the moment consensus blocks",
+    "label whether later movement favored the blocked side",
+    "separate correct protective blocks from missed opportunity blocks",
+    "keep draft proposal parked until shadow_compare passes"
+  ],
+  "created_at": "2026-08-29T13:52:44.436592+00:00",
+  "current_metrics": {
+    "capture_rate": 0.0,
+    "false_unlock_risk_rate": 0.0,
+    "net_review_edge": 0.0,
+    "samples": 0,
+    "unknown_rate": 1.0
+  },
+  "failure_reasons": [
+    "false_unlock_risk_exceeds_capture",
+    "net_review_edge_below_retry_threshold",
+    "too_many_inconclusive_reviews"
+  ],
+  "policy": {
+    "collection_only": true,
+    "does_not_allow_trade": true,
+    "does_not_change_execution_policy": true,
+    "does_not_change_risk_policy": true,
+    "does_not_change_strategy_logic": true,
+    "does_not_execute": true,
+    "does_not_lower_thresholds": true
+  },
+  "proposal_id": "proposal_consensus_selectivity_context_review",
+  "retry_requirements": {
+    "capture_must_exceed_false_unlock": true,
+    "max_unknown_rate": 0.45,
+    "min_net_review_edge": 0.1,
+    "min_samples": 120
+  },
+  "schema": "atlas_blocker_selectivity_collection_plan_v1",
+  "source_decision": "continue_collecting",
+  "source_validation_step": "shadow_compare"
+}

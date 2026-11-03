@@ -1,0 +1,23 @@
+{
+  "appended": 1249,
+  "candidate_events": 3090,
+  "created_at": "2026-06-03T08:06:31.838527+00:00",
+  "event_files_scanned": 1,
+  "include_archives": false,
+  "malformed": 0,
+  "ok": true,
+  "path": "storage\\missed_entry_audits.jsonl",
+  "policy": {
+    "does_not_allow_trade": true,
+    "does_not_change_execution_policy": true,
+    "does_not_change_risk_policy": true,
+    "does_not_change_strategy_logic": true,
+    "does_not_execute": true,
+    "event_backfill_only": true,
+    "synthetic_samples_created": false
+  },
+  "scanned_events": 4243,
+  "schema": "atlas_missed_entry_event_backfill_v1",
+  "skipped_duplicate": 0,
+  "skipped_not_candidate": 1841
+}

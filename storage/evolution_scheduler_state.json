@@ -1,0 +1,16 @@
+{
+  "scheduler_status": "idle",
+  "current_generation": 2,
+  "last_evolution_run_at": "2026-06-01T09:12:45.611907+00:00",
+  "next_evolution_run_at": "2026-06-01T15:12:47.535998+00:00",
+  "best_fitness": 62.4,
+  "best_uid": "237db698ce122878",
+  "active_demo_count": 0,
+  "active_shadow_count": 1,
+  "promotions_this_cycle": 0,
+  "rejections_this_cycle": 1,
+  "last_error": "",
+  "last_error_at": "",
+  "total_runs": 5,
+  "dry_run": true
+}

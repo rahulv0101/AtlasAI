@@ -1,0 +1,81 @@
+........................................................................ [  5%]
+........................................................................ [ 11%]
+...........................................................F............ [ 17%]
+........................F.......F....................................... [ 23%]
+........................................................................ [ 29%]
+........................................................................ [ 34%]
+........................................................................ [ 40%]
+........................................................................ [ 46%]
+........................................................................ [ 52%]
+........................................................................ [ 58%]
+........................................................................ [ 64%]
+........................................................................ [ 69%]
+........................................................................ [ 75%]
+........................................................................ [ 81%]
+........................................................................ [ 87%]
+........................................................................ [ 93%]
+..............FF........................................................ [ 99%]
+...........                                                              [100%]
+================================== FAILURES ===================================
+_______________ test_blocker_question_includes_blocker_catalog ________________
+
+    def test_blocker_question_includes_blocker_catalog() -> None:
+        r = _ask("What blocks you from trading?")
+        assert r["selected_domain"] == "blockers"
+>       assert "main blocker:" in r["result"].lower()
+E       AssertionError: assert 'main blocker:' in 'blocked at signal generation: no high-confidence trade found..\n\nsupporting reasons:\n- source: structured why trace / executiongate decision.\n- runtime remains paper.'
+E        +  where 'blocked at signal generation: no high-confidence trade found..\n\nsupporting reasons:\n- source: structured why trace / executiongate decision.\n- runtime remains paper.' = <built-in method lower of str object at 0x0000023A0E0A3210>()
+E        +    where <built-in method lower of str object at 0x0000023A0E0A3210> = 'Blocked at signal generation: No high-confidence trade found..\n\nSupporting reasons:\n- Source: structured why trace / ExecutionGate decision.\n- Runtime remains paper.'.lower
+
+tests\test_brain_knowledge_layer.py:129: AssertionError
+_________________ test_followup_why_stays_on_blocker_context __________________
+
+    def test_followup_why_stays_on_blocker_context() -> None:
+        svc = AskAtlasService(_Source())
+        r1 = svc.answer("What is holding you back?")
+        r2 = svc.answer("Why?")
+        assert r1["intent"] == "blocker"
+        assert r2["intent"] in {"blocker", "explanation"}
+>       assert "Main blocker" in r2["result"] or "blocker" in r2["result"].lower()
+E       AssertionError: assert ('Main blocker' in 'Blocked at signal generation: No high-confidence trade found..\n\nSupporting reasons:\n- Source: structured why trace / ExecutionGate decision.\n- Runtime remains paper.' or 'blocker' in 'blocked at signal generation: no high-confidence trade found..\n\nsupporting reasons:\n- source: structured why trace / executiongate decision.\n- runtime remains paper.')
+E        +  where 'blocked at signal generation: no high-confidence trade found..\n\nsupporting reasons:\n- source: structured why trace / executiongate decision.\n- runtime remains paper.' = <built-in method lower of str object at 0x0000023A0E985C30>()
+E        +    where <built-in method lower of str object at 0x0000023A0E985C30> = 'Blocked at signal generation: No high-confidence trade found..\n\nSupporting reasons:\n- Source: structured why trace / ExecutionGate decision.\n- Runtime remains paper.'.lower
+
+tests\test_brain_v2_followup_voice.py:161: AssertionError
+______________________ test_voice_mode_short_for_blocker ______________________
+
+    def test_voice_mode_short_for_blocker() -> None:
+        svc = AskAtlasService(_Source())
+        r = svc.answer("What is holding you back?", mode="voice")
+        assert len(r["result"].splitlines()) <= 2
+>       assert "blocker" in r["result"].lower()
+E       AssertionError: assert 'blocker' in 'blocked at signal generation: no high-confidence trade found..'
+E        +  where 'blocked at signal generation: no high-confidence trade found..' = <built-in method lower of str object at 0x0000023A21A5B9F0>()
+E        +    where <built-in method lower of str object at 0x0000023A21A5B9F0> = 'Blocked at signal generation: No high-confidence trade found..'.lower
+
+tests\test_brain_v2_followup_voice.py:228: AssertionError
+_________________________ test_blocker_query_relevant _________________________
+
+    def test_blocker_query_relevant() -> None:
+        r = _ask("What is holding you back?")
+        assert r["intent"] == "blocker"
+>       assert "Main blocker:" in r["result"]
+E       AssertionError: assert 'Main blocker:' in 'Blocked at signal ranking: No high-confidence trade found..\n\nSupporting reasons:\n- Source: structured why trace / ExecutionGate decision.\n- Runtime remains paper.'
+
+tests\test_universal_answer_engine.py:75: AssertionError
+_____________________ test_why_not_trading_query_relevant _____________________
+
+    def test_why_not_trading_query_relevant() -> None:
+        r = _ask("Why are you not taking trades?")
+        assert r["intent"] == "blocker"
+>       assert "Main blocker:" in r["result"]
+E       AssertionError: assert 'Main blocker:' in 'Blocked at signal ranking: No high-confidence trade found..\n\nSupporting reasons:\n- Source: structured why trace / ExecutionGate decision.\n- Runtime remains paper.'
+
+tests\test_universal_answer_engine.py:81: AssertionError
+=========================== short test summary info ===========================
+FAILED tests/test_brain_knowledge_layer.py::test_blocker_question_includes_blocker_catalog
+FAILED tests/test_brain_v2_followup_voice.py::test_followup_why_stays_on_blocker_context
+FAILED tests/test_brain_v2_followup_voice.py::test_voice_mode_short_for_blocker
+FAILED tests/test_universal_answer_engine.py::test_blocker_query_relevant - A...
+FAILED tests/test_universal_answer_engine.py::test_why_not_trading_query_relevant
+5 failed, 1230 passed in 232.71s (0:03:52)

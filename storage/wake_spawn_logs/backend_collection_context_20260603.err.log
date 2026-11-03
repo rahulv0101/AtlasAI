@@ -1,0 +1,11 @@
+2026-06-03 06:53:39,465 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-06-03 06:53:42,471 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-06-03 06:53:44,784 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-06-03 06:53:44,787 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=28.1pips TP=42.2pips ATR=14.06 mult=2.00
+2026-06-03 06:53:46,446 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-03 06:54:46,983 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-03 06:55:49,732 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-03 06:55:49,736 | INFO | openai._base_client | Retrying request to /chat/completions in 0.442086 seconds
+2026-06-03 06:55:51,008 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-03 06:55:51,011 | INFO | openai._base_client | Retrying request to /chat/completions in 0.982247 seconds
+2026-06-03 06:55:52,345 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"

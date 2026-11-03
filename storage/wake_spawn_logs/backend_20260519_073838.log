@@ -1,0 +1,25 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-19 09:38:52,493 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-19 09:38:55,509 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-19 09:39:06,639 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-19 09:39:06,651 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=3.19 (31.9pips) TP=-4.79 (47.9pips) ATR=15.96 mult=2.00
+2026-05-19 09:39:16,091 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 09:40:35,026 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-19 09:40:35,040 | INFO | openai._base_client | Retrying request to /chat/completions in 0.435823 seconds
+2026-05-19 09:40:35,839 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-19 09:40:35,840 | INFO | openai._base_client | Retrying request to /chat/completions in 0.931579 seconds
+2026-05-19 09:40:37,571 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-19 09:42:10,916 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=3.20 (32.0pips) TP=-4.80 (48.0pips) ATR=16.00 mult=2.00
+2026-05-19 09:42:18,893 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 09:43:21,461 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 09:44:23,419 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 09:45:24,420 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 09:46:24,958 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 09:49:27,487 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 09:50:28,127 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 09:52:29,329 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 09:53:29,843 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 09:54:30,668 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 09:55:33,909 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-19 09:58:44,080 | INFO | atlas_ai.trader | No high-confidence trade found.

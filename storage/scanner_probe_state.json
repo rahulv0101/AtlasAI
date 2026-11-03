@@ -1,0 +1,25 @@
+{
+  "session_trades": {
+    "2026-09-09_new_york": 9,
+    "2026-09-18_asia": 3,
+    "2026-09-18_new_york": 11,
+    "2026-09-25_london": 1,
+    "2026-09-30_asia": 8,
+    "2026-10-09_london": 4,
+    "2026-10-09_new_york": 8,
+    "2026-10-13_asia": 5,
+    "2026-10-14_asia": 4,
+    "2026-10-15_london": 10,
+    "2026-10-20_asia": 9,
+    "2026-10-20_london": 1,
+    "2026-10-22_london": 1
+  },
+  "last_probe_reason": "normal_candidate",
+  "last_probe_block_reason": "",
+  "last_probe_confidence_floor": 0.4,
+  "last_probe_edge_gap": 0.65,
+  "last_probe_used_at": "2026-10-22T07:37:51.818783+00:00",
+  "last_probe_session": "2026-10-22_london",
+  "last_probe_decision": "BUY_CANDIDATE",
+  "last_volatility_recommendation_sample_size": 0
+}

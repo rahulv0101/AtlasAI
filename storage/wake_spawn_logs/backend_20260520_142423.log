@@ -1,0 +1,15 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-20 16:24:25,020 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-20 16:24:28,024 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-20 16:24:31,336 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-20 16:24:36,193 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-20 16:24:36,193 | INFO | openai._base_client | Retrying request to /chat/completions in 0.489598 seconds
+2026-05-20 16:24:36,984 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-20 16:24:36,984 | INFO | openai._base_client | Retrying request to /chat/completions in 0.935346 seconds
+2026-05-20 16:24:38,722 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-20 16:25:01,349 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=41.3pips TP=61.9pips ATR=20.64 mult=2.00
+2026-05-20 16:28:01,414 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=41.3pips TP=61.9pips ATR=20.64 mult=2.00
+2026-05-20 16:31:01,464 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=42.8pips TP=64.2pips ATR=21.41 mult=2.00
+2026-05-20 16:34:01,519 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=43.5pips TP=65.2pips ATR=21.73 mult=2.00
+2026-05-20 16:37:01,571 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=43.8pips TP=65.8pips ATR=21.92 mult=2.00

@@ -1,0 +1,11 @@
+{"time": "2026-05-27T11:16:41.149731+00:00", "type": "risk", "message": "Trading blocked: worker heartbeat is stale (heartbeat_stale).", "meta": {"stale_seconds": null, "reason": "heartbeat_stale"}}
+{"time": "2026-05-27T11:17:41.166724+00:00", "type": "risk", "message": "Trading blocked: worker heartbeat is stale (heartbeat_stale).", "meta": {"stale_seconds": null, "reason": "heartbeat_stale"}}
+{"time": "2026-05-27T11:18:41.188375+00:00", "type": "risk", "message": "Trading blocked: worker heartbeat is stale (heartbeat_stale).", "meta": {"stale_seconds": null, "reason": "heartbeat_stale"}}
+{"time": "2026-05-27T11:19:41.225734+00:00", "type": "risk", "message": "Trading blocked: worker heartbeat is stale (heartbeat_stale).", "meta": {"stale_seconds": null, "reason": "heartbeat_stale"}}
+{"time": "2026-05-27T11:20:41.240645+00:00", "type": "risk", "message": "Trading blocked: worker heartbeat is stale (heartbeat_stale).", "meta": {"stale_seconds": null, "reason": "heartbeat_stale"}}
+{"time": "2026-05-27T11:21:41.251116+00:00", "type": "risk", "message": "Trading blocked: worker heartbeat is stale (heartbeat_stale).", "meta": {"stale_seconds": null, "reason": "heartbeat_stale"}}
+{"time": "2026-05-27T11:22:41.377581+00:00", "type": "risk", "message": "Trading blocked: worker heartbeat is stale (heartbeat_stale).", "meta": {"stale_seconds": null, "reason": "heartbeat_stale"}}
+{"time": "2026-05-27T11:23:41.400068+00:00", "type": "risk", "message": "Trading blocked: worker heartbeat is stale (heartbeat_stale).", "meta": {"stale_seconds": null, "reason": "heartbeat_stale"}}
+{"time": "2026-05-27T11:24:41.410925+00:00", "type": "risk", "message": "Trading blocked: worker heartbeat is stale (heartbeat_stale).", "meta": {"stale_seconds": null, "reason": "heartbeat_stale"}}
+{"time": "2026-05-27T11:25:41.477844+00:00", "type": "risk", "message": "Trading blocked: worker heartbeat is stale (heartbeat_stale).", "meta": {"stale_seconds": null, "reason": "heartbeat_stale"}}
+{"time": "2026-05-27T11:26:41.566899+00:00", "type": "risk", "message": "Trading blocked: worker heartbeat is stale (heartbeat_stale).", "meta": {"stale_seconds": null, "reason": "heartbeat_stale"}}

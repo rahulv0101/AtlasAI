@@ -1,0 +1,6 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-04-28 21:49:26,247 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-04-28 21:49:29,252 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-04-28 21:50:52,584 | INFO | TTS.utils.manage | tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+2026-04-28 21:50:53,805 | INFO | TTS.tts.models | Using model: xtts
+2026-04-28 22:03:49,533 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.

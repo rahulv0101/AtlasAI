@@ -1,0 +1,59 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\pythonw.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-22 13:27:35,919 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-22 13:27:38,934 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-22 13:27:46,006 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-22 13:28:29,423 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-22 13:29:42,269 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-22 13:29:57,237 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=28.9pips TP=43.4pips ATR=14.47 mult=2.00
+2026-05-22 13:31:23,511 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-22 13:33:17,973 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-22 13:33:17,976 | INFO | openai._base_client | Retrying request to /chat/completions in 0.476183 seconds
+2026-05-22 13:33:18,997 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-22 13:33:18,998 | INFO | openai._base_client | Retrying request to /chat/completions in 0.954375 seconds
+2026-05-22 13:33:20,403 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-22 13:33:35,564 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=29.0pips TP=43.5pips ATR=14.50 mult=2.00
+2026-05-22 13:36:36,716 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=29.1pips TP=43.6pips ATR=14.54 mult=2.00
+2026-05-22 13:39:37,668 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=29.4pips TP=44.1pips ATR=14.71 mult=2.00
+2026-05-22 13:42:37,741 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=29.4pips TP=44.1pips ATR=14.71 mult=2.00
+2026-05-22 13:45:34,157 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-22 13:47:35,026 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-22 13:48:35,405 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-22 13:49:35,759 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-22 13:50:36,413 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-22 13:51:36,749 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-22 13:53:38,247 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-22 13:54:38,735 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-22 13:55:39,505 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-22 13:56:40,262 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-22 13:57:40,606 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-22 14:32:38,196 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=31.6pips TP=47.4pips ATR=15.81 mult=2.00
+2026-05-22 14:45:50,624 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=31.8pips TP=47.7pips ATR=15.90 mult=2.00
+2026-05-22 14:51:12,637 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=32.2pips TP=48.3pips ATR=16.09 mult=2.00
+Exception in thread Thread-2 (_loop):
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\main.py", line 376, in _loop
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\main.py", line 1791, in <module>
+    main()
+    result = store.maintain_events(max_lines=int(settings.event_max_lines))
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\main.py", line 1631, in main
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\memory\knowledge_store.py", line 456, in maintain_events
+    run_live(args.poll_seconds, mode_override=args.mode_override)
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\main.py", line 1198, in run_live
+    **_process_meta(mode="live", role="cycle_watchdog"),
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Atlas AI\atlas_ai\main.py", line 65, in _process_meta
+    "ppid": int(os.getppid()),
+                ^^^^^^^^^^^^
+OSError: [WinError 1455] The paging file is too small for this operation to complete
+    raw_lines = fh.readlines()
+                ^^^^^^^^^^^^^^
+MemoryError

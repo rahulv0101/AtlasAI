@@ -1,0 +1,24 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-26 09:35:02,502 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-26 09:35:05,552 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-26 09:35:13,170 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-26 09:35:13,197 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=27.2pips TP=40.8pips ATR=13.60 mult=2.00
+2026-05-26 09:35:27,977 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 09:36:29,001 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 09:37:30,009 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-26 09:38:13,292 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=27.2pips TP=40.9pips ATR=13.62 mult=2.00
+2026-05-26 09:38:31,084 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 09:39:32,077 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 09:40:33,396 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 09:41:34,863 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 09:41:43,398 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=27.2pips TP=40.9pips ATR=13.62 mult=2.00
+2026-05-26 09:42:36,269 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 09:43:37,528 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 09:44:37,997 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 09:45:39,249 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-05-26 09:46:41,626 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 09:46:41,628 | INFO | openai._base_client | Retrying request to /chat/completions in 0.461719 seconds
+2026-05-26 09:46:42,849 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-26 09:46:42,850 | INFO | openai._base_client | Retrying request to /chat/completions in 0.932467 seconds
+2026-05-26 09:46:44,366 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"

@@ -1,0 +1,16 @@
+{
+  "updated_at": "2026-06-01T09:07:03.271855+00:00",
+  "event_count": 1,
+  "events": [
+    {
+      "time": "2026-06-01T09:06:42.191366+00:00",
+      "generation": 1,
+      "best_fitness": 0.0,
+      "best_uid": "",
+      "population_size": 0,
+      "promotions": 0,
+      "rejections": 0,
+      "active_demo": 0
+    }
+  ]
+}

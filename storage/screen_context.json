@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "advisory_only": true,
+  "source": "screen_ocr_sidecar",
+  "status": "unavailable_until_ocr_backend_configured",
+  "snapshot": {
+    "timestamp": "2026-05-04T09:00:14Z",
+    "symbol": "XAUUSD",
+    "bid_text": "",
+    "ask_text": "",
+    "spread_text": "",
+    "confidence": 0.0,
+    "advisory_only": true
+  },
+  "note": "OCR sidecar is read-only and cannot bypass ExecutionGate."
+}

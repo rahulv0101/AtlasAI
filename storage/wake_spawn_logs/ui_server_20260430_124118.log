@@ -1,0 +1,25 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui-server --mode-override live
+2026-04-30 14:41:20,968 | INFO | atlas_ai.voice.startup | Startup greeting triggered.
+2026-04-30 14:41:21,050 | INFO | atlas_ai.ui_server | Starting durable UI server on http://127.0.0.1:8765
+2026-04-30 14:41:22,285 | INFO | werkzeug | 127.0.0.1 - - [30/Apr/2026 14:41:22] "GET /api/status HTTP/1.1" 200 -
+2026-04-30 14:41:23,162 | INFO | werkzeug | 127.0.0.1 - - [30/Apr/2026 14:41:23] "GET / HTTP/1.1" 200 -
+2026-04-30 14:41:25,860 | INFO | werkzeug | 127.0.0.1 - - [30/Apr/2026 14:41:25] "GET / HTTP/1.1" 200 -
+2026-04-30 14:41:25,876 | INFO | werkzeug | 127.0.0.1 - - [30/Apr/2026 14:41:25] "GET / HTTP/1.1" 200 -
+2026-04-30 14:41:26,002 | INFO | werkzeug | 127.0.0.1 - - [30/Apr/2026 14:41:26] "GET /api/status HTTP/1.1" 200 -
+2026-04-30 14:41:28,729 | INFO | werkzeug | 127.0.0.1 - - [30/Apr/2026 14:41:28] "GET /api/status HTTP/1.1" 200 -
+2026-04-30 14:41:31,643 | INFO | werkzeug | 127.0.0.1 - - [30/Apr/2026 14:41:31] "GET /api/status HTTP/1.1" 200 -
+2026-04-30 14:41:34,995 | INFO | werkzeug | 127.0.0.1 - - [30/Apr/2026 14:41:34] "GET / HTTP/1.1" 200 -
+2026-04-30 14:41:35,019 | INFO | werkzeug | 127.0.0.1 - - [30/Apr/2026 14:41:35] "GET /app.js HTTP/1.1" 200 -
+2026-04-30 14:41:35,019 | INFO | werkzeug | 127.0.0.1 - - [30/Apr/2026 14:41:35] "GET /style.css HTTP/1.1" 200 -
+2026-04-30 14:41:35,184 | INFO | werkzeug | 127.0.0.1 - - [30/Apr/2026 14:41:35] "GET /api/status?_ts=1777552895032 HTTP/1.1" 200 -
+2026-04-30 14:41:35,240 | INFO | werkzeug | 127.0.0.1 - - [30/Apr/2026 14:41:35] "GET /api/runtime?_ts=1777552895033 HTTP/1.1" 200 -
+2026-04-30 14:41:35,334 | INFO | werkzeug | 127.0.0.1 - - [30/Apr/2026 14:41:35] "GET /api/events?_ts=1777552895033 HTTP/1.1" 200 -
+2026-04-30 14:41:35,365 | INFO | werkzeug | 127.0.0.1 - - [30/Apr/2026 14:41:35] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-30 14:41:35,381 | INFO | werkzeug | 127.0.0.1 - - [30/Apr/2026 14:41:35] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-30 14:41:35,413 | INFO | werkzeug | 127.0.0.1 - - [30/Apr/2026 14:41:35] "GET /api/learning-insights?_ts=1777552895033 HTTP/1.1" 200 -
+2026-04-30 14:41:35,492 | INFO | werkzeug | 127.0.0.1 - - [30/Apr/2026 14:41:35] "GET /api/self-improvement/proposals?_ts=1777552895036 HTTP/1.1" 200 -
+2026-04-30 14:41:35,513 | INFO | werkzeug | 127.0.0.1 - - [30/Apr/2026 14:41:35] "GET /api/self-improvement/rollouts?_ts=1777552895036 HTTP/1.1" 200 -
+2026-04-30 14:41:35,768 | INFO | werkzeug | 127.0.0.1 - - [30/Apr/2026 14:41:35] "GET /api/self-improvement/audit?_ts=1777552895036 HTTP/1.1" 200 -
+2026-04-30 14:41:35,788 | INFO | werkzeug | 127.0.0.1 - - [30/Apr/2026 14:41:35] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-30 14:41:35,801 | INFO | werkzeug | 127.0.0.1 - - [30/Apr/2026 14:41:35] "POST /api/ask-atlas HTTP/1.1" 200 -
+2026-04-30 14:41:35,810 | INFO | werkzeug | 127.0.0.1 - - [30/Apr/2026 14:41:35] "POST /api/ask-atlas HTTP/1.1" 200 -

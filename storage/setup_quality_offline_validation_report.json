@@ -1,0 +1,353 @@
+{
+  "threshold": 76.0,
+  "windows": {
+    "recent_short_10k": {
+      "control": {
+        "trades": 2469,
+        "wins": 1124,
+        "losses": 1345,
+        "win_rate": 0.455245,
+        "expectancy": 0.000416,
+        "profit_factor": 1.144137,
+        "max_drawdown": 0.190722
+      },
+      "experiment": {
+        "trades": 2332,
+        "wins": 1058,
+        "losses": 1274,
+        "win_rate": 0.453688,
+        "expectancy": 0.000404,
+        "profit_factor": 1.139657,
+        "max_drawdown": 0.186545
+      },
+      "filter_impact": {
+        "trades_removed": 137,
+        "losers_removed": 71,
+        "winners_removed": 66,
+        "filter_precision": 0.518248
+      },
+      "start": "2026-03-24T18:40:00+00:00",
+      "end": "2026-04-02T23:19:00+00:00"
+    },
+    "recent_2w_20k": {
+      "control": {
+        "trades": 5381,
+        "wins": 2446,
+        "losses": 2935,
+        "win_rate": 0.454562,
+        "expectancy": 0.000421,
+        "profit_factor": 1.145225,
+        "max_drawdown": 0.186171
+      },
+      "experiment": {
+        "trades": 5063,
+        "wins": 2303,
+        "losses": 2760,
+        "win_rate": 0.454869,
+        "expectancy": 0.000414,
+        "profit_factor": 1.142585,
+        "max_drawdown": 0.214613
+      },
+      "filter_impact": {
+        "trades_removed": 318,
+        "losers_removed": 175,
+        "winners_removed": 143,
+        "filter_precision": 0.550314
+      },
+      "start": "2026-03-13T06:44:00+00:00",
+      "end": "2026-04-02T23:20:00+00:00"
+    },
+    "longer_6w_40k": {
+      "control": {
+        "trades": 8101,
+        "wins": 3626,
+        "losses": 4475,
+        "win_rate": 0.447599,
+        "expectancy": 0.000348,
+        "profit_factor": 1.118937,
+        "max_drawdown": 0.40036
+      },
+      "experiment": {
+        "trades": 7541,
+        "wins": 3382,
+        "losses": 4159,
+        "win_rate": 0.448482,
+        "expectancy": 0.000348,
+        "profit_factor": 1.118749,
+        "max_drawdown": 0.367515
+      },
+      "filter_impact": {
+        "trades_removed": 560,
+        "losers_removed": 316,
+        "winners_removed": 244,
+        "filter_precision": 0.564286
+      },
+      "start": "2026-02-20T14:04:00+00:00",
+      "end": "2026-04-02T23:18:00+00:00",
+      "context": {
+        "session_control": {
+          "new_york": {
+            "trades": 3436,
+            "wins": 1548,
+            "losses": 1888,
+            "win_rate": 0.450524,
+            "expectancy": 0.000358,
+            "profit_factor": 1.122302,
+            "max_drawdown": 0.19175
+          },
+          "late_us": {
+            "trades": 659,
+            "wins": 297,
+            "losses": 362,
+            "win_rate": 0.450683,
+            "expectancy": 0.000419,
+            "profit_factor": 1.145737,
+            "max_drawdown": 0.080013
+          },
+          "asia": {
+            "trades": 2121,
+            "wins": 951,
+            "losses": 1170,
+            "win_rate": 0.448373,
+            "expectancy": 0.00038,
+            "profit_factor": 1.13109,
+            "max_drawdown": 0.199117
+          },
+          "london": {
+            "trades": 1885,
+            "wins": 830,
+            "losses": 1055,
+            "win_rate": 0.440318,
+            "expectancy": 0.000267,
+            "profit_factor": 1.090352,
+            "max_drawdown": 0.197469
+          }
+        },
+        "session_experiment": {
+          "new_york": {
+            "trades": 3402,
+            "wins": 1534,
+            "losses": 1868,
+            "win_rate": 0.450911,
+            "expectancy": 0.000361,
+            "profit_factor": 1.123102,
+            "max_drawdown": 0.186011
+          },
+          "asia": {
+            "trades": 2063,
+            "wins": 931,
+            "losses": 1132,
+            "win_rate": 0.451285,
+            "expectancy": 0.000411,
+            "profit_factor": 1.14217,
+            "max_drawdown": 0.160056
+          },
+          "london": {
+            "trades": 1600,
+            "wins": 710,
+            "losses": 890,
+            "win_rate": 0.44375,
+            "expectancy": 0.000275,
+            "profit_factor": 1.092273,
+            "max_drawdown": 0.227853
+          },
+          "late_us": {
+            "trades": 476,
+            "wins": 207,
+            "losses": 269,
+            "win_rate": 0.434874,
+            "expectancy": 0.000233,
+            "profit_factor": 1.0785,
+            "max_drawdown": 0.095103
+          }
+        },
+        "regime_control": {
+          "trend": {
+            "trades": 6908,
+            "wins": 3107,
+            "losses": 3801,
+            "win_rate": 0.449768,
+            "expectancy": 0.000366,
+            "profit_factor": 1.125184,
+            "max_drawdown": 0.300049
+          },
+          "range": {
+            "trades": 694,
+            "wins": 285,
+            "losses": 409,
+            "win_rate": 0.410663,
+            "expectancy": 2e-05,
+            "profit_factor": 1.0067,
+            "max_drawdown": 0.186279
+          },
+          "high_volatility_range": {
+            "trades": 499,
+            "wins": 234,
+            "losses": 265,
+            "win_rate": 0.468938,
+            "expectancy": 0.000554,
+            "profit_factor": 1.192133,
+            "max_drawdown": 0.081677
+          }
+        },
+        "regime_experiment": {
+          "trend": {
+            "trades": 6372,
+            "wins": 2871,
+            "losses": 3501,
+            "win_rate": 0.450565,
+            "expectancy": 0.000364,
+            "profit_factor": 1.124037,
+            "max_drawdown": 0.286054
+          },
+          "range": {
+            "trades": 677,
+            "wins": 282,
+            "losses": 395,
+            "win_rate": 0.416544,
+            "expectancy": 8.4e-05,
+            "profit_factor": 1.028547,
+            "max_drawdown": 0.163993
+          },
+          "high_volatility_range": {
+            "trades": 492,
+            "wins": 229,
+            "losses": 263,
+            "win_rate": 0.465447,
+            "expectancy": 0.00051,
+            "profit_factor": 1.175619,
+            "max_drawdown": 0.081677
+          }
+        },
+        "trend_strength_control": {
+          "strong": {
+            "trades": 4325,
+            "wins": 1941,
+            "losses": 2384,
+            "win_rate": 0.448786,
+            "expectancy": 0.000337,
+            "profit_factor": 1.115236,
+            "max_drawdown": 0.224392
+          },
+          "medium": {
+            "trades": 1948,
+            "wins": 861,
+            "losses": 1087,
+            "win_rate": 0.441992,
+            "expectancy": 0.000317,
+            "profit_factor": 1.107913,
+            "max_drawdown": 0.277026
+          },
+          "very_weak": {
+            "trades": 887,
+            "wins": 394,
+            "losses": 493,
+            "win_rate": 0.444194,
+            "expectancy": 0.000306,
+            "profit_factor": 1.104458,
+            "max_drawdown": 0.120481
+          },
+          "weak": {
+            "trades": 941,
+            "wins": 430,
+            "losses": 511,
+            "win_rate": 0.456961,
+            "expectancy": 0.000497,
+            "profit_factor": 1.173639,
+            "max_drawdown": 0.111912
+          }
+        },
+        "trend_strength_experiment": {
+          "strong": {
+            "trades": 3947,
+            "wins": 1775,
+            "losses": 2172,
+            "win_rate": 0.449709,
+            "expectancy": 0.000332,
+            "profit_factor": 1.112798,
+            "max_drawdown": 0.212322
+          },
+          "medium": {
+            "trades": 1801,
+            "wins": 800,
+            "losses": 1001,
+            "win_rate": 0.444198,
+            "expectancy": 0.000334,
+            "profit_factor": 1.11386,
+            "max_drawdown": 0.265672
+          },
+          "very_weak": {
+            "trades": 875,
+            "wins": 388,
+            "losses": 487,
+            "win_rate": 0.443429,
+            "expectancy": 0.000297,
+            "profit_factor": 1.101334,
+            "max_drawdown": 0.111413
+          },
+          "weak": {
+            "trades": 918,
+            "wins": 419,
+            "losses": 499,
+            "win_rate": 0.456427,
+            "expectancy": 0.000492,
+            "profit_factor": 1.171841,
+            "max_drawdown": 0.099087
+          }
+        }
+      }
+    },
+    "longer_6w_40k_trending_only": {
+      "control": {
+        "trades": 6908,
+        "wins": 3107,
+        "losses": 3801,
+        "win_rate": 0.449768,
+        "expectancy": 0.000366,
+        "profit_factor": 1.125184,
+        "max_drawdown": 0.300049
+      },
+      "experiment": {
+        "trades": 6372,
+        "wins": 2871,
+        "losses": 3501,
+        "win_rate": 0.450565,
+        "expectancy": 0.000364,
+        "profit_factor": 1.124037,
+        "max_drawdown": 0.286054
+      },
+      "filter_impact": {
+        "trades_removed": 536,
+        "losers_removed": 300,
+        "winners_removed": 236,
+        "filter_precision": 0.559701
+      }
+    },
+    "longer_6w_40k_choppy_only": {
+      "control": {
+        "trades": 1193,
+        "wins": 519,
+        "losses": 674,
+        "win_rate": 0.435038,
+        "expectancy": 0.000243,
+        "profit_factor": 1.082938,
+        "max_drawdown": 0.17739
+      },
+      "experiment": {
+        "trades": 1169,
+        "wins": 511,
+        "losses": 658,
+        "win_rate": 0.437126,
+        "expectancy": 0.000263,
+        "profit_factor": 1.089901,
+        "max_drawdown": 0.151427
+      },
+      "filter_impact": {
+        "trades_removed": 24,
+        "losers_removed": 16,
+        "winners_removed": 8,
+        "filter_precision": 0.666667
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "execute_trades": false,
+  "gemini_influence_enabled": false,
+  "paper_rollout": {
+    "lane": "experiment",
+    "run_id": "compare_20260430T233458Z",
+    "preset": "conservative_filter_rollout_v1"
+  },
+  "updated_at": "2026-05-01T06:54:19.582513+00:00",
+  "runtime_heartbeat": {
+    "backend_trader": {
+      "component": "backend_trader",
+      "last_heartbeat_at": "2026-05-01T06:52:40.688773+00:00",
+      "last_heartbeat_ts": 1777618360.6887739,
+      "cycle_status": "running",
+      "interval_seconds": 120.0,
+      "stale_after_seconds": 180.0
+    }
+  },
+  "closed_learning_synced_until": "2026-05-01T06:50:39.435017+00:00",
+  "drift_alert_last_at": "2026-05-01T06:50:39.571273+00:00",
+  "drift_alert_last_delta": -0.1902,
+  "risk_guard_state": {
+    "date": "2026-05-01",
+    "trades_today": 0,
+    "consecutive_losses": 0,
+    "cooldown_until": "",
+    "start_balance": 729115.61,
+    "week_key": "2026-04-27",
+    "week_start_balance": 729115.61,
+    "safety_lock_active": true,
+    "safety_lock_reason": "consecutive_loss_threshold, rolling_expectancy_degradation, supporting_win_rate_weak",
+    "safety_lock_started_at": "2026-04-30T23:39:03.647971+00:00",
+    "safety_lock_scope": "new_entries",
+    "recovery_requirements": [
+      "manual_operator_unlock_required",
+      "cooldown_expired",
+      "no_active_hard_blocker",
+      "volatility_back_to_acceptable",
+      "next_setup_meets_high_confluence"
+    ],
+    "cooldown_level": "none",
+    "cooldown_reason": "",
+    "volatility_state": "normal",
+    "volatility_reason": "volatility within acceptable bounds",
+    "volatility_action": "allow"
+  }
+}

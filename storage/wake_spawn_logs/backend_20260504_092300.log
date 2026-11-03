@@ -1,0 +1,24 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-04 11:23:03,573 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-04 11:23:06,578 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-04 11:24:04,639 | INFO | TTS.utils.manage | tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+2026-05-04 11:24:05,884 | INFO | TTS.tts.models | Using model: xtts
+2026-05-04 11:38:01,170 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-04 11:41:09,141 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 11:42:10,157 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 11:43:11,297 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 11:44:13,103 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 11:45:14,296 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 11:46:18,024 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 11:47:18,989 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 11:48:19,931 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 11:49:21,499 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 11:50:22,793 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 11:51:24,181 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 11:52:25,227 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 11:53:26,695 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 11:54:27,645 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 11:55:29,509 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 11:56:31,332 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 11:57:32,551 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-04 11:58:33,775 | INFO | atlas_ai.trader | No high-confidence trade found.

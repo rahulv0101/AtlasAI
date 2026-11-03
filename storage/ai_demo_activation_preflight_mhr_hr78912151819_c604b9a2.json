@@ -1,0 +1,68 @@
+{
+  "blockers": [],
+  "candidate": {
+    "backtest_score": 67.74,
+    "demo_active": false,
+    "promotion_reason": "shadow_review_passed_awaiting_demo_review",
+    "promotion_stage": "shadow",
+    "shadow_passed": true
+  },
+  "checks": {
+    "activation_proposal_available": true,
+    "candidate_not_already_demo_active": true,
+    "candidate_shadow_passed": true,
+    "candidate_stage_allows_demo": true,
+    "governor_basic_check_passed": true,
+    "latest_review_allows_demo": true,
+    "latest_shadow_review_available": true,
+    "packet_does_not_promote_demo": true,
+    "proposal_does_not_promote_demo": true,
+    "queue_status_demo_activation_proposed": true,
+    "review_packet_available": true
+  },
+  "created_at": "2026-06-02T13:26:59.008310+00:00",
+  "executed": false,
+  "governor_basic_reason": "",
+  "latest_shadow_review": {
+    "promotion_governor": {
+      "can_promote_to_demo": true,
+      "max_shadow_drawdown_pct": 0.05,
+      "reason": "",
+      "shadow_drawdown_policy": "gross_normalized"
+    },
+    "recommendation": "eligible_for_demo_review",
+    "summary": {
+      "degradation_pct": 0.0,
+      "losses": 101,
+      "max_drawdown_pct": 0.21135865173726628,
+      "net_pnl": 86.62999999999192,
+      "trades": 263,
+      "win_rate": 0.6159695817490495,
+      "wins": 162
+    }
+  },
+  "ok": true,
+  "operator_boundary": {
+    "does_not_call_promote_to_demo": true,
+    "does_not_execute_trades": true,
+    "does_not_promote_live": true,
+    "does_not_set_demo_active": true,
+    "preflight_only": true,
+    "requires_explicit_demo_activation_command": true
+  },
+  "queue_item": {
+    "id": "mhr_hr78912151819_c604b9a2:eligible_for_demo_review",
+    "operator_note": "demo_activation_proposal_generated",
+    "status": "demo_activation_proposed"
+  },
+  "safety": {
+    "does_not_execute": true,
+    "does_not_promote_demo": true,
+    "does_not_promote_live": true,
+    "executed": false,
+    "requires_operator_command": true,
+    "requires_promotion_governor": true
+  },
+  "schema": "atlas_ai_demo_activation_preflight_v1",
+  "uid": "mhr_hr78912151819_c604b9a2"
+}

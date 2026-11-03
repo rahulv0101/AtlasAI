@@ -1,0 +1,3820 @@
+{
+  "seen_suspicious_deals": [
+    "79084689",
+    "79084765",
+    "79085001",
+    "79085002",
+    "79085003",
+    "79085004",
+    "79085321",
+    "79085322",
+    "79085323",
+    "79085324",
+    "79085325",
+    "79085326",
+    "79085327",
+    "79085328",
+    "79085329",
+    "79085330",
+    "79085331",
+    "79085332",
+    "79085333",
+    "79085335",
+    "79325271",
+    "79326074",
+    "79326249",
+    "79326250",
+    "79326651",
+    "79326652",
+    "79326686",
+    "79326687",
+    "79326688",
+    "79326804",
+    "79326805",
+    "79326806",
+    "79327638",
+    "79327639",
+    "79327640",
+    "79327641",
+    "79327658",
+    "79327659",
+    "79327716",
+    "79327800",
+    "79327801",
+    "79327802",
+    "79327803",
+    "79327804",
+    "79327805",
+    "79327806"
+  ],
+  "near_setup_learning": {
+    "mode": "observability_only",
+    "updated_at": "2026-05-21T17:09:57.659358+02:00",
+    "total_samples": 4655,
+    "top_patterns": [
+      {
+        "fingerprint": "regime=trending|structure=LH/LL|momentum=mixed|location=mid_range|blockers=momentum_quality+entry_location+confluence_gap",
+        "count": 356,
+        "last_seen": "2026-05-20T20:09:35.807805+02:00",
+        "teaching_focus": [
+          "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+          "separate direction bias from entry momentum; require confirmation before acting",
+          "label this as no-trade until a specific setup family is visible"
+        ]
+      },
+      {
+        "fingerprint": "regime=trending|structure=HH/HL|momentum=mixed|location=mid_range|blockers=momentum_quality+entry_location+confluence_gap",
+        "count": 295,
+        "last_seen": "2026-05-20T20:16:51.439015+02:00",
+        "teaching_focus": [
+          "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+          "separate direction bias from entry momentum; require confirmation before acting",
+          "label this as no-trade until a specific setup family is visible"
+        ]
+      },
+      {
+        "fingerprint": "regime=trending|structure=HH/HL|momentum=weak|location=mid_range|blockers=momentum_quality+entry_location+confluence_gap",
+        "count": 143,
+        "last_seen": "2026-05-20T20:15:49.581784+02:00",
+        "teaching_focus": [
+          "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+          "separate direction bias from entry momentum; require confirmation before acting",
+          "label this as no-trade until a specific setup family is visible"
+        ]
+      },
+      {
+        "fingerprint": "regime=unknown|structure=mixed|momentum=mixed|location=mid_range|blockers=momentum_quality+entry_location+confluence_gap",
+        "count": 141,
+        "last_seen": "2026-05-20T18:59:37.274227+02:00",
+        "teaching_focus": [
+          "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+          "separate direction bias from entry momentum; require confirmation before acting",
+          "label this as no-trade until a specific setup family is visible"
+        ]
+      },
+      {
+        "fingerprint": "regime=trending|structure=LH/LL|momentum=mixed|location=mid_range|blockers=confluence_gap+momentum_quality+entry_location",
+        "count": 62,
+        "last_seen": "2026-05-20T19:58:01.949267+02:00",
+        "teaching_focus": [
+          "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+          "separate direction bias from entry momentum; require confirmation before acting",
+          "prefer clearer HH/HL or LH/LL structure before continuation entries"
+        ]
+      },
+      {
+        "fingerprint": "regime=unknown|structure=mixed|momentum=mixed|location=pullback|blockers=spread_liquidity+momentum_quality+structure_quality",
+        "count": 61,
+        "last_seen": "2026-05-20T00:07:19.712148+02:00",
+        "teaching_focus": [
+          "separate direction bias from entry momentum; require confirmation before acting",
+          "prefer clearer HH/HL or LH/LL structure before continuation entries"
+        ]
+      },
+      {
+        "fingerprint": "regime=trending|structure=LH/LL|momentum=mixed|location=pullback|blockers=momentum_quality+confluence_gap+setup_clarity",
+        "count": 59,
+        "last_seen": "2026-05-20T19:37:01.028657+02:00",
+        "teaching_focus": [
+          "separate direction bias from entry momentum; require confirmation before acting",
+          "label this as no-trade until a specific setup family is visible"
+        ]
+      },
+      {
+        "fingerprint": "regime=trending|structure=HH/HL|momentum=mixed|location=consolidation|blockers=momentum_quality+entry_location+confluence_gap",
+        "count": 53,
+        "last_seen": "2026-05-20T19:23:25.687329+02:00",
+        "teaching_focus": [
+          "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+          "separate direction bias from entry momentum; require confirmation before acting",
+          "label this as no-trade until a specific setup family is visible"
+        ]
+      },
+      {
+        "fingerprint": "regime=trending|structure=HH/HL|momentum=mixed|location=pullback|blockers=momentum_quality+confluence_gap+setup_clarity",
+        "count": 51,
+        "last_seen": "2026-05-20T19:08:53.746805+02:00",
+        "teaching_focus": [
+          "separate direction bias from entry momentum; require confirmation before acting",
+          "label this as no-trade until a specific setup family is visible"
+        ]
+      },
+      {
+        "fingerprint": "regime=unknown|structure=mixed|momentum=weak|location=mid_range|blockers=momentum_quality+entry_location+confluence_gap",
+        "count": 48,
+        "last_seen": "2026-05-20T19:54:55.158346+02:00",
+        "teaching_focus": [
+          "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+          "separate direction bias from entry momentum; require confirmation before acting"
+        ]
+      }
+    ],
+    "patterns": {
+      "regime=trending|structure=LH/LL|momentum=mixed|location=mid_range|blockers=momentum_quality+entry_location+confluence_gap": {
+        "count": 356,
+        "first_seen": "2026-05-14T21:46:50.468931+02:00",
+        "last_seen": "2026-05-20T20:09:35.807805+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=trending|structure=LH/LL|momentum=mixed|location=mid_range|blockers=momentum_quality+entry_location+confluence_gap",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 45,
+          "confluence_threshold": 52,
+          "confluence_gap": 7.0,
+          "hard_blockers": [
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "momentum_quality",
+            "entry_location",
+            "confluence_gap"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "setup_family_no_trade",
+            "momentum_mixed",
+            "entry_location_mid_range"
+          ],
+          "market": {
+            "session": "new_york",
+            "regime": "trending",
+            "trend_structure": "LH/LL",
+            "momentum": "mixed",
+            "location": "mid_range",
+            "spread_points": 34.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=trending|structure=HH/HL|momentum=mixed|location=mid_range|blockers=momentum_quality+entry_location+confluence_gap": {
+        "count": 295,
+        "first_seen": "2026-05-15T00:21:08.224776+02:00",
+        "last_seen": "2026-05-20T20:16:51.439015+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=trending|structure=HH/HL|momentum=mixed|location=mid_range|blockers=momentum_quality+entry_location+confluence_gap",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 45,
+          "confluence_threshold": 52,
+          "confluence_gap": 7.0,
+          "hard_blockers": [
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "momentum_quality",
+            "entry_location",
+            "confluence_gap"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "setup_family_no_trade",
+            "momentum_mixed",
+            "entry_location_mid_range"
+          ],
+          "market": {
+            "session": "new_york",
+            "regime": "trending",
+            "trend_structure": "HH/HL",
+            "momentum": "mixed",
+            "location": "mid_range",
+            "spread_points": 35.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=trending|structure=HH/HL|momentum=weak|location=mid_range|blockers=momentum_quality+entry_location+confluence_gap": {
+        "count": 143,
+        "first_seen": "2026-05-15T00:27:13.381704+02:00",
+        "last_seen": "2026-05-20T20:15:49.581784+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=trending|structure=HH/HL|momentum=weak|location=mid_range|blockers=momentum_quality+entry_location+confluence_gap",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 45,
+          "confluence_threshold": 52,
+          "confluence_gap": 7.0,
+          "hard_blockers": [
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "momentum_quality",
+            "entry_location",
+            "confluence_gap"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "setup_family_no_trade",
+            "momentum_weak",
+            "entry_location_mid_range"
+          ],
+          "market": {
+            "session": "new_york",
+            "regime": "trending",
+            "trend_structure": "HH/HL",
+            "momentum": "weak",
+            "location": "mid_range",
+            "spread_points": 34.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=unknown|structure=mixed|momentum=mixed|location=mid_range|blockers=momentum_quality+entry_location+confluence_gap": {
+        "count": 141,
+        "first_seen": "2026-05-15T00:18:05.624382+02:00",
+        "last_seen": "2026-05-20T18:59:37.274227+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=unknown|structure=mixed|momentum=mixed|location=mid_range|blockers=momentum_quality+entry_location+confluence_gap",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 45,
+          "confluence_threshold": 52,
+          "confluence_gap": 7.0,
+          "hard_blockers": [
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "momentum_quality",
+            "entry_location",
+            "confluence_gap"
+          ],
+          "confusion_signals": [
+            "market_regime_unknown",
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "setup_family_no_trade",
+            "momentum_mixed",
+            "entry_location_mid_range"
+          ],
+          "market": {
+            "session": "new_york",
+            "regime": "unknown",
+            "trend_structure": "mixed",
+            "momentum": "mixed",
+            "location": "mid_range",
+            "spread_points": 35.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=trending|structure=LH/LL|momentum=mixed|location=mid_range|blockers=confluence_gap+momentum_quality+entry_location": {
+        "count": 62,
+        "first_seen": "2026-05-15T01:14:55.970671+02:00",
+        "last_seen": "2026-05-20T19:58:01.949267+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=trending|structure=LH/LL|momentum=mixed|location=mid_range|blockers=confluence_gap+momentum_quality+entry_location",
+          "action": "blocked",
+          "blocker_class": "quality_gate",
+          "primary_blocker": "Consensus guard blocked trade: side=buy, support=1, required=2.",
+          "confluence_score": 41,
+          "confluence_threshold": 85,
+          "confluence_gap": 44.0,
+          "hard_blockers": [
+            "structure_too_weak"
+          ],
+          "top_blockers": [
+            "confluence_gap",
+            "momentum_quality",
+            "entry_location"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "momentum_mixed",
+            "entry_location_mid_range"
+          ],
+          "market": {
+            "session": "new_york",
+            "regime": "trending",
+            "trend_structure": "LH/LL",
+            "momentum": "mixed",
+            "location": "mid_range",
+            "spread_points": 34.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "prefer clearer HH/HL or LH/LL structure before continuation entries"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=unknown|structure=mixed|momentum=mixed|location=pullback|blockers=spread_liquidity+momentum_quality+structure_quality": {
+        "count": 61,
+        "first_seen": "2026-05-14T22:59:08.318192+02:00",
+        "last_seen": "2026-05-20T00:07:19.712148+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=unknown|structure=mixed|momentum=mixed|location=pullback|blockers=spread_liquidity+momentum_quality+structure_quality",
+          "action": "blocked",
+          "blocker_class": "unknown",
+          "primary_blocker": "Online learning reduced confidence below execution threshold.",
+          "confluence_score": 59,
+          "confluence_threshold": 52,
+          "confluence_gap": -7.0,
+          "hard_blockers": [
+            "structure_too_weak",
+            "spread_liquidity_too_poor"
+          ],
+          "top_blockers": [
+            "spread_liquidity",
+            "momentum_quality",
+            "structure_quality"
+          ],
+          "confusion_signals": [
+            "market_regime_unknown",
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "momentum_mixed"
+          ],
+          "market": {
+            "session": "late_us",
+            "regime": "unknown",
+            "trend_structure": "mixed",
+            "momentum": "mixed",
+            "location": "pullback",
+            "spread_points": 45.0
+          },
+          "teaching_focus": [
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "prefer clearer HH/HL or LH/LL structure before continuation entries"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=trending|structure=LH/LL|momentum=mixed|location=pullback|blockers=momentum_quality+confluence_gap+setup_clarity": {
+        "count": 59,
+        "first_seen": "2026-05-14T21:57:00.063912+02:00",
+        "last_seen": "2026-05-20T19:37:01.028657+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=trending|structure=LH/LL|momentum=mixed|location=pullback|blockers=momentum_quality+confluence_gap+setup_clarity",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 45,
+          "confluence_threshold": 52,
+          "confluence_gap": 7.0,
+          "hard_blockers": [
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "momentum_quality",
+            "confluence_gap",
+            "setup_clarity"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "setup_family_no_trade",
+            "momentum_mixed"
+          ],
+          "market": {
+            "session": "new_york",
+            "regime": "trending",
+            "trend_structure": "LH/LL",
+            "momentum": "mixed",
+            "location": "pullback",
+            "spread_points": 35.0
+          },
+          "teaching_focus": [
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=trending|structure=HH/HL|momentum=mixed|location=consolidation|blockers=momentum_quality+entry_location+confluence_gap": {
+        "count": 53,
+        "first_seen": "2026-05-15T00:52:36.494574+02:00",
+        "last_seen": "2026-05-20T19:23:25.687329+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=trending|structure=HH/HL|momentum=mixed|location=consolidation|blockers=momentum_quality+entry_location+confluence_gap",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 45,
+          "confluence_threshold": 52,
+          "confluence_gap": 7.0,
+          "hard_blockers": [
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "momentum_quality",
+            "entry_location",
+            "confluence_gap"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "setup_family_no_trade",
+            "momentum_mixed"
+          ],
+          "market": {
+            "session": "new_york",
+            "regime": "trending",
+            "trend_structure": "HH/HL",
+            "momentum": "mixed",
+            "location": "consolidation",
+            "spread_points": 34.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=trending|structure=HH/HL|momentum=mixed|location=pullback|blockers=momentum_quality+confluence_gap+setup_clarity": {
+        "count": 51,
+        "first_seen": "2026-05-15T00:55:39.089724+02:00",
+        "last_seen": "2026-05-20T19:08:53.746805+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=trending|structure=HH/HL|momentum=mixed|location=pullback|blockers=momentum_quality+confluence_gap+setup_clarity",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 45,
+          "confluence_threshold": 52,
+          "confluence_gap": 7.0,
+          "hard_blockers": [
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "momentum_quality",
+            "confluence_gap",
+            "setup_clarity"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "setup_family_no_trade",
+            "momentum_mixed"
+          ],
+          "market": {
+            "session": "new_york",
+            "regime": "trending",
+            "trend_structure": "HH/HL",
+            "momentum": "mixed",
+            "location": "pullback",
+            "spread_points": 34.0
+          },
+          "teaching_focus": [
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=unknown|structure=mixed|momentum=weak|location=mid_range|blockers=momentum_quality+entry_location+confluence_gap": {
+        "count": 48,
+        "first_seen": "2026-05-15T00:19:06.428632+02:00",
+        "last_seen": "2026-05-20T19:54:55.158346+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=unknown|structure=mixed|momentum=weak|location=mid_range|blockers=momentum_quality+entry_location+confluence_gap",
+          "action": "blocked",
+          "blocker_class": "quality_gate",
+          "primary_blocker": "Loss-learning guard reduced confidence. Loss memory penalty 0.125 (hour 17, loss_rate 0.75) | Recent buy penalty 0.110 (wr=0.33, loss_streak=3)",
+          "confluence_score": 49,
+          "confluence_threshold": 52,
+          "confluence_gap": 3.0,
+          "hard_blockers": [],
+          "top_blockers": [
+            "momentum_quality",
+            "entry_location",
+            "confluence_gap"
+          ],
+          "confusion_signals": [
+            "market_regime_unknown",
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "momentum_weak",
+            "entry_location_mid_range"
+          ],
+          "market": {
+            "session": "new_york",
+            "regime": "unknown",
+            "trend_structure": "mixed",
+            "momentum": "weak",
+            "location": "mid_range",
+            "spread_points": 34.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=unknown|structure=mixed|momentum=mixed|location=pullback|blockers=setup_clarity+momentum_quality+structure_quality": {
+        "count": 44,
+        "first_seen": "2026-05-15T00:54:38.216786+02:00",
+        "last_seen": "2026-05-20T09:50:50.092023+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=unknown|structure=mixed|momentum=mixed|location=pullback|blockers=setup_clarity+momentum_quality+structure_quality",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 45,
+          "confluence_threshold": 52,
+          "confluence_gap": 7.0,
+          "hard_blockers": [
+            "structure_too_weak",
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "setup_clarity",
+            "momentum_quality",
+            "structure_quality"
+          ],
+          "confusion_signals": [
+            "market_regime_unknown",
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "setup_family_no_trade",
+            "momentum_mixed"
+          ],
+          "market": {
+            "session": "london",
+            "regime": "unknown",
+            "trend_structure": "mixed",
+            "momentum": "mixed",
+            "location": "pullback",
+            "spread_points": 34.0
+          },
+          "teaching_focus": [
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible",
+            "prefer clearer HH/HL or LH/LL structure before continuation entries"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=trending|structure=LH/LL|momentum=strong|location=breakout|blockers=confluence_gap+setup_clarity": {
+        "count": 42,
+        "first_seen": "2026-05-14T21:41:46.472077+02:00",
+        "last_seen": "2026-05-20T07:49:11.074597+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=trending|structure=LH/LL|momentum=strong|location=breakout|blockers=confluence_gap+setup_clarity",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 45,
+          "confluence_threshold": 52,
+          "confluence_gap": 7.0,
+          "hard_blockers": [
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "confluence_gap",
+            "setup_clarity"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "setup_family_no_trade"
+          ],
+          "market": {
+            "session": "asia",
+            "regime": "trending",
+            "trend_structure": "LH/LL",
+            "momentum": "strong",
+            "location": "breakout",
+            "spread_points": 36.0
+          },
+          "teaching_focus": [
+            "label this as no-trade until a specific setup family is visible",
+            "distinguish raw breakout movement from a confirmed breakout/retest playbook before treating it as actionable"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=unknown|structure=mixed|momentum=mixed|location=consolidation|blockers=setup_clarity+momentum_quality+confluence_gap": {
+        "count": 42,
+        "first_seen": "2026-05-15T01:01:44.268029+02:00",
+        "last_seen": "2026-05-20T19:49:43.922331+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=unknown|structure=mixed|momentum=mixed|location=consolidation|blockers=setup_clarity+momentum_quality+confluence_gap",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 39,
+          "confluence_threshold": 52,
+          "confluence_gap": 13.0,
+          "hard_blockers": [
+            "structure_too_weak",
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "setup_clarity",
+            "momentum_quality",
+            "confluence_gap"
+          ],
+          "confusion_signals": [
+            "market_regime_unknown",
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "setup_family_no_trade",
+            "momentum_mixed"
+          ],
+          "market": {
+            "session": "new_york",
+            "regime": "unknown",
+            "trend_structure": "mixed",
+            "momentum": "mixed",
+            "location": "consolidation",
+            "spread_points": 34.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible",
+            "prefer clearer HH/HL or LH/LL structure before continuation entries"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=trending|structure=LH/LL|momentum=mixed|location=mid_range|blockers=spread_liquidity+momentum_quality+entry_location": {
+        "count": 31,
+        "first_seen": "2026-05-14T22:05:07.559660+02:00",
+        "last_seen": "2026-05-20T20:01:05.626224+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=trending|structure=LH/LL|momentum=mixed|location=mid_range|blockers=spread_liquidity+momentum_quality+entry_location",
+          "action": "blocked",
+          "blocker_class": "quality_gate",
+          "primary_blocker": "Loss-learning guard reduced confidence. Recent sell penalty 0.130 (wr=0.33, loss_streak=4)",
+          "confluence_score": 56,
+          "confluence_threshold": 52,
+          "confluence_gap": -4.0,
+          "hard_blockers": [
+            "spread_liquidity_too_poor"
+          ],
+          "top_blockers": [
+            "spread_liquidity",
+            "momentum_quality",
+            "entry_location"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "momentum_mixed",
+            "entry_location_mid_range"
+          ],
+          "market": {
+            "session": "new_york",
+            "regime": "trending",
+            "trend_structure": "LH/LL",
+            "momentum": "mixed",
+            "location": "mid_range",
+            "spread_points": 51.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=unknown|structure=mixed|momentum=mixed|location=mid_range|blockers=setup_clarity+momentum_quality+confluence_gap": {
+        "count": 28,
+        "first_seen": "2026-05-14T22:01:03.757393+02:00",
+        "last_seen": "2026-05-20T19:09:54.773005+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=unknown|structure=mixed|momentum=mixed|location=mid_range|blockers=setup_clarity+momentum_quality+confluence_gap",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 39,
+          "confluence_threshold": 52,
+          "confluence_gap": 13.0,
+          "hard_blockers": [
+            "structure_too_weak",
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "setup_clarity",
+            "momentum_quality",
+            "confluence_gap"
+          ],
+          "confusion_signals": [
+            "market_regime_unknown",
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "setup_family_no_trade",
+            "momentum_mixed",
+            "entry_location_mid_range"
+          ],
+          "market": {
+            "session": "new_york",
+            "regime": "unknown",
+            "trend_structure": "mixed",
+            "momentum": "mixed",
+            "location": "mid_range",
+            "spread_points": 34.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible",
+            "prefer clearer HH/HL or LH/LL structure before continuation entries"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=trending|structure=LH/LL|momentum=weak|location=mid_range|blockers=momentum_quality+spread_liquidity+confluence_gap": {
+        "count": 26,
+        "first_seen": "2026-05-14T22:09:10.904686+02:00",
+        "last_seen": "2026-05-19T22:47:59.808458+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=trending|structure=LH/LL|momentum=weak|location=mid_range|blockers=momentum_quality+spread_liquidity+confluence_gap",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 37,
+          "confluence_threshold": 52,
+          "confluence_gap": 15.0,
+          "hard_blockers": [
+            "spread_liquidity_too_poor",
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "momentum_quality",
+            "spread_liquidity",
+            "confluence_gap"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "setup_family_no_trade",
+            "momentum_weak",
+            "entry_location_mid_range"
+          ],
+          "market": {
+            "session": "late_us",
+            "regime": "trending",
+            "trend_structure": "LH/LL",
+            "momentum": "weak",
+            "location": "mid_range",
+            "spread_points": 45.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=unknown|structure=mixed|momentum=weak|location=consolidation|blockers=setup_clarity+momentum_quality+confluence_gap": {
+        "count": 26,
+        "first_seen": "2026-05-15T01:12:54.205990+02:00",
+        "last_seen": "2026-05-20T08:30:43.185277+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=unknown|structure=mixed|momentum=weak|location=consolidation|blockers=setup_clarity+momentum_quality+confluence_gap",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 31,
+          "confluence_threshold": 52,
+          "confluence_gap": 21.0,
+          "hard_blockers": [
+            "structure_too_weak",
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "setup_clarity",
+            "momentum_quality",
+            "confluence_gap"
+          ],
+          "confusion_signals": [
+            "market_regime_unknown",
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "setup_family_no_trade",
+            "momentum_weak"
+          ],
+          "market": {
+            "session": "asia",
+            "regime": "unknown",
+            "trend_structure": "mixed",
+            "momentum": "weak",
+            "location": "consolidation",
+            "spread_points": 34.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible",
+            "prefer clearer HH/HL or LH/LL structure before continuation entries"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=trending|structure=HH/HL|momentum=strong|location=breakout|blockers=confluence_gap+setup_clarity": {
+        "count": 24,
+        "first_seen": "2026-05-15T00:41:26.836992+02:00",
+        "last_seen": "2026-05-20T18:47:12.655639+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=trending|structure=HH/HL|momentum=strong|location=breakout|blockers=confluence_gap+setup_clarity",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 45,
+          "confluence_threshold": 52,
+          "confluence_gap": 7.0,
+          "hard_blockers": [
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "confluence_gap",
+            "setup_clarity"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "setup_family_no_trade"
+          ],
+          "market": {
+            "session": "new_york",
+            "regime": "trending",
+            "trend_structure": "HH/HL",
+            "momentum": "strong",
+            "location": "breakout",
+            "spread_points": 35.0
+          },
+          "teaching_focus": [
+            "label this as no-trade until a specific setup family is visible",
+            "distinguish raw breakout movement from a confirmed breakout/retest playbook before treating it as actionable"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=trending|structure=HH/HL|momentum=weak|location=pullback|blockers=momentum_quality+confluence_gap+setup_clarity": {
+        "count": 24,
+        "first_seen": "2026-05-15T00:31:16.924819+02:00",
+        "last_seen": "2026-05-20T20:13:44.478864+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=trending|structure=HH/HL|momentum=weak|location=pullback|blockers=momentum_quality+confluence_gap+setup_clarity",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 45,
+          "confluence_threshold": 52,
+          "confluence_gap": 7.0,
+          "hard_blockers": [
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "momentum_quality",
+            "confluence_gap",
+            "setup_clarity"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "setup_family_no_trade",
+            "momentum_weak"
+          ],
+          "market": {
+            "session": "new_york",
+            "regime": "trending",
+            "trend_structure": "HH/HL",
+            "momentum": "weak",
+            "location": "pullback",
+            "spread_points": 34.0
+          },
+          "teaching_focus": [
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=trending|structure=LH/LL|momentum=weak|location=pullback|blockers=momentum_quality+confluence_gap+setup_clarity": {
+        "count": 17,
+        "first_seen": "2026-05-14T21:58:00.985501+02:00",
+        "last_seen": "2026-05-20T19:39:05.037583+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=trending|structure=LH/LL|momentum=weak|location=pullback|blockers=momentum_quality+confluence_gap+setup_clarity",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 45,
+          "confluence_threshold": 52,
+          "confluence_gap": 7.0,
+          "hard_blockers": [
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "momentum_quality",
+            "confluence_gap",
+            "setup_clarity"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "setup_family_no_trade",
+            "momentum_weak"
+          ],
+          "market": {
+            "session": "new_york",
+            "regime": "trending",
+            "trend_structure": "LH/LL",
+            "momentum": "weak",
+            "location": "pullback",
+            "spread_points": 34.0
+          },
+          "teaching_focus": [
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=unknown|structure=mixed|momentum=mixed|location=pullback|blockers=momentum_quality+structure_quality": {
+        "count": 15,
+        "first_seen": "2026-05-15T01:10:52.122650+02:00",
+        "last_seen": "2026-05-20T20:11:39.437948+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=unknown|structure=mixed|momentum=mixed|location=pullback|blockers=momentum_quality+structure_quality",
+          "action": "blocked",
+          "blocker_class": "quality_gate",
+          "primary_blocker": "Loss-learning guard reduced confidence. Recent sell penalty 0.130 (wr=0.33, loss_streak=4)",
+          "confluence_score": 59,
+          "confluence_threshold": 52,
+          "confluence_gap": -7.0,
+          "hard_blockers": [
+            "structure_too_weak"
+          ],
+          "top_blockers": [
+            "momentum_quality",
+            "structure_quality"
+          ],
+          "confusion_signals": [
+            "market_regime_unknown",
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "momentum_mixed"
+          ],
+          "market": {
+            "session": "new_york",
+            "regime": "unknown",
+            "trend_structure": "mixed",
+            "momentum": "mixed",
+            "location": "pullback",
+            "spread_points": 35.0
+          },
+          "teaching_focus": [
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "prefer clearer HH/HL or LH/LL structure before continuation entries"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=ranging|structure=mixed|momentum=weak|location=consolidation|blockers=setup_clarity+momentum_quality+confluence_gap": {
+        "count": 14,
+        "first_seen": "2026-05-15T00:50:34.840676+02:00",
+        "last_seen": "2026-05-20T16:52:10.468970+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=ranging|structure=mixed|momentum=weak|location=consolidation|blockers=setup_clarity+momentum_quality+confluence_gap",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 35,
+          "confluence_threshold": 52,
+          "confluence_gap": 17.0,
+          "hard_blockers": [
+            "structure_too_weak",
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "setup_clarity",
+            "momentum_quality",
+            "confluence_gap"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "setup_family_no_trade",
+            "momentum_weak"
+          ],
+          "market": {
+            "session": "new_york",
+            "regime": "ranging",
+            "trend_structure": "mixed",
+            "momentum": "weak",
+            "location": "consolidation",
+            "spread_points": 35.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible",
+            "prefer clearer HH/HL or LH/LL structure before continuation entries"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=trending|structure=HH/HL|momentum=weak|location=mid_range|blockers=momentum_quality+spread_liquidity+confluence_gap": {
+        "count": 12,
+        "first_seen": "2026-05-14T22:03:05.499849+02:00",
+        "last_seen": "2026-05-19T22:24:43.968404+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=trending|structure=HH/HL|momentum=weak|location=mid_range|blockers=momentum_quality+spread_liquidity+confluence_gap",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 38,
+          "confluence_threshold": 52,
+          "confluence_gap": 14.0,
+          "hard_blockers": [
+            "structure_too_weak",
+            "spread_liquidity_too_poor"
+          ],
+          "top_blockers": [
+            "momentum_quality",
+            "spread_liquidity",
+            "confluence_gap"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "momentum_weak",
+            "entry_location_mid_range"
+          ],
+          "market": {
+            "session": "late_us",
+            "regime": "trending",
+            "trend_structure": "HH/HL",
+            "momentum": "weak",
+            "location": "mid_range",
+            "spread_points": 45.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "prefer clearer HH/HL or LH/LL structure before continuation entries"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=ranging|structure=mixed|momentum=mixed|location=mid_range|blockers=momentum_quality+entry_location+confluence_gap": {
+        "count": 11,
+        "first_seen": "2026-05-15T00:47:32.238037+02:00",
+        "last_seen": "2026-05-20T07:45:06.015802+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=ranging|structure=mixed|momentum=mixed|location=mid_range|blockers=momentum_quality+entry_location+confluence_gap",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 44,
+          "confluence_threshold": 52,
+          "confluence_gap": 8.0,
+          "hard_blockers": [
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "momentum_quality",
+            "entry_location",
+            "confluence_gap"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "setup_family_no_trade",
+            "momentum_mixed",
+            "entry_location_mid_range"
+          ],
+          "market": {
+            "session": "asia",
+            "regime": "ranging",
+            "trend_structure": "mixed",
+            "momentum": "mixed",
+            "location": "mid_range",
+            "spread_points": 34.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=unknown|structure=mixed|momentum=mixed|location=mid_range|blockers=spread_liquidity+momentum_quality+confluence_gap": {
+        "count": 10,
+        "first_seen": "2026-05-14T22:04:06.505498+02:00",
+        "last_seen": "2026-05-19T22:56:30.394756+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=unknown|structure=mixed|momentum=mixed|location=mid_range|blockers=spread_liquidity+momentum_quality+confluence_gap",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 40,
+          "confluence_threshold": 52,
+          "confluence_gap": 12.0,
+          "hard_blockers": [
+            "structure_too_weak",
+            "spread_liquidity_too_poor"
+          ],
+          "top_blockers": [
+            "spread_liquidity",
+            "momentum_quality",
+            "confluence_gap"
+          ],
+          "confusion_signals": [
+            "market_regime_unknown",
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "momentum_mixed",
+            "entry_location_mid_range"
+          ],
+          "market": {
+            "session": "late_us",
+            "regime": "unknown",
+            "trend_structure": "mixed",
+            "momentum": "mixed",
+            "location": "mid_range",
+            "spread_points": 45.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "prefer clearer HH/HL or LH/LL structure before continuation entries"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=unknown|structure=mixed|momentum=weak|location=pullback|blockers=momentum_quality+setup_clarity+structure_quality": {
+        "count": 6,
+        "first_seen": "2026-05-14T21:59:01.879015+02:00",
+        "last_seen": "2026-05-18T21:35:15.430307+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=unknown|structure=mixed|momentum=weak|location=pullback|blockers=momentum_quality+setup_clarity+structure_quality",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 45,
+          "confluence_threshold": 52,
+          "confluence_gap": 7.0,
+          "hard_blockers": [
+            "structure_too_weak",
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "momentum_quality",
+            "setup_clarity",
+            "structure_quality"
+          ],
+          "confusion_signals": [
+            "market_regime_unknown",
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "setup_family_no_trade",
+            "momentum_weak"
+          ],
+          "market": {
+            "session": "new_york",
+            "regime": "unknown",
+            "trend_structure": "mixed",
+            "momentum": "weak",
+            "location": "pullback",
+            "spread_points": 34.0
+          },
+          "teaching_focus": [
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible",
+            "prefer clearer HH/HL or LH/LL structure before continuation entries"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=unknown|structure=mixed|momentum=weak|location=mid_range|blockers=momentum_quality+spread_liquidity+confluence_gap": {
+        "count": 6,
+        "first_seen": "2026-05-14T22:16:17.168707+02:00",
+        "last_seen": "2026-05-20T08:00:26.371912+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=unknown|structure=mixed|momentum=weak|location=mid_range|blockers=momentum_quality+spread_liquidity+confluence_gap",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 33,
+          "confluence_threshold": 52,
+          "confluence_gap": 19.0,
+          "hard_blockers": [
+            "spread_liquidity_too_poor",
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "momentum_quality",
+            "spread_liquidity",
+            "confluence_gap"
+          ],
+          "confusion_signals": [
+            "market_regime_unknown",
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "setup_family_no_trade",
+            "momentum_weak",
+            "entry_location_mid_range"
+          ],
+          "market": {
+            "session": "asia",
+            "regime": "unknown",
+            "trend_structure": "mixed",
+            "momentum": "weak",
+            "location": "mid_range",
+            "spread_points": 54.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=unknown|structure=mixed|momentum=mixed|location=mid_range|blockers=spread_liquidity+momentum_quality+entry_location": {
+        "count": 5,
+        "first_seen": "2026-05-14T22:45:49.013578+02:00",
+        "last_seen": "2026-05-14T22:56:03.911208+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=unknown|structure=mixed|momentum=mixed|location=mid_range|blockers=spread_liquidity+momentum_quality+entry_location",
+          "action": "blocked",
+          "blocker_class": "quality_gate",
+          "primary_blocker": "Loss-learning guard reduced confidence. Loss memory penalty 0.050 (hour 20, loss_rate 0.60) | Recent sell penalty 0.130 (wr=0.50, loss_streak=4)",
+          "confluence_score": 52,
+          "confluence_threshold": 50,
+          "confluence_gap": -2.0,
+          "hard_blockers": [
+            "spread_liquidity_too_poor"
+          ],
+          "top_blockers": [
+            "spread_liquidity",
+            "momentum_quality",
+            "entry_location"
+          ],
+          "confusion_signals": [
+            "market_regime_unknown",
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "momentum_mixed",
+            "entry_location_mid_range"
+          ],
+          "market": {
+            "session": "late_us",
+            "regime": "unknown",
+            "trend_structure": "mixed",
+            "momentum": "mixed",
+            "location": "mid_range",
+            "spread_points": 45.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=unknown|structure=mixed|momentum=strong|location=breakout|blockers=confluence_gap+setup_clarity": {
+        "count": 5,
+        "first_seen": "2026-05-15T00:43:28.608480+02:00",
+        "last_seen": "2026-05-20T08:19:50.227600+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=unknown|structure=mixed|momentum=strong|location=breakout|blockers=confluence_gap+setup_clarity",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 45,
+          "confluence_threshold": 52,
+          "confluence_gap": 7.0,
+          "hard_blockers": [
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "confluence_gap",
+            "setup_clarity"
+          ],
+          "confusion_signals": [
+            "market_regime_unknown",
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "setup_family_no_trade"
+          ],
+          "market": {
+            "session": "asia",
+            "regime": "unknown",
+            "trend_structure": "mixed",
+            "momentum": "strong",
+            "location": "breakout",
+            "spread_points": 35.0
+          },
+          "teaching_focus": [
+            "label this as no-trade until a specific setup family is visible",
+            "distinguish raw breakout movement from a confirmed breakout/retest playbook before treating it as actionable"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=ranging|structure=mixed|momentum=mixed|location=consolidation|blockers=setup_clarity+momentum_quality+confluence_gap": {
+        "count": 4,
+        "first_seen": "2026-05-15T00:51:35.714882+02:00",
+        "last_seen": "2026-05-15T04:29:47.460268+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=ranging|structure=mixed|momentum=mixed|location=consolidation|blockers=setup_clarity+momentum_quality+confluence_gap",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 36,
+          "confluence_threshold": 50,
+          "confluence_gap": 14.0,
+          "hard_blockers": [
+            "structure_too_weak",
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "setup_clarity",
+            "momentum_quality",
+            "confluence_gap"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "setup_family_no_trade",
+            "momentum_mixed"
+          ],
+          "market": {
+            "session": "asia",
+            "regime": "ranging",
+            "trend_structure": "mixed",
+            "momentum": "mixed",
+            "location": "consolidation",
+            "spread_points": 34.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible",
+            "prefer clearer HH/HL or LH/LL structure before continuation entries"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=trending|structure=LH/LL|momentum=strong|location=breakout|blockers=spread_liquidity+confluence_gap+setup_clarity": {
+        "count": 4,
+        "first_seen": "2026-05-14T22:27:27.022526+02:00",
+        "last_seen": "2026-05-19T22:39:36.606669+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=trending|structure=LH/LL|momentum=strong|location=breakout|blockers=spread_liquidity+confluence_gap+setup_clarity",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 45,
+          "confluence_threshold": 52,
+          "confluence_gap": 7.0,
+          "hard_blockers": [
+            "spread_liquidity_too_poor",
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "spread_liquidity",
+            "confluence_gap",
+            "setup_clarity"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "setup_family_no_trade"
+          ],
+          "market": {
+            "session": "late_us",
+            "regime": "trending",
+            "trend_structure": "LH/LL",
+            "momentum": "strong",
+            "location": "breakout",
+            "spread_points": 45.0
+          },
+          "teaching_focus": [
+            "label this as no-trade until a specific setup family is visible",
+            "distinguish raw breakout movement from a confirmed breakout/retest playbook before treating it as actionable"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=trending|structure=HH/HL|momentum=mixed|location=mid_range|blockers=spread_liquidity+momentum_quality+entry_location": {
+        "count": 3,
+        "first_seen": "2026-05-14T22:02:04.568468+02:00",
+        "last_seen": "2026-05-14T22:51:56.335991+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=trending|structure=HH/HL|momentum=mixed|location=mid_range|blockers=spread_liquidity+momentum_quality+entry_location",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 42,
+          "confluence_threshold": 50,
+          "confluence_gap": 8.0,
+          "hard_blockers": [
+            "spread_liquidity_too_poor",
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "spread_liquidity",
+            "momentum_quality",
+            "entry_location"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "setup_family_no_trade",
+            "momentum_mixed",
+            "entry_location_mid_range"
+          ],
+          "market": {
+            "session": "late_us",
+            "regime": "trending",
+            "trend_structure": "HH/HL",
+            "momentum": "mixed",
+            "location": "mid_range",
+            "spread_points": 45.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=unknown|structure=mixed|momentum=mixed|location=mid_range|blockers=setup_clarity+momentum_quality+structure_quality": {
+        "count": 3,
+        "first_seen": "2026-05-14T22:00:02.773114+02:00",
+        "last_seen": "2026-05-15T11:10:05.940951+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=unknown|structure=mixed|momentum=mixed|location=mid_range|blockers=setup_clarity+momentum_quality+structure_quality",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 39,
+          "confluence_threshold": 50,
+          "confluence_gap": 11.0,
+          "hard_blockers": [
+            "structure_too_weak",
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "setup_clarity",
+            "momentum_quality",
+            "structure_quality"
+          ],
+          "confusion_signals": [
+            "market_regime_unknown",
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "setup_family_no_trade",
+            "momentum_mixed",
+            "entry_location_mid_range"
+          ],
+          "market": {
+            "session": "london",
+            "regime": "unknown",
+            "trend_structure": "mixed",
+            "momentum": "mixed",
+            "location": "mid_range",
+            "spread_points": 34.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible",
+            "prefer clearer HH/HL or LH/LL structure before continuation entries"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=volatile|structure=mixed|momentum=weak|location=mid_range|blockers=setup_clarity+momentum_quality+confluence_gap": {
+        "count": 3,
+        "first_seen": "2026-05-15T00:01:51.931445+02:00",
+        "last_seen": "2026-05-20T00:02:00.690847+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=volatile|structure=mixed|momentum=weak|location=mid_range|blockers=setup_clarity+momentum_quality+confluence_gap",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 24,
+          "confluence_threshold": 52,
+          "confluence_gap": 28.0,
+          "hard_blockers": [
+            "structure_too_weak",
+            "spread_liquidity_too_poor",
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "setup_clarity",
+            "momentum_quality",
+            "confluence_gap"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "setup_family_no_trade",
+            "momentum_weak",
+            "entry_location_mid_range"
+          ],
+          "market": {
+            "session": "late_us",
+            "regime": "volatile",
+            "trend_structure": "mixed",
+            "momentum": "weak",
+            "location": "mid_range",
+            "spread_points": 45.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible",
+            "prefer clearer HH/HL or LH/LL structure before continuation entries"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=unknown|structure=mixed|momentum=strong|location=mid_range|blockers=spread_liquidity+entry_location+confluence_gap": {
+        "count": 3,
+        "first_seen": "2026-05-15T00:14:02.156201+02:00",
+        "last_seen": "2026-05-20T00:09:26.978168+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=unknown|structure=mixed|momentum=strong|location=mid_range|blockers=spread_liquidity+entry_location+confluence_gap",
+          "action": "blocked",
+          "blocker_class": "unknown",
+          "primary_blocker": "Online learning reduced confidence below execution threshold.",
+          "confluence_score": 51,
+          "confluence_threshold": 52,
+          "confluence_gap": 1.0,
+          "hard_blockers": [
+            "spread_liquidity_too_poor"
+          ],
+          "top_blockers": [
+            "spread_liquidity",
+            "entry_location",
+            "confluence_gap"
+          ],
+          "confusion_signals": [
+            "market_regime_unknown",
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "entry_location_mid_range"
+          ],
+          "market": {
+            "session": "late_us",
+            "regime": "unknown",
+            "trend_structure": "mixed",
+            "momentum": "strong",
+            "location": "mid_range",
+            "spread_points": 45.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=ranging|structure=mixed|momentum=weak|location=mid_range|blockers=setup_clarity+momentum_quality+confluence_gap": {
+        "count": 3,
+        "first_seen": "2026-05-15T00:53:37.410846+02:00",
+        "last_seen": "2026-05-20T05:47:38.194861+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=ranging|structure=mixed|momentum=weak|location=mid_range|blockers=setup_clarity+momentum_quality+confluence_gap",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 31,
+          "confluence_threshold": 52,
+          "confluence_gap": 21.0,
+          "hard_blockers": [
+            "structure_too_weak",
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "setup_clarity",
+            "momentum_quality",
+            "confluence_gap"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "setup_family_no_trade",
+            "momentum_weak",
+            "entry_location_mid_range"
+          ],
+          "market": {
+            "session": "asia",
+            "regime": "ranging",
+            "trend_structure": "mixed",
+            "momentum": "weak",
+            "location": "mid_range",
+            "spread_points": 36.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible",
+            "prefer clearer HH/HL or LH/LL structure before continuation entries"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=unknown|structure=mixed|momentum=mixed|location=mid_range|blockers=confluence_gap+spread_liquidity+momentum_quality": {
+        "count": 2,
+        "first_seen": "2026-05-15T00:09:58.747936+02:00",
+        "last_seen": "2026-05-15T00:10:59.653800+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=unknown|structure=mixed|momentum=mixed|location=mid_range|blockers=confluence_gap+spread_liquidity+momentum_quality",
+          "action": "blocked",
+          "blocker_class": "quality_gate",
+          "primary_blocker": "Consensus guard blocked trade: side=sell, support=1, required=2.",
+          "confluence_score": 39,
+          "confluence_threshold": 85,
+          "confluence_gap": 46.0,
+          "hard_blockers": [
+            "spread_liquidity_too_poor"
+          ],
+          "top_blockers": [
+            "confluence_gap",
+            "spread_liquidity",
+            "momentum_quality"
+          ],
+          "confusion_signals": [
+            "market_regime_unknown",
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "momentum_mixed",
+            "entry_location_mid_range"
+          ],
+          "market": {
+            "session": "late_us",
+            "regime": "unknown",
+            "trend_structure": "mixed",
+            "momentum": "mixed",
+            "location": "mid_range",
+            "spread_points": 45.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=ranging|structure=mixed|momentum=weak|location=pullback|blockers=momentum_quality+setup_clarity+structure_quality": {
+        "count": 2,
+        "first_seen": "2026-05-15T01:00:43.457144+02:00",
+        "last_seen": "2026-05-15T04:09:29.902265+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=ranging|structure=mixed|momentum=weak|location=pullback|blockers=momentum_quality+setup_clarity+structure_quality",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 45,
+          "confluence_threshold": 50,
+          "confluence_gap": 5.0,
+          "hard_blockers": [
+            "structure_too_weak",
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "momentum_quality",
+            "setup_clarity",
+            "structure_quality"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "setup_family_no_trade",
+            "momentum_weak"
+          ],
+          "market": {
+            "session": "asia",
+            "regime": "ranging",
+            "trend_structure": "mixed",
+            "momentum": "weak",
+            "location": "pullback",
+            "spread_points": 34.0
+          },
+          "teaching_focus": [
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible",
+            "prefer clearer HH/HL or LH/LL structure before continuation entries"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=unknown|structure=mixed|momentum=mixed|location=consolidation|blockers=setup_clarity+spread_liquidity+confluence_gap": {
+        "count": 2,
+        "first_seen": "2026-05-15T00:05:55.380537+02:00",
+        "last_seen": "2026-05-18T22:12:10.294935+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=unknown|structure=mixed|momentum=mixed|location=consolidation|blockers=setup_clarity+spread_liquidity+confluence_gap",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 29,
+          "confluence_threshold": 52,
+          "confluence_gap": 23.0,
+          "hard_blockers": [
+            "structure_too_weak",
+            "spread_liquidity_too_poor",
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "setup_clarity",
+            "spread_liquidity",
+            "confluence_gap"
+          ],
+          "confusion_signals": [
+            "market_regime_unknown",
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "setup_family_no_trade",
+            "momentum_mixed"
+          ],
+          "market": {
+            "session": "late_us",
+            "regime": "unknown",
+            "trend_structure": "mixed",
+            "momentum": "mixed",
+            "location": "consolidation",
+            "spread_points": 45.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible",
+            "prefer clearer HH/HL or LH/LL structure before continuation entries"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=unknown|structure=mixed|momentum=weak|location=consolidation|blockers=confluence_gap+momentum_quality+spread_liquidity": {
+        "count": 2,
+        "first_seen": "2026-05-15T00:06:56.237422+02:00",
+        "last_seen": "2026-05-18T22:42:38.646369+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=unknown|structure=mixed|momentum=weak|location=consolidation|blockers=confluence_gap+momentum_quality+spread_liquidity",
+          "action": "blocked",
+          "blocker_class": "unknown",
+          "primary_blocker": "Higher-timeframe alignment required: chosen=sell, htf_bias=buy.",
+          "confluence_score": 29,
+          "confluence_threshold": 85,
+          "confluence_gap": 56.0,
+          "hard_blockers": [
+            "structure_too_weak",
+            "spread_liquidity_too_poor"
+          ],
+          "top_blockers": [
+            "confluence_gap",
+            "momentum_quality",
+            "spread_liquidity"
+          ],
+          "confusion_signals": [
+            "market_regime_unknown",
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "momentum_weak"
+          ],
+          "market": {
+            "session": "late_us",
+            "regime": "unknown",
+            "trend_structure": "mixed",
+            "momentum": "weak",
+            "location": "consolidation",
+            "spread_points": 45.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "prefer clearer HH/HL or LH/LL structure before continuation entries"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=trending|structure=HH/HL|momentum=weak|location=consolidation|blockers=momentum_quality+entry_location": {
+        "count": 2,
+        "first_seen": "2026-05-15T01:09:51.265701+02:00",
+        "last_seen": "2026-05-19T18:41:50.206108+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=trending|structure=HH/HL|momentum=weak|location=consolidation|blockers=momentum_quality+entry_location",
+          "action": "blocked",
+          "blocker_class": "quality_gate",
+          "primary_blocker": "Loss-learning guard reduced confidence. Recent buy penalty 0.090 (wr=0.42, loss_streak=2)",
+          "confluence_score": 63,
+          "confluence_threshold": 52,
+          "confluence_gap": -11.0,
+          "hard_blockers": [],
+          "top_blockers": [
+            "momentum_quality",
+            "entry_location"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "momentum_weak"
+          ],
+          "market": {
+            "session": "new_york",
+            "regime": "trending",
+            "trend_structure": "HH/HL",
+            "momentum": "weak",
+            "location": "consolidation",
+            "spread_points": 34.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=unknown|structure=mixed|momentum=mixed|location=pullback|blockers=setup_clarity+spread_liquidity+momentum_quality": {
+        "count": 2,
+        "first_seen": "2026-05-14T22:37:36.115041+02:00",
+        "last_seen": "2026-05-19T22:11:07.523270+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=unknown|structure=mixed|momentum=mixed|location=pullback|blockers=setup_clarity+spread_liquidity+momentum_quality",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 45,
+          "confluence_threshold": 52,
+          "confluence_gap": 7.0,
+          "hard_blockers": [
+            "structure_too_weak",
+            "spread_liquidity_too_poor",
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "setup_clarity",
+            "spread_liquidity",
+            "momentum_quality"
+          ],
+          "confusion_signals": [
+            "market_regime_unknown",
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "setup_family_no_trade",
+            "momentum_mixed"
+          ],
+          "market": {
+            "session": "late_us",
+            "regime": "unknown",
+            "trend_structure": "mixed",
+            "momentum": "mixed",
+            "location": "pullback",
+            "spread_points": 43.0
+          },
+          "teaching_focus": [
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible",
+            "prefer clearer HH/HL or LH/LL structure before continuation entries"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=trending|structure=HH/HL|momentum=strong|location=breakout|blockers=spread_liquidity+structure_quality": {
+        "count": 2,
+        "first_seen": "2026-05-15T00:00:51.130831+02:00",
+        "last_seen": "2026-05-19T22:23:40.779238+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=trending|structure=HH/HL|momentum=strong|location=breakout|blockers=spread_liquidity+structure_quality",
+          "action": "blocked",
+          "blocker_class": "quality_gate",
+          "primary_blocker": "Loss-learning guard reduced confidence. Loss memory penalty 0.050 (hour 20, loss_rate 0.60) | Recent sell penalty 0.130 (wr=0.33, loss_streak=4)",
+          "confluence_score": 59,
+          "confluence_threshold": 52,
+          "confluence_gap": -7.0,
+          "hard_blockers": [
+            "structure_too_weak",
+            "spread_liquidity_too_poor"
+          ],
+          "top_blockers": [
+            "spread_liquidity",
+            "structure_quality"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable"
+          ],
+          "market": {
+            "session": "late_us",
+            "regime": "trending",
+            "trend_structure": "HH/HL",
+            "momentum": "strong",
+            "location": "breakout",
+            "spread_points": 45.0
+          },
+          "teaching_focus": [
+            "prefer clearer HH/HL or LH/LL structure before continuation entries"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=unknown|structure=mixed|momentum=mixed|location=mid_range|blockers=setup_clarity+spread_liquidity+confluence_gap": {
+        "count": 2,
+        "first_seen": "2026-05-14T22:38:37.088783+02:00",
+        "last_seen": "2026-05-19T22:55:27.497414+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=unknown|structure=mixed|momentum=mixed|location=mid_range|blockers=setup_clarity+spread_liquidity+confluence_gap",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 28,
+          "confluence_threshold": 52,
+          "confluence_gap": 24.0,
+          "hard_blockers": [
+            "structure_too_weak",
+            "spread_liquidity_too_poor",
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "setup_clarity",
+            "spread_liquidity",
+            "confluence_gap"
+          ],
+          "confusion_signals": [
+            "market_regime_unknown",
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "dxy_alignment_unknown",
+            "us10y_alignment_unknown",
+            "vix_alignment_unknown",
+            "oil_alignment_unknown",
+            "dxy_data_unavailable",
+            "us10y_data_unavailable",
+            "vix_data_unavailable",
+            "oil_data_unavailable",
+            "setup_family_no_trade",
+            "momentum_mixed",
+            "entry_location_mid_range"
+          ],
+          "market": {
+            "session": "late_us",
+            "regime": "unknown",
+            "trend_structure": "mixed",
+            "momentum": "mixed",
+            "location": "mid_range",
+            "spread_points": 45.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible",
+            "prefer clearer HH/HL or LH/LL structure before continuation entries"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=volatile|structure=LH/LL|momentum=mixed|location=pullback|blockers=spread_liquidity+momentum_quality+confluence_gap": {
+        "count": 1,
+        "first_seen": "2026-05-14T22:41:41.185287+02:00",
+        "last_seen": "2026-05-14T22:41:41.185287+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=volatile|structure=LH/LL|momentum=mixed|location=pullback|blockers=spread_liquidity+momentum_quality+confluence_gap",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 45,
+          "confluence_threshold": 50,
+          "confluence_gap": 5.0,
+          "hard_blockers": [
+            "spread_liquidity_too_poor",
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "spread_liquidity",
+            "momentum_quality",
+            "confluence_gap"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "setup_family_no_trade",
+            "momentum_mixed"
+          ],
+          "market": {
+            "session": "late_us",
+            "regime": "volatile",
+            "trend_structure": "LH/LL",
+            "momentum": "mixed",
+            "location": "pullback",
+            "spread_points": 45.0
+          },
+          "teaching_focus": [
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=volatile|structure=mixed|momentum=mixed|location=pullback|blockers=spread_liquidity+momentum_quality+structure_quality": {
+        "count": 1,
+        "first_seen": "2026-05-14T22:43:46.523299+02:00",
+        "last_seen": "2026-05-14T22:43:46.523299+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=volatile|structure=mixed|momentum=mixed|location=pullback|blockers=spread_liquidity+momentum_quality+structure_quality",
+          "action": "blocked",
+          "blocker_class": "quality_gate",
+          "primary_blocker": "Loss-learning guard reduced confidence. Loss memory penalty 0.050 (hour 20, loss_rate 0.60) | Recent sell penalty 0.130 (wr=0.50, loss_streak=4)",
+          "confluence_score": 59,
+          "confluence_threshold": 50,
+          "confluence_gap": -9.0,
+          "hard_blockers": [
+            "structure_too_weak",
+            "spread_liquidity_too_poor"
+          ],
+          "top_blockers": [
+            "spread_liquidity",
+            "momentum_quality",
+            "structure_quality"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "momentum_mixed"
+          ],
+          "market": {
+            "session": "late_us",
+            "regime": "volatile",
+            "trend_structure": "mixed",
+            "momentum": "mixed",
+            "location": "pullback",
+            "spread_points": 45.0
+          },
+          "teaching_focus": [
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "prefer clearer HH/HL or LH/LL structure before continuation entries"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=volatile|structure=mixed|momentum=weak|location=mid_range|blockers=momentum_quality+spread_liquidity+confluence_gap": {
+        "count": 1,
+        "first_seen": "2026-05-14T22:44:47.835745+02:00",
+        "last_seen": "2026-05-14T22:44:47.840518+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=volatile|structure=mixed|momentum=weak|location=mid_range|blockers=momentum_quality+spread_liquidity+confluence_gap",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 34,
+          "confluence_threshold": 50,
+          "confluence_gap": 16.0,
+          "hard_blockers": [
+            "spread_liquidity_too_poor",
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "momentum_quality",
+            "spread_liquidity",
+            "confluence_gap"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "setup_family_no_trade",
+            "momentum_weak",
+            "entry_location_mid_range"
+          ],
+          "market": {
+            "session": "late_us",
+            "regime": "volatile",
+            "trend_structure": "mixed",
+            "momentum": "weak",
+            "location": "mid_range",
+            "spread_points": 45.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=unknown|structure=mixed|momentum=weak|location=pullback|blockers=momentum_quality+setup_clarity+spread_liquidity": {
+        "count": 1,
+        "first_seen": "2026-05-14T22:58:07.101299+02:00",
+        "last_seen": "2026-05-14T22:58:07.101299+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=unknown|structure=mixed|momentum=weak|location=pullback|blockers=momentum_quality+setup_clarity+spread_liquidity",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 45,
+          "confluence_threshold": 50,
+          "confluence_gap": 5.0,
+          "hard_blockers": [
+            "structure_too_weak",
+            "spread_liquidity_too_poor",
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "momentum_quality",
+            "setup_clarity",
+            "spread_liquidity"
+          ],
+          "confusion_signals": [
+            "market_regime_unknown",
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "setup_family_no_trade",
+            "momentum_weak"
+          ],
+          "market": {
+            "session": "late_us",
+            "regime": "unknown",
+            "trend_structure": "mixed",
+            "momentum": "weak",
+            "location": "pullback",
+            "spread_points": 45.0
+          },
+          "teaching_focus": [
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible",
+            "prefer clearer HH/HL or LH/LL structure before continuation entries"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=volatile|structure=mixed|momentum=weak|location=consolidation|blockers=setup_clarity+momentum_quality+confluence_gap": {
+        "count": 1,
+        "first_seen": "2026-05-15T00:03:53.652723+02:00",
+        "last_seen": "2026-05-15T00:03:53.652723+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=volatile|structure=mixed|momentum=weak|location=consolidation|blockers=setup_clarity+momentum_quality+confluence_gap",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 25,
+          "confluence_threshold": 50,
+          "confluence_gap": 25.0,
+          "hard_blockers": [
+            "structure_too_weak",
+            "spread_liquidity_too_poor",
+            "no_clear_setup"
+          ],
+          "top_blockers": [
+            "setup_clarity",
+            "momentum_quality",
+            "confluence_gap"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "setup_family_no_trade",
+            "momentum_weak"
+          ],
+          "market": {
+            "session": "late_us",
+            "regime": "volatile",
+            "trend_structure": "mixed",
+            "momentum": "weak",
+            "location": "consolidation",
+            "spread_points": 45.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "label this as no-trade until a specific setup family is visible",
+            "prefer clearer HH/HL or LH/LL structure before continuation entries"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      },
+      "regime=volatile|structure=mixed|momentum=mixed|location=consolidation|blockers=spread_liquidity+momentum_quality+structure_quality": {
+        "count": 1,
+        "first_seen": "2026-05-15T00:04:54.467368+02:00",
+        "last_seen": "2026-05-15T00:04:54.467368+02:00",
+        "latest": {
+          "event": "near_setup_learning",
+          "mode": "observability_only",
+          "fingerprint": "regime=volatile|structure=mixed|momentum=mixed|location=consolidation|blockers=spread_liquidity+momentum_quality+structure_quality",
+          "action": "hold",
+          "blocker_class": "signal_quality",
+          "primary_blocker": "No high-confidence trade found.",
+          "confluence_score": 40,
+          "confluence_threshold": 50,
+          "confluence_gap": 10.0,
+          "hard_blockers": [
+            "structure_too_weak",
+            "spread_liquidity_too_poor"
+          ],
+          "top_blockers": [
+            "spread_liquidity",
+            "momentum_quality",
+            "structure_quality"
+          ],
+          "confusion_signals": [
+            "event_risk_unknown",
+            "news_risk_unknown",
+            "momentum_mixed"
+          ],
+          "market": {
+            "session": "late_us",
+            "regime": "volatile",
+            "trend_structure": "mixed",
+            "momentum": "mixed",
+            "location": "consolidation",
+            "spread_points": 45.0
+          },
+          "teaching_focus": [
+            "wait for a cleaner edge or pullback location instead of treating mid-range movement as a setup",
+            "separate direction bias from entry momentum; require confirmation before acting",
+            "prefer clearer HH/HL or LH/LL structure before continuation entries"
+          ],
+          "policy_note": "Near-setup learning is observability only; it does not change strategy, risk, guard, or execution policy."
+        }
+      }
+    },
+    "policy_note": "This report teaches Atlas what to inspect next; it does not alter live trading decisions."
+  },
+  "seen_atlas_deals": [
+    "79596014",
+    "79597657",
+    "79671524",
+    "79671649",
+    "79671864",
+    "79671883",
+    "79695151",
+    "79695201",
+    "79696496",
+    "79696867",
+    "79754413",
+    "79754491",
+    "79766276",
+    "79766508",
+    "79788105",
+    "79788235",
+    "79819143",
+    "79819153",
+    "80385657",
+    "80385701"
+  ],
+  "post_trade_learning": {
+    "mode": "observability_only",
+    "updated_at": "2026-05-20T16:27:44.836322+02:00",
+    "seen_tickets": [
+      "79597657",
+      "79671649",
+      "79671883",
+      "79695201",
+      "79696867",
+      "79754491",
+      "79766508",
+      "79788235",
+      "79819153",
+      "80385701"
+    ],
+    "recent_outcomes": [
+      {
+        "ticket": "79597657",
+        "order": 101234997,
+        "position_id": 101233394,
+        "time": "2026-05-15T00:29:57",
+        "symbol": "XAUUSD",
+        "volume": 0.01,
+        "price": 4667.02,
+        "profit": 26.69,
+        "outcome": "win",
+        "setup_fingerprint": "regime=trending|structure=LH/LL|momentum=mixed|location=mid_range|blockers=momentum_quality+entry_location+structure_quality",
+        "market_context": {
+          "session": "london",
+          "regime": "trending",
+          "trend_structure": "LH/LL",
+          "momentum": "mixed",
+          "location": "mid_range",
+          "spread_points": 35.0
+        },
+        "execution_diagnostics": {
+          "status_action": "blocked",
+          "status_message": "Directional-structure guard blocked trade: chosen=buy, structure=LH/LL, location=mid_range, momentum=mixed.",
+          "execution_success": false,
+          "retcode": "",
+          "broker_order_id": "",
+          "decision_id": "",
+          "reason": "approval_missing",
+          "failure_class": "approval_or_authority",
+          "truth": {
+            "action_type": "place_trade",
+            "approval_status": "pending",
+            "broker_order_id": "",
+            "broker_status": "",
+            "dry_run": false,
+            "environment": "demo",
+            "execution_status": "pending",
+            "failure_class": "approval_or_authority",
+            "ok": false,
+            "payload_summary": "instrument=XAUUSD setup_family=continuation setup=continuation strategy=evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9) side=buy size=0.0092 confidence=0.544 stop_loss_points=100.00 take_profit_points=160.00 data_source=broker_runtime environment_mode=demo decision_id=2b0649ea",
+            "phase": "preflight",
+            "reason": "approval_missing",
+            "request_id": "exec_8dc512b137",
+            "request_origin": "trader_guarded",
+            "requested_by": "trader",
+            "result": {},
+            "ts": 1778844322.006198
+          },
+          "policy_note": "Execution diagnostics are observability only; they do not change strategy, risk, or execution policy."
+        },
+        "correlation_quality": "monitor_tick_context",
+        "lesson": "reinforce similar setup context after confirmed profit",
+        "policy_note": "Post-trade learning is observability only; it does not alter live trading decisions."
+      },
+      {
+        "ticket": "79671649",
+        "order": 101329998,
+        "position_id": 101329861,
+        "time": "2026-05-15T12:27:14",
+        "symbol": "XAUUSD",
+        "volume": 0.01,
+        "price": 4579.45,
+        "profit": -15.61,
+        "outcome": "loss",
+        "setup_fingerprint": "regime=trending|structure=LH/LL|momentum=mixed|location=mid_range|blockers=momentum_quality+entry_location+structure_quality",
+        "market_context": {
+          "session": "london",
+          "regime": "trending",
+          "trend_structure": "LH/LL",
+          "momentum": "mixed",
+          "location": "mid_range",
+          "spread_points": 35.0
+        },
+        "execution_diagnostics": {
+          "status_action": "blocked",
+          "status_message": "Directional-structure guard blocked trade: chosen=buy, structure=LH/LL, location=mid_range, momentum=mixed.",
+          "execution_success": false,
+          "retcode": "",
+          "broker_order_id": "",
+          "decision_id": "",
+          "reason": "approval_missing",
+          "failure_class": "approval_or_authority",
+          "truth": {
+            "action_type": "place_trade",
+            "approval_status": "pending",
+            "broker_order_id": "",
+            "broker_status": "",
+            "dry_run": false,
+            "environment": "demo",
+            "execution_status": "pending",
+            "failure_class": "approval_or_authority",
+            "ok": false,
+            "payload_summary": "instrument=XAUUSD setup_family=continuation setup=continuation strategy=evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9) side=buy size=0.0092 confidence=0.544 stop_loss_points=100.00 take_profit_points=160.00 data_source=broker_runtime environment_mode=demo decision_id=2b0649ea",
+            "phase": "preflight",
+            "reason": "approval_missing",
+            "request_id": "exec_8dc512b137",
+            "request_origin": "trader_guarded",
+            "requested_by": "trader",
+            "result": {},
+            "ts": 1778844322.006198
+          },
+          "policy_note": "Execution diagnostics are observability only; they do not change strategy, risk, or execution policy."
+        },
+        "correlation_quality": "monitor_tick_context",
+        "lesson": "review entry timing, HTF alignment, momentum, and location before repeating this context",
+        "policy_note": "Post-trade learning is observability only; it does not alter live trading decisions."
+      },
+      {
+        "ticket": "79671883",
+        "order": 101330243,
+        "position_id": 101330222,
+        "time": "2026-05-15T12:28:05",
+        "symbol": "XAUUSD",
+        "volume": 0.01,
+        "price": 4581.98,
+        "profit": 27.06,
+        "outcome": "win",
+        "setup_fingerprint": "regime=trending|structure=LH/LL|momentum=mixed|location=mid_range|blockers=momentum_quality+entry_location+structure_quality",
+        "market_context": {
+          "session": "london",
+          "regime": "trending",
+          "trend_structure": "LH/LL",
+          "momentum": "mixed",
+          "location": "mid_range",
+          "spread_points": 35.0
+        },
+        "execution_diagnostics": {
+          "status_action": "blocked",
+          "status_message": "Directional-structure guard blocked trade: chosen=buy, structure=LH/LL, location=mid_range, momentum=mixed.",
+          "execution_success": false,
+          "retcode": "",
+          "broker_order_id": "",
+          "decision_id": "",
+          "reason": "approval_missing",
+          "failure_class": "approval_or_authority",
+          "truth": {
+            "action_type": "place_trade",
+            "approval_status": "pending",
+            "broker_order_id": "",
+            "broker_status": "",
+            "dry_run": false,
+            "environment": "demo",
+            "execution_status": "pending",
+            "failure_class": "approval_or_authority",
+            "ok": false,
+            "payload_summary": "instrument=XAUUSD setup_family=continuation setup=continuation strategy=evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9) side=buy size=0.0092 confidence=0.544 stop_loss_points=100.00 take_profit_points=160.00 data_source=broker_runtime environment_mode=demo decision_id=2b0649ea",
+            "phase": "preflight",
+            "reason": "approval_missing",
+            "request_id": "exec_8dc512b137",
+            "request_origin": "trader_guarded",
+            "requested_by": "trader",
+            "result": {},
+            "ts": 1778844322.006198
+          },
+          "policy_note": "Execution diagnostics are observability only; they do not change strategy, risk, or execution policy."
+        },
+        "correlation_quality": "monitor_tick_context",
+        "lesson": "reinforce similar setup context after confirmed profit",
+        "policy_note": "Post-trade learning is observability only; it does not alter live trading decisions."
+      },
+      {
+        "ticket": "79695201",
+        "order": 101354153,
+        "position_id": 101354104,
+        "time": "2026-05-15T14:15:51",
+        "symbol": "XAUUSD",
+        "volume": 0.01,
+        "price": 4547.01,
+        "profit": 28.53,
+        "outcome": "win",
+        "setup_fingerprint": "regime=trending|structure=HH/HL|momentum=strong|location=consolidation|blockers=entry_location+confluence_gap+setup_clarity",
+        "market_context": {
+          "session": "london",
+          "regime": "trending",
+          "trend_structure": "HH/HL",
+          "momentum": "strong",
+          "location": "consolidation",
+          "spread_points": 34.0
+        },
+        "execution_diagnostics": {
+          "status_action": "hold",
+          "status_message": "No high-confidence trade found.",
+          "execution_success": false,
+          "retcode": "",
+          "broker_order_id": "",
+          "decision_id": "",
+          "reason": "approval_missing",
+          "failure_class": "approval_or_authority",
+          "truth": {
+            "action_type": "place_trade",
+            "approval_status": "pending",
+            "broker_order_id": "",
+            "broker_status": "",
+            "dry_run": false,
+            "environment": "demo",
+            "execution_status": "pending",
+            "failure_class": "approval_or_authority",
+            "ok": false,
+            "payload_summary": "instrument=XAUUSD setup_family=continuation setup=continuation strategy=evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9) side=buy size=0.0092 confidence=0.544 stop_loss_points=100.00 take_profit_points=160.00 data_source=broker_runtime environment_mode=demo decision_id=2b0649ea",
+            "phase": "preflight",
+            "reason": "approval_missing",
+            "request_id": "exec_8dc512b137",
+            "request_origin": "trader_guarded",
+            "requested_by": "trader",
+            "result": {},
+            "ts": 1778844322.006198
+          },
+          "policy_note": "Execution diagnostics are observability only; they do not change strategy, risk, or execution policy."
+        },
+        "correlation_quality": "monitor_tick_context",
+        "lesson": "reinforce similar setup context after confirmed profit",
+        "policy_note": "Post-trade learning is observability only; it does not alter live trading decisions."
+      },
+      {
+        "ticket": "79696867",
+        "order": 101355835,
+        "position_id": 101355465,
+        "time": "2026-05-15T14:18:19",
+        "symbol": "XAUUSD",
+        "volume": 0.01,
+        "price": 4545.37,
+        "profit": -20.2,
+        "outcome": "loss",
+        "setup_fingerprint": "regime=unknown|structure=mixed|momentum=mixed|location=consolidation|blockers=setup_clarity+momentum_quality+structure_quality",
+        "market_context": {
+          "session": "london",
+          "regime": "unknown",
+          "trend_structure": "mixed",
+          "momentum": "mixed",
+          "location": "consolidation",
+          "spread_points": 35.0
+        },
+        "execution_diagnostics": {
+          "status_action": "hold",
+          "status_message": "No high-confidence trade found.",
+          "execution_success": false,
+          "retcode": "",
+          "broker_order_id": "",
+          "decision_id": "",
+          "reason": "approval_missing",
+          "failure_class": "approval_or_authority",
+          "truth": {
+            "action_type": "place_trade",
+            "approval_status": "pending",
+            "broker_order_id": "",
+            "broker_status": "",
+            "dry_run": false,
+            "environment": "demo",
+            "execution_status": "pending",
+            "failure_class": "approval_or_authority",
+            "ok": false,
+            "payload_summary": "instrument=XAUUSD setup_family=continuation setup=continuation strategy=evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9) side=buy size=0.0092 confidence=0.544 stop_loss_points=100.00 take_profit_points=160.00 data_source=broker_runtime environment_mode=demo decision_id=2b0649ea",
+            "phase": "preflight",
+            "reason": "approval_missing",
+            "request_id": "exec_8dc512b137",
+            "request_origin": "trader_guarded",
+            "requested_by": "trader",
+            "result": {},
+            "ts": 1778844322.006198
+          },
+          "policy_note": "Execution diagnostics are observability only; they do not change strategy, risk, or execution policy."
+        },
+        "correlation_quality": "monitor_tick_context",
+        "lesson": "review entry timing, HTF alignment, momentum, and location before repeating this context",
+        "policy_note": "Post-trade learning is observability only; it does not alter live trading decisions."
+      },
+      {
+        "ticket": "79754491",
+        "order": 101427623,
+        "position_id": 101427546,
+        "time": "2026-05-15T18:02:32",
+        "symbol": "XAUUSD",
+        "volume": 0.01,
+        "price": 4542.74,
+        "profit": -18.01,
+        "outcome": "loss",
+        "setup_fingerprint": "regime=trending|structure=LH/LL|momentum=mixed|location=pullback|blockers=momentum_quality+macro_alignment+confluence_gap",
+        "market_context": {
+          "session": "new_york",
+          "regime": "trending",
+          "trend_structure": "LH/LL",
+          "momentum": "mixed",
+          "location": "pullback",
+          "spread_points": 35.0
+        },
+        "execution_diagnostics": {
+          "status_action": "hold",
+          "status_message": "No high-confidence trade found.",
+          "execution_success": false,
+          "retcode": "",
+          "broker_order_id": "",
+          "decision_id": "",
+          "reason": "approval_missing",
+          "failure_class": "approval_or_authority",
+          "truth": {
+            "action_type": "place_trade",
+            "approval_status": "pending",
+            "broker_order_id": "",
+            "broker_status": "",
+            "dry_run": false,
+            "environment": "demo",
+            "execution_status": "pending",
+            "failure_class": "approval_or_authority",
+            "ok": false,
+            "payload_summary": "instrument=XAUUSD setup_family=continuation setup=continuation strategy=evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9) side=buy size=0.0092 confidence=0.544 stop_loss_points=100.00 take_profit_points=160.00 data_source=broker_runtime environment_mode=demo decision_id=2b0649ea",
+            "phase": "preflight",
+            "reason": "approval_missing",
+            "request_id": "exec_8dc512b137",
+            "request_origin": "trader_guarded",
+            "requested_by": "trader",
+            "result": {},
+            "ts": 1778844322.006198
+          },
+          "policy_note": "Execution diagnostics are observability only; they do not change strategy, risk, or execution policy."
+        },
+        "correlation_quality": "monitor_tick_context",
+        "lesson": "review entry timing, HTF alignment, momentum, and location before repeating this context",
+        "policy_note": "Post-trade learning is observability only; it does not alter live trading decisions."
+      },
+      {
+        "ticket": "79766508",
+        "order": 101440249,
+        "position_id": 101440001,
+        "time": "2026-05-15T18:38:03",
+        "symbol": "XAUUSD",
+        "volume": 0.01,
+        "price": 4529.42,
+        "profit": -16.37,
+        "outcome": "loss",
+        "setup_fingerprint": "regime=trending|structure=HH/HL|momentum=mixed|location=mid_range|blockers=momentum_quality+macro_alignment+entry_location",
+        "market_context": {
+          "session": "new_york",
+          "regime": "trending",
+          "trend_structure": "HH/HL",
+          "momentum": "mixed",
+          "location": "mid_range",
+          "spread_points": 34.0
+        },
+        "execution_diagnostics": {
+          "status_action": "hold",
+          "status_message": "No high-confidence trade found.",
+          "execution_success": false,
+          "retcode": "",
+          "broker_order_id": "",
+          "decision_id": "",
+          "reason": "approval_missing",
+          "failure_class": "approval_or_authority",
+          "truth": {
+            "action_type": "place_trade",
+            "approval_status": "pending",
+            "broker_order_id": "",
+            "broker_status": "",
+            "dry_run": false,
+            "environment": "demo",
+            "execution_status": "pending",
+            "failure_class": "approval_or_authority",
+            "ok": false,
+            "payload_summary": "instrument=XAUUSD setup_family=continuation setup=continuation strategy=evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9) side=sell size=0.0092 confidence=0.523 stop_loss_points=100.00 take_profit_points=160.00 data_source=broker_runtime environment_mode=demo decision_id=931e4ce3",
+            "phase": "preflight",
+            "reason": "approval_missing",
+            "request_id": "exec_9e94041a49",
+            "request_origin": "trader_guarded",
+            "requested_by": "trader",
+            "result": {},
+            "ts": 1778862087.3463492
+          },
+          "policy_note": "Execution diagnostics are observability only; they do not change strategy, risk, or execution policy."
+        },
+        "correlation_quality": "monitor_tick_context",
+        "lesson": "review entry timing, HTF alignment, momentum, and location before repeating this context",
+        "policy_note": "Post-trade learning is observability only; it does not alter live trading decisions."
+      },
+      {
+        "ticket": "79788235",
+        "order": 101470029,
+        "position_id": 101469676,
+        "time": "2026-05-15T19:46:26",
+        "symbol": "XAUUSD",
+        "volume": 0.01,
+        "price": 4551.88,
+        "profit": -16.17,
+        "outcome": "loss",
+        "setup_fingerprint": "regime=unknown|structure=mixed|momentum=mixed|location=consolidation|blockers=setup_clarity+confluence_gap+momentum_quality",
+        "market_context": {
+          "session": "new_york",
+          "regime": "unknown",
+          "trend_structure": "mixed",
+          "momentum": "mixed",
+          "location": "consolidation",
+          "spread_points": 34.0
+        },
+        "execution_diagnostics": {
+          "status_action": "hold",
+          "status_message": "No high-confidence trade found.",
+          "execution_success": false,
+          "retcode": "",
+          "broker_order_id": "",
+          "decision_id": "",
+          "reason": "approval_missing",
+          "failure_class": "approval_or_authority",
+          "truth": {
+            "action_type": "place_trade",
+            "approval_status": "pending",
+            "broker_order_id": "",
+            "broker_status": "",
+            "dry_run": false,
+            "environment": "demo",
+            "execution_status": "pending",
+            "failure_class": "approval_or_authority",
+            "ok": false,
+            "payload_summary": "instrument=XAUUSD setup_family=breakout setup=breakout strategy=gold_breakout_retest side=buy size=0.0092 confidence=0.467 stop_loss_points=100.00 take_profit_points=145.00 data_source=broker_runtime environment_mode=demo decision_id=3a5a3163",
+            "phase": "preflight",
+            "reason": "approval_missing",
+            "request_id": "exec_a212e4f526",
+            "request_origin": "trader_guarded",
+            "requested_by": "trader",
+            "result": {},
+            "ts": 1778864916.457507
+          },
+          "policy_note": "Execution diagnostics are observability only; they do not change strategy, risk, or execution policy."
+        },
+        "correlation_quality": "monitor_tick_context",
+        "lesson": "review entry timing, HTF alignment, momentum, and location before repeating this context",
+        "policy_note": "Post-trade learning is observability only; it does not alter live trading decisions."
+      },
+      {
+        "ticket": "79819153",
+        "order": 101503421,
+        "position_id": 101503413,
+        "time": "2026-05-15T22:25:01",
+        "symbol": "XAUUSD",
+        "volume": 0.01,
+        "price": 4561.64,
+        "profit": -14.67,
+        "outcome": "loss",
+        "setup_fingerprint": "regime=trending|structure=LH/LL|momentum=mixed|location=mid_range|blockers=spread_liquidity+momentum_quality+confluence_gap",
+        "market_context": {
+          "session": "late_us",
+          "regime": "trending",
+          "trend_structure": "LH/LL",
+          "momentum": "mixed",
+          "location": "mid_range",
+          "spread_points": 45.0
+        },
+        "execution_diagnostics": {
+          "status_action": "hold",
+          "status_message": "No high-confidence trade found.",
+          "execution_success": false,
+          "retcode": "",
+          "broker_order_id": "",
+          "decision_id": "",
+          "reason": "approval_missing",
+          "failure_class": "approval_or_authority",
+          "truth": {
+            "action_type": "place_trade",
+            "approval_status": "pending",
+            "broker_order_id": "",
+            "broker_status": "",
+            "dry_run": false,
+            "environment": "demo",
+            "execution_status": "pending",
+            "failure_class": "approval_or_authority",
+            "ok": false,
+            "payload_summary": "instrument=XAUUSD setup_family=continuation setup=continuation strategy=evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9) side=buy size=0.0092 confidence=0.544 stop_loss_points=100.00 take_profit_points=160.00 data_source=broker_runtime environment_mode=demo decision_id=2b0649ea",
+            "phase": "preflight",
+            "reason": "approval_missing",
+            "request_id": "exec_8dc512b137",
+            "request_origin": "trader_guarded",
+            "requested_by": "trader",
+            "result": {},
+            "ts": 1778844322.006198
+          },
+          "policy_note": "Execution diagnostics are observability only; they do not change strategy, risk, or execution policy."
+        },
+        "correlation_quality": "monitor_tick_context",
+        "lesson": "review entry timing, HTF alignment, momentum, and location before repeating this context",
+        "policy_note": "Post-trade learning is observability only; it does not alter live trading decisions."
+      },
+      {
+        "ticket": "80385701",
+        "order": 102200891,
+        "position_id": 102200847,
+        "time": "2026-05-19T21:07:21",
+        "symbol": "XAUUSD",
+        "volume": 0.01,
+        "price": 4500.32,
+        "profit": -25.09,
+        "outcome": "loss",
+        "setup_fingerprint": "regime=trending|structure=HH/HL|momentum=mixed|location=mid_range|blockers=confluence_gap+momentum_quality+entry_location",
+        "market_context": {
+          "session": "new_york",
+          "regime": "trending",
+          "trend_structure": "HH/HL",
+          "momentum": "mixed",
+          "location": "mid_range",
+          "spread_points": 35.0
+        },
+        "execution_diagnostics": {
+          "status_action": "blocked",
+          "status_message": "Higher-timeframe alignment required: chosen=buy, htf_bias=sell.",
+          "execution_success": false,
+          "retcode": "",
+          "broker_order_id": "",
+          "decision_id": "",
+          "reason": "Higher-timeframe alignment required: chosen=buy, htf_bias=sell.",
+          "failure_class": "quality_gate",
+          "truth": {},
+          "truth_stale": true,
+          "truth_age_seconds": 442942.83,
+          "ignored_stale_truth": {
+            "reason": "approval_missing",
+            "failure_class": "approval_or_authority",
+            "request_id": "exec_8dc512b137",
+            "age_seconds": 442942.83
+          },
+          "policy_note": "Execution diagnostics are observability only; they do not change strategy, risk, or execution policy."
+        },
+        "correlation_quality": "monitor_tick_context",
+        "lesson": "review entry timing, HTF alignment, momentum, and location before repeating this context",
+        "policy_note": "Post-trade learning is observability only; it does not alter live trading decisions."
+      }
+    ],
+    "latest_outcomes": [
+      {
+        "ticket": "80385701",
+        "order": 102200891,
+        "position_id": 102200847,
+        "time": "2026-05-19T21:07:21",
+        "symbol": "XAUUSD",
+        "volume": 0.01,
+        "price": 4500.32,
+        "profit": -25.09,
+        "outcome": "loss",
+        "setup_fingerprint": "regime=trending|structure=HH/HL|momentum=mixed|location=mid_range|blockers=confluence_gap+momentum_quality+entry_location",
+        "market_context": {
+          "session": "new_york",
+          "regime": "trending",
+          "trend_structure": "HH/HL",
+          "momentum": "mixed",
+          "location": "mid_range",
+          "spread_points": 35.0
+        },
+        "execution_diagnostics": {
+          "status_action": "blocked",
+          "status_message": "Higher-timeframe alignment required: chosen=buy, htf_bias=sell.",
+          "execution_success": false,
+          "retcode": "",
+          "broker_order_id": "",
+          "decision_id": "",
+          "reason": "Higher-timeframe alignment required: chosen=buy, htf_bias=sell.",
+          "failure_class": "quality_gate",
+          "truth": {},
+          "truth_stale": true,
+          "truth_age_seconds": 442942.83,
+          "ignored_stale_truth": {
+            "reason": "approval_missing",
+            "failure_class": "approval_or_authority",
+            "request_id": "exec_8dc512b137",
+            "age_seconds": 442942.83
+          },
+          "policy_note": "Execution diagnostics are observability only; they do not change strategy, risk, or execution policy."
+        },
+        "correlation_quality": "monitor_tick_context",
+        "lesson": "review entry timing, HTF alignment, momentum, and location before repeating this context",
+        "policy_note": "Post-trade learning is observability only; it does not alter live trading decisions."
+      }
+    ],
+    "total_closed_trades_seen": 10,
+    "top_patterns": [
+      {
+        "fingerprint": "regime=trending|structure=LH/LL|momentum=mixed|location=mid_range|blockers=momentum_quality+entry_location+structure_quality",
+        "count": 3,
+        "wins": 2,
+        "losses": 1,
+        "profit": 38.14,
+        "last_seen": "2026-05-15T13:26:57.167394+02:00"
+      },
+      {
+        "fingerprint": "regime=trending|structure=HH/HL|momentum=strong|location=consolidation|blockers=entry_location+confluence_gap+setup_clarity",
+        "count": 1,
+        "wins": 1,
+        "losses": 0,
+        "profit": 28.53,
+        "last_seen": "2026-05-15T14:14:28.335791+02:00"
+      },
+      {
+        "fingerprint": "regime=trending|structure=LH/LL|momentum=mixed|location=mid_range|blockers=spread_liquidity+momentum_quality+confluence_gap",
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "profit": -14.67,
+        "last_seen": "2026-05-15T22:23:09.451914+02:00"
+      },
+      {
+        "fingerprint": "regime=unknown|structure=mixed|momentum=mixed|location=consolidation|blockers=setup_clarity+confluence_gap+momentum_quality",
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "profit": -16.17,
+        "last_seen": "2026-05-15T19:44:32.966066+02:00"
+      },
+      {
+        "fingerprint": "regime=trending|structure=HH/HL|momentum=mixed|location=mid_range|blockers=momentum_quality+macro_alignment+entry_location",
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "profit": -16.37,
+        "last_seen": "2026-05-15T18:39:14.430136+02:00"
+      },
+      {
+        "fingerprint": "regime=trending|structure=LH/LL|momentum=mixed|location=pullback|blockers=momentum_quality+macro_alignment+confluence_gap",
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "profit": -18.01,
+        "last_seen": "2026-05-15T18:01:09.371747+02:00"
+      },
+      {
+        "fingerprint": "regime=unknown|structure=mixed|momentum=mixed|location=consolidation|blockers=setup_clarity+momentum_quality+structure_quality",
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "profit": -20.2,
+        "last_seen": "2026-05-15T14:16:30.443594+02:00"
+      },
+      {
+        "fingerprint": "regime=trending|structure=HH/HL|momentum=mixed|location=mid_range|blockers=confluence_gap+momentum_quality+entry_location",
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "profit": -25.09,
+        "last_seen": "2026-05-20T16:27:44.836322+02:00"
+      }
+    ],
+    "patterns": {
+      "regime=trending|structure=LH/LL|momentum=mixed|location=mid_range|blockers=momentum_quality+entry_location+structure_quality": {
+        "count": 3,
+        "wins": 2,
+        "losses": 1,
+        "profit": 38.14,
+        "last_seen": "2026-05-15T13:26:57.167394+02:00",
+        "latest": {
+          "ticket": "79671883",
+          "order": 101330243,
+          "position_id": 101330222,
+          "time": "2026-05-15T12:28:05",
+          "symbol": "XAUUSD",
+          "volume": 0.01,
+          "price": 4581.98,
+          "profit": 27.06,
+          "outcome": "win",
+          "setup_fingerprint": "regime=trending|structure=LH/LL|momentum=mixed|location=mid_range|blockers=momentum_quality+entry_location+structure_quality",
+          "market_context": {
+            "session": "london",
+            "regime": "trending",
+            "trend_structure": "LH/LL",
+            "momentum": "mixed",
+            "location": "mid_range",
+            "spread_points": 35.0
+          },
+          "execution_diagnostics": {
+            "status_action": "blocked",
+            "status_message": "Directional-structure guard blocked trade: chosen=buy, structure=LH/LL, location=mid_range, momentum=mixed.",
+            "execution_success": false,
+            "retcode": "",
+            "broker_order_id": "",
+            "decision_id": "",
+            "reason": "approval_missing",
+            "failure_class": "approval_or_authority",
+            "truth": {
+              "action_type": "place_trade",
+              "approval_status": "pending",
+              "broker_order_id": "",
+              "broker_status": "",
+              "dry_run": false,
+              "environment": "demo",
+              "execution_status": "pending",
+              "failure_class": "approval_or_authority",
+              "ok": false,
+              "payload_summary": "instrument=XAUUSD setup_family=continuation setup=continuation strategy=evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9) side=buy size=0.0092 confidence=0.544 stop_loss_points=100.00 take_profit_points=160.00 data_source=broker_runtime environment_mode=demo decision_id=2b0649ea",
+              "phase": "preflight",
+              "reason": "approval_missing",
+              "request_id": "exec_8dc512b137",
+              "request_origin": "trader_guarded",
+              "requested_by": "trader",
+              "result": {},
+              "ts": 1778844322.006198
+            },
+            "policy_note": "Execution diagnostics are observability only; they do not change strategy, risk, or execution policy."
+          },
+          "correlation_quality": "monitor_tick_context",
+          "lesson": "reinforce similar setup context after confirmed profit",
+          "policy_note": "Post-trade learning is observability only; it does not alter live trading decisions."
+        }
+      },
+      "regime=trending|structure=HH/HL|momentum=strong|location=consolidation|blockers=entry_location+confluence_gap+setup_clarity": {
+        "count": 1,
+        "wins": 1,
+        "losses": 0,
+        "profit": 28.53,
+        "last_seen": "2026-05-15T14:14:28.335791+02:00",
+        "latest": {
+          "ticket": "79695201",
+          "order": 101354153,
+          "position_id": 101354104,
+          "time": "2026-05-15T14:15:51",
+          "symbol": "XAUUSD",
+          "volume": 0.01,
+          "price": 4547.01,
+          "profit": 28.53,
+          "outcome": "win",
+          "setup_fingerprint": "regime=trending|structure=HH/HL|momentum=strong|location=consolidation|blockers=entry_location+confluence_gap+setup_clarity",
+          "market_context": {
+            "session": "london",
+            "regime": "trending",
+            "trend_structure": "HH/HL",
+            "momentum": "strong",
+            "location": "consolidation",
+            "spread_points": 34.0
+          },
+          "execution_diagnostics": {
+            "status_action": "hold",
+            "status_message": "No high-confidence trade found.",
+            "execution_success": false,
+            "retcode": "",
+            "broker_order_id": "",
+            "decision_id": "",
+            "reason": "approval_missing",
+            "failure_class": "approval_or_authority",
+            "truth": {
+              "action_type": "place_trade",
+              "approval_status": "pending",
+              "broker_order_id": "",
+              "broker_status": "",
+              "dry_run": false,
+              "environment": "demo",
+              "execution_status": "pending",
+              "failure_class": "approval_or_authority",
+              "ok": false,
+              "payload_summary": "instrument=XAUUSD setup_family=continuation setup=continuation strategy=evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9) side=buy size=0.0092 confidence=0.544 stop_loss_points=100.00 take_profit_points=160.00 data_source=broker_runtime environment_mode=demo decision_id=2b0649ea",
+              "phase": "preflight",
+              "reason": "approval_missing",
+              "request_id": "exec_8dc512b137",
+              "request_origin": "trader_guarded",
+              "requested_by": "trader",
+              "result": {},
+              "ts": 1778844322.006198
+            },
+            "policy_note": "Execution diagnostics are observability only; they do not change strategy, risk, or execution policy."
+          },
+          "correlation_quality": "monitor_tick_context",
+          "lesson": "reinforce similar setup context after confirmed profit",
+          "policy_note": "Post-trade learning is observability only; it does not alter live trading decisions."
+        }
+      },
+      "regime=trending|structure=LH/LL|momentum=mixed|location=mid_range|blockers=spread_liquidity+momentum_quality+confluence_gap": {
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "profit": -14.67,
+        "last_seen": "2026-05-15T22:23:09.451914+02:00",
+        "latest": {
+          "ticket": "79819153",
+          "order": 101503421,
+          "position_id": 101503413,
+          "time": "2026-05-15T22:25:01",
+          "symbol": "XAUUSD",
+          "volume": 0.01,
+          "price": 4561.64,
+          "profit": -14.67,
+          "outcome": "loss",
+          "setup_fingerprint": "regime=trending|structure=LH/LL|momentum=mixed|location=mid_range|blockers=spread_liquidity+momentum_quality+confluence_gap",
+          "market_context": {
+            "session": "late_us",
+            "regime": "trending",
+            "trend_structure": "LH/LL",
+            "momentum": "mixed",
+            "location": "mid_range",
+            "spread_points": 45.0
+          },
+          "execution_diagnostics": {
+            "status_action": "hold",
+            "status_message": "No high-confidence trade found.",
+            "execution_success": false,
+            "retcode": "",
+            "broker_order_id": "",
+            "decision_id": "",
+            "reason": "approval_missing",
+            "failure_class": "approval_or_authority",
+            "truth": {
+              "action_type": "place_trade",
+              "approval_status": "pending",
+              "broker_order_id": "",
+              "broker_status": "",
+              "dry_run": false,
+              "environment": "demo",
+              "execution_status": "pending",
+              "failure_class": "approval_or_authority",
+              "ok": false,
+              "payload_summary": "instrument=XAUUSD setup_family=continuation setup=continuation strategy=evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9) side=buy size=0.0092 confidence=0.544 stop_loss_points=100.00 take_profit_points=160.00 data_source=broker_runtime environment_mode=demo decision_id=2b0649ea",
+              "phase": "preflight",
+              "reason": "approval_missing",
+              "request_id": "exec_8dc512b137",
+              "request_origin": "trader_guarded",
+              "requested_by": "trader",
+              "result": {},
+              "ts": 1778844322.006198
+            },
+            "policy_note": "Execution diagnostics are observability only; they do not change strategy, risk, or execution policy."
+          },
+          "correlation_quality": "monitor_tick_context",
+          "lesson": "review entry timing, HTF alignment, momentum, and location before repeating this context",
+          "policy_note": "Post-trade learning is observability only; it does not alter live trading decisions."
+        }
+      },
+      "regime=unknown|structure=mixed|momentum=mixed|location=consolidation|blockers=setup_clarity+confluence_gap+momentum_quality": {
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "profit": -16.17,
+        "last_seen": "2026-05-15T19:44:32.966066+02:00",
+        "latest": {
+          "ticket": "79788235",
+          "order": 101470029,
+          "position_id": 101469676,
+          "time": "2026-05-15T19:46:26",
+          "symbol": "XAUUSD",
+          "volume": 0.01,
+          "price": 4551.88,
+          "profit": -16.17,
+          "outcome": "loss",
+          "setup_fingerprint": "regime=unknown|structure=mixed|momentum=mixed|location=consolidation|blockers=setup_clarity+confluence_gap+momentum_quality",
+          "market_context": {
+            "session": "new_york",
+            "regime": "unknown",
+            "trend_structure": "mixed",
+            "momentum": "mixed",
+            "location": "consolidation",
+            "spread_points": 34.0
+          },
+          "execution_diagnostics": {
+            "status_action": "hold",
+            "status_message": "No high-confidence trade found.",
+            "execution_success": false,
+            "retcode": "",
+            "broker_order_id": "",
+            "decision_id": "",
+            "reason": "approval_missing",
+            "failure_class": "approval_or_authority",
+            "truth": {
+              "action_type": "place_trade",
+              "approval_status": "pending",
+              "broker_order_id": "",
+              "broker_status": "",
+              "dry_run": false,
+              "environment": "demo",
+              "execution_status": "pending",
+              "failure_class": "approval_or_authority",
+              "ok": false,
+              "payload_summary": "instrument=XAUUSD setup_family=breakout setup=breakout strategy=gold_breakout_retest side=buy size=0.0092 confidence=0.467 stop_loss_points=100.00 take_profit_points=145.00 data_source=broker_runtime environment_mode=demo decision_id=3a5a3163",
+              "phase": "preflight",
+              "reason": "approval_missing",
+              "request_id": "exec_a212e4f526",
+              "request_origin": "trader_guarded",
+              "requested_by": "trader",
+              "result": {},
+              "ts": 1778864916.457507
+            },
+            "policy_note": "Execution diagnostics are observability only; they do not change strategy, risk, or execution policy."
+          },
+          "correlation_quality": "monitor_tick_context",
+          "lesson": "review entry timing, HTF alignment, momentum, and location before repeating this context",
+          "policy_note": "Post-trade learning is observability only; it does not alter live trading decisions."
+        }
+      },
+      "regime=trending|structure=HH/HL|momentum=mixed|location=mid_range|blockers=momentum_quality+macro_alignment+entry_location": {
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "profit": -16.37,
+        "last_seen": "2026-05-15T18:39:14.430136+02:00",
+        "latest": {
+          "ticket": "79766508",
+          "order": 101440249,
+          "position_id": 101440001,
+          "time": "2026-05-15T18:38:03",
+          "symbol": "XAUUSD",
+          "volume": 0.01,
+          "price": 4529.42,
+          "profit": -16.37,
+          "outcome": "loss",
+          "setup_fingerprint": "regime=trending|structure=HH/HL|momentum=mixed|location=mid_range|blockers=momentum_quality+macro_alignment+entry_location",
+          "market_context": {
+            "session": "new_york",
+            "regime": "trending",
+            "trend_structure": "HH/HL",
+            "momentum": "mixed",
+            "location": "mid_range",
+            "spread_points": 34.0
+          },
+          "execution_diagnostics": {
+            "status_action": "hold",
+            "status_message": "No high-confidence trade found.",
+            "execution_success": false,
+            "retcode": "",
+            "broker_order_id": "",
+            "decision_id": "",
+            "reason": "approval_missing",
+            "failure_class": "approval_or_authority",
+            "truth": {
+              "action_type": "place_trade",
+              "approval_status": "pending",
+              "broker_order_id": "",
+              "broker_status": "",
+              "dry_run": false,
+              "environment": "demo",
+              "execution_status": "pending",
+              "failure_class": "approval_or_authority",
+              "ok": false,
+              "payload_summary": "instrument=XAUUSD setup_family=continuation setup=continuation strategy=evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9) side=sell size=0.0092 confidence=0.523 stop_loss_points=100.00 take_profit_points=160.00 data_source=broker_runtime environment_mode=demo decision_id=931e4ce3",
+              "phase": "preflight",
+              "reason": "approval_missing",
+              "request_id": "exec_9e94041a49",
+              "request_origin": "trader_guarded",
+              "requested_by": "trader",
+              "result": {},
+              "ts": 1778862087.3463492
+            },
+            "policy_note": "Execution diagnostics are observability only; they do not change strategy, risk, or execution policy."
+          },
+          "correlation_quality": "monitor_tick_context",
+          "lesson": "review entry timing, HTF alignment, momentum, and location before repeating this context",
+          "policy_note": "Post-trade learning is observability only; it does not alter live trading decisions."
+        }
+      },
+      "regime=trending|structure=LH/LL|momentum=mixed|location=pullback|blockers=momentum_quality+macro_alignment+confluence_gap": {
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "profit": -18.01,
+        "last_seen": "2026-05-15T18:01:09.371747+02:00",
+        "latest": {
+          "ticket": "79754491",
+          "order": 101427623,
+          "position_id": 101427546,
+          "time": "2026-05-15T18:02:32",
+          "symbol": "XAUUSD",
+          "volume": 0.01,
+          "price": 4542.74,
+          "profit": -18.01,
+          "outcome": "loss",
+          "setup_fingerprint": "regime=trending|structure=LH/LL|momentum=mixed|location=pullback|blockers=momentum_quality+macro_alignment+confluence_gap",
+          "market_context": {
+            "session": "new_york",
+            "regime": "trending",
+            "trend_structure": "LH/LL",
+            "momentum": "mixed",
+            "location": "pullback",
+            "spread_points": 35.0
+          },
+          "execution_diagnostics": {
+            "status_action": "hold",
+            "status_message": "No high-confidence trade found.",
+            "execution_success": false,
+            "retcode": "",
+            "broker_order_id": "",
+            "decision_id": "",
+            "reason": "approval_missing",
+            "failure_class": "approval_or_authority",
+            "truth": {
+              "action_type": "place_trade",
+              "approval_status": "pending",
+              "broker_order_id": "",
+              "broker_status": "",
+              "dry_run": false,
+              "environment": "demo",
+              "execution_status": "pending",
+              "failure_class": "approval_or_authority",
+              "ok": false,
+              "payload_summary": "instrument=XAUUSD setup_family=continuation setup=continuation strategy=evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9) side=buy size=0.0092 confidence=0.544 stop_loss_points=100.00 take_profit_points=160.00 data_source=broker_runtime environment_mode=demo decision_id=2b0649ea",
+              "phase": "preflight",
+              "reason": "approval_missing",
+              "request_id": "exec_8dc512b137",
+              "request_origin": "trader_guarded",
+              "requested_by": "trader",
+              "result": {},
+              "ts": 1778844322.006198
+            },
+            "policy_note": "Execution diagnostics are observability only; they do not change strategy, risk, or execution policy."
+          },
+          "correlation_quality": "monitor_tick_context",
+          "lesson": "review entry timing, HTF alignment, momentum, and location before repeating this context",
+          "policy_note": "Post-trade learning is observability only; it does not alter live trading decisions."
+        }
+      },
+      "regime=unknown|structure=mixed|momentum=mixed|location=consolidation|blockers=setup_clarity+momentum_quality+structure_quality": {
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "profit": -20.2,
+        "last_seen": "2026-05-15T14:16:30.443594+02:00",
+        "latest": {
+          "ticket": "79696867",
+          "order": 101355835,
+          "position_id": 101355465,
+          "time": "2026-05-15T14:18:19",
+          "symbol": "XAUUSD",
+          "volume": 0.01,
+          "price": 4545.37,
+          "profit": -20.2,
+          "outcome": "loss",
+          "setup_fingerprint": "regime=unknown|structure=mixed|momentum=mixed|location=consolidation|blockers=setup_clarity+momentum_quality+structure_quality",
+          "market_context": {
+            "session": "london",
+            "regime": "unknown",
+            "trend_structure": "mixed",
+            "momentum": "mixed",
+            "location": "consolidation",
+            "spread_points": 35.0
+          },
+          "execution_diagnostics": {
+            "status_action": "hold",
+            "status_message": "No high-confidence trade found.",
+            "execution_success": false,
+            "retcode": "",
+            "broker_order_id": "",
+            "decision_id": "",
+            "reason": "approval_missing",
+            "failure_class": "approval_or_authority",
+            "truth": {
+              "action_type": "place_trade",
+              "approval_status": "pending",
+              "broker_order_id": "",
+              "broker_status": "",
+              "dry_run": false,
+              "environment": "demo",
+              "execution_status": "pending",
+              "failure_class": "approval_or_authority",
+              "ok": false,
+              "payload_summary": "instrument=XAUUSD setup_family=continuation setup=continuation strategy=evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9) side=buy size=0.0092 confidence=0.544 stop_loss_points=100.00 take_profit_points=160.00 data_source=broker_runtime environment_mode=demo decision_id=2b0649ea",
+              "phase": "preflight",
+              "reason": "approval_missing",
+              "request_id": "exec_8dc512b137",
+              "request_origin": "trader_guarded",
+              "requested_by": "trader",
+              "result": {},
+              "ts": 1778844322.006198
+            },
+            "policy_note": "Execution diagnostics are observability only; they do not change strategy, risk, or execution policy."
+          },
+          "correlation_quality": "monitor_tick_context",
+          "lesson": "review entry timing, HTF alignment, momentum, and location before repeating this context",
+          "policy_note": "Post-trade learning is observability only; it does not alter live trading decisions."
+        }
+      },
+      "regime=trending|structure=HH/HL|momentum=mixed|location=mid_range|blockers=confluence_gap+momentum_quality+entry_location": {
+        "count": 1,
+        "wins": 0,
+        "losses": 1,
+        "profit": -25.09,
+        "last_seen": "2026-05-20T16:27:44.836322+02:00",
+        "latest": {
+          "ticket": "80385701",
+          "order": 102200891,
+          "position_id": 102200847,
+          "time": "2026-05-19T21:07:21",
+          "symbol": "XAUUSD",
+          "volume": 0.01,
+          "price": 4500.32,
+          "profit": -25.09,
+          "outcome": "loss",
+          "setup_fingerprint": "regime=trending|structure=HH/HL|momentum=mixed|location=mid_range|blockers=confluence_gap+momentum_quality+entry_location",
+          "market_context": {
+            "session": "new_york",
+            "regime": "trending",
+            "trend_structure": "HH/HL",
+            "momentum": "mixed",
+            "location": "mid_range",
+            "spread_points": 35.0
+          },
+          "execution_diagnostics": {
+            "status_action": "blocked",
+            "status_message": "Higher-timeframe alignment required: chosen=buy, htf_bias=sell.",
+            "execution_success": false,
+            "retcode": "",
+            "broker_order_id": "",
+            "decision_id": "",
+            "reason": "Higher-timeframe alignment required: chosen=buy, htf_bias=sell.",
+            "failure_class": "quality_gate",
+            "truth": {},
+            "truth_stale": true,
+            "truth_age_seconds": 442942.83,
+            "ignored_stale_truth": {
+              "reason": "approval_missing",
+              "failure_class": "approval_or_authority",
+              "request_id": "exec_8dc512b137",
+              "age_seconds": 442942.83
+            },
+            "policy_note": "Execution diagnostics are observability only; they do not change strategy, risk, or execution policy."
+          },
+          "correlation_quality": "monitor_tick_context",
+          "lesson": "review entry timing, HTF alignment, momentum, and location before repeating this context",
+          "policy_note": "Post-trade learning is observability only; it does not alter live trading decisions."
+        }
+      }
+    },
+    "policy_note": "This connects MT5 outcomes to observed setup context; it does not change strategy, risk, guard, or execution policy."
+  },
+  "status_api_failure_count": 0,
+  "last_status_api_recovery_at": 1779373808.4638987
+}

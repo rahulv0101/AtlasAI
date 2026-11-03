@@ -1,0 +1,9 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui-server --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\pythonw.exe -m atlas_ai.main ui-server --mode-override live
+2026-08-14 19:52:34,313 | INFO | atlas_ai.voice.startup | Startup greeting triggered.
+2026-08-14 19:52:34,349 | WARNING | atlas_ai.voice.startup | Startup voice clone backend unavailable (backend=none); falling back to existing speech chain.
+2026-08-14 19:52:34,373 | INFO | atlas_ai.voice.startup | Fallback voice used for startup greeting.
+2026-08-14 19:52:34,375 | INFO | atlas_ai.voice.startup | Startup greeting playback success.
+2026-08-14 19:52:34,427 | INFO | atlas_ai.ui_server | Starting durable UI server on http://127.0.0.1:8765
+2026-08-14 19:52:35,211 | INFO | werkzeug | 127.0.0.1 - - [14/Aug/2026 19:52:35] "GET / HTTP/1.1" 200 -
+2026-08-14 19:52:35,470 | INFO | werkzeug | 127.0.0.1 - - [14/Aug/2026 19:52:35] "GET / HTTP/1.1" 200 -

@@ -1,0 +1,22 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-12 10:17:42,706 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-12 10:17:45,709 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-12 10:17:47,038 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-12 10:17:47,063 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=3.42 (34.2pips) TP=-5.13 (51.3pips) ATR=17.09 mult=2.00
+2026-05-12 10:17:47,749 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (short, 9 min left): single_loss_cooldown. No trade executed.
+2026-05-12 10:18:49,158 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (short, 8 min left): single_loss_cooldown. No trade executed.
+2026-05-12 10:19:50,737 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (short, 7 min left): single_loss_cooldown. No trade executed.
+2026-05-12 10:20:51,823 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (short, 5 min left): single_loss_cooldown. No trade executed.
+2026-05-12 10:21:52,968 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (short, 4 min left): single_loss_cooldown. No trade executed.
+2026-05-12 10:22:53,924 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (short, 3 min left): single_loss_cooldown. No trade executed.
+2026-05-12 10:23:54,894 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (short, 2 min left): single_loss_cooldown. No trade executed.
+2026-05-12 10:24:56,092 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (short, 1 min left): single_loss_cooldown. No trade executed.
+2026-05-12 10:25:57,595 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (short, 1 min left): single_loss_cooldown. No trade executed.
+2026-05-12 10:26:58,634 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-12 10:27:59,446 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (short, 11 min left): single_loss_cooldown. No trade executed.
+2026-05-12 10:28:59,977 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (short, 10 min left): single_loss_cooldown. No trade executed.
+2026-05-12 10:30:00,657 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (short, 9 min left): single_loss_cooldown. No trade executed.
+2026-05-12 10:31:01,325 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (short, 8 min left): single_loss_cooldown. No trade executed.
+2026-05-12 10:32:01,876 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (short, 7 min left): single_loss_cooldown. No trade executed.
+2026-05-12 10:33:02,511 | WARNING | atlas_ai.trader | Risk guard active: Cooldown active (short, 11 min left): single_loss_cooldown. No trade executed.

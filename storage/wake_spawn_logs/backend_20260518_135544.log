@@ -1,0 +1,19 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-18 15:55:51,843 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-18 15:55:54,856 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-18 15:56:02,698 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-18 15:56:02,706 | INFO | atlas_ai.market_scanner | SL/TP calc (LEARNING_AGGRESSIVE_DEMO): SL=-5.21 (52.1pips) TP=7.81 (78.1pips) ATR=26.03 mult=2.00
+2026-05-18 15:56:07,534 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 15:57:07,872 | INFO | atlas_ai.gold_knowledge | Gold knowledge applied | base=0.815 boosts=[] penalties=[] final=0.815
+2026-05-18 15:57:07,872 | INFO | atlas_ai.trader | Spread check: 3.40 pips (max: 7.00) -- PASS
+2026-05-18 15:57:07,872 | INFO | atlas_ai.trader | Structure check: score=0.097 (min: 0.240) -- BLOCK
+2026-05-18 15:59:08,885 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 16:00:09,371 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 16:01:09,807 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-18 16:02:10,272 | INFO | atlas_ai.gold_knowledge | Gold knowledge applied | base=0.616 boosts=[] penalties=[] final=0.616
+2026-05-18 16:02:10,272 | INFO | atlas_ai.trader | Spread check: 3.50 pips (max: 7.00) -- PASS
+2026-05-18 16:02:10,272 | INFO | atlas_ai.trader | Structure check: score=0.059 (min: 0.240) -- BLOCK
+2026-05-18 16:03:10,748 | INFO | atlas_ai.gold_knowledge | Gold knowledge applied | base=0.622 boosts=[] penalties=[] final=0.622
+2026-05-18 16:03:10,748 | INFO | atlas_ai.trader | Spread check: 3.40 pips (max: 7.00) -- PASS
+2026-05-18 16:03:10,748 | INFO | atlas_ai.trader | Structure check: score=0.170 (min: 0.240) -- BLOCK

@@ -1,0 +1,48 @@
+2026-06-02 18:30:24,659 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-06-02 18:30:27,663 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-06-02 18:30:28,981 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-06-02 18:30:28,986 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=29.9pips TP=44.9pips ATR=14.96 mult=2.00
+2026-06-02 18:30:32,174 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-02 18:30:32,177 | INFO | openai._base_client | Retrying request to /chat/completions in 0.417735 seconds
+2026-06-02 18:30:32,973 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-02 18:30:32,976 | INFO | openai._base_client | Retrying request to /chat/completions in 0.966764 seconds
+2026-06-02 18:30:34,373 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-02 18:31:35,417 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 18:32:36,373 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 18:33:37,438 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 18:37:41,741 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 18:38:29,145 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=30.2pips TP=45.3pips ATR=15.10 mult=2.00
+2026-06-02 18:39:43,735 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 18:40:44,947 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 18:41:45,981 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 18:42:46,884 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 18:43:47,732 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 18:44:59,295 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=30.3pips TP=45.5pips ATR=15.17 mult=2.00
+2026-06-02 18:45:50,695 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 18:46:51,568 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 18:55:02,928 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 18:56:03,879 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 18:57:04,813 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 18:58:05,833 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 19:02:11,082 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 19:03:12,005 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 19:04:12,868 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 19:05:13,756 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 19:06:14,604 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 19:07:15,506 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 19:08:16,558 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 19:09:17,340 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 19:09:29,687 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=29.1pips TP=43.7pips ATR=14.57 mult=2.00
+2026-06-02 19:10:18,209 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 19:11:19,084 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 19:12:20,174 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 19:13:20,968 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 19:14:21,747 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 19:15:22,579 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 19:16:23,813 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 19:16:29,839 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=29.3pips TP=43.9pips ATR=14.65 mult=2.00
+2026-06-02 19:17:24,985 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 19:18:26,108 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 19:19:27,351 | INFO | atlas_ai.trader | No directional trade signal selected.
+2026-06-02 19:19:29,925 | INFO | atlas_ai.market_scanner | SL/TP distance calc (LEARNING_AGGRESSIVE_DEMO): SL=29.3pips TP=43.9pips ATR=14.65 mult=2.00
+2026-06-02 19:20:28,588 | INFO | atlas_ai.trader | No directional trade signal selected.

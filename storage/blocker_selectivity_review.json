@@ -1,0 +1,36 @@
+{
+  "available": true,
+  "correct_block_rate": 0.2284,
+  "created_at": "2026-10-23T05:17:16.024883+00:00",
+  "missed_rate": 0.6294,
+  "outcome_counts": {
+    "correct_hold_or_block": 45,
+    "inconclusive": 28,
+    "missed_opportunity": 124
+  },
+  "policy": {
+    "does_not_change_execution_policy": true,
+    "does_not_change_risk_policy": true,
+    "does_not_change_strategy_logic": true,
+    "does_not_execute": true,
+    "requires_operator_approval_for_any_candidate_rule": true,
+    "review_only": true
+  },
+  "proposal": {
+    "candidate_change_class": "context_filter_or_confirmation_rule",
+    "focus": "inspect whether the blocker needs more context-aware confirmation, not a lower global threshold",
+    "forbidden_change_class": "global_guard_disable_or_unapproved_threshold_loosen",
+    "next_validation": "replay reviewed cases against a shadow-only candidate rule before any operator approval step",
+    "type": "offline_selectivity_review"
+  },
+  "review_priority": "high",
+  "samples": 197,
+  "schema": "atlas_blocker_selectivity_review_v1",
+  "sides": [
+    "buy",
+    "sell"
+  ],
+  "target_blocker": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=mixed, session=london).",
+  "total_adverse_blocked_points": 121752.0,
+  "total_favorable_missed_points": 70527.0
+}

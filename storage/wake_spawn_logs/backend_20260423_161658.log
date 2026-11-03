@@ -1,0 +1,18 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-04-23 18:17:01,990 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-04-23 18:17:04,999 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-04-23 18:17:12,923 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-23 18:17:12,923 | INFO | openai._base_client | Retrying request to /chat/completions in 0.456013 seconds
+2026-04-23 18:17:14,968 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-23 18:17:14,972 | INFO | openai._base_client | Retrying request to /chat/completions in 0.964126 seconds
+2026-04-23 18:17:16,289 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-23 18:22:59,023 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-23 18:22:59,075 | INFO | openai._base_client | Retrying request to /chat/completions in 0.433626 seconds
+2026-04-23 18:23:00,761 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-23 18:23:00,767 | INFO | openai._base_client | Retrying request to /chat/completions in 0.863903 seconds
+2026-04-23 18:23:01,999 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-23 18:28:06,659 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-23 18:28:06,659 | INFO | openai._base_client | Retrying request to /chat/completions in 0.493563 seconds
+2026-04-23 18:28:07,795 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-23 18:28:07,797 | INFO | openai._base_client | Retrying request to /chat/completions in 0.857681 seconds
+2026-04-23 18:28:09,077 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"

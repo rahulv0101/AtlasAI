@@ -1,0 +1,7 @@
+trace:start
+trace:settings 30000 800 2000
+trace:connect
+trace:connected
+trace:train
+trace:train_done HistoricalTrainingResult(bars=800, total_return=np.float64(-0.05478869673703503), trades=524, wins=111, losses=413)
+trace:shutdown

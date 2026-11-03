@@ -1,0 +1,33 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-14 22:42:26,263 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-14 22:42:29,280 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-14 22:42:33,879 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-14 22:42:40,888 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-14 22:42:40,893 | INFO | openai._base_client | Retrying request to /chat/completions in 0.425400 seconds
+2026-05-14 22:42:41,693 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-14 22:42:41,699 | INFO | openai._base_client | Retrying request to /chat/completions in 0.842491 seconds
+2026-05-14 22:42:43,406 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-14 22:44:44,290 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-14 22:47:47,100 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-14 22:47:47,100 | INFO | openai._base_client | Retrying request to /chat/completions in 0.425602 seconds
+2026-05-14 22:47:48,499 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-14 22:47:48,499 | INFO | openai._base_client | Retrying request to /chat/completions in 0.920831 seconds
+2026-05-14 22:47:49,829 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-14 22:49:50,637 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-14 22:51:51,630 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-14 22:52:52,549 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-14 22:53:53,161 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-14 22:54:53,864 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-14 22:55:55,693 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-14 22:55:55,695 | INFO | openai._base_client | Retrying request to /chat/completions in 0.428877 seconds
+2026-05-14 22:55:56,445 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-14 22:55:56,459 | INFO | openai._base_client | Retrying request to /chat/completions in 0.879233 seconds
+2026-05-14 22:55:58,376 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-14 22:56:58,641 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-14 22:57:58,856 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-05-14 23:01:00,454 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-14 23:01:00,454 | INFO | openai._base_client | Retrying request to /chat/completions in 0.459714 seconds
+2026-05-14 23:01:01,318 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-05-14 23:01:01,318 | INFO | openai._base_client | Retrying request to /chat/completions in 0.925215 seconds
+2026-05-14 23:01:02,611 | INFO | httpx | HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"

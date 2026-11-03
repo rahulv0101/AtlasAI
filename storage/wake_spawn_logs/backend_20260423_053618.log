@@ -1,0 +1,7 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-04-23 07:36:21,345 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-04-23 07:36:24,360 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-04-23 07:36:29,001 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-23 07:37:29,728 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-23 07:38:30,410 | INFO | atlas_ai.trader | No high-confidence trade found.
+2026-04-23 07:39:30,996 | INFO | atlas_ai.trader | No high-confidence trade found.

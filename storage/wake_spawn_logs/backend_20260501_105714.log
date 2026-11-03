@@ -1,0 +1,20 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live
+2026-05-01 12:57:18,299 | INFO | atlas_ai.execution.broker | Opened terminal: C:\Program Files\HFM Metatrader 5\terminal64.exe
+2026-05-01 12:57:21,304 | INFO | atlas_ai.execution.broker | Connected to HFM account 57399598
+2026-05-01 12:59:12,461 | INFO | TTS.utils.manage | tts_models/multilingual/multi-dataset/xtts_v2 is already downloaded.
+2026-05-01 12:59:14,466 | INFO | TTS.tts.models | Using model: xtts
+2026-05-01 13:09:31,218 | INFO | atlas_ai.strategies.evolution_scheduler | Evolution disabled in settings; scheduler not started.
+2026-05-01 13:11:38,708 | WARNING | atlas_ai.trader | Risk guard active: Weekly drawdown limit reached. No trade executed.
+2026-05-01 13:12:39,828 | WARNING | atlas_ai.trader | Risk guard active: Weekly drawdown limit reached. No trade executed.
+2026-05-01 13:13:40,935 | WARNING | atlas_ai.trader | Risk guard active: Weekly drawdown limit reached. No trade executed.
+2026-05-01 13:14:43,364 | WARNING | atlas_ai.trader | Risk guard active: Weekly drawdown limit reached. No trade executed.
+2026-05-01 13:15:44,598 | WARNING | atlas_ai.trader | Risk guard active: Weekly drawdown limit reached. No trade executed.
+2026-05-01 13:16:45,615 | WARNING | atlas_ai.trader | Risk guard active: Weekly drawdown limit reached. No trade executed.
+2026-05-01 13:17:47,068 | WARNING | atlas_ai.trader | Risk guard active: Weekly drawdown limit reached. No trade executed.
+2026-05-01 13:18:48,314 | WARNING | atlas_ai.trader | Risk guard active: Weekly drawdown limit reached. No trade executed.
+2026-05-01 13:19:49,548 | WARNING | atlas_ai.trader | Risk guard active: Weekly drawdown limit reached. No trade executed.
+2026-05-01 13:20:50,691 | WARNING | atlas_ai.trader | Risk guard active: Weekly drawdown limit reached. No trade executed.
+2026-05-01 13:21:52,045 | WARNING | atlas_ai.trader | Risk guard active: Weekly drawdown limit reached. No trade executed.
+2026-05-01 13:22:53,151 | WARNING | atlas_ai.trader | Risk guard active: Weekly drawdown limit reached. No trade executed.
+2026-05-01 13:23:54,297 | WARNING | atlas_ai.trader | Risk guard active: Weekly drawdown limit reached. No trade executed.
+2026-05-01 13:24:55,335 | WARNING | atlas_ai.trader | Risk guard active: Weekly drawdown limit reached. No trade executed.

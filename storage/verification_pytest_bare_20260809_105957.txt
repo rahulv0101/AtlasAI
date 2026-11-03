@@ -1,0 +1,1235 @@
+........................................................................ [  5%]
+........................................................................ [ 11%]
+........................................................................ [ 17%]
+...................................FFFFFFFFF............................ [ 23%]
+.......F.FF.F.....F........................................FF.........F. [ 29%]
+.....F..................................................F..FF.....F.F..F [ 35%]
+.FF......FF............FFFF..F......F................................... [ 40%]
+..........................FF.....F.F.................................... [ 46%]
+........................................................................ [ 52%]
+................................................................F...F... [ 58%]
+...........................................F.FF...F.................FFF. [ 64%]
+FFFF..F.FFFF............................................................ [ 70%]
+........................................................................ [ 76%]
+.................................................F.....................F [ 81%]
+FFFFFFF................................................................. [ 87%]
+........................................................................ [ 93%]
+........................................................................ [ 99%]
+......                                                                   [100%]
+================================== FAILURES ===================================
+___________________ test_approved_live_request_submits_once ___________________
+
+    def test_approved_live_request_submits_once() -> None:
+        gate = ExecutionGate()
+        _ready_live_gate(gate)
+        rid = _live_req(gate)
+        out = gate.execute(rid, runtime_flags={"execute_trades": True}, risk_policy={"rules": ["x"]})
+>       assert out["ok"] is True
+E       assert False is True
+
+tests\test_broker_adapter_hardening.py:88: AssertionError
+____________ test_duplicate_submit_does_not_create_duplicate_order ____________
+
+    def test_duplicate_submit_does_not_create_duplicate_order() -> None:
+        gate = ExecutionGate()
+        _ready_live_gate(gate)
+        rid = _live_req(gate)
+        gate.execute(rid, runtime_flags={"execute_trades": True}, risk_policy={"rules": ["x"]})
+        gate.execute(rid, runtime_flags={"execute_trades": True}, risk_policy={"rules": ["x"]})
+        audit = gate.recent_audit(limit=50)
+        submit_events = [x for x in audit if x.get("event") == "order_submit_attempt" and x.get("request_id") == rid]
+>       assert len(submit_events) == 1
+E       assert 0 == 1
+E        +  where 0 = len([])
+
+tests\test_broker_adapter_hardening.py:101: AssertionError
+_________________ test_broker_reject_is_captured_and_exposed __________________
+
+    def test_broker_reject_is_captured_and_exposed() -> None:
+        gate = ExecutionGate()
+        _ready_live_gate(gate)
+        rid = _live_req(gate)
+        gate._broker_adapter.set_submit_override(  # type: ignore[attr-defined]
+            rid,
+            BrokerOrderResponse(ok=False, status="rejected", broker_order_id="BRK_REJ_1", message="insufficient_margin"),
+        )
+        out = gate.execute(rid, runtime_flags={"execute_trades": True}, risk_policy={"rules": ["x"]})
+        assert out["ok"] is False
+>       assert "broker_rejected" in out["reason"]
+E       AssertionError: assert 'broker_rejected' in 'outside_active_session'
+
+tests\test_broker_adapter_hardening.py:114: AssertionError
+_________________ test_partial_fill_updates_normalized_state __________________
+
+    def test_partial_fill_updates_normalized_state() -> None:
+        gate = ExecutionGate()
+        _ready_live_gate(gate)
+        rid = _live_req(gate)
+        gate._broker_adapter.set_submit_override(  # type: ignore[attr-defined]
+            rid,
+            BrokerOrderResponse(
+                ok=True,
+                status="partially_filled",
+                broker_order_id="BRK_PF_1",
+                message="partial",
+                fill_qty=0.005,
+                avg_fill_price=2321.2,
+            ),
+        )
+        out = gate.execute(rid, runtime_flags={"execute_trades": True}, risk_policy={"rules": ["x"]})
+>       assert out["ok"] is True
+E       assert False is True
+
+tests\test_broker_adapter_hardening.py:138: AssertionError
+__________________ test_cancel_request_updates_state_safely ___________________
+
+    def test_cancel_request_updates_state_safely() -> None:
+        gate = ExecutionGate()
+        _ready_live_gate(gate)
+        rid = _live_req(gate)
+        gate.execute(rid, runtime_flags={"execute_trades": True}, risk_policy={"rules": ["x"]})
+        cancel = gate.cancel_live_order(rid)
+>       assert cancel["ok"] is True
+E       assert False is True
+
+tests\test_broker_adapter_hardening.py:148: AssertionError
+____________ test_uncertain_submit_enters_reconciliation_required _____________
+
+    def test_uncertain_submit_enters_reconciliation_required() -> None:
+        gate = ExecutionGate()
+        _ready_live_gate(gate)
+        rid = _live_req(gate)
+        gate._broker_adapter.set_submit_override(  # type: ignore[attr-defined]
+            rid,
+            BrokerOrderResponse(ok=False, status="unknown", broker_order_id="BRK_UNK_1", message="timeout"),
+        )
+        out = gate.execute(rid, runtime_flags={"execute_trades": True}, risk_policy={"rules": ["x"]})
+        assert out["ok"] is False
+>       assert out["reason"] == "order_reconciliation_required"
+E       AssertionError: assert 'outside_active_session' == 'order_reconc...tion_required'
+E         
+E         - order_reconciliation_required
+E         + outside_active_session
+
+tests\test_broker_adapter_hardening.py:162: AssertionError
+__________ test_successful_live_execution_truth_exposes_broker_order __________
+
+    def test_successful_live_execution_truth_exposes_broker_order() -> None:
+        gate = ExecutionGate()
+        _ready_live_gate(gate)
+        rid = _live_req(gate)
+        gate._broker_adapter.set_submit_override(  # type: ignore[attr-defined]
+            rid,
+            BrokerOrderResponse(ok=True, status="filled", broker_order_id="BRK_FILLED_1", message="filled"),
+        )
+        out = gate.execute(rid, runtime_flags={"execute_trades": True}, risk_policy={"rules": ["x"]})
+>       assert out["ok"] is True
+E       assert False is True
+
+tests\test_broker_adapter_hardening.py:176: AssertionError
+____ test_restart_pending_order_requires_reconciliation_not_blind_resubmit ____
+
+tmp_path = WindowsPath('C:/Users/User/AppData/Local/Temp/pytest-of-User/pytest-1116/test_restart_pending_order_req0')
+
+    def test_restart_pending_order_requires_reconciliation_not_blind_resubmit(tmp_path) -> None:
+        state = tmp_path / "exec_state.json"
+        gate1 = ExecutionGate(state_store_path=str(state))
+        _ready_live_gate(gate1)
+        rid = _live_req(gate1)
+        gate1._broker_adapter.set_submit_override(  # type: ignore[attr-defined]
+            rid,
+            BrokerOrderResponse(ok=True, status="submitted", broker_order_id="BRK_RES_1", message="submitted"),
+        )
+        gate1.execute(rid, runtime_flags={"execute_trades": True}, risk_policy={"rules": ["x"]})
+        gate1.mark_clean_shutdown()
+    
+        gate2 = ExecutionGate(state_store_path=str(state))
+        # No blind resubmit on restart; unresolved order remains visible for reconciliation.
+        snap = gate2.snapshot()
+>       assert snap["pending_live_orders_count"] >= 1
+E       assert 0 >= 1
+
+tests\test_broker_adapter_hardening.py:198: AssertionError
+_________________ test_malformed_broker_response_fails_safely _________________
+
+    def test_malformed_broker_response_fails_safely() -> None:
+        gate = ExecutionGate()
+        _ready_live_gate(gate)
+        rid = _live_req(gate)
+        gate._broker_adapter.set_submit_override(  # type: ignore[attr-defined]
+            rid,
+            BrokerOrderResponse(ok=True, status="acknowledged", broker_order_id="", message="missing_id"),
+        )
+        out = gate.execute(rid, runtime_flags={"execute_trades": True}, risk_policy={"rules": ["x"]})
+        assert out["ok"] is False
+>       assert out["reason"] == "broker_response_invalid"
+E       AssertionError: assert 'outside_active_session' == 'broker_response_invalid'
+E         
+E         - broker_response_invalid
+E         + outside_active_session
+
+tests\test_broker_adapter_hardening.py:211: AssertionError
+____________ test_live_like_execution_blocked_for_inmemory_adapter ____________
+
+    def test_live_like_execution_blocked_for_inmemory_adapter() -> None:
+        gate = ExecutionGate()
+        gate.set_broker_adapter(InMemoryBrokerAdapter())
+        gate.set_gate_enabled(True)
+        gate.set_rollout_stage("limited_live_pilot", approved=True)
+        req = gate.create_request(
+            environment="live",
+            action_type="place_trade",
+            payload_summary="instrument=XAUUSD setup=continuation size=0.01 data_source=broker_runtime environment_mode=demo",
+            requested_by="operator",
+            dry_run=False,
+        )
+        gate.approve_request(req["id"], approved_by="operator", explicit_live_confirmation=True)
+        out = gate.execute(req["id"], runtime_flags=_live_runtime(), risk_policy={"daily_loss_cap_pct": 2.0})
+        assert out["ok"] is False
+>       assert out["reason"] == "in_memory_adapter_blocked_for_live"
+E       AssertionError: assert 'outside_active_session' == 'in_memory_ad...cked_for_live'
+E         
+E         - in_memory_adapter_blocked_for_live
+E         + outside_active_session
+
+tests\test_critical_safety_patches.py:103: AssertionError
+_________ test_mandatory_reconciliation_blocks_execution_on_mismatch __________
+
+    def test_mandatory_reconciliation_blocks_execution_on_mismatch() -> None:
+        gate = ExecutionGate()
+        gate.set_broker_adapter(_MismatchAdapter())
+        gate.set_gate_enabled(True)
+        gate.set_rollout_stage("limited_live_pilot", approved=True)
+        req = gate.create_request(
+            environment="live",
+            action_type="place_trade",
+            payload_summary="instrument=XAUUSD setup=continuation size=0.01 data_source=broker_runtime environment_mode=demo",
+            requested_by="operator",
+            dry_run=False,
+        )
+        gate.approve_request(req["id"], approved_by="operator", explicit_live_confirmation=True)
+        out = gate.execute(req["id"], runtime_flags=_live_runtime(), risk_policy={"daily_loss_cap_pct": 2.0})
+        assert out["ok"] is False
+>       assert out["reason"] == "reconciliation_required"
+E       AssertionError: assert 'outside_active_session' == 'reconciliation_required'
+E         
+E         - reconciliation_required
+E         + outside_active_session
+
+tests\test_critical_safety_patches.py:141: AssertionError
+____ test_mandatory_reconciliation_blocks_execution_when_broker_scan_fails ____
+
+    def test_mandatory_reconciliation_blocks_execution_when_broker_scan_fails() -> None:
+        gate = ExecutionGate()
+        gate.set_broker_adapter(_FailingScanAdapter())
+        gate.set_gate_enabled(True)
+        gate.set_rollout_stage("limited_live_pilot", approved=True)
+        req = gate.create_request(
+            environment="live",
+            action_type="place_trade",
+            payload_summary="instrument=XAUUSD setup=continuation size=0.01 data_source=broker_runtime environment_mode=demo",
+            requested_by="operator",
+            dry_run=False,
+        )
+        gate.approve_request(req["id"], approved_by="operator", explicit_live_confirmation=True)
+        out = gate.execute(req["id"], runtime_flags=_live_runtime(), risk_policy={"daily_loss_cap_pct": 2.0})
+        assert out["ok"] is False
+>       assert out["reason"] == "reconciliation_required"
+E       AssertionError: assert 'outside_active_session' == 'reconciliation_required'
+E         
+E         - reconciliation_required
+E         + outside_active_session
+
+tests\test_critical_safety_patches.py:163: AssertionError
+_________ test_simulation_data_source_blocked_for_live_like_execution _________
+
+    def test_simulation_data_source_blocked_for_live_like_execution() -> None:
+        gate = ExecutionGate()
+        gate.set_broker_adapter(_SafeAdapter())
+        gate.set_gate_enabled(True)
+        gate.set_rollout_stage("limited_live_pilot", approved=True)
+        req = gate.create_request(
+            environment="live",
+            action_type="place_trade",
+            payload_summary="instrument=XAUUSD setup=continuation size=0.01 data_source=simulation environment_mode=demo",
+            requested_by="operator",
+            dry_run=False,
+        )
+        gate.approve_request(req["id"], approved_by="operator", explicit_live_confirmation=True)
+        out = gate.execute(req["id"], runtime_flags=_live_runtime(), risk_policy={"daily_loss_cap_pct": 2.0})
+        assert out["ok"] is False
+>       assert out["reason"] == "simulation_data_source_blocked_for_live_like_execution"
+E       AssertionError: assert 'outside_active_session' == 'simulation_d...ike_execution'
+E         
+E         - simulation_data_source_blocked_for_live_like_execution
+E         + outside_active_session
+
+tests\test_critical_safety_patches.py:202: AssertionError
+___ test_normal_guarded_execution_still_works_when_shared_state_is_healthy ____
+
+tmp_path = WindowsPath('C:/Users/User/AppData/Local/Temp/pytest-of-User/pytest-1116/test_normal_guarded_execution_0')
+
+    def test_normal_guarded_execution_still_works_when_shared_state_is_healthy(tmp_path) -> None:
+        state_path = str(Path(tmp_path) / "automation_state.json")
+        ui_gate = ExecutionGate(state_store_path=state_path)
+        trader_gate = ExecutionGate(state_store_path=state_path)
+        ui_gate.set_gate_enabled(True)
+        ui_gate.set_execution_environment("demo")
+        ui_gate.set_rollout_stage("limited_live_pilot", approved=True)
+        req_id = _prepare_demo_request(trader_gate)
+        out = trader_gate.execute(req_id, runtime_flags=_runtime_flags(), risk_policy={"daily_loss_cap_pct": 5.0})
+>       assert out.get("ok") is True
+E       AssertionError: assert False is True
+E        +  where False = <built-in method get of dict object at 0x0000021F4C87BA40>('ok')
+E        +    where <built-in method get of dict object at 0x0000021F4C87BA40> = {'code': 'outside_active_session', 'detail': {'session': 'none'}, 'ok': False, 'reason': 'outside_active_session', ...}.get
+
+tests\test_cross_process_execution_gate_sync.py:82: AssertionError
+________ test_explicit_auto_execution_command_required_for_action_path ________
+
+    def test_explicit_auto_execution_command_required_for_action_path() -> None:
+        src = _Source()
+        svc = AskAtlasService(src)
+        _setup_demo_auto(svc)
+        out = svc.answer("run auto execution demo place_trade XAUUSD continuation 0.01 test 0.8 0.8 real")
+        assert "automation_result" in out
+        req = svc.execution.last_request()
+>       assert req is not None
+E       assert None is not None
+
+tests\test_demo_auto_execution_from_recommendation.py:98: AssertionError
+______________ test_duplicate_signal_blocked_only_within_window _______________
+
+    def test_duplicate_signal_blocked_only_within_window() -> None:
+        src = _Source()
+        svc = AskAtlasService(src)
+        _setup_demo_auto(svc)
+        first = svc.execution.attempt_auto_execution_from_signal(
+            signal_id="cycle_001",
+            action_type="place_trade",
+            environment="demo",
+            instrument="XAUUSD",
+            setup_family="continuation",
+            size=0.01,
+            session="test",
+            confidence=0.8,
+            evidence_strength=0.8,
+            runtime_flags=src.runtime,
+            risk_policy={"daily_loss_cap_pct": 5.0},
+            dry_run=False,
+        )
+        second = svc.execution.attempt_auto_execution_from_signal(
+            signal_id="cycle_001",
+            action_type="place_trade",
+            environment="demo",
+            instrument="XAUUSD",
+            setup_family="continuation",
+            size=0.01,
+            session="test",
+            confidence=0.8,
+            evidence_strength=0.8,
+            runtime_flags=src.runtime,
+            risk_policy={"daily_loss_cap_pct": 5.0},
+            dry_run=False,
+        )
+>       assert first.get("ok") is True
+E       AssertionError: assert False is True
+E        +  where False = <built-in method get of dict object at 0x0000021F4C878100>('ok')
+E        +    where <built-in method get of dict object at 0x0000021F4C878100> = {'failure_class': 'session_gate', 'ok': False, 'reason': 'outside_active_session'}.get
+
+tests\test_demo_auto_execution_from_recommendation.py:138: AssertionError
+___________ test_allowed_guarded_trade_path_updates_state_and_audit ___________
+
+tmp_path = WindowsPath('C:/Users/User/AppData/Local/Temp/pytest-of-User/pytest-1116/test_allowed_guarded_trade_pat0')
+
+    def test_allowed_guarded_trade_path_updates_state_and_audit(tmp_path) -> None:
+        store = KnowledgeStore(str(tmp_path))
+        store.save_runtime_flags({"execute_trades": False, "read_only_ui": False})
+        app = create_ui_app(store)
+        client = app.test_client()
+    
+        _ask(client, "enable execution gate")
+        created = _ask(client, "create execution request paper place_trade dry instrument=XAUUSD setup_family=continuation size=0.01")
+        req_id = created["execution_request"]["id"]
+        _ask(client, f"approve execution {req_id}")
+        out = _ask(client, f"run execution {req_id}")
+    
+>       assert out["execution_result"]["ok"] is True
+E       assert False is True
+
+tests\test_demo_rollout_validation.py:58: AssertionError
+_________ test_blocked_and_allowed_counts_reflect_actual_audit_state __________
+
+    def test_blocked_and_allowed_counts_reflect_actual_audit_state() -> None:
+        svc = AskAtlasService(_Source())
+        svc.answer("enable execution gate")
+    
+        ok_req = svc.answer("create execution request paper place_trade dry instrument=XAUUSD setup_family=continuation size=0.01")["execution_request"]["id"]
+        svc.answer(f"approve execution {ok_req}")
+        svc.answer(f"run execution {ok_req}")
+    
+        blocked_req = svc.answer("create execution request paper place_trade dry instrument=XAUUSD setup_family=continuation size=0.01")["execution_request"]["id"]
+        svc.answer(f"approve execution {blocked_req}")
+        svc.answer("activate kill switch")
+        svc.answer(f"run execution {blocked_req}")
+    
+        out = svc.answer("show recent guarded execution attempts")
+        review = dict(out.get("demo_session_review", {}) or {})
+>       assert int(review.get("allowed_count", 0) or 0) >= 1
+E       AssertionError: assert 0 >= 1
+E        +  where 0 = int((0 or 0))
+E        +    where 0 = <built-in method get of dict object at 0x0000021F4CCA4080>('allowed_count', 0)
+E        +      where <built-in method get of dict object at 0x0000021F4CCA4080> = {'allowed_count': 0, 'attempt_count': 2, 'blocked_count': 2, 'freshness_incidents': [], ...}.get
+
+tests\test_demo_session_review.py:61: AssertionError
+_______ test_non_dry_execution_without_executor_does_not_report_success _______
+
+    def test_non_dry_execution_without_executor_does_not_report_success() -> None:
+        gate = ExecutionGate()
+        gate.set_gate_enabled(True)
+        _set_active_session_for_now(gate)
+        req = gate.create_request(
+            environment="paper",
+            action_type="place_trade",
+            payload_summary="instrument=XAUUSD setup=continuation size=0.01",
+            requested_by="trader",
+            dry_run=False,
+            auto_generated=False,
+            request_origin="trader_guarded",
+            strict_runtime_checks=False,
+        )
+        gate.approve_request(req["id"], approved_by="trader", note="ok")
+        out = gate.execute(
+            req["id"],
+            runtime_flags={"execute_trades": False},
+            risk_policy={"daily_loss_cap_pct": 5.0},
+        )
+        assert out["ok"] is False
+>       assert out["reason"] == "executor_missing"
+E       AssertionError: assert 'outside_active_session' == 'executor_missing'
+E         
+E         - executor_missing
+E         + outside_active_session
+
+tests\test_execution_safe_architecture.py:176: AssertionError
+___________________ test_dry_run_logs_but_does_not_execute ____________________
+
+    def test_dry_run_logs_but_does_not_execute() -> None:
+        source = _Source()
+        svc = AskAtlasService(source)
+        svc.answer("enable execution gate")
+        created = svc.answer("create execution request paper place_trade dry XAUUSD buy 0.01")
+        req_id = created["execution_request"]["id"]
+        svc.answer(f"approve execution {req_id}")
+        result = svc.answer(f"run execution {req_id}")
+>       assert "dry-run completed" in result["result"].lower()
+E       AssertionError: assert 'dry-run completed' in 'execution blocked for exec_8efea4762a: outside_active_session.'
+E        +  where 'execution blocked for exec_8efea4762a: outside_active_session.' = <built-in method lower of str object at 0x0000021F4C933280>()
+E        +    where <built-in method lower of str object at 0x0000021F4C933280> = 'Execution blocked for exec_8efea4762a: outside_active_session.'.lower
+
+tests\test_execution_safe_architecture.py:208: AssertionError
+_____________________ test_paper_live_separation_enforced _____________________
+
+    def test_paper_live_separation_enforced() -> None:
+        svc = AskAtlasService(_Source())
+        svc.answer("enable execution gate")
+        created = svc.answer("create execution request live place_trade real XAUUSD buy 0.01")
+        req_id = created["execution_request"]["id"]
+        # Live approval needs explicit live confirmation.
+        not_ready = svc.answer(f"approve execution {req_id}")
+        assert "still pending" in not_ready["result"].lower()
+        svc.answer(f"approve execution {req_id} live-confirm")
+        blocked = svc.answer(f"run execution {req_id}")
+>       assert (
+            ("runtime_not_live_enabled" in blocked["result"])
+            or ("live_blocked_in_stage:paper_only" in blocked["result"])
+            or ("in_memory_broker_adapter_blocked_for_live_like_execution" in blocked["result"])
+        )
+E       AssertionError: assert ('runtime_not_live_enabled' in 'Execution blocked for exec_dd32f46c47: outside_active_session.' or 'live_blocked_in_stage:paper_only' in 'Execution blocked for exec_dd32f46c47: outside_active_session.' or 'in_memory_broker_adapter_blocked_for_live_like_execution' in 'Execution blocked for exec_dd32f46c47: outside_active_session.')
+
+tests\test_execution_safe_architecture.py:222: AssertionError
+______________________ test_live_blocked_in_paper_stages ______________________
+
+    def test_live_blocked_in_paper_stages() -> None:
+        svc = AskAtlasService(_Source())
+        svc.answer("enable execution gate")
+        # default stage is paper_only
+        req_id = svc.answer("create execution request live place_trade real instrument=XAUUSD setup=continuation size=0.01")["execution_request"]["id"]
+        svc.answer(f"approve execution {req_id} live-confirm")
+        out = svc.answer(f"run execution {req_id}")
+>       assert ("live_blocked_in_stage:paper_only" in out["result"]) or ("in_memory_broker_adapter_blocked_for_live_like_execution" in out["result"])
+E       AssertionError: assert ('live_blocked_in_stage:paper_only' in 'Execution blocked for exec_a1746c8401: outside_active_session.' or 'in_memory_broker_adapter_blocked_for_live_like_execution' in 'Execution blocked for exec_a1746c8401: outside_active_session.')
+
+tests\test_execution_safe_architecture.py:305: AssertionError
+______________________ test_pilot_restrictions_enforced _______________________
+
+    def test_pilot_restrictions_enforced() -> None:
+        source = _Source()
+        source.load_runtime_flags = lambda: {"execute_trades": True, "read_only_ui": False}  # type: ignore[method-assign]
+        svc = AskAtlasService(source)
+        svc.answer("enable execution gate")
+        svc.answer("set rollout stage limited_live_pilot approved")
+    
+        req_bad_inst = svc.answer("create execution request live place_trade real instrument=EURUSD setup=continuation size=0.01")["execution_request"]["id"]
+        svc.answer(f"approve execution {req_bad_inst} live-confirm")
+        blocked1 = svc.answer(f"run execution {req_bad_inst}")
+>       assert ("instrument_restricted_in_stage" in blocked1["result"]) or ("in_memory_broker_adapter_blocked_for_live_like_execution" in blocked1["result"])
+E       AssertionError: assert ('instrument_restricted_in_stage' in 'Execution blocked for exec_f64452d330: outside_active_session.' or 'in_memory_broker_adapter_blocked_for_live_like_execution' in 'Execution blocked for exec_f64452d330: outside_active_session.')
+
+tests\test_execution_safe_architecture.py:327: AssertionError
+____________________ test_dry_run_available_in_all_stages _____________________
+
+    def test_dry_run_available_in_all_stages() -> None:
+        source = _Source()
+        source.load_runtime_flags = lambda: {"execute_trades": True, "read_only_ui": False}  # type: ignore[method-assign]
+        svc = AskAtlasService(source)
+        svc.answer("enable execution gate")
+        for stage in ["paper_only", "approved_paper_execution", "limited_live_pilot", "restricted_live_operations", "scaled_live_reviewed"]:
+            svc.answer(f"set rollout stage {stage} approved")
+            req_id = svc.answer("create execution request paper place_trade dry instrument=XAUUSD setup=continuation size=0.01")["execution_request"]["id"]
+            svc.answer(f"approve execution {req_id}")
+            out = svc.answer(f"run execution {req_id}")
+>           assert "dry-run completed" in out["result"].lower()
+E           AssertionError: assert 'dry-run completed' in 'execution blocked for exec_4b4a99c1a8: outside_active_session.'
+E            +  where 'execution blocked for exec_4b4a99c1a8: outside_active_session.' = <built-in method lower of str object at 0x0000021F4C931140>()
+E            +    where <built-in method lower of str object at 0x0000021F4C931140> = 'Execution blocked for exec_4b4a99c1a8: outside_active_session.'.lower
+
+tests\test_execution_safe_architecture.py:378: AssertionError
+__________________ test_execution_blocked_near_session_close __________________
+
+    def test_execution_blocked_near_session_close() -> None:
+        gate = ExecutionGate()
+        gate.set_gate_enabled(True)
+        _set_active_session_for_now(gate, minutes_to_close=3, buffer=10)
+        req = gate.create_request(environment="paper", action_type="place_trade", payload_summary="instrument=XAUUSD setup=continuation size=0.01", requested_by="operator", dry_run=True)
+        gate.approve_request(req["id"], approved_by="operator", note="ok")
+        out = gate.execute(req["id"], runtime_flags={"execute_trades": False}, risk_policy={"rules": ["x"]})
+        assert out["ok"] is False
+>       assert out["reason"] == "near_session_close_no_new_trades"
+E       AssertionError: assert 'outside_active_session' == 'near_session...no_new_trades'
+E         
+E         - near_session_close_no_new_trades
+E         + outside_active_session
+
+tests\test_execution_safe_architecture.py:409: AssertionError
+________________ test_forced_flat_required_before_session_end _________________
+
+    def test_forced_flat_required_before_session_end() -> None:
+        gate = ExecutionGate()
+        gate.set_gate_enabled(True)
+        _set_active_session_for_now(gate, minutes_to_close=2, buffer=10)
+        req = gate.create_request(environment="paper", action_type="place_trade", payload_summary="instrument=XAUUSD setup=continuation size=0.01", requested_by="operator", dry_run=True)
+        gate.approve_request(req["id"], approved_by="operator", note="ok")
+        out = gate.execute(req["id"], runtime_flags={"execute_trades": False, "open_positions": 1}, risk_policy={"rules": ["x"]})
+        assert out["ok"] is False
+>       assert out["reason"] == "near_session_close_no_new_trades"
+E       AssertionError: assert 'outside_active_session' == 'near_session...no_new_trades'
+E         
+E         - near_session_close_no_new_trades
+E         + outside_active_session
+
+tests\test_execution_safe_architecture.py:420: AssertionError
+________________________ test_holiday_blocks_execution ________________________
+
+    def test_holiday_blocks_execution() -> None:
+        gate = ExecutionGate()
+        gate.set_gate_enabled(True)
+        now_local = datetime.now(timezone.utc).date().isoformat()
+        gate._session_control._sessions = [  # type: ignore[attr-defined]
+            SessionWindow(name="holiday_test", start="00:00", end="23:59", timezone_name="UTC", holidays=(now_local,))
+        ]
+        req = gate.create_request(environment="paper", action_type="place_trade", payload_summary="instrument=XAUUSD setup=continuation size=0.01", requested_by="operator", dry_run=True)
+        gate.approve_request(req["id"], approved_by="operator", note="ok")
+        out = gate.execute(req["id"], runtime_flags={"execute_trades": False}, risk_policy={"rules": ["x"]})
+        assert out["ok"] is False
+>       assert out["reason"] == "market_closed_holiday"
+E       AssertionError: assert 'outside_active_session' == 'market_closed_holiday'
+E         
+E         - market_closed_holiday
+E         + outside_active_session
+
+tests\test_execution_safe_architecture.py:501: AssertionError
+_____________________ test_early_close_blocks_new_trades ______________________
+
+    def test_early_close_blocks_new_trades() -> None:
+        gate = ExecutionGate()
+        gate.set_gate_enabled(True)
+        now = datetime.now(timezone.utc)
+        date_key = now.date().isoformat()
+        start = (now - timedelta(minutes=60)).strftime("%H:%M")
+        end = (now + timedelta(minutes=180)).strftime("%H:%M")
+        early_close = (now + timedelta(minutes=3)).strftime("%H:%M")
+        gate._session_control._sessions = [  # type: ignore[attr-defined]
+            SessionWindow(
+                name="early_close_test",
+                start=start,
+                end=end,
+                timezone_name="UTC",
+                no_trade_buffer_minutes=10,
+                early_close_overrides={date_key: early_close},
+            )
+        ]
+        req = gate.create_request(environment="paper", action_type="place_trade", payload_summary="instrument=XAUUSD setup=continuation size=0.01", requested_by="operator", dry_run=True)
+        gate.approve_request(req["id"], approved_by="operator", note="ok")
+        out = gate.execute(req["id"], runtime_flags={"execute_trades": False}, risk_policy={"rules": ["x"]})
+        assert out["ok"] is False
+>       assert out["reason"] == "early_close_no_new_trades"
+E       AssertionError: assert 'outside_active_session' == 'early_close_no_new_trades'
+E         
+E         - early_close_no_new_trades
+E         + outside_active_session
+
+tests\test_execution_safe_architecture.py:526: AssertionError
+________ test_forced_flat_required_creates_high_priority_control_item _________
+
+    def test_forced_flat_required_creates_high_priority_control_item() -> None:
+        svc = AskAtlasService(_Source())
+        _set_near_close_session(svc)
+        out = svc.answer("Do we need to flatten before close?")
+        assert out["intent"] == "forced_flat_status"
+        pending = [x for x in svc.control.pending() if x.type == "forced_flat_review"]
+>       assert pending
+E       assert []
+
+tests\test_forced_flat_control_workflow.py:61: AssertionError
+_______________ test_repeated_trigger_does_not_spam_duplicates ________________
+
+    def test_repeated_trigger_does_not_spam_duplicates() -> None:
+        svc = AskAtlasService(_Source())
+        _set_near_close_session(svc)
+        svc.answer("Do we need to flatten before close?")
+        svc.answer("Do we need to flatten before close?")
+        pending = [x for x in svc.control.pending() if x.type == "forced_flat_review"]
+>       assert len(pending) == 1
+E       assert 0 == 1
+E        +  where 0 = len([])
+
+tests\test_forced_flat_control_workflow.py:72: AssertionError
+____________ test_early_close_produces_correct_reason_and_urgency _____________
+
+    def test_early_close_produces_correct_reason_and_urgency() -> None:
+        svc = AskAtlasService(_Source())
+        _set_near_close_session(svc, early_close=True)
+        svc.answer("Do we need to flatten before close?")
+        pending = [x for x in svc.control.pending() if x.type == "forced_flat_review"]
+>       assert pending
+E       assert []
+
+tests\test_forced_flat_control_workflow.py:80: AssertionError
+_________________ test_time_to_close_included_in_item_details _________________
+
+    def test_time_to_close_included_in_item_details() -> None:
+        svc = AskAtlasService(_Source())
+        _set_near_close_session(svc)
+        svc.answer("Do we need to flatten before close?")
+>       item = [x for x in svc.control.pending() if x.type == "forced_flat_review"][0]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       IndexError: list index out of range
+
+tests\test_forced_flat_control_workflow.py:90: IndexError
+____________ test_explain_item_includes_flatten_reason_and_urgency ____________
+
+    def test_explain_item_includes_flatten_reason_and_urgency() -> None:
+        svc = AskAtlasService(_Source())
+        _set_near_close_session(svc)
+        svc.answer("Do we need to flatten before close?")
+>       item = [x for x in svc.control.pending() if x.type == "forced_flat_review"][0]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       IndexError: list index out of range
+
+tests\test_forced_flat_control_workflow.py:119: IndexError
+_______ test_allowed_guarded_trade_validation_uses_guarded_dry_run_path _______
+
+    def test_allowed_guarded_trade_validation_uses_guarded_dry_run_path() -> None:
+        svc = AskAtlasService(_Source())
+        out = svc.answer("validate allowed guarded trade path")
+        val = dict(out.get("validation_result", {}) or {})
+        req_id = str(val.get("request_id", ""))
+        req = svc.execution.get_request(req_id)
+        assert val.get("scenario") == "allowed_guarded_trade_path"
+>       assert val.get("ok") is True
+E       AssertionError: assert False is True
+E        +  where False = <built-in method get of dict object at 0x0000021F4CB29F80>('ok')
+E        +    where <built-in method get of dict object at 0x0000021F4CB29F80> = {'audit_present': True, 'dry_run': False, 'ok': False, 'request_id': 'exec_8cd8d33651', ...}.get
+
+tests\test_guarded_demo_workflow.py:72: AssertionError
+_________________ test_real_money_live_path_remains_disabled __________________
+
+    def test_real_money_live_path_remains_disabled() -> None:
+        svc = AskAtlasService(_Source())
+        _setup_demo_pilot(svc)
+        req_id = svc.answer("create execution request live_real place_trade real instrument=XAUUSD setup=continuation size=0.01")["execution_request"]["id"]
+        svc.answer(f"approve execution {req_id} live-confirm")
+        out = svc.answer(f"run execution {req_id}")
+>       assert "real_live_disabled" in out["result"]
+E       AssertionError: assert 'real_live_disabled' in 'Execution blocked for exec_59255aff67: outside_active_session.'
+
+tests\test_live_demo_mode.py:88: AssertionError
+____________ test_tiny_live_pilot_restrictions_still_apply_in_demo ____________
+
+    def test_tiny_live_pilot_restrictions_still_apply_in_demo() -> None:
+        svc = AskAtlasService(_Source())
+        _setup_demo_pilot(svc)
+        req_id = svc.answer("create execution request demo place_trade real instrument=EURUSD setup=continuation size=0.01")["execution_request"]["id"]
+        svc.answer(f"approve execution {req_id} live-confirm")
+        out = svc.answer(f"run execution {req_id}")
+>       assert "tiny_live_pilot_instrument_restricted" in out["result"]
+E       AssertionError: assert 'tiny_live_pilot_instrument_restricted' in 'Execution blocked for exec_104bcfaf3c: outside_active_session.'
+
+tests\test_live_demo_mode.py:97: AssertionError
+_______________ test_reconciliation_required_state_is_surfaced ________________
+
+    def test_reconciliation_required_state_is_surfaced() -> None:
+        svc = AskAtlasService(_Source())
+        _setup_live_pilot(svc)
+        rid = _submit_live(svc)
+        svc.execution._broker_adapter.set_submit_override(  # type: ignore[attr-defined]
+            rid,
+            BrokerOrderResponse(ok=False, status="unknown", broker_order_id="BRK_UNK_2", message="timeout"),
+        )
+        svc.answer(f"run execution {rid}")
+        out = svc.answer("Is anything waiting for reconciliation?")
+        assert out["intent"] == "order_reconciliation"
+>       assert "yes" in out["result"].lower()
+E       AssertionError: assert 'yes' in 'no reconciliation-needed live order state is currently active.'
+E        +  where 'no reconciliation-needed live order state is currently active.' = <built-in method lower of str object at 0x0000021F49FABC90>()
+E        +    where <built-in method lower of str object at 0x0000021F49FABC90> = 'No reconciliation-needed live order state is currently active.'.lower
+
+tests\test_live_pilot_review_panel.py:97: AssertionError
+__________________ test_last_broker_reject_reason_is_visible __________________
+
+    def test_last_broker_reject_reason_is_visible() -> None:
+        svc = AskAtlasService(_Source())
+        _setup_live_pilot(svc)
+        rid = _submit_live(svc)
+        svc.execution._broker_adapter.set_submit_override(  # type: ignore[attr-defined]
+            rid,
+            BrokerOrderResponse(ok=False, status="rejected", broker_order_id="BRK_REJ_2", message="insufficient_margin"),
+        )
+        svc.answer(f"run execution {rid}")
+        out = svc.answer("Why was the order rejected?")
+        assert out["intent"] == "broker_reject_reason"
+>       assert "insufficient_margin" in out["result"]
+E       AssertionError: assert 'insufficient_margin' in 'No recent broker rejection reason.'
+
+tests\test_live_pilot_review_panel.py:124: AssertionError
+______________ test_auto_trading_blocked_by_forced_flat_urgency _______________
+
+    def test_auto_trading_blocked_by_forced_flat_urgency() -> None:
+        svc = AskAtlasService(_Source())
+        _setup_auto_demo(svc)
+        _set_active_session_for_now(svc, minutes_to_close=10, buffer=0)
+        out = svc.answer("run auto execution demo place_trade XAUUSD continuation 0.01 test 0.8 0.8 real")
+>       assert "forced_flat_urgency" in out["result"]
+E       AssertionError: assert 'forced_flat_urgency' in 'Auto-execution blocked: outside_active_session.'
+
+tests\test_operator_present_auto_trading.py:94: AssertionError
+_____________ test_auto_trading_respects_tiny_pilot_restrictions ______________
+
+    def test_auto_trading_respects_tiny_pilot_restrictions() -> None:
+        svc = AskAtlasService(_Source())
+        _setup_auto_demo(svc)
+        out = svc.answer("run auto execution demo place_trade EURUSD continuation 0.01 test 0.8 0.8 real")
+>       assert "tiny_live_pilot_instrument_restricted" in out["result"]
+E       AssertionError: assert 'tiny_live_pilot_instrument_restricted' in 'Auto-execution blocked: outside_active_session.'
+
+tests\test_operator_present_auto_trading.py:145: AssertionError
+_______ test_reconciliation_required_creates_high_priority_control_item _______
+
+    def test_reconciliation_required_creates_high_priority_control_item() -> None:
+        svc = AskAtlasService(_Source())
+        _setup(svc)
+        _create_uncertain(svc)
+        pending = svc.answer("show pending items")
+>       assert "order reconciliation review" in pending["result"].lower()
+E       AssertionError: assert 'order reconciliation review' in 'pending items:\n- item 1 [execution_request] p1: tiny live pilot activation review: xauusd / continuation\n- item 2 [execution_request] p1: execution request exec_2dfb070383 [demo] place_trade'
+E        +  where 'pending items:\n- item 1 [execution_request] p1: tiny live pilot activation review: xauusd / continuation\n- item 2 [execution_request] p1: execution request exec_2dfb070383 [demo] place_trade' = <built-in method lower of str object at 0x0000021F4CAEF0F0>()
+E        +    where <built-in method lower of str object at 0x0000021F4CAEF0F0> = 'Pending items:\n- item 1 [execution_request] p1: tiny live pilot activation review: XAUUSD / continuation\n- item 2 [execution_request] p1: execution request exec_2dfb070383 [demo] place_trade'.lower
+
+tests\test_reconciliation_workflow.py:63: AssertionError
+_________ test_reconcile_action_queries_safely_and_updates_when_clear _________
+
+    def test_reconcile_action_queries_safely_and_updates_when_clear() -> None:
+        svc = AskAtlasService(_Source())
+        _setup(svc)
+        rid = _create_uncertain(svc)
+        svc.execution._broker_adapter.set_status_override(  # type: ignore[attr-defined]
+            "BRK_UNCERTAIN", BrokerOrderResponse(ok=True, status="acknowledged", broker_order_id="BRK_UNCERTAIN", message="ok")
+        )
+        out = svc.answer(f"reconcile order {rid}")
+>       assert "status=acknowledged" in out["result"].lower() or "reconciliation for" in out["result"].lower()
+E       AssertionError: assert ('status=acknowledged' in 'reconciliation failed for exec_059369be46: tracked_order_not_found.' or 'reconciliation for' in 'reconciliation failed for exec_059369be46: tracked_order_not_found.')
+E        +  where 'reconciliation failed for exec_059369be46: tracked_order_not_found.' = <built-in method lower of str object at 0x0000021F4CE19EB0>()
+E        +    where <built-in method lower of str object at 0x0000021F4CE19EB0> = 'Reconciliation failed for exec_059369be46: tracked_order_not_found.'.lower
+E        +  and   'reconciliation failed for exec_059369be46: tracked_order_not_found.' = <built-in method lower of str object at 0x0000021F4CE19EB0>()
+E        +    where <built-in method lower of str object at 0x0000021F4CE19EB0> = 'Reconciliation failed for exec_059369be46: tracked_order_not_found.'.lower
+
+tests\test_reconciliation_workflow.py:85: AssertionError
+__________________ test_unresolved_query_keeps_item_pending ___________________
+
+    def test_unresolved_query_keeps_item_pending() -> None:
+        svc = AskAtlasService(_Source())
+        _setup(svc)
+        rid = _create_uncertain(svc)
+        svc.execution._broker_adapter.set_status_override(  # type: ignore[attr-defined]
+            "BRK_UNCERTAIN", BrokerOrderResponse(ok=False, status="unknown", broker_order_id="BRK_UNCERTAIN", message="still_unknown")
+        )
+        svc.answer(f"reconcile order {rid}")
+        p = svc.answer("show pending items")
+>       assert "reconciliation" in p["result"].lower()
+E       AssertionError: assert 'reconciliation' in 'pending items:\n- item 1 [execution_request] p1: tiny live pilot activation review: xauusd / continuation\n- item 2 [execution_request] p1: execution request exec_4d14f015d7 [demo] place_trade'
+E        +  where 'pending items:\n- item 1 [execution_request] p1: tiny live pilot activation review: xauusd / continuation\n- item 2 [execution_request] p1: execution request exec_4d14f015d7 [demo] place_trade' = <built-in method lower of str object at 0x0000021F4CB74D50>()
+E        +    where <built-in method lower of str object at 0x0000021F4CB74D50> = 'Pending items:\n- item 1 [execution_request] p1: tiny live pilot activation review: XAUUSD / continuation\n- item 2 [execution_request] p1: execution request exec_4d14f015d7 [demo] place_trade'.lower
+
+tests\test_reconciliation_workflow.py:97: AssertionError
+___________ test_explain_item_includes_mismatch_reason_and_statuses ___________
+
+    def test_explain_item_includes_mismatch_reason_and_statuses() -> None:
+        svc = AskAtlasService(_Source())
+        _setup(svc)
+        _create_uncertain(svc)
+        pending = svc.answer("show pending items")
+        line = next((x for x in str(pending["result"]).split("\n") if "order_reconciliation_review" in x.lower()), "")
+        item_id = int(line.split("- item ")[1].split()[0]) if line else 0
+>       assert item_id > 0
+E       assert 0 > 0
+
+tests\test_reconciliation_workflow.py:135: AssertionError
+________________ test_default_autonomy_mode_is_safe_by_default ________________
+
+    def test_default_autonomy_mode_is_safe_by_default() -> None:
+        source = _Source()
+        source.runtime["execute_trades"] = True
+        svc = AskAtlasService(source)
+        _setup_policy(svc, stage="limited_live_pilot")
+        svc.answer("set execution environment demo")
+        svc.answer("activate operator present mode")
+        _enable_tiny_live_pilot(svc)
+        svc.answer("approve automation policy ap1")
+        svc.answer("activate automation policy ap1")
+        svc.answer("enable execution gate")
+        out = svc.answer("run auto execution live place_trade XAUUSD continuation 0.01 london 0.8 0.8 dry")
+>       assert "autonomy_mode_recommend_only" in out["result"]
+E       AssertionError: assert 'autonomy_mode_recommend_only' in 'Auto-execution blocked: outside_active_session.'
+
+tests\test_safe_automation_layer.py:79: AssertionError
+___________________ test_paper_stage_blocks_live_automation ___________________
+
+    def test_paper_stage_blocks_live_automation() -> None:
+        source = _Source()
+        source.runtime["execute_trades"] = True
+        svc = AskAtlasService(source)
+        _setup_policy(svc, stage="paper_only")
+        _enable_demo_mode(svc)
+        svc.answer("approve automation policy ap1")
+        svc.answer("activate automation policy ap1")
+        svc.answer("enable execution gate")
+        out = svc.answer("run auto execution live place_trade XAUUSD continuation 0.01 london 0.7 0.7 dry")
+>       assert any(x in out["result"] for x in ("live_blocked_in_stage:paper_only", "tiny_live_pilot_not_configured"))
+E       assert False
+E        +  where False = any(<generator object test_paper_stage_blocks_live_automation.<locals>.<genexpr> at 0x0000021F399AC9E0>)
+
+tests\test_safe_automation_layer.py:92: AssertionError
+________________ test_limited_live_pilot_restrictions_enforced ________________
+
+    def test_limited_live_pilot_restrictions_enforced() -> None:
+        source = _Source()
+        source.runtime["execute_trades"] = True
+        svc = AskAtlasService(source)
+        _setup_policy(svc, stage="limited_live_pilot")
+        _enable_demo_mode(svc)
+        svc.answer("approve automation policy ap1")
+        svc.answer("activate automation policy ap1")
+        svc.answer("enable execution gate")
+    
+        bad_setup = svc.answer("run auto execution live place_trade XAUUSD breakout 0.01 london 0.8 0.8 dry")
+>       assert any(x in bad_setup["result"] for x in ("setup_family_not_approved_for_automation", "tiny_live_pilot_not_configured"))
+E       assert False
+E        +  where False = any(<generator object test_limited_live_pilot_restrictions_enforced.<locals>.<genexpr> at 0x0000021F399AC660>)
+
+tests\test_safe_automation_layer.py:106: AssertionError
+______________________ test_blocker_severity_pause_works ______________________
+
+    def test_blocker_severity_pause_works() -> None:
+        source = _Source()
+        source.runtime.update({"execute_trades": True, "blocker_severity": 0.9})
+        svc = AskAtlasService(source)
+        _setup_policy(svc)
+        _enable_demo_mode(svc)
+        svc.answer("approve automation policy ap1")
+        svc.answer("activate automation policy ap1")
+        svc.answer("enable execution gate")
+        out = svc.answer("run auto execution live place_trade XAUUSD continuation 0.01 london 0.8 0.8 dry")
+>       assert any(x in out["result"] for x in ("blocker_severity_too_high", "tiny_live_pilot_not_configured"))
+E       assert False
+E        +  where False = any(<generator object test_blocker_severity_pause_works.<locals>.<genexpr> at 0x0000021F399AD460>)
+
+tests\test_safe_automation_layer.py:140: AssertionError
+________________ test_repeated_losses_or_loss_cap_pause_works _________________
+
+    def test_repeated_losses_or_loss_cap_pause_works() -> None:
+        source = _Source()
+        source.runtime.update({"execute_trades": True, "recent_losses": 3})
+        svc = AskAtlasService(source)
+        _setup_policy(svc)
+        _enable_demo_mode(svc)
+        svc.answer("approve automation policy ap1")
+        svc.answer("activate automation policy ap1")
+        svc.answer("enable execution gate")
+        out = svc.answer("run auto execution live place_trade XAUUSD continuation 0.01 london 0.8 0.8 dry")
+>       assert any(x in out["result"] for x in ("recent_losses_threshold_hit", "tiny_live_pilot_not_configured"))
+E       assert False
+E        +  where False = any(<generator object test_repeated_losses_or_loss_cap_pause_works.<locals>.<genexpr> at 0x0000021F399AC660>)
+
+tests\test_safe_automation_layer.py:155: AssertionError
+_____________ test_paused_automation_creates_review_control_item ______________
+
+    def test_paused_automation_creates_review_control_item() -> None:
+        source = _Source()
+        source.runtime.update({"execute_trades": True, "overreaction_score": 0.95})
+        svc = AskAtlasService(source)
+        _setup_policy(svc)
+        _enable_demo_mode(svc)
+        svc.answer("approve automation policy ap1")
+        svc.answer("activate automation policy ap1")
+        svc.answer("enable execution gate")
+        out = svc.answer("run auto execution live place_trade XAUUSD continuation 0.01 london 0.8 0.8 dry")
+>       assert any(x in out["result"] for x in ("overreaction_too_high", "tiny_live_pilot_not_configured"))
+E       assert False
+E        +  where False = any(<generator object test_paused_automation_creates_review_control_item.<locals>.<genexpr> at 0x0000021F4CBBB5A0>)
+
+tests\test_safe_automation_layer.py:170: AssertionError
+___________ test_auto_execution_uses_execution_validation_and_audit ___________
+
+    def test_auto_execution_uses_execution_validation_and_audit() -> None:
+        source = _Source()
+        source.runtime["execute_trades"] = True
+        svc = AskAtlasService(source)
+        _setup_policy(svc)
+        _enable_demo_mode(svc)
+        svc.answer("approve automation policy ap1")
+        svc.answer("activate automation policy ap1")
+        svc.answer("enable execution gate")
+        out = svc.answer("run auto execution live place_trade XAUUSD continuation 0.01 london 0.8 0.8 dry")
+>       assert any(x in out["result"].lower() for x in ("processed successfully", "tiny_live_pilot_not_configured"))
+E       assert False
+E        +  where False = any(<generator object test_auto_execution_uses_execution_validation_and_audit.<locals>.<genexpr> at 0x0000021F399AD7E0>)
+
+tests\test_safe_automation_layer.py:185: AssertionError
+__________________ test_unsupported_setup_family_is_blocked ___________________
+
+    def test_unsupported_setup_family_is_blocked() -> None:
+        source = _Source()
+        source.runtime["execute_trades"] = True
+        svc = AskAtlasService(source)
+        _setup_policy(svc)
+        _enable_demo_mode(svc)
+        svc.answer("approve automation policy ap1")
+        svc.answer("activate automation policy ap1")
+        svc.answer("enable execution gate")
+        out = svc.answer("run auto execution live place_trade XAUUSD mean_reversion 0.01 london 0.8 0.8 dry")
+>       assert any(x in out["result"] for x in ("setup_family_not_approved_for_automation", "tiny_live_pilot_not_configured"))
+E       assert False
+E        +  where False = any(<generator object test_unsupported_setup_family_is_blocked.<locals>.<genexpr> at 0x0000021F4CBBAEA0>)
+
+tests\test_safe_automation_layer.py:222: AssertionError
+________________ test_automation_respects_session_constraints _________________
+
+    def test_automation_respects_session_constraints() -> None:
+        source = _Source()
+        source.runtime["execute_trades"] = True
+        svc = AskAtlasService(source)
+        _setup_policy(svc)
+        _enable_demo_mode(svc)
+        svc.answer("approve automation policy ap1")
+        svc.answer("activate automation policy ap1")
+        svc.answer("enable execution gate")
+        now = datetime.now(timezone.utc)
+        svc.execution._session_control._sessions = [  # type: ignore[attr-defined]
+            SessionWindow(
+                name="test",
+                start=(now - timedelta(minutes=10)).strftime("%H:%M"),
+                end=(now + timedelta(minutes=3)).strftime("%H:%M"),
+                no_trade_buffer_minutes=10,
+            )
+        ]
+        out = svc.answer("run auto execution live place_trade XAUUSD continuation 0.01 london 0.8 0.8 dry")
+>       assert "near_session_close_no_new_trades" in out["result"]
+E       AssertionError: assert 'near_session_close_no_new_trades' in 'Auto-execution blocked: outside_active_session.'
+
+tests\test_safe_automation_layer.py:258: AssertionError
+__________________ test_automation_blocked_by_holiday_rules ___________________
+
+    def test_automation_blocked_by_holiday_rules() -> None:
+        source = _Source()
+        source.runtime["execute_trades"] = True
+        svc = AskAtlasService(source)
+        _setup_policy(svc)
+        _enable_demo_mode(svc)
+        svc.answer("approve automation policy ap1")
+        svc.answer("activate automation policy ap1")
+        svc.answer("enable execution gate")
+        today = datetime.now(timezone.utc).date().isoformat()
+        svc.execution._session_control._sessions = [  # type: ignore[attr-defined]
+            SessionWindow(name="holiday_test", start="00:00", end="23:59", timezone_name="UTC", holidays=(today,))
+        ]
+        out = svc.answer("run auto execution live place_trade XAUUSD continuation 0.01 london 0.8 0.8 dry")
+>       assert "market_closed_holiday" in out["result"]
+E       AssertionError: assert 'market_closed_holiday' in 'Auto-execution blocked: outside_active_session.'
+
+tests\test_safe_automation_layer.py:275: AssertionError
+________ test_simulated_market_state_cannot_trigger_guarded_execution _________
+
+    def test_simulated_market_state_cannot_trigger_guarded_execution() -> None:
+        source = _Source()
+        source.runtime.update({"execute_trades": True, "market_state_mode": "simulation"})
+        svc = AskAtlasService(source)
+        _setup_policy(svc)
+        _enable_demo_mode(svc)
+        _enable_tiny_live_pilot(svc)
+        svc.answer("approve automation policy ap1")
+        svc.answer("activate automation policy ap1")
+        svc.answer("enable execution gate")
+        out = svc.answer("run auto execution live place_trade XAUUSD continuation 0.01 london 0.8 0.8 dry")
+>       assert "simulation_market_state_cannot_execute" in out["result"]
+E       AssertionError: assert 'simulation_market_state_cannot_execute' in 'Auto-execution blocked: outside_active_session.'
+
+tests\test_safe_automation_layer.py:289: AssertionError
+___ test_spread_and_news_filters_block_unsafe_auto_execution_and_log_cycle ____
+
+    def test_spread_and_news_filters_block_unsafe_auto_execution_and_log_cycle() -> None:
+        source = _Source()
+        source.runtime.update(
+            {
+                "execute_trades": True,
+                "spread_state": "wide",
+                "spread_points": 42.0,
+                "news_risk_active": True,
+                "xau_bias": "buy",
+                "dxy_alignment": "conflict",
+                "us10y_alignment": "aligned",
+                "session": "london",
+            }
+        )
+        svc = AskAtlasService(source)
+        _setup_policy(svc)
+        _enable_demo_mode(svc)
+        _enable_tiny_live_pilot(svc)
+        svc.answer("approve automation policy ap1")
+        svc.answer("activate automation policy ap1")
+        svc.answer("enable execution gate")
+        out = svc.execution.attempt_auto_execution_from_signal(
+            signal_id="sig_cycle_001",
+            action_type="place_trade",
+            environment="demo",
+            instrument="XAUUSD",
+            setup_family="continuation",
+            size=0.01,
+            session="london",
+            confidence=0.8,
+            evidence_strength=0.8,
+            runtime_flags=source.runtime,
+            risk_policy={"max_spread_points": 30.0},
+            dry_run=True,
+        )
+>       assert out["reason"] == "spread_filter_blocked"
+E       AssertionError: assert 'outside_active_session' == 'spread_filter_blocked'
+E         
+E         - spread_filter_blocked
+E         + outside_active_session
+
+tests\test_safe_automation_layer.py:327: AssertionError
+_________________ test_dry_run_has_no_execution_side_effects __________________
+
+    def test_dry_run_has_no_execution_side_effects() -> None:
+        source = _Source()
+        svc = AskAtlasService(source)
+        svc.answer("enable execution gate")
+        req_id = svc.answer("create execution request paper place_trade dry XAUUSD buy 0.01")["execution_request"]["id"]
+        svc.answer(f"approve execution {req_id}")
+        out = svc.answer(f"run execution {req_id}")
+>       assert "Dry-run completed" in out["result"]
+E       AssertionError: assert 'Dry-run completed' in 'Execution blocked for exec_62502ee64b: outside_active_session.'
+
+tests\test_system_hardening_integration.py:97: AssertionError
+_________________ test_only_allowed_instrument_can_be_traded __________________
+
+    def test_only_allowed_instrument_can_be_traded() -> None:
+        svc = AskAtlasService(_Source())
+        _setup_tiny_live_pilot(svc)
+        svc.answer("approve tiny live pilot")
+        svc.answer("activate tiny live pilot")
+        req_id = _live_request(svc, instrument="EURUSD")
+        out = svc.answer(f"run execution {req_id}")
+>       assert "tiny_live_pilot_instrument_restricted" in out["result"]
+E       AssertionError: assert 'tiny_live_pilot_instrument_restricted' in 'Execution blocked for exec_531dc7af94: outside_active_session.'
+
+tests\test_tiny_live_pilot.py:74: AssertionError
+_________________ test_only_allowed_setup_family_can_be_used __________________
+
+    def test_only_allowed_setup_family_can_be_used() -> None:
+        svc = AskAtlasService(_Source())
+        _setup_tiny_live_pilot(svc)
+        svc.answer("approve tiny live pilot")
+        svc.answer("activate tiny live pilot")
+        req_id = _live_request(svc, setup="breakout")
+        out = svc.answer(f"run execution {req_id}")
+>       assert "tiny_live_pilot_setup_restricted" in out["result"]
+E       AssertionError: assert 'tiny_live_pilot_setup_restricted' in 'Execution blocked for exec_bfff07a9f3: outside_active_session.'
+
+tests\test_tiny_live_pilot.py:84: AssertionError
+___________________________ test_size_cap_enforced ____________________________
+
+    def test_size_cap_enforced() -> None:
+        svc = AskAtlasService(_Source())
+        _setup_tiny_live_pilot(svc)
+        svc.answer("approve tiny live pilot")
+        svc.answer("activate tiny live pilot")
+        req_id = _live_request(svc, size="0.02")
+        out = svc.answer(f"run execution {req_id}")
+>       assert "tiny_live_pilot_size_cap_exceeded" in out["result"]
+E       AssertionError: assert 'tiny_live_pilot_size_cap_exceeded' in 'Execution blocked for exec_a4bd248b17: outside_active_session.'
+
+tests\test_tiny_live_pilot.py:94: AssertionError
+________________________ test_daily_trade_cap_enforced ________________________
+
+    def test_daily_trade_cap_enforced() -> None:
+        source = _Source()
+        source.runtime["day_trade_count"] = 2
+        svc = AskAtlasService(source)
+        _setup_tiny_live_pilot(svc)
+        svc.answer("approve tiny live pilot")
+        svc.answer("activate tiny live pilot")
+        req_id = _live_request(svc)
+        out = svc.answer(f"run execution {req_id}")
+>       assert "tiny_live_pilot_max_trades_reached" in out["result"]
+E       AssertionError: assert 'tiny_live_pilot_max_trades_reached' in 'Execution blocked for exec_aa6199a39c: outside_active_session.'
+
+tests\test_tiny_live_pilot.py:106: AssertionError
+____________________ test_daily_loss_cap_pauses_live_pilot ____________________
+
+    def test_daily_loss_cap_pauses_live_pilot() -> None:
+        source = _Source()
+        source.runtime["daily_loss_pct"] = 0.7
+        svc = AskAtlasService(source)
+        _setup_tiny_live_pilot(svc)
+        svc.answer("approve tiny live pilot")
+        svc.answer("activate tiny live pilot")
+        req_id = _live_request(svc)
+        out = svc.answer(f"run execution {req_id}")
+>       assert "tiny_live_pilot_daily_loss_cap_hit" in out["result"]
+E       AssertionError: assert 'tiny_live_pilot_daily_loss_cap_hit' in 'Execution blocked for exec_e62336e3ea: outside_active_session.'
+
+tests\test_tiny_live_pilot.py:119: AssertionError
+_________________ test_consecutive_loss_cap_pauses_live_pilot _________________
+
+    def test_consecutive_loss_cap_pauses_live_pilot() -> None:
+        source = _Source()
+        source.runtime["consecutive_losses"] = 1
+        svc = AskAtlasService(source)
+        _setup_tiny_live_pilot(svc)
+        svc.answer("approve tiny live pilot")
+        svc.answer("activate tiny live pilot")
+        req_id = _live_request(svc)
+        out = svc.answer(f"run execution {req_id}")
+>       assert "tiny_live_pilot_consecutive_loss_cap_hit" in out["result"]
+E       AssertionError: assert 'tiny_live_pilot_consecutive_loss_cap_hit' in 'Execution blocked for exec_5478dcf479: outside_active_session.'
+
+tests\test_tiny_live_pilot.py:132: AssertionError
+_________________ test_forced_flat_urgency_pauses_live_pilot __________________
+
+    def test_forced_flat_urgency_pauses_live_pilot() -> None:
+        svc = AskAtlasService(_Source())
+        _setup_tiny_live_pilot(svc)
+        svc.answer("approve tiny live pilot")
+        svc.answer("activate tiny live pilot")
+        _set_active_session_for_now(svc, minutes_to_close=60, buffer=5)
+        svc.execution._session_control.to_dict = lambda runtime_flags=None: {  # type: ignore[method-assign]
+            "forced_flat_required": True,
+            "minutes_to_session_close": 5,
+        }
+        req_id = _live_request(svc)
+        out = svc.answer(f"run execution {req_id}")
+>       assert "tiny_live_pilot_forced_flat_urgency" in out["result"]
+E       AssertionError: assert 'tiny_live_pilot_forced_flat_urgency' in 'Execution blocked for exec_5edb48bd09: outside_active_session.'
+
+tests\test_tiny_live_pilot.py:148: AssertionError
+__________________ test_blocked_live_pilot_does_not_execute ___________________
+
+    def test_blocked_live_pilot_does_not_execute() -> None:
+        source = _Source()
+        svc = AskAtlasService(source)
+        _setup_tiny_live_pilot(svc)
+        # keep unapproved/unactivated so it blocks
+        req_id = _live_request(svc)
+        out = svc.answer(f"run execution {req_id}")
+>       assert "tiny_live_pilot_disabled" in out["result"] or "tiny_live_pilot_not_approved" in out["result"]
+E       AssertionError: assert ('tiny_live_pilot_disabled' in 'Execution blocked for exec_709ada7115: outside_active_session.' or 'tiny_live_pilot_not_approved' in 'Execution blocked for exec_709ada7115: outside_active_session.')
+
+tests\test_tiny_live_pilot.py:159: AssertionError
+=========================== short test summary info ===========================
+FAILED tests/test_broker_adapter_hardening.py::test_approved_live_request_submits_once
+FAILED tests/test_broker_adapter_hardening.py::test_duplicate_submit_does_not_create_duplicate_order
+FAILED tests/test_broker_adapter_hardening.py::test_broker_reject_is_captured_and_exposed
+FAILED tests/test_broker_adapter_hardening.py::test_partial_fill_updates_normalized_state
+FAILED tests/test_broker_adapter_hardening.py::test_cancel_request_updates_state_safely
+FAILED tests/test_broker_adapter_hardening.py::test_uncertain_submit_enters_reconciliation_required
+FAILED tests/test_broker_adapter_hardening.py::test_successful_live_execution_truth_exposes_broker_order
+FAILED tests/test_broker_adapter_hardening.py::test_restart_pending_order_requires_reconciliation_not_blind_resubmit
+FAILED tests/test_broker_adapter_hardening.py::test_malformed_broker_response_fails_safely
+FAILED tests/test_critical_safety_patches.py::test_live_like_execution_blocked_for_inmemory_adapter
+FAILED tests/test_critical_safety_patches.py::test_mandatory_reconciliation_blocks_execution_on_mismatch
+FAILED tests/test_critical_safety_patches.py::test_mandatory_reconciliation_blocks_execution_when_broker_scan_fails
+FAILED tests/test_critical_safety_patches.py::test_simulation_data_source_blocked_for_live_like_execution
+FAILED tests/test_cross_process_execution_gate_sync.py::test_normal_guarded_execution_still_works_when_shared_state_is_healthy
+FAILED tests/test_demo_auto_execution_from_recommendation.py::test_explicit_auto_execution_command_required_for_action_path
+FAILED tests/test_demo_auto_execution_from_recommendation.py::test_duplicate_signal_blocked_only_within_window
+FAILED tests/test_demo_rollout_validation.py::test_allowed_guarded_trade_path_updates_state_and_audit
+FAILED tests/test_demo_session_review.py::test_blocked_and_allowed_counts_reflect_actual_audit_state
+FAILED tests/test_execution_safe_architecture.py::test_non_dry_execution_without_executor_does_not_report_success
+FAILED tests/test_execution_safe_architecture.py::test_dry_run_logs_but_does_not_execute
+FAILED tests/test_execution_safe_architecture.py::test_paper_live_separation_enforced
+FAILED tests/test_execution_safe_architecture.py::test_live_blocked_in_paper_stages
+FAILED tests/test_execution_safe_architecture.py::test_pilot_restrictions_enforced
+FAILED tests/test_execution_safe_architecture.py::test_dry_run_available_in_all_stages
+FAILED tests/test_execution_safe_architecture.py::test_execution_blocked_near_session_close
+FAILED tests/test_execution_safe_architecture.py::test_forced_flat_required_before_session_end
+FAILED tests/test_execution_safe_architecture.py::test_holiday_blocks_execution
+FAILED tests/test_execution_safe_architecture.py::test_early_close_blocks_new_trades
+FAILED tests/test_forced_flat_control_workflow.py::test_forced_flat_required_creates_high_priority_control_item
+FAILED tests/test_forced_flat_control_workflow.py::test_repeated_trigger_does_not_spam_duplicates
+FAILED tests/test_forced_flat_control_workflow.py::test_early_close_produces_correct_reason_and_urgency
+FAILED tests/test_forced_flat_control_workflow.py::test_time_to_close_included_in_item_details
+FAILED tests/test_forced_flat_control_workflow.py::test_explain_item_includes_flatten_reason_and_urgency
+FAILED tests/test_guarded_demo_workflow.py::test_allowed_guarded_trade_validation_uses_guarded_dry_run_path
+FAILED tests/test_live_demo_mode.py::test_real_money_live_path_remains_disabled
+FAILED tests/test_live_demo_mode.py::test_tiny_live_pilot_restrictions_still_apply_in_demo
+FAILED tests/test_live_pilot_review_panel.py::test_reconciliation_required_state_is_surfaced
+FAILED tests/test_live_pilot_review_panel.py::test_last_broker_reject_reason_is_visible
+FAILED tests/test_operator_present_auto_trading.py::test_auto_trading_blocked_by_forced_flat_urgency
+FAILED tests/test_operator_present_auto_trading.py::test_auto_trading_respects_tiny_pilot_restrictions
+FAILED tests/test_reconciliation_workflow.py::test_reconciliation_required_creates_high_priority_control_item
+FAILED tests/test_reconciliation_workflow.py::test_reconcile_action_queries_safely_and_updates_when_clear
+FAILED tests/test_reconciliation_workflow.py::test_unresolved_query_keeps_item_pending
+FAILED tests/test_reconciliation_workflow.py::test_explain_item_includes_mismatch_reason_and_statuses
+FAILED tests/test_safe_automation_layer.py::test_default_autonomy_mode_is_safe_by_default
+FAILED tests/test_safe_automation_layer.py::test_paper_stage_blocks_live_automation
+FAILED tests/test_safe_automation_layer.py::test_limited_live_pilot_restrictions_enforced
+FAILED tests/test_safe_automation_layer.py::test_blocker_severity_pause_works
+FAILED tests/test_safe_automation_layer.py::test_repeated_losses_or_loss_cap_pause_works
+FAILED tests/test_safe_automation_layer.py::test_paused_automation_creates_review_control_item
+FAILED tests/test_safe_automation_layer.py::test_auto_execution_uses_execution_validation_and_audit
+FAILED tests/test_safe_automation_layer.py::test_unsupported_setup_family_is_blocked
+FAILED tests/test_safe_automation_layer.py::test_automation_respects_session_constraints
+FAILED tests/test_safe_automation_layer.py::test_automation_blocked_by_holiday_rules
+FAILED tests/test_safe_automation_layer.py::test_simulated_market_state_cannot_trigger_guarded_execution
+FAILED tests/test_safe_automation_layer.py::test_spread_and_news_filters_block_unsafe_auto_execution_and_log_cycle
+FAILED tests/test_system_hardening_integration.py::test_dry_run_has_no_execution_side_effects
+FAILED tests/test_tiny_live_pilot.py::test_only_allowed_instrument_can_be_traded
+FAILED tests/test_tiny_live_pilot.py::test_only_allowed_setup_family_can_be_used
+FAILED tests/test_tiny_live_pilot.py::test_size_cap_enforced - AssertionError...
+FAILED tests/test_tiny_live_pilot.py::test_daily_trade_cap_enforced - Asserti...
+FAILED tests/test_tiny_live_pilot.py::test_daily_loss_cap_pauses_live_pilot
+FAILED tests/test_tiny_live_pilot.py::test_consecutive_loss_cap_pauses_live_pilot
+FAILED tests/test_tiny_live_pilot.py::test_forced_flat_urgency_pauses_live_pilot
+FAILED tests/test_tiny_live_pilot.py::test_blocked_live_pilot_does_not_execute
+65 failed, 1165 passed in 241.54s (0:04:01)

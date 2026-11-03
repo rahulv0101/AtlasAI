@@ -1,0 +1,23 @@
+# command: C:\Users\User\Desktop\Atlas AI\.venv\Scripts\python.exe -m atlas_ai.main ui --mode-override live
+# spawn_command: C:\Users\User\AppData\Local\Programs\Python\Python311\pythonw.exe -m atlas_ai.main ui --mode-override live
+2026-05-05 18:48:12,638 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=bootstrap exception_type= error=
+2026-05-05 18:48:12,674 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=bootstrap status=entered error=
+2026-05-05 18:48:12,707 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=ui_server_ready exception_type= error=
+2026-05-05 18:48:12,734 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=ui_server_ready status=ok error=
+2026-05-05 18:48:12,789 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=known_instability_detected status=continuing_native_with_safe_mode error=
+2026-05-05 18:48:13,219 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=import_webview exception_type= error=
+2026-05-05 18:48:13,248 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=import_webview status=entered error=
+2026-05-05 18:48:13,276 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=import_webview status=returned error=
+2026-05-05 18:48:13,305 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=window_create exception_type= error=
+2026-05-05 18:48:13,326 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=entered_create_window status=entered error=
+2026-05-05 18:48:13,339 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=create_window_returned status=returned error=
+2026-05-05 18:48:13,362 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=start_loop exception_type= error=
+2026-05-05 18:48:13,385 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=entered_start status=entered error=
+2026-05-05 18:48:16,527 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=first_native_callback status=entered error=
+2026-05-05 18:48:16,567 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=True stage=started exception_type= error=
+2026-05-05 18:48:16,663 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=first_native_callback status=started error=
+[pywebview] Failed to delete user data folder: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\User\\AppData\\Local\\Temp\\tmpc0mpjffa\\EBWebView\\Default\\BrowsingTopicsSiteData'
+2026-05-05 18:57:13,770 | WARNING | pywebview | Failed to delete user data folder: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\User\\AppData\\Local\\Temp\\tmpc0mpjffa\\EBWebView\\Default\\BrowsingTopicsSiteData'
+2026-05-05 18:57:14,846 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=start_returned status=returned error=
+2026-05-05 18:57:15,225 | INFO | atlas_ai.desktop | UI startup diagnostic: ok=False stage=start_loop_returned exception_type= error=window_loop_returned
+2026-05-05 18:57:15,635 | INFO | atlas_ai.desktop | Desktop native lifecycle: stage=wrapper_exit_reason status=returning error=
