@@ -1,0 +1,54 @@
+{
+  "candidate_counts": {
+    "timing_blocked_found": 1509,
+    "timing_blocked_simulated": 0,
+    "timing_blocked_skipped_no_price_bar": 1509,
+    "timing_passed_executed_found": 0,
+    "timing_passed_executed_simulated": 0,
+    "timing_passed_executed_skipped_no_price_bar": 0
+  },
+  "captured_at": "2026-09-02T07:24:33.914140+00:00",
+  "data_fetch": {},
+  "label": "timing_discipline_selectivity_aug26_now",
+  "method": {
+    "control_group": "directional candidates in retained events that created/executed an execution request and were not timing-discipline blocked",
+    "entry_assumption": "candidate signal bar maps to nearest retained M1 bar at or before event timestamp; hypothetical entry uses next bar open, matching backtest simulator",
+    "safety": "offline analysis only; execute_trades forced false; no strategy, risk, or execution policy changed",
+    "simulation": "atlas_ai.learning.trade_labeling._simulate_trade_path",
+    "source": "retained storage/events.jsonl and storage/archive/events_*.jsonl"
+  },
+  "samples": {
+    "timing_blocked_hypothetical": [],
+    "timing_passed_executed_control": []
+  },
+  "schema": "atlas_timing_discipline_selectivity_report_v1",
+  "summaries": {
+    "timing_blocked_hypothetical": {
+      "average_r": 0.0,
+      "by_strategy": {},
+      "count": 0,
+      "exit_reasons": {},
+      "hold_bars_distribution": {},
+      "median_r": 0.0,
+      "profit_factor": 0.0,
+      "win_rate": 0.0
+    },
+    "timing_passed_executed_control": {
+      "average_r": 0.0,
+      "by_strategy": {},
+      "count": 0,
+      "exit_reasons": {},
+      "hold_bars_distribution": {},
+      "median_r": 0.0,
+      "profit_factor": 0.0,
+      "win_rate": 0.0
+    }
+  },
+  "window": {
+    "bars": 6504,
+    "end": "2026-09-02T10:00:00+00:00",
+    "start": "2026-08-26T16:32:00+00:00",
+    "symbol": "XAUUSD",
+    "timeframe": "M1"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "live_readiness_principle": "Readiness requires explicit operator approval, stable runtime, and validated evidence.",
+  "not_ready_signals": [
+    "paper mode active",
+    "no high-confidence actionable signal",
+    "comparison still under evaluation"
+  ],
+  "setup_readiness": {
+    "ready_for_existing_gates": [
+      "playbook is recognizable",
+      "required ingredients are present",
+      "context risks are not dominant",
+      "execution conditions are acceptable",
+      "existing risk and execution gates still have final authority"
+    ],
+    "developing": [
+      "some playbook ingredients are present",
+      "one or more confirmations are still missing",
+      "operator should observe or wait for M1 confirmation"
+    ],
+    "not_ready": [
+      "price is mid-range",
+      "structure or momentum is weak",
+      "execution friction is elevated",
+      "macro/event context is conflicting",
+      "reversal or breakout confirmation is incomplete"
+    ]
+  },
+  "teaching_readiness": {
+    "operator_label_samples_minimum": 12,
+    "usable_review_standard": "Use teaching labels for pattern review after enough examples; do not promote changes from one label.",
+    "promotion_boundary": "Teaching digest can recommend review focus but cannot alter live risk, strategy, or execution policy."
+  }
+}

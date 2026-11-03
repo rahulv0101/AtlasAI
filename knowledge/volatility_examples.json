@@ -1,0 +1,4296 @@
+{
+  "version": "1.0",
+  "count": 150,
+  "examples": [
+    {
+      "id": "vol_001",
+      "input_features": {
+        "atr_ratio": 0.62,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 2.2,
+        "spread_status": "normal",
+        "session": "london",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "compressed_volatility",
+      "expected_response": "breakout_watch",
+      "expected_blockers": [],
+      "expected_tags": [
+        "breakout_watch"
+      ],
+      "explanation": "Example 1 demonstrates compressed_volatility with response breakout_watch and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_002",
+      "input_features": {
+        "atr_ratio": 0.65,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 2.75,
+        "spread_status": "normal",
+        "session": "new_york",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "compressed_volatility",
+      "expected_response": "breakout_watch",
+      "expected_blockers": [],
+      "expected_tags": [
+        "breakout_watch"
+      ],
+      "explanation": "Example 2 demonstrates compressed_volatility with response breakout_watch and macro_data_state=available."
+    },
+    {
+      "id": "vol_003",
+      "input_features": {
+        "atr_ratio": 0.68,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 3.3,
+        "spread_status": "normal",
+        "session": "overlap",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "compressed_volatility",
+      "expected_response": "breakout_watch",
+      "expected_blockers": [],
+      "expected_tags": [
+        "breakout_watch"
+      ],
+      "explanation": "Example 3 demonstrates compressed_volatility with response breakout_watch and macro_data_state=available."
+    },
+    {
+      "id": "vol_004",
+      "input_features": {
+        "atr_ratio": 0.62,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 1.55,
+        "spread_pips": 3.85,
+        "spread_status": "normal",
+        "session": "asian",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "compressed_volatility",
+      "expected_response": "breakout_watch",
+      "expected_blockers": [],
+      "expected_tags": [
+        "breakout_watch"
+      ],
+      "explanation": "Example 4 demonstrates compressed_volatility with response breakout_watch and macro_data_state=available."
+    },
+    {
+      "id": "vol_005",
+      "input_features": {
+        "atr_ratio": 0.65,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 1.8,
+        "spread_pips": 4.4,
+        "spread_status": "normal",
+        "session": "off_hours",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "compressed_volatility",
+      "expected_response": "breakout_watch",
+      "expected_blockers": [],
+      "expected_tags": [
+        "breakout_watch"
+      ],
+      "explanation": "Example 5 demonstrates compressed_volatility with response breakout_watch and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_006",
+      "input_features": {
+        "atr_ratio": 0.68,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 2.05,
+        "spread_pips": 4.95,
+        "spread_status": "normal",
+        "session": "london",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "compressed_volatility",
+      "expected_response": "breakout_watch",
+      "expected_blockers": [],
+      "expected_tags": [
+        "breakout_watch"
+      ],
+      "explanation": "Example 6 demonstrates compressed_volatility with response breakout_watch and macro_data_state=available."
+    },
+    {
+      "id": "vol_007",
+      "input_features": {
+        "atr_ratio": 0.62,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 5.5,
+        "spread_status": "normal",
+        "session": "new_york",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "compressed_volatility",
+      "expected_response": "breakout_watch",
+      "expected_blockers": [],
+      "expected_tags": [
+        "breakout_watch"
+      ],
+      "explanation": "Example 7 demonstrates compressed_volatility with response breakout_watch and macro_data_state=available."
+    },
+    {
+      "id": "vol_008",
+      "input_features": {
+        "atr_ratio": 0.65,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 2.2,
+        "spread_status": "normal",
+        "session": "overlap",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "compressed_volatility",
+      "expected_response": "breakout_watch",
+      "expected_blockers": [],
+      "expected_tags": [
+        "breakout_watch"
+      ],
+      "explanation": "Example 8 demonstrates compressed_volatility with response breakout_watch and macro_data_state=available."
+    },
+    {
+      "id": "vol_009",
+      "input_features": {
+        "atr_ratio": 0.68,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 2.75,
+        "spread_status": "normal",
+        "session": "asian",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "compressed_volatility",
+      "expected_response": "breakout_watch",
+      "expected_blockers": [],
+      "expected_tags": [
+        "breakout_watch"
+      ],
+      "explanation": "Example 9 demonstrates compressed_volatility with response breakout_watch and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_010",
+      "input_features": {
+        "atr_ratio": 0.62,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.55,
+        "spread_pips": 3.3,
+        "spread_status": "normal",
+        "session": "off_hours",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "compressed_volatility",
+      "expected_response": "breakout_watch",
+      "expected_blockers": [],
+      "expected_tags": [
+        "breakout_watch"
+      ],
+      "explanation": "Example 10 demonstrates compressed_volatility with response breakout_watch and macro_data_state=available."
+    },
+    {
+      "id": "vol_011",
+      "input_features": {
+        "atr_ratio": 0.65,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.8,
+        "spread_pips": 3.85,
+        "spread_status": "normal",
+        "session": "london",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "compressed_volatility",
+      "expected_response": "breakout_watch",
+      "expected_blockers": [],
+      "expected_tags": [
+        "breakout_watch"
+      ],
+      "explanation": "Example 11 demonstrates compressed_volatility with response breakout_watch and macro_data_state=available."
+    },
+    {
+      "id": "vol_012",
+      "input_features": {
+        "atr_ratio": 0.68,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 2.05,
+        "spread_pips": 4.4,
+        "spread_status": "normal",
+        "session": "new_york",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "compressed_volatility",
+      "expected_response": "breakout_watch",
+      "expected_blockers": [],
+      "expected_tags": [
+        "breakout_watch"
+      ],
+      "explanation": "Example 12 demonstrates compressed_volatility with response breakout_watch and macro_data_state=available."
+    },
+    {
+      "id": "vol_013",
+      "input_features": {
+        "atr_ratio": 0.62,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 4.95,
+        "spread_status": "normal",
+        "session": "overlap",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "compressed_volatility",
+      "expected_response": "breakout_watch",
+      "expected_blockers": [],
+      "expected_tags": [
+        "breakout_watch"
+      ],
+      "explanation": "Example 13 demonstrates compressed_volatility with response breakout_watch and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_014",
+      "input_features": {
+        "atr_ratio": 0.65,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 5.5,
+        "spread_status": "normal",
+        "session": "asian",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "compressed_volatility",
+      "expected_response": "breakout_watch",
+      "expected_blockers": [],
+      "expected_tags": [
+        "breakout_watch"
+      ],
+      "explanation": "Example 14 demonstrates compressed_volatility with response breakout_watch and macro_data_state=available."
+    },
+    {
+      "id": "vol_015",
+      "input_features": {
+        "atr_ratio": 0.68,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 2.2,
+        "spread_status": "normal",
+        "session": "off_hours",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "compressed_volatility",
+      "expected_response": "breakout_watch",
+      "expected_blockers": [],
+      "expected_tags": [
+        "breakout_watch"
+      ],
+      "explanation": "Example 15 demonstrates compressed_volatility with response breakout_watch and macro_data_state=available."
+    },
+    {
+      "id": "vol_016",
+      "input_features": {
+        "atr_ratio": 1.0,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 2.2,
+        "spread_status": "normal",
+        "session": "london",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "bullish",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "normal_volatility",
+      "expected_response": "normal_analysis",
+      "expected_blockers": [],
+      "expected_tags": [
+        "normal_analysis"
+      ],
+      "explanation": "Example 16 demonstrates normal_volatility with response normal_analysis and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_017",
+      "input_features": {
+        "atr_ratio": 1.03,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 2.75,
+        "spread_status": "normal",
+        "session": "new_york",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "bullish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "normal_volatility",
+      "expected_response": "normal_analysis",
+      "expected_blockers": [],
+      "expected_tags": [
+        "normal_analysis"
+      ],
+      "explanation": "Example 17 demonstrates normal_volatility with response normal_analysis and macro_data_state=available."
+    },
+    {
+      "id": "vol_018",
+      "input_features": {
+        "atr_ratio": 1.06,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 3.3,
+        "spread_status": "normal",
+        "session": "overlap",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "bullish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "normal_volatility",
+      "expected_response": "normal_analysis",
+      "expected_blockers": [],
+      "expected_tags": [
+        "normal_analysis"
+      ],
+      "explanation": "Example 18 demonstrates normal_volatility with response normal_analysis and macro_data_state=available."
+    },
+    {
+      "id": "vol_019",
+      "input_features": {
+        "atr_ratio": 1.0,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 1.55,
+        "spread_pips": 3.85,
+        "spread_status": "normal",
+        "session": "asian",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "bullish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "normal_volatility",
+      "expected_response": "normal_analysis",
+      "expected_blockers": [],
+      "expected_tags": [
+        "normal_analysis"
+      ],
+      "explanation": "Example 19 demonstrates normal_volatility with response normal_analysis and macro_data_state=available."
+    },
+    {
+      "id": "vol_020",
+      "input_features": {
+        "atr_ratio": 1.03,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 1.8,
+        "spread_pips": 4.4,
+        "spread_status": "normal",
+        "session": "off_hours",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "bullish",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "normal_volatility",
+      "expected_response": "normal_analysis",
+      "expected_blockers": [],
+      "expected_tags": [
+        "normal_analysis"
+      ],
+      "explanation": "Example 20 demonstrates normal_volatility with response normal_analysis and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_021",
+      "input_features": {
+        "atr_ratio": 1.06,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 2.05,
+        "spread_pips": 4.95,
+        "spread_status": "normal",
+        "session": "london",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "bullish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "normal_volatility",
+      "expected_response": "normal_analysis",
+      "expected_blockers": [],
+      "expected_tags": [
+        "normal_analysis"
+      ],
+      "explanation": "Example 21 demonstrates normal_volatility with response normal_analysis and macro_data_state=available."
+    },
+    {
+      "id": "vol_022",
+      "input_features": {
+        "atr_ratio": 1.0,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 5.5,
+        "spread_status": "normal",
+        "session": "new_york",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "bullish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "normal_volatility",
+      "expected_response": "normal_analysis",
+      "expected_blockers": [],
+      "expected_tags": [
+        "normal_analysis"
+      ],
+      "explanation": "Example 22 demonstrates normal_volatility with response normal_analysis and macro_data_state=available."
+    },
+    {
+      "id": "vol_023",
+      "input_features": {
+        "atr_ratio": 1.03,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 2.2,
+        "spread_status": "normal",
+        "session": "overlap",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "bullish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "normal_volatility",
+      "expected_response": "normal_analysis",
+      "expected_blockers": [],
+      "expected_tags": [
+        "normal_analysis"
+      ],
+      "explanation": "Example 23 demonstrates normal_volatility with response normal_analysis and macro_data_state=available."
+    },
+    {
+      "id": "vol_024",
+      "input_features": {
+        "atr_ratio": 1.06,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 2.75,
+        "spread_status": "normal",
+        "session": "asian",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "bullish",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "normal_volatility",
+      "expected_response": "normal_analysis",
+      "expected_blockers": [],
+      "expected_tags": [
+        "normal_analysis"
+      ],
+      "explanation": "Example 24 demonstrates normal_volatility with response normal_analysis and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_025",
+      "input_features": {
+        "atr_ratio": 1.0,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.55,
+        "spread_pips": 3.3,
+        "spread_status": "normal",
+        "session": "off_hours",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "bullish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "normal_volatility",
+      "expected_response": "normal_analysis",
+      "expected_blockers": [],
+      "expected_tags": [
+        "normal_analysis"
+      ],
+      "explanation": "Example 25 demonstrates normal_volatility with response normal_analysis and macro_data_state=available."
+    },
+    {
+      "id": "vol_026",
+      "input_features": {
+        "atr_ratio": 1.03,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.8,
+        "spread_pips": 3.85,
+        "spread_status": "normal",
+        "session": "london",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "bullish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "normal_volatility",
+      "expected_response": "normal_analysis",
+      "expected_blockers": [],
+      "expected_tags": [
+        "normal_analysis"
+      ],
+      "explanation": "Example 26 demonstrates normal_volatility with response normal_analysis and macro_data_state=available."
+    },
+    {
+      "id": "vol_027",
+      "input_features": {
+        "atr_ratio": 1.06,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 2.05,
+        "spread_pips": 4.4,
+        "spread_status": "normal",
+        "session": "new_york",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "bullish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "normal_volatility",
+      "expected_response": "normal_analysis",
+      "expected_blockers": [],
+      "expected_tags": [
+        "normal_analysis"
+      ],
+      "explanation": "Example 27 demonstrates normal_volatility with response normal_analysis and macro_data_state=available."
+    },
+    {
+      "id": "vol_028",
+      "input_features": {
+        "atr_ratio": 1.0,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 4.95,
+        "spread_status": "normal",
+        "session": "overlap",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "bullish",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "normal_volatility",
+      "expected_response": "normal_analysis",
+      "expected_blockers": [],
+      "expected_tags": [
+        "normal_analysis"
+      ],
+      "explanation": "Example 28 demonstrates normal_volatility with response normal_analysis and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_029",
+      "input_features": {
+        "atr_ratio": 1.03,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 5.5,
+        "spread_status": "normal",
+        "session": "asian",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "bullish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "normal_volatility",
+      "expected_response": "normal_analysis",
+      "expected_blockers": [],
+      "expected_tags": [
+        "normal_analysis"
+      ],
+      "explanation": "Example 29 demonstrates normal_volatility with response normal_analysis and macro_data_state=available."
+    },
+    {
+      "id": "vol_030",
+      "input_features": {
+        "atr_ratio": 1.06,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 2.2,
+        "spread_status": "normal",
+        "session": "off_hours",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "bullish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "normal_volatility",
+      "expected_response": "normal_analysis",
+      "expected_blockers": [],
+      "expected_tags": [
+        "normal_analysis"
+      ],
+      "explanation": "Example 30 demonstrates normal_volatility with response normal_analysis and macro_data_state=available."
+    },
+    {
+      "id": "vol_031",
+      "input_features": {
+        "atr_ratio": 1.38,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 2.2,
+        "spread_status": "normal",
+        "session": "london",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "elevated_volatility",
+      "expected_response": "reduce_risk_require_higher_confluence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_risk_require_higher_confluence"
+      ],
+      "explanation": "Example 31 demonstrates elevated_volatility with response reduce_risk_require_higher_confluence and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_032",
+      "input_features": {
+        "atr_ratio": 1.41,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 2.75,
+        "spread_status": "normal",
+        "session": "new_york",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "elevated_volatility",
+      "expected_response": "reduce_risk_require_higher_confluence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_risk_require_higher_confluence"
+      ],
+      "explanation": "Example 32 demonstrates elevated_volatility with response reduce_risk_require_higher_confluence and macro_data_state=available."
+    },
+    {
+      "id": "vol_033",
+      "input_features": {
+        "atr_ratio": 1.44,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 3.3,
+        "spread_status": "normal",
+        "session": "overlap",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "elevated_volatility",
+      "expected_response": "reduce_risk_require_higher_confluence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_risk_require_higher_confluence"
+      ],
+      "explanation": "Example 33 demonstrates elevated_volatility with response reduce_risk_require_higher_confluence and macro_data_state=available."
+    },
+    {
+      "id": "vol_034",
+      "input_features": {
+        "atr_ratio": 1.38,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 1.55,
+        "spread_pips": 3.85,
+        "spread_status": "normal",
+        "session": "asian",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "elevated_volatility",
+      "expected_response": "reduce_risk_require_higher_confluence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_risk_require_higher_confluence"
+      ],
+      "explanation": "Example 34 demonstrates elevated_volatility with response reduce_risk_require_higher_confluence and macro_data_state=available."
+    },
+    {
+      "id": "vol_035",
+      "input_features": {
+        "atr_ratio": 1.41,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 1.8,
+        "spread_pips": 4.4,
+        "spread_status": "normal",
+        "session": "off_hours",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "elevated_volatility",
+      "expected_response": "reduce_risk_require_higher_confluence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_risk_require_higher_confluence"
+      ],
+      "explanation": "Example 35 demonstrates elevated_volatility with response reduce_risk_require_higher_confluence and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_036",
+      "input_features": {
+        "atr_ratio": 1.44,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 2.05,
+        "spread_pips": 4.95,
+        "spread_status": "normal",
+        "session": "london",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "elevated_volatility",
+      "expected_response": "reduce_risk_require_higher_confluence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_risk_require_higher_confluence"
+      ],
+      "explanation": "Example 36 demonstrates elevated_volatility with response reduce_risk_require_higher_confluence and macro_data_state=available."
+    },
+    {
+      "id": "vol_037",
+      "input_features": {
+        "atr_ratio": 1.38,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 5.5,
+        "spread_status": "normal",
+        "session": "new_york",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "elevated_volatility",
+      "expected_response": "reduce_risk_require_higher_confluence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_risk_require_higher_confluence"
+      ],
+      "explanation": "Example 37 demonstrates elevated_volatility with response reduce_risk_require_higher_confluence and macro_data_state=available."
+    },
+    {
+      "id": "vol_038",
+      "input_features": {
+        "atr_ratio": 1.41,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 2.2,
+        "spread_status": "normal",
+        "session": "overlap",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "elevated_volatility",
+      "expected_response": "reduce_risk_require_higher_confluence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_risk_require_higher_confluence"
+      ],
+      "explanation": "Example 38 demonstrates elevated_volatility with response reduce_risk_require_higher_confluence and macro_data_state=available."
+    },
+    {
+      "id": "vol_039",
+      "input_features": {
+        "atr_ratio": 1.44,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 2.75,
+        "spread_status": "normal",
+        "session": "asian",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "elevated_volatility",
+      "expected_response": "reduce_risk_require_higher_confluence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_risk_require_higher_confluence"
+      ],
+      "explanation": "Example 39 demonstrates elevated_volatility with response reduce_risk_require_higher_confluence and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_040",
+      "input_features": {
+        "atr_ratio": 1.38,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.55,
+        "spread_pips": 3.3,
+        "spread_status": "normal",
+        "session": "off_hours",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "elevated_volatility",
+      "expected_response": "reduce_risk_require_higher_confluence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_risk_require_higher_confluence"
+      ],
+      "explanation": "Example 40 demonstrates elevated_volatility with response reduce_risk_require_higher_confluence and macro_data_state=available."
+    },
+    {
+      "id": "vol_041",
+      "input_features": {
+        "atr_ratio": 1.41,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.8,
+        "spread_pips": 3.85,
+        "spread_status": "normal",
+        "session": "london",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "elevated_volatility",
+      "expected_response": "reduce_risk_require_higher_confluence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_risk_require_higher_confluence"
+      ],
+      "explanation": "Example 41 demonstrates elevated_volatility with response reduce_risk_require_higher_confluence and macro_data_state=available."
+    },
+    {
+      "id": "vol_042",
+      "input_features": {
+        "atr_ratio": 1.44,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 2.05,
+        "spread_pips": 4.4,
+        "spread_status": "normal",
+        "session": "new_york",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "elevated_volatility",
+      "expected_response": "reduce_risk_require_higher_confluence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_risk_require_higher_confluence"
+      ],
+      "explanation": "Example 42 demonstrates elevated_volatility with response reduce_risk_require_higher_confluence and macro_data_state=available."
+    },
+    {
+      "id": "vol_043",
+      "input_features": {
+        "atr_ratio": 1.38,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 4.95,
+        "spread_status": "normal",
+        "session": "overlap",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "elevated_volatility",
+      "expected_response": "reduce_risk_require_higher_confluence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_risk_require_higher_confluence"
+      ],
+      "explanation": "Example 43 demonstrates elevated_volatility with response reduce_risk_require_higher_confluence and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_044",
+      "input_features": {
+        "atr_ratio": 1.41,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 5.5,
+        "spread_status": "normal",
+        "session": "asian",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "elevated_volatility",
+      "expected_response": "reduce_risk_require_higher_confluence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_risk_require_higher_confluence"
+      ],
+      "explanation": "Example 44 demonstrates elevated_volatility with response reduce_risk_require_higher_confluence and macro_data_state=available."
+    },
+    {
+      "id": "vol_045",
+      "input_features": {
+        "atr_ratio": 1.44,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 2.2,
+        "spread_status": "normal",
+        "session": "off_hours",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "elevated_volatility",
+      "expected_response": "reduce_risk_require_higher_confluence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_risk_require_higher_confluence"
+      ],
+      "explanation": "Example 45 demonstrates elevated_volatility with response reduce_risk_require_higher_confluence and macro_data_state=available."
+    },
+    {
+      "id": "vol_046",
+      "input_features": {
+        "atr_ratio": 2.35,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 2.2,
+        "spread_status": "high",
+        "session": "london",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "extreme_volatility",
+      "expected_response": "volatility_hard_block",
+      "expected_blockers": [
+        "volatility_hard_block"
+      ],
+      "expected_tags": [
+        "volatility_hard_block"
+      ],
+      "explanation": "Example 46 demonstrates extreme_volatility with response volatility_hard_block and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_047",
+      "input_features": {
+        "atr_ratio": 2.38,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 2.75,
+        "spread_status": "blocked",
+        "session": "new_york",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "extreme_volatility",
+      "expected_response": "volatility_hard_block",
+      "expected_blockers": [
+        "volatility_hard_block"
+      ],
+      "expected_tags": [
+        "volatility_hard_block"
+      ],
+      "explanation": "Example 47 demonstrates extreme_volatility with response volatility_hard_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_048",
+      "input_features": {
+        "atr_ratio": 2.41,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 3.3,
+        "spread_status": "high",
+        "session": "overlap",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "extreme_volatility",
+      "expected_response": "volatility_hard_block",
+      "expected_blockers": [
+        "volatility_hard_block"
+      ],
+      "expected_tags": [
+        "volatility_hard_block"
+      ],
+      "explanation": "Example 48 demonstrates extreme_volatility with response volatility_hard_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_049",
+      "input_features": {
+        "atr_ratio": 2.35,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 1.55,
+        "spread_pips": 3.85,
+        "spread_status": "blocked",
+        "session": "asian",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "extreme_volatility",
+      "expected_response": "volatility_hard_block",
+      "expected_blockers": [
+        "volatility_hard_block"
+      ],
+      "expected_tags": [
+        "volatility_hard_block"
+      ],
+      "explanation": "Example 49 demonstrates extreme_volatility with response volatility_hard_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_050",
+      "input_features": {
+        "atr_ratio": 2.38,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 1.8,
+        "spread_pips": 4.4,
+        "spread_status": "high",
+        "session": "off_hours",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "extreme_volatility",
+      "expected_response": "volatility_hard_block",
+      "expected_blockers": [
+        "volatility_hard_block"
+      ],
+      "expected_tags": [
+        "volatility_hard_block"
+      ],
+      "explanation": "Example 50 demonstrates extreme_volatility with response volatility_hard_block and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_051",
+      "input_features": {
+        "atr_ratio": 2.41,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 2.05,
+        "spread_pips": 4.95,
+        "spread_status": "blocked",
+        "session": "london",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "extreme_volatility",
+      "expected_response": "volatility_hard_block",
+      "expected_blockers": [
+        "volatility_hard_block"
+      ],
+      "expected_tags": [
+        "volatility_hard_block"
+      ],
+      "explanation": "Example 51 demonstrates extreme_volatility with response volatility_hard_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_052",
+      "input_features": {
+        "atr_ratio": 2.35,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 5.5,
+        "spread_status": "high",
+        "session": "new_york",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "extreme_volatility",
+      "expected_response": "volatility_hard_block",
+      "expected_blockers": [
+        "volatility_hard_block"
+      ],
+      "expected_tags": [
+        "volatility_hard_block"
+      ],
+      "explanation": "Example 52 demonstrates extreme_volatility with response volatility_hard_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_053",
+      "input_features": {
+        "atr_ratio": 2.38,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 2.2,
+        "spread_status": "blocked",
+        "session": "overlap",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "extreme_volatility",
+      "expected_response": "volatility_hard_block",
+      "expected_blockers": [
+        "volatility_hard_block"
+      ],
+      "expected_tags": [
+        "volatility_hard_block"
+      ],
+      "explanation": "Example 53 demonstrates extreme_volatility with response volatility_hard_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_054",
+      "input_features": {
+        "atr_ratio": 2.41,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 2.75,
+        "spread_status": "high",
+        "session": "asian",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "extreme_volatility",
+      "expected_response": "volatility_hard_block",
+      "expected_blockers": [
+        "volatility_hard_block"
+      ],
+      "expected_tags": [
+        "volatility_hard_block"
+      ],
+      "explanation": "Example 54 demonstrates extreme_volatility with response volatility_hard_block and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_055",
+      "input_features": {
+        "atr_ratio": 2.35,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.55,
+        "spread_pips": 3.3,
+        "spread_status": "blocked",
+        "session": "off_hours",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "extreme_volatility",
+      "expected_response": "volatility_hard_block",
+      "expected_blockers": [
+        "volatility_hard_block"
+      ],
+      "expected_tags": [
+        "volatility_hard_block"
+      ],
+      "explanation": "Example 55 demonstrates extreme_volatility with response volatility_hard_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_056",
+      "input_features": {
+        "atr_ratio": 2.38,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.8,
+        "spread_pips": 3.85,
+        "spread_status": "high",
+        "session": "london",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "extreme_volatility",
+      "expected_response": "volatility_hard_block",
+      "expected_blockers": [
+        "volatility_hard_block"
+      ],
+      "expected_tags": [
+        "volatility_hard_block"
+      ],
+      "explanation": "Example 56 demonstrates extreme_volatility with response volatility_hard_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_057",
+      "input_features": {
+        "atr_ratio": 2.41,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 2.05,
+        "spread_pips": 4.4,
+        "spread_status": "blocked",
+        "session": "new_york",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "extreme_volatility",
+      "expected_response": "volatility_hard_block",
+      "expected_blockers": [
+        "volatility_hard_block"
+      ],
+      "expected_tags": [
+        "volatility_hard_block"
+      ],
+      "explanation": "Example 57 demonstrates extreme_volatility with response volatility_hard_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_058",
+      "input_features": {
+        "atr_ratio": 2.35,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 4.95,
+        "spread_status": "high",
+        "session": "overlap",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "extreme_volatility",
+      "expected_response": "volatility_hard_block",
+      "expected_blockers": [
+        "volatility_hard_block"
+      ],
+      "expected_tags": [
+        "volatility_hard_block"
+      ],
+      "explanation": "Example 58 demonstrates extreme_volatility with response volatility_hard_block and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_059",
+      "input_features": {
+        "atr_ratio": 2.38,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 5.5,
+        "spread_status": "blocked",
+        "session": "asian",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "extreme_volatility",
+      "expected_response": "volatility_hard_block",
+      "expected_blockers": [
+        "volatility_hard_block"
+      ],
+      "expected_tags": [
+        "volatility_hard_block"
+      ],
+      "explanation": "Example 59 demonstrates extreme_volatility with response volatility_hard_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_060",
+      "input_features": {
+        "atr_ratio": 2.41,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 2.2,
+        "spread_status": "high",
+        "session": "off_hours",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "extreme_volatility",
+      "expected_response": "volatility_hard_block",
+      "expected_blockers": [
+        "volatility_hard_block"
+      ],
+      "expected_tags": [
+        "volatility_hard_block"
+      ],
+      "explanation": "Example 60 demonstrates extreme_volatility with response volatility_hard_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_061",
+      "input_features": {
+        "atr_ratio": 2.7,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 2.2,
+        "spread_status": "elevated",
+        "session": "london",
+        "session_transition_flag": false,
+        "news_window_flag": true,
+        "high_impact_news_hard_block": true,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "news_spike_volatility",
+      "expected_response": "news_hard_block",
+      "expected_blockers": [
+        "high_impact_news_window"
+      ],
+      "expected_tags": [
+        "news_hard_block"
+      ],
+      "explanation": "Example 61 demonstrates news_spike_volatility with response news_hard_block and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_062",
+      "input_features": {
+        "atr_ratio": 2.73,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 2.75,
+        "spread_status": "elevated",
+        "session": "new_york",
+        "session_transition_flag": false,
+        "news_window_flag": true,
+        "high_impact_news_hard_block": true,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "news_spike_volatility",
+      "expected_response": "news_hard_block",
+      "expected_blockers": [
+        "high_impact_news_window"
+      ],
+      "expected_tags": [
+        "news_hard_block"
+      ],
+      "explanation": "Example 62 demonstrates news_spike_volatility with response news_hard_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_063",
+      "input_features": {
+        "atr_ratio": 2.76,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 3.3,
+        "spread_status": "elevated",
+        "session": "overlap",
+        "session_transition_flag": false,
+        "news_window_flag": true,
+        "high_impact_news_hard_block": true,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "news_spike_volatility",
+      "expected_response": "news_hard_block",
+      "expected_blockers": [
+        "high_impact_news_window"
+      ],
+      "expected_tags": [
+        "news_hard_block"
+      ],
+      "explanation": "Example 63 demonstrates news_spike_volatility with response news_hard_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_064",
+      "input_features": {
+        "atr_ratio": 2.7,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 1.55,
+        "spread_pips": 3.85,
+        "spread_status": "elevated",
+        "session": "asian",
+        "session_transition_flag": false,
+        "news_window_flag": true,
+        "high_impact_news_hard_block": true,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "news_spike_volatility",
+      "expected_response": "news_hard_block",
+      "expected_blockers": [
+        "high_impact_news_window"
+      ],
+      "expected_tags": [
+        "news_hard_block"
+      ],
+      "explanation": "Example 64 demonstrates news_spike_volatility with response news_hard_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_065",
+      "input_features": {
+        "atr_ratio": 2.73,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 1.8,
+        "spread_pips": 4.4,
+        "spread_status": "elevated",
+        "session": "off_hours",
+        "session_transition_flag": false,
+        "news_window_flag": true,
+        "high_impact_news_hard_block": true,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "news_spike_volatility",
+      "expected_response": "news_hard_block",
+      "expected_blockers": [
+        "high_impact_news_window"
+      ],
+      "expected_tags": [
+        "news_hard_block"
+      ],
+      "explanation": "Example 65 demonstrates news_spike_volatility with response news_hard_block and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_066",
+      "input_features": {
+        "atr_ratio": 2.76,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 2.05,
+        "spread_pips": 4.95,
+        "spread_status": "elevated",
+        "session": "london",
+        "session_transition_flag": false,
+        "news_window_flag": true,
+        "high_impact_news_hard_block": true,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "news_spike_volatility",
+      "expected_response": "news_hard_block",
+      "expected_blockers": [
+        "high_impact_news_window"
+      ],
+      "expected_tags": [
+        "news_hard_block"
+      ],
+      "explanation": "Example 66 demonstrates news_spike_volatility with response news_hard_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_067",
+      "input_features": {
+        "atr_ratio": 2.7,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 5.5,
+        "spread_status": "elevated",
+        "session": "new_york",
+        "session_transition_flag": false,
+        "news_window_flag": true,
+        "high_impact_news_hard_block": true,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "news_spike_volatility",
+      "expected_response": "news_hard_block",
+      "expected_blockers": [
+        "high_impact_news_window"
+      ],
+      "expected_tags": [
+        "news_hard_block"
+      ],
+      "explanation": "Example 67 demonstrates news_spike_volatility with response news_hard_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_068",
+      "input_features": {
+        "atr_ratio": 2.73,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 2.2,
+        "spread_status": "elevated",
+        "session": "overlap",
+        "session_transition_flag": false,
+        "news_window_flag": true,
+        "high_impact_news_hard_block": true,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "news_spike_volatility",
+      "expected_response": "news_hard_block",
+      "expected_blockers": [
+        "high_impact_news_window"
+      ],
+      "expected_tags": [
+        "news_hard_block"
+      ],
+      "explanation": "Example 68 demonstrates news_spike_volatility with response news_hard_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_069",
+      "input_features": {
+        "atr_ratio": 2.76,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 2.75,
+        "spread_status": "elevated",
+        "session": "asian",
+        "session_transition_flag": false,
+        "news_window_flag": true,
+        "high_impact_news_hard_block": true,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "news_spike_volatility",
+      "expected_response": "news_hard_block",
+      "expected_blockers": [
+        "high_impact_news_window"
+      ],
+      "expected_tags": [
+        "news_hard_block"
+      ],
+      "explanation": "Example 69 demonstrates news_spike_volatility with response news_hard_block and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_070",
+      "input_features": {
+        "atr_ratio": 2.7,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.55,
+        "spread_pips": 3.3,
+        "spread_status": "elevated",
+        "session": "off_hours",
+        "session_transition_flag": false,
+        "news_window_flag": true,
+        "high_impact_news_hard_block": true,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "news_spike_volatility",
+      "expected_response": "news_hard_block",
+      "expected_blockers": [
+        "high_impact_news_window"
+      ],
+      "expected_tags": [
+        "news_hard_block"
+      ],
+      "explanation": "Example 70 demonstrates news_spike_volatility with response news_hard_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_071",
+      "input_features": {
+        "atr_ratio": 2.73,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.8,
+        "spread_pips": 3.85,
+        "spread_status": "elevated",
+        "session": "london",
+        "session_transition_flag": false,
+        "news_window_flag": true,
+        "high_impact_news_hard_block": true,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "news_spike_volatility",
+      "expected_response": "news_hard_block",
+      "expected_blockers": [
+        "high_impact_news_window"
+      ],
+      "expected_tags": [
+        "news_hard_block"
+      ],
+      "explanation": "Example 71 demonstrates news_spike_volatility with response news_hard_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_072",
+      "input_features": {
+        "atr_ratio": 2.76,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 2.05,
+        "spread_pips": 4.4,
+        "spread_status": "elevated",
+        "session": "new_york",
+        "session_transition_flag": false,
+        "news_window_flag": true,
+        "high_impact_news_hard_block": true,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "news_spike_volatility",
+      "expected_response": "news_hard_block",
+      "expected_blockers": [
+        "high_impact_news_window"
+      ],
+      "expected_tags": [
+        "news_hard_block"
+      ],
+      "explanation": "Example 72 demonstrates news_spike_volatility with response news_hard_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_073",
+      "input_features": {
+        "atr_ratio": 2.7,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 4.95,
+        "spread_status": "elevated",
+        "session": "overlap",
+        "session_transition_flag": false,
+        "news_window_flag": true,
+        "high_impact_news_hard_block": true,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "news_spike_volatility",
+      "expected_response": "news_hard_block",
+      "expected_blockers": [
+        "high_impact_news_window"
+      ],
+      "expected_tags": [
+        "news_hard_block"
+      ],
+      "explanation": "Example 73 demonstrates news_spike_volatility with response news_hard_block and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_074",
+      "input_features": {
+        "atr_ratio": 2.73,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 5.5,
+        "spread_status": "elevated",
+        "session": "asian",
+        "session_transition_flag": false,
+        "news_window_flag": true,
+        "high_impact_news_hard_block": true,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "news_spike_volatility",
+      "expected_response": "news_hard_block",
+      "expected_blockers": [
+        "high_impact_news_window"
+      ],
+      "expected_tags": [
+        "news_hard_block"
+      ],
+      "explanation": "Example 74 demonstrates news_spike_volatility with response news_hard_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_075",
+      "input_features": {
+        "atr_ratio": 2.76,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 2.2,
+        "spread_status": "elevated",
+        "session": "off_hours",
+        "session_transition_flag": false,
+        "news_window_flag": true,
+        "high_impact_news_hard_block": true,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "elevated",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "news_spike_volatility",
+      "expected_response": "news_hard_block",
+      "expected_blockers": [
+        "high_impact_news_window"
+      ],
+      "expected_tags": [
+        "news_hard_block"
+      ],
+      "explanation": "Example 75 demonstrates news_spike_volatility with response news_hard_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_076",
+      "input_features": {
+        "atr_ratio": 1.55,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 2.2,
+        "spread_status": "high",
+        "session": "london",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "liquidity_gap_volatility",
+      "expected_response": "spread_slippage_block",
+      "expected_blockers": [
+        "spread_liquidity_too_poor"
+      ],
+      "expected_tags": [
+        "spread_slippage_block"
+      ],
+      "explanation": "Example 76 demonstrates liquidity_gap_volatility with response spread_slippage_block and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_077",
+      "input_features": {
+        "atr_ratio": 1.58,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 2.75,
+        "spread_status": "blocked",
+        "session": "new_york",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "liquidity_gap_volatility",
+      "expected_response": "spread_slippage_block",
+      "expected_blockers": [
+        "spread_liquidity_too_poor"
+      ],
+      "expected_tags": [
+        "spread_slippage_block"
+      ],
+      "explanation": "Example 77 demonstrates liquidity_gap_volatility with response spread_slippage_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_078",
+      "input_features": {
+        "atr_ratio": 1.61,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 3.3,
+        "spread_status": "high",
+        "session": "overlap",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "liquidity_gap_volatility",
+      "expected_response": "spread_slippage_block",
+      "expected_blockers": [
+        "spread_liquidity_too_poor"
+      ],
+      "expected_tags": [
+        "spread_slippage_block"
+      ],
+      "explanation": "Example 78 demonstrates liquidity_gap_volatility with response spread_slippage_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_079",
+      "input_features": {
+        "atr_ratio": 1.55,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 1.55,
+        "spread_pips": 3.85,
+        "spread_status": "blocked",
+        "session": "asian",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "liquidity_gap_volatility",
+      "expected_response": "spread_slippage_block",
+      "expected_blockers": [
+        "spread_liquidity_too_poor"
+      ],
+      "expected_tags": [
+        "spread_slippage_block"
+      ],
+      "explanation": "Example 79 demonstrates liquidity_gap_volatility with response spread_slippage_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_080",
+      "input_features": {
+        "atr_ratio": 1.58,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 1.8,
+        "spread_pips": 4.4,
+        "spread_status": "high",
+        "session": "off_hours",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "liquidity_gap_volatility",
+      "expected_response": "spread_slippage_block",
+      "expected_blockers": [
+        "spread_liquidity_too_poor"
+      ],
+      "expected_tags": [
+        "spread_slippage_block"
+      ],
+      "explanation": "Example 80 demonstrates liquidity_gap_volatility with response spread_slippage_block and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_081",
+      "input_features": {
+        "atr_ratio": 1.61,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 2.05,
+        "spread_pips": 4.95,
+        "spread_status": "blocked",
+        "session": "london",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "liquidity_gap_volatility",
+      "expected_response": "spread_slippage_block",
+      "expected_blockers": [
+        "spread_liquidity_too_poor"
+      ],
+      "expected_tags": [
+        "spread_slippage_block"
+      ],
+      "explanation": "Example 81 demonstrates liquidity_gap_volatility with response spread_slippage_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_082",
+      "input_features": {
+        "atr_ratio": 1.55,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 5.5,
+        "spread_status": "high",
+        "session": "new_york",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "liquidity_gap_volatility",
+      "expected_response": "spread_slippage_block",
+      "expected_blockers": [
+        "spread_liquidity_too_poor"
+      ],
+      "expected_tags": [
+        "spread_slippage_block"
+      ],
+      "explanation": "Example 82 demonstrates liquidity_gap_volatility with response spread_slippage_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_083",
+      "input_features": {
+        "atr_ratio": 1.58,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 2.2,
+        "spread_status": "blocked",
+        "session": "overlap",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "liquidity_gap_volatility",
+      "expected_response": "spread_slippage_block",
+      "expected_blockers": [
+        "spread_liquidity_too_poor"
+      ],
+      "expected_tags": [
+        "spread_slippage_block"
+      ],
+      "explanation": "Example 83 demonstrates liquidity_gap_volatility with response spread_slippage_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_084",
+      "input_features": {
+        "atr_ratio": 1.61,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 2.75,
+        "spread_status": "high",
+        "session": "asian",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "liquidity_gap_volatility",
+      "expected_response": "spread_slippage_block",
+      "expected_blockers": [
+        "spread_liquidity_too_poor"
+      ],
+      "expected_tags": [
+        "spread_slippage_block"
+      ],
+      "explanation": "Example 84 demonstrates liquidity_gap_volatility with response spread_slippage_block and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_085",
+      "input_features": {
+        "atr_ratio": 1.55,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.55,
+        "spread_pips": 3.3,
+        "spread_status": "blocked",
+        "session": "off_hours",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "liquidity_gap_volatility",
+      "expected_response": "spread_slippage_block",
+      "expected_blockers": [
+        "spread_liquidity_too_poor"
+      ],
+      "expected_tags": [
+        "spread_slippage_block"
+      ],
+      "explanation": "Example 85 demonstrates liquidity_gap_volatility with response spread_slippage_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_086",
+      "input_features": {
+        "atr_ratio": 1.58,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.8,
+        "spread_pips": 3.85,
+        "spread_status": "high",
+        "session": "london",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "liquidity_gap_volatility",
+      "expected_response": "spread_slippage_block",
+      "expected_blockers": [
+        "spread_liquidity_too_poor"
+      ],
+      "expected_tags": [
+        "spread_slippage_block"
+      ],
+      "explanation": "Example 86 demonstrates liquidity_gap_volatility with response spread_slippage_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_087",
+      "input_features": {
+        "atr_ratio": 1.61,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 2.05,
+        "spread_pips": 4.4,
+        "spread_status": "blocked",
+        "session": "new_york",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "liquidity_gap_volatility",
+      "expected_response": "spread_slippage_block",
+      "expected_blockers": [
+        "spread_liquidity_too_poor"
+      ],
+      "expected_tags": [
+        "spread_slippage_block"
+      ],
+      "explanation": "Example 87 demonstrates liquidity_gap_volatility with response spread_slippage_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_088",
+      "input_features": {
+        "atr_ratio": 1.55,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 4.95,
+        "spread_status": "high",
+        "session": "overlap",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "liquidity_gap_volatility",
+      "expected_response": "spread_slippage_block",
+      "expected_blockers": [
+        "spread_liquidity_too_poor"
+      ],
+      "expected_tags": [
+        "spread_slippage_block"
+      ],
+      "explanation": "Example 88 demonstrates liquidity_gap_volatility with response spread_slippage_block and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_089",
+      "input_features": {
+        "atr_ratio": 1.58,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 5.5,
+        "spread_status": "blocked",
+        "session": "asian",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "liquidity_gap_volatility",
+      "expected_response": "spread_slippage_block",
+      "expected_blockers": [
+        "spread_liquidity_too_poor"
+      ],
+      "expected_tags": [
+        "spread_slippage_block"
+      ],
+      "explanation": "Example 89 demonstrates liquidity_gap_volatility with response spread_slippage_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_090",
+      "input_features": {
+        "atr_ratio": 1.61,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 2.2,
+        "spread_status": "high",
+        "session": "off_hours",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "liquidity_gap_volatility",
+      "expected_response": "spread_slippage_block",
+      "expected_blockers": [
+        "spread_liquidity_too_poor"
+      ],
+      "expected_tags": [
+        "spread_slippage_block"
+      ],
+      "explanation": "Example 90 demonstrates liquidity_gap_volatility with response spread_slippage_block and macro_data_state=available."
+    },
+    {
+      "id": "vol_091",
+      "input_features": {
+        "atr_ratio": 1.12,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 2.2,
+        "spread_status": "normal",
+        "session": "london",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "chop_volatility",
+      "expected_response": "prefer_no_trade_reduce_confidence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "prefer_no_trade_reduce_confidence"
+      ],
+      "explanation": "Example 91 demonstrates chop_volatility with response prefer_no_trade_reduce_confidence and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_092",
+      "input_features": {
+        "atr_ratio": 1.15,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 2.75,
+        "spread_status": "normal",
+        "session": "new_york",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "chop_volatility",
+      "expected_response": "prefer_no_trade_reduce_confidence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "prefer_no_trade_reduce_confidence"
+      ],
+      "explanation": "Example 92 demonstrates chop_volatility with response prefer_no_trade_reduce_confidence and macro_data_state=available."
+    },
+    {
+      "id": "vol_093",
+      "input_features": {
+        "atr_ratio": 1.18,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 3.3,
+        "spread_status": "normal",
+        "session": "overlap",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "chop_volatility",
+      "expected_response": "prefer_no_trade_reduce_confidence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "prefer_no_trade_reduce_confidence"
+      ],
+      "explanation": "Example 93 demonstrates chop_volatility with response prefer_no_trade_reduce_confidence and macro_data_state=available."
+    },
+    {
+      "id": "vol_094",
+      "input_features": {
+        "atr_ratio": 1.12,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 1.55,
+        "spread_pips": 3.85,
+        "spread_status": "normal",
+        "session": "asian",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "chop_volatility",
+      "expected_response": "prefer_no_trade_reduce_confidence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "prefer_no_trade_reduce_confidence"
+      ],
+      "explanation": "Example 94 demonstrates chop_volatility with response prefer_no_trade_reduce_confidence and macro_data_state=available."
+    },
+    {
+      "id": "vol_095",
+      "input_features": {
+        "atr_ratio": 1.15,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 1.8,
+        "spread_pips": 4.4,
+        "spread_status": "normal",
+        "session": "off_hours",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "chop_volatility",
+      "expected_response": "prefer_no_trade_reduce_confidence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "prefer_no_trade_reduce_confidence"
+      ],
+      "explanation": "Example 95 demonstrates chop_volatility with response prefer_no_trade_reduce_confidence and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_096",
+      "input_features": {
+        "atr_ratio": 1.18,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 2.05,
+        "spread_pips": 4.95,
+        "spread_status": "normal",
+        "session": "london",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "chop_volatility",
+      "expected_response": "prefer_no_trade_reduce_confidence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "prefer_no_trade_reduce_confidence"
+      ],
+      "explanation": "Example 96 demonstrates chop_volatility with response prefer_no_trade_reduce_confidence and macro_data_state=available."
+    },
+    {
+      "id": "vol_097",
+      "input_features": {
+        "atr_ratio": 1.12,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 5.5,
+        "spread_status": "normal",
+        "session": "new_york",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "chop_volatility",
+      "expected_response": "prefer_no_trade_reduce_confidence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "prefer_no_trade_reduce_confidence"
+      ],
+      "explanation": "Example 97 demonstrates chop_volatility with response prefer_no_trade_reduce_confidence and macro_data_state=available."
+    },
+    {
+      "id": "vol_098",
+      "input_features": {
+        "atr_ratio": 1.15,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 2.2,
+        "spread_status": "normal",
+        "session": "overlap",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "chop_volatility",
+      "expected_response": "prefer_no_trade_reduce_confidence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "prefer_no_trade_reduce_confidence"
+      ],
+      "explanation": "Example 98 demonstrates chop_volatility with response prefer_no_trade_reduce_confidence and macro_data_state=available."
+    },
+    {
+      "id": "vol_099",
+      "input_features": {
+        "atr_ratio": 1.18,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 2.75,
+        "spread_status": "normal",
+        "session": "asian",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "chop_volatility",
+      "expected_response": "prefer_no_trade_reduce_confidence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "prefer_no_trade_reduce_confidence"
+      ],
+      "explanation": "Example 99 demonstrates chop_volatility with response prefer_no_trade_reduce_confidence and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_100",
+      "input_features": {
+        "atr_ratio": 1.12,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.55,
+        "spread_pips": 3.3,
+        "spread_status": "normal",
+        "session": "off_hours",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "chop_volatility",
+      "expected_response": "prefer_no_trade_reduce_confidence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "prefer_no_trade_reduce_confidence"
+      ],
+      "explanation": "Example 100 demonstrates chop_volatility with response prefer_no_trade_reduce_confidence and macro_data_state=available."
+    },
+    {
+      "id": "vol_101",
+      "input_features": {
+        "atr_ratio": 1.15,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.8,
+        "spread_pips": 3.85,
+        "spread_status": "normal",
+        "session": "london",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "chop_volatility",
+      "expected_response": "prefer_no_trade_reduce_confidence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "prefer_no_trade_reduce_confidence"
+      ],
+      "explanation": "Example 101 demonstrates chop_volatility with response prefer_no_trade_reduce_confidence and macro_data_state=available."
+    },
+    {
+      "id": "vol_102",
+      "input_features": {
+        "atr_ratio": 1.18,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 2.05,
+        "spread_pips": 4.4,
+        "spread_status": "normal",
+        "session": "new_york",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "chop_volatility",
+      "expected_response": "prefer_no_trade_reduce_confidence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "prefer_no_trade_reduce_confidence"
+      ],
+      "explanation": "Example 102 demonstrates chop_volatility with response prefer_no_trade_reduce_confidence and macro_data_state=available."
+    },
+    {
+      "id": "vol_103",
+      "input_features": {
+        "atr_ratio": 1.12,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 4.95,
+        "spread_status": "normal",
+        "session": "overlap",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "chop_volatility",
+      "expected_response": "prefer_no_trade_reduce_confidence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "prefer_no_trade_reduce_confidence"
+      ],
+      "explanation": "Example 103 demonstrates chop_volatility with response prefer_no_trade_reduce_confidence and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_104",
+      "input_features": {
+        "atr_ratio": 1.15,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 5.5,
+        "spread_status": "normal",
+        "session": "asian",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "chop_volatility",
+      "expected_response": "prefer_no_trade_reduce_confidence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "prefer_no_trade_reduce_confidence"
+      ],
+      "explanation": "Example 104 demonstrates chop_volatility with response prefer_no_trade_reduce_confidence and macro_data_state=available."
+    },
+    {
+      "id": "vol_105",
+      "input_features": {
+        "atr_ratio": 1.18,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 2.2,
+        "spread_status": "normal",
+        "session": "off_hours",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "chop_volatility",
+      "expected_response": "prefer_no_trade_reduce_confidence",
+      "expected_blockers": [],
+      "expected_tags": [
+        "prefer_no_trade_reduce_confidence"
+      ],
+      "explanation": "Example 105 demonstrates chop_volatility with response prefer_no_trade_reduce_confidence and macro_data_state=available."
+    },
+    {
+      "id": "vol_106",
+      "input_features": {
+        "atr_ratio": 1.48,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 2.2,
+        "spread_status": "normal",
+        "session": "london",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "bullish",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "trend_expansion_volatility",
+      "expected_response": "allow_continuation_if_aligned",
+      "expected_blockers": [],
+      "expected_tags": [
+        "allow_continuation_if_aligned"
+      ],
+      "explanation": "Example 106 demonstrates trend_expansion_volatility with response allow_continuation_if_aligned and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_107",
+      "input_features": {
+        "atr_ratio": 1.51,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 2.75,
+        "spread_status": "normal",
+        "session": "new_york",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "bullish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "trend_expansion_volatility",
+      "expected_response": "allow_continuation_if_aligned",
+      "expected_blockers": [],
+      "expected_tags": [
+        "allow_continuation_if_aligned"
+      ],
+      "explanation": "Example 107 demonstrates trend_expansion_volatility with response allow_continuation_if_aligned and macro_data_state=available."
+    },
+    {
+      "id": "vol_108",
+      "input_features": {
+        "atr_ratio": 1.54,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 3.3,
+        "spread_status": "normal",
+        "session": "overlap",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "bullish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "trend_expansion_volatility",
+      "expected_response": "allow_continuation_if_aligned",
+      "expected_blockers": [],
+      "expected_tags": [
+        "allow_continuation_if_aligned"
+      ],
+      "explanation": "Example 108 demonstrates trend_expansion_volatility with response allow_continuation_if_aligned and macro_data_state=available."
+    },
+    {
+      "id": "vol_109",
+      "input_features": {
+        "atr_ratio": 1.48,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 1.55,
+        "spread_pips": 3.85,
+        "spread_status": "normal",
+        "session": "asian",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "bullish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "trend_expansion_volatility",
+      "expected_response": "allow_continuation_if_aligned",
+      "expected_blockers": [],
+      "expected_tags": [
+        "allow_continuation_if_aligned"
+      ],
+      "explanation": "Example 109 demonstrates trend_expansion_volatility with response allow_continuation_if_aligned and macro_data_state=available."
+    },
+    {
+      "id": "vol_110",
+      "input_features": {
+        "atr_ratio": 1.51,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 1.8,
+        "spread_pips": 4.4,
+        "spread_status": "normal",
+        "session": "off_hours",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "bullish",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "trend_expansion_volatility",
+      "expected_response": "allow_continuation_if_aligned",
+      "expected_blockers": [],
+      "expected_tags": [
+        "allow_continuation_if_aligned"
+      ],
+      "explanation": "Example 110 demonstrates trend_expansion_volatility with response allow_continuation_if_aligned and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_111",
+      "input_features": {
+        "atr_ratio": 1.54,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 2.05,
+        "spread_pips": 4.95,
+        "spread_status": "normal",
+        "session": "london",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "bullish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "trend_expansion_volatility",
+      "expected_response": "allow_continuation_if_aligned",
+      "expected_blockers": [],
+      "expected_tags": [
+        "allow_continuation_if_aligned"
+      ],
+      "explanation": "Example 111 demonstrates trend_expansion_volatility with response allow_continuation_if_aligned and macro_data_state=available."
+    },
+    {
+      "id": "vol_112",
+      "input_features": {
+        "atr_ratio": 1.48,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 5.5,
+        "spread_status": "normal",
+        "session": "new_york",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "bullish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "trend_expansion_volatility",
+      "expected_response": "allow_continuation_if_aligned",
+      "expected_blockers": [],
+      "expected_tags": [
+        "allow_continuation_if_aligned"
+      ],
+      "explanation": "Example 112 demonstrates trend_expansion_volatility with response allow_continuation_if_aligned and macro_data_state=available."
+    },
+    {
+      "id": "vol_113",
+      "input_features": {
+        "atr_ratio": 1.51,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 2.2,
+        "spread_status": "normal",
+        "session": "overlap",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "bullish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "trend_expansion_volatility",
+      "expected_response": "allow_continuation_if_aligned",
+      "expected_blockers": [],
+      "expected_tags": [
+        "allow_continuation_if_aligned"
+      ],
+      "explanation": "Example 113 demonstrates trend_expansion_volatility with response allow_continuation_if_aligned and macro_data_state=available."
+    },
+    {
+      "id": "vol_114",
+      "input_features": {
+        "atr_ratio": 1.54,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 2.75,
+        "spread_status": "normal",
+        "session": "asian",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "bullish",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "trend_expansion_volatility",
+      "expected_response": "allow_continuation_if_aligned",
+      "expected_blockers": [],
+      "expected_tags": [
+        "allow_continuation_if_aligned"
+      ],
+      "explanation": "Example 114 demonstrates trend_expansion_volatility with response allow_continuation_if_aligned and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_115",
+      "input_features": {
+        "atr_ratio": 1.48,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.55,
+        "spread_pips": 3.3,
+        "spread_status": "normal",
+        "session": "off_hours",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "bullish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "trend_expansion_volatility",
+      "expected_response": "allow_continuation_if_aligned",
+      "expected_blockers": [],
+      "expected_tags": [
+        "allow_continuation_if_aligned"
+      ],
+      "explanation": "Example 115 demonstrates trend_expansion_volatility with response allow_continuation_if_aligned and macro_data_state=available."
+    },
+    {
+      "id": "vol_116",
+      "input_features": {
+        "atr_ratio": 1.51,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.8,
+        "spread_pips": 3.85,
+        "spread_status": "normal",
+        "session": "london",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "bullish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "trend_expansion_volatility",
+      "expected_response": "allow_continuation_if_aligned",
+      "expected_blockers": [],
+      "expected_tags": [
+        "allow_continuation_if_aligned"
+      ],
+      "explanation": "Example 116 demonstrates trend_expansion_volatility with response allow_continuation_if_aligned and macro_data_state=available."
+    },
+    {
+      "id": "vol_117",
+      "input_features": {
+        "atr_ratio": 1.54,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 2.05,
+        "spread_pips": 4.4,
+        "spread_status": "normal",
+        "session": "new_york",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "bullish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "trend_expansion_volatility",
+      "expected_response": "allow_continuation_if_aligned",
+      "expected_blockers": [],
+      "expected_tags": [
+        "allow_continuation_if_aligned"
+      ],
+      "explanation": "Example 117 demonstrates trend_expansion_volatility with response allow_continuation_if_aligned and macro_data_state=available."
+    },
+    {
+      "id": "vol_118",
+      "input_features": {
+        "atr_ratio": 1.48,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 4.95,
+        "spread_status": "normal",
+        "session": "overlap",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "bullish",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "trend_expansion_volatility",
+      "expected_response": "allow_continuation_if_aligned",
+      "expected_blockers": [],
+      "expected_tags": [
+        "allow_continuation_if_aligned"
+      ],
+      "explanation": "Example 118 demonstrates trend_expansion_volatility with response allow_continuation_if_aligned and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_119",
+      "input_features": {
+        "atr_ratio": 1.51,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 5.5,
+        "spread_status": "normal",
+        "session": "asian",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "bullish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "trend_expansion_volatility",
+      "expected_response": "allow_continuation_if_aligned",
+      "expected_blockers": [],
+      "expected_tags": [
+        "allow_continuation_if_aligned"
+      ],
+      "explanation": "Example 119 demonstrates trend_expansion_volatility with response allow_continuation_if_aligned and macro_data_state=available."
+    },
+    {
+      "id": "vol_120",
+      "input_features": {
+        "atr_ratio": 1.54,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 2.2,
+        "spread_status": "normal",
+        "session": "off_hours",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_up",
+        "momentum_state": "bullish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "trend_expansion_volatility",
+      "expected_response": "allow_continuation_if_aligned",
+      "expected_blockers": [],
+      "expected_tags": [
+        "allow_continuation_if_aligned"
+      ],
+      "explanation": "Example 120 demonstrates trend_expansion_volatility with response allow_continuation_if_aligned and macro_data_state=available."
+    },
+    {
+      "id": "vol_121",
+      "input_features": {
+        "atr_ratio": 1.42,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 2.2,
+        "spread_status": "normal",
+        "session": "london",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "trend_down",
+        "momentum_state": "bearish",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "reversal_exhaustion_volatility",
+      "expected_response": "reversal_only_with_full_confirmation",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reversal_only_with_full_confirmation"
+      ],
+      "explanation": "Example 121 demonstrates reversal_exhaustion_volatility with response reversal_only_with_full_confirmation and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_122",
+      "input_features": {
+        "atr_ratio": 1.45,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 2.75,
+        "spread_status": "normal",
+        "session": "new_york",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_down",
+        "momentum_state": "bearish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "reversal_exhaustion_volatility",
+      "expected_response": "reversal_only_with_full_confirmation",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reversal_only_with_full_confirmation"
+      ],
+      "explanation": "Example 122 demonstrates reversal_exhaustion_volatility with response reversal_only_with_full_confirmation and macro_data_state=available."
+    },
+    {
+      "id": "vol_123",
+      "input_features": {
+        "atr_ratio": 1.48,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 3.3,
+        "spread_status": "normal",
+        "session": "overlap",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_down",
+        "momentum_state": "bearish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "reversal_exhaustion_volatility",
+      "expected_response": "reversal_only_with_full_confirmation",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reversal_only_with_full_confirmation"
+      ],
+      "explanation": "Example 123 demonstrates reversal_exhaustion_volatility with response reversal_only_with_full_confirmation and macro_data_state=available."
+    },
+    {
+      "id": "vol_124",
+      "input_features": {
+        "atr_ratio": 1.42,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 1.55,
+        "spread_pips": 3.85,
+        "spread_status": "normal",
+        "session": "asian",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "trend_down",
+        "momentum_state": "bearish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "reversal_exhaustion_volatility",
+      "expected_response": "reversal_only_with_full_confirmation",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reversal_only_with_full_confirmation"
+      ],
+      "explanation": "Example 124 demonstrates reversal_exhaustion_volatility with response reversal_only_with_full_confirmation and macro_data_state=available."
+    },
+    {
+      "id": "vol_125",
+      "input_features": {
+        "atr_ratio": 1.45,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 1.8,
+        "spread_pips": 4.4,
+        "spread_status": "normal",
+        "session": "off_hours",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_down",
+        "momentum_state": "bearish",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "reversal_exhaustion_volatility",
+      "expected_response": "reversal_only_with_full_confirmation",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reversal_only_with_full_confirmation"
+      ],
+      "explanation": "Example 125 demonstrates reversal_exhaustion_volatility with response reversal_only_with_full_confirmation and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_126",
+      "input_features": {
+        "atr_ratio": 1.48,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 2.05,
+        "spread_pips": 4.95,
+        "spread_status": "normal",
+        "session": "london",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_down",
+        "momentum_state": "bearish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "reversal_exhaustion_volatility",
+      "expected_response": "reversal_only_with_full_confirmation",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reversal_only_with_full_confirmation"
+      ],
+      "explanation": "Example 126 demonstrates reversal_exhaustion_volatility with response reversal_only_with_full_confirmation and macro_data_state=available."
+    },
+    {
+      "id": "vol_127",
+      "input_features": {
+        "atr_ratio": 1.42,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 5.5,
+        "spread_status": "normal",
+        "session": "new_york",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "trend_down",
+        "momentum_state": "bearish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "reversal_exhaustion_volatility",
+      "expected_response": "reversal_only_with_full_confirmation",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reversal_only_with_full_confirmation"
+      ],
+      "explanation": "Example 127 demonstrates reversal_exhaustion_volatility with response reversal_only_with_full_confirmation and macro_data_state=available."
+    },
+    {
+      "id": "vol_128",
+      "input_features": {
+        "atr_ratio": 1.45,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 2.2,
+        "spread_status": "normal",
+        "session": "overlap",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_down",
+        "momentum_state": "bearish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "reversal_exhaustion_volatility",
+      "expected_response": "reversal_only_with_full_confirmation",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reversal_only_with_full_confirmation"
+      ],
+      "explanation": "Example 128 demonstrates reversal_exhaustion_volatility with response reversal_only_with_full_confirmation and macro_data_state=available."
+    },
+    {
+      "id": "vol_129",
+      "input_features": {
+        "atr_ratio": 1.48,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 2.75,
+        "spread_status": "normal",
+        "session": "asian",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_down",
+        "momentum_state": "bearish",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "reversal_exhaustion_volatility",
+      "expected_response": "reversal_only_with_full_confirmation",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reversal_only_with_full_confirmation"
+      ],
+      "explanation": "Example 129 demonstrates reversal_exhaustion_volatility with response reversal_only_with_full_confirmation and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_130",
+      "input_features": {
+        "atr_ratio": 1.42,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.55,
+        "spread_pips": 3.3,
+        "spread_status": "normal",
+        "session": "off_hours",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "trend_down",
+        "momentum_state": "bearish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "reversal_exhaustion_volatility",
+      "expected_response": "reversal_only_with_full_confirmation",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reversal_only_with_full_confirmation"
+      ],
+      "explanation": "Example 130 demonstrates reversal_exhaustion_volatility with response reversal_only_with_full_confirmation and macro_data_state=available."
+    },
+    {
+      "id": "vol_131",
+      "input_features": {
+        "atr_ratio": 1.45,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.8,
+        "spread_pips": 3.85,
+        "spread_status": "normal",
+        "session": "london",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_down",
+        "momentum_state": "bearish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "reversal_exhaustion_volatility",
+      "expected_response": "reversal_only_with_full_confirmation",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reversal_only_with_full_confirmation"
+      ],
+      "explanation": "Example 131 demonstrates reversal_exhaustion_volatility with response reversal_only_with_full_confirmation and macro_data_state=available."
+    },
+    {
+      "id": "vol_132",
+      "input_features": {
+        "atr_ratio": 1.48,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 2.05,
+        "spread_pips": 4.4,
+        "spread_status": "normal",
+        "session": "new_york",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_down",
+        "momentum_state": "bearish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "reversal_exhaustion_volatility",
+      "expected_response": "reversal_only_with_full_confirmation",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reversal_only_with_full_confirmation"
+      ],
+      "explanation": "Example 132 demonstrates reversal_exhaustion_volatility with response reversal_only_with_full_confirmation and macro_data_state=available."
+    },
+    {
+      "id": "vol_133",
+      "input_features": {
+        "atr_ratio": 1.42,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 4.95,
+        "spread_status": "normal",
+        "session": "overlap",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "trend_down",
+        "momentum_state": "bearish",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "reversal_exhaustion_volatility",
+      "expected_response": "reversal_only_with_full_confirmation",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reversal_only_with_full_confirmation"
+      ],
+      "explanation": "Example 133 demonstrates reversal_exhaustion_volatility with response reversal_only_with_full_confirmation and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_134",
+      "input_features": {
+        "atr_ratio": 1.45,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 5.5,
+        "spread_status": "normal",
+        "session": "asian",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_down",
+        "momentum_state": "bearish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "reversal_exhaustion_volatility",
+      "expected_response": "reversal_only_with_full_confirmation",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reversal_only_with_full_confirmation"
+      ],
+      "explanation": "Example 134 demonstrates reversal_exhaustion_volatility with response reversal_only_with_full_confirmation and macro_data_state=available."
+    },
+    {
+      "id": "vol_135",
+      "input_features": {
+        "atr_ratio": 1.48,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 2.2,
+        "spread_status": "normal",
+        "session": "off_hours",
+        "session_transition_flag": false,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "trend_down",
+        "momentum_state": "bearish",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "reversal_exhaustion_volatility",
+      "expected_response": "reversal_only_with_full_confirmation",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reversal_only_with_full_confirmation"
+      ],
+      "explanation": "Example 135 demonstrates reversal_exhaustion_volatility with response reversal_only_with_full_confirmation and macro_data_state=available."
+    },
+    {
+      "id": "vol_136",
+      "input_features": {
+        "atr_ratio": 1.18,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 2.2,
+        "spread_status": "normal",
+        "session": "london",
+        "session_transition_flag": true,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "session_transition_volatility",
+      "expected_response": "reduce_confidence_until_stable",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_confidence_until_stable"
+      ],
+      "explanation": "Example 136 demonstrates session_transition_volatility with response reduce_confidence_until_stable and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_137",
+      "input_features": {
+        "atr_ratio": 1.21,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 2.75,
+        "spread_status": "normal",
+        "session": "new_york",
+        "session_transition_flag": true,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "session_transition_volatility",
+      "expected_response": "reduce_confidence_until_stable",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_confidence_until_stable"
+      ],
+      "explanation": "Example 137 demonstrates session_transition_volatility with response reduce_confidence_until_stable and macro_data_state=available."
+    },
+    {
+      "id": "vol_138",
+      "input_features": {
+        "atr_ratio": 1.24,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 3.3,
+        "spread_status": "normal",
+        "session": "overlap",
+        "session_transition_flag": true,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "session_transition_volatility",
+      "expected_response": "reduce_confidence_until_stable",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_confidence_until_stable"
+      ],
+      "explanation": "Example 138 demonstrates session_transition_volatility with response reduce_confidence_until_stable and macro_data_state=available."
+    },
+    {
+      "id": "vol_139",
+      "input_features": {
+        "atr_ratio": 1.18,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 1.55,
+        "spread_pips": 3.85,
+        "spread_status": "normal",
+        "session": "asian",
+        "session_transition_flag": true,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "session_transition_volatility",
+      "expected_response": "reduce_confidence_until_stable",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_confidence_until_stable"
+      ],
+      "explanation": "Example 139 demonstrates session_transition_volatility with response reduce_confidence_until_stable and macro_data_state=available."
+    },
+    {
+      "id": "vol_140",
+      "input_features": {
+        "atr_ratio": 1.21,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 1.8,
+        "spread_pips": 4.4,
+        "spread_status": "normal",
+        "session": "off_hours",
+        "session_transition_flag": true,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "session_transition_volatility",
+      "expected_response": "reduce_confidence_until_stable",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_confidence_until_stable"
+      ],
+      "explanation": "Example 140 demonstrates session_transition_volatility with response reduce_confidence_until_stable and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_141",
+      "input_features": {
+        "atr_ratio": 1.24,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 2.05,
+        "spread_pips": 4.95,
+        "spread_status": "normal",
+        "session": "london",
+        "session_transition_flag": true,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "session_transition_volatility",
+      "expected_response": "reduce_confidence_until_stable",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_confidence_until_stable"
+      ],
+      "explanation": "Example 141 demonstrates session_transition_volatility with response reduce_confidence_until_stable and macro_data_state=available."
+    },
+    {
+      "id": "vol_142",
+      "input_features": {
+        "atr_ratio": 1.18,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 5.5,
+        "spread_status": "normal",
+        "session": "new_york",
+        "session_transition_flag": true,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "session_transition_volatility",
+      "expected_response": "reduce_confidence_until_stable",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_confidence_until_stable"
+      ],
+      "explanation": "Example 142 demonstrates session_transition_volatility with response reduce_confidence_until_stable and macro_data_state=available."
+    },
+    {
+      "id": "vol_143",
+      "input_features": {
+        "atr_ratio": 1.21,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 2.2,
+        "spread_status": "normal",
+        "session": "overlap",
+        "session_transition_flag": true,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "session_transition_volatility",
+      "expected_response": "reduce_confidence_until_stable",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_confidence_until_stable"
+      ],
+      "explanation": "Example 143 demonstrates session_transition_volatility with response reduce_confidence_until_stable and macro_data_state=available."
+    },
+    {
+      "id": "vol_144",
+      "input_features": {
+        "atr_ratio": 1.24,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 2.75,
+        "spread_status": "normal",
+        "session": "asian",
+        "session_transition_flag": true,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "session_transition_volatility",
+      "expected_response": "reduce_confidence_until_stable",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_confidence_until_stable"
+      ],
+      "explanation": "Example 144 demonstrates session_transition_volatility with response reduce_confidence_until_stable and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_145",
+      "input_features": {
+        "atr_ratio": 1.18,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.55,
+        "spread_pips": 3.3,
+        "spread_status": "normal",
+        "session": "off_hours",
+        "session_transition_flag": true,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "session_transition_volatility",
+      "expected_response": "reduce_confidence_until_stable",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_confidence_until_stable"
+      ],
+      "explanation": "Example 145 demonstrates session_transition_volatility with response reduce_confidence_until_stable and macro_data_state=available."
+    },
+    {
+      "id": "vol_146",
+      "input_features": {
+        "atr_ratio": 1.21,
+        "candle_body_ratio": 0.2,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.8,
+        "spread_pips": 3.85,
+        "spread_status": "normal",
+        "session": "london",
+        "session_transition_flag": true,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "session_transition_volatility",
+      "expected_response": "reduce_confidence_until_stable",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_confidence_until_stable"
+      ],
+      "explanation": "Example 146 demonstrates session_transition_volatility with response reduce_confidence_until_stable and macro_data_state=available."
+    },
+    {
+      "id": "vol_147",
+      "input_features": {
+        "atr_ratio": 1.24,
+        "candle_body_ratio": 0.32,
+        "wick_ratio": 0.69,
+        "range_expansion_ratio": 2.05,
+        "spread_pips": 4.4,
+        "spread_status": "normal",
+        "session": "new_york",
+        "session_transition_flag": true,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "session_transition_volatility",
+      "expected_response": "reduce_confidence_until_stable",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_confidence_until_stable"
+      ],
+      "explanation": "Example 147 demonstrates session_transition_volatility with response reduce_confidence_until_stable and macro_data_state=available."
+    },
+    {
+      "id": "vol_148",
+      "input_features": {
+        "atr_ratio": 1.18,
+        "candle_body_ratio": 0.44,
+        "wick_ratio": 0.3,
+        "range_expansion_ratio": 0.8,
+        "spread_pips": 4.95,
+        "spread_status": "normal",
+        "session": "overlap",
+        "session_transition_flag": true,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "conflict",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "unavailable"
+      },
+      "expected_volatility_class": "session_transition_volatility",
+      "expected_response": "reduce_confidence_until_stable",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_confidence_until_stable"
+      ],
+      "explanation": "Example 148 demonstrates session_transition_volatility with response reduce_confidence_until_stable and macro_data_state=unavailable."
+    },
+    {
+      "id": "vol_149",
+      "input_features": {
+        "atr_ratio": 1.21,
+        "candle_body_ratio": 0.56,
+        "wick_ratio": 0.43,
+        "range_expansion_ratio": 1.05,
+        "spread_pips": 5.5,
+        "spread_status": "normal",
+        "session": "asian",
+        "session_transition_flag": true,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "aligned",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "session_transition_volatility",
+      "expected_response": "reduce_confidence_until_stable",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_confidence_until_stable"
+      ],
+      "explanation": "Example 149 demonstrates session_transition_volatility with response reduce_confidence_until_stable and macro_data_state=available."
+    },
+    {
+      "id": "vol_150",
+      "input_features": {
+        "atr_ratio": 1.24,
+        "candle_body_ratio": 0.68,
+        "wick_ratio": 0.56,
+        "range_expansion_ratio": 1.3,
+        "spread_pips": 2.2,
+        "spread_status": "normal",
+        "session": "off_hours",
+        "session_transition_flag": true,
+        "news_window_flag": false,
+        "high_impact_news_hard_block": false,
+        "dxy_alignment_state": "conflict",
+        "us10y_alignment_state": "aligned",
+        "vix_state": "normal",
+        "price_structure_state": "range_or_mixed",
+        "momentum_state": "mixed",
+        "macro_data_state": "available"
+      },
+      "expected_volatility_class": "session_transition_volatility",
+      "expected_response": "reduce_confidence_until_stable",
+      "expected_blockers": [],
+      "expected_tags": [
+        "reduce_confidence_until_stable"
+      ],
+      "explanation": "Example 150 demonstrates session_transition_volatility with response reduce_confidence_until_stable and macro_data_state=available."
+    }
+  ]
+}

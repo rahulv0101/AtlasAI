@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "atlas-ai"
+version = "0.1.0"
+description = "Atlas AI: self-improving gold trading system for HFM"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "MetaTrader5>=5.0.45",
+  "numpy>=1.26.0",
+  "pandas>=2.2.0",
+  "python-dotenv>=1.0.1",
+  "flask>=3.0.0",
+  "pywebview>=5.1",
+  "google-generativeai>=0.8.4",
+  "google-genai>=1.30.0",
+  "Pillow>=10.0.0",
+  "sounddevice>=0.5.5",
+  "vosk>=0.3.45",
+]
+
+[project.scripts]
+atlas-ai = "atlas_ai.main:main"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["atlas_ai*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+filterwarnings = [
+  # Third-party deprecation from torch internals during backtest tests.
+  "ignore:`torch.jit.script` is deprecated.*:DeprecationWarning:torch\\.jit\\._script",
+]
+

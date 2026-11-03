@@ -1,0 +1,76 @@
+{
+  "captured_at": "2026-10-13T07:24:31.211433+00:00",
+  "heartbeat": {
+    "schema": "atlas_backend_heartbeat_v1",
+    "component": "backend_trader",
+    "last_heartbeat": "2026-10-13T07:24:00.726266+00:00",
+    "last_heartbeat_ts": 1791876240.7262661,
+    "mode": "live",
+    "pid": 25380,
+    "cycle_count": 32791,
+    "cycle_status": "running"
+  },
+  "status": {
+    "updated_at": "2026-10-13T07:23:00.658339+00:00",
+    "execute_trades": true,
+    "effective_mode": "live",
+    "gate_execution_environment": "demo",
+    "thresholds": {
+      "confidence": 0.44,
+      "structure": 0.35,
+      "spread_max": 4.5
+    },
+    "risk": {
+      "equity": 110222.43,
+      "balance": 110222.43,
+      "daily_loss_pct": 0.0,
+      "open_positions": 0,
+      "spread_points": 34.0,
+      "trades_today": 0,
+      "consecutive_losses": 0,
+      "daily_profit_zar": 0.0,
+      "weekly_loss_pct": 0.0
+    },
+    "action": "hold",
+    "message": "No directional trade signal selected."
+  },
+  "processes": [
+    {
+      "ProcessId": 24144,
+      "ParentProcessId": 7180,
+      "Name": "python.exe",
+      "CommandLine": "C:\\Users\\User\\Desktop\\Atlas AI\\.venv\\Scripts\\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live"
+    },
+    {
+      "ProcessId": 25380,
+      "ParentProcessId": 24144,
+      "Name": "python.exe",
+      "CommandLine": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live"
+    }
+  ],
+  "ui": [
+    {
+      "ProcessId": 3204,
+      "ParentProcessId": 21384,
+      "Name": "python.exe",
+      "CommandLine": "C:\\Users\\User\\Desktop\\Atlas AI\\.venv\\Scripts\\python.exe -m atlas_ai.main ui-server"
+    },
+    {
+      "ProcessId": 9044,
+      "ParentProcessId": 3204,
+      "Name": "python.exe",
+      "CommandLine": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\python.exe -m atlas_ai.main ui-server"
+    }
+  ],
+  "memory_MiB": {
+    "private": 1076.3203125,
+    "resident": 319.171875
+  },
+  "unchanged_file_hashes": {
+    ".env": "1c25037e41732e7a2d7a6379769381a1ca7770623c9f052825cefc71f41bb744",
+    "atlas_ai\\config\\settings.py": "194651e54a1e94ea6f81b20df7a0238ab6016287d12dbb18db50e5718628c02a",
+    "atlas_ai\\trader.py": "53a519927a203f3182c6546ffcaddb762efea459ceeb54d8bfc775fcb08944ed",
+    "atlas_ai\\execution\\execution_gate.py": "d7f7e6761082182f7a5f9110a2d2cb813df24e7b45372c10e24fca7f86e30d30",
+    "atlas_ai\\risk\\risk_manager.py": "37f6e5522ffff637822ccddaf5e233fa3b8f395dfcc151446489777a22a14077"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "purpose": "Concrete teaching examples for interpreting operator labels without changing live policy.",
+  "examples": [
+    {
+      "label": "correct_hold",
+      "scenario": "Range environment, price mid-range, spread wide, macro conflict present.",
+      "why": "Movement after the fact does not make the original decision executable.",
+      "atlas_should_learn": "Reinforce patience and avoid hindsight bias."
+    },
+    {
+      "label": "correct_hold",
+      "scenario": "Liquidity sweep appears, but no structure reclaim and no reversal momentum confirmation.",
+      "why": "Sweep alone is not a reversal setup.",
+      "atlas_should_learn": "Require confirmation before reversal action."
+    },
+    {
+      "label": "too_cautious",
+      "scenario": "Clear HH/HL uptrend, pullback into structure, momentum turns back up, spread normal, macro neutral/supportive, but Atlas still holds.",
+      "why": "The playbook was clean enough for existing gates to review.",
+      "atlas_should_learn": "Investigate whether confidence or same-side support is lagging."
+    },
+    {
+      "label": "missed_trade",
+      "scenario": "Breakout retest holds cleanly with follow-through, no event risk, acceptable execution, and Atlas does not produce a directional candidate.",
+      "why": "The setup matched a known playbook and execution conditions were usable.",
+      "atlas_should_learn": "Review setup recognition and confirmation timing."
+    },
+    {
+      "label": "bad_setup",
+      "scenario": "Atlas likes continuation while price is in chop, momentum weak, and no pullback or breakout location is present.",
+      "why": "The setup is structurally incomplete.",
+      "atlas_should_learn": "Tighten setup recognition, not risk policy."
+    },
+    {
+      "label": "correct_hold",
+      "scenario": "M1 structure is LH/LL, price is mid-range, momentum is mixed, and Atlas has a buy candidate with only one supporting signal.",
+      "why": "The candidate direction is not the same as entry permission; the buy idea needs reversal proof, structure reclaim, or stronger same-side support.",
+      "atlas_should_learn": "Classify this as developing/no-trade until confirmation improves."
+    },
+    {
+      "label": "bad_setup",
+      "scenario": "Atlas treats a mid-range mixed-momentum move as continuation because confidence is above threshold.",
+      "why": "Confidence without clean location, momentum confirmation, and sufficient consensus is not a complete setup.",
+      "atlas_should_learn": "Do not promote mid-range movement into an executable setup."
+    },
+    {
+      "label": "correct_hold",
+      "scenario": "Trend structure is visible, but the candidate has weak or mixed momentum, mid-range or unclear entry location, late-session/wide-spread execution friction, or DXY/US10Y macro conflict.",
+      "why": "Trend direction and entry permission are separate. A trade can be directionally plausible and still be too weak to execute.",
+      "atlas_should_learn": "Classify this as developing/no-trade until momentum confirms, location improves, and execution/macro conditions stop fighting the setup."
+    },
+    {
+      "label": "bad_setup",
+      "scenario": "After recent losses, Atlas tries to repeat a continuation, pullback, or breakout idea in the same weak-momentum, poor-location, wide-spread, or macro-conflicted context.",
+      "why": "The loss cluster is teaching Atlas that these conditions are vulnerable to poor timing, not that it should loosen guards or force trades.",
+      "atlas_should_learn": "Haircut confidence and explain the missing confirmation before any execution review."
+    },
+    {
+      "label": "execution_issue",
+      "scenario": "A setup is recognized, but execution truth reports broker confirmation missing, rejection, timeout, or reconciliation required.",
+      "why": "Broker/routing failure is separate from strategy quality.",
+      "atlas_should_learn": "Classify the failure cause from execution_truth before blaming setup logic."
+    },
+    {
+      "label": "execution_issue",
+      "scenario": "Setup is recognizable, but spread/liquidity/slippage/session conditions are unsafe.",
+      "why": "The trade idea and execution environment are separate problems.",
+      "atlas_should_learn": "Keep the setup insight but do not treat poor execution as strategy failure."
+    },
+    {
+      "label": "confusing_answer",
+      "scenario": "Operator asks about capabilities, learning, or limitations and Atlas answers with HOLD/PAPER/RUN status.",
+      "why": "The answer is irrelevant even if the status is true.",
+      "atlas_should_learn": "Route self-knowledge and learning questions to Brain v2 knowledge, not trading-state fallback."
+    }
+  ],
+  "policy_note": "Examples are teaching references only. They do not authorize automatic strategy, risk, or execution changes."
+}

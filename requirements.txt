@@ -1,0 +1,13 @@
+MetaTrader5>=5.0.45
+numpy>=1.26.0
+pandas>=2.2.0
+python-dotenv>=1.0.1
+flask>=3.0.0
+pywebview>=5.1
+google-generativeai>=0.8.4
+google-genai>=1.30.0
+openai>=1.40.0
+sounddevice>=0.5.5
+vosk>=0.3.45
+pyttsx3>=2.90
+Pillow>=10.0.0

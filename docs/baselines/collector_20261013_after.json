@@ -1,0 +1,119 @@
+{
+  "cases": [
+    {
+      "records": 500,
+      "input_bytes": 4250630,
+      "elapsed_seconds": 0.3567429999820888,
+      "peak_allocated_bytes": 63135,
+      "result": {
+        "schema": "atlas_blocker_selectivity_offline_collector_v1",
+        "proposal_id": "proposal_consensus_selectivity_context_review",
+        "target_blocker": "consensus",
+        "mode": "offline_collection_only",
+        "source_artifacts": [
+          "storage/missed_entry_audits.jsonl",
+          "storage/missed_entry_outcome_reviews.jsonl"
+        ],
+        "required_fields": [
+          "higher_timeframe_alignment",
+          "directional_structure",
+          "momentum_quality",
+          "spread_state",
+          "loss_pattern_state"
+        ],
+        "required_samples": 120,
+        "all_time_audit_samples": 0,
+        "enriched_samples": 0,
+        "missing_context_samples": 0,
+        "remaining_enriched_samples_needed": 120,
+        "reviewed_outcome_samples": 500,
+        "outcome_counts": {
+          "missed_opportunity": 125,
+          "correct_hold_or_block": 125,
+          "inconclusive": 125
+        },
+        "metrics": {
+          "missed_rate": 0.25,
+          "correct_block_rate": 0.25,
+          "unknown_rate": 0.25,
+          "net_review_edge": 0.0
+        },
+        "ready_to_retry_shadow_compare": false,
+        "top_missing_fields": [],
+        "backfill": {
+          "ok": false,
+          "scanned": 0,
+          "updated": 0
+        },
+        "policy": {
+          "offline_collection_only": true,
+          "synthetic_samples_created": false,
+          "does_not_execute": true,
+          "does_not_allow_trade": true,
+          "does_not_change_strategy_logic": true,
+          "does_not_change_risk_policy": true,
+          "does_not_change_execution_policy": true,
+          "does_not_lower_thresholds": true
+        }
+      }
+    },
+    {
+      "records": 4000,
+      "input_bytes": 34005040,
+      "elapsed_seconds": 1.0628865999751724,
+      "peak_allocated_bytes": 63271,
+      "result": {
+        "schema": "atlas_blocker_selectivity_offline_collector_v1",
+        "proposal_id": "proposal_consensus_selectivity_context_review",
+        "target_blocker": "consensus",
+        "mode": "offline_collection_only",
+        "source_artifacts": [
+          "storage/missed_entry_audits.jsonl",
+          "storage/missed_entry_outcome_reviews.jsonl"
+        ],
+        "required_fields": [
+          "higher_timeframe_alignment",
+          "directional_structure",
+          "momentum_quality",
+          "spread_state",
+          "loss_pattern_state"
+        ],
+        "required_samples": 120,
+        "all_time_audit_samples": 0,
+        "enriched_samples": 0,
+        "missing_context_samples": 0,
+        "remaining_enriched_samples_needed": 120,
+        "reviewed_outcome_samples": 4000,
+        "outcome_counts": {
+          "missed_opportunity": 1000,
+          "correct_hold_or_block": 1000,
+          "inconclusive": 1000
+        },
+        "metrics": {
+          "missed_rate": 0.25,
+          "correct_block_rate": 0.25,
+          "unknown_rate": 0.25,
+          "net_review_edge": 0.0
+        },
+        "ready_to_retry_shadow_compare": false,
+        "top_missing_fields": [],
+        "backfill": {
+          "ok": false,
+          "scanned": 0,
+          "updated": 0
+        },
+        "policy": {
+          "offline_collection_only": true,
+          "synthetic_samples_created": false,
+          "does_not_execute": true,
+          "does_not_allow_trade": true,
+          "does_not_change_strategy_logic": true,
+          "does_not_change_risk_policy": true,
+          "does_not_change_execution_policy": true,
+          "does_not_lower_thresholds": true
+        }
+      }
+    }
+  ],
+  "output_differences": []
+}

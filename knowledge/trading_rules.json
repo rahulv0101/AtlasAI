@@ -1,0 +1,7 @@
+{
+  "execution_policy": "No mutation from Ask Atlas answers.",
+  "operator_guard": "System-changing actions require explicit command intent.",
+  "default_mode": "paper",
+  "comparison_policy": "Use active comparison run as primary evidence during paper validation."
+}
+

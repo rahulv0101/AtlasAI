@@ -1,0 +1,75 @@
+.......F...F.F.......................................................... [  9%]
+........................................................................ [ 18%]
+........................................................................ [ 27%]
+........................................................................ [ 37%]
+........................................................................ [ 46%]
+........................................................................ [ 55%]
+........................................................................ [ 65%]
+........................................................................ [ 74%]
+.....................................................................F.. [ 83%]
+........................................................................ [ 93%]
+......FF............................................                     [100%]
+================================== FAILURES ===================================
+____ test_no_chart_input_still_returns_safe_no_trade_without_side_effects _____
+tests\test_ask_chart_analysis_path.py:80: in test_no_chart_input_still_returns_safe_no_trade_without_side_effects
+    assert out["trading_analysis"]["entry_quality"] in {"avoid", "risky"}
+           ^^^^^^^^^^^^^^^^^^^^^^^
+E   KeyError: 'trading_analysis'
+_____ test_structured_trading_analysis_response_contains_required_fields ______
+tests\test_ask_structured_trading_analysis.py:45: in test_structured_trading_analysis_response_contains_required_fields
+    assert out["intent"] == "trading_analysis"
+E   AssertionError: assert 'recommendation' == 'trading_analysis'
+E     
+E     - trading_analysis
+E     + recommendation
+_ test_structured_analysis_queries_create_no_execution_requests_or_control_mutation _
+tests\test_ask_structured_trading_analysis.py:83: in test_structured_analysis_queries_create_no_execution_requests_or_control_mutation
+    assert before_control == after_control
+E   AssertionError: assert {'approval_re...ount': 0, ...} == {'approval_re...ount': 0, ...}
+E     
+E     Omitting 12 identical items, use -vv to show
+E     Differing items:
+E     {'high_risk_count': 0} != {'high_risk_count': 2}
+E     {'pending_count': 0} != {'pending_count': 15}
+E     {'approval_required_count': 0} != {'approval_required_count': 8}
+E     {'high_risk': []} != {'high_risk': [{'approval_context': '', 'approval_level': 'high_risk_requires_explicit_confirmation', 'approval_reason...Potential strategy-impacting review flags require explicit high-risk confirmation.', 'approval_timestamp': None, ...}]}...
+E     
+E     ...Full output truncated (3 lines hidden), use '-vv' to show
+_________ test_ask_atlas_end_to_end_includes_debug_control_execution __________
+tests\test_system_hardening_integration.py:61: in test_ask_atlas_end_to_end_includes_debug_control_execution
+    assert resp["handled_as"] == "system"
+E   AssertionError: assert 'brain' == 'system'
+E     
+E     - system
+E     + brain
+______________ test_runtime_api_exposes_self_improvement_summary ______________
+tests\test_ui_server.py:907: in test_runtime_api_exposes_self_improvement_summary
+    assert payload["self_improvement_state"]["proposal_count"] == 0
+E   assert 2 == 0
+_______ test_self_improvement_api_endpoints_are_read_only_and_grounded ________
+tests\test_ui_server.py:925: in test_self_improvement_api_endpoints_are_read_only_and_grounded
+    assert proposals["summary"]["proposal_count"] == 0
+E   assert 2 == 0
+============================== warnings summary ===============================
+atlas_ai\voice\input.py:3
+  C:\Users\User\Desktop\Atlas AI\atlas_ai\voice\input.py:3: DeprecationWarning: 'audioop' is deprecated and slated for removal in Python 3.13
+    import audioop
+
+atlas_ai\execution\broker_adapter.py:128
+  C:\Users\User\Desktop\Atlas AI\atlas_ai\execution\broker_adapter.py:128: PytestCollectionWarning: cannot collect test class 'TestBrokerAdapter' because it has a __init__ constructor (from: tests/test_broker_adapter_hardening.py)
+    class TestBrokerAdapter(InMemoryBrokerAdapter):
+
+tests/test_evolution_scheduler.py::test_scheduler_singleton_prevents_duplicates
+tests/test_evolution_scheduler.py::test_stop_evolution_scheduler_releases_lock
+  C:\Users\User\Desktop\Atlas AI\.venv\Lib\site-packages\torch\jit\_script.py:1488: DeprecationWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED tests/test_ask_chart_analysis_path.py::test_no_chart_input_still_returns_safe_no_trade_without_side_effects
+FAILED tests/test_ask_structured_trading_analysis.py::test_structured_trading_analysis_response_contains_required_fields
+FAILED tests/test_ask_structured_trading_analysis.py::test_structured_analysis_queries_create_no_execution_requests_or_control_mutation
+FAILED tests/test_system_hardening_integration.py::test_ask_atlas_end_to_end_includes_debug_control_execution
+FAILED tests/test_ui_server.py::test_runtime_api_exposes_self_improvement_summary
+FAILED tests/test_ui_server.py::test_self_improvement_api_endpoints_are_read_only_and_grounded
+6 failed, 766 passed, 4 warnings in 156.19s (0:02:36)

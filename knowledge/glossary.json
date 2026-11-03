@@ -1,0 +1,7 @@
+{
+  "status_hold": "No trade is taken in the current cycle.",
+  "paper_mode": "Read-only simulated execution mode with no live order placement.",
+  "comparison_run": "Parallel control vs experiment paper evaluation run.",
+  "main_blocker": "Highest-ranked active constraint preventing safe execution."
+}
+

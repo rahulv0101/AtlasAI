@@ -1,0 +1,2490 @@
+{
+  "cutoff": "2026-10-13T19:24:22",
+  "end": "2026-10-14T09:51:09.473608+00:00",
+  "source": "active journal; compare count against all-archive diagnostic",
+  "timing_records": 67,
+  "htf_records": 18,
+  "missing_conditions": {
+    "tradable_location": 49,
+    "strong_or_turning_m1_momentum": 55,
+    "visual_confirmation": 43,
+    "fresh_entry_or_retest": 8,
+    "visual_momentum_confirmation": 9,
+    "visual_tradable_location": 35,
+    "visual_directional_impulse": 8
+  },
+  "combinations": [
+    {
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_tradable_location"
+      ],
+      "count": 18
+    },
+    {
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation"
+      ],
+      "count": 16
+    },
+    {
+      "missing": [
+        "fresh_entry_or_retest"
+      ],
+      "count": 4
+    },
+    {
+      "missing": [
+        "fresh_entry_or_retest",
+        "visual_tradable_location"
+      ],
+      "count": 4
+    },
+    {
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_tradable_location"
+      ],
+      "count": 4
+    },
+    {
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_momentum_confirmation"
+      ],
+      "count": 3
+    },
+    {
+      "missing": [
+        "strong_or_turning_m1_momentum",
+        "visual_tradable_location"
+      ],
+      "count": 2
+    },
+    {
+      "missing": [
+        "strong_or_turning_m1_momentum",
+        "visual_momentum_confirmation"
+      ],
+      "count": 2
+    },
+    {
+      "missing": [
+        "strong_or_turning_m1_momentum"
+      ],
+      "count": 2
+    },
+    {
+      "missing": [
+        "visual_momentum_confirmation"
+      ],
+      "count": 1
+    },
+    {
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum"
+      ],
+      "count": 1
+    },
+    {
+      "missing": [
+        "strong_or_turning_m1_momentum",
+        "visual_directional_impulse"
+      ],
+      "count": 1
+    },
+    {
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_tradable_location",
+        "visual_momentum_confirmation",
+        "visual_directional_impulse"
+      ],
+      "count": 1
+    },
+    {
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_momentum_confirmation",
+        "visual_directional_impulse"
+      ],
+      "count": 1
+    },
+    {
+      "missing": [
+        "strong_or_turning_m1_momentum",
+        "visual_tradable_location",
+        "visual_momentum_confirmation",
+        "visual_directional_impulse"
+      ],
+      "count": 1
+    },
+    {
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_directional_impulse"
+      ],
+      "count": 1
+    },
+    {
+      "missing": [
+        "tradable_location",
+        "visual_confirmation",
+        "visual_tradable_location"
+      ],
+      "count": 1
+    },
+    {
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_tradable_location",
+        "visual_directional_impulse"
+      ],
+      "count": 1
+    },
+    {
+      "missing": [
+        "tradable_location",
+        "visual_confirmation",
+        "visual_tradable_location",
+        "visual_directional_impulse"
+      ],
+      "count": 1
+    },
+    {
+      "missing": [
+        "tradable_location",
+        "visual_tradable_location"
+      ],
+      "count": 1
+    },
+    {
+      "missing": [
+        "strong_or_turning_m1_momentum",
+        "visual_tradable_location",
+        "visual_directional_impulse"
+      ],
+      "count": 1
+    }
+  ],
+  "strategies": {
+    "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)": 41,
+    "gold_breakout_retest": 16,
+    "momentum_continuation": 1,
+    "gold_liquidity_sweep": 8,
+    "gold_micro_impulse": 1
+  },
+  "only_visual_count": 1,
+  "only_fresh_entry_count": 4,
+  "rows": [
+    {
+      "time": "2026-10-14T00:23:16.242507+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.62
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "uptrend",
+        "trend_strength": 0.1251,
+        "session": "asia",
+        "setup_hint": "no_trade",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "pullback",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T01:15:43.180665+00:00",
+      "chosen": {
+        "strategy": "gold_breakout_retest",
+        "side": "sell",
+        "confidence": 0.62
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "downtrend",
+        "trend_strength": 0.2334,
+        "session": "asia",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "pullback",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T01:16:49.520439+00:00",
+      "chosen": {
+        "strategy": "gold_breakout_retest",
+        "side": "sell",
+        "confidence": 0.9
+      },
+      "missing": [
+        "fresh_entry_or_retest"
+      ],
+      "observed": {
+        "location": "breakout",
+        "momentum": "strong",
+        "trend_state": "downtrend",
+        "trend_strength": 0.3599,
+        "session": "asia",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "supports_setup",
+        "visual_direction": "down",
+        "visual_location": "pullback",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_RETEST_CONFIRMATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: fresh entry or retest missing (location=breakout, momentum=strong, session=asia)."
+    },
+    {
+      "time": "2026-10-14T01:18:03.699732+00:00",
+      "chosen": {
+        "strategy": "gold_breakout_retest",
+        "side": "sell",
+        "confidence": 0.67
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "downtrend",
+        "trend_strength": 0.3056,
+        "session": "asia",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "pullback",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T01:20:20.092057+00:00",
+      "chosen": {
+        "strategy": "gold_breakout_retest",
+        "side": "sell",
+        "confidence": 0.68
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_momentum_confirmation"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "downtrend",
+        "trend_strength": 0.3116,
+        "session": "asia",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "pullback",
+        "visual_momentum": "weak"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual momentum confirmation missing (location=mid_range, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T01:37:18.467482+00:00",
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "sell",
+        "confidence": 0.59
+      },
+      "missing": [
+        "visual_momentum_confirmation"
+      ],
+      "observed": {
+        "location": "pullback",
+        "momentum": "strong",
+        "trend_state": "range",
+        "trend_strength": 0.2882,
+        "session": "asia",
+        "setup_hint": "mean_reversion",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "supports_setup",
+        "visual_direction": "down",
+        "visual_location": "pullback",
+        "visual_momentum": "weak"
+      },
+      "reason_code": "AWAITING_VISUAL_MOMENTUM_CONFIRMATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: visual momentum confirmation missing (location=pullback, momentum=strong, session=asia)."
+    },
+    {
+      "time": "2026-10-14T01:52:57.744848+00:00",
+      "chosen": {
+        "strategy": "gold_liquidity_sweep",
+        "side": "sell",
+        "confidence": 0.85
+      },
+      "missing": [
+        "strong_or_turning_m1_momentum",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "pullback",
+        "momentum": "mixed",
+        "trend_state": "downtrend",
+        "trend_strength": 0.0214,
+        "session": "asia",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "supports_setup",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_M1_MOMENTUM_CONFIRMATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: strong/turning M1 momentum, and visual tradable location missing (location=pullback, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T01:54:03.515199+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.55
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "weak",
+        "trend_state": "uptrend",
+        "trend_strength": 0.0741,
+        "session": "asia",
+        "setup_hint": "no_trade",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=weak, session=asia)."
+    },
+    {
+      "time": "2026-10-14T01:55:12.817508+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.58
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "uptrend",
+        "trend_strength": 0.0659,
+        "session": "asia",
+        "setup_hint": "no_trade",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T01:56:23.001020+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.54
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "weak",
+        "trend_state": "uptrend",
+        "trend_strength": 0.0536,
+        "session": "asia",
+        "setup_hint": "no_trade",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=weak, session=asia)."
+    },
+    {
+      "time": "2026-10-14T01:57:29.711418+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.58
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "uptrend",
+        "trend_strength": 0.0714,
+        "session": "asia",
+        "setup_hint": "no_trade",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T01:58:37.573945+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.47
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "weak",
+        "trend_state": "uptrend",
+        "trend_strength": 0.0647,
+        "session": "asia",
+        "setup_hint": "no_trade",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=weak, session=asia)."
+    },
+    {
+      "time": "2026-10-14T01:59:44.489868+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.5
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "uptrend",
+        "trend_strength": 0.0277,
+        "session": "asia",
+        "setup_hint": "no_trade",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T02:00:50.230830+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.46
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "weak",
+        "trend_state": "uptrend",
+        "trend_strength": 0.0209,
+        "session": "asia",
+        "setup_hint": "no_trade",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=weak, session=asia)."
+    },
+    {
+      "time": "2026-10-14T02:01:56.871837+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.45
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "weak",
+        "trend_state": "uptrend",
+        "trend_strength": 0.0392,
+        "session": "asia",
+        "setup_hint": "no_trade",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=weak, session=asia)."
+    },
+    {
+      "time": "2026-10-14T02:03:03.290983+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.78
+      },
+      "missing": [
+        "fresh_entry_or_retest",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "breakout",
+        "momentum": "strong",
+        "trend_state": "uptrend",
+        "trend_strength": 0.0732,
+        "session": "asia",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "caution",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_RETEST_CONFIRMATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: fresh entry or retest, and visual tradable location missing (location=breakout, momentum=strong, session=asia)."
+    },
+    {
+      "time": "2026-10-14T02:07:36.502791+00:00",
+      "chosen": {
+        "strategy": "gold_liquidity_sweep",
+        "side": "sell",
+        "confidence": 0.48
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "uptrend",
+        "trend_strength": 0.0902,
+        "session": "asia",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "pullback",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T02:27:20.081411+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.52
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum"
+      ],
+      "observed": {
+        "location": "consolidation",
+        "momentum": "mixed",
+        "trend_state": "range",
+        "trend_strength": 0.0317,
+        "session": "asia",
+        "setup_hint": "consolidation",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "caution",
+        "visual_direction": "up",
+        "visual_location": "edge",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, and strong/turning M1 momentum missing (location=consolidation, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T02:43:05.584849+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.59
+      },
+      "missing": [
+        "strong_or_turning_m1_momentum",
+        "visual_momentum_confirmation"
+      ],
+      "observed": {
+        "location": "pullback",
+        "momentum": "mixed",
+        "trend_state": "range",
+        "trend_strength": 0.3198,
+        "session": "asia",
+        "setup_hint": "mean_reversion",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "caution",
+        "visual_direction": "up",
+        "visual_location": "edge",
+        "visual_momentum": "weak"
+      },
+      "reason_code": "AWAITING_M1_MOMENTUM_CONFIRMATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: strong/turning M1 momentum, and visual momentum confirmation missing (location=pullback, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T02:44:13.538677+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.55
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "range",
+        "trend_strength": 0.3239,
+        "session": "asia",
+        "setup_hint": "consolidation",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "up",
+        "visual_location": "edge",
+        "visual_momentum": "mixed"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T02:45:20.498659+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.59
+      },
+      "missing": [
+        "strong_or_turning_m1_momentum",
+        "visual_directional_impulse"
+      ],
+      "observed": {
+        "location": "pullback",
+        "momentum": "mixed",
+        "trend_state": "range",
+        "trend_strength": 0.3082,
+        "session": "asia",
+        "setup_hint": "mean_reversion",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "supports_setup",
+        "visual_direction": "sideways",
+        "visual_location": "edge",
+        "visual_momentum": "mixed"
+      },
+      "reason_code": "AWAITING_M1_MOMENTUM_CONFIRMATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: strong/turning M1 momentum, and visual directional impulse missing (location=pullback, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T02:46:37.492943+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.5
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_tradable_location",
+        "visual_momentum_confirmation",
+        "visual_directional_impulse"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "weak",
+        "trend_state": "range",
+        "trend_strength": 0.3398,
+        "session": "asia",
+        "setup_hint": "consolidation",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "sideways",
+        "visual_location": "mid_range",
+        "visual_momentum": "weak"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, visual tradable location, visual momentum confirmation, and visual directional impulse missing (location=mid_range, momentum=weak, session=asia)."
+    },
+    {
+      "time": "2026-10-14T02:55:45.382454+00:00",
+      "chosen": {
+        "strategy": "gold_breakout_retest",
+        "side": "buy",
+        "confidence": 0.69
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "uptrend",
+        "trend_strength": 0.2522,
+        "session": "asia",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T03:04:47.244351+00:00",
+      "chosen": {
+        "strategy": "gold_liquidity_sweep",
+        "side": "buy",
+        "confidence": 0.61
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_momentum_confirmation"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "weak",
+        "trend_state": "uptrend",
+        "trend_strength": 0.2376,
+        "session": "asia",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "pullback",
+        "visual_momentum": "weak"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual momentum confirmation missing (location=mid_range, momentum=weak, session=asia)."
+    },
+    {
+      "time": "2026-10-14T03:05:53.455054+00:00",
+      "chosen": {
+        "strategy": "gold_liquidity_sweep",
+        "side": "buy",
+        "confidence": 0.65
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_momentum_confirmation"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "uptrend",
+        "trend_strength": 0.1228,
+        "session": "asia",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "pullback",
+        "visual_momentum": "weak"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual momentum confirmation missing (location=mid_range, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T03:13:48.733512+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.57
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_momentum_confirmation",
+        "visual_directional_impulse"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "range",
+        "trend_strength": 0.145,
+        "session": "asia",
+        "setup_hint": "consolidation",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "sideways",
+        "visual_location": "edge",
+        "visual_momentum": "weak"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, visual momentum confirmation, and visual directional impulse missing (location=mid_range, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T03:14:57.626010+00:00",
+      "chosen": {
+        "strategy": "gold_micro_impulse",
+        "side": "buy",
+        "confidence": 0.59
+      },
+      "missing": [
+        "strong_or_turning_m1_momentum",
+        "visual_tradable_location",
+        "visual_momentum_confirmation",
+        "visual_directional_impulse"
+      ],
+      "observed": {
+        "location": "pullback",
+        "momentum": "mixed",
+        "trend_state": "range",
+        "trend_strength": 0.195,
+        "session": "asia",
+        "setup_hint": "mean_reversion",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "caution",
+        "visual_direction": "sideways",
+        "visual_location": "mid_range",
+        "visual_momentum": "weak"
+      },
+      "reason_code": "AWAITING_M1_MOMENTUM_CONFIRMATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: strong/turning M1 momentum, visual tradable location, visual momentum confirmation, and visual directional impulse missing (location=pullback, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T03:17:12.368227+00:00",
+      "chosen": {
+        "strategy": "gold_breakout_retest",
+        "side": "buy",
+        "confidence": 0.88
+      },
+      "missing": [
+        "fresh_entry_or_retest"
+      ],
+      "observed": {
+        "location": "breakout",
+        "momentum": "strong",
+        "trend_state": "uptrend",
+        "trend_strength": 0.2296,
+        "session": "asia",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "caution",
+        "visual_direction": "down",
+        "visual_location": "pullback",
+        "visual_momentum": "mixed"
+      },
+      "reason_code": "AWAITING_RETEST_CONFIRMATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: fresh entry or retest missing (location=breakout, momentum=strong, session=asia)."
+    },
+    {
+      "time": "2026-10-14T03:28:56.592791+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.57
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_directional_impulse"
+      ],
+      "observed": {
+        "location": "consolidation",
+        "momentum": "mixed",
+        "trend_state": "range",
+        "trend_strength": 0.136,
+        "session": "asia",
+        "setup_hint": "consolidation",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "sideways",
+        "visual_location": "edge",
+        "visual_momentum": "mixed"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual directional impulse missing (location=consolidation, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T04:13:01.669565+00:00",
+      "chosen": {
+        "strategy": "gold_liquidity_sweep",
+        "side": "buy",
+        "confidence": 0.48
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "downtrend",
+        "trend_strength": 0.1899,
+        "session": "asia",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "pullback",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T04:14:20.957795+00:00",
+      "chosen": {
+        "strategy": "gold_breakout_retest",
+        "side": "sell",
+        "confidence": 0.65
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "downtrend",
+        "trend_strength": 0.2896,
+        "session": "asia",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "pullback",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T04:19:03.633796+00:00",
+      "chosen": {
+        "strategy": "gold_breakout_retest",
+        "side": "sell",
+        "confidence": 0.67
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "downtrend",
+        "trend_strength": 0.3173,
+        "session": "asia",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "pullback",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T04:23:34.389577+00:00",
+      "chosen": {
+        "strategy": "gold_liquidity_sweep",
+        "side": "sell",
+        "confidence": 0.64
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "downtrend",
+        "trend_strength": 0.1834,
+        "session": "asia",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T04:25:50.736581+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.58
+      },
+      "missing": [
+        "tradable_location",
+        "visual_confirmation",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "strong",
+        "trend_state": "range",
+        "trend_strength": 0.1469,
+        "session": "asia",
+        "setup_hint": "consolidation",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, visual confirmation, and visual tradable location missing (location=mid_range, momentum=strong, session=asia)."
+    },
+    {
+      "time": "2026-10-14T05:05:19.906546+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.5
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "range",
+        "trend_strength": 0.1409,
+        "session": "asia",
+        "setup_hint": "consolidation",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "up",
+        "visual_location": "edge",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T05:46:13.989883+00:00",
+      "chosen": {
+        "strategy": "gold_breakout_retest",
+        "side": "sell",
+        "confidence": 0.91
+      },
+      "missing": [
+        "fresh_entry_or_retest"
+      ],
+      "observed": {
+        "location": "breakout",
+        "momentum": "strong",
+        "trend_state": "downtrend",
+        "trend_strength": 0.2427,
+        "session": "asia",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "supports_setup",
+        "visual_direction": "down",
+        "visual_location": "pullback",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_RETEST_CONFIRMATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: fresh entry or retest missing (location=breakout, momentum=strong, session=asia)."
+    },
+    {
+      "time": "2026-10-14T05:54:05.821509+00:00",
+      "chosen": {
+        "strategy": "gold_breakout_retest",
+        "side": "sell",
+        "confidence": 0.62
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "downtrend",
+        "trend_strength": 0.3005,
+        "session": "asia",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "pullback",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T05:56:23.923940+00:00",
+      "chosen": {
+        "strategy": "gold_breakout_retest",
+        "side": "sell",
+        "confidence": 0.63
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "downtrend",
+        "trend_strength": 0.3351,
+        "session": "asia",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "pullback",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T05:58:46.776123+00:00",
+      "chosen": {
+        "strategy": "gold_breakout_retest",
+        "side": "sell",
+        "confidence": 0.9
+      },
+      "missing": [
+        "fresh_entry_or_retest"
+      ],
+      "observed": {
+        "location": "breakout",
+        "momentum": "strong",
+        "trend_state": "downtrend",
+        "trend_strength": 0.3939,
+        "session": "asia",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "supports_setup",
+        "visual_direction": "down",
+        "visual_location": "pullback",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_RETEST_CONFIRMATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: fresh entry or retest missing (location=breakout, momentum=strong, session=asia)."
+    },
+    {
+      "time": "2026-10-14T05:59:55.247703+00:00",
+      "chosen": {
+        "strategy": "gold_breakout_retest",
+        "side": "sell",
+        "confidence": 0.63
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_tradable_location",
+        "visual_directional_impulse"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "downtrend",
+        "trend_strength": 0.4028,
+        "session": "asia",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "sideways",
+        "visual_location": "mid_range",
+        "visual_momentum": "mixed"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, visual tradable location, and visual directional impulse missing (location=mid_range, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T06:02:10.367091+00:00",
+      "chosen": {
+        "strategy": "gold_breakout_retest",
+        "side": "sell",
+        "confidence": 0.72
+      },
+      "missing": [
+        "tradable_location",
+        "visual_confirmation",
+        "visual_tradable_location",
+        "visual_directional_impulse"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "strong",
+        "trend_state": "downtrend",
+        "trend_strength": 0.3917,
+        "session": "asia",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "sideways",
+        "visual_location": "mid_range",
+        "visual_momentum": "mixed"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, visual confirmation, visual tradable location, and visual directional impulse missing (location=mid_range, momentum=strong, session=asia)."
+    },
+    {
+      "time": "2026-10-14T06:11:24.804689+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.58
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "uptrend",
+        "trend_strength": 0.1574,
+        "session": "asia",
+        "setup_hint": "no_trade",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T06:47:46.083635+00:00",
+      "chosen": {
+        "strategy": "gold_breakout_retest",
+        "side": "sell",
+        "confidence": 0.63
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "downtrend",
+        "trend_strength": 0.1758,
+        "session": "asia",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T06:50:00.212741+00:00",
+      "chosen": {
+        "strategy": "gold_breakout_retest",
+        "side": "sell",
+        "confidence": 0.65
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "downtrend",
+        "trend_strength": 0.2182,
+        "session": "asia",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "pullback",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=mixed, session=asia)."
+    },
+    {
+      "time": "2026-10-14T07:09:31.020122+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.63
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "weak",
+        "trend_state": "uptrend",
+        "trend_strength": 0.1401,
+        "session": "london",
+        "setup_hint": "no_trade",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=weak, session=london)."
+    },
+    {
+      "time": "2026-10-14T07:12:10.917031+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.58
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "uptrend",
+        "trend_strength": 0.2505,
+        "session": "london",
+        "setup_hint": "no_trade",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=mixed, session=london)."
+    },
+    {
+      "time": "2026-10-14T07:14:38.797651+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.65
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "uptrend",
+        "trend_strength": 0.2675,
+        "session": "london",
+        "setup_hint": "no_trade",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=mixed, session=london)."
+    },
+    {
+      "time": "2026-10-14T07:15:49.270129+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.65
+      },
+      "missing": [
+        "tradable_location",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "consolidation",
+        "momentum": "strong",
+        "trend_state": "range",
+        "trend_strength": 0.2964,
+        "session": "london",
+        "setup_hint": "consolidation",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "caution",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, and visual tradable location missing (location=consolidation, momentum=strong, session=london)."
+    },
+    {
+      "time": "2026-10-14T07:32:40.067221+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.72
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "consolidation",
+        "momentum": "mixed",
+        "trend_state": "range",
+        "trend_strength": 0.1839,
+        "session": "london",
+        "setup_hint": "consolidation",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "caution",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual tradable location missing (location=consolidation, momentum=mixed, session=london)."
+    },
+    {
+      "time": "2026-10-14T07:33:49.263767+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.7
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "range",
+        "trend_strength": 0.1783,
+        "session": "london",
+        "setup_hint": "consolidation",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=mixed, session=london)."
+    },
+    {
+      "time": "2026-10-14T07:34:56.098772+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.71
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "consolidation",
+        "momentum": "mixed",
+        "trend_state": "range",
+        "trend_strength": 0.1928,
+        "session": "london",
+        "setup_hint": "consolidation",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "caution",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual tradable location missing (location=consolidation, momentum=mixed, session=london)."
+    },
+    {
+      "time": "2026-10-14T07:36:11.615843+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.92
+      },
+      "missing": [
+        "fresh_entry_or_retest",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "breakout",
+        "momentum": "strong",
+        "trend_state": "uptrend",
+        "trend_strength": 0.1428,
+        "session": "london",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "caution",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_RETEST_CONFIRMATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: fresh entry or retest, and visual tradable location missing (location=breakout, momentum=strong, session=london)."
+    },
+    {
+      "time": "2026-10-14T07:37:21.520625+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.92
+      },
+      "missing": [
+        "fresh_entry_or_retest",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "breakout",
+        "momentum": "strong",
+        "trend_state": "uptrend",
+        "trend_strength": 0.1286,
+        "session": "london",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "caution",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_RETEST_CONFIRMATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: fresh entry or retest, and visual tradable location missing (location=breakout, momentum=strong, session=london)."
+    },
+    {
+      "time": "2026-10-14T07:39:48.041132+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.64
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "uptrend",
+        "trend_strength": 0.1515,
+        "session": "london",
+        "setup_hint": "no_trade",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=mixed, session=london)."
+    },
+    {
+      "time": "2026-10-14T08:22:20.328954+00:00",
+      "chosen": {
+        "strategy": "gold_liquidity_sweep",
+        "side": "buy",
+        "confidence": 0.9
+      },
+      "missing": [
+        "strong_or_turning_m1_momentum"
+      ],
+      "observed": {
+        "location": "pullback",
+        "momentum": "weak",
+        "trend_state": "uptrend",
+        "trend_strength": 0.1737,
+        "session": "london",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "caution",
+        "visual_direction": "down",
+        "visual_location": "pullback",
+        "visual_momentum": "mixed"
+      },
+      "reason_code": "AWAITING_M1_MOMENTUM_CONFIRMATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: strong/turning M1 momentum missing (location=pullback, momentum=weak, session=london)."
+    },
+    {
+      "time": "2026-10-14T08:23:38.473099+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.9
+      },
+      "missing": [
+        "strong_or_turning_m1_momentum"
+      ],
+      "observed": {
+        "location": "pullback",
+        "momentum": "mixed",
+        "trend_state": "uptrend",
+        "trend_strength": 0.1778,
+        "session": "london",
+        "setup_hint": "pullback",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "caution",
+        "visual_direction": "down",
+        "visual_location": "pullback",
+        "visual_momentum": "mixed"
+      },
+      "reason_code": "AWAITING_M1_MOMENTUM_CONFIRMATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: strong/turning M1 momentum missing (location=pullback, momentum=mixed, session=london)."
+    },
+    {
+      "time": "2026-10-14T08:24:49.622691+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.85
+      },
+      "missing": [
+        "strong_or_turning_m1_momentum",
+        "visual_momentum_confirmation"
+      ],
+      "observed": {
+        "location": "pullback",
+        "momentum": "weak",
+        "trend_state": "range",
+        "trend_strength": 0.1595,
+        "session": "london",
+        "setup_hint": "mean_reversion",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "caution",
+        "visual_direction": "down",
+        "visual_location": "pullback",
+        "visual_momentum": "weak"
+      },
+      "reason_code": "AWAITING_M1_MOMENTUM_CONFIRMATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: strong/turning M1 momentum, and visual momentum confirmation missing (location=pullback, momentum=weak, session=london)."
+    },
+    {
+      "time": "2026-10-14T08:26:00.499166+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.59
+      },
+      "missing": [
+        "strong_or_turning_m1_momentum",
+        "visual_tradable_location",
+        "visual_directional_impulse"
+      ],
+      "observed": {
+        "location": "pullback",
+        "momentum": "mixed",
+        "trend_state": "range",
+        "trend_strength": 0.1431,
+        "session": "london",
+        "setup_hint": "mean_reversion",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "caution",
+        "visual_direction": "sideways",
+        "visual_location": "mid_range",
+        "visual_momentum": "mixed"
+      },
+      "reason_code": "AWAITING_M1_MOMENTUM_CONFIRMATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: strong/turning M1 momentum, visual tradable location, and visual directional impulse missing (location=pullback, momentum=mixed, session=london)."
+    },
+    {
+      "time": "2026-10-14T09:05:32.181104+00:00",
+      "chosen": {
+        "strategy": "gold_liquidity_sweep",
+        "side": "sell",
+        "confidence": 0.69
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "consolidation",
+        "momentum": "weak",
+        "trend_state": "range",
+        "trend_strength": 0.1713,
+        "session": "london",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "caution",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual tradable location missing (location=consolidation, momentum=weak, session=london)."
+    },
+    {
+      "time": "2026-10-14T09:11:24.023095+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.59
+      },
+      "missing": [
+        "strong_or_turning_m1_momentum",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "pullback",
+        "momentum": "mixed",
+        "trend_state": "range",
+        "trend_strength": 0.1746,
+        "session": "london",
+        "setup_hint": "mean_reversion",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "supports_setup",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_M1_MOMENTUM_CONFIRMATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: strong/turning M1 momentum, and visual tradable location missing (location=pullback, momentum=mixed, session=london)."
+    },
+    {
+      "time": "2026-10-14T09:12:31.371742+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.56
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "consolidation",
+        "momentum": "mixed",
+        "trend_state": "range",
+        "trend_strength": 0.2112,
+        "session": "london",
+        "setup_hint": "consolidation",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "caution",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual tradable location missing (location=consolidation, momentum=mixed, session=london)."
+    },
+    {
+      "time": "2026-10-14T09:16:03.736126+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.92
+      },
+      "missing": [
+        "fresh_entry_or_retest",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "breakout",
+        "momentum": "strong",
+        "trend_state": "uptrend",
+        "trend_strength": 0.2548,
+        "session": "london",
+        "setup_hint": "breakout",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "caution",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_RETEST_CONFIRMATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: fresh entry or retest, and visual tradable location missing (location=breakout, momentum=strong, session=london)."
+    },
+    {
+      "time": "2026-10-14T09:17:13.033203+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.63
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_tradable_location"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "uptrend",
+        "trend_strength": 0.2503,
+        "session": "london",
+        "setup_hint": "no_trade",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "mid_range",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=mixed, session=london)."
+    },
+    {
+      "time": "2026-10-14T09:19:30.679062+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.51
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "weak",
+        "trend_state": "uptrend",
+        "trend_strength": 0.1847,
+        "session": "london",
+        "setup_hint": "no_trade",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "pullback",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=weak, session=london)."
+    },
+    {
+      "time": "2026-10-14T09:20:37.724588+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.49
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "weak",
+        "trend_state": "uptrend",
+        "trend_strength": 0.1551,
+        "session": "london",
+        "setup_hint": "no_trade",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "pullback",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=weak, session=london)."
+    },
+    {
+      "time": "2026-10-14T09:21:50.376541+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.54
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "uptrend",
+        "trend_strength": 0.191,
+        "session": "london",
+        "setup_hint": "no_trade",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "pullback",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=mixed, session=london)."
+    },
+    {
+      "time": "2026-10-14T09:22:58.238033+00:00",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.53
+      },
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "uptrend",
+        "trend_strength": 0.1775,
+        "session": "london",
+        "setup_hint": "no_trade",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "pullback",
+        "visual_momentum": "strong"
+      },
+      "reason_code": "AWAITING_TRADABLE_LOCATION",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=mixed, session=london)."
+    }
+  ],
+  "htf_rows": [
+    {
+      "time": "2026-10-13T19:28:38.079491+00:00",
+      "chosen": {
+        "strategy": "gold_liquidity_sweep",
+        "side": "sell",
+        "confidence": 0.295810806028906
+      },
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "buy",
+        "details": {
+          "M5": "buy"
+        },
+        "penalty_applied": true
+      }
+    },
+    {
+      "time": "2026-10-13T19:33:25.161367+00:00",
+      "chosen": {
+        "strategy": "gold_liquidity_sweep",
+        "side": "sell",
+        "confidence": 0.5257937190024047
+      },
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "buy",
+        "details": {
+          "M5": "buy"
+        },
+        "penalty_applied": true
+      }
+    },
+    {
+      "time": "2026-10-14T01:30:30.924892+00:00",
+      "chosen": {
+        "strategy": "gold_breakout_retest",
+        "side": "buy",
+        "confidence": 0.5385599999999999
+      },
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "sell",
+        "details": {
+          "M5": "sell"
+        },
+        "penalty_applied": true
+      }
+    },
+    {
+      "time": "2026-10-14T01:33:55.023233+00:00",
+      "chosen": {
+        "strategy": "gold_liquidity_sweep",
+        "side": "buy",
+        "confidence": 0.3083326614695772
+      },
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "sell",
+        "details": {
+          "M5": "sell"
+        },
+        "penalty_applied": true
+      }
+    },
+    {
+      "time": "2026-10-14T01:39:31.727674+00:00",
+      "chosen": {
+        "strategy": "gold_liquidity_sweep",
+        "side": "buy",
+        "confidence": 0.6469833556327087
+      },
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "sell",
+        "details": {
+          "M5": "sell"
+        },
+        "penalty_applied": true
+      }
+    },
+    {
+      "time": "2026-10-14T01:51:49.287631+00:00",
+      "chosen": {
+        "strategy": "gold_micro_impulse",
+        "side": "buy",
+        "confidence": 0.3078400377127169
+      },
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "sell",
+        "details": {
+          "M5": "sell"
+        },
+        "penalty_applied": true
+      }
+    },
+    {
+      "time": "2026-10-14T02:09:55.572784+00:00",
+      "chosen": {
+        "strategy": "gold_breakout_retest",
+        "side": "buy",
+        "confidence": 0.4652014593553876
+      },
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "sell",
+        "details": {
+          "M5": "sell"
+        },
+        "penalty_applied": true
+      }
+    },
+    {
+      "time": "2026-10-14T02:12:14.046987+00:00",
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "buy",
+        "confidence": 0.2723674521355143
+      },
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "sell",
+        "details": {
+          "M5": "sell"
+        },
+        "penalty_applied": true
+      }
+    },
+    {
+      "time": "2026-10-14T02:13:22.829202+00:00",
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "buy",
+        "confidence": 0.19211555535238645
+      },
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "sell",
+        "details": {
+          "M5": "sell"
+        },
+        "penalty_applied": true
+      }
+    },
+    {
+      "time": "2026-10-14T02:15:39.779843+00:00",
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "buy",
+        "confidence": 0.26646987014803797
+      },
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "sell",
+        "details": {
+          "M5": "sell"
+        },
+        "penalty_applied": true
+      }
+    },
+    {
+      "time": "2026-10-14T02:16:49.287378+00:00",
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "buy",
+        "confidence": 0.24250573611233722
+      },
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "sell",
+        "details": {
+          "M5": "sell"
+        },
+        "penalty_applied": true
+      }
+    },
+    {
+      "time": "2026-10-14T02:17:57.068320+00:00",
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "buy",
+        "confidence": 0.176829297645972
+      },
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "sell",
+        "details": {
+          "M5": "sell"
+        },
+        "penalty_applied": true
+      }
+    },
+    {
+      "time": "2026-10-14T03:00:18.018993+00:00",
+      "chosen": {
+        "strategy": "gold_liquidity_sweep",
+        "side": "sell",
+        "confidence": 0.4067328574998798
+      },
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "buy",
+        "details": {
+          "M5": "buy"
+        },
+        "penalty_applied": true
+      }
+    },
+    {
+      "time": "2026-10-14T04:07:01.352021+00:00",
+      "chosen": {
+        "strategy": "gold_breakout_retest",
+        "side": "sell",
+        "confidence": 0.4631616
+      },
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "buy",
+        "details": {
+          "M5": "buy"
+        },
+        "penalty_applied": true
+      }
+    },
+    {
+      "time": "2026-10-14T04:09:34.193328+00:00",
+      "chosen": {
+        "strategy": "gold_breakout_retest",
+        "side": "sell",
+        "confidence": 0.5385599999999999
+      },
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "buy",
+        "details": {
+          "M5": "buy"
+        },
+        "penalty_applied": true
+      }
+    },
+    {
+      "time": "2026-10-14T04:11:47.495724+00:00",
+      "chosen": {
+        "strategy": "gold_breakout_retest",
+        "side": "sell",
+        "confidence": 0.481197215124975
+      },
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "buy",
+        "details": {
+          "M5": "buy"
+        },
+        "penalty_applied": true
+      }
+    },
+    {
+      "time": "2026-10-14T06:39:53.277737+00:00",
+      "chosen": {
+        "strategy": "gold_liquidity_sweep",
+        "side": "buy",
+        "confidence": 0.3053752516840016
+      },
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "sell",
+        "details": {
+          "M5": "sell"
+        },
+        "penalty_applied": true
+      }
+    },
+    {
+      "time": "2026-10-14T06:48:54.212763+00:00",
+      "chosen": {
+        "strategy": "gold_liquidity_sweep",
+        "side": "buy",
+        "confidence": 0.49766291525571715
+      },
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "sell",
+        "details": {
+          "M5": "sell"
+        },
+        "penalty_applied": true
+      }
+    }
+  ]
+}

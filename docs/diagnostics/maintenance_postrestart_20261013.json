@@ -1,0 +1,230 @@
+{
+  "samples": [
+    {
+      "at": "2026-10-13T12:48:07.448332+00:00",
+      "heartbeat": {
+        "schema": "atlas_backend_heartbeat_v1",
+        "component": "backend_trader",
+        "last_heartbeat": "2026-10-13T12:47:44.338667+00:00",
+        "last_heartbeat_ts": 1791895664.3386672,
+        "mode": "live",
+        "pid": 5800,
+        "cycle_count": 32933,
+        "cycle_status": "running"
+      },
+      "status_updated_at": "2026-10-13T12:48:06.091795+00:00",
+      "private_MiB": 348.29,
+      "resident_MiB": 139.43,
+      "message": "No directional trade signal selected.",
+      "mode": "live",
+      "execute_trades": true,
+      "gate_environment": "demo"
+    },
+    {
+      "at": "2026-10-13T12:48:22.454359+00:00",
+      "heartbeat": {
+        "schema": "atlas_backend_heartbeat_v1",
+        "component": "backend_trader",
+        "last_heartbeat": "2026-10-13T12:47:44.338667+00:00",
+        "last_heartbeat_ts": 1791895664.3386672,
+        "mode": "live",
+        "pid": 5800,
+        "cycle_count": 32933,
+        "cycle_status": "running"
+      },
+      "status_updated_at": "2026-10-13T12:48:06.091795+00:00",
+      "private_MiB": 348.29,
+      "resident_MiB": 132.59,
+      "message": "No directional trade signal selected.",
+      "mode": "live",
+      "execute_trades": true,
+      "gate_environment": "demo"
+    },
+    {
+      "at": "2026-10-13T12:48:37.458725+00:00",
+      "heartbeat": {
+        "schema": "atlas_backend_heartbeat_v1",
+        "component": "backend_trader",
+        "last_heartbeat": "2026-10-13T12:47:44.338667+00:00",
+        "last_heartbeat_ts": 1791895664.3386672,
+        "mode": "live",
+        "pid": 5800,
+        "cycle_count": 32933,
+        "cycle_status": "running"
+      },
+      "status_updated_at": "2026-10-13T12:48:06.091795+00:00",
+      "private_MiB": 348.18,
+      "resident_MiB": 127.71,
+      "message": "No directional trade signal selected.",
+      "mode": "live",
+      "execute_trades": true,
+      "gate_environment": "demo"
+    },
+    {
+      "at": "2026-10-13T12:48:52.463150+00:00",
+      "heartbeat": {
+        "schema": "atlas_backend_heartbeat_v1",
+        "component": "backend_trader",
+        "last_heartbeat": "2026-10-13T12:47:44.338667+00:00",
+        "last_heartbeat_ts": 1791895664.3386672,
+        "mode": "live",
+        "pid": 5800,
+        "cycle_count": 32933,
+        "cycle_status": "running"
+      },
+      "status_updated_at": "2026-10-13T12:48:06.091795+00:00",
+      "private_MiB": 348.18,
+      "resident_MiB": 113.43,
+      "message": "No directional trade signal selected.",
+      "mode": "live",
+      "execute_trades": true,
+      "gate_environment": "demo"
+    },
+    {
+      "at": "2026-10-13T12:49:07.467449+00:00",
+      "heartbeat": {
+        "schema": "atlas_backend_heartbeat_v1",
+        "component": "backend_trader",
+        "last_heartbeat": "2026-10-13T12:49:06.126619+00:00",
+        "last_heartbeat_ts": 1791895746.1266193,
+        "mode": "live",
+        "pid": 5800,
+        "cycle_count": 32934,
+        "cycle_status": "running"
+      },
+      "status_updated_at": "2026-10-13T12:48:06.091795+00:00",
+      "private_MiB": 346.63,
+      "resident_MiB": 47.62,
+      "message": "No directional trade signal selected.",
+      "mode": "live",
+      "execute_trades": true,
+      "gate_environment": "demo"
+    },
+    {
+      "at": "2026-10-13T12:49:22.475924+00:00",
+      "heartbeat": {
+        "schema": "atlas_backend_heartbeat_v1",
+        "component": "backend_trader",
+        "last_heartbeat": "2026-10-13T12:49:06.126619+00:00",
+        "last_heartbeat_ts": 1791895746.1266193,
+        "mode": "live",
+        "pid": 5800,
+        "cycle_count": 32934,
+        "cycle_status": "running"
+      },
+      "status_updated_at": "2026-10-13T12:48:06.091795+00:00",
+      "private_MiB": 817.55,
+      "resident_MiB": 591.5,
+      "message": "No directional trade signal selected.",
+      "mode": "live",
+      "execute_trades": true,
+      "gate_environment": "demo"
+    },
+    {
+      "at": "2026-10-13T12:49:37.496031+00:00",
+      "heartbeat": {
+        "schema": "atlas_backend_heartbeat_v1",
+        "component": "backend_trader",
+        "last_heartbeat": "2026-10-13T12:49:06.126619+00:00",
+        "last_heartbeat_ts": 1791895746.1266193,
+        "mode": "live",
+        "pid": 5800,
+        "cycle_count": 32934,
+        "cycle_status": "running"
+      },
+      "status_updated_at": "2026-10-13T12:49:26.135966+00:00",
+      "private_MiB": 370.75,
+      "resident_MiB": 149.07,
+      "message": "No directional trade signal selected.",
+      "mode": "live",
+      "execute_trades": true,
+      "gate_environment": "demo"
+    },
+    {
+      "at": "2026-10-13T12:49:52.502185+00:00",
+      "heartbeat": {
+        "schema": "atlas_backend_heartbeat_v1",
+        "component": "backend_trader",
+        "last_heartbeat": "2026-10-13T12:49:06.126619+00:00",
+        "last_heartbeat_ts": 1791895746.1266193,
+        "mode": "live",
+        "pid": 5800,
+        "cycle_count": 32934,
+        "cycle_status": "running"
+      },
+      "status_updated_at": "2026-10-13T12:49:26.135966+00:00",
+      "private_MiB": 368.46,
+      "resident_MiB": 145.76,
+      "message": "No directional trade signal selected.",
+      "mode": "live",
+      "execute_trades": true,
+      "gate_environment": "demo"
+    },
+    {
+      "at": "2026-10-13T12:50:07.506961+00:00",
+      "heartbeat": {
+        "schema": "atlas_backend_heartbeat_v1",
+        "component": "backend_trader",
+        "last_heartbeat": "2026-10-13T12:49:06.126619+00:00",
+        "last_heartbeat_ts": 1791895746.1266193,
+        "mode": "live",
+        "pid": 5800,
+        "cycle_count": 32934,
+        "cycle_status": "running"
+      },
+      "status_updated_at": "2026-10-13T12:49:26.135966+00:00",
+      "private_MiB": 368.46,
+      "resident_MiB": 134.05,
+      "message": "No directional trade signal selected.",
+      "mode": "live",
+      "execute_trades": true,
+      "gate_environment": "demo"
+    },
+    {
+      "at": "2026-10-13T12:50:22.512863+00:00",
+      "heartbeat": {
+        "schema": "atlas_backend_heartbeat_v1",
+        "component": "backend_trader",
+        "last_heartbeat": "2026-10-13T12:49:06.126619+00:00",
+        "last_heartbeat_ts": 1791895746.1266193,
+        "mode": "live",
+        "pid": 5800,
+        "cycle_count": 32934,
+        "cycle_status": "running"
+      },
+      "status_updated_at": "2026-10-13T12:49:26.135966+00:00",
+      "private_MiB": 367.45,
+      "resident_MiB": 94.54,
+      "message": "No directional trade signal selected.",
+      "mode": "live",
+      "execute_trades": true,
+      "gate_environment": "demo"
+    },
+    {
+      "at": "2026-10-13T12:50:40.653196+00:00",
+      "heartbeat": {
+        "schema": "atlas_backend_heartbeat_v1",
+        "component": "backend_trader",
+        "last_heartbeat": "2026-10-13T12:50:26.191029+00:00",
+        "last_heartbeat_ts": 1791895826.191029,
+        "mode": "live",
+        "pid": 5800,
+        "cycle_count": 32935,
+        "cycle_status": "running"
+      },
+      "status_updated_at": "2026-10-13T12:49:26.135966+00:00",
+      "private_MiB": 551.73,
+      "resident_MiB": 329.26,
+      "message": "No directional trade signal selected.",
+      "mode": "live",
+      "execute_trades": true,
+      "gate_environment": "demo"
+    }
+  ],
+  "unique_new_worker_counts": [
+    32933,
+    32934,
+    32935
+  ],
+  "complete": true
+}

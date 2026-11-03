@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-10-14T14:51:57.123671+00:00",
+  "pid": 21440,
+  "heartbeat": {
+    "schema": "atlas_backend_heartbeat_v1",
+    "component": "backend_trader",
+    "last_heartbeat": "2026-10-14T14:51:44.845094+00:00",
+    "last_heartbeat_ts": 1791989504.845094,
+    "mode": "live",
+    "pid": 21440,
+    "cycle_count": 34208,
+    "cycle_status": "running"
+  },
+  "heartbeat_age_seconds": 12.3,
+  "status": {
+    "updated_at": "2026-10-14T14:50:44.790669+00:00",
+    "chosen": {
+      "strategy": "momentum_continuation",
+      "side": "flat",
+      "confidence": 0.45,
+      "signal_confidence_seed": 0.0,
+      "stop_loss_points": 115.0,
+      "take_profit_points": 175.0
+    },
+    "message": "No directional trade signal selected.",
+    "execute_trades": true,
+    "effective_mode": "live",
+    "gate_execution_environment": "demo",
+    "risk": {
+      "equity": 110222.43,
+      "balance": 110222.43,
+      "daily_loss_pct": 0.0,
+      "open_positions": 0,
+      "spread_points": 36.0,
+      "trades_today": 0,
+      "consecutive_losses": 0,
+      "daily_profit_zar": 0.0,
+      "weekly_loss_pct": 0.0
+    },
+    "thresholds": {
+      "confidence": 0.44,
+      "structure": 0.35,
+      "spread_max": 4.5
+    }
+  },
+  "policy_source_changes": []
+}

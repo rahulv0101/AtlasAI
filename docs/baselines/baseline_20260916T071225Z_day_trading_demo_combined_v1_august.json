@@ -1,0 +1,237 @@
+{
+  "captured_at": "2026-09-16T07:19:58.661151+00:00",
+  "data_fetch": {},
+  "label": "day_trading_demo_combined_v1_august",
+  "method": {
+    "allowed_handling": "allowed rows are simulated and update allocator, matching the gated sequence",
+    "blocked_handling": "blocked rows are simulated hypothetically but do not update allocator/equity",
+    "population": "same generated best candidates after normal backtest confidence and regime filters",
+    "safety": "offline analysis only; execute_trades=false; no live execution path invoked",
+    "source": "single offline backtest candidate stream with AtlasTrader timing discipline applied",
+    "split": "timing_discipline passed vs timing_discipline blocked",
+    "variant": {
+      "allow_breakout_location": false,
+      "note": "Backtest-only timing interpretation; live timing-discipline code is unchanged."
+    }
+  },
+  "samples": {
+    "allowed": [],
+    "blocked_hypothetical": []
+  },
+  "schema": "atlas_timing_discipline_matched_backtest_v1",
+  "skipped_pre_timing": {
+    "below_research_confidence": 18434,
+    "flat": 1584
+  },
+  "summaries": {
+    "allowed": {
+      "average_r": 0.08383066731898237,
+      "by_strategy": {
+        "ema_crossover": {
+          "average_r": 0.08361111111111114,
+          "count": 360,
+          "exit_reasons": {
+            "stop_loss": 219,
+            "take_profit": 141
+          },
+          "reason_codes": {
+            "PASSED": 360
+          },
+          "win_rate": 0.48055555555555557
+        },
+        "evolved_rule": {
+          "average_r": -0.15666666666666668,
+          "count": 84,
+          "exit_reasons": {
+            "stale_exit": 1,
+            "stop_loss": 61,
+            "take_profit": 22
+          },
+          "reason_codes": {
+            "PASSED": 84
+          },
+          "win_rate": 0.39285714285714285
+        },
+        "gold_breakout_retest": {
+          "average_r": 0.25041666666666657,
+          "count": 48,
+          "exit_reasons": {
+            "max_hold": 1,
+            "stop_loss": 28,
+            "take_profit": 19
+          },
+          "reason_codes": {
+            "PASSED": 48
+          },
+          "win_rate": 0.625
+        },
+        "momentum_continuation": {
+          "average_r": 0.5130434,
+          "count": 15,
+          "exit_reasons": {
+            "stop_loss": 6,
+            "take_profit": 9
+          },
+          "reason_codes": {
+            "PASSED": 15
+          },
+          "win_rate": 0.6
+        },
+        "pullback_trend": {
+          "average_r": 1.545455,
+          "count": 4,
+          "exit_reasons": {
+            "take_profit": 4
+          },
+          "reason_codes": {
+            "PASSED": 4
+          },
+          "win_rate": 1.0
+        }
+      },
+      "count": 511,
+      "exit_reasons": {
+        "max_hold": 1,
+        "stale_exit": 1,
+        "stop_loss": 314,
+        "take_profit": 195
+      },
+      "flat_or_zero": 0,
+      "hold_bars_distribution": {
+        "1": 360,
+        "12": 1,
+        "2": 107,
+        "3": 26,
+        "4": 10,
+        "5": 3,
+        "6": 2,
+        "7": 2
+      },
+      "losses": 262,
+      "median_r": -1.0,
+      "profit_factor": 1.1644369544355309,
+      "reason_codes": {
+        "PASSED": 511
+      },
+      "win_rate": 0.487279843444227,
+      "wins": 249
+    },
+    "blocked_hypothetical": {
+      "average_r": 0.1034547591000004,
+      "by_strategy": {
+        "ema_crossover": {
+          "average_r": 0.1167459836314027,
+          "count": 6598,
+          "exit_reasons": {
+            "stop_loss": 3918,
+            "take_profit": 2680
+          },
+          "reason_codes": {
+            "AWAITING_M1_MOMENTUM_CONFIRMATION": 505,
+            "AWAITING_RETEST_CONFIRMATION": 307,
+            "AWAITING_TRADABLE_LOCATION": 5786
+          },
+          "win_rate": 0.49575628978478326
+        },
+        "evolved_rule": {
+          "average_r": 0.05679525222551896,
+          "count": 1348,
+          "exit_reasons": {
+            "stale_exit": 1,
+            "stop_loss": 892,
+            "take_profit": 455
+          },
+          "reason_codes": {
+            "AWAITING_M1_MOMENTUM_CONFIRMATION": 203,
+            "AWAITING_RETEST_CONFIRMATION": 55,
+            "AWAITING_TRADABLE_LOCATION": 1090
+          },
+          "win_rate": 0.4873887240356083
+        },
+        "gold_breakout_retest": {
+          "average_r": 0.11756613756613653,
+          "count": 1701,
+          "exit_reasons": {
+            "max_hold": 2,
+            "stale_exit": 3,
+            "stop_loss": 1011,
+            "take_profit": 685
+          },
+          "reason_codes": {
+            "AWAITING_M1_MOMENTUM_CONFIRMATION": 56,
+            "AWAITING_RETEST_CONFIRMATION": 599,
+            "AWAITING_TRADABLE_LOCATION": 1046
+          },
+          "win_rate": 0.5220458553791887
+        },
+        "momentum_continuation": {
+          "average_r": -0.05105892619926195,
+          "count": 271,
+          "exit_reasons": {
+            "stop_loss": 174,
+            "take_profit": 97
+          },
+          "reason_codes": {
+            "AWAITING_M1_MOMENTUM_CONFIRMATION": 1,
+            "AWAITING_RETEST_CONFIRMATION": 63,
+            "AWAITING_TRADABLE_LOCATION": 207
+          },
+          "win_rate": 0.3985239852398524
+        },
+        "pullback_trend": {
+          "average_r": 0.018958048780487836,
+          "count": 82,
+          "exit_reasons": {
+            "stop_loss": 50,
+            "take_profit": 32
+          },
+          "reason_codes": {
+            "AWAITING_M1_MOMENTUM_CONFIRMATION": 6,
+            "AWAITING_RETEST_CONFIRMATION": 24,
+            "AWAITING_TRADABLE_LOCATION": 52
+          },
+          "win_rate": 0.4146341463414634
+        }
+      },
+      "count": 10000,
+      "exit_reasons": {
+        "max_hold": 2,
+        "stale_exit": 4,
+        "stop_loss": 6045,
+        "take_profit": 3949
+      },
+      "flat_or_zero": 0,
+      "hold_bars_distribution": {
+        "1": 7036,
+        "10": 4,
+        "11": 3,
+        "12": 2,
+        "2": 2070,
+        "3": 537,
+        "4": 203,
+        "5": 72,
+        "6": 36,
+        "7": 24,
+        "8": 10,
+        "9": 3
+      },
+      "losses": 5042,
+      "median_r": -1.0,
+      "profit_factor": 1.2053451984780041,
+      "reason_codes": {
+        "AWAITING_M1_MOMENTUM_CONFIRMATION": 771,
+        "AWAITING_RETEST_CONFIRMATION": 1048,
+        "AWAITING_TRADABLE_LOCATION": 8181
+      },
+      "win_rate": 0.4958,
+      "wins": 4958
+    }
+  },
+  "window": {
+    "bars": 30781,
+    "end": "2026-09-02T10:00:00+00:00",
+    "start": "2026-08-01T00:00:00+00:00",
+    "symbol": "XAUUSD",
+    "timeframe": "M1"
+  }
+}

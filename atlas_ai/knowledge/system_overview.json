@@ -1,0 +1,50 @@
+{
+  "name": "Atlas Operator Assistant",
+  "purpose": "Read-only operator reasoning over live status, comparison runs, events, and runtime safety flags.",
+  "runtime_modes": ["paper", "live"],
+  "full_stack_coordination": {
+    "components": [
+      "voice_listener",
+      "ask_atlas_nlu",
+      "brain_answer_engine",
+      "market_scanner",
+      "trader_core",
+      "execution_gate",
+      "broker_adapter",
+      "ui_server",
+      "dashboard"
+    ],
+    "collaboration_contract": [
+      "NLU classifies intent and extracts entities for typed and voice inputs",
+      "Ask Atlas and voice share one understanding path before routing",
+      "Scanner and trader produce candidates; neither bypasses execution authority",
+      "ExecutionGate is sole authority for trade execution decisions",
+      "UI reflects state, blockers, and mode labels from shared runtime status"
+    ],
+    "handoff_sequence": [
+      "input -> nlu -> route",
+      "route -> analysis_or_status_or_command_handler",
+      "analysis -> candidate request (optional)",
+      "candidate request -> execution_gate validation",
+      "execution outcome -> status/events -> ui/dashboard"
+    ],
+    "failure_recovery": [
+      "If voice fails, typed Ask Atlas remains operational",
+      "If UI fails, status/events remain source of truth for recovery",
+      "If scanner fails, trader core loop and safety gates continue",
+      "If broker unavailable, execution remains blocked and reported"
+    ],
+    "safe_escalation_rules": [
+      "Ask clarification for ambiguous commands",
+      "Require confirmation for destructive system commands",
+      "Refuse or safety-route any request to bypass guards",
+      "Prefer NO_TRADE when confluence is weak or contradictory"
+    ]
+  },
+  "ui_mode": "read-only during active comparison runs",
+  "voice_loop": {
+    "states": ["asleep", "awake"],
+    "wake_phrases": ["Atlas wake", "Wake Atlas"],
+    "sleep_phrases": ["Atlas sleep", "Go to sleep Atlas"]
+  }
+}

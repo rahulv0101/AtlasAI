@@ -1,0 +1,39 @@
+{
+  "version": "1.0",
+  "updated_at": "2026-04-23T06:43:04.144877+00:00",
+  "insights": [
+    {
+      "insight_id": "insight_outcome_momentum_continuation_weak",
+      "type": "performance_pattern",
+      "domain": "strategy_behavior",
+      "scope": {
+        "strategy": "momentum_continuation",
+        "regime_bucket": "weak"
+      },
+      "observation": "Weak-trend conditions are clustering in recent losing outcomes.",
+      "evidence": {
+        "sample_count": 28,
+        "win_rate": 0.25,
+        "avg_pnl_zar": -320.0,
+        "winner_vs_loser_deltas": {
+          "confidence": 0.11,
+          "trend_strength": 0.09,
+          "duration_minutes": 3.5
+        },
+        "strength": 0.697,
+        "grade": "moderate",
+        "sample_count_score": 0.7,
+        "persistence_score": 0.7,
+        "cross_window_score": 0.65,
+        "regime_alignment_score": 0.75,
+        "risk_impact_score": 0.6,
+        "overreaction_risk_score": 0.2
+      },
+      "recommendation_type": "proposal_candidate",
+      "linked_proposal_id": "",
+      "active_rule_candidate": false,
+      "created_at": "2026-04-23T06:43:04.144877+00:00",
+      "updated_at": "2026-04-23T06:43:04.144877+00:00"
+    }
+  ]
+}

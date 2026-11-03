@@ -1,0 +1,103 @@
+{
+  "strategies": [
+    {
+      "name": "continuation",
+      "description": "General continuation logic: trade with established structure only after location and momentum stop fighting the idea.",
+      "conditions": [
+        "Trend structure is clear (HH/HL for buys or LH/LL for sells)",
+        "Momentum aligns with structure direction",
+        "Entry location is not mid-range"
+      ],
+      "good_example": "HH/HL uptrend, price pulls back into structure, momentum turns back up, spread is acceptable.",
+      "bad_example": "Price is in the middle of a range or chop while momentum is weak/mixed.",
+      "operator_teaching_prompt": "If Atlas holds in mid-range chop, that may be correct. If it holds after clean pullback confirmation, label it too_cautious or missed_trade.",
+      "notes": "Continuation seeks follow-through, not reversal guessing."
+    },
+    {
+      "name": "trend_continuation",
+      "when_it_works": [
+        "Clear HH/HL or LH/LL structure",
+        "Momentum aligns with dominant trend",
+        "Session quality medium/high"
+      ],
+      "when_to_avoid": [
+        "Mid-range chop",
+        "Strong macro conflict",
+        "High-impact news window"
+      ],
+      "good_example": "Directional structure is mature but not exhausted, session is liquid, and confirmation appears near a reaction zone.",
+      "bad_example": "Trend exists, but entry is late after expansion or against conflicting DXY/US10Y pressure.",
+      "operator_teaching_prompt": "Teach Atlas whether the hold was patient or late by labeling correct_hold versus missed_trade."
+    },
+    {
+      "name": "breakout_retest",
+      "when_it_works": [
+        "Breakout confirmed with follow-through",
+        "Retest holds without deep reclaim",
+        "Spread/liquidity remains acceptable"
+      ],
+      "when_to_avoid": [
+        "Fakeout behavior in thin liquidity",
+        "Late-session exhaustion"
+      ],
+      "good_example": "Break, retest, hold, and renewed momentum with acceptable spread.",
+      "bad_example": "First candle through a level with no retest, weak follow-through, or poor liquidity.",
+      "operator_teaching_prompt": "If Atlas wants to chase the first break, label bad_setup. If it waits for a retest and the break runs without retest, label missed_trade only if context was clean."
+    },
+    {
+      "name": "liquidity_sweep_reversal",
+      "when_it_works": [
+        "Clear sweep of prior high/low",
+        "Fast rejection and structure reclaim",
+        "Momentum reversal confirmation"
+      ],
+      "when_to_avoid": [
+        "No reclaim confirmation",
+        "Counter-trend against strong regime"
+      ],
+      "good_example": "Prior high/low is swept, wick rejects quickly, structure reclaims, and reversal momentum confirms.",
+      "bad_example": "A wick appears but price does not reclaim structure or momentum remains with the old direction.",
+      "operator_teaching_prompt": "Teach Atlas that sweep alone is not enough. Use correct_hold when it avoids an unconfirmed reversal."
+    },
+    {
+      "name": "range_mean_reversion",
+      "when_it_works": [
+        "Defined range boundaries",
+        "Weak trend/low ADX context",
+        "Entry at range extremes only"
+      ],
+      "when_to_avoid": [
+        "Early breakout transition",
+        "Event-risk volatility"
+      ],
+      "good_example": "Defined range, price rejects the edge, trend strength is weak, and entry is not mid-range.",
+      "bad_example": "Price is in the middle of the range or range boundary is not clear.",
+      "operator_teaching_prompt": "Use correct_hold for mid-range avoidance. Use missed_trade only when a defined edge rejection was present and execution friction was acceptable."
+    }
+  ],
+  "operator_teaching_labels": {
+    "correct_hold": "Atlas avoided a low-quality or unsafe moment.",
+    "too_cautious": "Atlas held even though setup, location, context, and execution conditions were clean.",
+    "missed_trade": "Atlas failed to act on a high-quality opportunity that matched its own playbook and gates.",
+    "bad_setup": "Atlas liked or nearly liked a setup that was structurally poor.",
+    "execution_issue": "The idea was acceptable but broker, spread, slippage, or session execution quality was the problem.",
+    "confusing_answer": "Atlas' explanation was unclear, irrelevant, or not grounded in the actual question."
+  },
+  "strategy_framework": {
+    "signal_generation": "Strategies produce directional candidates with confidence and risk parameters.",
+    "filtering": "Candidates are filtered by regime, liquidity, spread, session, and safety constraints.",
+    "selection": "Final choice depends on confidence, context alignment, and risk-policy guards."
+  },
+  "risk_policy_alignment": {
+    "paper_first": "Operational changes are validated in paper/demo mode before any live consideration.",
+    "guardrails": "Consecutive-loss, drawdown, and trade-frequency controls are mandatory safety layers.",
+    "comparison_validation": "Control-vs-experiment comparison is required before promoting changes."
+  },
+  "what_atlas_can_explain": [
+    "Why a candidate was blocked or held",
+    "How confidence compares to threshold",
+    "What changed in comparison outcomes",
+    "What bounded next-safe experiment is appropriate",
+    "Which confluence elements are missing before execution eligibility"
+  ]
+}

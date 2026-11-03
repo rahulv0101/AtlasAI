@@ -1,0 +1,52 @@
+{
+  "common_blockers": [
+    "No setup clears confidence thresholds",
+    "Conservative filters reject candidates",
+    "Paper-only runtime",
+    "Comparison evidence still insufficient"
+  ],
+  "entries": [
+    {
+      "name": "No high-confidence setup",
+      "meaning": "Atlas sees no candidate with enough confidence and alignment to justify a trade.",
+      "teaching_label_hint": "correct_hold unless a clean setup was present before the move and Atlas missed it.",
+      "operator_focus": "Review whether structure, momentum, location, macro, and execution quality were aligned at decision time."
+    },
+    {
+      "name": "structure_too_weak",
+      "meaning": "Market structure is unclear, mixed, ranging, or not strong enough to justify directional execution.",
+      "teaching_label_hint": "correct_hold unless a clean structure break or pullback confirmation was visible.",
+      "operator_focus": "Check whether HH/HL or LH/LL was truly present before calling it missed_trade."
+    },
+    {
+      "name": "no_clear_setup",
+      "meaning": "Atlas cannot map current price action to a complete actionable playbook.",
+      "teaching_label_hint": "correct_hold if ingredients are missing; bad_setup if Atlas nearly acted anyway.",
+      "operator_focus": "Identify which ingredient is missing: structure, location, momentum, confirmation, or execution."
+    },
+    {
+      "name": "spread_liquidity_too_poor",
+      "meaning": "Execution friction can erase the setup edge through spread, liquidity, or slippage.",
+      "teaching_label_hint": "execution_issue when the idea is recognizable but trading cost is unsafe.",
+      "operator_focus": "Do not solve this by weakening setup logic. Track it separately as broker/session quality."
+    },
+    {
+      "name": "macro_context_conflict_too_strong",
+      "meaning": "DXY/US10Y or broader macro context conflicts with the chart idea enough to reduce confidence.",
+      "teaching_label_hint": "correct_hold when chart and macro are fighting; too_cautious only if macro conflict was stale or irrelevant.",
+      "operator_focus": "Teach whether macro conflict was actually meaningful for that moment."
+    },
+    {
+      "name": "event_risk_too_high",
+      "meaning": "High-impact news or unstable event conditions make fills and follow-through unreliable.",
+      "teaching_label_hint": "correct_hold unless the event risk classification was wrong.",
+      "operator_focus": "Distinguish good setup from unsafe timing."
+    },
+    {
+      "name": "mid_range_entry",
+      "meaning": "Price is away from an edge/reaction zone, reducing reward asymmetry and clarity.",
+      "teaching_label_hint": "correct_hold for range-middle avoidance.",
+      "operator_focus": "Only label missed_trade if a real edge or retest was present, not just movement after the fact."
+    }
+  ]
+}

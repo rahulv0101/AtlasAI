@@ -1,0 +1,45 @@
+{
+  "coordination_model": "workers_as_evidence_neurons",
+  "summary": "Atlas workers should sense, collect, and report structured evidence. Brain v2 interprets that evidence. ExecutionGate remains the only execution authority.",
+  "workers": [
+    {
+      "name": "live_backend_worker",
+      "role": "Collects market data, builds strategy signals, applies trading context, and publishes current status.",
+      "brain_input": "signals, chosen candidate, blockers, context snapshot, decision analysis"
+    },
+    {
+      "name": "monitor_worker",
+      "role": "Watches stack health, MT5 state, suspicious activity, repeated blockers, and near-setup learning patterns.",
+      "brain_input": "monitor ticks, near-setup fingerprints, stack health, MT5 activity"
+    },
+    {
+      "name": "ui_server",
+      "role": "Exposes status and Ask Atlas APIs without owning trade decisions.",
+      "brain_input": "operator questions and current status payload"
+    },
+    {
+      "name": "desktop_ui",
+      "role": "Operator interface for viewing state, asking questions, and issuing explicit commands.",
+      "brain_input": "typed or voice command payloads"
+    },
+    {
+      "name": "mt5_terminal",
+      "role": "Broker connection and order transport surface.",
+      "brain_input": "account, positions, deal history, symbol readiness"
+    }
+  ],
+  "brain_contract": [
+    "Workers report evidence; they do not independently decide live trades.",
+    "Brain v2 normalizes the operator question, detects intent/domain, collects evidence, plans the answer, synthesizes it, and checks relevance.",
+    "Trading decisions remain centralized through strategy ranking, risk policy, and ExecutionGate.",
+    "Worker observations can improve explanations and teaching memory, but must not silently change strategy, risk, or execution policy.",
+    "Voice and typed input should share the same Ask Atlas to Brain v2 path."
+  ],
+  "safety_boundary": [
+    "No hidden worker may bypass ExecutionGate.",
+    "No conversational memory may alter trading decisions unless explicitly bounded.",
+    "No worker may introduce uncontrolled self-modification.",
+    "No worker may silently enable strategies or change risk/execution policy.",
+    "Worker-neuron reports are evidence and observability unless an operator explicitly approves a bounded change."
+  ]
+}

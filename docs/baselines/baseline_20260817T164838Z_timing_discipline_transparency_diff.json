@@ -1,0 +1,18 @@
+{
+  "after_label": "current_after",
+  "before_label": "reconstructed_before_structured_timing_output",
+  "differences": {},
+  "equal": true,
+  "generated_at": "2026-08-17T16:48:57.611526+00:00",
+  "instrumentation": {
+    "after": {
+      "patch_timing_legacy": false,
+      "timing_discipline_snapshot_calls": 0
+    },
+    "before": {
+      "patch_timing_legacy": true,
+      "timing_discipline_snapshot_calls": 0
+    }
+  },
+  "schema": "atlas_behavior_baseline_diff_v1"
+}

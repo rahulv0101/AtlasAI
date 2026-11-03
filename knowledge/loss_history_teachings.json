@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "generated_from": "storage/learning_state.json loss_memory recent_outcomes",
+  "generated_at": "2026-06-10T07:49:30Z",
+  "sample_summary": {
+    "outcomes_reviewed": 200,
+    "losses_reviewed": 107,
+    "pattern_lessons": 20,
+    "loss_dominant_lessons": 17,
+    "decision_context_linked": 5,
+    "location_known": 0,
+    "momentum_known": 16,
+    "volatility_known": 16
+  },
+  "grounding_note": "Most older outcomes have limited decision-context fields, so Atlas must treat broad clusters as bounded caution/teaching evidence, not precise proof. The linked continuation losses are stronger evidence because momentum and volatility context are present.",
+  "loss_clusters": [
+    {
+      "id": "broad_buy_timing_stop_hunt_cluster",
+      "title": "Broad Buy Timing Stop-Hunt Cluster",
+      "loss_count": 54,
+      "dominant_strategies": [
+        "momentum_continuation",
+        "evolved_rule"
+      ],
+      "dominant_context": {
+        "side": "buy",
+        "regime": "trend",
+        "session": "other",
+        "setup_family": "unknown",
+        "momentum": "weak_or_unknown"
+      },
+      "lesson": "Many losing buy attempts came from weakly described trend contexts where timing was vulnerable to stop-hunts. Atlas should not read this as a buy ban; it should require evidence that the entry is not just the first push into liquidity.",
+      "confirmation_required": [
+        "rejection_after_sweep",
+        "structure_reclaim",
+        "momentum_confirmation",
+        "fresh_entry_location"
+      ],
+      "teaching_action": "When a similar buy pattern appears, classify it as developing until the chart proves rejection/reclaim and fresh momentum instead of repeating the same weak timing."
+    },
+    {
+      "id": "broad_sell_timing_stop_hunt_cluster",
+      "title": "Broad Sell Timing Stop-Hunt Cluster",
+      "loss_count": 27,
+      "dominant_strategies": [
+        "evolved_rule",
+        "momentum_continuation"
+      ],
+      "dominant_context": {
+        "side": "sell",
+        "regime": "trend_or_range",
+        "session": "other",
+        "setup_family": "unknown",
+        "momentum": "weak_or_unknown"
+      },
+      "lesson": "The sell-side losses also point to timing vulnerability, especially when setup family and location were not known. Atlas should avoid treating a directional sell bias as execution permission without a clean reaction point.",
+      "confirmation_required": [
+        "defined_reaction_zone",
+        "structure_hold_or_reclaim",
+        "same_side_support",
+        "no_mid_range_chase"
+      ],
+      "teaching_action": "When a similar sell pattern appears, keep it tradable but require the missing reaction/location evidence before execution review."
+    },
+    {
+      "id": "false_continuation_confirmation_cluster",
+      "title": "False Continuation Confirmation Cluster",
+      "loss_count": 12,
+      "dominant_strategies": [
+        "evolved_rule",
+        "momentum_continuation",
+        "gold_micro_impulse"
+      ],
+      "dominant_context": {
+        "setup_family": "continuation",
+        "regime": "trend",
+        "session": "new_york_or_london",
+        "momentum": "mixed_to_strong",
+        "volatility": "normal_to_high"
+      },
+      "lesson": "Continuation losses were not teaching Atlas to stop trading continuation. They were teaching that continuation needs structure to hold after the first push, momentum in the trade direction, and friction checks before entry.",
+      "confirmation_required": [
+        "strong_m1_momentum",
+        "structure_hold",
+        "avoid_first_push",
+        "execution_friction_acceptable"
+      ],
+      "teaching_action": "Trade continuation again only when the failed confirmation ingredient is corrected and existing gates still pass."
+    },
+    {
+      "id": "execution_friction_continuation_cluster",
+      "title": "Execution Friction Continuation Cluster",
+      "loss_count": 7,
+      "dominant_strategies": [
+        "momentum_continuation",
+        "evolved_rule",
+        "gold_micro_impulse"
+      ],
+      "dominant_context": {
+        "setup_family": "continuation",
+        "regime": "trend",
+        "session": "new_york_or_london",
+        "failure_axis": "execution_friction"
+      },
+      "lesson": "Some continuation losses had a recognizable idea but poor trade conditions. Atlas should separate setup idea quality from spread, slippage, volatility, and entry freshness.",
+      "confirmation_required": [
+        "spread_liquidity_acceptable",
+        "slippage_state_known_or_safe",
+        "no_overextension",
+        "fresh_trigger_after_pullback"
+      ],
+      "teaching_action": "If the idea is valid but friction is elevated, mark it as wait or execution issue rather than forcing the trade."
+    }
+  ],
+  "global_teachings": [
+    "A loss cluster is a correction path, not a permanent pattern ban.",
+    "Atlas should learn what failed inside the pattern: timing, location, structure, momentum, consensus, or execution friction.",
+    "Unknown setup family, unknown entry location, and weak/unknown momentum must reduce confidence in the teaching precision.",
+    "The same pattern can trade again when the failed ingredient is corrected and normal gates pass.",
+    "Loss teachings may support explanations, bounded caution, and proposals for review; they must not silently rewrite strategy, risk, or execution policy."
+  ],
+  "policy_note": "Historical loss teachings are bounded knowledge and observability. They do not rewrite strategies, lower thresholds, alter risk, unlock safety, force entries, or bypass execution gates."
+}

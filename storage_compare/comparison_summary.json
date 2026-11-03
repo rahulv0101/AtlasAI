@@ -1,0 +1,13 @@
+{
+  "updated_at": "2026-04-03T09:05:58.205270+00:00",
+  "control": {},
+  "experiment": {},
+  "control_status": {
+    "action": "blocked",
+    "message": "Consensus guard blocked trade: side=buy, support=1, required=2."
+  },
+  "experiment_status": {
+    "action": "blocked",
+    "message": "Consensus guard blocked trade: side=buy, support=1, required=2."
+  }
+}

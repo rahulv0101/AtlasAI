@@ -1,0 +1,16 @@
+{
+  "terms": [
+    {
+      "term": "hold",
+      "definition": "do not enter trades"
+    },
+    {
+      "term": "paper",
+      "definition": "simulated mode without live order execution"
+    },
+    {
+      "term": "readiness",
+      "definition": "state indicating whether conditions are sufficient for safe live operation"
+    }
+  ]
+}

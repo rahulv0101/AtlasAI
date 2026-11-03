@@ -1,0 +1,54 @@
+# Secrets and machine-local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Runtime logs, journals, and generated state
+logs/
+storage/
+storage_compare_runs/
+storage_training_runs/
+*.log
+*.jsonl
+*.jsonl.tmp
+.last_paper_run_id.txt
+
+# Local model downloads and generated artifacts
+models/
+*.pt
+*.pth
+*.onnx
+*.bin
+*.safetensors
+
+# OS/editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build/package output
+dist/
+build/
+*.egg-info/
+
+# Local temporary files
+*.tmp
+*.temp
+tmp/
+temp/

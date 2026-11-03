@@ -1,0 +1,3157 @@
+{
+  "captured_at": "2026-10-14T09:53:12.219825+00:00",
+  "cutoff": "2026-10-13T19:24:22",
+  "files": 2709,
+  "deduplication": "SHA256 of stripped JSONL records; cycles are logged chosen-status decision/risk/paper/execution records, not distinct market opportunities. Confidence may be raw or conviction depending on the stage reached; do not compare stages as the same score.",
+  "first": "2026-03-29T22:45:33.267588+00:00",
+  "last": "2026-10-14T09:51:09.473608+00:00",
+  "event_types": {
+    "system": 16657,
+    "training": 1293,
+    "error": 1387,
+    "paper": 99,
+    "decision": 34943,
+    "execution": 197,
+    "learning": 221,
+    "risk": 28279,
+    "decision_sample": 88,
+    "evolution": 100
+  },
+  "groups": {
+    "all_retained": {
+      "cycles": 52664,
+      "directional": 14577,
+      "actions": {
+        "paper": 99,
+        "hold": 35012,
+        "failed": 50,
+        "execute": 145,
+        "blocked": 17358
+      },
+      "reasons": {
+        "other": 908,
+        "confidence_or_flat": 34972,
+        "htf_alignment": 2247,
+        "consensus": 1723,
+        "loss_learning": 1223,
+        "risk_volatility": 5910,
+        "execution_gate": 2,
+        "timing_discipline": 5679
+      },
+      "directional_reasons": {
+        "other": 778,
+        "confidence_or_flat": 916,
+        "htf_alignment": 2247,
+        "consensus": 1723,
+        "loss_learning": 1223,
+        "risk_volatility": 2009,
+        "execution_gate": 2,
+        "timing_discipline": 5679
+      },
+      "directional_messages": [
+        [
+          "Timing discipline blocked trade: wait for clean entry timing confirmation.",
+          1503
+        ],
+        [
+          "Higher-timeframe alignment required: chosen=buy, htf_bias=sell.",
+          1322
+        ],
+        [
+          "Higher-timeframe alignment required: chosen=sell, htf_bias=buy.",
+          925
+        ],
+        [
+          "No high-confidence trade found.",
+          887
+        ],
+        [
+          "Consensus guard blocked trade: side=buy, support=1, required=2.",
+          871
+        ],
+        [
+          "Consensus guard blocked trade: side=sell, support=1, required=2.",
+          852
+        ],
+        [
+          "Risk guard active: Safety lock active: consecutive_loss_threshold, supporting_win_rate_weak. No trade executed.",
+          599
+        ],
+        [
+          "Risk guard active: Daily drawdown limit reached. No trade executed.",
+          553
+        ],
+        [
+          "M1 loss-pattern block: repeated sell losses (wr=0.33, streak=4).",
+          530
+        ],
+        [
+          "M1 loss-pattern block: repeated buy losses (wr=0.33, streak=3).",
+          510
+        ],
+        [
+          "Risk guard active: Weekly drawdown limit reached. No trade executed.",
+          380
+        ],
+        [
+          "Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.",
+          262
+        ],
+        [
+          "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, New York momentum confirmation, and visual confirmation missing (location=mid_range, momentum=mixed, session=new_york).",
+          227
+        ],
+        [
+          "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=mixed, session=asia).",
+          219
+        ],
+        [
+          "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=mixed, session=london).",
+          185
+        ]
+      ],
+      "flat": 38087,
+      "max_confidence": 1.0,
+      "pre_gate_over_120s": 0,
+      "timed_cycles": 0
+    },
+    "before_cutoff": {
+      "cycles": 51918,
+      "directional": 14492,
+      "actions": {
+        "paper": 99,
+        "hold": 34351,
+        "failed": 50,
+        "execute": 145,
+        "blocked": 17273
+      },
+      "reasons": {
+        "other": 908,
+        "confidence_or_flat": 34311,
+        "htf_alignment": 2229,
+        "consensus": 1723,
+        "loss_learning": 1223,
+        "risk_volatility": 5910,
+        "execution_gate": 2,
+        "timing_discipline": 5612
+      },
+      "directional_reasons": {
+        "other": 778,
+        "confidence_or_flat": 916,
+        "htf_alignment": 2229,
+        "consensus": 1723,
+        "loss_learning": 1223,
+        "risk_volatility": 2009,
+        "execution_gate": 2,
+        "timing_discipline": 5612
+      },
+      "directional_messages": [
+        [
+          "Timing discipline blocked trade: wait for clean entry timing confirmation.",
+          1503
+        ],
+        [
+          "Higher-timeframe alignment required: chosen=buy, htf_bias=sell.",
+          1310
+        ],
+        [
+          "Higher-timeframe alignment required: chosen=sell, htf_bias=buy.",
+          919
+        ],
+        [
+          "No high-confidence trade found.",
+          887
+        ],
+        [
+          "Consensus guard blocked trade: side=buy, support=1, required=2.",
+          871
+        ],
+        [
+          "Consensus guard blocked trade: side=sell, support=1, required=2.",
+          852
+        ],
+        [
+          "Risk guard active: Safety lock active: consecutive_loss_threshold, supporting_win_rate_weak. No trade executed.",
+          599
+        ],
+        [
+          "Risk guard active: Daily drawdown limit reached. No trade executed.",
+          553
+        ],
+        [
+          "M1 loss-pattern block: repeated sell losses (wr=0.33, streak=4).",
+          530
+        ],
+        [
+          "M1 loss-pattern block: repeated buy losses (wr=0.33, streak=3).",
+          510
+        ],
+        [
+          "Risk guard active: Weekly drawdown limit reached. No trade executed.",
+          380
+        ],
+        [
+          "Risk guard active: Volatility protection active: extreme volatility regime; new entries paused. No trade executed.",
+          262
+        ],
+        [
+          "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, New York momentum confirmation, and visual confirmation missing (location=mid_range, momentum=mixed, session=new_york).",
+          227
+        ],
+        [
+          "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=mixed, session=asia).",
+          207
+        ],
+        [
+          "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=mixed, session=london).",
+          183
+        ]
+      ],
+      "flat": 37426,
+      "max_confidence": 1.0,
+      "pre_gate_over_120s": 0,
+      "timed_cycles": 0
+    },
+    "since_cutoff": {
+      "cycles": 746,
+      "directional": 85,
+      "actions": {
+        "hold": 661,
+        "blocked": 85
+      },
+      "reasons": {
+        "confidence_or_flat": 661,
+        "htf_alignment": 18,
+        "timing_discipline": 67
+      },
+      "directional_reasons": {
+        "htf_alignment": 18,
+        "timing_discipline": 67
+      },
+      "directional_messages": [
+        [
+          "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=mixed, session=asia).",
+          12
+        ],
+        [
+          "Higher-timeframe alignment required: chosen=buy, htf_bias=sell.",
+          12
+        ],
+        [
+          "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=mixed, session=asia).",
+          7
+        ],
+        [
+          "Higher-timeframe alignment required: chosen=sell, htf_bias=buy.",
+          6
+        ],
+        [
+          "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=weak, session=asia).",
+          5
+        ],
+        [
+          "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=mixed, session=london).",
+          5
+        ],
+        [
+          "Timing discipline blocked trade: Waiting for clean entry timing: fresh entry or retest missing (location=breakout, momentum=strong, session=asia).",
+          4
+        ],
+        [
+          "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual tradable location missing (location=consolidation, momentum=mixed, session=london).",
+          3
+        ],
+        [
+          "Timing discipline blocked trade: Waiting for clean entry timing: fresh entry or retest, and visual tradable location missing (location=breakout, momentum=strong, session=london).",
+          3
+        ],
+        [
+          "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual momentum confirmation missing (location=mid_range, momentum=mixed, session=asia).",
+          2
+        ],
+        [
+          "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=weak, session=london).",
+          2
+        ],
+        [
+          "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=mixed, session=london).",
+          2
+        ],
+        [
+          "Timing discipline blocked trade: Waiting for clean entry timing: visual momentum confirmation missing (location=pullback, momentum=strong, session=asia).",
+          1
+        ],
+        [
+          "Timing discipline blocked trade: Waiting for clean entry timing: strong/turning M1 momentum, and visual tradable location missing (location=pullback, momentum=mixed, session=asia).",
+          1
+        ],
+        [
+          "Timing discipline blocked trade: Waiting for clean entry timing: fresh entry or retest, and visual tradable location missing (location=breakout, momentum=strong, session=asia).",
+          1
+        ]
+      ],
+      "flat": 661,
+      "max_confidence": 0.92,
+      "pre_gate_over_120s": 0,
+      "timed_cycles": 0
+    }
+  },
+  "examples": {
+    "all_retained:other": {
+      "time": "2026-10-08T17:16:09.265535+00:00",
+      "message": "Risk guard active: Max open trades reached. No trade executed.",
+      "chosen": {
+        "strategy": "gold_breakout_retest",
+        "side": "buy",
+        "confidence": 0.5015502200204538
+      },
+      "threshold": null,
+      "support": null,
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "buy",
+        "details": {
+          "M5": "buy"
+        }
+      },
+      "timing": {
+        "enabled": true,
+        "status": "timing_block",
+        "score": 25,
+        "side": "buy",
+        "missing": [
+          "tradable_location",
+          "strong_or_turning_m1_momentum",
+          "new_york_extra_momentum_confirmation",
+          "visual_confirmation"
+        ],
+        "reasons": [
+          "entry_location_is_mid_range_or_unclear",
+          "m1_momentum_not_confirmed",
+          "new_york_recent_performance_requires_stronger_confirmation",
+          "continuous_visual_watch_does_not_confirm_setup"
+        ],
+        "observed": {
+          "location": "mid_range",
+          "momentum": "mixed",
+          "trend_state": "uptrend",
+          "trend_strength": 0.2125,
+          "session": "new_york",
+          "setup_hint": "breakout",
+          "top_loss_reason": "unknown",
+          "visual_watch_used": true,
+          "visual_confirmation": "does_not_confirm",
+          "visual_direction": "down",
+          "visual_location": "pullback",
+          "visual_momentum": "mixed"
+        },
+        "requirements": [
+          "fresh_entry_or_retest",
+          "strong_or_turning_m1_momentum",
+          "avoid_mid_range",
+          "structure_hold_for_continuation",
+          "sweep_rejection_or_structure_reclaim_when_stop_hunt_risk_is_dominant"
+        ],
+        "hard_block": true,
+        "passed": false,
+        "check": "timing_discipline",
+        "reason_code": "AWAITING_TRADABLE_LOCATION",
+        "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, New York momentum confirmation, and visual confirmation missing (location=mid_range, momentum=mixed, session=new_york).",
+        "condition_values": {
+          "side": "buy",
+          "score": 25,
+          "missing": [
+            "tradable_location",
+            "strong_or_turning_m1_momentum",
+            "new_york_extra_momentum_confirmation",
+            "visual_confirmation"
+          ],
+          "reasons": [
+            "entry_location_is_mid_range_or_unclear",
+            "m1_momentum_not_confirmed",
+            "new_york_recent_performance_requires_stronger_confirmation",
+            "continuous_visual_watch_does_not_confirm_setup"
+          ],
+          "observed": {
+            "location": "mid_range",
+            "momentum": "mixed",
+            "trend_state": "uptrend",
+            "trend_strength": 0.2125,
+            "session": "new_york",
+            "setup_hint": "breakout",
+            "top_loss_reason": "unknown",
+            "visual_watch_used": true,
+            "visual_confirmation": "does_not_confirm",
+            "visual_direction": "down",
+            "visual_location": "pullback",
+            "visual_momentum": "mixed"
+          }
+        },
+        "checked_at": "2026-10-08T17:16:09.079849+00:00",
+        "structured_result": {
+          "schema": "atlas_timing_discipline_result_v1",
+          "passed": false,
+          "check": "timing_discipline",
+          "reason_code": "AWAITING_TRADABLE_LOCATION",
+          "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, New York momentum confirmation, and visual confirmation missing (location=mid_range, momentum=mixed, session=new_york).",
+          "condition_values": {
+            "side": "buy",
+            "score": 25,
+            "missing": [
+              "tradable_location",
+              "strong_or_turning_m1_momentum",
+              "new_york_extra_momentum_confirmation",
+              "visual_confirmation"
+            ],
+            "reasons": [
+              "entry_location_is_mid_range_or_unclear",
+              "m1_momentum_not_confirmed",
+              "new_york_recent_performance_requires_stronger_confirmation",
+              "continuous_visual_watch_does_not_confirm_setup"
+            ],
+            "observed": {
+              "location": "mid_range",
+              "momentum": "mixed",
+              "trend_state": "uptrend",
+              "trend_strength": 0.2125,
+              "session": "new_york",
+              "setup_hint": "breakout",
+              "top_loss_reason": "unknown",
+              "visual_watch_used": true,
+              "visual_confirmation": "does_not_confirm",
+              "visual_direction": "down",
+              "visual_location": "pullback",
+              "visual_momentum": "mixed"
+            }
+          },
+          "checked_at": "2026-10-08T17:16:09.079849+00:00"
+        },
+        "recommendation": "wait_for_clean_timing_confirmation",
+        "policy": {
+          "bounded_timing_gate": true,
+          "does_not_change_risk_policy": true,
+          "does_not_lower_thresholds": true,
+          "does_not_force_entries": true,
+          "operator_requested": true
+        }
+      }
+    },
+    "before_cutoff:other": {
+      "time": "2026-10-08T17:16:09.265535+00:00",
+      "message": "Risk guard active: Max open trades reached. No trade executed.",
+      "chosen": {
+        "strategy": "gold_breakout_retest",
+        "side": "buy",
+        "confidence": 0.5015502200204538
+      },
+      "threshold": null,
+      "support": null,
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "buy",
+        "details": {
+          "M5": "buy"
+        }
+      },
+      "timing": {
+        "enabled": true,
+        "status": "timing_block",
+        "score": 25,
+        "side": "buy",
+        "missing": [
+          "tradable_location",
+          "strong_or_turning_m1_momentum",
+          "new_york_extra_momentum_confirmation",
+          "visual_confirmation"
+        ],
+        "reasons": [
+          "entry_location_is_mid_range_or_unclear",
+          "m1_momentum_not_confirmed",
+          "new_york_recent_performance_requires_stronger_confirmation",
+          "continuous_visual_watch_does_not_confirm_setup"
+        ],
+        "observed": {
+          "location": "mid_range",
+          "momentum": "mixed",
+          "trend_state": "uptrend",
+          "trend_strength": 0.2125,
+          "session": "new_york",
+          "setup_hint": "breakout",
+          "top_loss_reason": "unknown",
+          "visual_watch_used": true,
+          "visual_confirmation": "does_not_confirm",
+          "visual_direction": "down",
+          "visual_location": "pullback",
+          "visual_momentum": "mixed"
+        },
+        "requirements": [
+          "fresh_entry_or_retest",
+          "strong_or_turning_m1_momentum",
+          "avoid_mid_range",
+          "structure_hold_for_continuation",
+          "sweep_rejection_or_structure_reclaim_when_stop_hunt_risk_is_dominant"
+        ],
+        "hard_block": true,
+        "passed": false,
+        "check": "timing_discipline",
+        "reason_code": "AWAITING_TRADABLE_LOCATION",
+        "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, New York momentum confirmation, and visual confirmation missing (location=mid_range, momentum=mixed, session=new_york).",
+        "condition_values": {
+          "side": "buy",
+          "score": 25,
+          "missing": [
+            "tradable_location",
+            "strong_or_turning_m1_momentum",
+            "new_york_extra_momentum_confirmation",
+            "visual_confirmation"
+          ],
+          "reasons": [
+            "entry_location_is_mid_range_or_unclear",
+            "m1_momentum_not_confirmed",
+            "new_york_recent_performance_requires_stronger_confirmation",
+            "continuous_visual_watch_does_not_confirm_setup"
+          ],
+          "observed": {
+            "location": "mid_range",
+            "momentum": "mixed",
+            "trend_state": "uptrend",
+            "trend_strength": 0.2125,
+            "session": "new_york",
+            "setup_hint": "breakout",
+            "top_loss_reason": "unknown",
+            "visual_watch_used": true,
+            "visual_confirmation": "does_not_confirm",
+            "visual_direction": "down",
+            "visual_location": "pullback",
+            "visual_momentum": "mixed"
+          }
+        },
+        "checked_at": "2026-10-08T17:16:09.079849+00:00",
+        "structured_result": {
+          "schema": "atlas_timing_discipline_result_v1",
+          "passed": false,
+          "check": "timing_discipline",
+          "reason_code": "AWAITING_TRADABLE_LOCATION",
+          "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, New York momentum confirmation, and visual confirmation missing (location=mid_range, momentum=mixed, session=new_york).",
+          "condition_values": {
+            "side": "buy",
+            "score": 25,
+            "missing": [
+              "tradable_location",
+              "strong_or_turning_m1_momentum",
+              "new_york_extra_momentum_confirmation",
+              "visual_confirmation"
+            ],
+            "reasons": [
+              "entry_location_is_mid_range_or_unclear",
+              "m1_momentum_not_confirmed",
+              "new_york_recent_performance_requires_stronger_confirmation",
+              "continuous_visual_watch_does_not_confirm_setup"
+            ],
+            "observed": {
+              "location": "mid_range",
+              "momentum": "mixed",
+              "trend_state": "uptrend",
+              "trend_strength": 0.2125,
+              "session": "new_york",
+              "setup_hint": "breakout",
+              "top_loss_reason": "unknown",
+              "visual_watch_used": true,
+              "visual_confirmation": "does_not_confirm",
+              "visual_direction": "down",
+              "visual_location": "pullback",
+              "visual_momentum": "mixed"
+            }
+          },
+          "checked_at": "2026-10-08T17:16:09.079849+00:00"
+        },
+        "recommendation": "wait_for_clean_timing_confirmation",
+        "policy": {
+          "bounded_timing_gate": true,
+          "does_not_change_risk_policy": true,
+          "does_not_lower_thresholds": true,
+          "does_not_force_entries": true,
+          "operator_requested": true
+        }
+      }
+    },
+    "all_retained:confidence_or_flat": {
+      "time": "2026-10-13T02:01:06.262022+00:00",
+      "message": "No high-confidence trade found.",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.35
+      },
+      "threshold": null,
+      "support": null,
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "sell",
+        "details": {
+          "M5": "sell"
+        }
+      },
+      "timing": {
+        "enabled": true,
+        "status": "timing_block",
+        "score": 25,
+        "side": "sell",
+        "missing": [
+          "tradable_location",
+          "strong_or_turning_m1_momentum",
+          "visual_confirmation",
+          "visual_tradable_location"
+        ],
+        "reasons": [
+          "entry_location_is_mid_range_or_unclear",
+          "m1_momentum_not_confirmed",
+          "continuous_visual_watch_does_not_confirm_setup",
+          "continuous_visual_watch_sees_mid_range"
+        ],
+        "observed": {
+          "location": "mid_range",
+          "momentum": "weak",
+          "trend_state": "uptrend",
+          "trend_strength": 0.1452,
+          "session": "asia",
+          "setup_hint": "no_trade",
+          "top_loss_reason": "unknown",
+          "visual_watch_used": true,
+          "visual_confirmation": "does_not_confirm",
+          "visual_direction": "down",
+          "visual_location": "mid_range",
+          "visual_momentum": "strong"
+        },
+        "requirements": [
+          "fresh_entry_or_retest",
+          "strong_or_turning_m1_momentum",
+          "avoid_mid_range",
+          "structure_hold_for_continuation",
+          "sweep_rejection_or_structure_reclaim_when_stop_hunt_risk_is_dominant"
+        ],
+        "hard_block": true,
+        "passed": false,
+        "check": "timing_discipline",
+        "reason_code": "AWAITING_TRADABLE_LOCATION",
+        "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=weak, session=asia).",
+        "condition_values": {
+          "side": "sell",
+          "score": 25,
+          "missing": [
+            "tradable_location",
+            "strong_or_turning_m1_momentum",
+            "visual_confirmation",
+            "visual_tradable_location"
+          ],
+          "reasons": [
+            "entry_location_is_mid_range_or_unclear",
+            "m1_momentum_not_confirmed",
+            "continuous_visual_watch_does_not_confirm_setup",
+            "continuous_visual_watch_sees_mid_range"
+          ],
+          "observed": {
+            "location": "mid_range",
+            "momentum": "weak",
+            "trend_state": "uptrend",
+            "trend_strength": 0.1452,
+            "session": "asia",
+            "setup_hint": "no_trade",
+            "top_loss_reason": "unknown",
+            "visual_watch_used": true,
+            "visual_confirmation": "does_not_confirm",
+            "visual_direction": "down",
+            "visual_location": "mid_range",
+            "visual_momentum": "strong"
+          }
+        },
+        "checked_at": "2026-10-13T02:01:06.221734+00:00",
+        "structured_result": {
+          "schema": "atlas_timing_discipline_result_v1",
+          "passed": false,
+          "check": "timing_discipline",
+          "reason_code": "AWAITING_TRADABLE_LOCATION",
+          "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=weak, session=asia).",
+          "condition_values": {
+            "side": "sell",
+            "score": 25,
+            "missing": [
+              "tradable_location",
+              "strong_or_turning_m1_momentum",
+              "visual_confirmation",
+              "visual_tradable_location"
+            ],
+            "reasons": [
+              "entry_location_is_mid_range_or_unclear",
+              "m1_momentum_not_confirmed",
+              "continuous_visual_watch_does_not_confirm_setup",
+              "continuous_visual_watch_sees_mid_range"
+            ],
+            "observed": {
+              "location": "mid_range",
+              "momentum": "weak",
+              "trend_state": "uptrend",
+              "trend_strength": 0.1452,
+              "session": "asia",
+              "setup_hint": "no_trade",
+              "top_loss_reason": "unknown",
+              "visual_watch_used": true,
+              "visual_confirmation": "does_not_confirm",
+              "visual_direction": "down",
+              "visual_location": "mid_range",
+              "visual_momentum": "strong"
+            }
+          },
+          "checked_at": "2026-10-13T02:01:06.221734+00:00"
+        },
+        "recommendation": "wait_for_clean_timing_confirmation",
+        "policy": {
+          "bounded_timing_gate": true,
+          "does_not_change_risk_policy": true,
+          "does_not_lower_thresholds": true,
+          "does_not_force_entries": true,
+          "operator_requested": true
+        }
+      }
+    },
+    "before_cutoff:confidence_or_flat": {
+      "time": "2026-10-13T02:01:06.262022+00:00",
+      "message": "No high-confidence trade found.",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.35
+      },
+      "threshold": null,
+      "support": null,
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "sell",
+        "details": {
+          "M5": "sell"
+        }
+      },
+      "timing": {
+        "enabled": true,
+        "status": "timing_block",
+        "score": 25,
+        "side": "sell",
+        "missing": [
+          "tradable_location",
+          "strong_or_turning_m1_momentum",
+          "visual_confirmation",
+          "visual_tradable_location"
+        ],
+        "reasons": [
+          "entry_location_is_mid_range_or_unclear",
+          "m1_momentum_not_confirmed",
+          "continuous_visual_watch_does_not_confirm_setup",
+          "continuous_visual_watch_sees_mid_range"
+        ],
+        "observed": {
+          "location": "mid_range",
+          "momentum": "weak",
+          "trend_state": "uptrend",
+          "trend_strength": 0.1452,
+          "session": "asia",
+          "setup_hint": "no_trade",
+          "top_loss_reason": "unknown",
+          "visual_watch_used": true,
+          "visual_confirmation": "does_not_confirm",
+          "visual_direction": "down",
+          "visual_location": "mid_range",
+          "visual_momentum": "strong"
+        },
+        "requirements": [
+          "fresh_entry_or_retest",
+          "strong_or_turning_m1_momentum",
+          "avoid_mid_range",
+          "structure_hold_for_continuation",
+          "sweep_rejection_or_structure_reclaim_when_stop_hunt_risk_is_dominant"
+        ],
+        "hard_block": true,
+        "passed": false,
+        "check": "timing_discipline",
+        "reason_code": "AWAITING_TRADABLE_LOCATION",
+        "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=weak, session=asia).",
+        "condition_values": {
+          "side": "sell",
+          "score": 25,
+          "missing": [
+            "tradable_location",
+            "strong_or_turning_m1_momentum",
+            "visual_confirmation",
+            "visual_tradable_location"
+          ],
+          "reasons": [
+            "entry_location_is_mid_range_or_unclear",
+            "m1_momentum_not_confirmed",
+            "continuous_visual_watch_does_not_confirm_setup",
+            "continuous_visual_watch_sees_mid_range"
+          ],
+          "observed": {
+            "location": "mid_range",
+            "momentum": "weak",
+            "trend_state": "uptrend",
+            "trend_strength": 0.1452,
+            "session": "asia",
+            "setup_hint": "no_trade",
+            "top_loss_reason": "unknown",
+            "visual_watch_used": true,
+            "visual_confirmation": "does_not_confirm",
+            "visual_direction": "down",
+            "visual_location": "mid_range",
+            "visual_momentum": "strong"
+          }
+        },
+        "checked_at": "2026-10-13T02:01:06.221734+00:00",
+        "structured_result": {
+          "schema": "atlas_timing_discipline_result_v1",
+          "passed": false,
+          "check": "timing_discipline",
+          "reason_code": "AWAITING_TRADABLE_LOCATION",
+          "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=weak, session=asia).",
+          "condition_values": {
+            "side": "sell",
+            "score": 25,
+            "missing": [
+              "tradable_location",
+              "strong_or_turning_m1_momentum",
+              "visual_confirmation",
+              "visual_tradable_location"
+            ],
+            "reasons": [
+              "entry_location_is_mid_range_or_unclear",
+              "m1_momentum_not_confirmed",
+              "continuous_visual_watch_does_not_confirm_setup",
+              "continuous_visual_watch_sees_mid_range"
+            ],
+            "observed": {
+              "location": "mid_range",
+              "momentum": "weak",
+              "trend_state": "uptrend",
+              "trend_strength": 0.1452,
+              "session": "asia",
+              "setup_hint": "no_trade",
+              "top_loss_reason": "unknown",
+              "visual_watch_used": true,
+              "visual_confirmation": "does_not_confirm",
+              "visual_direction": "down",
+              "visual_location": "mid_range",
+              "visual_momentum": "strong"
+            }
+          },
+          "checked_at": "2026-10-13T02:01:06.221734+00:00"
+        },
+        "recommendation": "wait_for_clean_timing_confirmation",
+        "policy": {
+          "bounded_timing_gate": true,
+          "does_not_change_risk_policy": true,
+          "does_not_lower_thresholds": true,
+          "does_not_force_entries": true,
+          "operator_requested": true
+        }
+      }
+    },
+    "all_retained:htf_alignment": {
+      "time": "2026-10-14T06:48:54.212763+00:00",
+      "message": "Higher-timeframe alignment required: chosen=buy, htf_bias=sell.",
+      "chosen": {
+        "strategy": "gold_liquidity_sweep",
+        "side": "buy",
+        "confidence": 0.49766291525571715
+      },
+      "threshold": null,
+      "support": null,
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "sell",
+        "details": {
+          "M5": "sell"
+        },
+        "penalty_applied": true
+      },
+      "timing": {
+        "enabled": true,
+        "status": "timing_block",
+        "score": 25,
+        "side": "buy",
+        "missing": [
+          "tradable_location",
+          "strong_or_turning_m1_momentum",
+          "visual_confirmation",
+          "visual_tradable_location"
+        ],
+        "reasons": [
+          "entry_location_is_mid_range_or_unclear",
+          "m1_momentum_not_confirmed",
+          "continuous_visual_watch_does_not_confirm_setup",
+          "continuous_visual_watch_sees_mid_range"
+        ],
+        "observed": {
+          "location": "mid_range",
+          "momentum": "weak",
+          "trend_state": "downtrend",
+          "trend_strength": 0.1698,
+          "session": "asia",
+          "setup_hint": "breakout",
+          "top_loss_reason": "unknown",
+          "visual_watch_used": true,
+          "visual_confirmation": "does_not_confirm",
+          "visual_direction": "down",
+          "visual_location": "mid_range",
+          "visual_momentum": "strong"
+        },
+        "requirements": [
+          "fresh_entry_or_retest",
+          "strong_or_turning_m1_momentum",
+          "avoid_mid_range",
+          "structure_hold_for_continuation",
+          "sweep_rejection_or_structure_reclaim_when_stop_hunt_risk_is_dominant"
+        ],
+        "hard_block": true,
+        "passed": false,
+        "check": "timing_discipline",
+        "reason_code": "AWAITING_TRADABLE_LOCATION",
+        "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=weak, session=asia).",
+        "condition_values": {
+          "side": "buy",
+          "score": 25,
+          "missing": [
+            "tradable_location",
+            "strong_or_turning_m1_momentum",
+            "visual_confirmation",
+            "visual_tradable_location"
+          ],
+          "reasons": [
+            "entry_location_is_mid_range_or_unclear",
+            "m1_momentum_not_confirmed",
+            "continuous_visual_watch_does_not_confirm_setup",
+            "continuous_visual_watch_sees_mid_range"
+          ],
+          "observed": {
+            "location": "mid_range",
+            "momentum": "weak",
+            "trend_state": "downtrend",
+            "trend_strength": 0.1698,
+            "session": "asia",
+            "setup_hint": "breakout",
+            "top_loss_reason": "unknown",
+            "visual_watch_used": true,
+            "visual_confirmation": "does_not_confirm",
+            "visual_direction": "down",
+            "visual_location": "mid_range",
+            "visual_momentum": "strong"
+          }
+        },
+        "checked_at": "2026-10-14T06:48:54.194616+00:00",
+        "structured_result": {
+          "schema": "atlas_timing_discipline_result_v1",
+          "passed": false,
+          "check": "timing_discipline",
+          "reason_code": "AWAITING_TRADABLE_LOCATION",
+          "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=weak, session=asia).",
+          "condition_values": {
+            "side": "buy",
+            "score": 25,
+            "missing": [
+              "tradable_location",
+              "strong_or_turning_m1_momentum",
+              "visual_confirmation",
+              "visual_tradable_location"
+            ],
+            "reasons": [
+              "entry_location_is_mid_range_or_unclear",
+              "m1_momentum_not_confirmed",
+              "continuous_visual_watch_does_not_confirm_setup",
+              "continuous_visual_watch_sees_mid_range"
+            ],
+            "observed": {
+              "location": "mid_range",
+              "momentum": "weak",
+              "trend_state": "downtrend",
+              "trend_strength": 0.1698,
+              "session": "asia",
+              "setup_hint": "breakout",
+              "top_loss_reason": "unknown",
+              "visual_watch_used": true,
+              "visual_confirmation": "does_not_confirm",
+              "visual_direction": "down",
+              "visual_location": "mid_range",
+              "visual_momentum": "strong"
+            }
+          },
+          "checked_at": "2026-10-14T06:48:54.194616+00:00"
+        },
+        "recommendation": "wait_for_clean_timing_confirmation",
+        "policy": {
+          "bounded_timing_gate": true,
+          "does_not_change_risk_policy": true,
+          "does_not_lower_thresholds": true,
+          "does_not_force_entries": true,
+          "operator_requested": true
+        }
+      }
+    },
+    "before_cutoff:htf_alignment": {
+      "time": "2026-10-13T18:48:14.058871+00:00",
+      "message": "Higher-timeframe alignment required: chosen=sell, htf_bias=buy.",
+      "chosen": {
+        "strategy": "gold_liquidity_sweep",
+        "side": "sell",
+        "confidence": 0.30256969331057737
+      },
+      "threshold": null,
+      "support": null,
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "buy",
+        "details": {
+          "M5": "buy"
+        },
+        "penalty_applied": true
+      },
+      "timing": {
+        "enabled": true,
+        "status": "timing_block",
+        "score": 25,
+        "side": "sell",
+        "missing": [
+          "tradable_location",
+          "strong_or_turning_m1_momentum",
+          "new_york_extra_momentum_confirmation",
+          "visual_confirmation"
+        ],
+        "reasons": [
+          "entry_location_is_mid_range_or_unclear",
+          "m1_momentum_not_confirmed",
+          "new_york_recent_performance_requires_stronger_confirmation",
+          "continuous_visual_watch_does_not_confirm_setup"
+        ],
+        "observed": {
+          "location": "mid_range",
+          "momentum": "weak",
+          "trend_state": "uptrend",
+          "trend_strength": 0.2954,
+          "session": "new_york",
+          "setup_hint": "breakout",
+          "top_loss_reason": "unknown",
+          "visual_watch_used": true,
+          "visual_confirmation": "does_not_confirm",
+          "visual_direction": "down",
+          "visual_location": "pullback",
+          "visual_momentum": "strong"
+        },
+        "requirements": [
+          "fresh_entry_or_retest",
+          "strong_or_turning_m1_momentum",
+          "avoid_mid_range",
+          "structure_hold_for_continuation",
+          "sweep_rejection_or_structure_reclaim_when_stop_hunt_risk_is_dominant"
+        ],
+        "hard_block": true,
+        "passed": false,
+        "check": "timing_discipline",
+        "reason_code": "AWAITING_TRADABLE_LOCATION",
+        "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, New York momentum confirmation, and visual confirmation missing (location=mid_range, momentum=weak, session=new_york).",
+        "condition_values": {
+          "side": "sell",
+          "score": 25,
+          "missing": [
+            "tradable_location",
+            "strong_or_turning_m1_momentum",
+            "new_york_extra_momentum_confirmation",
+            "visual_confirmation"
+          ],
+          "reasons": [
+            "entry_location_is_mid_range_or_unclear",
+            "m1_momentum_not_confirmed",
+            "new_york_recent_performance_requires_stronger_confirmation",
+            "continuous_visual_watch_does_not_confirm_setup"
+          ],
+          "observed": {
+            "location": "mid_range",
+            "momentum": "weak",
+            "trend_state": "uptrend",
+            "trend_strength": 0.2954,
+            "session": "new_york",
+            "setup_hint": "breakout",
+            "top_loss_reason": "unknown",
+            "visual_watch_used": true,
+            "visual_confirmation": "does_not_confirm",
+            "visual_direction": "down",
+            "visual_location": "pullback",
+            "visual_momentum": "strong"
+          }
+        },
+        "checked_at": "2026-10-13T18:48:14.024832+00:00",
+        "structured_result": {
+          "schema": "atlas_timing_discipline_result_v1",
+          "passed": false,
+          "check": "timing_discipline",
+          "reason_code": "AWAITING_TRADABLE_LOCATION",
+          "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, New York momentum confirmation, and visual confirmation missing (location=mid_range, momentum=weak, session=new_york).",
+          "condition_values": {
+            "side": "sell",
+            "score": 25,
+            "missing": [
+              "tradable_location",
+              "strong_or_turning_m1_momentum",
+              "new_york_extra_momentum_confirmation",
+              "visual_confirmation"
+            ],
+            "reasons": [
+              "entry_location_is_mid_range_or_unclear",
+              "m1_momentum_not_confirmed",
+              "new_york_recent_performance_requires_stronger_confirmation",
+              "continuous_visual_watch_does_not_confirm_setup"
+            ],
+            "observed": {
+              "location": "mid_range",
+              "momentum": "weak",
+              "trend_state": "uptrend",
+              "trend_strength": 0.2954,
+              "session": "new_york",
+              "setup_hint": "breakout",
+              "top_loss_reason": "unknown",
+              "visual_watch_used": true,
+              "visual_confirmation": "does_not_confirm",
+              "visual_direction": "down",
+              "visual_location": "pullback",
+              "visual_momentum": "strong"
+            }
+          },
+          "checked_at": "2026-10-13T18:48:14.024832+00:00"
+        },
+        "recommendation": "wait_for_clean_timing_confirmation",
+        "policy": {
+          "bounded_timing_gate": true,
+          "does_not_change_risk_policy": true,
+          "does_not_lower_thresholds": true,
+          "does_not_force_entries": true,
+          "operator_requested": true
+        }
+      }
+    },
+    "all_retained:consensus": {
+      "time": "2026-09-16T16:50:06.061534+00:00",
+      "message": "Consensus guard blocked trade: side=buy, support=1, required=2.",
+      "chosen": {
+        "strategy": "gold_liquidity_sweep",
+        "side": "buy",
+        "confidence": 0.795904431228462
+      },
+      "threshold": null,
+      "support": null,
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "flat",
+        "details": {
+          "M5": "flat"
+        }
+      },
+      "timing": {
+        "enabled": true,
+        "status": "timing_block",
+        "score": 25,
+        "side": "buy",
+        "missing": [
+          "tradable_location",
+          "strong_or_turning_m1_momentum",
+          "new_york_extra_momentum_confirmation",
+          "visual_confirmation",
+          "visual_tradable_location",
+          "visual_momentum_confirmation",
+          "visual_directional_impulse"
+        ],
+        "reasons": [
+          "entry_location_is_mid_range_or_unclear",
+          "m1_momentum_not_confirmed",
+          "new_york_recent_performance_requires_stronger_confirmation",
+          "continuous_visual_watch_does_not_confirm_setup",
+          "continuous_visual_watch_sees_mid_range",
+          "continuous_visual_watch_lacks_momentum_confirmation",
+          "continuous_visual_watch_sees_sideways_action"
+        ],
+        "observed": {
+          "location": "mid_range",
+          "momentum": "weak",
+          "trend_state": "range",
+          "trend_strength": 0.1594,
+          "session": "new_york",
+          "setup_hint": "breakout",
+          "top_loss_reason": "unknown",
+          "visual_watch_used": true,
+          "visual_confirmation": "does_not_confirm",
+          "visual_direction": "sideways",
+          "visual_location": "mid_range",
+          "visual_momentum": "weak"
+        },
+        "requirements": [
+          "fresh_entry_or_retest",
+          "strong_or_turning_m1_momentum",
+          "avoid_mid_range",
+          "structure_hold_for_continuation",
+          "sweep_rejection_or_structure_reclaim_when_stop_hunt_risk_is_dominant"
+        ],
+        "hard_block": true,
+        "passed": false,
+        "check": "timing_discipline",
+        "reason_code": "AWAITING_TRADABLE_LOCATION",
+        "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, New York momentum confirmation, visual confirmation, visual tradable location, visual momentum confirmation, and visual directional impulse missing (location=mid_range, momentum=weak, session=new_york).",
+        "condition_values": {
+          "side": "buy",
+          "score": 25,
+          "missing": [
+            "tradable_location",
+            "strong_or_turning_m1_momentum",
+            "new_york_extra_momentum_confirmation",
+            "visual_confirmation",
+            "visual_tradable_location",
+            "visual_momentum_confirmation",
+            "visual_directional_impulse"
+          ],
+          "reasons": [
+            "entry_location_is_mid_range_or_unclear",
+            "m1_momentum_not_confirmed",
+            "new_york_recent_performance_requires_stronger_confirmation",
+            "continuous_visual_watch_does_not_confirm_setup",
+            "continuous_visual_watch_sees_mid_range",
+            "continuous_visual_watch_lacks_momentum_confirmation",
+            "continuous_visual_watch_sees_sideways_action"
+          ],
+          "observed": {
+            "location": "mid_range",
+            "momentum": "weak",
+            "trend_state": "range",
+            "trend_strength": 0.1594,
+            "session": "new_york",
+            "setup_hint": "breakout",
+            "top_loss_reason": "unknown",
+            "visual_watch_used": true,
+            "visual_confirmation": "does_not_confirm",
+            "visual_direction": "sideways",
+            "visual_location": "mid_range",
+            "visual_momentum": "weak"
+          }
+        },
+        "checked_at": "2026-09-16T16:50:06.047727+00:00",
+        "structured_result": {
+          "schema": "atlas_timing_discipline_result_v1",
+          "passed": false,
+          "check": "timing_discipline",
+          "reason_code": "AWAITING_TRADABLE_LOCATION",
+          "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, New York momentum confirmation, visual confirmation, visual tradable location, visual momentum confirmation, and visual directional impulse missing (location=mid_range, momentum=weak, session=new_york).",
+          "condition_values": {
+            "side": "buy",
+            "score": 25,
+            "missing": [
+              "tradable_location",
+              "strong_or_turning_m1_momentum",
+              "new_york_extra_momentum_confirmation",
+              "visual_confirmation",
+              "visual_tradable_location",
+              "visual_momentum_confirmation",
+              "visual_directional_impulse"
+            ],
+            "reasons": [
+              "entry_location_is_mid_range_or_unclear",
+              "m1_momentum_not_confirmed",
+              "new_york_recent_performance_requires_stronger_confirmation",
+              "continuous_visual_watch_does_not_confirm_setup",
+              "continuous_visual_watch_sees_mid_range",
+              "continuous_visual_watch_lacks_momentum_confirmation",
+              "continuous_visual_watch_sees_sideways_action"
+            ],
+            "observed": {
+              "location": "mid_range",
+              "momentum": "weak",
+              "trend_state": "range",
+              "trend_strength": 0.1594,
+              "session": "new_york",
+              "setup_hint": "breakout",
+              "top_loss_reason": "unknown",
+              "visual_watch_used": true,
+              "visual_confirmation": "does_not_confirm",
+              "visual_direction": "sideways",
+              "visual_location": "mid_range",
+              "visual_momentum": "weak"
+            }
+          },
+          "checked_at": "2026-09-16T16:50:06.047727+00:00"
+        },
+        "recommendation": "wait_for_clean_timing_confirmation",
+        "policy": {
+          "bounded_timing_gate": true,
+          "does_not_change_risk_policy": true,
+          "does_not_lower_thresholds": true,
+          "does_not_force_entries": true,
+          "operator_requested": true
+        }
+      }
+    },
+    "before_cutoff:consensus": {
+      "time": "2026-09-16T16:50:06.061534+00:00",
+      "message": "Consensus guard blocked trade: side=buy, support=1, required=2.",
+      "chosen": {
+        "strategy": "gold_liquidity_sweep",
+        "side": "buy",
+        "confidence": 0.795904431228462
+      },
+      "threshold": null,
+      "support": null,
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "flat",
+        "details": {
+          "M5": "flat"
+        }
+      },
+      "timing": {
+        "enabled": true,
+        "status": "timing_block",
+        "score": 25,
+        "side": "buy",
+        "missing": [
+          "tradable_location",
+          "strong_or_turning_m1_momentum",
+          "new_york_extra_momentum_confirmation",
+          "visual_confirmation",
+          "visual_tradable_location",
+          "visual_momentum_confirmation",
+          "visual_directional_impulse"
+        ],
+        "reasons": [
+          "entry_location_is_mid_range_or_unclear",
+          "m1_momentum_not_confirmed",
+          "new_york_recent_performance_requires_stronger_confirmation",
+          "continuous_visual_watch_does_not_confirm_setup",
+          "continuous_visual_watch_sees_mid_range",
+          "continuous_visual_watch_lacks_momentum_confirmation",
+          "continuous_visual_watch_sees_sideways_action"
+        ],
+        "observed": {
+          "location": "mid_range",
+          "momentum": "weak",
+          "trend_state": "range",
+          "trend_strength": 0.1594,
+          "session": "new_york",
+          "setup_hint": "breakout",
+          "top_loss_reason": "unknown",
+          "visual_watch_used": true,
+          "visual_confirmation": "does_not_confirm",
+          "visual_direction": "sideways",
+          "visual_location": "mid_range",
+          "visual_momentum": "weak"
+        },
+        "requirements": [
+          "fresh_entry_or_retest",
+          "strong_or_turning_m1_momentum",
+          "avoid_mid_range",
+          "structure_hold_for_continuation",
+          "sweep_rejection_or_structure_reclaim_when_stop_hunt_risk_is_dominant"
+        ],
+        "hard_block": true,
+        "passed": false,
+        "check": "timing_discipline",
+        "reason_code": "AWAITING_TRADABLE_LOCATION",
+        "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, New York momentum confirmation, visual confirmation, visual tradable location, visual momentum confirmation, and visual directional impulse missing (location=mid_range, momentum=weak, session=new_york).",
+        "condition_values": {
+          "side": "buy",
+          "score": 25,
+          "missing": [
+            "tradable_location",
+            "strong_or_turning_m1_momentum",
+            "new_york_extra_momentum_confirmation",
+            "visual_confirmation",
+            "visual_tradable_location",
+            "visual_momentum_confirmation",
+            "visual_directional_impulse"
+          ],
+          "reasons": [
+            "entry_location_is_mid_range_or_unclear",
+            "m1_momentum_not_confirmed",
+            "new_york_recent_performance_requires_stronger_confirmation",
+            "continuous_visual_watch_does_not_confirm_setup",
+            "continuous_visual_watch_sees_mid_range",
+            "continuous_visual_watch_lacks_momentum_confirmation",
+            "continuous_visual_watch_sees_sideways_action"
+          ],
+          "observed": {
+            "location": "mid_range",
+            "momentum": "weak",
+            "trend_state": "range",
+            "trend_strength": 0.1594,
+            "session": "new_york",
+            "setup_hint": "breakout",
+            "top_loss_reason": "unknown",
+            "visual_watch_used": true,
+            "visual_confirmation": "does_not_confirm",
+            "visual_direction": "sideways",
+            "visual_location": "mid_range",
+            "visual_momentum": "weak"
+          }
+        },
+        "checked_at": "2026-09-16T16:50:06.047727+00:00",
+        "structured_result": {
+          "schema": "atlas_timing_discipline_result_v1",
+          "passed": false,
+          "check": "timing_discipline",
+          "reason_code": "AWAITING_TRADABLE_LOCATION",
+          "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, New York momentum confirmation, visual confirmation, visual tradable location, visual momentum confirmation, and visual directional impulse missing (location=mid_range, momentum=weak, session=new_york).",
+          "condition_values": {
+            "side": "buy",
+            "score": 25,
+            "missing": [
+              "tradable_location",
+              "strong_or_turning_m1_momentum",
+              "new_york_extra_momentum_confirmation",
+              "visual_confirmation",
+              "visual_tradable_location",
+              "visual_momentum_confirmation",
+              "visual_directional_impulse"
+            ],
+            "reasons": [
+              "entry_location_is_mid_range_or_unclear",
+              "m1_momentum_not_confirmed",
+              "new_york_recent_performance_requires_stronger_confirmation",
+              "continuous_visual_watch_does_not_confirm_setup",
+              "continuous_visual_watch_sees_mid_range",
+              "continuous_visual_watch_lacks_momentum_confirmation",
+              "continuous_visual_watch_sees_sideways_action"
+            ],
+            "observed": {
+              "location": "mid_range",
+              "momentum": "weak",
+              "trend_state": "range",
+              "trend_strength": 0.1594,
+              "session": "new_york",
+              "setup_hint": "breakout",
+              "top_loss_reason": "unknown",
+              "visual_watch_used": true,
+              "visual_confirmation": "does_not_confirm",
+              "visual_direction": "sideways",
+              "visual_location": "mid_range",
+              "visual_momentum": "weak"
+            }
+          },
+          "checked_at": "2026-09-16T16:50:06.047727+00:00"
+        },
+        "recommendation": "wait_for_clean_timing_confirmation",
+        "policy": {
+          "bounded_timing_gate": true,
+          "does_not_change_risk_policy": true,
+          "does_not_lower_thresholds": true,
+          "does_not_force_entries": true,
+          "operator_requested": true
+        }
+      }
+    },
+    "all_retained:loss_learning": {
+      "time": "2026-10-13T16:10:45.087160+00:00",
+      "message": "M1 loss-pattern block: repeated sell losses (wr=0.33, streak=4).",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 1.0
+      },
+      "threshold": null,
+      "support": null,
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "sell",
+        "details": {
+          "M5": "sell"
+        }
+      },
+      "timing": {
+        "enabled": true,
+        "status": "timing_clear_for_existing_gates",
+        "score": 100,
+        "side": "sell",
+        "missing": [],
+        "reasons": [],
+        "observed": {
+          "location": "pullback",
+          "momentum": "strong",
+          "trend_state": "downtrend",
+          "trend_strength": 0.1529,
+          "session": "new_york",
+          "setup_hint": "pullback",
+          "top_loss_reason": "unknown",
+          "visual_watch_used": true,
+          "visual_confirmation": "supports_setup",
+          "visual_direction": "down",
+          "visual_location": "pullback",
+          "visual_momentum": "strong"
+        },
+        "requirements": [
+          "fresh_entry_or_retest",
+          "strong_or_turning_m1_momentum",
+          "avoid_mid_range",
+          "structure_hold_for_continuation",
+          "sweep_rejection_or_structure_reclaim_when_stop_hunt_risk_is_dominant"
+        ],
+        "hard_block": false,
+        "passed": true,
+        "check": "timing_discipline",
+        "reason_code": null,
+        "detail": "Timing discipline passed: clean entry timing is present enough for existing gates (location=pullback, momentum=strong).",
+        "condition_values": {
+          "side": "sell",
+          "score": 100,
+          "missing": [],
+          "reasons": [],
+          "observed": {
+            "location": "pullback",
+            "momentum": "strong",
+            "trend_state": "downtrend",
+            "trend_strength": 0.1529,
+            "session": "new_york",
+            "setup_hint": "pullback",
+            "top_loss_reason": "unknown",
+            "visual_watch_used": true,
+            "visual_confirmation": "supports_setup",
+            "visual_direction": "down",
+            "visual_location": "pullback",
+            "visual_momentum": "strong"
+          }
+        },
+        "checked_at": "2026-10-13T16:10:45.040122+00:00",
+        "structured_result": {
+          "schema": "atlas_timing_discipline_result_v1",
+          "passed": true,
+          "check": "timing_discipline",
+          "reason_code": null,
+          "detail": "Timing discipline passed: clean entry timing is present enough for existing gates (location=pullback, momentum=strong).",
+          "condition_values": {
+            "side": "sell",
+            "score": 100,
+            "missing": [],
+            "reasons": [],
+            "observed": {
+              "location": "pullback",
+              "momentum": "strong",
+              "trend_state": "downtrend",
+              "trend_strength": 0.1529,
+              "session": "new_york",
+              "setup_hint": "pullback",
+              "top_loss_reason": "unknown",
+              "visual_watch_used": true,
+              "visual_confirmation": "supports_setup",
+              "visual_direction": "down",
+              "visual_location": "pullback",
+              "visual_momentum": "strong"
+            }
+          },
+          "checked_at": "2026-10-13T16:10:45.040122+00:00"
+        },
+        "recommendation": "allow_existing_gates_to_decide",
+        "policy": {
+          "bounded_timing_gate": true,
+          "does_not_change_risk_policy": true,
+          "does_not_lower_thresholds": true,
+          "does_not_force_entries": true,
+          "operator_requested": true
+        }
+      }
+    },
+    "before_cutoff:loss_learning": {
+      "time": "2026-10-13T16:10:45.087160+00:00",
+      "message": "M1 loss-pattern block: repeated sell losses (wr=0.33, streak=4).",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 1.0
+      },
+      "threshold": null,
+      "support": null,
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "sell",
+        "details": {
+          "M5": "sell"
+        }
+      },
+      "timing": {
+        "enabled": true,
+        "status": "timing_clear_for_existing_gates",
+        "score": 100,
+        "side": "sell",
+        "missing": [],
+        "reasons": [],
+        "observed": {
+          "location": "pullback",
+          "momentum": "strong",
+          "trend_state": "downtrend",
+          "trend_strength": 0.1529,
+          "session": "new_york",
+          "setup_hint": "pullback",
+          "top_loss_reason": "unknown",
+          "visual_watch_used": true,
+          "visual_confirmation": "supports_setup",
+          "visual_direction": "down",
+          "visual_location": "pullback",
+          "visual_momentum": "strong"
+        },
+        "requirements": [
+          "fresh_entry_or_retest",
+          "strong_or_turning_m1_momentum",
+          "avoid_mid_range",
+          "structure_hold_for_continuation",
+          "sweep_rejection_or_structure_reclaim_when_stop_hunt_risk_is_dominant"
+        ],
+        "hard_block": false,
+        "passed": true,
+        "check": "timing_discipline",
+        "reason_code": null,
+        "detail": "Timing discipline passed: clean entry timing is present enough for existing gates (location=pullback, momentum=strong).",
+        "condition_values": {
+          "side": "sell",
+          "score": 100,
+          "missing": [],
+          "reasons": [],
+          "observed": {
+            "location": "pullback",
+            "momentum": "strong",
+            "trend_state": "downtrend",
+            "trend_strength": 0.1529,
+            "session": "new_york",
+            "setup_hint": "pullback",
+            "top_loss_reason": "unknown",
+            "visual_watch_used": true,
+            "visual_confirmation": "supports_setup",
+            "visual_direction": "down",
+            "visual_location": "pullback",
+            "visual_momentum": "strong"
+          }
+        },
+        "checked_at": "2026-10-13T16:10:45.040122+00:00",
+        "structured_result": {
+          "schema": "atlas_timing_discipline_result_v1",
+          "passed": true,
+          "check": "timing_discipline",
+          "reason_code": null,
+          "detail": "Timing discipline passed: clean entry timing is present enough for existing gates (location=pullback, momentum=strong).",
+          "condition_values": {
+            "side": "sell",
+            "score": 100,
+            "missing": [],
+            "reasons": [],
+            "observed": {
+              "location": "pullback",
+              "momentum": "strong",
+              "trend_state": "downtrend",
+              "trend_strength": 0.1529,
+              "session": "new_york",
+              "setup_hint": "pullback",
+              "top_loss_reason": "unknown",
+              "visual_watch_used": true,
+              "visual_confirmation": "supports_setup",
+              "visual_direction": "down",
+              "visual_location": "pullback",
+              "visual_momentum": "strong"
+            }
+          },
+          "checked_at": "2026-10-13T16:10:45.040122+00:00"
+        },
+        "recommendation": "allow_existing_gates_to_decide",
+        "policy": {
+          "bounded_timing_gate": true,
+          "does_not_change_risk_policy": true,
+          "does_not_lower_thresholds": true,
+          "does_not_force_entries": true,
+          "operator_requested": true
+        }
+      }
+    },
+    "all_retained:risk_volatility": {
+      "time": "2026-10-08T17:14:47.991506+00:00",
+      "message": "Risk guard active: Daily drawdown limit reached. No trade executed.",
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "buy",
+        "confidence": 0.17076597166263488
+      },
+      "threshold": null,
+      "support": null,
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "buy",
+        "details": {
+          "M5": "buy"
+        }
+      },
+      "timing": {
+        "enabled": true,
+        "status": "timing_block",
+        "score": 25,
+        "side": "buy",
+        "missing": [
+          "tradable_location",
+          "strong_or_turning_m1_momentum",
+          "new_york_extra_momentum_confirmation",
+          "visual_confirmation",
+          "visual_tradable_location"
+        ],
+        "reasons": [
+          "entry_location_is_mid_range_or_unclear",
+          "m1_momentum_not_confirmed",
+          "new_york_recent_performance_requires_stronger_confirmation",
+          "continuous_visual_watch_does_not_confirm_setup",
+          "continuous_visual_watch_sees_mid_range"
+        ],
+        "observed": {
+          "location": "mid_range",
+          "momentum": "mixed",
+          "trend_state": "uptrend",
+          "trend_strength": 0.484,
+          "session": "new_york",
+          "setup_hint": "no_trade",
+          "top_loss_reason": "unknown",
+          "visual_watch_used": true,
+          "visual_confirmation": "does_not_confirm",
+          "visual_direction": "down",
+          "visual_location": "mid_range",
+          "visual_momentum": "strong"
+        },
+        "requirements": [
+          "fresh_entry_or_retest",
+          "strong_or_turning_m1_momentum",
+          "avoid_mid_range",
+          "structure_hold_for_continuation",
+          "sweep_rejection_or_structure_reclaim_when_stop_hunt_risk_is_dominant"
+        ],
+        "hard_block": true,
+        "passed": false,
+        "check": "timing_discipline",
+        "reason_code": "AWAITING_TRADABLE_LOCATION",
+        "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, New York momentum confirmation, visual confirmation, and visual tradable location missing (location=mid_range, momentum=mixed, session=new_york).",
+        "condition_values": {
+          "side": "buy",
+          "score": 25,
+          "missing": [
+            "tradable_location",
+            "strong_or_turning_m1_momentum",
+            "new_york_extra_momentum_confirmation",
+            "visual_confirmation",
+            "visual_tradable_location"
+          ],
+          "reasons": [
+            "entry_location_is_mid_range_or_unclear",
+            "m1_momentum_not_confirmed",
+            "new_york_recent_performance_requires_stronger_confirmation",
+            "continuous_visual_watch_does_not_confirm_setup",
+            "continuous_visual_watch_sees_mid_range"
+          ],
+          "observed": {
+            "location": "mid_range",
+            "momentum": "mixed",
+            "trend_state": "uptrend",
+            "trend_strength": 0.484,
+            "session": "new_york",
+            "setup_hint": "no_trade",
+            "top_loss_reason": "unknown",
+            "visual_watch_used": true,
+            "visual_confirmation": "does_not_confirm",
+            "visual_direction": "down",
+            "visual_location": "mid_range",
+            "visual_momentum": "strong"
+          }
+        },
+        "checked_at": "2026-10-08T17:14:47.973374+00:00",
+        "structured_result": {
+          "schema": "atlas_timing_discipline_result_v1",
+          "passed": false,
+          "check": "timing_discipline",
+          "reason_code": "AWAITING_TRADABLE_LOCATION",
+          "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, New York momentum confirmation, visual confirmation, and visual tradable location missing (location=mid_range, momentum=mixed, session=new_york).",
+          "condition_values": {
+            "side": "buy",
+            "score": 25,
+            "missing": [
+              "tradable_location",
+              "strong_or_turning_m1_momentum",
+              "new_york_extra_momentum_confirmation",
+              "visual_confirmation",
+              "visual_tradable_location"
+            ],
+            "reasons": [
+              "entry_location_is_mid_range_or_unclear",
+              "m1_momentum_not_confirmed",
+              "new_york_recent_performance_requires_stronger_confirmation",
+              "continuous_visual_watch_does_not_confirm_setup",
+              "continuous_visual_watch_sees_mid_range"
+            ],
+            "observed": {
+              "location": "mid_range",
+              "momentum": "mixed",
+              "trend_state": "uptrend",
+              "trend_strength": 0.484,
+              "session": "new_york",
+              "setup_hint": "no_trade",
+              "top_loss_reason": "unknown",
+              "visual_watch_used": true,
+              "visual_confirmation": "does_not_confirm",
+              "visual_direction": "down",
+              "visual_location": "mid_range",
+              "visual_momentum": "strong"
+            }
+          },
+          "checked_at": "2026-10-08T17:14:47.973374+00:00"
+        },
+        "recommendation": "wait_for_clean_timing_confirmation",
+        "policy": {
+          "bounded_timing_gate": true,
+          "does_not_change_risk_policy": true,
+          "does_not_lower_thresholds": true,
+          "does_not_force_entries": true,
+          "operator_requested": true
+        }
+      }
+    },
+    "before_cutoff:risk_volatility": {
+      "time": "2026-10-08T17:14:47.991506+00:00",
+      "message": "Risk guard active: Daily drawdown limit reached. No trade executed.",
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "buy",
+        "confidence": 0.17076597166263488
+      },
+      "threshold": null,
+      "support": null,
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "buy",
+        "details": {
+          "M5": "buy"
+        }
+      },
+      "timing": {
+        "enabled": true,
+        "status": "timing_block",
+        "score": 25,
+        "side": "buy",
+        "missing": [
+          "tradable_location",
+          "strong_or_turning_m1_momentum",
+          "new_york_extra_momentum_confirmation",
+          "visual_confirmation",
+          "visual_tradable_location"
+        ],
+        "reasons": [
+          "entry_location_is_mid_range_or_unclear",
+          "m1_momentum_not_confirmed",
+          "new_york_recent_performance_requires_stronger_confirmation",
+          "continuous_visual_watch_does_not_confirm_setup",
+          "continuous_visual_watch_sees_mid_range"
+        ],
+        "observed": {
+          "location": "mid_range",
+          "momentum": "mixed",
+          "trend_state": "uptrend",
+          "trend_strength": 0.484,
+          "session": "new_york",
+          "setup_hint": "no_trade",
+          "top_loss_reason": "unknown",
+          "visual_watch_used": true,
+          "visual_confirmation": "does_not_confirm",
+          "visual_direction": "down",
+          "visual_location": "mid_range",
+          "visual_momentum": "strong"
+        },
+        "requirements": [
+          "fresh_entry_or_retest",
+          "strong_or_turning_m1_momentum",
+          "avoid_mid_range",
+          "structure_hold_for_continuation",
+          "sweep_rejection_or_structure_reclaim_when_stop_hunt_risk_is_dominant"
+        ],
+        "hard_block": true,
+        "passed": false,
+        "check": "timing_discipline",
+        "reason_code": "AWAITING_TRADABLE_LOCATION",
+        "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, New York momentum confirmation, visual confirmation, and visual tradable location missing (location=mid_range, momentum=mixed, session=new_york).",
+        "condition_values": {
+          "side": "buy",
+          "score": 25,
+          "missing": [
+            "tradable_location",
+            "strong_or_turning_m1_momentum",
+            "new_york_extra_momentum_confirmation",
+            "visual_confirmation",
+            "visual_tradable_location"
+          ],
+          "reasons": [
+            "entry_location_is_mid_range_or_unclear",
+            "m1_momentum_not_confirmed",
+            "new_york_recent_performance_requires_stronger_confirmation",
+            "continuous_visual_watch_does_not_confirm_setup",
+            "continuous_visual_watch_sees_mid_range"
+          ],
+          "observed": {
+            "location": "mid_range",
+            "momentum": "mixed",
+            "trend_state": "uptrend",
+            "trend_strength": 0.484,
+            "session": "new_york",
+            "setup_hint": "no_trade",
+            "top_loss_reason": "unknown",
+            "visual_watch_used": true,
+            "visual_confirmation": "does_not_confirm",
+            "visual_direction": "down",
+            "visual_location": "mid_range",
+            "visual_momentum": "strong"
+          }
+        },
+        "checked_at": "2026-10-08T17:14:47.973374+00:00",
+        "structured_result": {
+          "schema": "atlas_timing_discipline_result_v1",
+          "passed": false,
+          "check": "timing_discipline",
+          "reason_code": "AWAITING_TRADABLE_LOCATION",
+          "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, New York momentum confirmation, visual confirmation, and visual tradable location missing (location=mid_range, momentum=mixed, session=new_york).",
+          "condition_values": {
+            "side": "buy",
+            "score": 25,
+            "missing": [
+              "tradable_location",
+              "strong_or_turning_m1_momentum",
+              "new_york_extra_momentum_confirmation",
+              "visual_confirmation",
+              "visual_tradable_location"
+            ],
+            "reasons": [
+              "entry_location_is_mid_range_or_unclear",
+              "m1_momentum_not_confirmed",
+              "new_york_recent_performance_requires_stronger_confirmation",
+              "continuous_visual_watch_does_not_confirm_setup",
+              "continuous_visual_watch_sees_mid_range"
+            ],
+            "observed": {
+              "location": "mid_range",
+              "momentum": "mixed",
+              "trend_state": "uptrend",
+              "trend_strength": 0.484,
+              "session": "new_york",
+              "setup_hint": "no_trade",
+              "top_loss_reason": "unknown",
+              "visual_watch_used": true,
+              "visual_confirmation": "does_not_confirm",
+              "visual_direction": "down",
+              "visual_location": "mid_range",
+              "visual_momentum": "strong"
+            }
+          },
+          "checked_at": "2026-10-08T17:14:47.973374+00:00"
+        },
+        "recommendation": "wait_for_clean_timing_confirmation",
+        "policy": {
+          "bounded_timing_gate": true,
+          "does_not_change_risk_policy": true,
+          "does_not_lower_thresholds": true,
+          "does_not_force_entries": true,
+          "operator_requested": true
+        }
+      }
+    },
+    "all_retained:execution_gate": {
+      "time": "2026-05-13T19:14:24.180077+00:00",
+      "message": "Execution blocked for sell via evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0): approval_missing",
+      "chosen": {
+        "strategy": "evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0)",
+        "side": "sell",
+        "confidence": 0.47896199999999994
+      },
+      "threshold": null,
+      "support": null,
+      "htf": {
+        "confirm_tf": "M5",
+        "bias": "sell"
+      },
+      "timing": null
+    },
+    "before_cutoff:execution_gate": {
+      "time": "2026-05-13T19:14:24.180077+00:00",
+      "message": "Execution blocked for sell via evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0): approval_missing",
+      "chosen": {
+        "strategy": "evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0)",
+        "side": "sell",
+        "confidence": 0.47896199999999994
+      },
+      "threshold": null,
+      "support": null,
+      "htf": {
+        "confirm_tf": "M5",
+        "bias": "sell"
+      },
+      "timing": null
+    },
+    "all_retained:timing_discipline": {
+      "time": "2026-10-14T09:22:58.238033+00:00",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=mixed, session=london).",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.53
+      },
+      "threshold": null,
+      "support": null,
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "sell",
+        "details": {
+          "M5": "sell"
+        }
+      },
+      "timing": {
+        "enabled": true,
+        "status": "timing_block",
+        "score": 25,
+        "side": "sell",
+        "missing": [
+          "tradable_location",
+          "strong_or_turning_m1_momentum",
+          "visual_confirmation"
+        ],
+        "reasons": [
+          "entry_location_is_mid_range_or_unclear",
+          "m1_momentum_not_confirmed",
+          "continuous_visual_watch_does_not_confirm_setup"
+        ],
+        "observed": {
+          "location": "mid_range",
+          "momentum": "mixed",
+          "trend_state": "uptrend",
+          "trend_strength": 0.1775,
+          "session": "london",
+          "setup_hint": "no_trade",
+          "top_loss_reason": "unknown",
+          "visual_watch_used": true,
+          "visual_confirmation": "does_not_confirm",
+          "visual_direction": "down",
+          "visual_location": "pullback",
+          "visual_momentum": "strong"
+        },
+        "requirements": [
+          "fresh_entry_or_retest",
+          "strong_or_turning_m1_momentum",
+          "avoid_mid_range",
+          "structure_hold_for_continuation",
+          "sweep_rejection_or_structure_reclaim_when_stop_hunt_risk_is_dominant"
+        ],
+        "hard_block": true,
+        "passed": false,
+        "check": "timing_discipline",
+        "reason_code": "AWAITING_TRADABLE_LOCATION",
+        "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=mixed, session=london).",
+        "condition_values": {
+          "side": "sell",
+          "score": 25,
+          "missing": [
+            "tradable_location",
+            "strong_or_turning_m1_momentum",
+            "visual_confirmation"
+          ],
+          "reasons": [
+            "entry_location_is_mid_range_or_unclear",
+            "m1_momentum_not_confirmed",
+            "continuous_visual_watch_does_not_confirm_setup"
+          ],
+          "observed": {
+            "location": "mid_range",
+            "momentum": "mixed",
+            "trend_state": "uptrend",
+            "trend_strength": 0.1775,
+            "session": "london",
+            "setup_hint": "no_trade",
+            "top_loss_reason": "unknown",
+            "visual_watch_used": true,
+            "visual_confirmation": "does_not_confirm",
+            "visual_direction": "down",
+            "visual_location": "pullback",
+            "visual_momentum": "strong"
+          }
+        },
+        "checked_at": "2026-10-14T09:22:58.226021+00:00",
+        "structured_result": {
+          "schema": "atlas_timing_discipline_result_v1",
+          "passed": false,
+          "check": "timing_discipline",
+          "reason_code": "AWAITING_TRADABLE_LOCATION",
+          "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=mixed, session=london).",
+          "condition_values": {
+            "side": "sell",
+            "score": 25,
+            "missing": [
+              "tradable_location",
+              "strong_or_turning_m1_momentum",
+              "visual_confirmation"
+            ],
+            "reasons": [
+              "entry_location_is_mid_range_or_unclear",
+              "m1_momentum_not_confirmed",
+              "continuous_visual_watch_does_not_confirm_setup"
+            ],
+            "observed": {
+              "location": "mid_range",
+              "momentum": "mixed",
+              "trend_state": "uptrend",
+              "trend_strength": 0.1775,
+              "session": "london",
+              "setup_hint": "no_trade",
+              "top_loss_reason": "unknown",
+              "visual_watch_used": true,
+              "visual_confirmation": "does_not_confirm",
+              "visual_direction": "down",
+              "visual_location": "pullback",
+              "visual_momentum": "strong"
+            }
+          },
+          "checked_at": "2026-10-14T09:22:58.226021+00:00"
+        },
+        "recommendation": "wait_for_clean_timing_confirmation",
+        "policy": {
+          "bounded_timing_gate": true,
+          "does_not_change_risk_policy": true,
+          "does_not_lower_thresholds": true,
+          "does_not_force_entries": true,
+          "operator_requested": true
+        }
+      }
+    },
+    "before_cutoff:timing_discipline": {
+      "time": "2026-10-13T19:04:30.024130+00:00",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, New York momentum confirmation, visual confirmation, and visual directional impulse missing (location=mid_range, momentum=weak, session=new_york).",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "buy",
+        "confidence": 0.67
+      },
+      "threshold": null,
+      "support": null,
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "buy",
+        "details": {
+          "M5": "buy"
+        }
+      },
+      "timing": {
+        "enabled": true,
+        "status": "timing_block",
+        "score": 25,
+        "side": "buy",
+        "missing": [
+          "tradable_location",
+          "strong_or_turning_m1_momentum",
+          "new_york_extra_momentum_confirmation",
+          "visual_confirmation",
+          "visual_directional_impulse"
+        ],
+        "reasons": [
+          "entry_location_is_mid_range_or_unclear",
+          "m1_momentum_not_confirmed",
+          "new_york_recent_performance_requires_stronger_confirmation",
+          "continuous_visual_watch_does_not_confirm_setup",
+          "continuous_visual_watch_sees_sideways_action"
+        ],
+        "observed": {
+          "location": "mid_range",
+          "momentum": "weak",
+          "trend_state": "range",
+          "trend_strength": 0.2036,
+          "session": "new_york",
+          "setup_hint": "consolidation",
+          "top_loss_reason": "unknown",
+          "visual_watch_used": true,
+          "visual_confirmation": "does_not_confirm",
+          "visual_direction": "sideways",
+          "visual_location": "edge",
+          "visual_momentum": "strong"
+        },
+        "requirements": [
+          "fresh_entry_or_retest",
+          "strong_or_turning_m1_momentum",
+          "avoid_mid_range",
+          "structure_hold_for_continuation",
+          "sweep_rejection_or_structure_reclaim_when_stop_hunt_risk_is_dominant"
+        ],
+        "hard_block": true,
+        "passed": false,
+        "check": "timing_discipline",
+        "reason_code": "AWAITING_TRADABLE_LOCATION",
+        "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, New York momentum confirmation, visual confirmation, and visual directional impulse missing (location=mid_range, momentum=weak, session=new_york).",
+        "condition_values": {
+          "side": "buy",
+          "score": 25,
+          "missing": [
+            "tradable_location",
+            "strong_or_turning_m1_momentum",
+            "new_york_extra_momentum_confirmation",
+            "visual_confirmation",
+            "visual_directional_impulse"
+          ],
+          "reasons": [
+            "entry_location_is_mid_range_or_unclear",
+            "m1_momentum_not_confirmed",
+            "new_york_recent_performance_requires_stronger_confirmation",
+            "continuous_visual_watch_does_not_confirm_setup",
+            "continuous_visual_watch_sees_sideways_action"
+          ],
+          "observed": {
+            "location": "mid_range",
+            "momentum": "weak",
+            "trend_state": "range",
+            "trend_strength": 0.2036,
+            "session": "new_york",
+            "setup_hint": "consolidation",
+            "top_loss_reason": "unknown",
+            "visual_watch_used": true,
+            "visual_confirmation": "does_not_confirm",
+            "visual_direction": "sideways",
+            "visual_location": "edge",
+            "visual_momentum": "strong"
+          }
+        },
+        "checked_at": "2026-10-13T19:04:26.191072+00:00",
+        "structured_result": {
+          "schema": "atlas_timing_discipline_result_v1",
+          "passed": false,
+          "check": "timing_discipline",
+          "reason_code": "AWAITING_TRADABLE_LOCATION",
+          "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, New York momentum confirmation, visual confirmation, and visual directional impulse missing (location=mid_range, momentum=weak, session=new_york).",
+          "condition_values": {
+            "side": "buy",
+            "score": 25,
+            "missing": [
+              "tradable_location",
+              "strong_or_turning_m1_momentum",
+              "new_york_extra_momentum_confirmation",
+              "visual_confirmation",
+              "visual_directional_impulse"
+            ],
+            "reasons": [
+              "entry_location_is_mid_range_or_unclear",
+              "m1_momentum_not_confirmed",
+              "new_york_recent_performance_requires_stronger_confirmation",
+              "continuous_visual_watch_does_not_confirm_setup",
+              "continuous_visual_watch_sees_sideways_action"
+            ],
+            "observed": {
+              "location": "mid_range",
+              "momentum": "weak",
+              "trend_state": "range",
+              "trend_strength": 0.2036,
+              "session": "new_york",
+              "setup_hint": "consolidation",
+              "top_loss_reason": "unknown",
+              "visual_watch_used": true,
+              "visual_confirmation": "does_not_confirm",
+              "visual_direction": "sideways",
+              "visual_location": "edge",
+              "visual_momentum": "strong"
+            }
+          },
+          "checked_at": "2026-10-13T19:04:26.191072+00:00"
+        },
+        "recommendation": "wait_for_clean_timing_confirmation",
+        "policy": {
+          "bounded_timing_gate": true,
+          "does_not_change_risk_policy": true,
+          "does_not_lower_thresholds": true,
+          "does_not_force_entries": true,
+          "operator_requested": true
+        }
+      }
+    },
+    "since_cutoff:htf_alignment": {
+      "time": "2026-10-14T06:48:54.212763+00:00",
+      "message": "Higher-timeframe alignment required: chosen=buy, htf_bias=sell.",
+      "chosen": {
+        "strategy": "gold_liquidity_sweep",
+        "side": "buy",
+        "confidence": 0.49766291525571715
+      },
+      "threshold": null,
+      "support": null,
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "sell",
+        "details": {
+          "M5": "sell"
+        },
+        "penalty_applied": true
+      },
+      "timing": {
+        "enabled": true,
+        "status": "timing_block",
+        "score": 25,
+        "side": "buy",
+        "missing": [
+          "tradable_location",
+          "strong_or_turning_m1_momentum",
+          "visual_confirmation",
+          "visual_tradable_location"
+        ],
+        "reasons": [
+          "entry_location_is_mid_range_or_unclear",
+          "m1_momentum_not_confirmed",
+          "continuous_visual_watch_does_not_confirm_setup",
+          "continuous_visual_watch_sees_mid_range"
+        ],
+        "observed": {
+          "location": "mid_range",
+          "momentum": "weak",
+          "trend_state": "downtrend",
+          "trend_strength": 0.1698,
+          "session": "asia",
+          "setup_hint": "breakout",
+          "top_loss_reason": "unknown",
+          "visual_watch_used": true,
+          "visual_confirmation": "does_not_confirm",
+          "visual_direction": "down",
+          "visual_location": "mid_range",
+          "visual_momentum": "strong"
+        },
+        "requirements": [
+          "fresh_entry_or_retest",
+          "strong_or_turning_m1_momentum",
+          "avoid_mid_range",
+          "structure_hold_for_continuation",
+          "sweep_rejection_or_structure_reclaim_when_stop_hunt_risk_is_dominant"
+        ],
+        "hard_block": true,
+        "passed": false,
+        "check": "timing_discipline",
+        "reason_code": "AWAITING_TRADABLE_LOCATION",
+        "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=weak, session=asia).",
+        "condition_values": {
+          "side": "buy",
+          "score": 25,
+          "missing": [
+            "tradable_location",
+            "strong_or_turning_m1_momentum",
+            "visual_confirmation",
+            "visual_tradable_location"
+          ],
+          "reasons": [
+            "entry_location_is_mid_range_or_unclear",
+            "m1_momentum_not_confirmed",
+            "continuous_visual_watch_does_not_confirm_setup",
+            "continuous_visual_watch_sees_mid_range"
+          ],
+          "observed": {
+            "location": "mid_range",
+            "momentum": "weak",
+            "trend_state": "downtrend",
+            "trend_strength": 0.1698,
+            "session": "asia",
+            "setup_hint": "breakout",
+            "top_loss_reason": "unknown",
+            "visual_watch_used": true,
+            "visual_confirmation": "does_not_confirm",
+            "visual_direction": "down",
+            "visual_location": "mid_range",
+            "visual_momentum": "strong"
+          }
+        },
+        "checked_at": "2026-10-14T06:48:54.194616+00:00",
+        "structured_result": {
+          "schema": "atlas_timing_discipline_result_v1",
+          "passed": false,
+          "check": "timing_discipline",
+          "reason_code": "AWAITING_TRADABLE_LOCATION",
+          "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, visual confirmation, and visual tradable location missing (location=mid_range, momentum=weak, session=asia).",
+          "condition_values": {
+            "side": "buy",
+            "score": 25,
+            "missing": [
+              "tradable_location",
+              "strong_or_turning_m1_momentum",
+              "visual_confirmation",
+              "visual_tradable_location"
+            ],
+            "reasons": [
+              "entry_location_is_mid_range_or_unclear",
+              "m1_momentum_not_confirmed",
+              "continuous_visual_watch_does_not_confirm_setup",
+              "continuous_visual_watch_sees_mid_range"
+            ],
+            "observed": {
+              "location": "mid_range",
+              "momentum": "weak",
+              "trend_state": "downtrend",
+              "trend_strength": 0.1698,
+              "session": "asia",
+              "setup_hint": "breakout",
+              "top_loss_reason": "unknown",
+              "visual_watch_used": true,
+              "visual_confirmation": "does_not_confirm",
+              "visual_direction": "down",
+              "visual_location": "mid_range",
+              "visual_momentum": "strong"
+            }
+          },
+          "checked_at": "2026-10-14T06:48:54.194616+00:00"
+        },
+        "recommendation": "wait_for_clean_timing_confirmation",
+        "policy": {
+          "bounded_timing_gate": true,
+          "does_not_change_risk_policy": true,
+          "does_not_lower_thresholds": true,
+          "does_not_force_entries": true,
+          "operator_requested": true
+        }
+      }
+    },
+    "since_cutoff:timing_discipline": {
+      "time": "2026-10-14T09:22:58.238033+00:00",
+      "message": "Timing discipline blocked trade: Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=mixed, session=london).",
+      "chosen": {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "sell",
+        "confidence": 0.53
+      },
+      "threshold": null,
+      "support": null,
+      "htf": {
+        "confirm_tf": "M5",
+        "context_tfs": [
+          "M5"
+        ],
+        "bias": "sell",
+        "details": {
+          "M5": "sell"
+        }
+      },
+      "timing": {
+        "enabled": true,
+        "status": "timing_block",
+        "score": 25,
+        "side": "sell",
+        "missing": [
+          "tradable_location",
+          "strong_or_turning_m1_momentum",
+          "visual_confirmation"
+        ],
+        "reasons": [
+          "entry_location_is_mid_range_or_unclear",
+          "m1_momentum_not_confirmed",
+          "continuous_visual_watch_does_not_confirm_setup"
+        ],
+        "observed": {
+          "location": "mid_range",
+          "momentum": "mixed",
+          "trend_state": "uptrend",
+          "trend_strength": 0.1775,
+          "session": "london",
+          "setup_hint": "no_trade",
+          "top_loss_reason": "unknown",
+          "visual_watch_used": true,
+          "visual_confirmation": "does_not_confirm",
+          "visual_direction": "down",
+          "visual_location": "pullback",
+          "visual_momentum": "strong"
+        },
+        "requirements": [
+          "fresh_entry_or_retest",
+          "strong_or_turning_m1_momentum",
+          "avoid_mid_range",
+          "structure_hold_for_continuation",
+          "sweep_rejection_or_structure_reclaim_when_stop_hunt_risk_is_dominant"
+        ],
+        "hard_block": true,
+        "passed": false,
+        "check": "timing_discipline",
+        "reason_code": "AWAITING_TRADABLE_LOCATION",
+        "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=mixed, session=london).",
+        "condition_values": {
+          "side": "sell",
+          "score": 25,
+          "missing": [
+            "tradable_location",
+            "strong_or_turning_m1_momentum",
+            "visual_confirmation"
+          ],
+          "reasons": [
+            "entry_location_is_mid_range_or_unclear",
+            "m1_momentum_not_confirmed",
+            "continuous_visual_watch_does_not_confirm_setup"
+          ],
+          "observed": {
+            "location": "mid_range",
+            "momentum": "mixed",
+            "trend_state": "uptrend",
+            "trend_strength": 0.1775,
+            "session": "london",
+            "setup_hint": "no_trade",
+            "top_loss_reason": "unknown",
+            "visual_watch_used": true,
+            "visual_confirmation": "does_not_confirm",
+            "visual_direction": "down",
+            "visual_location": "pullback",
+            "visual_momentum": "strong"
+          }
+        },
+        "checked_at": "2026-10-14T09:22:58.226021+00:00",
+        "structured_result": {
+          "schema": "atlas_timing_discipline_result_v1",
+          "passed": false,
+          "check": "timing_discipline",
+          "reason_code": "AWAITING_TRADABLE_LOCATION",
+          "detail": "Waiting for clean entry timing: tradable location, strong/turning M1 momentum, and visual confirmation missing (location=mid_range, momentum=mixed, session=london).",
+          "condition_values": {
+            "side": "sell",
+            "score": 25,
+            "missing": [
+              "tradable_location",
+              "strong_or_turning_m1_momentum",
+              "visual_confirmation"
+            ],
+            "reasons": [
+              "entry_location_is_mid_range_or_unclear",
+              "m1_momentum_not_confirmed",
+              "continuous_visual_watch_does_not_confirm_setup"
+            ],
+            "observed": {
+              "location": "mid_range",
+              "momentum": "mixed",
+              "trend_state": "uptrend",
+              "trend_strength": 0.1775,
+              "session": "london",
+              "setup_hint": "no_trade",
+              "top_loss_reason": "unknown",
+              "visual_watch_used": true,
+              "visual_confirmation": "does_not_confirm",
+              "visual_direction": "down",
+              "visual_location": "pullback",
+              "visual_momentum": "strong"
+            }
+          },
+          "checked_at": "2026-10-14T09:22:58.226021+00:00"
+        },
+        "recommendation": "wait_for_clean_timing_confirmation",
+        "policy": {
+          "bounded_timing_gate": true,
+          "does_not_change_risk_policy": true,
+          "does_not_lower_thresholds": true,
+          "does_not_force_entries": true,
+          "operator_requested": true
+        }
+      }
+    }
+  },
+  "execution_records": [
+    {
+      "time": "2026-05-12T15:02:41.135598+00:00",
+      "type": "decision_sample",
+      "message": "Captured live decision sample.",
+      "chosen": {},
+      "execution": null,
+      "strategy": "momentum_continuation"
+    },
+    {
+      "time": "2026-05-12T15:02:41.159859+00:00",
+      "type": "execution",
+      "message": "Execution failed for sell via momentum_continuation",
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "sell",
+        "confidence": 0.6478167696
+      },
+      "execution": {
+        "success": false,
+        "retcode": -5,
+        "comment": "approval_missing",
+        "decision_id": "9521c0ba",
+        "order_id": 0,
+        "deal_id": 0
+      },
+      "strategy": null
+    },
+    {
+      "time": "2026-05-12T15:23:16.870283+00:00",
+      "type": "decision_sample",
+      "message": "Captured live decision sample.",
+      "chosen": {},
+      "execution": null,
+      "strategy": "momentum_continuation"
+    },
+    {
+      "time": "2026-05-12T15:23:16.886777+00:00",
+      "type": "execution",
+      "message": "Execution failed for sell via momentum_continuation",
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "sell",
+        "confidence": 0.7638695064000002
+      },
+      "execution": {
+        "success": false,
+        "retcode": -5,
+        "comment": "approval_missing",
+        "decision_id": "6314efdc",
+        "order_id": 0,
+        "deal_id": 0
+      },
+      "strategy": null
+    },
+    {
+      "time": "2026-05-12T15:24:19.993803+00:00",
+      "type": "decision_sample",
+      "message": "Captured live decision sample.",
+      "chosen": {},
+      "execution": null,
+      "strategy": "momentum_continuation"
+    },
+    {
+      "time": "2026-05-12T15:24:20.009042+00:00",
+      "type": "execution",
+      "message": "Execution failed for sell via momentum_continuation",
+      "chosen": {
+        "strategy": "momentum_continuation",
+        "side": "sell",
+        "confidence": 0.8680335300000002
+      },
+      "execution": {
+        "success": false,
+        "retcode": -5,
+        "comment": "approval_missing",
+        "decision_id": "1b246f82",
+        "order_id": 0,
+        "deal_id": 0
+      },
+      "strategy": null
+    },
+    {
+      "time": "2026-05-12T17:34:27.092935+00:00",
+      "type": "decision_sample",
+      "message": "Captured live decision sample.",
+      "chosen": {},
+      "execution": null,
+      "strategy": "evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0)"
+    },
+    {
+      "time": "2026-05-12T17:34:27.107649+00:00",
+      "type": "execution",
+      "message": "Executed buy via evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0)",
+      "chosen": {
+        "strategy": "evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0)",
+        "side": "buy",
+        "confidence": 0.564543
+      },
+      "execution": {
+        "success": true,
+        "retcode": 0,
+        "comment": "filled",
+        "decision_id": "70ab8c5a",
+        "order_id": 0,
+        "deal_id": 0
+      },
+      "strategy": null
+    },
+    {
+      "time": "2026-05-12T18:07:25.343790+00:00",
+      "type": "decision_sample",
+      "message": "Captured live decision sample.",
+      "chosen": {},
+      "execution": null,
+      "strategy": "evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0)"
+    },
+    {
+      "time": "2026-05-12T18:07:25.351602+00:00",
+      "type": "execution",
+      "message": "Execution failed for buy via evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0)",
+      "chosen": {
+        "strategy": "evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0)",
+        "side": "buy",
+        "confidence": 0.44391600000000003
+      },
+      "execution": {
+        "success": false,
+        "retcode": -5,
+        "comment": "approval_missing",
+        "decision_id": "707e775b",
+        "order_id": 0,
+        "deal_id": 0
+      },
+      "strategy": null
+    },
+    {
+      "time": "2026-05-12T19:31:06.853991+00:00",
+      "type": "decision_sample",
+      "message": "Captured live decision sample.",
+      "chosen": {},
+      "execution": null,
+      "strategy": "gold_micro_impulse"
+    },
+    {
+      "time": "2026-05-12T19:31:06.868074+00:00",
+      "type": "execution",
+      "message": "Executed buy via gold_micro_impulse",
+      "chosen": {
+        "strategy": "gold_micro_impulse",
+        "side": "buy",
+        "confidence": 0.746235
+      },
+      "execution": {
+        "success": true,
+        "retcode": 0,
+        "comment": "filled",
+        "decision_id": "4666bf27",
+        "order_id": 0,
+        "deal_id": 0
+      },
+      "strategy": null
+    },
+    {
+      "time": "2026-05-12T19:54:39.972578+00:00",
+      "type": "decision_sample",
+      "message": "Captured live decision sample.",
+      "chosen": {},
+      "execution": null,
+      "strategy": "gold_micro_impulse"
+    },
+    {
+      "time": "2026-05-12T19:54:39.990253+00:00",
+      "type": "execution",
+      "message": "Execution failed for buy via gold_micro_impulse",
+      "chosen": {
+        "strategy": "gold_micro_impulse",
+        "side": "buy",
+        "confidence": 0.6705300000000001
+      },
+      "execution": {
+        "success": false,
+        "retcode": -5,
+        "comment": "near_session_close_no_new_trades",
+        "decision_id": "ef1d2b60",
+        "order_id": 0,
+        "deal_id": 0
+      },
+      "strategy": null
+    },
+    {
+      "time": "2026-05-13T16:35:14.317916+00:00",
+      "type": "decision_sample",
+      "message": "Captured live decision sample.",
+      "chosen": {},
+      "execution": null,
+      "strategy": "gold_liquidity_sweep"
+    },
+    {
+      "time": "2026-05-13T16:35:14.327293+00:00",
+      "type": "execution",
+      "message": "Execution failed for buy via gold_liquidity_sweep",
+      "chosen": {
+        "strategy": "gold_liquidity_sweep",
+        "side": "buy",
+        "confidence": 0.6326775000000001
+      },
+      "execution": {
+        "success": false,
+        "retcode": -5,
+        "comment": "tiny_live_pilot_setup_restricted",
+        "decision_id": "54bd68bb",
+        "order_id": 0,
+        "deal_id": 0
+      },
+      "strategy": null
+    },
+    {
+      "time": "2026-05-13T16:39:19.287808+00:00",
+      "type": "decision_sample",
+      "message": "Captured live decision sample.",
+      "chosen": {},
+      "execution": null,
+      "strategy": "evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0)"
+    },
+    {
+      "time": "2026-05-13T16:39:19.299389+00:00",
+      "type": "execution",
+      "message": "Executed buy via evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0)",
+      "chosen": {
+        "strategy": "evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0)",
+        "side": "buy",
+        "confidence": 0.5742765000000001
+      },
+      "execution": {
+        "success": true,
+        "retcode": 0,
+        "comment": "filled",
+        "decision_id": "cd53f868",
+        "order_id": 0,
+        "deal_id": 0
+      },
+      "strategy": null
+    },
+    {
+      "time": "2026-05-13T16:39:59.492767+00:00",
+      "type": "decision_sample",
+      "message": "Captured live decision sample.",
+      "chosen": {},
+      "execution": null,
+      "strategy": "evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0)"
+    },
+    {
+      "time": "2026-05-13T16:39:59.515502+00:00",
+      "type": "execution",
+      "message": "Execution failed for buy via evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0)",
+      "chosen": {
+        "strategy": "evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0)",
+        "side": "buy",
+        "confidence": 0.47700000000000004
+      },
+      "execution": {
+        "success": false,
+        "retcode": -5,
+        "comment": "approval_missing",
+        "decision_id": "a9150795",
+        "order_id": 0,
+        "deal_id": 0
+      },
+      "strategy": null
+    },
+    {
+      "time": "2026-05-13T17:25:37.437024+00:00",
+      "type": "decision_sample",
+      "message": "Captured live decision sample.",
+      "chosen": {},
+      "execution": null,
+      "strategy": "evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0)"
+    },
+    {
+      "time": "2026-05-13T17:25:37.452615+00:00",
+      "type": "execution",
+      "message": "Execution failed for sell via evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0)",
+      "chosen": {
+        "strategy": "evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0)",
+        "side": "sell",
+        "confidence": 0.4635417599999999
+      },
+      "execution": {
+        "success": false,
+        "retcode": -5,
+        "comment": "approval_missing",
+        "decision_id": "842da30f",
+        "order_id": 0,
+        "deal_id": 0
+      },
+      "strategy": null
+    },
+    {
+      "time": "2026-05-13T18:10:15.269473+00:00",
+      "type": "decision_sample",
+      "message": "Captured live decision sample.",
+      "chosen": {},
+      "execution": null,
+      "strategy": "evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0)"
+    },
+    {
+      "time": "2026-05-13T18:10:15.279905+00:00",
+      "type": "execution",
+      "message": "Executed sell via evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0)",
+      "chosen": {
+        "strategy": "evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0)",
+        "side": "sell",
+        "confidence": 0.5742765000000001
+      },
+      "execution": {
+        "success": true,
+        "retcode": 0,
+        "comment": "filled",
+        "decision_id": "f32936ee",
+        "order_id": 0,
+        "deal_id": 0
+      },
+      "strategy": null
+    },
+    {
+      "time": "2026-05-13T18:31:31.305529+00:00",
+      "type": "decision_sample",
+      "message": "Captured live decision sample.",
+      "chosen": {},
+      "execution": null,
+      "strategy": "evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0)"
+    },
+    {
+      "time": "2026-05-13T18:31:31.310618+00:00",
+      "type": "execution",
+      "message": "Execution blocked for sell via evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0): approval_missing",
+      "chosen": {
+        "strategy": "evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0)",
+        "side": "sell",
+        "confidence": 0.46728
+      },
+      "execution": {
+        "success": false,
+        "retcode": -5,
+        "comment": "approval_missing",
+        "decision_id": "5769ca29",
+        "order_id": 0,
+        "deal_id": 0
+      },
+      "strategy": null
+    },
+    {
+      "time": "2026-05-13T19:13:23.826543+00:00",
+      "type": "decision_sample",
+      "message": "Captured live decision sample.",
+      "chosen": {},
+      "execution": null,
+      "strategy": "evolved_rule(fast=21,slow=86,rsi_buy=45.9,rsi_sell=58.2)"
+    },
+    {
+      "time": "2026-05-13T19:13:23.841557+00:00",
+      "type": "execution",
+      "message": "Executed sell via evolved_rule(fast=21,slow=86,rsi_buy=45.9,rsi_sell=58.2)",
+      "chosen": {
+        "strategy": "evolved_rule(fast=21,slow=86,rsi_buy=45.9,rsi_sell=58.2)",
+        "side": "sell",
+        "confidence": 0.58821525
+      },
+      "execution": {
+        "success": true,
+        "retcode": 0,
+        "comment": "filled",
+        "decision_id": "6fe4768c",
+        "order_id": 0,
+        "deal_id": 0,
+        "broker_order_id": "100951967"
+      },
+      "strategy": null
+    },
+    {
+      "time": "2026-05-13T19:14:24.166585+00:00",
+      "type": "decision_sample",
+      "message": "Captured live decision sample.",
+      "chosen": {},
+      "execution": null,
+      "strategy": "evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0)"
+    },
+    {
+      "time": "2026-05-13T19:14:24.180077+00:00",
+      "type": "execution",
+      "message": "Execution blocked for sell via evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0): approval_missing",
+      "chosen": {
+        "strategy": "evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0)",
+        "side": "sell",
+        "confidence": 0.47896199999999994
+      },
+      "execution": {
+        "success": false,
+        "retcode": -5,
+        "comment": "approval_missing",
+        "decision_id": "31f144bd",
+        "order_id": 0,
+        "deal_id": 0,
+        "broker_order_id": ""
+      },
+      "strategy": null
+    }
+  ],
+  "recent_errors": [
+    {
+      "time": "2026-09-25T08:56:15.983727+00:00",
+      "message": "Live cycle failed: Failed to fetch MT5 rates: MT5 initialize failed: (-6, 'Terminal: Authorization failed')"
+    },
+    {
+      "time": "2026-09-25T08:57:34.325278+00:00",
+      "message": "Live cycle failed: Failed to fetch MT5 rates: MT5 initialize failed: (-6, 'Terminal: Authorization failed')"
+    },
+    {
+      "time": "2026-09-25T08:58:57.168342+00:00",
+      "message": "Live cycle failed: Failed to fetch MT5 rates: MT5 initialize failed: (-6, 'Terminal: Authorization failed')"
+    },
+    {
+      "time": "2026-09-25T09:00:15.517994+00:00",
+      "message": "Live cycle failed: Failed to fetch MT5 rates: MT5 initialize failed: (-6, 'Terminal: Authorization failed')"
+    },
+    {
+      "time": "2026-09-25T09:01:34.456407+00:00",
+      "message": "Live cycle failed: Failed to fetch MT5 rates: MT5 initialize failed: (-6, 'Terminal: Authorization failed')"
+    },
+    {
+      "time": "2026-09-25T09:02:52.778147+00:00",
+      "message": "Live cycle failed: Failed to fetch MT5 rates: MT5 initialize failed: (-6, 'Terminal: Authorization failed')"
+    },
+    {
+      "time": "2026-09-25T09:04:11.075913+00:00",
+      "message": "Live cycle failed: Failed to fetch MT5 rates: MT5 initialize failed: (-6, 'Terminal: Authorization failed')"
+    },
+    {
+      "time": "2026-09-25T09:05:29.427272+00:00",
+      "message": "Live cycle failed: Failed to fetch MT5 rates: MT5 initialize failed: (-6, 'Terminal: Authorization failed')"
+    },
+    {
+      "time": "2026-09-25T09:06:47.709307+00:00",
+      "message": "Live cycle failed: Failed to fetch MT5 rates: MT5 initialize failed: (-6, 'Terminal: Authorization failed')"
+    },
+    {
+      "time": "2026-09-25T09:08:06.038355+00:00",
+      "message": "Live cycle failed: Failed to fetch MT5 rates: MT5 initialize failed: (-6, 'Terminal: Authorization failed')"
+    },
+    {
+      "time": "2026-09-25T09:09:24.380473+00:00",
+      "message": "Live cycle failed: Failed to fetch MT5 rates: MT5 initialize failed: (-6, 'Terminal: Authorization failed')"
+    },
+    {
+      "time": "2026-09-25T09:10:42.719410+00:00",
+      "message": "Live cycle failed: Failed to fetch MT5 rates: MT5 initialize failed: (-6, 'Terminal: Authorization failed')"
+    },
+    {
+      "time": "2026-09-25T09:12:01.033113+00:00",
+      "message": "Live cycle failed: Failed to fetch MT5 rates: MT5 initialize failed: (-6, 'Terminal: Authorization failed')"
+    },
+    {
+      "time": "2026-09-25T09:13:22.106100+00:00",
+      "message": "Live cycle failed: Failed to fetch MT5 rates: MT5 initialize failed: (-6, 'Terminal: Authorization failed')"
+    },
+    {
+      "time": "2026-09-29T04:51:16.713411+00:00",
+      "message": "Broker startup failed: MT5 initialize failed after retries. Install/open HFM terminal, verify HFM_TERMINAL_PATH, and keep only one MT5 instance for this account. MT5 error: (-6, 'Terminal: Authorization failed')"
+    }
+  ],
+  "learning": {
+    "updated_at": "2026-10-14T09:52:59.192479+00:00",
+    "keys": [
+      "allocator",
+      "learning_playbook",
+      "loss_memory",
+      "win_memory",
+      "best_evolved_strategy",
+      "evolved_strategy_pool",
+      "meta_model",
+      "model_registry",
+      "trade_outcome_intelligence",
+      "m1_training_summary",
+      "historical_loss_analysis",
+      "online_learning",
+      "loss_to_win_playbook",
+      "historical_winner_analysis",
+      "winner_playbook"
+    ],
+    "loss_memory": {
+      "processed_deals": 114,
+      "side_hour_stats": 63,
+      "recent_outcomes": 199,
+      "pattern_lessons": 20,
+      "lesson_backfill": 8,
+      "quarantined_non_atlas_deals": 500,
+      "excluded_manual_test_outcomes": 1,
+      "quarantine_summary": 4,
+      "definitions": 3
+    },
+    "win_memory": {
+      "processed_deals": 37,
+      "context_stats": 21,
+      "recent_wins": 37
+    },
+    "allocator": {
+      "ema_crossover": 3,
+      "rsi_mean_reversion": 3,
+      "breakout": 3,
+      "candlestick_patterns": 3,
+      "macd_trend": 3,
+      "bollinger_mean_reversion": 3,
+      "stochastic_reversal": 3,
+      "vwap_proxy_reversion": 3,
+      "momentum_continuation": 3,
+      "pullback_trend": 3,
+      "rsi_trend_hybrid": 3,
+      "evolved_rule": 3,
+      "gold_micro_impulse": 3,
+      "gold_liquidity_sweep": 3,
+      "gold_micro_structure_reversion": 3,
+      "evolved_rule(fast=12,slow=79,rsi_buy=40.7,rsi_sell=57.1)": 3,
+      "evolved_rule(fast=11,slow=80,rsi_buy=42.2,rsi_sell=56.4)": 3,
+      "evolved_rule(fast=10,slow=81,rsi_buy=40.3,rsi_sell=57.4)": 3,
+      "evolved_rule(fast=8,slow=79,rsi_buy=40.8,rsi_sell=56.1)": 3,
+      "evolved_rule(fast=16,slow=56,rsi_buy=47.8,rsi_sell=64.9)": 3,
+      "evolved_rule(fast=13,slow=59,rsi_buy=48.2,rsi_sell=63.4)": 3,
+      "evolved_rule(fast=20,slow=55,rsi_buy=47.9,rsi_sell=63.0)": 3,
+      "evolved_rule(fast=18,slow=52,rsi_buy=47.9,rsi_sell=63.9)": 3,
+      "evolved_rule(fast=13,slow=82,rsi_buy=47.7,rsi_sell=40.0)": 3,
+      "evolved_rule(fast=13,slow=80,rsi_buy=50.4,rsi_sell=40.0)": 3,
+      "evolved_rule(fast=12,slow=82,rsi_buy=49.8,rsi_sell=40.0)": 3,
+      "evolved_rule(fast=12,slow=84,rsi_buy=48.6,rsi_sell=40.0)": 3,
+      "evolved_rule(fast=21,slow=86,rsi_buy=45.9,rsi_sell=58.2)": 3,
+      "evolved_rule(fast=21,slow=86,rsi_buy=46.0,rsi_sell=60.0)": 3,
+      "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)": 3,
+      "gold_breakout_retest": 3,
+      "evolved_mhr_hr": 3,
+      "mabr": 3
+    },
+    "meta_model": {
+      "version": "meta_20260404T112519Z",
+      "type": "hashed_logistic_v1",
+      "dataset_source": "decision_outcome_joined",
+      "joined_samples": 50,
+      "fallback_samples": 97,
+      "trained_samples": 40,
+      "eval_samples": 10,
+      "metrics": 3,
+      "walk_forward": 5,
+      "stability": 7,
+      "model": 2,
+      "status": "candidate"
+    },
+    "training": {},
+    "online_learning": {
+      "version": "bounded_online_learning_v1",
+      "allowed_influence": "bounded_confidence_haircut",
+      "latest": 17,
+      "recent_observations": 100,
+      "top_fingerprints": 7,
+      "lesson_digest": 6,
+      "policy_note": "Online learning may apply only bounded confidence haircuts when explicitly eligible; live trading behavior remains controlled by existing strategies, risk policy, and ExecutionGate.",
+      "updated_at": "2026-05-21T15:09:57.690129+00:00"
+    }
+  }
+}

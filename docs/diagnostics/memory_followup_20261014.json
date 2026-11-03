@@ -1,0 +1,166 @@
+{
+  "captured_at": "2026-10-14T03:58:00.227847+00:00",
+  "heartbeat": {
+    "schema": "atlas_backend_heartbeat_v1",
+    "component": "backend_trader",
+    "last_heartbeat": "2026-10-14T03:57:29.845426+00:00",
+    "last_heartbeat_ts": 1791950249.8454268,
+    "mode": "live",
+    "pid": 21440,
+    "cycle_count": 33687,
+    "cycle_status": "running"
+  },
+  "heartbeat_age_seconds": 30.38,
+  "processes": [
+    {
+      "pid": 3204,
+      "ppid": 21384,
+      "args": [
+        "C:\\Users\\User\\Desktop\\Atlas AI\\.venv\\Scripts\\python.exe",
+        "-m",
+        "atlas_ai.main",
+        "ui-server"
+      ],
+      "started_at": "2026-10-13T03:29:23.514241+00:00",
+      "private_MiB": 0.72,
+      "resident_MiB": 0.02
+    },
+    {
+      "pid": 6008,
+      "ppid": 20268,
+      "args": [
+        "C:\\Users\\User\\Desktop\\Atlas AI\\.venv\\Scripts\\python.exe",
+        "-m",
+        "atlas_ai.main",
+        "live",
+        "--poll-seconds",
+        "60",
+        "--mode-override",
+        "live"
+      ],
+      "started_at": "2026-10-13T19:24:22.525111+00:00",
+      "private_MiB": 0.73,
+      "resident_MiB": 0.02
+    },
+    {
+      "pid": 8576,
+      "ppid": 2768,
+      "args": [
+        "C:\\Users\\User\\Desktop\\Atlas AI\\.venv\\Scripts\\pythonw.exe",
+        "tools\\backend_heartbeat_watchdog.py"
+      ],
+      "started_at": "2026-10-13T19:24:35.458593+00:00",
+      "private_MiB": 1.02,
+      "resident_MiB": 0.02
+    },
+    {
+      "pid": 9044,
+      "ppid": 3204,
+      "args": [
+        "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "-m",
+        "atlas_ai.main",
+        "ui-server"
+      ],
+      "started_at": "2026-10-13T03:29:23.609732+00:00",
+      "private_MiB": 312.02,
+      "resident_MiB": 8.71
+    },
+    {
+      "pid": 12212,
+      "ppid": 8576,
+      "args": [
+        "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\pythonw.exe",
+        "tools\\backend_heartbeat_watchdog.py"
+      ],
+      "started_at": "2026-10-13T19:24:35.488739+00:00",
+      "private_MiB": 251.9,
+      "resident_MiB": 6.85
+    },
+    {
+      "pid": 21440,
+      "ppid": 6008,
+      "args": [
+        "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "-m",
+        "atlas_ai.main",
+        "live",
+        "--poll-seconds",
+        "60",
+        "--mode-override",
+        "live"
+      ],
+      "started_at": "2026-10-13T19:24:22.657512+00:00",
+      "private_MiB": 406.3,
+      "resident_MiB": 169.45
+    }
+  ],
+  "http": [
+    {
+      "route": "/api/health",
+      "http": 200,
+      "seconds": 0.059,
+      "updated_at": null
+    },
+    {
+      "route": "/api/status/compact",
+      "http": 200,
+      "seconds": 0.472,
+      "updated_at": "2026-10-14T03:58:03.413007+00:00"
+    }
+  ],
+  "policy_source_changes": [],
+  "status": {
+    "updated_at": "2026-10-14T03:56:29.815423+00:00",
+    "execute_trades": true,
+    "effective_mode": "live",
+    "gate_execution_environment": "demo",
+    "thresholds": {
+      "confidence": 0.44,
+      "structure": 0.35,
+      "spread_max": 4.5
+    },
+    "chosen": {
+      "strategy": "momentum_continuation",
+      "side": "flat",
+      "confidence": 0.45,
+      "signal_confidence_seed": 0.0,
+      "stop_loss_points": 115.0,
+      "take_profit_points": 175.0
+    },
+    "message": "No directional trade signal selected.",
+    "risk": {
+      "equity": 110222.43,
+      "balance": 110222.43,
+      "daily_loss_pct": 0.0,
+      "open_positions": 0,
+      "spread_points": 34.0,
+      "trades_today": 0,
+      "consecutive_losses": 0,
+      "daily_profit_zar": 0.0,
+      "weekly_loss_pct": 0.0
+    },
+    "freshness_timing": {
+      "cycle_started_at": "2026-10-14T03:56:19.371300+00:00",
+      "ingest_started_at": "2026-10-14T03:56:19.371300+00:00",
+      "ingest_completed_at": "2026-10-14T03:56:22.851472+00:00",
+      "ingest_duration_ms": 3480.17,
+      "market_fetch": {
+        "started_at": "2026-10-14T03:56:22.729125+00:00",
+        "ended_at": "2026-10-14T03:56:22.851472+00:00",
+        "duration_ms": 122.35,
+        "retries": 0,
+        "retry_sleep_ms": 0.0,
+        "bars_requested": 1200,
+        "bars_received": 1200,
+        "ok": true,
+        "error": ""
+      },
+      "signal_generation_completed_at": "2026-10-14T03:56:22.949147+00:00",
+      "decision_pre_checks_completed_at": "2026-10-14T03:56:23.689275+00:00",
+      "cycle_elapsed_ms_before_gates": 4318.55,
+      "status_write_attempted_at": "2026-10-14T03:56:23.846391+00:00",
+      "backend_cycle_age_ms": 4475.09
+    }
+  }
+}

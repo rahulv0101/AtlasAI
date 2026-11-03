@@ -1,0 +1,314 @@
+{
+  "captured_at": "2026-10-13T07:08:40.579708+00:00",
+  "backend": {
+    "name": "python.exe",
+    "running": true,
+    "detail": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\python.exe -m atlas_ai.main live --poll-seconds 60 --mode-override live",
+    "pid": 25380
+  },
+  "ui": {
+    "name": "python.exe",
+    "running": true,
+    "detail": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python311\\python.exe -m atlas_ai.main ui-server",
+    "pid": 9044
+  },
+  "backend_health": {
+    "is_fresh": true,
+    "last_heartbeat": "2026-10-13T07:06:02.095794+00:00",
+    "seconds_since_heartbeat": 158,
+    "staleness_threshold_seconds": 450,
+    "cycle_count": 32783,
+    "status": "live"
+  },
+  "http": {
+    "ok": true,
+    "checks": [
+      {
+        "route": "/api/health",
+        "ok": true,
+        "elapsed_seconds": 0.188
+      },
+      {
+        "route": "/api/status/compact",
+        "ok": true,
+        "elapsed_seconds": 0.328
+      }
+    ]
+  },
+  "status": {
+    "updated_at": "2026-10-13T07:05:01.967023+00:00",
+    "timeframe": "M1",
+    "chosen": {
+      "strategy": "momentum_continuation",
+      "side": "flat",
+      "confidence": 0.45,
+      "signal_confidence_seed": 0.0,
+      "stop_loss_points": 115.0,
+      "take_profit_points": 175.0
+    },
+    "message": "No directional trade signal selected.",
+    "execute_trades": true,
+    "effective_mode": "live",
+    "gate_execution_environment": "demo",
+    "thresholds": {
+      "confidence": 0.44,
+      "structure": 0.35,
+      "spread_max": 4.5
+    },
+    "risk": {
+      "equity": 110222.43,
+      "balance": 110222.43,
+      "daily_loss_pct": 0.0,
+      "open_positions": 0,
+      "spread_points": 34.0,
+      "trades_today": 0,
+      "consecutive_losses": 0,
+      "daily_profit_zar": 0.0,
+      "weekly_loss_pct": 0.0
+    },
+    "signals": [
+      {
+        "strategy": "ema_crossover",
+        "side": "flat",
+        "confidence": 0.0
+      },
+      {
+        "strategy": "momentum_continuation",
+        "side": "flat",
+        "confidence": 0.0
+      },
+      {
+        "strategy": "pullback_trend",
+        "side": "flat",
+        "confidence": 0.0
+      },
+      {
+        "strategy": "gold_micro_impulse",
+        "side": "flat",
+        "confidence": 0.0
+      },
+      {
+        "strategy": "gold_breakout_retest",
+        "side": "flat",
+        "confidence": 0.0
+      },
+      {
+        "strategy": "gold_liquidity_sweep",
+        "side": "flat",
+        "confidence": 0.0
+      },
+      {
+        "strategy": "evolved_rule(fast=18,slow=87,rsi_buy=47.8,rsi_sell=56.9)",
+        "side": "flat",
+        "confidence": 0.0
+      },
+      {
+        "strategy": "evolved_mhr_hr",
+        "side": "flat",
+        "confidence": 0.0
+      }
+    ],
+    "timing_discipline": {
+      "enabled": true,
+      "status": "timing_clear_for_existing_gates",
+      "score": 25,
+      "side": "flat",
+      "missing": [
+        "tradable_location",
+        "strong_or_turning_m1_momentum",
+        "visual_confirmation",
+        "visual_momentum_confirmation"
+      ],
+      "reasons": [
+        "entry_location_is_mid_range_or_unclear",
+        "m1_momentum_not_confirmed",
+        "continuous_visual_watch_does_not_confirm_setup",
+        "continuous_visual_watch_lacks_momentum_confirmation"
+      ],
+      "observed": {
+        "location": "mid_range",
+        "momentum": "mixed",
+        "trend_state": "uptrend",
+        "trend_strength": 0.0339,
+        "session": "london",
+        "setup_hint": "no_trade",
+        "top_loss_reason": "unknown",
+        "visual_watch_used": true,
+        "visual_confirmation": "does_not_confirm",
+        "visual_direction": "down",
+        "visual_location": "pullback",
+        "visual_momentum": "weak"
+      },
+      "requirements": [
+        "fresh_entry_or_retest",
+        "strong_or_turning_m1_momentum",
+        "avoid_mid_range",
+        "structure_hold_for_continuation",
+        "sweep_rejection_or_structure_reclaim_when_stop_hunt_risk_is_dominant"
+      ],
+      "hard_block": false,
+      "passed": true,
+      "check": "timing_discipline",
+      "reason_code": null,
+      "detail": "Timing discipline passed: clean entry timing is present enough for existing gates (location=mid_range, momentum=mixed).",
+      "condition_values": {
+        "side": "flat",
+        "score": 25,
+        "missing": [
+          "tradable_location",
+          "strong_or_turning_m1_momentum",
+          "visual_confirmation",
+          "visual_momentum_confirmation"
+        ],
+        "reasons": [
+          "entry_location_is_mid_range_or_unclear",
+          "m1_momentum_not_confirmed",
+          "continuous_visual_watch_does_not_confirm_setup",
+          "continuous_visual_watch_lacks_momentum_confirmation"
+        ],
+        "observed": {
+          "location": "mid_range",
+          "momentum": "mixed",
+          "trend_state": "uptrend",
+          "trend_strength": 0.0339,
+          "session": "london",
+          "setup_hint": "no_trade",
+          "top_loss_reason": "unknown",
+          "visual_watch_used": true,
+          "visual_confirmation": "does_not_confirm",
+          "visual_direction": "down",
+          "visual_location": "pullback",
+          "visual_momentum": "weak"
+        }
+      },
+      "checked_at": "2026-10-13T07:04:23.438913+00:00",
+      "structured_result": {
+        "schema": "atlas_timing_discipline_result_v1",
+        "passed": true,
+        "check": "timing_discipline",
+        "reason_code": null,
+        "detail": "Timing discipline passed: clean entry timing is present enough for existing gates (location=mid_range, momentum=mixed).",
+        "condition_values": {
+          "side": "flat",
+          "score": 25,
+          "missing": [
+            "tradable_location",
+            "strong_or_turning_m1_momentum",
+            "visual_confirmation",
+            "visual_momentum_confirmation"
+          ],
+          "reasons": [
+            "entry_location_is_mid_range_or_unclear",
+            "m1_momentum_not_confirmed",
+            "continuous_visual_watch_does_not_confirm_setup",
+            "continuous_visual_watch_lacks_momentum_confirmation"
+          ],
+          "observed": {
+            "location": "mid_range",
+            "momentum": "mixed",
+            "trend_state": "uptrend",
+            "trend_strength": 0.0339,
+            "session": "london",
+            "setup_hint": "no_trade",
+            "top_loss_reason": "unknown",
+            "visual_watch_used": true,
+            "visual_confirmation": "does_not_confirm",
+            "visual_direction": "down",
+            "visual_location": "pullback",
+            "visual_momentum": "weak"
+          }
+        },
+        "checked_at": "2026-10-13T07:04:23.438913+00:00"
+      },
+      "recommendation": "allow_existing_gates_to_decide",
+      "policy": {
+        "bounded_timing_gate": true,
+        "does_not_change_risk_policy": true,
+        "does_not_lower_thresholds": true,
+        "does_not_force_entries": true,
+        "operator_requested": true
+      }
+    }
+  },
+  "session": {
+    "consecutive_loss_limit": 2,
+    "consecutive_losses": 0,
+    "current_local_time": "2026-10-13T08:08:10.844397+01:00",
+    "current_session": "london",
+    "current_session_window_local": "2026-10-13T08:00:00+01:00->2026-10-13T16:30:00+01:00",
+    "daily_stop_triggered": false,
+    "daily_trade_count": 0,
+    "daily_trade_limit": 6,
+    "forced_flat_required": false,
+    "last_reset_at": 1791862164.584474,
+    "minutes_to_session_close": 501,
+    "next_session_local": "new_york@2026-10-13T09:30:00-04:00",
+    "session_active": true,
+    "session_block_reason": "",
+    "session_calendar_status": "regular",
+    "session_pause": false,
+    "session_pause_reason": "",
+    "session_source": "in_memory_default",
+    "session_timezone": "Europe/London"
+  },
+  "pilot": {
+    "allowed_instrument": "XAUUSD",
+    "allowed_setup_family": "continuation",
+    "approval_required_per_request": true,
+    "approved": true,
+    "configured": true,
+    "daily_loss_cap": 0.6,
+    "enabled": true,
+    "max_consecutive_losses": 8,
+    "max_trades_per_day": 8,
+    "pause_on_blocker_threshold": 0.7,
+    "pause_on_degrading_performance": true,
+    "pause_on_forced_flat": true,
+    "pause_on_overreaction": 0.7,
+    "pause_on_stability_drop": 0.45,
+    "pause_reason": "",
+    "paused": false,
+    "rollout_stage_required": "limited_live_pilot",
+    "size_cap": 0.01
+  },
+  "system_health": {
+    "broker_connectivity_status": {
+      "connected": true,
+      "symbol_selected": true
+    },
+    "warnings": [
+      "llm_openai_quota_exhausted"
+    ],
+    "macro_data": {
+      "dxy_alignment": {
+        "state": "supportive",
+        "availability": "available",
+        "source": "macro_feed"
+      },
+      "us10y_alignment": {
+        "state": "mixed",
+        "availability": "available",
+        "source": "macro_feed"
+      },
+      "vix_regime": {
+        "state": "calm",
+        "availability": "available",
+        "source": "macro_feed"
+      },
+      "oil_context": {
+        "state": "softening",
+        "availability": "available",
+        "source": "macro_feed"
+      }
+    }
+  },
+  "tests": {
+    "passed": 232,
+    "failed": 0,
+    "scope": "targeted, not full suite"
+  },
+  "backend_memory_MiB": {
+    "resident": 289.1,
+    "private": 1076.3
+  }
+}

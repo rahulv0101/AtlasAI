@@ -1,0 +1,109 @@
+{
+  "paper_allow": {
+    "action": "paper",
+    "message": "Trade candidate found, but EXECUTE_TRADES is disabled.",
+    "execute_trades": false,
+    "chosen": {
+      "strategy": "momentum_continuation",
+      "side": "buy",
+      "confidence": 0.57,
+      "stop_loss_points": 115.0,
+      "take_profit_points": 175.0
+    },
+    "same_side_support": 2,
+    "min_confidence_threshold": 0.25,
+    "volume": 0.0,
+    "execution": {
+      "success": false,
+      "retcode": 0,
+      "comment": "Enable EXECUTE_TRADES=true in .env for live order execution",
+      "decision_id": "",
+      "order_id": 0,
+      "deal_id": 0
+    },
+    "logged_events": [
+      {
+        "type": "decision_sample",
+        "message": "Captured paper decision sample."
+      },
+      {
+        "type": "paper",
+        "message": "Trade candidate found, but EXECUTE_TRADES is disabled."
+      }
+    ],
+    "published": {
+      "action": "paper",
+      "message": "Trade candidate found, but EXECUTE_TRADES is disabled."
+    }
+  },
+  "risk_block": {
+    "action": "blocked",
+    "message": "Risk guard active: Daily drawdown limit reached. No trade executed.",
+    "execute_trades": false,
+    "chosen": {
+      "strategy": "momentum_continuation",
+      "side": "buy",
+      "confidence": 0.36,
+      "stop_loss_points": 115.0,
+      "take_profit_points": 175.0
+    },
+    "same_side_support": 0,
+    "min_confidence_threshold": 0.0,
+    "volume": 0.0,
+    "execution": {
+      "success": false,
+      "retcode": 0,
+      "comment": "",
+      "decision_id": "",
+      "order_id": 0,
+      "deal_id": 0
+    },
+    "logged_events": [
+      {
+        "type": "risk",
+        "message": "Risk guard active: Daily drawdown limit reached. No trade executed."
+      }
+    ],
+    "published": {
+      "action": "blocked",
+      "message": "Risk guard active: Daily drawdown limit reached. No trade executed."
+    }
+  },
+  "live_execute": {
+    "action": "execute",
+    "message": "Executed buy via momentum_continuation",
+    "execute_trades": true,
+    "chosen": {
+      "strategy": "momentum_continuation",
+      "side": "buy",
+      "confidence": 0.57,
+      "stop_loss_points": 115.0,
+      "take_profit_points": 175.0
+    },
+    "same_side_support": 2,
+    "min_confidence_threshold": 0.25,
+    "volume": 0.32,
+    "execution": {
+      "success": true,
+      "retcode": 10009,
+      "comment": "filled",
+      "decision_id": "deadbeef",
+      "order_id": 321,
+      "deal_id": 654
+    },
+    "logged_events": [
+      {
+        "type": "decision_sample",
+        "message": "Captured live decision sample."
+      },
+      {
+        "type": "execution",
+        "message": "Executed buy via momentum_continuation"
+      }
+    ],
+    "published": {
+      "action": "execute",
+      "message": "Executed buy via momentum_continuation"
+    }
+  }
+}

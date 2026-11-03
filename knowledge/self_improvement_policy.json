@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "updated_at": "",
+  "zones": {
+    "allowed_auto_apply": [
+      "observability",
+      "diagnostics",
+      "ui_clarity",
+      "voice_response_wording",
+      "test_coverage",
+      "read_only_analysis"
+    ],
+    "approval_required": [
+      "strategy_logic",
+      "confidence_thresholds",
+      "filters",
+      "execution_gate_behavior",
+      "automation_policy",
+      "session_rules",
+      "voice_command_actions"
+    ],
+    "forbidden_auto_apply": [
+      "risk_policy_loosening",
+      "execution_policy_loosening",
+      "mode_switching",
+      "kill_switch_semantics",
+      "live_authority_expansion",
+      "silent_retraining_affecting_live"
+    ]
+  },
+  "promotion_requirements": {
+    "min_evidence_strength": 0.7,
+    "min_sample_count": 40,
+    "requires_backtest": true,
+    "requires_shadow_validation": true,
+    "requires_operator_approval": true
+  },
+  "guarded_rollout_defaults": {
+    "environment": "demo",
+    "max_trades": 2,
+    "max_daily_loss_pct": 0.6,
+    "allowed_instruments": [
+      "XAUUSD"
+    ],
+    "approval_required": true
+  }
+}

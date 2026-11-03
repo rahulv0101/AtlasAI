@@ -1,0 +1,38 @@
+MARKET DATA
+-----------
+Symbol: {symbol}
+Timeframe: {timeframe}
+UTC Time: {utc_time}
+Session: {session}
+
+Price Action:
+- Current price: {current_price}
+- Recent candles (latest 5 OHLC):
+{recent_candles}
+
+Market Structure:
+- Regime: {regime}
+- Trend strength: {trend_strength}
+- Volatility state: {volatility_state}
+- Spread: {spread_points} points
+- Liquidity state: {liquidity_state}
+
+Higher Timeframe Bias: {higher_tf_bias}
+
+Internal Strategy Signals:
+{strategy_signals}
+
+Open Positions:
+{open_positions}
+
+Risk Snapshot:
+- Equity: {equity}
+- Daily loss %: {daily_loss_pct}
+- Open trade count: {open_positions_count}
+- Consecutive losses: {consecutive_losses}
+
+----------------------------------------
+
+Provide your structured trade analysis for this exact moment.
+Respond ONLY using the mandatory output structure.
+

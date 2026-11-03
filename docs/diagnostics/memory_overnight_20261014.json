@@ -1,0 +1,60 @@
+{
+  "captured_at": "2026-10-14T03:58:54.338501+00:00",
+  "start": "2026-10-13T19:24:35+00:00",
+  "counts": {
+    "atlas_backend_heartbeat_watchdog_v1": {
+      "healthy": 515,
+      "duplicate_watchdog_exit": 103
+    },
+    "atlas_ui_heartbeat_watchdog_v1": {
+      "healthy": 510
+    }
+  },
+  "observed_worker_pids": {
+    "atlas_backend_heartbeat_watchdog_v1": [
+      21440
+    ],
+    "atlas_ui_heartbeat_watchdog_v1": [
+      9044
+    ]
+  },
+  "watchdog_observation_gap_seconds": {
+    "atlas_backend_heartbeat_watchdog_v1": {
+      "n": 514,
+      "median": 60.016,
+      "p90": 60.041,
+      "p95": 60.055,
+      "max": 62.937
+    },
+    "atlas_ui_heartbeat_watchdog_v1": {
+      "n": 509,
+      "median": 60.363,
+      "p90": 60.979,
+      "p95": 61.078,
+      "max": 64.245
+    }
+  },
+  "anomalies": [],
+  "heartbeat_distinct_cycles_observed": 444,
+  "first_cycle": 33244,
+  "last_cycle": 33687,
+  "cycles_not_sampled_by_watchdog": 0,
+  "consecutive_cycle_start_delta_seconds_includes_poll_sleep": {
+    "n": 443,
+    "median": 68.247,
+    "p90": 74.351,
+    "p95": 78.437,
+    "max": 104.129
+  },
+  "maintenance_count": 33,
+  "maintenance_duration_seconds": {
+    "n": 33,
+    "median": 22.177,
+    "p90": 30.557,
+    "p95": 31.798,
+    "max": 39.134
+  },
+  "maintenance_failures": [],
+  "benign_duplicate_watchdog_exits": 103,
+  "note": "Duplicate watchdog exits are expected scheduled-task invocations rejected by the resident supervisor lock, not service failures. Cycle deltas include the 60-second poll sleep."
+}

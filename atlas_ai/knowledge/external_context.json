@@ -1,0 +1,81 @@
+{
+  "generated_at": "2026-10-23T05:11:56.830901+00:00",
+  "source": "yahoo_chart_price_proxy",
+  "items": [
+    {
+      "key": "dxy_trend",
+      "value": "flat"
+    },
+    {
+      "key": "dxy_alignment",
+      "value": "mixed"
+    },
+    {
+      "key": "us10y_trend",
+      "value": "falling"
+    },
+    {
+      "key": "us10y_alignment",
+      "value": "supportive"
+    },
+    {
+      "key": "vix_regime",
+      "value": "normal"
+    },
+    {
+      "key": "vix_alignment",
+      "value": "supportive"
+    },
+    {
+      "key": "oil_backdrop",
+      "value": "inflationary"
+    },
+    {
+      "key": "oil_alignment",
+      "value": "supportive"
+    },
+    {
+      "key": "event_risk_state",
+      "value": "unknown"
+    },
+    {
+      "key": "news_risk_classification",
+      "value": "unknown"
+    },
+    {
+      "key": "news_sentiment",
+      "value": "unknown"
+    },
+    {
+      "key": "macro_classification",
+      "value": "price_proxy_only"
+    }
+  ],
+  "raw": {
+    "dxy": {
+      "symbol": "DX-Y.NYB",
+      "last": 101.71299743652344,
+      "direction": "flat"
+    },
+    "us10y": {
+      "symbol": "^TNX",
+      "last": 4.953000068664551,
+      "direction": "falling"
+    },
+    "vix": {
+      "symbol": "^VIX",
+      "last": 19.030000686645508,
+      "direction": "rising"
+    },
+    "oil": {
+      "symbol": "CL=F",
+      "last": 100.31999969482422,
+      "direction": "rising"
+    }
+  },
+  "errors": {},
+  "notes": [
+    "Price-proxy macro context only; event/news risk remains unknown until a calendar/news feed is supplied.",
+    "Gold alignment uses broad inverse DXY/US10Y heuristics and should influence confidence, not override safety gates."
+  ]
+}

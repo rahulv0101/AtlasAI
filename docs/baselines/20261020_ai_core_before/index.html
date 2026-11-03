@@ -1,0 +1,844 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atlas AI Command Deck</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div id="window-bar" class="window-bar">
+    <div class="window-title">Atlas AI Command Deck</div>
+    <div class="window-controls">
+      <button id="win-min" class="win-btn">_</button>
+      <button id="win-restore" class="win-btn">[]</button>
+      <button id="win-close" class="win-btn close">X</button>
+    </div>
+  </div>
+
+  <div id="startup" class="startup-screen">
+    <div class="cosmos">
+      <span class="star s1"></span><span class="star s2"></span><span class="star s3"></span>
+      <span class="star s4"></span><span class="star s5"></span><span class="star s6"></span>
+      <span class="star s7"></span><span class="star s8"></span><span class="star s9"></span>
+    </div>
+    <div class="startup-grid"></div>
+    <div class="startup-scanline"></div>
+    <div class="startup-logo" aria-hidden="true">
+      <div class="startup-scope">
+        <span class="startup-orbit startup-orbit-a"></span>
+        <span class="startup-orbit startup-orbit-b"></span>
+        <span class="startup-scope-text">Atlas-AI</span>
+      </div>
+    </div>
+    <h1>ATLAS AI</h1>
+    <p>Initializing autonomous gold intelligence...</p>
+    <div class="loader-wrap">
+      <div class="loader-bar"><div id="loader-fill" class="loader-fill"></div></div>
+      <div id="loader-text" class="loader-text">0%</div>
+    </div>
+  </div>
+
+  <main id="dashboard">
+    <header>
+      <div>
+        <h1 class="atlas-title">
+          <span class="scope-mark" aria-hidden="true"></span>
+          <span class="brand-text">Atlas AI</span>
+        </h1>
+      </div>
+      <div class="header-right">
+        <div class="pill" id="system-status">BOOTING</div>
+        <div class="pill muted-pill" id="gemini-status">GEMINI: CHECKING</div>
+        <button id="mode-toggle" class="mode-btn">Switch to LIVE</button>
+        <button id="gemini-influence-toggle" class="mode-btn">Gemini Influence: OFF</button>
+      </div>
+    </header>
+
+    <section class="command-strip" aria-label="Operator command summary">
+      <article id="cmd-readiness-card" class="command-tile command-readiness">
+        <span>Execution Readiness</span>
+        <strong id="cmd-readiness">Checking</strong>
+        <small id="cmd-readiness-detail">Waiting for runtime state</small>
+      </article>
+      <article class="command-tile">
+        <span>Automation</span>
+        <strong id="cmd-automation">-</strong>
+        <small id="cmd-automation-detail">-</small>
+      </article>
+      <article class="command-tile">
+        <span>Session</span>
+        <strong id="cmd-session">-</strong>
+        <small id="cmd-session-detail">-</small>
+      </article>
+      <article class="command-tile command-wide">
+        <span>Primary Blocker</span>
+        <strong id="cmd-blocker">-</strong>
+        <small id="cmd-blocker-detail">-</small>
+      </article>
+      <article class="command-tile">
+        <span>Next Action</span>
+        <strong id="cmd-next-action">Observe</strong>
+        <small id="cmd-next-detail">-</small>
+      </article>
+    </section>
+
+    <section class="command-actions-bar" aria-label="Command deck actions">
+      <div class="view-switch" role="group" aria-label="Dashboard view">
+        <button id="view-command" type="button" class="mode-btn view-btn active">Command View</button>
+        <button id="view-diagnostics" type="button" class="mode-btn view-btn">Diagnostics View</button>
+      </div>
+      <div class="primary-command-actions">
+        <button id="cmd-resume-automation" type="button" class="mode-btn">Resume Automation</button>
+        <button id="cmd-pause-automation" type="button" class="mode-btn">Pause Automation</button>
+        <button id="cmd-why-blocked" type="button" class="mode-btn">Why Blocked?</button>
+        <button id="cmd-what-next" type="button" class="mode-btn">What Next?</button>
+      </div>
+      <span id="cmd-action-status" class="muted">Command deck ready.</span>
+    </section>
+
+    <section class="readiness-lanes" aria-label="Execution readiness lanes">
+      <div id="lane-market" class="readiness-lane"><span>Market</span><strong>-</strong><small>-</small></div>
+      <div id="lane-automation" class="readiness-lane"><span>Automation</span><strong>-</strong><small>-</small></div>
+      <div id="lane-session" class="readiness-lane"><span>Session</span><strong>-</strong><small>-</small></div>
+      <div id="lane-broker" class="readiness-lane"><span>Broker</span><strong>-</strong><small>-</small></div>
+      <div id="lane-ui" class="readiness-lane"><span>UI</span><strong>-</strong><small>-</small></div>
+    </section>
+
+    <section class="cognitive-state-panel" aria-label="Atlas cognitive state">
+      <article class="card cognitive-state-card">
+        <div class="cognitive-state-heading">
+          <h2>Atlas Mind State</h2>
+          <span id="mind-state-badge" class="pill muted-pill">Checking</span>
+        </div>
+        <p id="mind-headline" class="mind-headline">Waiting for cognitive state.</p>
+        <div class="mind-grid">
+          <div><span>Sees</span><strong id="mind-sees">-</strong><small id="mind-sees-detail">-</small></div>
+          <div><span>Thinks</span><strong id="mind-thinks">-</strong><small id="mind-thinks-detail">-</small></div>
+          <div><span>Remembers</span><strong id="mind-remembers">-</strong><small id="mind-remembers-detail">-</small></div>
+          <div><span>Cautions</span><strong id="mind-cautions">-</strong><small id="mind-cautions-detail">-</small></div>
+        </div>
+        <p id="mind-policy" class="muted">Coordinated intelligence. Risk and execution gates remain separate.</p>
+      </article>
+    </section>
+
+    <section class="quick-stats">
+      <div class="stat"><span>Symbol</span><strong id="stat-symbol">XAUUSD</strong></div>
+      <div class="stat"><span>Timeframe</span><strong id="stat-timeframe">M15</strong></div>
+      <div class="stat"><span>Mode</span><strong id="stat-mode">PAPER</strong></div>
+      <div class="stat"><span>Action</span><strong id="stat-action">-</strong></div>
+      <div class="stat"><span>Confidence</span><strong id="stat-confidence">-</strong></div>
+      <div class="stat"><span>Freshness</span><strong id="stat-freshness" class="freshness-badge freshness-unknown">Unknown</strong></div>
+      <div class="stat"><span>Safety Attention</span><strong id="stat-attention">CLEAR</strong></div>
+    </section>
+
+    <section class="top-monitor-row">
+      <article class="card top-card top-card-live">
+        <h2>Live Decision</h2>
+        <p id="decision">Waiting for data...</p>
+        <p id="gemini-note" class="muted">Gemini note pending.</p>
+        <p id="last-updated" class="muted">Last update: -</p>
+        <p id="health-summary" class="muted">Health: -</p>
+      </article>
+
+      <article class="card top-card">
+        <h2>Risk</h2>
+        <ul>
+          <li>Equity: <span id="equity">-</span></li>
+          <li>Balance: <span id="balance">-</span></li>
+          <li>Daily Loss %: <span id="loss">-</span></li>
+          <li>Open Positions: <span id="positions">-</span></li>
+        </ul>
+      </article>
+
+      <article class="card top-card">
+        <h2>Signals</h2>
+        <div id="signals" class="signals"></div>
+      </article>
+
+      <article class="card top-card">
+        <h2>Setup Hunter</h2>
+        <ul>
+          <li>State: <span id="hunter-state">-</span></li>
+          <li>Closest: <span id="hunter-closest">-</span></li>
+          <li>Handoff: <span id="hunter-handoff">-</span></li>
+          <li>Candidates: <span id="hunter-count">-</span></li>
+        </ul>
+        <p id="hunter-next" class="muted">Scanning for forming setups.</p>
+      </article>
+
+      <article class="card top-card top-card-chart">
+        <h2>Gold Price Chart (XAUUSD)</h2>
+        <canvas id="gold-chart" width="560" height="220"></canvas>
+      </article>
+
+      <article class="card top-card">
+        <h2>Visual Chart Read</h2>
+        <ul>
+          <li>Status: <span id="visual-status">-</span></li>
+          <li>Pattern: <span id="visual-pattern">-</span></li>
+          <li>Quality: <span id="visual-quality">-</span></li>
+          <li>Confirmation: <span id="visual-confirmation">-</span></li>
+          <li>Source: <span id="visual-source">-</span></li>
+        </ul>
+        <p id="visual-reason" class="muted">Waiting for visual chart evidence.</p>
+      </article>
+
+      <article class="card top-card">
+        <h2>Learning Critic</h2>
+        <ul>
+          <li>Status: <span id="critic-status">-</span></li>
+          <li>Loss Rate: <span id="critic-loss-rate">-</span></li>
+          <li>Failure Axis: <span id="critic-failure-axis">-</span></li>
+        </ul>
+        <p id="critic-next-action" class="muted">Waiting for lesson memory.</p>
+      </article>
+
+      <article class="card top-card">
+        <h2>Learning Loop</h2>
+        <ul>
+          <li>Status: <span id="loop-status">-</span></li>
+          <li>Lessons: <span id="loop-lessons">-</span></li>
+          <li>Outcome sources: <span id="loop-sources">-</span></li>
+          <li>Context: <span id="loop-context">-</span></li>
+        </ul>
+        <p id="loop-refresh" class="muted">Waiting for learning loop status.</p>
+      </article>
+
+      <article class="card top-card learning-lanes-card">
+        <h2>Learning Lanes</h2>
+        <div id="learning-lanes-grid" class="learning-lanes-grid">
+          <div class="learning-lane lane-wait"><span>Observe</span><strong>-</strong><small>Waiting</small></div>
+          <div class="learning-lane lane-wait"><span>Classify</span><strong>-</strong><small>Waiting</small></div>
+          <div class="learning-lane lane-wait"><span>Remember</span><strong>-</strong><small>Waiting</small></div>
+          <div class="learning-lane lane-wait"><span>Explain</span><strong>-</strong><small>Waiting</small></div>
+          <div class="learning-lane lane-wait"><span>Caution</span><strong>-</strong><small>Waiting</small></div>
+          <div class="learning-lane lane-wait"><span>Propose</span><strong>-</strong><small>Waiting</small></div>
+        </div>
+        <p id="learning-lanes-note" class="muted">Waiting for learning lane status.</p>
+      </article>
+
+      <article class="card top-card">
+        <h2>Recovery</h2>
+        <ul>
+          <li>Block: <span id="recovery-block">-</span></li>
+          <li>WR / Streak: <span id="recovery-stats">-</span></li>
+          <li>Scope: <span id="recovery-scope">-</span></li>
+        </ul>
+        <p id="recovery-next" class="muted">Waiting for recovery status.</p>
+      </article>
+
+      <article class="card top-card">
+        <h2>Safety Lock</h2>
+        <ul>
+          <li>Status: <span id="safety-lock-status">-</span></li>
+          <li>Reason: <span id="safety-lock-reason">-</span></li>
+          <li>WR / Streak: <span id="safety-lock-metrics">-</span></li>
+        </ul>
+        <p id="safety-lock-next" class="muted">Waiting for safety-lock review.</p>
+      </article>
+    </section>
+
+    <section class="grid">
+      <article class="card wide operator-dashboard">
+        <h2>Operator Dashboard</h2>
+        <p class="muted operator-note">Facts first. Inference next. Recommendation last. No automatic trade execution or live parameter changes.</p>
+        <div class="operator-layout">
+          <section class="operator-panel operator-panel-snapshot">
+            <h3>System Snapshot</h3>
+            <div class="operator-fir">
+              <div><span class="operator-label">Facts</span><p id="op-snapshot-facts" class="operator-copy muted">Waiting for runtime data...</p></div>
+              <div><span class="operator-label">Inference</span><p id="op-snapshot-inference" class="operator-copy muted">Inference pending.</p></div>
+              <div><span class="operator-label">Recommendation</span><p id="op-snapshot-recommendation" class="operator-copy muted">No recommendation yet.</p></div>
+            </div>
+          </section>
+
+          <div class="operator-primary-grid">
+            <div class="operator-primary-left">
+              <section class="operator-panel operator-panel-primary">
+                <h3>Safety-First Recommendation</h3>
+                <div class="operator-fir">
+                  <div><span class="operator-label">Facts</span><p id="op-reco-facts" class="operator-copy muted">Waiting for recommendation data...</p></div>
+                  <div><span class="operator-label">Inference</span><p id="op-reco-inference" class="operator-copy muted">Inference pending.</p></div>
+                  <div><span class="operator-label">Recommendation</span><p id="op-reco-recommendation" class="operator-copy muted">No recommendation yet.</p></div>
+                </div>
+              </section>
+
+              <section class="operator-panel operator-panel-primary">
+                <h3>Live Pilot Review</h3>
+                <div class="operator-fir">
+                  <div><span class="operator-label">Facts</span><p id="op-live-facts" class="operator-copy muted">Live pilot review unavailable.</p></div>
+                  <div><span class="operator-label">Inference</span><p id="op-live-inference" class="operator-copy muted">No live pilot interpretation yet.</p></div>
+                  <div>
+                    <span class="operator-label">Recommendation</span>
+                    <p id="op-live-recommendation" class="operator-copy muted">Review paused/blocked/reconciliation states before any live action.</p>
+                    <div id="op-live-details" class="detail-list"></div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+            <div class="operator-primary-right">
+              <section class="operator-panel">
+                <h3>Control Queue</h3>
+                <div class="operator-fir">
+                  <div>
+                    <span class="operator-label">Facts</span>
+                    <p id="op-queue-facts" class="operator-copy muted">Queue status unavailable.</p>
+                    <div id="op-pending-items" class="detail-list"></div>
+                  </div>
+                  <div>
+                    <span class="operator-label">Inference</span>
+                    <p id="op-queue-inference" class="operator-copy muted">No prioritization insight yet.</p>
+                  </div>
+                  <div>
+                    <span class="operator-label">Recommendation</span>
+                    <p id="op-queue-recommendation" class="operator-copy muted">No review order yet.</p>
+                    <div id="op-queue-history" class="detail-list"></div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="operator-panel">
+                <h3>Operator Actions</h3>
+                <p class="muted">Explicit commands only. Approval required. No automatic execution.</p>
+                <div class="operator-actions">
+                  <input id="op-item-id" type="number" min="1" step="1" placeholder="item id" />
+                  <button id="op-approve-item" type="button" class="mode-btn">Approve</button>
+                  <button id="op-approve-all" type="button" class="mode-btn">Approve All</button>
+                  <button id="op-reject-item" type="button" class="mode-btn">Reject</button>
+                  <button id="op-defer-item" type="button" class="mode-btn">Defer</button>
+                  <button id="op-show-pending" type="button" class="mode-btn">Show Pending</button>
+                  <button id="op-explain-item" type="button" class="mode-btn">Explain Item</button>
+                  <button id="op-why-item" type="button" class="mode-btn">Why Suggested</button>
+                </div>
+                <p id="op-action-status" class="muted">No operator action sent.</p>
+                <p class="muted">Safety boundary: recommendations/tuning are inspectable and reversible, paper-only unless explicitly reviewed elsewhere.</p>
+              </section>
+
+              <section class="operator-panel">
+                <h3>Teach Atlas</h3>
+                <p class="muted">Label the current full-system decision. This records training feedback only.</p>
+                <div class="operator-actions">
+                  <button data-teach-label="correct_hold" type="button" class="mode-btn teach-btn">Correct Hold</button>
+                  <button data-teach-label="too_cautious" type="button" class="mode-btn teach-btn">Too Cautious</button>
+                  <button data-teach-label="missed_trade" type="button" class="mode-btn teach-btn">Missed Trade</button>
+                  <button data-teach-label="bad_setup" type="button" class="mode-btn teach-btn">Bad Setup</button>
+                  <button data-teach-label="execution_issue" type="button" class="mode-btn teach-btn">Execution Issue</button>
+                  <button data-teach-label="confusing_answer" type="button" class="mode-btn teach-btn">Confusing Answer</button>
+                </div>
+                <input id="teach-note" type="text" placeholder="optional note" />
+                <p id="teach-status" class="muted">No teaching label recorded yet.</p>
+                <div id="teach-current-lesson" class="detail-list"></div>
+              </section>
+            </div>
+          </div>
+
+          <section class="operator-panel operator-panel-runbook">
+            <h3>Pilot Runbook</h3>
+            <div class="operator-fir">
+              <div>
+                <span class="operator-label">Pre-Session Checklist</span>
+                <div id="op-runbook-pre" class="detail-list"></div>
+              </div>
+              <div>
+                <span class="operator-label">During Session + Stop Conditions</span>
+                <div id="op-runbook-during" class="detail-list"></div>
+                <div id="op-runbook-stop" class="detail-list"></div>
+              </div>
+              <div>
+                <span class="operator-label">Post-Session Checklist</span>
+                <div id="op-runbook-post" class="detail-list"></div>
+              </div>
+            </div>
+          </section>
+
+          <div class="operator-secondary-grid">
+            <section class="operator-panel">
+              <h3>Performance Feedback</h3>
+              <div class="operator-fir">
+                <div><span class="operator-label">Facts</span><p id="op-feedback-facts" class="operator-copy muted">Waiting for feedback data...</p></div>
+                <div><span class="operator-label">Inference</span><p id="op-feedback-inference" class="operator-copy muted">Inference pending.</p></div>
+                <div><span class="operator-label">Recommendation</span><p id="op-feedback-recommendation" class="operator-copy muted">No safe focus yet.</p></div>
+              </div>
+            </section>
+
+            <section class="operator-panel">
+              <h3>Paper-Mode Tuning</h3>
+              <div class="operator-fir">
+                <div><span class="operator-label">Facts</span><p id="op-tuning-facts" class="operator-copy muted">Waiting for tuning data...</p></div>
+                <div><span class="operator-label">Inference</span><p id="op-tuning-inference" class="operator-copy muted">Inference pending.</p></div>
+                <div><span class="operator-label">Recommendation</span><p id="op-tuning-recommendation" class="operator-copy muted">No paper-only suggestion yet.</p></div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </article>
+
+      <article class="card wide diagnostics-panel">
+        <h2>Decision Support</h2>
+        <div id="decision-support" class="decision-support">
+          <div class="decision-support-grid">
+            <div class="support-stat"><span>Candidate ID</span><strong id="decision-candidate-id">-</strong></div>
+            <div class="support-stat"><span>Trade ID</span><strong id="decision-trade-id">-</strong></div>
+            <div class="support-stat"><span>Final Decision</span><strong id="decision-final-decision">-</strong></div>
+            <div class="support-stat"><span>Lane</span><strong id="decision-lane">-</strong></div>
+            <div class="support-stat"><span>Mode</span><strong id="decision-mode">-</strong></div>
+            <div class="support-stat"><span>Symbol</span><strong id="decision-symbol">-</strong></div>
+            <div class="support-stat"><span>Signal Source</span><strong id="decision-signal-source">-</strong></div>
+            <div class="support-stat"><span>Regime</span><strong id="decision-regime">-</strong></div>
+            <div class="support-stat"><span>Session</span><strong id="decision-session">-</strong></div>
+            <div class="support-stat"><span>Trend Strength</span><strong id="decision-trend-strength">-</strong></div>
+            <div class="support-stat"><span>Timestamp</span><strong id="decision-timestamp">-</strong></div>
+          </div>
+          <p id="decision-explanation-text" class="decision-explanation-text muted">No decision explanation available yet.</p>
+          <div class="decision-support-groups">
+            <div>
+              <span class="decision-support-label">Reason Codes</span>
+              <div id="decision-reason-codes" class="chip-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">Setup Quality Reasons</span>
+              <div id="decision-setup-quality" class="chip-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">Active Guards</span>
+              <div id="decision-active-guards" class="chip-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">Penalties</span>
+              <div id="decision-penalties" class="chip-list"></div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card wide diagnostics-panel">
+        <h2>Decision Trace</h2>
+        <div id="decision-trace-panel" class="decision-support">
+          <div class="decision-support-grid">
+            <div class="support-stat"><span>Final Action</span><strong id="trace-final-action">-</strong></div>
+            <div class="support-stat"><span>Final Decision</span><strong id="trace-final-decision">-</strong></div>
+            <div class="support-stat"><span>Selected Candidate</span><strong id="trace-selected-candidate">-</strong></div>
+            <div class="support-stat"><span>Confidence</span><strong id="trace-confidence">-</strong></div>
+            <div class="support-stat"><span>Session</span><strong id="trace-session">-</strong></div>
+            <div class="support-stat"><span>Regime</span><strong id="trace-regime">-</strong></div>
+            <div class="support-stat"><span>Spread</span><strong id="trace-spread">-</strong></div>
+            <div class="support-stat"><span>Execution Gate</span><strong id="trace-execution-gate">-</strong></div>
+          </div>
+          <p id="trace-message" class="decision-explanation-text muted">No decision trace available yet.</p>
+          <div class="decision-support-groups">
+            <div>
+              <span class="decision-support-label">Active Signals</span>
+              <div id="trace-active-signals" class="detail-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">Hard Blockers</span>
+              <div id="trace-hard-blockers" class="chip-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">Risk State</span>
+              <div id="trace-risk-state" class="detail-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">Bias Breakdown</span>
+              <div id="trace-bias-breakdown" class="detail-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">Execution Result</span>
+              <div id="trace-execution-result" class="detail-list"></div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card wide diagnostics-panel">
+        <h2>Decision Analysis</h2>
+        <div id="decision-analysis-panel" class="decision-support">
+          <div class="decision-support-grid">
+            <div class="support-stat">
+              <span>Final Bias</span>
+              <strong id="da-bias" class="analysis-pill analysis-neutral">NEUTRAL</strong>
+            </div>
+            <div class="support-stat"><span>Signal Bias</span><strong id="da-signal-bias">-</strong></div>
+            <div class="support-stat"><span>Chart Bias</span><strong id="da-chart-bias">-</strong></div>
+            <div class="support-stat"><span>HTF Bias</span><strong id="da-htf-bias">-</strong></div>
+            <div class="support-stat">
+              <span>Confidence</span>
+              <strong id="da-confidence-score">- / 100</strong>
+            </div>
+            <div class="support-stat">
+              <span>Confluence</span>
+              <strong id="da-confluence-score">- / 100</strong>
+            </div>
+            <div class="support-stat">
+              <span>Confidence Level</span>
+              <strong id="da-confidence-level" class="analysis-pill analysis-neutral">LOW</strong>
+            </div>
+            <div class="support-stat"><span>Trend</span><strong id="da-trend">-</strong></div>
+            <div class="support-stat"><span>Momentum</span><strong id="da-momentum">-</strong></div>
+            <div class="support-stat"><span>Location</span><strong id="da-location">-</strong></div>
+            <div class="support-stat"><span>Setup Type</span><strong id="da-setup-type">-</strong></div>
+            <div class="support-stat"><span>Regime</span><strong id="da-regime">-</strong></div>
+            <div class="support-stat"><span>Reversal</span><strong id="da-reversal">-</strong></div>
+            <div class="support-stat"><span>Session Quality</span><strong id="da-session-quality">-</strong></div>
+            <div class="support-stat"><span>Account Tier</span><strong id="da-account-tier">-</strong></div>
+            <div class="support-stat"><span>Risk Profile</span><strong id="da-risk-profile">-</strong></div>
+            <div class="support-stat"><span>Size Tier</span><strong id="da-size-tier">-</strong></div>
+            <div class="support-stat"><span>Recommended Action</span><strong id="da-recommended-action">-</strong></div>
+            <div class="support-stat">
+              <span>Entry Quality</span>
+              <strong id="da-entry-quality" class="analysis-pill analysis-neutral">-</strong>
+            </div>
+          </div>
+          <div class="decision-support-groups">
+            <div>
+              <span class="decision-support-label">Main Blockers</span>
+              <div id="da-blockers" class="chip-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">Top Reasoning</span>
+              <div id="da-reasoning" class="detail-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">Top Warnings</span>
+              <div id="da-warnings" class="chip-list"></div>
+            </div>
+          </div>
+          <div class="decision-support-groups">
+            <div>
+              <span class="decision-support-label">Observe Summary</span>
+              <div id="dp-observe" class="detail-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">Orient Summary</span>
+              <div id="dp-orient" class="detail-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">Critique (Top Failure Reasons)</span>
+              <div id="dp-critique" class="chip-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">Decision Protocol Outcome</span>
+              <div id="dp-decide" class="detail-list"></div>
+            </div>
+          </div>
+          <div class="decision-support-groups">
+            <div>
+              <span class="decision-support-label">Setup Radar</span>
+              <div id="setup-radar-watchlist" class="detail-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">Timing Engine</span>
+              <div id="setup-radar-timing" class="detail-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">Conditions Slowing Setups</span>
+              <div id="setup-radar-conditions" class="chip-list"></div>
+            </div>
+          </div>
+          <p id="da-explanation" class="decision-explanation-text muted">Decision analysis unavailable.</p>
+        </div>
+      </article>
+
+      <article class="card wide diagnostics-panel">
+        <h2>Macro & News Terminal</h2>
+        <div id="macro-terminal-panel" class="decision-support">
+          <div class="decision-support-grid">
+            <div class="support-stat"><span>DXY</span><strong id="macro-dxy">-</strong></div>
+            <div class="support-stat"><span>US10Y</span><strong id="macro-us10y">-</strong></div>
+            <div class="support-stat"><span>VIX</span><strong id="macro-vix">-</strong></div>
+            <div class="support-stat"><span>Oil</span><strong id="macro-oil">-</strong></div>
+            <div class="support-stat"><span>Event Risk</span><strong id="macro-event-risk">-</strong></div>
+            <div class="support-stat"><span>News Context</span><strong id="macro-news-context">-</strong></div>
+            <div class="support-stat"><span>Spread / Slippage</span><strong id="macro-friction">-</strong></div>
+            <div class="support-stat"><span>Size Band</span><strong id="macro-size-band">-</strong></div>
+          </div>
+          <div class="decision-support-groups">
+            <div>
+              <span class="decision-support-label">Atlas Is Reading</span>
+              <div id="macro-reads" class="detail-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">Allow / Support</span>
+              <div id="macro-allow-reasons" class="chip-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">Block / Caution</span>
+              <div id="macro-block-reasons" class="chip-list"></div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card wide diagnostics-panel">
+        <h2>System Health</h2>
+        <div id="system-health-panel" class="decision-support">
+          <div class="decision-support-grid">
+            <div class="support-stat"><span>Effective Mode</span><strong id="health-effective-mode">-</strong></div>
+            <div class="support-stat"><span>Paper Confirmed</span><strong id="health-paper-confirmed">-</strong></div>
+            <div class="support-stat"><span>Broker Connectivity</span><strong id="health-broker-connectivity">-</strong></div>
+            <div class="support-stat"><span>Routing Risk</span><strong id="health-routing-risk">-</strong></div>
+            <div class="support-stat"><span>Stale Data</span><strong id="health-stale-data">-</strong></div>
+            <div class="support-stat"><span>Config Mismatch</span><strong id="health-config-mismatch">-</strong></div>
+            <div class="support-stat"><span>Safety Lock</span><strong id="health-safety-lock">-</strong></div>
+            <div class="support-stat"><span>Cooldown</span><strong id="health-cooldown">-</strong></div>
+            <div class="support-stat"><span>Volatility State</span><strong id="health-volatility">-</strong></div>
+            <div class="support-stat"><span>Recovery Mode</span><strong id="health-recovery-mode">-</strong></div>
+          </div>
+          <div class="decision-support-groups">
+            <div>
+              <span class="decision-support-label">Warnings</span>
+              <div id="health-warnings" class="chip-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">Filter State</span>
+              <div id="health-filter-state" class="chip-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">ML State</span>
+              <div id="health-ml-state" class="chip-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">Gemini State</span>
+              <div id="health-gemini-state" class="chip-list"></div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card wide diagnostics-panel">
+        <h2>Self-Improvement Control</h2>
+        <div id="self-improvement-panel" class="decision-support">
+          <div class="decision-support-grid">
+            <div class="support-stat"><span>Active Rule Registry</span><strong id="si-active-registry-version">-</strong></div>
+            <div class="support-stat"><span>Active Rule Version</span><strong id="si-active-rule-version-id">-</strong></div>
+            <div class="support-stat"><span>Latest Proposal</span><strong id="si-latest-proposal-id">-</strong></div>
+            <div class="support-stat"><span>Pending Proposal</span><strong id="si-pending-proposal-id">-</strong></div>
+            <div class="support-stat"><span>Pending Target</span><strong id="si-pending-target-blocker">-</strong></div>
+            <div class="support-stat"><span>Latest Rollout</span><strong id="si-latest-rollout-id">-</strong></div>
+            <div class="support-stat"><span>Approval Pending</span><strong id="si-approval-pending">-</strong></div>
+            <div class="support-stat"><span>Rollback Available</span><strong id="si-rollback-available">-</strong></div>
+            <div class="support-stat"><span>Pending Operator Review</span><strong id="si-pending-operator-review">-</strong></div>
+          </div>
+          <div class="decision-support-groups">
+            <div>
+              <span class="decision-support-label">Runtime Guard</span>
+              <div id="si-runtime-guard" class="detail-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">Open Proposals</span>
+              <div id="si-proposals" class="detail-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">Rollout Stages</span>
+              <div id="si-rollouts" class="detail-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">Recent Audit</span>
+              <div id="si-audit" class="detail-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">Review Packet</span>
+              <div id="si-review-packet" class="detail-list"></div>
+            </div>
+          </div>
+          <div class="self-improvement-controls">
+            <input id="si-proposal-id" type="text" placeholder="proposal id" />
+            <input id="si-rollout-id" type="text" placeholder="rollout id" />
+            <select id="si-rollout-target">
+              <option value="shadow_active">shadow_active</option>
+              <option value="demo_limited_active">demo_limited_active</option>
+              <option value="promotion_candidate">promotion_candidate</option>
+            </select>
+            <button id="si-validate" type="button" class="mode-btn">Validate</button>
+            <button id="si-review" type="button" class="mode-btn">Review Packet</button>
+            <button id="si-approve" type="button" class="mode-btn">Approve Rollout</button>
+            <button id="si-defer" type="button" class="mode-btn">Defer</button>
+            <button id="si-reject" type="button" class="mode-btn">Reject</button>
+            <button id="si-transition" type="button" class="mode-btn">Advance Rollout</button>
+            <button id="si-promote" type="button" class="mode-btn">Promote</button>
+            <button id="si-rollback" type="button" class="mode-btn">Rollback</button>
+            <button id="si-refresh" type="button" class="mode-btn">Refresh</button>
+          </div>
+          <p id="si-action-status" class="muted">No self-improvement action sent.</p>
+          <p class="muted">Human-controlled only. Draft proposals never enter live execution directly.</p>
+        </div>
+      </article>
+
+      <article class="card wide diagnostics-panel">
+        <h2>AI Core</h2>
+        <div id="ai-core-panel" class="decision-support">
+          <div class="decision-support-grid">
+            <div class="support-stat"><span>Latest Action</span><strong id="ai-latest-action">-</strong></div>
+            <div class="support-stat"><span>Decision Confidence</span><strong id="ai-decision-confidence">-</strong></div>
+            <div class="support-stat"><span>Primary Blocker</span><strong id="ai-primary-blocker">-</strong></div>
+            <div class="support-stat"><span>Review Outcome</span><strong id="ai-review-outcome">-</strong></div>
+            <div class="support-stat"><span>Top Archetype</span><strong id="ai-top-archetype">-</strong></div>
+            <div class="support-stat"><span>Promotion Action</span><strong id="ai-promotion-action">-</strong></div>
+          </div>
+          <div class="decision-support-groups">
+            <div>
+              <span class="decision-support-label">Decision Reason</span>
+              <div id="ai-decision-reason" class="detail-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">Outcome Review</span>
+              <div id="ai-review-detail" class="detail-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">Strategy Preferences</span>
+              <div id="ai-preference-ranking" class="detail-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">Promotion Intelligence</span>
+              <div id="ai-promotion-detail" class="detail-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">Research Queue</span>
+              <div id="ai-research-queue" class="detail-list"></div>
+            </div>
+          </div>
+          <div class="self-improvement-controls">
+            <input id="ai-research-item-id" type="text" placeholder="research item id" />
+            <button id="ai-refresh" type="button" class="mode-btn">Refresh</button>
+            <button id="ai-review-refresh" type="button" class="mode-btn">Review Decisions</button>
+            <button id="ai-promotion-refresh" type="button" class="mode-btn">Recompute Promotion</button>
+            <button id="ai-research-review" type="button" class="mode-btn">Mark Reviewed</button>
+            <button id="ai-research-defer" type="button" class="mode-btn">Defer</button>
+            <button id="ai-research-reject" type="button" class="mode-btn">Reject</button>
+            <button id="ai-research-paper" type="button" class="mode-btn">Paper Test</button>
+            <button id="ai-research-demo-review" type="button" class="mode-btn">Demo Review</button>
+            <button id="ai-research-demo-packet" type="button" class="mode-btn">Review Packet</button>
+            <button id="ai-research-demo-approve" type="button" class="mode-btn">Approve Review</button>
+            <button id="ai-research-demo-proposal" type="button" class="mode-btn">Demo Proposal</button>
+            <button id="ai-research-demo-preflight" type="button" class="mode-btn">Demo Preflight</button>
+          </div>
+          <p id="ai-action-status" class="muted">AI core observability is read-only.</p>
+          <p class="muted">Recommendation-only. AI core cannot execute trades, promote live, or bypass ExecutionGate.</p>
+        </div>
+      </article>
+
+      <article class="card wide diagnostics-panel">
+        <h2>Market Context</h2>
+        <div id="context-snapshot-panel" class="decision-support">
+          <div class="decision-support-grid">
+            <div class="support-stat"><span>Symbol</span><strong id="context-symbol">-</strong></div>
+            <div class="support-stat"><span>Timestamp</span><strong id="context-timestamp">-</strong></div>
+            <div class="support-stat"><span>Regime</span><strong id="context-regime">-</strong></div>
+            <div class="support-stat"><span>Session</span><strong id="context-session">-</strong></div>
+            <div class="support-stat"><span>Trend Strength</span><strong id="context-trend-strength">-</strong></div>
+            <div class="support-stat"><span>Volatility State</span><strong id="context-volatility-state">-</strong></div>
+            <div class="support-stat"><span>Spread State</span><strong id="context-spread-state">-</strong></div>
+            <div class="support-stat"><span>Liquidity State</span><strong id="context-liquidity-state">-</strong></div>
+            <div class="support-stat"><span>VIX Regime</span><strong id="context-vix-regime">-</strong></div>
+            <div class="support-stat"><span>Oil Backdrop</span><strong id="context-oil-backdrop">-</strong></div>
+            <div class="support-stat"><span>Event Risk</span><strong id="context-event-risk-state">-</strong></div>
+            <div class="support-stat"><span>News Risk</span><strong id="context-news-risk-classification">-</strong></div>
+            <div class="support-stat"><span>Slippage State</span><strong id="context-slippage-state">-</strong></div>
+            <div class="support-stat"><span>Repeated Entry Risk</span><strong id="context-repeated-entry-risk">-</strong></div>
+            <div class="support-stat"><span>Overstretched Entry Risk</span><strong id="context-overstretched-entry-risk">-</strong></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card wide diagnostics-panel">
+        <h2>Shadow Intelligence</h2>
+        <div id="shadow-advice-panel" class="decision-support">
+          <div class="decision-support-grid">
+            <div class="support-stat"><span>Trade ID</span><strong id="shadow-trade-id">-</strong></div>
+            <div class="support-stat"><span>Setup Score</span><strong id="shadow-setup-score">-</strong></div>
+            <div class="support-stat"><span>Confidence</span><strong id="shadow-confidence">-</strong></div>
+            <div class="support-stat"><span>Recommendation</span><strong id="shadow-recommendation">-</strong></div>
+          </div>
+          <div class="decision-support-groups">
+            <div>
+              <span class="decision-support-label">Anomaly Flags</span>
+              <div id="shadow-anomaly-flags" class="chip-list"></div>
+            </div>
+            <div>
+              <span class="decision-support-label">Alternative Ranking</span>
+              <div id="shadow-alternative-ranking" class="detail-list"></div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card wide diagnostics-panel">
+        <h2>Event Feed</h2>
+        <div id="events" class="events"></div>
+      </article>
+
+      <article class="card wide">
+        <h2>Ask Atlas</h2>
+        <div class="ask-atlas-panel">
+          <p class="muted ask-atlas-intro">Read-only operator assistant. Ask about state, blockers, charts, summaries, comparisons, or the next safe experiment.</p>
+          <form id="ask-atlas-form" class="ask-atlas-form">
+            <textarea id="ask-atlas-input" rows="3" placeholder="Ask Atlas: why are you not trading? summarize what happened so far. prepare the next offline experiment."></textarea>
+            <div class="ask-atlas-actions">
+              <button id="ask-atlas-submit" type="submit" class="mode-btn">Ask Atlas</button>
+              <span id="ask-atlas-status" class="muted">Awaiting operator prompt.</span>
+            </div>
+          </form>
+          <div id="ask-atlas-response" class="ask-atlas-response">
+            <div class="ask-section">
+              <span class="decision-support-label ask-primary-label">Atlas Answer</span>
+              <p id="ask-atlas-result" class="ask-copy ask-primary-copy muted">Results will appear here.</p>
+            </div>
+            <div class="ask-section ask-secondary-section">
+              <span class="decision-support-label">Acknowledge</span>
+              <p id="ask-atlas-ack" class="ask-copy muted">No request sent yet.</p>
+            </div>
+            <div class="ask-section ask-secondary-section">
+              <span class="decision-support-label">Understanding</span>
+              <p id="ask-atlas-understanding" class="ask-copy muted">Atlas will restate the task before answering.</p>
+            </div>
+            <div class="ask-section ask-secondary-section">
+              <span class="decision-support-label">Data Sources</span>
+              <div id="ask-atlas-sources" class="chip-list"></div>
+            </div>
+            <div class="ask-section ask-secondary-section">
+              <span class="decision-support-label">Approval</span>
+              <p id="ask-atlas-approval" class="ask-copy muted">Approval guidance will appear here.</p>
+            </div>
+          </div>
+          <div class="ask-section">
+            <span class="decision-support-label">Recent Requests</span>
+            <div id="ask-atlas-history" class="detail-list"></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card wide">
+        <h2>Learning Insights</h2>
+        <p id="learning-summary" class="muted">Waiting for learning data...</p>
+        <div class="decision-support">
+          <span class="decision-support-label">Last Broker-Confirmed Trade</span>
+          <div class="decision-support-grid">
+            <div><span>Outcome</span><strong id="last-trade-outcome">-</strong></div>
+            <div><span>PnL</span><strong id="last-trade-pnl">-</strong></div>
+            <div><span>Strategy</span><strong id="last-trade-strategy">-</strong></div>
+            <div><span>Side</span><strong id="last-trade-side">-</strong></div>
+            <div><span>Confidence</span><strong id="last-trade-confidence">-</strong></div>
+            <div><span>HTF Aligned</span><strong id="last-trade-htf">-</strong></div>
+          </div>
+          <p id="last-trade-lesson" class="muted">Waiting for confirmed outcome memory...</p>
+        </div>
+        <div id="learning-insights" class="events"></div>
+      </article>
+    </section>
+  </main>
+
+  <script>
+    // Fire startup audio notification at the earliest UI load point.
+    // Backend has a once-per-session guard, so duplicate calls are safe.
+    fetch("/api/ui-ready", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ ready: true, source: "index-bootstrap" }),
+      keepalive: true
+    }).catch(() => {});
+  </script>
+  <script src="/app.js"></script>
+</body>
+</html>

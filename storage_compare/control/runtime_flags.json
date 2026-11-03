@@ -1,0 +1,15 @@
+{
+  "risk_guard_state": {
+    "date": "2026-04-03",
+    "trades_today": 0,
+    "consecutive_losses": 0,
+    "cooldown_until": "",
+    "start_balance": 854418.49,
+    "week_key": "2026-03-30",
+    "week_start_balance": 854418.49
+  },
+  "updated_at": "2026-04-03T09:05:58.010778+00:00",
+  "closed_learning_synced_until": "2026-04-03T09:05:57.957377+00:00",
+  "drift_alert_last_at": "2026-04-03T09:01:56.659647+00:00",
+  "drift_alert_last_delta": -0.1959
+}

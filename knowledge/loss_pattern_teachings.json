@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "purpose": "Durable teachings for loss-pattern learning. These teachings explain how Atlas should learn from losses without banning a setup family or silently changing strategy, risk, or execution policy.",
+  "teachings": [
+    {
+      "id": "false_continuation_requires_confirmation",
+      "title": "False Continuation Requires Confirmation",
+      "lesson": "A continuation idea is not executable just because direction exists. Atlas must require structure to hold, strong or turning M1 momentum, and same-side support before trusting continuation again.",
+      "failed_when": [
+        "continuation was assumed before structure held",
+        "momentum was mixed or weak",
+        "same-side support was thin"
+      ],
+      "confirmation_required": [
+        "structure_hold",
+        "strong_m1_momentum",
+        "same_side_support"
+      ],
+      "teaching_action": "Trade the continuation pattern again only when the failed confirmation ingredient has changed."
+    },
+    {
+      "id": "timing_failure_needs_fresher_entry",
+      "title": "Timing Failure Needs Fresher Entry",
+      "lesson": "When the idea was possibly valid but timing was early, late, or weak, Atlas should not discard the idea. It should wait for a fresher entry, retest, pullback, or cleaner trigger.",
+      "failed_when": [
+        "entry chased expansion",
+        "entry arrived before confirmation",
+        "entry was mid-range or stale"
+      ],
+      "confirmation_required": [
+        "fresh_entry_location",
+        "retest_or_pullback",
+        "no_overextension"
+      ],
+      "teaching_action": "Separate idea quality from entry timing quality before applying a lesson."
+    },
+    {
+      "id": "momentum_must_confirm",
+      "title": "Momentum Must Confirm",
+      "lesson": "Mixed M1 momentum is not enough for a continuation setup after recent losses. Atlas should wait for strong or clearly turning momentum before treating the setup as corrected.",
+      "failed_when": [
+        "momentum was weak",
+        "momentum was mixed",
+        "price drifted without impulse"
+      ],
+      "confirmation_required": [
+        "strong_m1_momentum",
+        "momentum_alignment",
+        "directional_impulse"
+      ],
+      "teaching_action": "Do not repeat weak-momentum entries; wait until momentum confirms the same side."
+    },
+    {
+      "id": "structure_must_hold",
+      "title": "Structure Must Hold",
+      "lesson": "Structure labels like HH/HL or LH/LL are not enough by themselves. Atlas needs evidence that structure is holding at the entry location before execution review.",
+      "failed_when": [
+        "structure was unclear",
+        "structure did not hold",
+        "price was mid-range without a clean reaction"
+      ],
+      "confirmation_required": [
+        "structure_hold",
+        "clear_structure",
+        "not_mid_range"
+      ],
+      "teaching_action": "Treat unclear structure as developing context, not execution permission."
+    },
+    {
+      "id": "loss_pattern_is_not_pattern_ban",
+      "title": "Loss Pattern Is Not Pattern Ban",
+      "lesson": "A loss in a pattern does not mean Atlas must stop trading that pattern. It means Atlas must identify what failed and require a corrected version before trading it again.",
+      "failed_when": [
+        "same pattern is repeated with the same missing evidence",
+        "loss memory is interpreted as a blanket ban",
+        "confidence is punished without a correction path"
+      ],
+      "confirmation_required": [
+        "failed_ingredient_corrected",
+        "current_setup_differs_from_loss_memory",
+        "normal_gates_still_pass"
+      ],
+      "teaching_action": "Keep the pattern tradable, but require proof that the previous mistake is not being repeated."
+    },
+    {
+      "id": "safety_lock_is_separate_from_learning",
+      "title": "Safety Lock Is Separate From Learning",
+      "lesson": "The safety lock protects the account after weak performance. It is not a lesson that a setup family should never trade again.",
+      "failed_when": [
+        "risk protection is confused with pattern learning",
+        "operator assumes safety lock means strategy ban",
+        "Atlas explains safety as if it were setup logic"
+      ],
+      "confirmation_required": [
+        "manual_operator_review_for_unlock",
+        "risk_guard_clear",
+        "strategy_learning_explained_separately"
+      ],
+      "teaching_action": "Explain safety lock and pattern learning as separate lanes."
+    }
+  ],
+  "policy_note": "These teachings are bounded knowledge and observability. They do not rewrite strategies, lower thresholds, alter risk, unlock safety, force entries, or bypass execution gates."
+}

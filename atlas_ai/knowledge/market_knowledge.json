@@ -1,0 +1,193 @@
+{
+  "concepts": [
+    {
+      "name": "volatility",
+      "definition": "Volatility is the speed and range of price movement. Higher volatility requires wider, risk-aware stop and target planning."
+    },
+    {
+      "name": "trend",
+      "definition": "Trend is persistent directional structure. For Atlas, trend quality is stronger when momentum and session liquidity confirm it."
+    },
+    {
+      "name": "market_structure",
+      "definition": "Market structure maps sequences of highs/lows and reaction zones to identify continuation, transition, or range conditions."
+    },
+    {
+      "name": "xauusd_structure_pipeline",
+      "summary": "Directional bias should come from structure first, then momentum, then location, then macro/session confirmations."
+    },
+    {
+      "name": "trend_structure",
+      "summary": "Higher highs and higher lows support bullish bias. Lower highs and lower lows support bearish bias. Mixed structure implies no-trade bias."
+    },
+    {
+      "name": "momentum_quality",
+      "summary": "Momentum confirms direction when candle body strength and follow-through align with structure. Weak/mixed momentum should reduce conviction."
+    },
+    {
+      "name": "location_quality",
+      "summary": "Edge improves near support for buys and near resistance for sells. Middle-of-range entries usually have poor asymmetry."
+    },
+    {
+      "name": "macro_confirmation",
+      "summary": "DXY and US10Y are context checks. Gold tends to benefit from DXY weakness and yield softness; conflict should reduce confidence."
+    },
+    {
+      "name": "session_quality",
+      "summary": "London and London-New York overlap are usually higher quality for XAUUSD than low-liquidity sessions."
+    },
+    {
+      "name": "spread_and_liquidity",
+      "summary": "Execution quality can erase edge. Wide spread/poor liquidity should block or down-rank candidates."
+    },
+    {
+      "name": "news_risk",
+      "summary": "High-impact windows can invalidate otherwise good setups due to unstable volatility and slippage."
+    },
+    {
+      "name": "no_trade_is_valid",
+      "summary": "No-trade is an active risk decision, not a failure. Prefer no-trade when confluence is weak or contradictory."
+    },
+    {
+      "name": "execution_boundary",
+      "summary": "Analysis confidence does not authorize execution; ExecutionGate remains final authority."
+    },
+    {
+      "name": "missed_trade_review",
+      "summary": "A missed trade is only a useful teaching label when Atlas had a clean playbook, aligned context, acceptable execution conditions, and still held.",
+      "signals": [
+        "playbook readiness is ready_for_existing_gates",
+        "missing setup ingredients are empty",
+        "spread/liquidity are acceptable",
+        "macro/event context is not conflicting"
+      ],
+      "implications": [
+        "Do not call every hold a missed trade",
+        "Separate valid patience from excessive caution",
+        "Use too_cautious when the setup was clean but Atlas still hesitated"
+      ]
+    },
+    {
+      "name": "execution_friction",
+      "summary": "Execution friction is the gap between a good idea and a trade that can actually be filled with acceptable cost and slippage.",
+      "signals": [
+        "wide spread",
+        "poor liquidity",
+        "elevated slippage",
+        "late or closed session"
+      ],
+      "implications": [
+        "execution_issue is the right teaching label when the idea is recognizable but trading cost is unsafe",
+        "Do not weaken strategy rules to solve broker/spread problems",
+        "Track friction separately from setup quality"
+      ]
+    },
+    {
+      "name": "regime_transition",
+      "summary": "Regime transition is when market behavior shifts between range, trend, and volatile expansion. Atlas should slow down until persistence is visible.",
+      "signals": [
+        "trend structure begins to form after range",
+        "breakouts fail repeatedly",
+        "volatility expands without clean follow-through",
+        "momentum and structure disagree"
+      ],
+      "implications": [
+        "Prefer observation or smaller confidence adjustments",
+        "Avoid labeling transition noise as a clean missed trade",
+        "Require persistence before fast-path learning"
+      ]
+    }
+  ],
+  "atlas_institutional_logic": {
+    "core": [
+      "Capital preservation first",
+      "No forced trades in proven mode",
+      "XAUUSD scope controls"
+    ],
+    "hard_filters": [
+      "Block during high-impact news windows",
+      "Block in poor spread/liquidity conditions",
+      "Block when structure is invalid or unclear",
+      "Block when reconciliation/forced-flat/safety controls require hold"
+    ],
+    "context_stack": [
+      "DXY alignment",
+      "US10Y alignment",
+      "market regime (trending/ranging/volatile)",
+      "session quality",
+      "execution friction (spread/slippage)"
+    ],
+    "structure_model": [
+      "trend direction",
+      "reaction zones",
+      "breakout or rejection behavior",
+      "range position context"
+    ],
+    "reversal_requirements": [
+      "divergence/conflict signal",
+      "structure break confirmation",
+      "momentum confirmation"
+    ],
+    "execution_contract": "guarded execution only"
+  },
+  "gold_session_behavior": {
+    "asian": {
+      "quality": "low",
+      "notes": "Often choppy/mean-reverting. Higher false-break risk."
+    },
+    "london": {
+      "quality": "high",
+      "notes": "Strong directional drives and cleaner structure transitions."
+    },
+    "overlap": {
+      "quality": "high",
+      "notes": "Highest participation and stronger momentum follow-through."
+    },
+    "new_york": {
+      "quality": "medium_high",
+      "notes": "News-sensitive. Moves can be strong but more event-driven."
+    }
+  },
+  "core_concepts": {
+    "market_structure": "Price moves through trend, consolidation, transition, and expansion phases.",
+    "trend": "Direction alone is insufficient; quality requires persistence and pullback behavior.",
+    "volatility": "Volatility determines feasible stop/target distance and influences signal reliability.",
+    "liquidity": "Liquidity affects fill quality and slippage. Thin books increase execution uncertainty.",
+    "momentum": "Momentum is continuation pressure and is stronger when aligned with structure and liquidity.",
+    "support_resistance": "Support/resistance are reaction probabilities, not guaranteed turn points.",
+    "confluence": "Independent factors aligning in the same direction increase expected edge."
+  },
+  "risk_basics": {
+    "position_sizing": "Risk per trade must be bounded before entry quality is considered.",
+    "drawdown_control": "Drawdown limits protect strategy survival during adverse regimes.",
+    "execution_caution": "Wide spreads, thin liquidity, or unstable feeds reduce expected edge.",
+    "quality_over_frequency": "Trading less can improve expectancy when low-quality setups dominate."
+  },
+  "teaching_guidance": {
+    "correct_hold": [
+      "mid-range location",
+      "wide spread or poor liquidity",
+      "macro conflict",
+      "unconfirmed reversal",
+      "breakout without retest/follow-through"
+    ],
+    "too_cautious": [
+      "clean playbook",
+      "no missing ingredients",
+      "acceptable execution conditions",
+      "context is supportive or neutral"
+    ],
+    "execution_issue": [
+      "setup idea is recognizable",
+      "spread/liquidity/slippage/session is the dominant problem"
+    ],
+    "bad_setup": [
+      "Atlas likes a setup despite missing structure, location, or confirmation"
+    ]
+  },
+  "atlas_operational_limits": {
+    "grounding": "Atlas answers from configured state, known rules, and validated memory.",
+    "no_hallucinated_edge": "Atlas should not claim predictive certainty without evidence.",
+    "read_only_assistant": "Ask Atlas is analytical and read-only unless separate command paths are invoked."
+  }
+}

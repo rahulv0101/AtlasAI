@@ -1,0 +1,35 @@
+{
+  "available": true,
+  "correct_block_rate": 0.0,
+  "created_at": "2026-10-14T14:51:01.383022+00:00",
+  "missed_rate": 0.0,
+  "outcome_counts": {
+    "correct_hold_or_block": 0,
+    "inconclusive": 685,
+    "missed_opportunity": 0
+  },
+  "policy": {
+    "does_not_change_execution_policy": true,
+    "does_not_change_risk_policy": true,
+    "does_not_change_strategy_logic": true,
+    "does_not_execute": true,
+    "requires_operator_approval_for_any_candidate_rule": true,
+    "review_only": true
+  },
+  "proposal": {
+    "candidate_change_class": "context_filter_or_confirmation_rule",
+    "focus": "collect more confirmations and replay borderline cases before proposing any tuning",
+    "forbidden_change_class": "global_guard_disable_or_unapproved_threshold_loosen",
+    "next_validation": "replay reviewed cases against a shadow-only candidate rule before any operator approval step",
+    "type": "offline_selectivity_review"
+  },
+  "review_priority": "medium",
+  "samples": 685,
+  "schema": "atlas_blocker_selectivity_review_v1",
+  "sides": [
+    "buy"
+  ],
+  "target_blocker": "Risk guard active: Daily drawdown limit reached. No trade executed.",
+  "total_adverse_blocked_points": 0,
+  "total_favorable_missed_points": 0
+}

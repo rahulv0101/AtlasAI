@@ -1,0 +1,42 @@
+{
+  "captured_at": "2026-10-13T07:19:28.963225+00:00",
+  "scope": "synthetic temp stores only; no trading or live journal writes",
+  "cases": [
+    {
+      "rows": 500,
+      "payload_bytes": 8192,
+      "retained": 300,
+      "input_bytes": 4179703,
+      "elapsed_seconds": 0.289,
+      "peak_python_bytes": 6770995,
+      "result": {
+        "kept": 300,
+        "dropped_malformed": 3,
+        "dropped_duplicates": 5,
+        "archived": 200
+      },
+      "active_sha256": "30132d64aafb9fa435e02e0802d38be4009e6e022e83ff17ff5e6cf0e41d2cee",
+      "archive_sha256": [
+        "15d36b689da7e25fe9a6e1502cac62bbc4d1cf19bce8f026b5458299d466843d"
+      ]
+    },
+    {
+      "rows": 4000,
+      "payload_bytes": 8192,
+      "retained": 3000,
+      "input_bytes": 33445196,
+      "elapsed_seconds": 2.125,
+      "peak_python_bytes": 58529761,
+      "result": {
+        "kept": 3000,
+        "dropped_malformed": 20,
+        "dropped_duplicates": 40,
+        "archived": 1000
+      },
+      "active_sha256": "e8a489c583397e17b8ef9c836bba48db9e7f1fc8c47cc16ad9ae9481cfe46454",
+      "archive_sha256": [
+        "d6c5367d8a1a15bddd1d6f66380b8d3836ffe1e9f89e820199b8573de88c9043"
+      ]
+    }
+  ]
+}

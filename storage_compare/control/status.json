@@ -1,0 +1,259 @@
+{
+  "symbol": "XAUUSD",
+  "timeframe": "M1",
+  "gemini_enabled": true,
+  "risk": {
+    "equity": 854418.49,
+    "balance": 854418.49,
+    "daily_loss_pct": 0.0,
+    "open_positions": 0,
+    "spread_points": 45.0,
+    "trades_today": 0,
+    "consecutive_losses": 0,
+    "daily_profit_zar": 0.0,
+    "weekly_loss_pct": 0.0
+  },
+  "signals": [
+    {
+      "strategy": "momentum_continuation",
+      "side": "buy",
+      "confidence": 0.261
+    },
+    {
+      "strategy": "gold_micro_impulse",
+      "side": "flat",
+      "confidence": 0.0
+    },
+    {
+      "strategy": "gold_liquidity_sweep",
+      "side": "flat",
+      "confidence": 0.0
+    },
+    {
+      "strategy": "evolved_rule(fast=13,slow=82,rsi_buy=47.7,rsi_sell=40.0)",
+      "side": "flat",
+      "confidence": 0.0
+    },
+    {
+      "strategy": "evolved_rule(fast=13,slow=80,rsi_buy=50.4,rsi_sell=40.0)",
+      "side": "flat",
+      "confidence": 0.0
+    },
+    {
+      "strategy": "evolved_rule(fast=12,slow=82,rsi_buy=49.8,rsi_sell=40.0)",
+      "side": "flat",
+      "confidence": 0.0
+    },
+    {
+      "strategy": "evolved_rule(fast=12,slow=84,rsi_buy=48.6,rsi_sell=40.0)",
+      "side": "flat",
+      "confidence": 0.0
+    }
+  ],
+  "signals_active": [
+    {
+      "strategy": "momentum_continuation",
+      "side": "buy",
+      "confidence": 0.261,
+      "contextual_score": 0.2231
+    },
+    {
+      "strategy": "gold_micro_impulse",
+      "side": "flat",
+      "confidence": 0.0,
+      "contextual_score": 0.0
+    },
+    {
+      "strategy": "gold_liquidity_sweep",
+      "side": "flat",
+      "confidence": 0.0,
+      "contextual_score": 0.0
+    },
+    {
+      "strategy": "evolved_rule(fast=13,slow=82,rsi_buy=47.7,rsi_sell=40.0)",
+      "side": "flat",
+      "confidence": 0.0,
+      "contextual_score": 0.0
+    },
+    {
+      "strategy": "evolved_rule(fast=13,slow=80,rsi_buy=50.4,rsi_sell=40.0)",
+      "side": "flat",
+      "confidence": 0.0,
+      "contextual_score": 0.0
+    }
+  ],
+  "chosen": {
+    "strategy": "momentum_continuation",
+    "side": "buy",
+    "confidence": 0.2609542773334886,
+    "stop_loss_points": 115.0,
+    "take_profit_points": 175.0
+  },
+  "market": {
+    "recent_close": [
+      4670.69,
+      4669.6,
+      4668.79,
+      4669.25,
+      4669.06,
+      4669.83,
+      4671.22,
+      4670.55,
+      4671.29,
+      4671.04,
+      4671.54,
+      4670.6,
+      4669.99,
+      4670.4,
+      4672.12,
+      4672.79,
+      4673.69,
+      4676.07,
+      4676.53,
+      4678.86
+    ],
+    "recent_time": [
+      "2026-04-02 23:40:00",
+      "2026-04-02 23:41:00",
+      "2026-04-02 23:42:00",
+      "2026-04-02 23:43:00",
+      "2026-04-02 23:44:00",
+      "2026-04-02 23:45:00",
+      "2026-04-02 23:46:00",
+      "2026-04-02 23:47:00",
+      "2026-04-02 23:48:00",
+      "2026-04-02 23:49:00",
+      "2026-04-02 23:50:00",
+      "2026-04-02 23:51:00",
+      "2026-04-02 23:52:00",
+      "2026-04-02 23:53:00",
+      "2026-04-02 23:54:00",
+      "2026-04-02 23:55:00",
+      "2026-04-02 23:56:00",
+      "2026-04-02 23:57:00",
+      "2026-04-02 23:58:00",
+      "2026-04-02 23:59:00"
+    ],
+    "last_close": 4678.86
+  },
+  "regime": {
+    "name": "range",
+    "trend_strength": 0.1029,
+    "volatility_pct": 0.0197
+  },
+  "higher_timeframe": {
+    "confirm_tf": "M5",
+    "bias": "buy"
+  },
+  "action": "blocked",
+  "message": "Consensus guard blocked trade: side=buy, support=1, required=2.",
+  "execute_trades": false,
+  "gemini_influence_enabled": false,
+  "drift": {
+    "active": true,
+    "severe": false,
+    "delta": -0.196,
+    "recent_win_rate_20": 0.15,
+    "baseline_win_rate": 0.346,
+    "signal_adjustments": [],
+    "strategy_weight_adjustments": [
+      "momentum_continuation wr=0.35 x0.88"
+    ]
+  },
+  "contextual_ranking": {
+    "chosen_score": 0.2231,
+    "top": [
+      {
+        "strategy": "momentum_continuation",
+        "score": 0.2231,
+        "factor": 0.7724,
+        "reasons": [
+          "weak_consensus",
+          "htf_aligned",
+          "spread_pressure",
+          "drift_low_volume",
+          "meta_model_candidate_disabled"
+        ]
+      },
+      {
+        "strategy": "gold_micro_impulse",
+        "score": 0.0,
+        "factor": 1.0,
+        "reasons": [
+          "meta_model_candidate_disabled",
+          "flat_signal"
+        ]
+      },
+      {
+        "strategy": "gold_liquidity_sweep",
+        "score": 0.0,
+        "factor": 1.0,
+        "reasons": [
+          "meta_model_candidate_disabled",
+          "flat_signal"
+        ]
+      }
+    ],
+    "best_actionable": {
+      "strategy": "momentum_continuation",
+      "side": "buy",
+      "confidence": 0.261,
+      "score": 0.2231,
+      "reasons": [
+        "weak_consensus",
+        "htf_aligned",
+        "spread_pressure",
+        "drift_low_volume",
+        "meta_model_candidate_disabled"
+      ]
+    }
+  },
+  "best_actionable_candidate": {
+    "strategy": "momentum_continuation",
+    "side": "buy",
+    "confidence": 0.261,
+    "score": 0.2231,
+    "reasons": [
+      "weak_consensus",
+      "htf_aligned",
+      "spread_pressure",
+      "drift_low_volume",
+      "meta_model_candidate_disabled"
+    ]
+  },
+  "signal_summary": {
+    "raw_count": 7,
+    "active_count": 7,
+    "filtered_out_count": 0,
+    "evolved_raw_count": 4,
+    "evolved_active_count": 4
+  },
+  "health": {
+    "broker": {
+      "connected": true,
+      "symbol_selected": true
+    },
+    "llm": {
+      "enabled": true,
+      "providers": [
+        {
+          "name": "openai",
+          "in_cooldown": false,
+          "cooldown_seconds_left": 0,
+          "last_error": ""
+        }
+      ]
+    },
+    "risk_guard": {
+      "max_trades_per_day": 12,
+      "max_consecutive_losses": 3,
+      "cooldown_minutes_after_loss_streak": 60
+    }
+  },
+  "gemini_note": "Deferred to post-execution to reduce loop latency.",
+  "same_side_support": {
+    "side": "buy",
+    "count": 1
+  },
+  "updated_at": "2026-04-03T09:05:58.074189+00:00"
+}

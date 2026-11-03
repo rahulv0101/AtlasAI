@@ -1,0 +1,709 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-06-11T15:43:58.482360+00:00",
+  "reviews": [
+    {
+      "review_id": "teach_1778703569922",
+      "recorded_at": "2026-05-13T20:19:29.922924+00:00",
+      "label": "bad_setup",
+      "note": "",
+      "operator": "operator",
+      "decision_id": "|momentum_continuation|flat",
+      "status_action": "hold",
+      "primary_blocker": "No high-confidence trade found.",
+      "setup_family": "no_trade",
+      "playbook_name": "pullback_continuation",
+      "playbook_score": 57.0,
+      "playbook_readiness": "developing",
+      "trade_decision": "NO_TRADE",
+      "recommended_action": "hold",
+      "confluence_score": 37,
+      "confluence_threshold": 50,
+      "risk_snapshot": {
+        "spread_points": 45.0,
+        "open_positions": 0,
+        "daily_loss_pct": 0.0,
+        "weekly_loss_pct": 0.0002
+      },
+      "mode_snapshot": {
+        "effective_mode": "live",
+        "execute_trades": true
+      },
+      "policy_note": "Operator teaching label only. No automatic strategy, risk, or execution policy change."
+    },
+    {
+      "review_id": "teach_20260513_atlas_loss_learning_probe",
+      "recorded_at": "2026-05-13T21:55:00+00:00",
+      "label": "execution_issue",
+      "note": "Operator wants Atlas to keep learning probes enabled. Teach this loss as weak/early timing evidence, not as a reason to disable exploration. Review whether price later validated the sell idea after the stop-out.",
+      "operator": "operator",
+      "decision_id": "f32936ee",
+      "status_action": "executed_closed_loss",
+      "primary_blocker": "",
+      "setup_family": "evolved_rule_probe",
+      "playbook_name": "evolved_rule",
+      "playbook_score": 0.0,
+      "playbook_readiness": "learning_probe",
+      "trade_decision": "SELL",
+      "recommended_action": "learn_from_outcome",
+      "confluence_score": 0,
+      "confluence_threshold": 0,
+      "outcome": {
+        "ticket": "79342331",
+        "side": "sell",
+        "net_pnl_zar": -15.77,
+        "session": "late_us",
+        "trend_strength": 0.0,
+        "higher_tf_bias": "unknown",
+        "htf_aligned": false
+      },
+      "teaching_focus": [
+        "separate idea quality from entry timing",
+        "do not disable learning probes from one small loss",
+        "tag weak context as early_probe when recording outcome",
+        "compare post-stop movement before labeling the idea wrong"
+      ],
+      "mode_snapshot": {
+        "effective_mode": "live",
+        "execute_trades": true,
+        "learning_force_entries_allowed": true
+      },
+      "policy_note": "Operator teaching label only. No automatic strategy, risk, or execution policy change."
+    },
+    {
+      "review_id": "teach_20260525_day_performance_quality_gate",
+      "recorded_at": "2026-05-25T12:20:00+00:00",
+      "label": "correct_hold",
+      "note": "Teach today as setup-quality patience: Atlas saw visual M1 sell/breakout-retest evidence, but confluence remained below threshold, final trade bias was neutral, the direction gap was weak, and repeated low-volatility or mid-range conditions made execution unsafe.",
+      "operator": "operator",
+      "decision_id": "2026-05-25_quality_gate_review",
+      "status_action": "hold_or_blocked",
+      "primary_blocker": "No high-confidence trade found / loss-learning reduced confidence.",
+      "setup_family": "breakout_retest_or_evolved_rule",
+      "playbook_name": "breakout_retest",
+      "playbook_score": 89.0,
+      "playbook_readiness": "armed_but_context_blocked",
+      "trade_decision": "NO_TRADE",
+      "recommended_action": "teach_setup_quality_and_loss_specificity",
+      "confluence_score": 45,
+      "confluence_threshold": 52,
+      "risk_snapshot": {
+        "spread_points": 36.0,
+        "open_positions": 0,
+        "daily_loss_pct": 0.0,
+        "weekly_loss_pct": 0.0
+      },
+      "context_snapshot": {
+        "symbol": "XAUUSD",
+        "timeframe": "M1",
+        "session": "london",
+        "volatility_state": "low",
+        "location": "mid_range_or_unclean",
+        "visual_structure": "LH/LL",
+        "visual_pattern": "breakout_retest",
+        "final_trade_bias": "neutral",
+        "direction_gap": 0.01
+      },
+      "loss_learning_snapshot": {
+        "recent_buy_penalty": 0.13,
+        "recent_sell_penalty": 0.15,
+        "hard_block_pattern": "repeated_sell_losses",
+        "teaching_need": "scope loss memory by setup fingerprint instead of broad side-only punishment"
+      },
+      "teaching_focus": [
+        "separate visual bias from execution permission",
+        "treat low-volatility mid-range M1 movement as developing context",
+        "require retest hold and momentum follow-through before breakout execution",
+        "use direction-specific loss memory only with setup/session/hour fingerprint context",
+        "do not loosen guards or force trades from near-threshold confidence"
+      ],
+      "mode_snapshot": {
+        "effective_mode": "live",
+        "execute_trades": true,
+        "automation_enabled": true,
+        "automation_paused": false
+      },
+      "policy_note": "Operator teaching label only. No automatic strategy, risk, or execution policy change."
+    },
+    {
+      "review_id": "teach_20260525_cognitive_core_post_trade_lessons",
+      "recorded_at": "2026-05-25T18:03:00+00:00",
+      "label": "learning_upgrade",
+      "note": "Teach Atlas that its new Cognitive Core is a read-only understanding layer, and every closed Atlas-tagged trade should become a structured post-trade lesson. The lesson must separate idea quality, entry timing, execution friction, confirmation quality, and higher-timeframe conflict.",
+      "operator": "operator",
+      "decision_id": "2026-05-25_cognitive_core_upgrade",
+      "status_action": "brain_learning_upgrade",
+      "primary_blocker": "Need richer learning from wins/losses than broad side-only memory.",
+      "setup_family": "system_learning",
+      "playbook_name": "post_trade_lesson",
+      "playbook_score": 0.0,
+      "playbook_readiness": "implemented_read_only",
+      "trade_decision": "NO_TRADE",
+      "recommended_action": "use_structured_lessons_for_future_recognition",
+      "confluence_score": 0,
+      "confluence_threshold": 0,
+      "teaching_focus": [
+        "Cognitive Core explains and learns but cannot execute or bypass gates",
+        "closed trades must record failure_axis, idea_quality, timing_quality, and future_recognition",
+        "execution friction is not the same as bad strategy",
+        "similar future fingerprints should be treated as developing until missing confirmation improves",
+        "bounded teaching evidence may inform explanations and confidence haircuts only"
+      ],
+      "mode_snapshot": {
+        "effective_mode": "live",
+        "execute_trades": true,
+        "automation_enabled": true,
+        "automation_paused": false
+      },
+      "policy_note": "Operator teaching label only. No automatic strategy, risk, or execution policy change."
+    },
+    {
+      "review_id": "teach_1781169748580",
+      "recorded_at": "2026-06-11T09:22:28.580127+00:00",
+      "label": "correct_hold",
+      "note": "Correct hold: raw ema_crossover sell candidate was present, but Atlas correctly kept selected signal flat because no_clear_setup remained active, confluence was below threshold, and pullback location plus momentum confirmation were missing.",
+      "operator": "operator",
+      "decision_id": "|momentum_continuation|flat",
+      "status_action": "hold",
+      "primary_blocker": "No directional trade signal selected.",
+      "setup_family": "no_trade",
+      "playbook_name": "pullback_continuation",
+      "playbook_score": 67.0,
+      "playbook_readiness": "developing",
+      "trade_decision": "NO_TRADE",
+      "recommended_action": "hold",
+      "confluence_score": 45,
+      "confluence_threshold": 52,
+      "risk_snapshot": {
+        "spread_points": 35.0,
+        "open_positions": 0,
+        "daily_loss_pct": 0.0,
+        "weekly_loss_pct": 0.0117
+      },
+      "mode_snapshot": {
+        "effective_mode": "live",
+        "execute_trades": true
+      },
+      "policy_note": "Operator teaching label only. No automatic strategy, risk, or execution policy change."
+    },
+    {
+      "review_id": "teach_1781171668321",
+      "recorded_at": "2026-06-11T09:54:28.321439+00:00",
+      "label": "correct_hold",
+      "note": "Correct hold: pullback_continuation buy was forming, but Atlas correctly kept selected signal flat because no_clear_setup remained active, confluence was below threshold, pullback_entry_location was missing, momentum_confirmation was missing, and visual confirmation did not confirm.",
+      "operator": "operator",
+      "decision_id": "|momentum_continuation|flat",
+      "status_action": "hold",
+      "primary_blocker": "No directional trade signal selected.",
+      "setup_family": "no_trade",
+      "playbook_name": "pullback_continuation",
+      "playbook_score": 66.0,
+      "playbook_readiness": "developing",
+      "trade_decision": "NO_TRADE",
+      "recommended_action": "hold",
+      "confluence_score": 45,
+      "confluence_threshold": 52,
+      "risk_snapshot": {
+        "spread_points": 34.0,
+        "open_positions": 0,
+        "daily_loss_pct": 0.0,
+        "weekly_loss_pct": 0.0112
+      },
+      "mode_snapshot": {
+        "effective_mode": "live",
+        "execute_trades": true
+      },
+      "policy_note": "Operator teaching label only. No automatic strategy, risk, or execution policy change."
+    },
+    {
+      "review_id": "teach_1781171843447",
+      "recorded_at": "2026-06-11T09:57:23.447731+00:00",
+      "label": "correct_hold",
+      "note": "Correct hold persistence sample: pullback_continuation buy remained only forming/developing. Atlas correctly held because selected signal stayed flat, no_clear_setup remained active, confluence stayed below threshold, pullback_entry_location was missing, momentum_confirmation was missing, and visual confirmation did not confirm.",
+      "operator": "operator",
+      "decision_id": "|momentum_continuation|flat",
+      "status_action": "hold",
+      "primary_blocker": "No directional trade signal selected.",
+      "setup_family": "no_trade",
+      "playbook_name": "pullback_continuation",
+      "playbook_score": 70.0,
+      "playbook_readiness": "developing",
+      "trade_decision": "NO_TRADE",
+      "recommended_action": "hold",
+      "confluence_score": 45,
+      "confluence_threshold": 52,
+      "risk_snapshot": {
+        "spread_points": 34.0,
+        "open_positions": 0,
+        "daily_loss_pct": 0.0,
+        "weekly_loss_pct": 0.0112
+      },
+      "mode_snapshot": {
+        "effective_mode": "live",
+        "execute_trades": true
+      },
+      "policy_note": "Operator teaching label only. No automatic strategy, risk, or execution policy change."
+    },
+    {
+      "review_id": "teach_1781184826206",
+      "recorded_at": "2026-06-11T13:33:46.206908+00:00",
+      "label": "correct_hold",
+      "note": "Correct hold: pullback_continuation buy improved to armed/context-blocked with cleaner visual evidence, but Atlas correctly held because selected signal stayed flat, no_clear_setup remained active, confluence was below threshold, and momentum_confirmation was still missing. Teach: clean-looking pullback is not executable until M1 momentum confirms.",
+      "operator": "operator",
+      "decision_id": "|momentum_continuation|flat",
+      "status_action": "hold",
+      "primary_blocker": "No directional trade signal selected.",
+      "setup_family": "no_trade",
+      "playbook_name": "pullback_continuation",
+      "playbook_score": 85.0,
+      "playbook_readiness": "ready_for_existing_gates",
+      "trade_decision": "NO_TRADE",
+      "recommended_action": "hold",
+      "confluence_score": 45,
+      "confluence_threshold": 52,
+      "risk_snapshot": {
+        "spread_points": 35.0,
+        "open_positions": 0,
+        "daily_loss_pct": 0.0,
+        "weekly_loss_pct": 0.0112
+      },
+      "mode_snapshot": {
+        "effective_mode": "live",
+        "execute_trades": true
+      },
+      "policy_note": "Operator teaching label only. No automatic strategy, risk, or execution policy change."
+    },
+    {
+      "review_id": "teach_1781185233998",
+      "recorded_at": "2026-06-11T13:40:33.998121+00:00",
+      "label": "correct_hold",
+      "note": "Rich-context teaching sample: Atlas correctly held a forming pullback_continuation because selected signal was flat, no_clear_setup remained active, momentum confirmation was missing, confluence stayed below threshold, and visual confirmation was only caution/not executable.",
+      "operator": "operator",
+      "decision_id": "|momentum_continuation|sell",
+      "status_action": "blocked",
+      "primary_blocker": "Timing discipline blocked trade: wait for clean entry timing confirmation.",
+      "setup_family": "continuation",
+      "playbook_name": "range_edge_reversal",
+      "playbook_score": 54.0,
+      "playbook_readiness": "not_ready",
+      "trade_decision": "NO_TRADE",
+      "recommended_action": "hold",
+      "confluence_score": 45,
+      "confluence_threshold": 52,
+      "decision_context_snapshot": {
+        "symbol": "XAUUSD",
+        "timeframe": "M1",
+        "session": "new_york",
+        "market_regime": "unknown",
+        "regime_confidence": 28,
+        "trend_state": "range",
+        "trend_structure": "mixed",
+        "location_state": "mid_range",
+        "momentum_state": "mixed",
+        "higher_timeframe_bias": "sell",
+        "final_trade_bias": "neutral",
+        "selected_signal_side": "sell",
+        "selected_signal_strategy": "momentum_continuation",
+        "selected_signal_confidence": 0.45,
+        "top_playbook": "range_edge_reversal",
+        "top_playbook_side": "sell",
+        "top_playbook_readiness": "not_ready",
+        "top_playbook_trigger_state": "",
+        "missing_to_entry": [
+          "range_edge_location",
+          "avoid_mid_range_entry"
+        ],
+        "setup_risks": [
+          "execution_friction_elevated"
+        ],
+        "hard_blockers": [
+          "structure_too_weak"
+        ],
+        "top_blockers": [
+          {
+            "name": "momentum_quality",
+            "actual": 50.0,
+            "target": 65.0,
+            "delta_to_pass": 15.0,
+            "unit": "score",
+            "detail": "momentum remains mixed/weak for execution",
+            "delta_text": "15.000 score to pass"
+          },
+          {
+            "name": "structure_quality",
+            "actual": 28.0,
+            "target": 40.0,
+            "delta_to_pass": 12.0,
+            "unit": "score",
+            "detail": "structure score below minimum quality gate",
+            "delta_text": "12.000 score to pass"
+          },
+          {
+            "name": "entry_location",
+            "actual": -10.0,
+            "target": 0.0,
+            "delta_to_pass": 10.0,
+            "unit": "points",
+            "detail": "entry location remains suboptimal",
+            "delta_text": "10.000 points to pass"
+          }
+        ],
+        "visual_source": "screenshot_plus_chart_features",
+        "visual_confirmation": "does_not_confirm",
+        "visual_pattern_seen": "messy_range",
+        "visual_setup_quality": 0.1858,
+        "visual_capture_ok": true,
+        "visual_capture_source": "mt5_window",
+        "spread_state": "normal",
+        "spread_points": 35.0,
+        "liquidity_state": "normal",
+        "slippage_state": "unknown",
+        "volatility_state": "elevated"
+      },
+      "context_quality": {
+        "decision_context_linked": true,
+        "location_known": true,
+        "momentum_known": true,
+        "volatility_known": true,
+        "visual_context_known": true,
+        "selected_signal_known": true,
+        "setup_context_known": true
+      },
+      "risk_snapshot": {
+        "spread_points": 35.0,
+        "open_positions": 0,
+        "daily_loss_pct": 0.0,
+        "weekly_loss_pct": 0.0112
+      },
+      "mode_snapshot": {
+        "effective_mode": "live",
+        "execute_trades": true
+      },
+      "policy_note": "Operator teaching label only. No automatic strategy, risk, or execution policy change."
+    },
+    {
+      "review_id": "teach_1781192519918",
+      "recorded_at": "2026-06-11T15:41:59.918237+00:00",
+      "label": "execution_issue",
+      "note": "Rich-context teaching: breakout_retest buy had visual support and looked recognizable, but Atlas correctly did not execute because selected signal stayed flat, confluence was below threshold, and elevated volatility/execution friction required stricter confirmation. Teach: recognizable idea plus visual support is still not executable until confluence and execution conditions clear.",
+      "operator": "operator",
+      "decision_id": "|momentum_continuation|flat",
+      "status_action": "hold",
+      "primary_blocker": "No directional trade signal selected.",
+      "setup_family": "no_trade",
+      "playbook_name": "pullback_continuation",
+      "playbook_score": 63.0,
+      "playbook_readiness": "developing",
+      "trade_decision": "NO_TRADE",
+      "recommended_action": "hold",
+      "confluence_score": 45,
+      "confluence_threshold": 52,
+      "decision_context_snapshot": {
+        "symbol": "XAUUSD",
+        "timeframe": "M1",
+        "session": "new_york",
+        "market_regime": "trending",
+        "regime_confidence": 45,
+        "trend_state": "uptrend",
+        "trend_structure": "HH/HL",
+        "location_state": "mid_range",
+        "momentum_state": "weak",
+        "higher_timeframe_bias": "buy",
+        "final_trade_bias": "neutral",
+        "selected_signal_side": "flat",
+        "selected_signal_strategy": "momentum_continuation",
+        "selected_signal_confidence": 0.45,
+        "top_playbook": "pullback_continuation",
+        "top_playbook_side": "buy",
+        "top_playbook_readiness": "developing",
+        "top_playbook_trigger_state": "",
+        "missing_to_entry": [
+          "pullback_entry_location",
+          "momentum_confirmation"
+        ],
+        "setup_risks": [
+          "execution_friction_elevated"
+        ],
+        "hard_blockers": [
+          "no_clear_setup"
+        ],
+        "top_blockers": [
+          {
+            "name": "momentum_quality",
+            "actual": 24.0,
+            "target": 65.0,
+            "delta_to_pass": 41.0,
+            "unit": "score",
+            "detail": "momentum remains mixed/weak for execution",
+            "delta_text": "41.000 score to pass"
+          },
+          {
+            "name": "entry_location",
+            "actual": -10.0,
+            "target": 0.0,
+            "delta_to_pass": 10.0,
+            "unit": "points",
+            "detail": "entry location remains suboptimal",
+            "delta_text": "10.000 points to pass"
+          },
+          {
+            "name": "confluence_gap",
+            "actual": 45.0,
+            "target": 52.0,
+            "delta_to_pass": 7.0,
+            "unit": "score",
+            "detail": "overall confluence remains below execution threshold",
+            "delta_text": "7.000 score to pass"
+          }
+        ],
+        "visual_source": "screenshot_plus_chart_features",
+        "visual_confirmation": "does_not_confirm",
+        "visual_pattern_seen": "messy_range",
+        "visual_setup_quality": 0.2109,
+        "visual_capture_ok": true,
+        "visual_capture_source": "mt5_window",
+        "spread_state": "normal",
+        "spread_points": 35.0,
+        "liquidity_state": "normal",
+        "slippage_state": "unknown",
+        "volatility_state": "elevated"
+      },
+      "context_quality": {
+        "decision_context_linked": true,
+        "location_known": true,
+        "momentum_known": true,
+        "volatility_known": true,
+        "visual_context_known": true,
+        "selected_signal_known": true,
+        "setup_context_known": true
+      },
+      "risk_snapshot": {
+        "spread_points": 35.0,
+        "open_positions": 0,
+        "daily_loss_pct": 0.0,
+        "weekly_loss_pct": 0.0112
+      },
+      "mode_snapshot": {
+        "effective_mode": "live",
+        "execute_trades": true
+      },
+      "policy_note": "Operator teaching label only. No automatic strategy, risk, or execution policy change."
+    },
+    {
+      "review_id": "teach_1781192609429",
+      "recorded_at": "2026-06-11T15:43:29.429993+00:00",
+      "label": "execution_issue",
+      "note": "Rich-context execution_issue: pullback_continuation buy was recognizable but not executable. Atlas correctly held because selected signal stayed flat, no_clear_setup remained active, elevated volatility required stricter confirmation, visual confirmation did not confirm, pullback entry location was missing, momentum confirmation was missing, and confluence stayed below threshold.",
+      "operator": "operator",
+      "decision_id": "|momentum_continuation|flat",
+      "status_action": "hold",
+      "primary_blocker": "No directional trade signal selected.",
+      "setup_family": "no_trade",
+      "playbook_name": "pullback_continuation",
+      "playbook_score": 63.0,
+      "playbook_readiness": "developing",
+      "trade_decision": "NO_TRADE",
+      "recommended_action": "hold",
+      "confluence_score": 45,
+      "confluence_threshold": 52,
+      "decision_context_snapshot": {
+        "symbol": "XAUUSD",
+        "timeframe": "M1",
+        "session": "new_york",
+        "market_regime": "trending",
+        "regime_confidence": 45,
+        "trend_state": "uptrend",
+        "trend_structure": "HH/HL",
+        "location_state": "mid_range",
+        "momentum_state": "weak",
+        "higher_timeframe_bias": "buy",
+        "final_trade_bias": "neutral",
+        "selected_signal_side": "flat",
+        "selected_signal_strategy": "momentum_continuation",
+        "selected_signal_confidence": 0.45,
+        "top_playbook": "pullback_continuation",
+        "top_playbook_side": "buy",
+        "top_playbook_readiness": "developing",
+        "top_playbook_trigger_state": "",
+        "missing_to_entry": [
+          "pullback_entry_location",
+          "momentum_confirmation"
+        ],
+        "setup_risks": [
+          "execution_friction_elevated"
+        ],
+        "hard_blockers": [
+          "no_clear_setup"
+        ],
+        "top_blockers": [
+          {
+            "name": "momentum_quality",
+            "actual": 24.0,
+            "target": 65.0,
+            "delta_to_pass": 41.0,
+            "unit": "score",
+            "detail": "momentum remains mixed/weak for execution",
+            "delta_text": "41.000 score to pass"
+          },
+          {
+            "name": "entry_location",
+            "actual": -10.0,
+            "target": 0.0,
+            "delta_to_pass": 10.0,
+            "unit": "points",
+            "detail": "entry location remains suboptimal",
+            "delta_text": "10.000 points to pass"
+          },
+          {
+            "name": "confluence_gap",
+            "actual": 45.0,
+            "target": 52.0,
+            "delta_to_pass": 7.0,
+            "unit": "score",
+            "detail": "overall confluence remains below execution threshold",
+            "delta_text": "7.000 score to pass"
+          }
+        ],
+        "visual_source": "screenshot_plus_chart_features",
+        "visual_confirmation": "does_not_confirm",
+        "visual_pattern_seen": "messy_range",
+        "visual_setup_quality": 0.3238,
+        "visual_capture_ok": true,
+        "visual_capture_source": "mt5_window",
+        "spread_state": "normal",
+        "spread_points": 35.0,
+        "liquidity_state": "normal",
+        "slippage_state": "unknown",
+        "volatility_state": "elevated"
+      },
+      "context_quality": {
+        "decision_context_linked": true,
+        "location_known": true,
+        "momentum_known": true,
+        "volatility_known": true,
+        "visual_context_known": true,
+        "selected_signal_known": true,
+        "setup_context_known": true
+      },
+      "risk_snapshot": {
+        "spread_points": 35.0,
+        "open_positions": 0,
+        "daily_loss_pct": 0.0,
+        "weekly_loss_pct": 0.0112
+      },
+      "mode_snapshot": {
+        "effective_mode": "live",
+        "execute_trades": true
+      },
+      "policy_note": "Operator teaching label only. No automatic strategy, risk, or execution policy change."
+    },
+    {
+      "review_id": "teach_1781192638482",
+      "recorded_at": "2026-06-11T15:43:58.482360+00:00",
+      "label": "execution_issue",
+      "note": "Rich-context execution_issue persistence sample: same pullback_continuation buy remains recognizable but not executable. Atlas correctly held because execution conditions stayed weak: elevated volatility/reduced aggression, visual caution, missing pullback_entry_location, missing momentum_confirmation, selected signal flat, no_clear_setup, and confluence below threshold.",
+      "operator": "operator",
+      "decision_id": "|momentum_continuation|flat",
+      "status_action": "hold",
+      "primary_blocker": "No directional trade signal selected.",
+      "setup_family": "no_trade",
+      "playbook_name": "pullback_continuation",
+      "playbook_score": 63.0,
+      "playbook_readiness": "developing",
+      "trade_decision": "NO_TRADE",
+      "recommended_action": "hold",
+      "confluence_score": 45,
+      "confluence_threshold": 52,
+      "decision_context_snapshot": {
+        "symbol": "XAUUSD",
+        "timeframe": "M1",
+        "session": "new_york",
+        "market_regime": "trending",
+        "regime_confidence": 45,
+        "trend_state": "uptrend",
+        "trend_structure": "HH/HL",
+        "location_state": "mid_range",
+        "momentum_state": "weak",
+        "higher_timeframe_bias": "buy",
+        "final_trade_bias": "neutral",
+        "selected_signal_side": "flat",
+        "selected_signal_strategy": "momentum_continuation",
+        "selected_signal_confidence": 0.45,
+        "top_playbook": "pullback_continuation",
+        "top_playbook_side": "buy",
+        "top_playbook_readiness": "developing",
+        "top_playbook_trigger_state": "",
+        "missing_to_entry": [
+          "pullback_entry_location",
+          "momentum_confirmation"
+        ],
+        "setup_risks": [
+          "execution_friction_elevated"
+        ],
+        "hard_blockers": [
+          "no_clear_setup"
+        ],
+        "top_blockers": [
+          {
+            "name": "momentum_quality",
+            "actual": 24.0,
+            "target": 65.0,
+            "delta_to_pass": 41.0,
+            "unit": "score",
+            "detail": "momentum remains mixed/weak for execution",
+            "delta_text": "41.000 score to pass"
+          },
+          {
+            "name": "entry_location",
+            "actual": -10.0,
+            "target": 0.0,
+            "delta_to_pass": 10.0,
+            "unit": "points",
+            "detail": "entry location remains suboptimal",
+            "delta_text": "10.000 points to pass"
+          },
+          {
+            "name": "confluence_gap",
+            "actual": 45.0,
+            "target": 52.0,
+            "delta_to_pass": 7.0,
+            "unit": "score",
+            "detail": "overall confluence remains below execution threshold",
+            "delta_text": "7.000 score to pass"
+          }
+        ],
+        "visual_source": "screenshot_plus_chart_features",
+        "visual_confirmation": "does_not_confirm",
+        "visual_pattern_seen": "messy_range",
+        "visual_setup_quality": 0.3238,
+        "visual_capture_ok": true,
+        "visual_capture_source": "mt5_window",
+        "spread_state": "normal",
+        "spread_points": 35.0,
+        "liquidity_state": "normal",
+        "slippage_state": "unknown",
+        "volatility_state": "elevated"
+      },
+      "context_quality": {
+        "decision_context_linked": true,
+        "location_known": true,
+        "momentum_known": true,
+        "volatility_known": true,
+        "visual_context_known": true,
+        "selected_signal_known": true,
+        "setup_context_known": true
+      },
+      "risk_snapshot": {
+        "spread_points": 35.0,
+        "open_positions": 0,
+        "daily_loss_pct": 0.0,
+        "weekly_loss_pct": 0.0112
+      },
+      "mode_snapshot": {
+        "effective_mode": "live",
+        "execute_trades": true
+      },
+      "policy_note": "Operator teaching label only. No automatic strategy, risk, or execution policy change."
+    }
+  ]
+}

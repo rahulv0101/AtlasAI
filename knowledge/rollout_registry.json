@@ -1,0 +1,45 @@
+{
+  "version": "1.0",
+  "updated_at": "2026-06-04T19:42:28.921638+00:00",
+  "rollouts": [
+    {
+      "rollout_id": "rollout_proposal_outcome_momentum_continuation_weak",
+      "proposal_id": "proposal_outcome_momentum_continuation_weak",
+      "status": "approved_for_rollout",
+      "environment": "demo",
+      "max_trades": 2,
+      "max_daily_loss_pct": 0.6,
+      "allowed_instruments": [
+        "XAUUSD"
+      ],
+      "approval_required": true,
+      "approved_by": "operator",
+      "approved_at": "2026-05-04T10:24:57.538402+00:00",
+      "snapshot_id": "snapshot_proposal_outcome_momentum_continuation_weak_20260504T102457Z",
+      "note": "",
+      "created_at": "2026-05-04T10:24:09.949403+00:00",
+      "updated_at": "2026-05-04T10:24:57.573111+00:00"
+    },
+    {
+      "rollout_id": "rollout_proposal_consensus_selectivity_context_review",
+      "proposal_id": "proposal_consensus_selectivity_context_review",
+      "status": "shadow_active",
+      "environment": "demo",
+      "max_trades": 2,
+      "max_daily_loss_pct": 0.6,
+      "allowed_instruments": [
+        "XAUUSD"
+      ],
+      "approval_required": true,
+      "approved_by": "operator",
+      "approved_at": "2026-06-04T19:40:58.554315+00:00",
+      "snapshot_id": "snapshot_proposal_consensus_selectivity_context_review_20260604T194058Z",
+      "note": "explicit operator approval from chat command",
+      "created_at": "2026-06-04T19:40:58.554315+00:00",
+      "updated_at": "2026-06-04T19:42:28.921638+00:00",
+      "last_transition_reason": "explicit operator transition from chat command",
+      "last_transition_at": "2026-06-04T19:42:28.921638+00:00",
+      "last_transition_actor": "operator"
+    }
+  ]
+}

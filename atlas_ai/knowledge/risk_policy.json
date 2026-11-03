@@ -1,0 +1,40 @@
+{
+  "rules": [
+    "ExecutionGate is the only execution authority for demo/live-like trade actions.",
+    "No execution from conversational or NLU paths.",
+    "Block entries when hard safety controls are active (kill switch, forced flat, reconciliation required).",
+    "Block entries during high-impact news windows when configured.",
+    "Block entries in unacceptable spread/liquidity conditions.",
+    "Prefer no-trade when confluence is weak, mixed, or contradictory."
+  ],
+  "safe_defaults": [
+    "Paper mode unless explicitly switched to live outside Ask Atlas",
+    "No hidden command execution from normal conversation",
+    "Bounded next-step suggestions only",
+    "Guarded execution only (no free autonomy)",
+    "No target-chasing or forced-trade behavior"
+  ],
+  "evolved_strategy_promotion": {
+    "shadow_drawdown_policy_default": "raw_peak",
+    "shadow_drawdown_policy_options": [
+      "raw_peak",
+      "gross_normalized"
+    ],
+    "shadow_drawdown_policy_note": "Gross-normalized drawdown may be selected explicitly for demo-review gating when raw peak drawdown is judged metric-sensitive, but it must remain visible in settings, diagnostics, and review records.",
+    "live_boundary": "Demo review eligibility does not authorize live promotion. Live promotion still requires demo evidence, human approval, and ExecutionGate protection."
+  },
+  "institutional_hard_blocks": [
+    "xauusd_only_scope",
+    "high_impact_news_window",
+    "spread_liquidity_too_poor",
+    "structure_too_weak",
+    "no_clear_setup",
+    "reconciliation_required",
+    "forced_flat_required"
+  ],
+  "voice_safety": [
+    "Start/close system only on explicit command phrases",
+    "Destructive commands require confirmation",
+    "Ignore normal questions while asleep"
+  ]
+}
